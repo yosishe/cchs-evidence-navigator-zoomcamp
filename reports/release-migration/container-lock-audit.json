@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-09-06T23:26:55.343980+00:00",
+  "status": "STATIC_LOCK_AUDIT_NOT_INSTALLATION",
+  "architectures": {
+    "arm64": {
+      "non_torch_packages": 97,
+      "same_pinned_versions": true,
+      "cpu_torch_release": "2.14.0+cpu",
+      "gpu_packages": 0,
+      "sha256": "8d4f76cf4f14c461e9365f656367c5b32c5129f0b10ef69a90689c20f179035a"
+    },
+    "amd64": {
+      "non_torch_packages": 97,
+      "same_pinned_versions": true,
+      "cpu_torch_release": "2.14.0+cpu",
+      "gpu_packages": 0,
+      "sha256": "c4be9024cf2f86e289effb31f33499cd8130fbfe3a7f52e0dc23dac57482604c"
+    }
+  }
+}

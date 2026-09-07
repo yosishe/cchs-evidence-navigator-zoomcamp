@@ -1,0 +1,82 @@
+{
+  "compose_schema": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "cloud_disabled_environment": {
+    "exit_code": 0,
+    "stdout": "1\n",
+    "stderr": ""
+  },
+  "services": [
+    {
+      "ExitCode": 0,
+      "Health": "healthy",
+      "ID": "f55a7a138f56",
+      "Image": "cchs-zoomcamp-rehearsal-app",
+      "Name": "cchs-zoomcamp-rehearsal-app-1",
+      "Service": "app",
+      "State": "running"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "a3edd4891609",
+      "Image": "cchs-zoomcamp-rehearsal-ingest",
+      "Name": "cchs-zoomcamp-rehearsal-checks",
+      "Service": "ingest",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "healthy",
+      "ID": "87496ca7a7d3",
+      "Image": "postgres:17.6@sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929",
+      "Name": "cchs-zoomcamp-rehearsal-db-1",
+      "Service": "db",
+      "State": "running"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "a49bb3831706",
+      "Image": "cchs-zoomcamp-rehearsal-encoder-init",
+      "Name": "cchs-zoomcamp-rehearsal-encoder-init-1",
+      "Service": "encoder-init",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "f86db05d1c57",
+      "Image": "cchs-zoomcamp-rehearsal-ingest",
+      "Name": "cchs-zoomcamp-rehearsal-ingest-1",
+      "Service": "ingest",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "7cedf59c4dc2",
+      "Image": "cchs-zoomcamp-rehearsal-model-init",
+      "Name": "cchs-zoomcamp-rehearsal-model-init-1",
+      "Service": "model-init",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "healthy",
+      "ID": "147a2274a751",
+      "Image": "ollama/ollama:0.31.1@sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc",
+      "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+      "Service": "ollama",
+      "State": "running"
+    }
+  ],
+  "cloud_disabled_log_observed": true,
+  "new_inference_or_pull_in_startup_log": false,
+  "ollama_log_sha256": "cb627f51713ca183443d2f1173f8f5fa601f50d62c7670fe8d14fc04308ec331",
+  "compose_sha256": "8e6c01fc8a877f5a9e0971825c73ae4b9b57af3495284275fb243783b834d7e8",
+  "status": "PASS"
+}

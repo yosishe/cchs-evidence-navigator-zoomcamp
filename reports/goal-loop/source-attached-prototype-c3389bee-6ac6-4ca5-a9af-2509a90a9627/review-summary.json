@@ -1,0 +1,112 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "0a44ac02b69642a440468ccff5f1687e0950d7b7a4371ee979712151bc4815e7",
+  "reviews_hash": "b689aa5460b6915abbe9bc5b3b3cfee4f4cbb0561c7f7e6d880cfdad37fc255f",
+  "reviewer": "Codex source-based provisional prompt review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "prototype_source_attached",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 7.497403361330119,
+      "errors": 0,
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "f1f2d8df-088e-40a1-bae8-442c4ec145cb",
+      "prompt": "prototype_source_attached",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The stricter prompt regresses the previously complete count/period answer to an unnecessary nonanswer. Neither requested count nor period appears. The generic study limitations match Italian passage 68, but cannot replace the answer supplied by passage 19.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The stricter prompt regresses the previously complete count/period answer to an unnecessary nonanswer. Neither requested count nor period appears. The generic study limitations match Italian passage 68, but cannot replace the answer supplied by passage 19. No claim rows are exported. All source text, labels, factual requirements and acceptance rules are unchanged; no promotion occurred.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "fd1386dc-462a-4ec4-bafc-d99d094ef1e9",
+      "prompt": "prototype_source_attached",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The response still returns no claims and omits electronic medical records, although it mentions retrospective design among source-supported limitations. It does not complete the either/or question from Italian passages 19/21.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The response still returns no claims and omits electronic medical records, although it mentions retrospective design among source-supported limitations. It does not complete the either/or question from Italian passages 19/21. No claim rows are exported. All source text, labels, factual requirements and acceptance rules are unchanged; no promotion occurred.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "47aa1c02-0bf6-40cb-b835-e12fd3bf5bc6",
+      "prompt": "prototype_source_attached",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The nonanswer still adds phenotypic variability due to mosaicism/environmental factors without retaining the source statement that these could influence expression. The extra qualification guidance did not remove this unsupported strengthening or the unnecessary background.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The nonanswer still adds phenotypic variability due to mosaicism/environmental factors without retaining the source statement that these could influence expression. The extra qualification guidance did not remove this unsupported strengthening or the unnecessary background. No claim rows are exported. All source text, labels, factual requirements and acceptance rules are unchanged; no promotion occurred.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "cd67a73e9b39722c09293e6594a51624809240cabe5f436d7c9a0e1c3bbf4771",
+  "whole_answer_reviewer": "Codex source-based provisional prompt review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

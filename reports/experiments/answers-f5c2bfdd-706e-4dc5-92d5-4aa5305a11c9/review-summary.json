@@ -1,0 +1,524 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "2aa7c2797b11598361c243066b49bd308b145d4159ab1bc2fb133de1879196e9",
+  "reviews_hash": "8685e236358fbf742a4228f839403d0da2495be6f8e2dd2eb9541c25e9f80595",
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "source_extract_complete",
+      "evaluated_questions": 12,
+      "acceptable_answers": 8,
+      "acceptable_rate": 0.6666666666666666,
+      "supported_claims": 22,
+      "claim_denominator": 22,
+      "unsupported_claims": 0,
+      "mean_seconds": 53.521276545165165,
+      "errors": 0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 11,
+            "partial": 0,
+            "missing": 5,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.6875
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "source_extract_complete",
+      "slice": "absent",
+      "evaluated_questions": 2,
+      "acceptable_answers": 2,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_complete",
+      "slice": "comparison",
+      "evaluated_questions": 2,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.5,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 3,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.75
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 1,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_complete",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 2,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 4,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 1.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_complete",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 2,
+      "acceptable_answers": 2,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 1.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_complete",
+      "slice": "limitations",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_complete",
+      "slice": "paraphrase",
+      "evaluated_questions": 2,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.5,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.5
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "5a73308c-d8da-46b3-b7d3-453ce6a5511a",
+      "prompt": "source_extract_complete",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "09d93268-fd02-4497-a567-094cbee6b66d",
+      "prompt": "source_extract_complete",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The abstract and methods give retrospective 22-patient data and 2000-2020. Additional diagnosis-age, sex and late-diagnosis/hypoxia sentences are verbatim and remain attributed to the original study, but they are unnecessary for this count/period question. The core requested facts are complete; verbosity and irrelevant background are retained as a presentation defect rather than fabricated-source support.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The abstract and methods give retrospective 22-patient data and 2000-2020. Additional diagnosis-age, sex and late-diagnosis/hypoxia sentences are verbatim and remain attributed to the original study, but they are unnecessary for this count/period question. The core requested facts are complete; verbosity and irrelevant background are retained as a presentation defect rather than fabricated-source support.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "4e910db8-c18e-4d0d-9b00-1a39a92731df",
+      "prompt": "source_extract_complete",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The selected Italian abstract states retrospective analysis and the separate methods sentence states electronic medical records. Both requested facts are present; the source-owned review/export preserves their original wording and identity.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The selected Italian abstract states retrospective analysis and the separate methods sentence states electronic medical records. Both requested facts are present; the source-owned review/export preserves their original wording and identity.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-02",
+      "answer_id": "1cb5f872-949d-4551-8d06-938e9c2681c7",
+      "prompt": "source_extract_complete",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "55290658-8f95-4601-917a-ab116681ec43",
+      "prompt": "source_extract_complete",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-02",
+      "answer_id": "f1f52609-5589-4fdf-8c47-65c9b3e580e7",
+      "prompt": "source_extract_complete",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "d96ae6f4-aae5-41bd-b692-70c1c386be92",
+      "prompt": "source_extract_complete",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Italian retrospective-data and guideline published-evidence/clinical-expertise sentences are both present and separately attributed. The extra study overview, search and manuscript-review process make this verbose but do not replace the required contrast or invent pooled/causal findings.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Italian retrospective-data and guideline published-evidence/clinical-expertise sentences are both present and separately attributed. The extra study overview, search and manuscript-review process make this verbose but do not replace the required contrast or invent pooled/causal findings.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-02",
+      "answer_id": "1287b92e-c546-404d-86cd-2da89a07a5a5",
+      "prompt": "source_extract_complete",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The Italian 19/22 (86%) finding is present. The second excerpt names review genotypes but not the requested 90% PARM estimate, which is absent from this fixed context. The small-cohort/different-evidence-base qualification is also not delivered. No complementary percentage is inferred; the partial answer still fails completeness.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The Italian 19/22 (86%) finding is present. The second excerpt names review genotypes but not the requested 90% PARM estimate, which is absent from this fixed context. The small-cohort/different-evidence-base qualification is also not delivered. No complementary percentage is inferred; the partial answer still fails completeness.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "a873b40e-6c0f-4ec7-ad5f-6ad9971f1f07",
+      "prompt": "source_extract_complete",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The selected guideline excerpt concerns ventilation modes at different times or ages. It does not address inconsistency of the repeat-length/continuous-ventilation relationship or exceptions. An authentic excerpt substitutes a different relationship for the requested qualification; this is the same critical relevance/context failure seen in the concise arm, not a quote-format success.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The selected guideline excerpt concerns ventilation modes at different times or ages. It does not address inconsistency of the repeat-length/continuous-ventilation relationship or exceptions. An authentic excerpt substitutes a different relationship for the requested qualification; this is the same critical relevance/context failure seen in the concise arm, not a quote-format success.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "LIM-02",
+      "answer_id": "9f935228-0b8a-43bb-a320-b7ad12bc666f",
+      "prompt": "source_extract_complete",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "4734940b-a4ef-432c-8d40-638cbdd88c74",
+      "prompt": "source_extract_complete",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-02",
+      "answer_id": "e9412def-e38c-4ddd-bf81-67fc8706a111",
+      "prompt": "source_extract_complete",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The response correctly refuses to provide a transcriptomic accession not established by these passages. No accession, downloadable dataset metadata or unsupported premise is fabricated, and no claim/tag row is exported.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The response correctly refuses to provide a transcriptomic accession not established by these passages. No accession, downloadable dataset metadata or unsupported premise is fabricated, and no claim/tag row is exported.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "126ad3fbdd4a5ac874118415afb6fce08b9801eaa8d7729777f580cd3ed7d713",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

@@ -1,0 +1,161 @@
+{
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "74a5b496a560f7a92b4f2024f97a769cb4398cfc1b81fba41df25a25b0a1f9c3",
+  "reviews": [
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The retrieved Italian passages 21,19,54,68,2 describe records, findings and management, but omit the explicitly stated two aims in passage 17. The refusal is defensible for the precise stated-aims request but does not answer either frozen required fact. Its description of the supplied context is supported.",
+      "answer_id": "0d69a67a-a6ad-4c78-a90a-272cb17c34d5",
+      "record_hash": "0b3ad7c467227570c4dbf40ed26f5621ddf206e9b0eb035a7d7e6db30859cc88"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Italian passage 19 supports the quoted 22-patient retrospective count. The answer omits 2000-2020 despite its presence in that same retrieved passage. Limitations match passage 68 and the additional records/IRB sentence matches passage 21. The canonical comparison/export retains the quote and limitations, but this remains incomplete.",
+      "answer_id": "c430c699-0c0c-42cc-842b-189cc6f06b10",
+      "record_hash": "3735422b6de952be27ffc53833d978857b1141ce248c74a81ce686f10e266ac8"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The response says there is no direct evidence of retrospective examination of records, but retrieved Italian passage 19 explicitly says collected retrospectively and passage 21 says review of the electronic medical record. This denial contradicts the provided context; neither required fact is answered.",
+      "answer_id": "9af09204-03ed-4d8a-979b-8180c2dd687c",
+      "record_hash": "4617264fb94bdd2024070bb02a479063acc6d1ee0b31d7fd782cc80b92b4bd95"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The supplied guideline passages include literature-search methods (12), publication consent and unrelated recommendations, but omit passage 13 containing low-grade descriptive evidence and blended clinical experience. Corpus-scoped refusal is defensible for these hits; both requested facts remain missing.",
+      "answer_id": "3eb9d651-fbcc-4216-9489-f29189745f1a",
+      "record_hash": "ef1dd115d940e4c80846a0ec5534a235c01ac04a3e3d157691fa452467d7a160"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "EXA-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "answer_id": "84dfb851-b5d4-40dc-8893-8befc66cd965",
+      "record_hash": "80d44ef29e738cb777ecfb9cc6e7f6d191b4c81c32f57be255ef2e94a491c6d6"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "EXA-02: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "answer_id": "8a0b2ead-7722-4189-b89e-f15f723e4209",
+      "record_hash": "7c909422ac8e7c580f162fc6b75ef90299ab5c1a8b00e9bd38720870967406af"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "COM-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "answer_id": "c68fd208-6795-4704-b837-dcf3bf91c768",
+      "record_hash": "8440bf9a0a6293eebd8be5e80c9faf89ba6a45aad3181aa445bea599196aafae"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "COM-02: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "answer_id": "d7e98e8d-0303-4c5d-942c-b98d9fa3792f",
+      "record_hash": "d3a6519ee97335c0f42b19a7742caaf0bb433e59ee818e0df649326838ef5a40"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "LIM-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "answer_id": "ffaac4bc-793d-4575-8dd3-12185f51b628",
+      "record_hash": "749674aa03858a6ace1c09508c61a7fcb0264d7b38b927c440fbf0897b0a7c3b"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "partial"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The response refers to retrospective findings but does not directly answer no to the randomized-causal-evidence question. The context includes Italian passage 19 explicitly describing retrospective collection; passage 70 supports the precautionary-principle description. The qualification about heterogeneity is absent from the response. The narrative does not establish a randomized study, but the required answer remains incomplete.",
+      "answer_id": "cc623476-41cc-420e-9c35-685a6e06e6cf",
+      "record_hash": "45edf63357ecae5b5a7c99f6584766151dc4d5aa388a520c126604f2e52c5a39"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The phrase randomized PHOX2B gene-editing intervention reported in a 2021 Italian study repeats the unsupported premise as an event. Retrieved Italian passages 56/8 and review passages 10/64 discuss variants/testing, not such an intervention. An insufficient_evidence status does not neutralize that false premise in visible limitations.",
+      "answer_id": "4a56ea1e-678d-472f-8cb2-dfa40a880bd1",
+      "record_hash": "16bd30eeb5762bc1041709db35d797db14f31b2d0f01b54eb3befc5bae0e5206"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "ABS-02: inspected raw output and the canonical record. IncompleteModelOutput rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "answer_id": "98c3d9d6-8ce5-4a29-9da0-1b1f9a579bc6",
+      "record_hash": "039d6efe7246be8f8b61e082bf82d878c259fe6b05e79abff49f1b1c08f3700c"
+    }
+  ]
+}

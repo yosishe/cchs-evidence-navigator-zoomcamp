@@ -1,0 +1,83 @@
+{
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "c9f6473da84897f7443a25be0efa6030420ca1a915f33d5c01345413aa97b405",
+  "reviews": [
+    {
+      "answer_id": "4e139662-9292-4f0e-a57e-127f0bd70cb0",
+      "record_hash": "82f30ee1ecbbc42d36a5334f11e0633eca90fa2083ccb34c3e298c80e441eb29",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "77e3bf8e-9574-416a-8fe9-0c85a495fe94",
+      "record_hash": "54a630896968a35df50a6a3cea8f7ea5a130eea801eadb4a95cb4c9323c519a1",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "8e23c3f4-ea62-4139-970c-666d49b402ed",
+      "record_hash": "43ba175c04ec9d2da7d125542eaca6272952087e5a7854c8286f537c63119b3e",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "fa3fe301-9b87-41b6-b121-435c6d8708e4",
+      "record_hash": "08f08cd529fdb563f8fe1cf279bb09e87797d0d6fcb92a5eee16cb43713d2504",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "c3d894e7-6cdc-4c80-8e29-8d5e1ca2380c",
+      "record_hash": "797a0fe7904e107df80d01f206d04dfa69236a30fdab7ddba4123505a475a8e7",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "18633502-234f-48dd-ba78-ea2fa180db46",
+      "record_hash": "d77e33b7bd05427786d9cb68fc3201d03c04bc33273a4d3f88c29f1354bf3036",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    }
+  ]
+}

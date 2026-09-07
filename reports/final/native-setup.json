@@ -1,0 +1,43 @@
+{
+  "created_at": "2026-09-07T18:21:11.224085+00:00",
+  "status": "PASS",
+  "runtime": "native Mac with existing Python environment and existing encoder cache",
+  "ingestion": {
+    "status": "EXECUTED",
+    "created_at": "2026-09-07T18:11:26.075908+00:00",
+    "engine": "dlt/duckdb",
+    "source_count": 3,
+    "chunk_count": 377,
+    "excluded_passage_count": 390,
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "manifest_hash": "bb1cea58fcdddcb665702ad784befd55cc0c934f97b797f46bebbb7605313b46",
+    "documents_sha256": "b4ab1c1285763c4ad88ddb0bc6d052b129539f1fae5d1d218becf3a71da9a9ed",
+    "seconds": 0.6299899580189958,
+    "load_ids": [
+      "1788804685.9059148"
+    ],
+    "config": {
+      "chunk_chars": 750,
+      "overlap_chars": 150
+    }
+  },
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "resolved_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "dimensions": 384,
+    "normalization": "L2",
+    "max_sequence_length": 256,
+    "truncated_input_count": 0,
+    "input_count": 377,
+    "device": "cpu",
+    "text_template": "title_content",
+    "allow_download": false,
+    "vectors_persisted": false
+  },
+  "installations": 0,
+  "model_downloads": 0,
+  "embedding_downloads": 0,
+  "raw_private_paths": "Retained only in the local operations receipt, outside the public package."
+}

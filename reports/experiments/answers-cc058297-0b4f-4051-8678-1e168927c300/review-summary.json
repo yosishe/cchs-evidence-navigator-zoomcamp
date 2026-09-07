@@ -1,0 +1,204 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "ed01050ccc59b79e8308214b7666768ad3740b76e8924adc8ef0f11837e910f9",
+  "reviews_hash": "0fb605be0f04c7068a4d0f4f0d65f20a5c10a6273044c1a4d3803d6c248f997f",
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 14.794095805671532,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "course_user",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 14.508031819670578,
+      "errors": 0,
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "course_user",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "course_user",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "course_user",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "3485d2d1-a505-49c0-910d-c5ea0f98e5b8",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Passage 19 supports the 22 retrospective patients claim, but the requested 2000–2020 period is omitted despite being in the same retrieved passage. Limitations are supported by 68 and electronic-record/IRB details by 21.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Passage 19 supports the 22 retrospective patients claim, but the requested 2000–2020 period is omitted despite being in the same retrieved passage. Limitations are supported by 68 and electronic-record/IRB details by 21. Current export payload was inspected; no browser-download success is implied.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "f9764be3-dea2-4cad-8339-415ba9335777",
+      "prompt": "course_user",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Abstains and gives only the study limitations, although passage 19 contains both the patient count and requested period. Compared with the baseline it loses even the supported count fragment. Its caveat text itself is supported by passage 68, but it is not a complete answer.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Abstains and gives only the study limitations, although passage 19 contains both the patient count and requested period. Compared with the baseline it loses even the supported count fragment. Its caveat text itself is supported by passage 68, but it is not a complete answer. Current export payload was inspected; no browser-download success is implied.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "3bbcad5a-1fac-4c24-aa69-cc510a07b3de",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Passages 19/68 explicitly describe retrospective collection/design and passage 21 names electronic medical records. The response denies this direct evidence and fails both required facts.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Passages 19/68 explicitly describe retrospective collection/design and passage 21 names electronic medical records. The response denies this direct evidence and fails both required facts. Current export payload was inspected; no browser-download success is implied.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "a61e2346-0143-40e9-8ae9-f5168b0e1df1",
+      "prompt": "course_user",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Mentions retrospective data collection but simultaneously says the passages do not establish whether the study looked back at records. Passage 21 explicitly says electronic medical record review. It is a contradictory nonanswer, not a complete explanation; one design phrase does not repair it.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Mentions retrospective data collection but simultaneously says the passages do not establish whether the study looked back at records. Passage 21 explicitly says electronic medical record review. It is a contradictory nonanswer, not a complete explanation; one design phrase does not repair it. Current export payload was inspected; no browser-download success is implied.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "eb2047b4-01f0-4c51-88f9-5ae4b17f411e",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The phrase intervention reported in a 2021 Italian study treats the unsupported intervention premise as established. The context reports genetic testing/variants, not that experiment. Empty claims do not make this valid abstention.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The phrase intervention reported in a 2021 Italian study treats the unsupported intervention premise as established. The context reports genetic testing/variants, not that experiment. Empty claims do not make this valid abstention. Current export payload was inspected; no browser-download success is implied.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "383bc87f-9309-4fd0-b1ef-a778f075b499",
+      "prompt": "course_user",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "This wording removes the baseline phrase intervention reported, but still speaks of results from such an intervention without clearly distinguishing an unestablished intervention from missing result detail. It is less explicit than the known bad baseline; under the frozen conservative review rule, the whole-prose support/abstention remains uncertain rather than a verified pass.",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "This wording removes the baseline phrase intervention reported, but still speaks of results from such an intervention without clearly distinguishing an unestablished intervention from missing result detail. It is less explicit than the known bad baseline; under the frozen conservative review rule, the whole-prose support/abstention remains uncertain rather than a verified pass. Current export payload was inspected; no browser-download success is implied.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "d18873a41c1f5a660f0483df26a90b774e7cca8a2a2cebb4bc936d8e39f4b675",
+  "whole_answer_reviewer": "Codex source-based provisional review, 2026-09-06",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

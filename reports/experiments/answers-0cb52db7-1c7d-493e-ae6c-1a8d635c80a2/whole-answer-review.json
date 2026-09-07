@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex provisional source-based review, iteration 028; not independent or human validation",
+  "reviewer_kind": "assistant",
+  "results_hash": "ec0d194264288051496cba97c69276a43a7bc44016bf658eea8eaccaaac10e06",
+  "reviews": [
+    {
+      "answer_id": "2240efd9-1cd7-4862-9eda-03094be949c1",
+      "record_hash": "d89a697bce073b9422edfeba323c98e36b1d1ad29f7ffbd037fcedf85c5a09e3",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Visible denial of aims explicitly supplied in Italian passage 17"
+      ],
+      "acceptable": false,
+      "reason": "Passage 17 explicitly enumerates both aims. The refusal denies explicit aims while mentioning genotype/clinical findings and changing management in its own prose. This is not a correct answer; the required relation to study aims is contradicted. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    },
+    {
+      "answer_id": "8b3daa31-f149-41f6-80eb-fdea7a2fee02",
+      "record_hash": "9d837e72d36cb4192cd3b2dbf98fceaad730f2e27bba1cb3694db516df2c6a80",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Canonical output is an application-owned validation error, with no claims or exports. Raw output contradicts insufficient_evidence with nonempty claims, uses a full publication version as a passage ID plus an invented ID, and emits empty quotations. The blocked retrospective caveat is not a usable answer about retrospective electronic records (passages 19/21). Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    },
+    {
+      "answer_id": "e7780bf1-441a-44e8-b855-09b8ab3b929e",
+      "record_hash": "74fc4ffb3c3975e02b71f2dddf5fa356b3da2808b6a91828f2178e9dde6ccea9",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The response does not compare the methods. Italian passages 2/19/21 establish retrospective records. Guideline 12 establishes a European GDG literature search, but guideline 13 is absent in this context. The prose describes guidelines as for management in Italy without source support for that restriction; this context characterization is unresolved. A corpus-bound partial response would need to identify what is supported and what is missing, rather than assert no possible comparison. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    },
+    {
+      "answer_id": "ef64e450-67ee-4b5d-bfc3-cd2cde63bed5",
+      "record_hash": "a54d2984a1ebd8f4b4944f99c594613aed5d87d6b14447ab870263cb7c0d6c1c",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unsupported intervention premise in visible limitations"
+      ],
+      "acceptable": false,
+      "reason": "Status correctly abstains from intervention results, but the phrase intervention reported in a 2021 Italian study adopts the unsupported premise. Genetic testing and mutation passages do not establish that intervention. Correct status cannot make this whole nonanswer acceptable. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    }
+  ]
+}

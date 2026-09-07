@@ -1,0 +1,15 @@
+{
+  "status": "SEMANTIC_PROGRESS_BUT_TRANSPORT_REPAIR_REQUIRED",
+  "created_at": "2026-09-06T23:50:03.722005+00:00",
+  "actual_attempts": 24,
+  "control_acceptable": 4,
+  "precise_acceptable": 4,
+  "denominator_per_arm": 12,
+  "control_critical_answers": 1,
+  "precise_critical_answers": 0,
+  "errors_per_arm": 4,
+  "reason": "Precision instructions remove observed critical errors but still fail source copying and lose the valid aims response to a missing field. Neither arm provides a complete validated cross-source comparison. Keep strict acceptance and repair mechanical source transport before spending 84 full-development calls.",
+  "next_hypothesis": "Application-owned contiguous source-span pointers with strict schema; source/quotation identities remain canonical, semantic and completeness review unchanged. No fuzzy match or altered benchmark.",
+  "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4",
+  "final_set_inference": 0
+}

@@ -1,0 +1,85 @@
+{
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "bf002b14828cf6388dc4d91ddea33f74fa7ddcc152632284a916548bd02816a3",
+  "reviews": [
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The original two-aims sentence is selected alongside eight unnecessary overview, methods and cohort-demographic excerpts. The aims are complete and separately source-attributed, with no invented claim; severe verbosity remains a presentation defect.",
+      "answer_id": "9020de18-813f-4773-b923-ad52512683cc",
+      "record_hash": "efabd791a16d070f1b16e3f823f9435bfb556c82ec29ba9a953d4552b4db960a"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The model returned answered with no claims, which the unchanged canonical validator rejected. Raw limitation pointers do not establish a valid displayed answer; the failed attempt remains in the denominator. The user receives the bounded validation-error message.",
+      "answer_id": "0526fc51-0b28-470c-a81b-930994497b74",
+      "record_hash": "9ce559ffdd6ec3ed6fe67570bdcc5219a6398754ad8c2500c3c06509aca1a9aa"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The three literal excerpts concern home ventilator requirements, varying support modalities and care time. None establishes inconsistency or exceptions for the repeat-length association. Treat this as critical misleading context selection, not as citation success.",
+      "answer_id": "9866cb94-f9ae-45f0-9a26-27b771935161",
+      "record_hash": "5cf54b8522da7cf3fb37425321718103778d520f79eb708359929fbd45085027"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The model returned answered with no claims, which the unchanged canonical validator rejected. Raw limitation pointers do not establish a valid displayed answer; the failed attempt remains in the denominator. The user receives the bounded validation-error message.",
+      "answer_id": "f6643d14-95ed-4b31-a663-7c336cebcf0b",
+      "record_hash": "31c7a9c42af71136967da18af4c0a8cb725ebf4102b2f9fc34ddac18c5e34bc7"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The model returned answered with no claims, which the unchanged canonical validator rejected. Raw limitation pointers do not establish a valid displayed answer; the failed attempt remains in the denominator. The user receives the bounded validation-error message.",
+      "answer_id": "1f34de6c-0da1-43d3-bfb7-07a9ec5ebc42",
+      "record_hash": "9e8428d838300ace3ce328c6374dd74f2d344379dc630a64df495fea2c46274e"
+    }
+  ]
+}

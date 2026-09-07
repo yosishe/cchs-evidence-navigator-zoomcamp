@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-09-06T13:39:37.636552+00:00",
+  "provider_requests": 0,
+  "operation": "Read local installed model registry; no pull or inference",
+  "status": "NOT_READY",
+  "error_type": "RuntimeError",
+  "reason": "Requested course model is not installed with a verifiable digest"
+}

@@ -1,0 +1,169 @@
+{
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "6fe7c6f3bcbabc9736d7dd650f1e79b37bead5231b98b4ff58883eec15c8600e",
+  "reviews": [
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Both intended aims and original quotes are correct, but the limitations key is missing. The strict unchanged contract rejects the entire output. Correct text hidden behind a validation error is not delivered completeness.",
+      "answer_id": "e73bcd27-ab02-4404-8998-9acf0845e5af",
+      "record_hash": "1b4768391352bee30c12b1bb4d6e6aaa800d8e9cb3a14a7694adc83c1d48f533"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "Italian abstract passage 2 directly supports the retrospective 22-patient cohort and 2000-2020 period. The answer explicitly supplies both requested parts and exports retain the exact quotation.",
+      "answer_id": "d0ebbeb0-22c6-46ec-9fe6-0f2fd6fe76e9",
+      "record_hash": "60635d22d8fb091ba8eab41b5cfd4e493373e0dab97957f33ac711512e09fe8e"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Retrospective and EMR evidence are both available. The first quote inserts ellipses and the second replaces continuation with a full stop. Whole-output validation rejects them; facts are not delivered.",
+      "answer_id": "25fe25c1-e097-4250-a648-841bcb23753f",
+      "record_hash": "72431aa21f9ccd74cf642bc0d57292bcb29e45be384a9b2efcda21f5861fc327"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The needed low-grade/descriptive and blended-clinical-experience paragraph is absent from the retrieved context. Generic context-scoped refusal is defensible, but the frozen answerable task remains incomplete.",
+      "answer_id": "67e8852e-17d8-472f-a063-64b6ad0e1fac",
+      "record_hash": "8b98182aa2e4ced47cccd50b2a0210ac23d52088656abb931921c74796f6260e"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The location quote is exact, but the alleged exon quote is a rewritten fragment. Full answer rejected; the correct intended chromosome/exon statements do not count as a delivered answer.",
+      "answer_id": "4a415bdc-016f-4231-aed1-4710d0f7dd41",
+      "record_hash": "32ee7d7807ff720910f963ed84edb430f0486656a038eb7428847572644617a4"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The correct Italian identifiers 20/25, 20/26 and 20/27 and 19/22 (86%) are supported by passage 32. The second claim is redundant but not false; both quote the correct source. No added caveat or approved scientific status is exported.",
+      "answer_id": "7f0af64e-1bc4-4577-8edf-9224b1239408",
+      "record_hash": "f6a4b1fd37fe5d65f390de8f062c3422123f9cde957ac304cb68518289523c7f"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The answer intends a retrospective-versus-published-evidence/clinical-expertise comparison, but one quote splices text with a nonliteral ellipsis. Entire output rejected. Both reference sources were actually available, so generation/copying is the failure boundary.",
+      "answer_id": "de3ad4e3-235e-4af0-81fb-8d653aeb2c67",
+      "record_hash": "016d30d392aba21dbf070e64fdf1d19622cd0229a40f15650fcde40c0c8ab537"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The Italian 86%/14%, review NPARM 10% and review repeat-genotype range are supported exactly. Unlike the pilot, no inverted arithmetic or invented population claim is added. The requested review PARM 90% and evidence-base/small-cohort qualification remain absent. A supported partial answer still fails completeness.",
+      "answer_id": "c1031181-fed8-4c47-86ba-7e40a7e5e666",
+      "record_hash": "6d6abc9ccac8c35ea064351244f09900adca375f652d5873312154f8f758ef51"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The required repeat-length association/exception passage is absent. The generic refusal does not substitute amplification technique as a relationship qualification, removing the control arm critical error, but no complete answer is provided.",
+      "answer_id": "7574dca6-bae7-4a76-82e7-950e0f60e0f5",
+      "record_hash": "5a89ff61c3b8c654b8122fb1472c0331de9fe77cb94b2bf9a15773e4e5705d7c"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "Retrospective design and population heterogeneity are available in Italian passage 68. Generic refusal avoids unsupported universal causal claims but misses the narrow answer and qualification, so the answerable task fails.",
+      "answer_id": "f3480651-c53e-459f-8a68-994c4fea0ddd",
+      "record_hash": "6de1655a5b9f642c25ede5b77e0c53d13072d7055fac05a4fba1c2a35d270375"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports.",
+      "answer_id": "1dcea760-a332-404c-b652-8e5814fc697d",
+      "record_hash": "71d6cb5ea3734e0f8237f88784ce90720f0568b11651607791c6b2a88336a1bd"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports.",
+      "answer_id": "e761dcdb-34a7-45f8-999d-5292180aacd1",
+      "record_hash": "407a6dd795c75a3e8e41e8f0787e75e27d5dfaa5674bd7fd305242e828399a9c"
+    }
+  ]
+}

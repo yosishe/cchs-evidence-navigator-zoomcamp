@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "results_hash": "4677aecc7b58534e7716baaf15a9cb849e2d0c5a9038a799788c2103ca56c451",
+  "reviews": [
+    {
+      "answer_id": "ae704ece-e83b-4374-8a86-39c59573b53f",
+      "record_hash": "94d9f37ba5b09c5c2c10b6979587493e202a4185a555192215c8168372557b94",
+      "export_hash": "995a67b1b93b5d108a42ae84b3a2b20837c62fd669258d8f983b9aa77e3ee112",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The quoted 22-patient retrospective fact is correct, but the requested period is absent despite passage 19 supplying 2000–2020. Caveats/record provenance match passages 68/21. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed."
+    },
+    {
+      "answer_id": "8da7ddd1-1a2c-4b10-9652-0fb0d0726a05",
+      "record_hash": "aa7a15265fecc1ad748ba7ad6c6556ea97bc592badcb4c7aeaf6bf0169198498",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Source/citation failure in blocked raw output"
+      ],
+      "acceptable": false,
+      "reason": "Raw output uses a full source-version string instead of the supplied passage ID; its quote also changes follow-up to follow-thru and removes words/punctuation. It gives background and falsely says patient count/period are unavailable despite passage 19. Validation blocks this response. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed."
+    },
+    {
+      "answer_id": "c819746f-1935-4f77-acdb-2de5f2296fe2",
+      "record_hash": "7f05c40d200771490d505cc816b19886d3072f6b2aac82192a043fb3c7090b62",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unsupported/contradictory visible prose"
+      ],
+      "acceptable": false,
+      "reason": "The nonanswer denies study-design evidence explicitly present in passages 19/68 and electronic record review in passage 21. Safe-looking abstention is still incorrect here. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed."
+    },
+    {
+      "answer_id": "c9d7f12d-7c20-44fd-8309-87e46bc38100",
+      "record_hash": "fc84599bed57da03abcb16ee8f559329aec5a7ceddb95eb2a3179396a5eb88d5",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Source/citation failure in blocked raw output"
+      ],
+      "acceptable": false,
+      "reason": "The model now identifies retrospective design, but both raw IDs are full source-version strings rather than passage IDs. It omits the requested electronic-record source and instead discusses management follow-up. Correct fragments cannot pass the unchanged citation/complete-answer contract. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed."
+    },
+    {
+      "answer_id": "8fdbb02b-97aa-4b99-ac0f-752f966dd497",
+      "record_hash": "078e790fa111ea83768bf0ac1ea9bfd03e378f17b4eaf3e57b82dbf76c265912",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unsupported/contradictory visible prose"
+      ],
+      "acceptable": false,
+      "reason": "The phrasing intervention reported in the Italian study accepts an unestablished premise. Supplied genetic-testing/variant passages do not establish that intervention. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed."
+    },
+    {
+      "answer_id": "52722f50-5a46-4242-9f31-8d1e9300a602",
+      "record_hash": "a825474e23732055ef3a2a97901460e90ed6d72888805c5187f4a578bb584bbb",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Source/citation failure in blocked raw output"
+      ],
+      "acceptable": false,
+      "reason": "Malformed output reaches the token limit. It uses article titles as quotations, wrong windows and a foreign passage ID; mutation-background statements do not answer the unsupported intervention question. All claims are blocked, and the completed failed attempt remains counted. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed."
+    }
+  ]
+}

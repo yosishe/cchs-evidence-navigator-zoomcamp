@@ -1,0 +1,109 @@
+{
+  "status": "PASS_MANDATORY_PREPUBLICATION_GATES",
+  "checked_at": "2026-09-07T18:41:24.605853+00:00",
+  "target_repository": "https://github.com/yosishe/cchs-evidence-navigator-zoomcamp",
+  "branch": "main",
+  "planned_tag": "v1.0.0",
+  "publication_authorized_after_pass": true,
+  "publication_state": "READY_TO_CREATE_COMMIT_AND_PUBLISH",
+  "course_form_owner_only": true,
+  "course_form_saved_by_assistant": false,
+  "gates": [
+    {
+      "gate": "Software",
+      "status": "PASS",
+      "evidence": "reports/checks.json",
+      "tests": 186,
+      "skipped": 0
+    },
+    {
+      "gate": "Bound configuration",
+      "status": "PASS",
+      "evidence": "reports/final/selection-2026-09-07.json",
+      "configuration_id": "a608ccf3cd3318d9f54abb2c0d49a7967e920b4e841dded47f823d86884b2055",
+      "configuration_file_sha256": "0b02560637088fb36449680d9b3680d2a88298c3a953d15a3b18172e2a927bf3",
+      "effective_configuration_id": "3512bea084a43b747957623873527b2c9e37728cffa294b27c89d1e327bdf170"
+    },
+    {
+      "gate": "Frozen inputs and private predecessor",
+      "status": "PASS",
+      "evidence": "reports/final/frozen-input-recheck.json",
+      "protected_public_files": 717,
+      "private_files_unchanged": 447
+    },
+    {
+      "gate": "Useful native answer and correct abstention",
+      "status": "PASS",
+      "evidence": "reports/final/native-bound-flow.json",
+      "generation_attempts": 2,
+      "retries": 0
+    },
+    {
+      "gate": "Real downloads, feedback, charts and restart",
+      "status": "PASS",
+      "evidence": "reports/final/native-download-check.json",
+      "downloaded_files": 6,
+      "downloaded_bytes": 158118,
+      "retained_records": 4,
+      "charts": 6
+    },
+    {
+      "gate": "English screenshots",
+      "status": "PASS_WITH_HISTORICAL_DISTINCTIONS",
+      "evidence": "reports/final/screenshot-review.json",
+      "images_reviewed": 19
+    },
+    {
+      "gate": "Internal link and package scans",
+      "status": "PASS",
+      "evidence": [
+        "reports/release-migration/public-package-audit.json",
+        "reports/release-migration/link-audit.json",
+        "reports/final/all-markdown-link-audit.json"
+      ],
+      "findings": 0,
+      "scope": "Scoped secret/private-asset/English checks and all shipped Markdown relative links; external HTTP availability is separate."
+    },
+    {
+      "gate": "Independent agent review",
+      "status": "PASS",
+      "evidence": "reports/final/independent-review.json"
+    },
+    {
+      "gate": "Optional rewriting",
+      "status": "COMPLETED_KEEP_DISABLED",
+      "evidence": "reports/final/rewrite-diagnostic-review.json",
+      "rewrite_attempts": 12,
+      "searches": 24,
+      "generation_attempts": 0,
+      "benefit_observed": false
+    }
+  ],
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "quality_exception": {
+    "status": "INTERNAL_QUALITY_BAR_NOT_MET_OWNER_ACCEPTED_DISCLOSURE",
+    "fully_acceptable": 8,
+    "pilot_denominator": 12,
+    "critical_relevance_failures": 1,
+    "critical_case": "LIM-01",
+    "final_18_inference_calls": 0,
+    "no_accuracy_estimate_from_native_demo": true
+  },
+  "restrictions_observed": {
+    "installations": 0,
+    "model_downloads": 0,
+    "encoder_downloads": 0,
+    "docker_mutations": 0,
+    "paid_provider_calls": 0,
+    "question_or_evaluator_or_prompt_changes": 0,
+    "private_git_history_changes": 0
+  },
+  "remaining_boundaries": [
+    "Commit/public access and clean-clone ingestion must be verified after publication; receipts stay outside the commit.",
+    "No Gemma Compose or cloud execution claimed.",
+    "Existing dependencies and assets were reused; a fresh installation was not repeated.",
+    "No independent biomedical validation, guaranteed grade, course-form save or completed peer reviews."
+  ],
+  "packaging_note": "The package audit is refreshed after this gate file is written. It inventories this file, excludes its own changing output, and must pass with no later source edits before commit. Two original historical log assets were restored unchanged; no historical report was rewritten."
+}

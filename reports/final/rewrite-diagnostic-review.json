@@ -1,0 +1,224 @@
+{
+  "status": "REVIEWED_KEEP_DISABLED_NO_OBSERVED_BENEFIT",
+  "reviewed_at": "2026-09-07T18:35:33.587326+00:00",
+  "review_method": "Assistant inspected all original questions, raw rewritten JSON, guarded outputs and branch/final ranks. This is an agent diagnostic, not scientific review.",
+  "results_path": "reports/final/rewrite-diagnostic.json",
+  "results_sha256": "6f8d7e4636a883ac8eddf14224bb360755d68c65793aec80c16c4c59f17f6827",
+  "results_hash": "6ecdc2ae2ca72073743ca01954dcedf16c0e14e91a215f17b8779568c60d491e",
+  "rows": [
+    {
+      "question_id": "DIR-01",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "rewrite_seconds": 18.714942084014183
+    },
+    {
+      "question_id": "DIR-02",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "rewrite_seconds": 4.623715583991725
+    },
+    {
+      "question_id": "PAR-01",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.16666666666666666
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.16666666666666666
+      },
+      "rewrite_seconds": 4.8485162500001024
+    },
+    {
+      "question_id": "PAR-02",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "rewritten_metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "rewrite_seconds": 4.905774083978031
+    },
+    {
+      "question_id": "EXA-01",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      },
+      "rewrite_seconds": 6.16956474998733
+    },
+    {
+      "question_id": "EXA-02",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "rewrite_seconds": 4.529451917012921
+    },
+    {
+      "question_id": "COM-01",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      },
+      "rewrite_seconds": 4.580463124992093
+    },
+    {
+      "question_id": "COM-02",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.14285714285714285
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.14285714285714285
+      },
+      "rewrite_seconds": 5.843858249980258
+    },
+    {
+      "question_id": "LIM-01",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "rewritten_metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "rewrite_seconds": 4.7319139579776675
+    },
+    {
+      "question_id": "LIM-02",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "rewritten_metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "rewrite_seconds": 4.54996966701583
+    },
+    {
+      "question_id": "ABS-01",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": null,
+      "rewritten_metrics": null,
+      "rewrite_seconds": 6.552478333003819
+    },
+    {
+      "question_id": "ABS-02",
+      "intent_review": "PRESERVED_IDENTICAL_TEXT",
+      "rationale": "Raw rewritten question equals the original byte for byte. No identifiers, dates, negations, study scope, population or assumptions changed.",
+      "search_ranks": "IDENTICAL",
+      "quality_benefit": "NONE_OBSERVED",
+      "original_metrics": null,
+      "rewritten_metrics": null,
+      "rewrite_seconds": 5.066213540994795
+    }
+  ],
+  "question_count": 12,
+  "answerable_metric_denominator": 10,
+  "unanswerable_excluded_from_hit_mrr": 2,
+  "unchanged_queries": 12,
+  "changed_queries": 0,
+  "rank_improvements": 0,
+  "rank_degradations": 0,
+  "metric_changes": 0,
+  "aggregate": {
+    "original": {
+      "hit_count": 8,
+      "hit_at_10": 0.8,
+      "mrr_at_10": 0.2876190476190476
+    },
+    "rewritten": {
+      "hit_count": 8,
+      "hit_at_10": 0.8,
+      "mrr_at_10": 0.2876190476190476
+    }
+  },
+  "actual_rewrite_attempts": 12,
+  "actual_generation_attempts": 0,
+  "search_attempts": 24,
+  "rewrite_seconds_mean": 6.259738461912396,
+  "rewrite_seconds_max": 18.714942084014183,
+  "rewrite_seconds_total": 75.11686154294875,
+  "input_tokens": 930,
+  "output_tokens": 270,
+  "api_cost_usd": 0,
+  "cost_scope": "No API billing; local energy and compute cost not measured.",
+  "decision": "Keep rewrite_enabled=false. All twelve additional local calls echoed their input; this run found no search-quality gain. No answer generation or final-split inference was performed.",
+  "tradeoff": "An extra provider call adds latency and another failure opportunity without observed benefit on these twelve queries. This does not establish behavior on all questions.",
+  "revisit": "Only a separately declared development experiment with intent-preserving changes and actual retrieval benefit could justify further answer evaluation; no automatic promotion or repeat is authorized by this receipt.",
+  "label_limitations": "Ten answerable questions use provisional, incomplete labels. Hit/MRR measure a retrieved labeled passage, not answer completeness; two unanswerable questions are excluded."
+}

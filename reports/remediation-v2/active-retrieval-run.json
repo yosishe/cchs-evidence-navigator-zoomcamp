@@ -1,0 +1,30 @@
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 27989.20it/s]
+{
+  "status": "EXECUTED_PROVISIONAL_LABELS",
+  "aggregates": [
+    {
+      "method": "lexical",
+      "answerable_denominator": 35,
+      "hit_at_k": 0.4,
+      "mrr_at_k": 0.2880952380952381,
+      "query_seconds_excluding_setup": 0.03905283300264273,
+      "additional_setup_seconds": 2.0800507627427578e-07
+    },
+    {
+      "method": "vector",
+      "answerable_denominator": 35,
+      "hit_at_k": 0.6,
+      "mrr_at_k": 0.4695238095238095,
+      "query_seconds_excluding_setup": 0.1492459590008366,
+      "additional_setup_seconds": 4.33225400000083
+    },
+    {
+      "method": "hybrid",
+      "answerable_denominator": 35,
+      "hit_at_k": 0.5714285714285714,
+      "mrr_at_k": 0.34523809523809523,
+      "query_seconds_excluding_setup": 0.19976520900672767,
+      "additional_setup_seconds": 2.2500025806948543e-06
+    }
+  ]
+}

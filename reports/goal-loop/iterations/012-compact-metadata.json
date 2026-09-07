@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-09-06T11:58:34.071404+00:00",
+  "status": "COMPLETED_REVIEWED",
+  "decision": "REJECT",
+  "official_points": null,
+  "previous_turn": "PROGRESS: six JSON-mode calls and the prior six-call citation-label run reviewed; isolated container rehearsal prepared. Required Docker approval remains pending, but generation work is independent.",
+  "runtime_code_id": "a37a640c61b1eb0794ba76a6d10c7cb397b3913f37289c8e6ad9b40e65e97416",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "changed_dimension": "Remove source_version and source_url fields only from the model message. Canonical context/hits/export retain them. Exact passage ID, title, section, section heading, article type, year, population/model and full text remain in model input.",
+  "course_source": "cohorts/2024/02-open-source/qa_faq.py build_prompt; 01-agentic-rag/code/rag_helper.py build_context; Module 4 paired evaluation.",
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "adaptation": "Select context fields as in the course examples; the exact omission policy for redundant transport metadata is our application adaptation.",
+  "hypothesis": "Removing redundant long hashes/URLs may reduce source-ID confusion and input distraction while retaining necessary scientific context. It does not supply missing retrieved evidence or guarantee complete answers.",
+  "fixed": [
+    "All source text, citations and retrieved order",
+    "Same evidence_first instructions",
+    "Phi3 digest from preflight",
+    "Temperature 0",
+    "900 output tokens",
+    "JSON mode on",
+    "Acceptance rules, required facts and splits"
+  ],
+  "alternatives_rejected": [
+    "Remove study type/population/qualifications to make input shorter",
+    "Trim source text or quotes for these questions",
+    "Fuzzy-correct invented citations",
+    "Change model or retrieval in the same comparison"
+  ],
+  "tradeoffs": [
+    "Less metadata to copy in model input; full provenance remains in application-owned context/export",
+    "The model cannot cite the omitted URL/hash fields directly, but still cites the exact supplied passage ID",
+    "Scientific context is retained; larger context simplification is not assumed harmless"
+  ],
+  "acceptance": "Both answerable pilot questions complete and supported, and correct abstention without an unsupported premise. No source/quote/ownership or export regression. A pilot win only permits broader development evaluation; it cannot promote the active config.",
+  "question_ids": [
+    "DIR-02",
+    "PAR-01",
+    "ABS-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "compact_metadata"
+  ],
+  "planned_calls": 6,
+  "attempted_calls": 6,
+  "context_reference": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json:contexts",
+  "heldout_exposure": "Named development cases only; no final inference or unseen-set claim.",
+  "next_action": "Keep incumbent. Reduced input length without complete answers. Diagnose ordinary reading/answering without requiring the application JSON/quotation format; such outputs cannot nominate a configuration.",
+  "completed_at": "2026-09-06T12:04:11.453180+00:00",
+  "run_directory": "reports/experiments/answers-76980778-74eb-4cb6-be3d-1d9f61ef1396",
+  "results_hash": "45648bb848891d5388aa22df98ac2ee544f5ab43445624c600ff325b8d20069b",
+  "review_summary_hash": "99c024f42df5dd4ec2f2da9866e42406725e14656071fc168ce32678da9b9081",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 11.456749583337418,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "compact_metadata",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 7.214249819327961,
+      "errors": 0,
+      "critical_failure_answers": 2
+    }
+  ],
+  "input_token_pairs": [
+    {
+      "question_id": "DIR-02",
+      "baseline": 1784,
+      "compact": 1290
+    },
+    {
+      "question_id": "PAR-01",
+      "baseline": 1785,
+      "compact": 1291
+    },
+    {
+      "question_id": "ABS-01",
+      "baseline": 2170,
+      "compact": 1679
+    }
+  ]
+}

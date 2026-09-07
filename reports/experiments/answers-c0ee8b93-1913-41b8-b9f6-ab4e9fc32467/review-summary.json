@@ -1,0 +1,206 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "acff0344888e79c489f162ae0bc1cd01b44b404d9fe8937871f090a7b2822f56",
+  "reviews_hash": "833ca12170a3cc0b3f1c1568127e27f390dd4a9c3bdd608ab25ab554f6d6cda0",
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 16.43911608333292,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "short_ids",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 26.371082166335935,
+      "errors": 2,
+      "critical_failure_answers": 3
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "short_ids",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "short_ids",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "short_ids",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "d5eaa690-1566-4e3e-820c-38219a82c062",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The 22-patient retrospective claim and quote match Italian passage 19, but the requested follow-up period 2000–2020 is missing. Limitations are supported by passages 68 and 21.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The 22-patient retrospective claim and quote match Italian passage 19, but the requested follow-up period 2000–2020 is missing. Limitations are supported by passages 68 and 21. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "b03a0477-74e2-4caf-90aa-bfb791f06a9b",
+      "prompt": "short_ids",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The E1 label correctly maps to Italian passage 19 and the count quote is exact, but the follow-up period is missing. The added uncertainty about all relevant studies and unpublished data is not supported by these cohort passages and confuses a primary cohort with literature coverage.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The E1 label correctly maps to Italian passage 19 and the count quote is exact, but the follow-up period is missing. The added uncertainty about all relevant studies and unpublished data is not supported by these cohort passages and confuses a primary cohort with literature coverage. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "ecf2c489-4c5a-4a71-bde7-3d50cf091cef",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The nonanswer denies evidence of retrospective patient-record analysis even though Italian passages 19 and 21 explicitly describe retrospective collection and review of electronic medical records.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The nonanswer denies evidence of retrospective patient-record analysis even though Italian passages 19 and 21 explicitly describe retrospective collection and review of electronic medical records. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "e8dd06d2-cf8a-4ed0-9e74-fd79a0495a91",
+      "prompt": "short_ids",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw nonanswer omits mandatory claims and is blocked by the validator. It also denies design/record evidence explicitly present in Italian passages 19 and 21.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw nonanswer omits mandatory claims and is blocked by the validator. It also denies design/record evidence explicitly present in Italian passages 19 and 21. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "71872ae4-cb57-4695-a512-859431acddcd",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The phrase intervention reported in a 2021 Italian study accepts an unestablished premise. The supplied variant/testing passages do not establish any randomized PHOX2B gene-editing intervention.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The phrase intervention reported in a 2021 Italian study accepts an unestablished premise. The supplied variant/testing passages do not establish any randomized PHOX2B gene-editing intervention. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "12e2e74e-1770-4fbc-94e7-c3b21629fc9c",
+      "prompt": "short_ids",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw output asserts an unestablished gene-editing intervention and supplies null quotes for every claim. The validator blocks all claims; mutation/testing background cannot establish that intervention.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw output asserts an unestablished gene-editing intervention and supplies null quotes for every claim. The validator blocks all claims; mutation/testing background cannot establish that intervention. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "83c149bef4786de142133bdfec946128d14d506b8b3cf28d49a6d77c1a088967",
+  "whole_answer_reviewer": "Codex source-based provisional review, 2026-09-06",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

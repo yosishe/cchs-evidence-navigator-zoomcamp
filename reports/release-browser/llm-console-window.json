@@ -1,0 +1,2433 @@
+{
+  "scope": "Captured errors after the current QA server started; earlier deliberate restart disconnects are retained separately.",
+  "cutoff": "2026-09-07T00:34:49.894Z",
+  "returned_records": 404,
+  "requested_limit": 1000,
+  "current_errors": [],
+  "prior_restart_errors": [
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:34.096Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:34.097Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:36.417Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:36.417Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:40.249Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:40.249Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:43.091Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:43.091Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:46.807Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:46.808Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:50.075Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:50.078Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:53.350Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:53.350Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:56.333Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:56.333Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:50:59.568Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:50:59.569Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:02.461Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:02.461Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:05.350Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:05.350Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:08.685Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:08.685Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:12.350Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:12.350Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:15.545Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:15.546Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:19.251Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:19.252Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:22.664Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:22.665Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:26.039Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:26.039Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:29.916Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:30.079Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:33.096Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:33.097Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:36.301Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:36.303Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:40.013Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:40.014Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:44.092Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:44.093Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:47.199Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:47.200Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:50.941Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:51.024Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:54.353Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:54.516Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:51:57.867Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:51:57.868Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:00.950Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:00.950Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:04.913Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:04.913Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:07.949Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:07.949Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:10.906Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:10.906Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:14.712Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:14.712Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:18.320Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:18.320Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:22.051Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:22.051Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:25.775Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:25.776Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:29.331Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:29.331Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:33.303Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:33.303Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:36.454Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:36.455Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:39.383Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:39.383Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:42.892Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:42.893Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:46.434Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:46.435Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:50.243Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:50.244Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:53.386Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:53.386Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:56.271Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:56.272Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:52:59.366Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:52:59.366Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:02.294Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:02.294Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:05.624Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:05.625Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:08.894Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:08.894Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:12.058Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:12.058Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:15.673Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:15.673Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:19.652Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:19.652Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:23.132Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:23.132Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:26.928Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:26.931Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:53:30.909Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:30.909Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:34.094Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:34.094Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:36.970Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:36.970Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:40.089Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:40.089Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:43.291Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:43.291Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:53:47.007Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:47.008Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:50.496Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:50.496Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:53.426Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:53.426Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:56.253Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:56.254Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:53:59.375Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:53:59.376Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:02.348Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:02.348Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:05.955Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:05.955Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:09.611Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:09.611Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:13.378Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:13.379Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:16.760Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:16.761Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:19.743Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:19.743Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:23.484Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:23.484Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:26.994Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:26.994Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:30.186Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:30.187Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:33.147Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:33.147Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:35.968Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:35.969Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:39.879Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:39.879Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:43.389Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:43.391Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:47.029Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:47.029Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:50.852Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:50.853Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:53.698Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:53.698Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:54:56.611Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:54:56.611Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:55:00.030Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:00.030Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:03.679Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:03.679Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:06.731Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:06.732Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:09.567Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:09.568Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:13.071Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:13.071Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:16.343Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:16.344Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:19.318Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:19.318Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:23.297Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:23.297Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:26.714Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:26.714Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:29.984Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:29.985Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:33.612Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:33.613Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:36.549Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:36.549Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:40.281Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:40.282Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:43.962Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:43.962Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:47.616Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:47.617Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:51.328Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:51.328Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:55:55.114Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:55.115Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:55:58.564Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:55:58.565Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:01.981Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:01.981Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:05.613Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:05.613Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:09.413Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:09.413Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:12.464Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:12.464Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:16.132Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:16.132Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:20.076Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:20.076Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:22.900Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:22.900Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:26.143Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:26.143Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:29.115Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:29.116Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:32.886Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:32.886Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:36.370Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:36.370Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:39.179Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:39.180Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:56:42.423Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:42.424Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:56:45.981Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:45.981Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:48.878Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:48.878Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:52.370Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:52.371Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:56.270Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:56.271Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:56:59.736Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:56:59.736Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:02.611Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:02.612Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:06.180Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:06.180Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:09.897Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:09.897Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:12.930Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:12.930Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:16.450Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:16.450Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:20.095Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:20.095Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:23.804Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:23.804Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:27.768Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:27.768Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:30.700Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:30.700Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:57:34.048Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:34.048Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:37.589Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:37.589Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:40.715Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:40.716Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:44.214Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:44.214Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:47.389Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:47.389Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:57:50.912Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:50.913Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:54.904Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:54.904Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:57:58.842Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:57:58.843Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:01.787Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:01.790Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:04.730Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:04.730Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:07.686Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:07.686Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:10.758Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:10.760Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:13.589Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:13.590Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:17.047Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:17.048Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:20.651Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:20.652Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:24.004Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:24.004Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:27.805Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:27.805Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:31.542Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:31.542Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:35.207Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:35.207Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:39.065Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:39.065Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:42.666Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:42.666Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:46.100Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:46.101Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:50.005Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:50.005Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:58:53.767Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:53.767Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:58:57.696Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:58:57.696Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:59:01.539Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:01.540Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:05.516Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:05.517Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:09.366Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:09.366Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:12.631Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:12.632Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-06T23:59:15.598Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:15.598Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:18.926Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:18.926Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:21.898Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:21.898Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:25.399Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:25.399Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:28.898Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:28.898Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:32.667Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:32.679Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:35.646Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:35.649Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:38.997Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:38.997Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:42.589Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:42.589Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:46.543Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:46.544Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:49.719Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:49.720Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:53.433Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:53.434Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-06T23:59:57.026Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-06T23:59:57.026Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:00.500Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:00.500Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:04.400Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:04.400Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-07T00:00:07.937Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:07.937Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:10.812Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:10.812Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:13.649Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:13.650Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:16.929Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:16.929Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:20.462Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:20.464Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:23.386Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:23.387Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:27.457Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:27.458Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:30.456Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:30.465Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:33.577Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:33.579Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-07T00:00:36.715Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:36.715Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:40.555Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:40.557Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:44.426Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:44.430Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:00:47.619Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:00:47.619Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:33:41.286Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:33:41.291Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:33:43.775Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:33:43.776Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:33:47.597Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:33:47.598Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:33:51.364Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:33:51.364Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:33:54.422Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:33:54.423Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:33:58.313Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:33:58.313Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:01.849Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:01.849Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:05.036Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:05.036Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:08.183Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:08.185Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:11.781Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:11.781Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-07T00:34:15.211Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:15.212Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:18.232Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:18.232Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:21.100Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:21.100Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:24.636Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:24.636Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:28.410Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:28.411Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-07T00:34:31.303Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:31.303Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:35.062Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:35.062Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-07T00:34:39.014Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:39.014Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:41.984Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:41.984Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/host-config",
+      "timestamp": "2026-09-07T00:34:45.216Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:45.216Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Client Error in reaching server endpoint - No response received when attempting to reach /_stcore/health",
+      "timestamp": "2026-09-07T00:34:48.500Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    },
+    {
+      "level": "error",
+      "message": "Streamlit server is not responding. Are you connected to the internet?",
+      "timestamp": "2026-09-07T00:34:48.500Z",
+      "url": "http://127.0.0.1:18501/static/js/index.ByR4Z2EF.js"
+    }
+  ]
+}

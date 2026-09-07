@@ -1,0 +1,98 @@
+{
+  "created_at": "2026-09-07T18:22:12.765549+00:00",
+  "status": "PASS_DOWNLOADS_AND_SOURCE_CHECKS_BEFORE_RESTART",
+  "downloads": [
+    {
+      "path": "reports/final/native-downloads/evidence-631e4ab2-237c-42ef-a129-5ec160e33828.json",
+      "bytes": 54638,
+      "sha256": "7ce6fd321229d41f75da20ec53c2b8f0f9b4f445278e3e7bae2fb3a40fa6ffad",
+      "browser_download_equals_stored_export": true
+    },
+    {
+      "path": "reports/final/native-downloads/passages-631e4ab2-237c-42ef-a129-5ec160e33828.csv",
+      "bytes": 17214,
+      "sha256": "f277e1786cddc3585c229ee02310cba6986b1369a15ffe44af86a540408531ac",
+      "browser_download_equals_stored_export": true
+    },
+    {
+      "path": "reports/final/native-downloads/claims-631e4ab2-237c-42ef-a129-5ec160e33828.csv",
+      "bytes": 2678,
+      "sha256": "9bb92762713ee860937cdc951bf56a51d6f451f04f7f16dd81d78078a86f3478",
+      "browser_download_equals_stored_export": true
+    },
+    {
+      "path": "reports/final/native-downloads/tag-proposals-631e4ab2-237c-42ef-a129-5ec160e33828.csv",
+      "bytes": 2986,
+      "sha256": "c7775c59dfe473ad00f4229ca4f151af4fdaf8452564fed2dde80262cfe4c70c",
+      "browser_download_equals_stored_export": true
+    },
+    {
+      "path": "reports/final/native-downloads/evidence-0f9eba15-aba6-478c-9677-9bd52869cf76.json",
+      "bytes": 60669,
+      "sha256": "59e5945ee6c78aaa8ee358e617e14644fcdaedd53a7cdd426a8685d15151fbc7",
+      "browser_download_equals_stored_export": true
+    },
+    {
+      "path": "reports/final/native-downloads/passages-0f9eba15-aba6-478c-9677-9bd52869cf76.csv",
+      "bytes": 19933,
+      "sha256": "76701b0d59a8c22a83427492d4bc82af07d7cc6efea14b4e93d9d08102006dd6",
+      "browser_download_equals_stored_export": true
+    }
+  ],
+  "total_downloaded_bytes": 158118,
+  "answers": [
+    {
+      "id": "631e4ab2-237c-42ef-a129-5ec160e33828",
+      "record_hash": "773fecfb782ce99d5854ad5be161bd618df6ff6b424f0dbe309d42f0d9b567c3",
+      "question": "Where does the 2022 review locate PHOX2B, and how many exons does it describe?",
+      "status": "answered",
+      "seconds": 148.8153905000072,
+      "retrieval_seconds": 6.356372125010239,
+      "request_seconds_before_storage": 155.19402645798982,
+      "input_tokens": 2259,
+      "output_tokens": 18,
+      "claim_count": 1,
+      "retrieved_count": 10
+    },
+    {
+      "id": "0f9eba15-aba6-478c-9677-9bd52869cf76",
+      "record_hash": "dfe19eb5e3d00800a739bafc3ac058f4c04abb615ce3f72d8555faecde9d72f2",
+      "question": "What measured results does the 2021 Italian study report from a randomized PHOX2B gene-editing intervention?",
+      "status": "insufficient_evidence",
+      "seconds": 50.95597408301546,
+      "retrieval_seconds": 0.7965774170006625,
+      "request_seconds_before_storage": 51.76819566698396,
+      "input_tokens": 2855,
+      "output_tokens": 16,
+      "claim_count": 0,
+      "retrieved_count": 10
+    }
+  ],
+  "feedback": [
+    {
+      "id": "631e4ab2-237c-42ef-a129-5ec160e33828:user",
+      "answer_id": "631e4ab2-237c-42ef-a129-5ec160e33828",
+      "score": 1,
+      "comment": "Assistant QA: both requested facts are present in the cited 2022 review. Functional test only; not researcher satisfaction or scientific approval.",
+      "timestamp": "2026-09-07T18:20:04.054427+00:00",
+      "source": "qa",
+      "traffic_origin": "qa"
+    },
+    {
+      "id": "0f9eba15-aba6-478c-9677-9bd52869cf76:user",
+      "answer_id": "0f9eba15-aba6-478c-9677-9bd52869cf76",
+      "score": 1,
+      "comment": "Assistant QA: corpus-scoped refusal without invented intervention results. Functional test only; not researcher satisfaction.",
+      "timestamp": "2026-09-07T18:21:38.542800+00:00",
+      "source": "qa",
+      "traffic_origin": "qa"
+    }
+  ],
+  "record_hashes_before_restart": {
+    "631e4ab2-237c-42ef-a129-5ec160e33828": "773fecfb782ce99d5854ad5be161bd618df6ff6b424f0dbe309d42f0d9b567c3",
+    "0f9eba15-aba6-478c-9677-9bd52869cf76": "dfe19eb5e3d00800a739bafc3ac058f4c04abb615ce3f72d8555faecde9d72f2",
+    "631e4ab2-237c-42ef-a129-5ec160e33828:user": "a5ee28a4e16a70b7ce467d538e77d09ea4d2e3f26afd4e5c7fad7932a8bcb3cc",
+    "0f9eba15-aba6-478c-9677-9bd52869cf76:user": "1469f782f31ec14147b06cd6d50b91e2aef0c8ae6bdad8e9cbb93c1f951b8b45"
+  },
+  "provider_attempt_count": 2
+}

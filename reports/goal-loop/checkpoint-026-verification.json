@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-09-06T14:36:07.148254+00:00",
+  "status": "VERIFIED_SCOPE_LIMITED",
+  "previous_goal_turn_classification": "PROGRESS: 420 rank replays and84 actual retrieval queries established the next controlled answer test.",
+  "this_goal_turn_classification": "PROGRESS: eight local calls completed, all41 retrieved source windows/eight outputs/exports reviewed, both candidates rejected; a taught schema-backed mechanism identified for the next isolated repair.",
+  "runtime_code_id": "aec7fed7035ba48093c0f17f865e5be36a34f2c4c3247d61473da8face2f7f05",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "previous_checkpoint": {
+    "path": "reports/goal-loop/checkpoint-025-verification.json",
+    "hash": "45d60d2df42bf433361d83765d25649f4f3b19e01cfdf4926ef6582e6f708ff6"
+  },
+  "new_experiments": [
+    "026"
+  ],
+  "unique_new_goal_local_calls": 109,
+  "new_calls_this_turn": 8,
+  "ordinary_application_calls": 72,
+  "reference_diagnostic_calls": 4,
+  "format_source_diagnostic_calls": 33,
+  "new_call_ids": [
+    "0746d3d1-e786-4d37-908f-ca55e1475899",
+    "0e9f79ac-31bf-4b19-a0b1-55f7292ea78e",
+    "31315a05-0754-4b81-9c7c-b7e3027979b7",
+    "55d00b73-b465-4dd7-b90b-9bfe7bd444ca",
+    "91c5bb96-2ca5-4cdc-93be-48789002b736",
+    "a7370d8d-416b-4973-99fc-577c1a63ee93",
+    "f4d85c16-c092-4808-8b2a-0b1601909a4a",
+    "f8a21fbb-2f86-4f4f-af20-bdda6c521396"
+  ],
+  "new_ids_disjoint_from_previous_results": true,
+  "input_tokens_this_turn": 28061,
+  "output_tokens_this_turn": 706,
+  "new_retrieval_queries_this_turn": 8,
+  "goal_retrieval_queries": 470,
+  "goal_rank_replays": 420,
+  "final_model_calls_this_goal": 0,
+  "final_exposure": "Previously readable/validated bank; no final inference or selection. Not claimed unseen.",
+  "quality_promotion": false,
+  "official_points": null,
+  "local_core_evidence_ready": false,
+  "quality_outcome": {
+    "vector_10": {
+      "answerable_accepted": 0,
+      "answerable_count": 3,
+      "nonanswer_accepted": 0,
+      "nonanswer_count": 1,
+      "output_errors": 4
+    },
+    "hybrid_title0_rrf1_10": {
+      "answerable_accepted": 0,
+      "answerable_count": 3,
+      "nonanswer_accepted": 0,
+      "nonanswer_count": 1,
+      "output_errors": 4
+    }
+  },
+  "protected_file_hashes": {
+    "configs/app.json": "23db0695f936f9742865b1726da3e766025cc91974fd028e85f6e9fcb0aa47cf",
+    "data/README.md": "2656d2f4592a89fbeb7f3a13b8421ffdbf259fd0bbb0a77ccc5850708259733d",
+    "data/evaluation/questions-v2.json": "5137692ff65c370c67bf2f1df7e38d9f96b6c0bd5485477bad4ebb9d0133fdee",
+    "data/evaluation/questions.json": "17453afccfca77194a334fd2a64f60a242c948ae4a0bd5405967e91eeeff5da6",
+    "data/manifest.json": "5cb22c98c9565e8c0af3c80e186eb4b1b0466f367fe2bd1c1f9dcdd5f002c732",
+    "data/raw/PMC7503443.json": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+    "data/raw/PMC8039127.json": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+    "data/raw/PMC8963195.json": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde"
+  },
+  "protected_files_unchanged": true,
+  "latest_software_suite": {
+    "path": "reports/checks.json",
+    "hash": "b890176ffb1b5d416d6b11df2c9aff56b2369907b7b3aead95f022d95ac653f2",
+    "created_at": "2026-09-06T13:30:14.993487+00:00",
+    "passed": 116,
+    "skipped": 0,
+    "rerun_this_turn": false,
+    "reason": "No production code/dependency changes. Recomputed every new primary/whole summary, checked all request/receipt/context IDs and protected hashes; all eight actual model calls are failures, not passing tests."
+  },
+  "new_result_hashes": {
+    "reports/experiments/answers-61c1c04b-6628-4313-8bdd-af0e0b15244a/results.json": "a5953de93c1c1ba08d5735775b74a47cbb9348cea3cbdaaab21c9bd0191cbc36",
+    "reports/experiments/answers-f88d7be4-47e4-4a00-9e84-16f4a8c0eadd/results.json": "61dfa8dc43b8ee69acdbb3bcf8be0cafecaba00ab5ef17cc8d6574009878cfe7"
+  },
+  "review_comparison_hash": "d7c7607d65ae6732c528ba8665c74b706371a9e13f464f1204fb98599e857d69",
+  "process_evidence": {
+    "preparation_session": 99857,
+    "generation_session": 49664,
+    "both_exit_code": 0,
+    "both_terminal": true
+  },
+  "local_network_failure": "Initial sandbox metadata request hit PermissionError errno1; existing serverPID763 remained listening. Escalated read-only metadata and scoped eight-call run succeeded. No restart/settings change.",
+  "server_context_observation": {
+    "path": "reports/goal-loop/cutoff-answer-026/server-context-observation.json",
+    "hash": "db3ed772eba02fcba1f0b516cb4f465f8f70e37e36cd51ce534dbf7f6bef6424",
+    "allocated_tokens_after_each_arm": 4096,
+    "correlated_completions_without_truncation": 8,
+    "capacity_for_all_questions_and_full_output_budget_proven": false
+  },
+  "next_action": "Predeclare/test schema-backed output using the existing local provider and taught Module4 method. Isolate it with smaller incumbent contexts and unchanged model/prompt/output budget; keep raw receipts and all strict validators/review vetoes.",
+  "pending_approvals": [
+    "Exact Q8 model download",
+    "Docker installation and prepared Compose rehearsal"
+  ],
+  "not_a_blocked_goal": "A concrete course-grounded schema repair can proceed with existing libraries/model; approval-dependent alternatives remain separate.",
+  "local_markdown_targets_checked": 142,
+  "unresolved_local_paths": [],
+  "git_diff_whitespace_check": "PASS"
+}

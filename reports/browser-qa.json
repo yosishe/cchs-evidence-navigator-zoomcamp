@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-09-05T18:11:39.064223+00:00",
+  "status": "PREVIEW_FLOW_VERIFIED_LIVE_LLM_PENDING",
+  "url": "http://127.0.0.1:8501/",
+  "driver": "Actual Codex in-app browser through CUA; separate from Streamlit AppTest",
+  "selected_config_id": "b7b7e0e80c62cc1d72c7e1aaacbb14dc959b4dff58e07cb40a20be088a88cdbb",
+  "selected_corpus_id": "80225d882b27f7e955d5e240368314a49e29f4a8a4d516e0fa455e2cd2be1f6a",
+  "selected_request_id": "f660762f-63c5-4e2d-a0d7-4afc151d4eb8",
+  "checks": {
+    "question_submitted_and_ranked_sources_visible": true,
+    "source_expanded_and_raw_span_compared": true,
+    "selected_top_source": "PMC7503443:a26671042513feb5:12:0:409",
+    "source_location": "BioC passage 12, half-open local characters [0,409)",
+    "feedback_success_message_observed": true,
+    "feedback_foreign_keys_verified": true,
+    "page_reload_clears_session_answer_but_keeps_journal": true,
+    "dashboard_scope_after_reload": {
+      "requests": 2,
+      "rated_requests": 2,
+      "provider_usage_records": 0
+    },
+    "empty_input_warning_observed": true,
+    "four_populated_charts_plus_provider_usage_empty_state": true,
+    "visual_layout_inspected": true,
+    "export_controls_visible": true
+  },
+  "traffic_origin": "Two automated QA interactions; feedback text marks these as testing, not human relevance labels.",
+  "not_verified": [
+    "actual LLM answer",
+    "downloaded export file round trip in browser",
+    "database/server restart",
+    "PostgreSQL",
+    "scientific support",
+    "five populated chart types"
+  ],
+  "screenshot_artifact": "Screenshot inspected inline; no repository screenshot file claimed."
+}

@@ -1,0 +1,43 @@
+{
+  "reviewer": "Codex source-based provisional prototype review",
+  "reviewer_kind": "assistant",
+  "results_hash": "2ba245998ced6b57685c6d6c1fc110d48059795d4fb667d182668867efc05dd6",
+  "reviews": [
+    {
+      "answer_id": "95b8f256-efa4-4479-b0c4-a64522176c8e",
+      "record_hash": "356e6eac2b7a810c7193dfa82f51a9635151a84b8b639f1e337fc4bfcb28d40a",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The draft count and period are carried into raw claims, but the period claim cites Italian passage 68 and quotes a sentence absent there; the actual period is in passage 19. The validator correctly blocks the full output. Added population-not-well-defined prose is not an established source limitation."
+    },
+    {
+      "answer_id": "711e7657-7e02-4675-a2bb-5931980d45a8",
+      "record_hash": "5372e2aa06a62019b623767b967685e95fcd8773ca5d2dfaa80e4989d98d7535",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The formatting turn propagates the malformed draft period and uses full source-version strings as passage IDs. It produces altered quotations and reaches the 900-token limit. No claims can be accepted or exported, despite some required facts appearing in raw text."
+    },
+    {
+      "answer_id": "08bfdde6-b685-4457-abae-bdb3e5fd5274",
+      "record_hash": "32569320d1d2fb2ca03c3dff90e8bff8db9ab9cffbd76661d927fd908ab3c4dd",
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The final output correctly states that the supplied passages do not report outcomes of the requested randomized gene-editing intervention. It describes the corpus gap without asserting the intervention occurred; the genetic/management scope is consistent with the supplied publications. No unsupported added findings remain."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "EXECUTED_AWAITING_COMPARISON",
+  "plan_hash": "e2eea23d32af3350bc1252b71d4ec3ea9a7cb8b4591f4ea3e460e05579042f68",
+  "result_path": "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/reference-diagnostic-1fc16d20-dfb5-44c3-a392-f8f540c23d20.json",
+  "actual_provider_requests": 2
+}

@@ -1,0 +1,18 @@
+{
+  "status": "BLOCKED_MODEL_PREFLIGHT",
+  "created_at": "2026-09-05T22:49:38.845221+00:00",
+  "split": "tuning",
+  "models": [
+    "phi3",
+    "gemma:2b"
+  ],
+  "prompts": [
+    "concise",
+    "evidence_first"
+  ],
+  "runs": [],
+  "selection_status": "NOT_SELECTED",
+  "run_directory": "reports/experiments/local-matrix-d4114490-37d3-4e1b-a74e-a5e2b35c01d5",
+  "error_type": "RuntimeError",
+  "actual_generation_requests": 0
+}

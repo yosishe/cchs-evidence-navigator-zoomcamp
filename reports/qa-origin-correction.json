@@ -1,0 +1,10 @@
+{
+  "answer_id": "1c063458-02e1-4343-b3f0-a27cab3696a9",
+  "previous_origin": "user",
+  "corrected_origin": "qa",
+  "reason": "Known automated AppTest at 20:34:28 UTC reached the development journal before storage-cache isolation was fixed.",
+  "original_journal_sha256": "56cdd62a5ecf72c56063f05f60a2ee633bf25f17a7f3d749f88a8b17eecd6f28",
+  "original_preserved_in_ignored_runtime": true,
+  "answers_deleted": 0,
+  "feedback_deleted": 0
+}

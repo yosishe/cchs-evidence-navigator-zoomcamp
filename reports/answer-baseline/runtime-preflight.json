@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-09-06T08:34:58.827930+00:00",
+  "status": "RUNTIME_METADATA_READY",
+  "scope": "Local setup metadata only; no answer-quality or reproduction claim",
+  "runtime_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "python_version": "3.12.14",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "docker_available": false,
+  "configured_model": "phi3",
+  "json_mode": true,
+  "request_timeout_seconds": 120,
+  "provider_requests": 0,
+  "metadata_requests": [
+    {
+      "method": "GET",
+      "endpoint": "api/version"
+    },
+    {
+      "method": "GET",
+      "endpoint": "api/tags"
+    },
+    {
+      "method": "POST",
+      "endpoint": "api/show"
+    },
+    {
+      "method": "GET",
+      "endpoint": "api/ps"
+    }
+  ],
+  "blockers": [],
+  "warnings": [],
+  "corpus": {
+    "id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "windows": 377
+  },
+  "ollama_cli_available": true,
+  "ollama_cli_version_candidates": [
+    "0.31.1"
+  ],
+  "ollama_server_version": "0.31.1",
+  "installed_models": [
+    {
+      "name": "gemma:2b",
+      "digest": "b50d6c999e592ae4f79acae23b4feaefbdfceaa7cd366df2610e3072c052a160",
+      "size": 1678456656
+    },
+    {
+      "name": "phi3:latest",
+      "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+      "size": 2176178913
+    },
+    {
+      "name": "gemma3:12b",
+      "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+      "size": 8149190253
+    }
+  ],
+  "selected_model": {
+    "name": "phi3:latest",
+    "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+    "size": 2176178913
+  },
+  "model_details": {
+    "family": "phi3",
+    "parameter_size": "3.8B",
+    "quantization_level": "Q4_0"
+  },
+  "architecture_context_limits": {
+    "phi3.context_length": 131072
+  },
+  "loaded_context_tokens": 4096,
+  "context_note": "Architecture capacity is not the allocated server window. Null means not observed, not zero.",
+  "still_required": [
+    "Offline encoder check: python -m navigator prepare-encoder",
+    "A successful generated answer and paired-prompt review",
+    "Compose and fresh-environment rehearsal before claiming reproduction"
+  ]
+}

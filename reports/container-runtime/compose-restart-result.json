@@ -1,0 +1,71 @@
+{
+  "phase": "compose-restart",
+  "command": [
+    "/Applications/Docker.app/Contents/Resources/bin/docker",
+    "--context",
+    "desktop-linux",
+    "compose",
+    "-p",
+    "cchs-zoomcamp-rehearsal",
+    "restart",
+    "db",
+    "ollama",
+    "app"
+  ],
+  "exit_code": 0,
+  "violation": null,
+  "initial": {
+    "at": "2026-09-07T13:17:41.031977+00:00",
+    "elapsed_seconds": 0.0,
+    "host_free_bytes": 13957935104,
+    "new_container_disk_allocated_bytes": 14772801536,
+    "disks": [
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/cchs-rehearsal-data/Docker.raw",
+        "logical_bytes": 21474836480,
+        "allocated_bytes": 14760943616
+      },
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw",
+        "logical_bytes": 494384709632,
+        "allocated_bytes": 11857920
+      }
+    ],
+    "settings": {
+      "Cpus": 6,
+      "MemoryMiB": 10240,
+      "DiskSizeMiB": 20480,
+      "AutoStart": false,
+      "KubernetesEnabled": false,
+      "EnableInference": false,
+      "EnableDockerAI": false
+    }
+  },
+  "final": {
+    "at": "2026-09-07T13:17:43.174240+00:00",
+    "elapsed_seconds": 2.14,
+    "host_free_bytes": 13958434816,
+    "new_container_disk_allocated_bytes": 14772297728,
+    "disks": [
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/cchs-rehearsal-data/Docker.raw",
+        "logical_bytes": 21474836480,
+        "allocated_bytes": 14760439808
+      },
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw",
+        "logical_bytes": 494384709632,
+        "allocated_bytes": 11857920
+      }
+    ],
+    "settings": {
+      "Cpus": 6,
+      "MemoryMiB": 10240,
+      "DiskSizeMiB": 20480,
+      "AutoStart": false,
+      "KubernetesEnabled": false,
+      "EnableInference": false,
+      "EnableDockerAI": false
+    }
+  }
+}

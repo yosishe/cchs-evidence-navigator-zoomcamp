@@ -1,0 +1,340 @@
+{
+  "version": 1,
+  "corpus_id": "80225d882b27f7e955d5e240368314a49e29f4a8a4d516e0fa455e2cd2be1f6a",
+  "purpose": "Small provisional development benchmark, not an independently validated final benchmark",
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "Was the Italian-center study prospective or retrospective?",
+      "split": "tuning",
+      "group_id": "study_design",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "relevant_source_ids": [
+        "PMC8039127"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "collected retrospectively"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q02",
+      "question": "What recruitment period does the Italian-center paper describe?",
+      "split": "tuning",
+      "group_id": "study_design",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "relevant_source_ids": [
+        "PMC8039127"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "between 2000 and 2020"
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "quote": "between 2000 and 2020"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q03",
+      "question": "What limitations do the Italian-center authors acknowledge?",
+      "split": "tuning",
+      "group_id": "limitations",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "relevant_source_ids": [
+        "PMC8039127"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "quote": "Our study has some limitations"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q04",
+      "question": "How do the guideline authors describe the underlying evidence base?",
+      "split": "tuning",
+      "group_id": "guideline_evidence",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "most of the evidence is descriptive"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q05",
+      "question": "How did the guideline authors combine publications and clinical experience?",
+      "split": "tuning",
+      "group_id": "guideline_evidence",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "clinical expertise"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q06",
+      "question": "Which organization performed the initial literature search for the guidelines?",
+      "split": "tuning",
+      "group_id": "guideline_search",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "quote": "University of York"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q07",
+      "question": "Which research contexts are mentioned for investigation of PHOX2B mechanisms?",
+      "split": "tuning",
+      "group_id": "research_context",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:10:0:1000"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:1000",
+          "quote": "in vitro, in vivo, and in CCHS patients"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q08",
+      "question": "Find a passage in the care review that discusses multidisciplinary care.",
+      "split": "test",
+      "group_id": "review_coverage",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:15:0:1000",
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:1000",
+        "PMC8963195:f6c8a0a4968ccaf4:24:850:1689",
+        "PMC8963195:f6c8a0a4968ccaf4:2:0:1000",
+        "PMC8963195:f6c8a0a4968ccaf4:2:850:1777",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:1000",
+        "PMC8963195:f6c8a0a4968ccaf4:35:850:1850",
+        "PMC8963195:f6c8a0a4968ccaf4:41:850:1439",
+        "PMC8963195:f6c8a0a4968ccaf4:52:0:1000",
+        "PMC8963195:f6c8a0a4968ccaf4:52:850:1143",
+        "PMC8963195:f6c8a0a4968ccaf4:53:0:853",
+        "PMC8963195:f6c8a0a4968ccaf4:5:0:487",
+        "PMC8963195:f6c8a0a4968ccaf4:60:0:972",
+        "PMC8963195:f6c8a0a4968ccaf4:68:0:1000",
+        "PMC8963195:f6c8a0a4968ccaf4:68:850:1133",
+        "PMC8963195:f6c8a0a4968ccaf4:70:0:749"
+      ],
+      "relevant_source_ids": [
+        "PMC8963195"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:15:0:1000",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:1000",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:850:1689",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:0:1000",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:850:1777",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:1000",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:850:1850",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:41:850:1439",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:52:0:1000",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:52:850:1143",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:53:0:853",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:5:0:487",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:60:0:972",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:68:0:1000",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:68:850:1133",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "quote": "multidisciplinary"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q09",
+      "question": "Find the guidelines passage describing family associations as a resource.",
+      "split": "test",
+      "group_id": "family_support",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:145:0:626"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "quote": "family associations"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q10",
+      "question": "Which earlier statement do the guideline conclusions compare with?",
+      "split": "test",
+      "group_id": "guideline_comparison",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:188:0:666"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:188:0:666",
+          "quote": "2010 American Thoracic Society"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q11",
+      "question": "Find the passage connecting a reference centre with registry and research participation.",
+      "split": "test",
+      "group_id": "registry_research",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:153:0:524"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:153:0:524",
+          "quote": "registry and research activities"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q12",
+      "question": "Which randomized clinical trial in this corpus establishes a cure for CCHS?",
+      "split": "tuning",
+      "group_id": "absent-tuning",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Designed out-of-corpus case; no claim about all published literature."
+    },
+    {
+      "id": "Q13",
+      "question": "What were the outcomes of the CCHS trial published in 2030?",
+      "split": "test",
+      "group_id": "absent-test",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Designed out-of-corpus case; no claim about all published literature."
+    }
+  ]
+}

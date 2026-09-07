@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "0bf3e8a80a763c84a3deda97d2c111cbbd97be74da6187f7437b1f68ac366b36",
+  "reviews": [
+    {
+      "answer_id": "2cd64a92-673b-4339-930b-d6e89877887a",
+      "record_hash": "6a48cdf3def5fe42153904983f12880f9c7778d20161b251524b013a38b33a6a",
+      "export_hash": "0960459cdd5104f159c40602a65312a7d2564c129fc5ccf99ba2e0c2529b136f",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "Italian aims passage 17 is now retrieved and directly supports both stated aims; no method is substituted. Both claims and copied spans are explicit and the empty limitations add no assertion."
+    },
+    {
+      "answer_id": "c48248a1-378e-4ee8-b93c-9bf8c5d361e2",
+      "record_hash": "246e11d68e3978be0a7e060b8f3b54ef0936758860788ce9e5fa8ee82b99e14b",
+      "export_hash": "2a2e2e51de9d5c863835dafd32183bd12d0e2afafed9a059933abb349aba2733",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "Italian abstract passage 2 directly supports retrospective 22-patient data and 2000-2020 follow-up/referral period. Both required facts are explicit and the exact source text is preserved in exports."
+    },
+    {
+      "answer_id": "a30ce85c-8983-49d1-8197-fe3e135b27fe",
+      "record_hash": "d2da2e724b3183b2504ca707050e327ef8eef279b1528bcfc42f10096fcd84c4",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Both EMR and retrospective passages are supplied, but the model inserts ellipses in quotes. Strict validation rejects the whole result; no canonical answer or claim exports."
+    },
+    {
+      "answer_id": "7eadeb31-0ff7-41cd-b002-d18916ff526e",
+      "record_hash": "d65db6198ee927f0366cf47d0dbcb34bf7fbe476ea0f87cd7358d03315bcb455",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The supplied guideline development passage describes literature searches but omits the descriptive/low-grade/clinical-experience paragraph 13. Context-scoped refusal is defensible, but the answerable end-to-end task fails."
+    },
+    {
+      "answer_id": "bd621155-8db0-4c1b-9ee8-20b639abc45f",
+      "record_hash": "936d7e4f813304b4c4a2b82c54621b2c25341333738e82118bce992b14903670",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The PHOX2B/exon reference is available, but the second alleged quote is rewritten rather than a contiguous source substring; the first and third quotes match. The entire answer is rejected, so correct intended facts are not counted as delivered."
+    },
+    {
+      "answer_id": "2d2aeeb1-f553-4d52-aa89-13d10965076e",
+      "record_hash": "350b98542dc93d45b1bf262893640222e1b1a433e38e38bff160ffdfc8072cfb",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Missing limitations key rejects the full response. It also adds unrelated assay facts. No canonical claims or tag proposals are emitted."
+    },
+    {
+      "answer_id": "e700fb71-0ec5-4a54-847a-162022888a43",
+      "record_hash": "371510367d3c0c5ed999d5a4f4b472c4bc305f89a1b25c3a112820b33bbff589",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Missing limitations and invented ellipses reject the output; both sources are available, so this is generation/format failure rather than missing evidence."
+    },
+    {
+      "answer_id": "e735e675-e8e0-48c1-9371-545204bcb8fb",
+      "record_hash": "51024134811eba5376ce9a70b390411af6d90b3143e0f450a82e282789da9037",
+      "export_hash": "154293626f5897096a1bc189b59b092d5de898b4f428d0f2d79334cfda705949",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Italian 86%/14% and review NPARM 10% are supported as stated, but the requested review PARM 90% is not delivered. Its source window is not in this context. Limitations acknowledge a small cohort, yet speculate about differing prevalence methods (a review is not a separate sampled prevalence study). That methodological conjecture is not established by these passages; whole-prose support remains uncertain, never pass. Exports carry the same incomplete qualification without upgrading it."
+    },
+    {
+      "answer_id": "d551f6a5-347b-4673-9cbf-2baeabf1cecb",
+      "record_hash": "e43282cb81d6ecb86ecf16a835353774e27f3a52da2c61cf96e276286924c37d",
+      "export_hash": "de31585b53e5937eb7cf1652ea4cc531d87ca4d7e532c5ec5208716aa4ec463e",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "A genetic amplification method is presented as the required qualification of a repeat-length/ventilation relationship"
+      ],
+      "acceptable": false,
+      "reason": "The authentic quote concerns detection/amplification of PARMs. It does not justify the claim that this method is the necessary caveat for a ventilation association. Guideline association/exception passage 52 is absent. Neither frozen required element is covered; semantic support fails despite a genuine quotation."
+    },
+    {
+      "answer_id": "ef322f29-c159-4893-a5c6-8d4a0ec506c8",
+      "record_hash": "2ecb4758dc8392b8f57fc04702c911e4395e1d7dd323a1f7a53ab5289050efe8",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The actual context includes Italian limitations passage 68 and retrospective methods. Declining the narrow question omits available design and heterogeneity facts. No unsupported causal rule is displayed."
+    },
+    {
+      "answer_id": "aaa24995-16ff-4a34-980c-613ced190018",
+      "record_hash": "c054065b630a3c78b6563c7100ef158f21e93d86746583ac28c259a902b2246a",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The refusal stays scoped to what the supplied passages establish and does not affirm a randomized intervention or invent a transcriptomic accession. No canonical claims or claim/tag exports are emitted."
+    },
+    {
+      "answer_id": "5efd5c95-157d-4b9d-bbdf-22690c0c7e1b",
+      "record_hash": "495f8a1c840ea35d027c5f165002df186823f95f4d3365f02773b2f9020a7feb",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The refusal stays scoped to what the supplied passages establish and does not affirm a randomized intervention or invent a transcriptomic accession. No canonical claims or claim/tag exports are emitted."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "repository": "ollama/ollama",
+  "index_digest": "sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc",
+  "arm64_digest": "sha256:ed080fb8d2e99f805a636e7982449d9c34bbaf4016400b06842d32f5bc9b0b2b",
+  "layer_compressed_bytes": 2773843702,
+  "layers": [
+    {
+      "digest": "sha256:fff3795b437199a0b714aadba6fb2c251d7da853c3e257d3fed1d2c8d0f05158",
+      "bytes": 28876406
+    },
+    {
+      "digest": "sha256:c8172516468eec4abbdf2a60c56f3ec4afd413768f9aa7fa457c3ef07ba54f22",
+      "bytes": 101492017
+    },
+    {
+      "digest": "sha256:2d7b59864f464a5f00f82375d7b86d0a4f55c0bc82987b734d0ebed78a8630c1",
+      "bytes": 12225175
+    },
+    {
+      "digest": "sha256:c5cdb9aa51fcf3536da6962617bc61e59c87b3aeda4637ee25e29a1bab21d2c0",
+      "bytes": 2631250104
+    }
+  ],
+  "note": "Compressed registry layers, not extracted usage or actual transferred wire bytes. Initial CLI attempt failed before PATH included Desktop credential helper; retry uses installed official bin directory."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "EXECUTED_AWAITING_AGENT_REVIEW",
+  "created_at": "2026-09-07T01:22:59.705232+00:00",
+  "plan_hash": "7ce77aa54f24f26ce45ba06222baefa12c815582b4a10256abfc24f651d41ee8",
+  "arms": [
+    {
+      "arm": "source-extract-checked-feasibility",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json",
+      "actual_attempts": 5,
+      "after": {
+        "observed_at": "2026-09-07T01:25:44.275412+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "gemma3:12b",
+              "model": "gemma3:12b",
+              "size": 7809332673,
+              "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma3",
+                "families": [
+                  "gemma3"
+                ],
+                "parameter_size": "12.2B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-09-07T04:30:44.190671+03:00",
+              "size_vram": 7809332673,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "actual_attempts": 5,
+  "planned_attempts": 5
+}

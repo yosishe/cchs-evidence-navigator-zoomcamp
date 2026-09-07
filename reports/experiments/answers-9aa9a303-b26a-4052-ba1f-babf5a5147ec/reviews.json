@@ -1,0 +1,85 @@
+{
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "b7ecc1fb97e38d89ae3ac000fd8e1b0631a99df9e73492fb71300594fa4597ed",
+  "reviews": [
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The selected original Italian aims sentence includes both genotypes/clinical findings and changes in management over time. It is explicitly displayed as an attributed excerpt, not a newly generated scientific interpretation.",
+      "answer_id": "042a88fe-8384-4bb2-8627-d05979527acc",
+      "record_hash": "e82a6cd4b5c7869a279a018810b05b55e34b74da08ce3d5a8f7d01899774b8da"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The selected retrospective abstract is authentic and relevant but does not identify electronic medical records. The available methods excerpt is omitted. A correct excerpt alone does not make the answer complete.",
+      "answer_id": "4d8ce908-e161-48b6-a138-5fbc2b956af5",
+      "record_hash": "10e36b6155dafc7993c20725d55f2ce51fcaa6874d961d48dec72e9bffcdbb9b"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The selected Italian sentence explicitly states retrospective patient data. The selected guideline method explicitly combines published evidence with clinical expertise/experience. Publication identities stay separate and exports add no inferred agreement, pooled population or causal claim. Several extra contextual sentences make the answer verbose; both required sides are nevertheless present and supported.",
+      "answer_id": "557f0c8a-363b-484f-84dc-59e364854a69",
+      "record_hash": "49e092169551b79a8cf792ff53913f91f0086a8119503eb7efae6be55b7051f6"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The corpus-scoped refusal avoids a false randomized/causal claim but omits the supplied retrospective-design and heterogeneous-population limitations. It is not a complete answer to the frozen answerable question.",
+      "answer_id": "f1ab7442-2f1a-49e0-9bc5-9ca883afabf2",
+      "record_hash": "a18ce0ba110fbbaec3f07710e9b55af8be4bff4339cf976329ed7b0d10fd6b9b"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "Generic source-scoped refusal introduces no randomized-intervention premise or literature-wide absence assertion. No source or tag rows are presented as an answer.",
+      "answer_id": "6efe8aa7-9c83-4992-85c2-7cc2fc9f3669",
+      "record_hash": "a97bbf73b453db9532cb32c8167b18ac333cd930c9cf6ec758baa700a008eaf3"
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "created_at": "2026-09-07T13:26:56.785178+00:00",
+  "model_files": {
+    "exit_code": 0,
+    "stdout": "856 /root/.ollama/models/manifests/registry.ollama.ai/library/phi3/latest\n78 /root/.ollama/models/blobs/sha256-8dde1baf1db03d318a2ab076ae363318357dff487bdd8c1703a29886611e581f\n2176177120 /root/.ollama/models/blobs/sha256-633fc5be925f9a484b61d6f9b9a78021eeb462100bd557309f01ba84cac26adf\n483 /root/.ollama/models/blobs/sha256-23291dc44752bac878bf46ab0f2b8daf75c710060f80f1a351151c7be2f5ee0f\n1084 /root/.ollama/models/blobs/sha256-fa8235e5b48faca34e3ca98cf4f694ef08bd216d28b58071a1f85b1d50cb814d\n148 /root/.ollama/models/blobs/sha256-542b217f179c7825eeb5bca3c77d2b75ed05bafbd3451d9188891a60a85337c6\n",
+    "stderr": ""
+  },
+  "model_volume_bytes": {
+    "exit_code": 0,
+    "stdout": "2176179769\t/root/.ollama/models\n",
+    "stderr": ""
+  },
+  "database_volume_bytes": {
+    "exit_code": 0,
+    "stdout": "48264165\t/var/lib/postgresql/data\n",
+    "stderr": ""
+  },
+  "encoder_files": {
+    "unique_files": [
+      {
+        "path": "CACHEDIR.TAG",
+        "bytes": 191,
+        "allocated_bytes": 4096,
+        "sha256": "f6572428f6d5e1575e73a1502895a8731f10757dfbb634909c6e154b849af91d"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/72b987fd805cfa2b58c4c8c952b274a11bfd5a00.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/cb202bfe2e3c98645018a6d12f182a434c9d3e02.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/59d594003bf59880a884c574bf88ef7555bb0202.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/d1514c3162bbe87b343f565fadc62e6c06f04f03.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/c79f2b6a0cea6f4b564fed1938984bace9d30ff0.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/44af2e3b0fa3a0b6239e48422972bf755f28fde0.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/952a9b81c0bfd99800fabf352f69c7ccd46c5e43.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/fd1b291129c607e5d49799f87cb219b27f98acdf.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": ".locks/models--sentence-transformers--all-MiniLM-L6-v2/53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db.lock",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+        "bytes": 10502,
+        "allocated_bytes": 12288,
+        "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json",
+        "bytes": 112,
+        "allocated_bytes": 4096,
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json",
+        "bytes": 612,
+        "allocated_bytes": 4096,
+        "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json",
+        "bytes": 466247,
+        "allocated_bytes": 466944,
+        "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt",
+        "bytes": 231508,
+        "allocated_bytes": 233472,
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json",
+        "bytes": 116,
+        "allocated_bytes": 4096,
+        "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json",
+        "bytes": 349,
+        "allocated_bytes": 4096,
+        "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json",
+        "bytes": 350,
+        "allocated_bytes": 4096,
+        "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/model.safetensors",
+        "bytes": 90868376,
+        "allocated_bytes": 90869760,
+        "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json",
+        "bytes": 53,
+        "allocated_bytes": 4096,
+        "sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/snapshots/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling/config.json",
+        "bytes": 190,
+        "allocated_bytes": 4096,
+        "sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/.no_exist/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/added_tokens.json",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/.no_exist/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/preprocessor_config.json",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/.no_exist/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/video_preprocessor_config.json",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/.no_exist/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/adapter_config.json",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/.no_exist/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/chat_template.jinja",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "models--sentence-transformers--all-MiniLM-L6-v2/.no_exist/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/processor_config.json",
+        "bytes": 0,
+        "allocated_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "unique_file_bytes": 91578606,
+    "allocated_file_bytes": 91615232,
+    "symlink_duplicates_counted_once": true
+  },
+  "services": [
+    {
+      "ID": "f55a7a138f56",
+      "Name": "cchs-zoomcamp-rehearsal-app-1",
+      "Service": "app",
+      "State": "running",
+      "Health": "healthy",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-app"
+    },
+    {
+      "ID": "a3edd4891609",
+      "Name": "cchs-zoomcamp-rehearsal-checks",
+      "Service": "ingest",
+      "State": "exited",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-ingest"
+    },
+    {
+      "ID": "87496ca7a7d3",
+      "Name": "cchs-zoomcamp-rehearsal-db-1",
+      "Service": "db",
+      "State": "running",
+      "Health": "healthy",
+      "ExitCode": 0,
+      "Image": "postgres:17.6@sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929"
+    },
+    {
+      "ID": "a49bb3831706",
+      "Name": "cchs-zoomcamp-rehearsal-encoder-init-1",
+      "Service": "encoder-init",
+      "State": "exited",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-encoder-init"
+    },
+    {
+      "ID": "f86db05d1c57",
+      "Name": "cchs-zoomcamp-rehearsal-ingest-1",
+      "Service": "ingest",
+      "State": "exited",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-ingest"
+    },
+    {
+      "ID": "7cedf59c4dc2",
+      "Name": "cchs-zoomcamp-rehearsal-model-init-1",
+      "Service": "model-init",
+      "State": "exited",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-model-init"
+    },
+    {
+      "ID": "255d9baab0f6",
+      "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+      "Service": "ollama",
+      "State": "running",
+      "Health": "healthy",
+      "ExitCode": 0,
+      "Image": "ollama/ollama:0.31.1@sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc"
+    }
+  ],
+  "runtime_images": [
+    {
+      "Id": "sha256:36b4317bd930a74811408c225d0369644010b919840e3d0c3620ab91ac5c8c86",
+      "RepoTags": [
+        "cchs-zoomcamp-rehearsal-app:latest"
+      ],
+      "RepoDigests": [
+        "cchs-zoomcamp-rehearsal-app@sha256:36b4317bd930a74811408c225d0369644010b919840e3d0c3620ab91ac5c8c86"
+      ],
+      "Architecture": "arm64",
+      "Os": "linux",
+      "Size": 545283578
+    },
+    {
+      "Id": "sha256:d753f1a26136257c802a13b4b751d80bf9895ddfc4128e02e812bba5b537db10",
+      "RepoTags": [
+        "cchs-zoomcamp-rehearsal-encoder-init:latest"
+      ],
+      "RepoDigests": [
+        "cchs-zoomcamp-rehearsal-encoder-init@sha256:d753f1a26136257c802a13b4b751d80bf9895ddfc4128e02e812bba5b537db10"
+      ],
+      "Architecture": "arm64",
+      "Os": "linux",
+      "Size": 545283587
+    },
+    {
+      "Id": "sha256:488f34fe4f455350c2fb50d446b7a2409c0d7bdeb4d6d704002094130b479c5e",
+      "RepoTags": [
+        "cchs-zoomcamp-rehearsal-ingest:latest"
+      ],
+      "RepoDigests": [
+        "cchs-zoomcamp-rehearsal-ingest@sha256:488f34fe4f455350c2fb50d446b7a2409c0d7bdeb4d6d704002094130b479c5e"
+      ],
+      "Architecture": "arm64",
+      "Os": "linux",
+      "Size": 545283581
+    },
+    {
+      "Id": "sha256:ea719b63b51b235f323b285ab4c331f83b5314d5de1a5224c01f7ea49e13adf3",
+      "RepoTags": [
+        "cchs-zoomcamp-rehearsal-model-init:latest"
+      ],
+      "RepoDigests": [
+        "cchs-zoomcamp-rehearsal-model-init@sha256:ea719b63b51b235f323b285ab4c331f83b5314d5de1a5224c01f7ea49e13adf3"
+      ],
+      "Architecture": "arm64",
+      "Os": "linux",
+      "Size": 545283585
+    },
+    {
+      "Id": "sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc",
+      "RepoTags": [
+        "ollama/ollama@sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc"
+      ],
+      "RepoDigests": [
+        "ollama/ollama@sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc"
+      ],
+      "Architecture": "arm64",
+      "Os": "linux",
+      "Size": 2773862528
+    },
+    {
+      "Id": "sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929",
+      "RepoTags": [
+        "postgres@sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929"
+      ],
+      "RepoDigests": [
+        "postgres@sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929"
+      ],
+      "Architecture": "arm64",
+      "Os": "linux",
+      "Size": 159770523
+    }
+  ],
+  "docker_storage_report": {
+    "exit_code": 0,
+    "stdout": "Images space usage:\n\nREPOSITORY                             TAG       IMAGE ID       CREATED         SIZE      SHARED SIZE   UNIQUE SIZE   CONTAINERS\ncchs-zoomcamp-rehearsal-app            latest    36b4317bd930   2 hours ago     2.62GB    2.624GB       13.38kB       1\ncchs-zoomcamp-rehearsal-model-init     latest    ea719b63b51b   2 hours ago     2.62GB    2.624GB       13.39kB       1\ncchs-zoomcamp-rehearsal-ingest         latest    488f34fe4f45   2 hours ago     2.62GB    2.624GB       13.39kB       2\ncchs-zoomcamp-rehearsal-encoder-init   latest    d753f1a26136   2 hours ago     2.62GB    2.624GB       13.4kB        1\n<none>                                 <none>    f1a705f2bd11   2 months ago    6.97GB    0B            6.967GB       1\n<none>                                 <none>    00bc86618629   10 months ago   666MB     0B            666.4MB       1\n\nContainers space usage:\n\nCONTAINER ID   IMAGE                                  COMMAND                  LOCAL VOLUMES   SIZE      CREATED             STATUS                         NAMES\na3edd4891609   cchs-zoomcamp-rehearsal-ingest         \"python tools/run_ch…\"   1               98.3kB    56 minutes ago      Exited (0) 55 minutes ago      cchs-zoomcamp-rehearsal-checks\nf55a7a138f56   cchs-zoomcamp-rehearsal-app            \"streamlit run app.p…\"   1               16.4kB    About an hour ago   Up 9 minutes (healthy)         cchs-zoomcamp-rehearsal-app-1\n7cedf59c4dc2   cchs-zoomcamp-rehearsal-model-init     \"python tools/prepar…\"   0               4.1kB     About an hour ago   Exited (0) 35 minutes ago      cchs-zoomcamp-rehearsal-model-init-1\na49bb3831706   cchs-zoomcamp-rehearsal-encoder-init   \"python -m navigator…\"   1               295kB     About an hour ago   Exited (0) About an hour ago   cchs-zoomcamp-rehearsal-encoder-init-1\n87496ca7a7d3   postgres:17.6                          \"docker-entrypoint.s…\"   1               20.5kB    About an hour ago   Up 9 minutes (healthy)         cchs-zoomcamp-rehearsal-db-1\nf86db05d1c57   cchs-zoomcamp-rehearsal-ingest         \"python -m navigator…\"   1               32.8kB    About an hour ago   Exited (0) About an hour ago   cchs-zoomcamp-rehearsal-ingest-1\n255d9baab0f6   ollama/ollama:0.31.1                   \"/bin/ollama serve\"      1               12.3kB    About an hour ago   Up 9 minutes (healthy)         cchs-zoomcamp-rehearsal-ollama-1\n\nLocal Volumes space usage:\n\nVOLUME NAME                             LINKS     SIZE\ncchs-zoomcamp-rehearsal_artifacts       4         93.79MB\ncchs-zoomcamp-rehearsal_model_weights   1         2.176GB\ncchs-zoomcamp-rehearsal_database        1         48.26MB\n\nBuild cache usage: 2.676GB\n\nCACHE ID       CACHE TYPE     SIZE      CREATED       LAST USED     USAGE     SHARED\nie8121273dax   regular        140MB     2 hours ago   2 hours ago   1         true\n9r64cjyl8qx0   regular        17.7MB    2 hours ago   2 hours ago   1         true\nh1rm9ve5v5j8   regular        56.7MB    2 hours ago   2 hours ago   1         true\n8yz0gvnac4a6   regular        16.6kB    2 hours ago   2 hours ago   1         true\nons29numjo63   source.local   8.19kB    2 hours ago   2 hours ago   1         false\nptapayplusz3   source.local   8.19kB    2 hours ago   2 hours ago   1         false\nszh78ufocj80   regular        8.29kB    2 hours ago   2 hours ago   1         true\nsd5wb74tuwhx   source.local   50.6MB    2 hours ago   2 hours ago   1         false\nq3hz94lhxi9f   regular        609kB     2 hours ago   2 hours ago   1         true\nn5vz5vuejcfw   regular        2.3GB     2 hours ago   2 hours ago   1         true\nvbmzzqdxfx2z   regular        56MB      2 hours ago   2 hours ago   1         true\n5c3yselx1ytm   regular        56.6MB    2 hours ago   2 hours ago   1         true\n",
+    "stderr": ""
+  },
+  "app_allocated_kib": "2254608\t/Applications/Docker.app\n",
+  "download_accounting_note": "Prepared file bytes and compressed image-layer descriptors are recorded separately from network transfer. Full setup network-wire bytes were not captured; container NetIO is cumulative and includes other traffic. Browser export bytes have independent actual download receipts.",
+  "model_checksum_verification": [
+    {
+      "path": "/root/.ollama/models/manifests/registry.ollama.ai/library/phi3/latest",
+      "bytes": 856,
+      "sha256": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+      "matches_manifest_or_blob_identity": true
+    },
+    {
+      "path": "/root/.ollama/models/blobs/sha256-8dde1baf1db03d318a2ab076ae363318357dff487bdd8c1703a29886611e581f",
+      "bytes": 78,
+      "sha256": "8dde1baf1db03d318a2ab076ae363318357dff487bdd8c1703a29886611e581f",
+      "matches_manifest_or_blob_identity": true
+    },
+    {
+      "path": "/root/.ollama/models/blobs/sha256-633fc5be925f9a484b61d6f9b9a78021eeb462100bd557309f01ba84cac26adf",
+      "bytes": 2176177120,
+      "sha256": "633fc5be925f9a484b61d6f9b9a78021eeb462100bd557309f01ba84cac26adf",
+      "matches_manifest_or_blob_identity": true
+    },
+    {
+      "path": "/root/.ollama/models/blobs/sha256-23291dc44752bac878bf46ab0f2b8daf75c710060f80f1a351151c7be2f5ee0f",
+      "bytes": 483,
+      "sha256": "23291dc44752bac878bf46ab0f2b8daf75c710060f80f1a351151c7be2f5ee0f",
+      "matches_manifest_or_blob_identity": true
+    },
+    {
+      "path": "/root/.ollama/models/blobs/sha256-fa8235e5b48faca34e3ca98cf4f694ef08bd216d28b58071a1f85b1d50cb814d",
+      "bytes": 1084,
+      "sha256": "fa8235e5b48faca34e3ca98cf4f694ef08bd216d28b58071a1f85b1d50cb814d",
+      "matches_manifest_or_blob_identity": true
+    },
+    {
+      "path": "/root/.ollama/models/blobs/sha256-542b217f179c7825eeb5bca3c77d2b75ed05bafbd3451d9188891a60a85337c6",
+      "bytes": 148,
+      "sha256": "542b217f179c7825eeb5bca3c77d2b75ed05bafbd3451d9188891a60a85337c6",
+      "matches_manifest_or_blob_identity": true
+    }
+  ],
+  "model_checksum_verification_method": "Actual sha256sum over the six model files completed with exit code 0; every blob matched its filename and manifest hash matched /api/tags.",
+  "service_snapshot_scope": "Before the final local-only environment change; current service IDs are in local-only-checks.json."
+}

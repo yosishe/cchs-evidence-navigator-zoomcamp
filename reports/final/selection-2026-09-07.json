@@ -1,0 +1,1405 @@
+{
+  "created_at": "2026-09-07T18:13:23.673490+00:00",
+  "status": "BEST_OF_EVALUATED_ALTERNATIVES_INTERNAL_BAR_NOT_MET",
+  "decision_id": "D37",
+  "rule": "Bind the measured source_extract_complete submission candidate with prominent failure disclosure. The controlled twelve-question pair favored complete over concise, but neither passed the internal zero-critical bar. Eighteen historical arms are not a uniform head-to-head competition.",
+  "owner_exception": "The owner explicitly accepted this failed internal quality bar for submission only if fresh EXA-01 usefulness, ABS-01 abstention and all mandatory software/export/storage/package checks pass. This does not change quality labels or authorize final-test inference.",
+  "historical_experiment_rows": [
+    {
+      "experiment_and_context": "Initial pilot; vector/5",
+      "arm": "Phi3 / evidence_first",
+      "fully_acceptable": "0/12",
+      "output_errors": "6",
+      "critical_answers": "2"
+    },
+    {
+      "experiment_and_context": "Initial pilot; vector/5",
+      "arm": "Phi3 / numbered_evidence",
+      "fully_acceptable": "2/12",
+      "output_errors": "9",
+      "critical_answers": "0"
+    },
+    {
+      "experiment_and_context": "Initial pilot; vector/5",
+      "arm": "Gemma3 / evidence_first",
+      "fully_acceptable": "3/12",
+      "output_errors": "1",
+      "critical_answers": "2"
+    },
+    {
+      "experiment_and_context": "Initial pilot; vector/5",
+      "arm": "Gemma3 / numbered_evidence",
+      "fully_acceptable": "4/12",
+      "output_errors": "1",
+      "critical_answers": "2"
+    },
+    {
+      "experiment_and_context": "Format diagnostic; hybrid/10/title0",
+      "arm": "Gemma3 / object mode",
+      "fully_acceptable": "1/2",
+      "output_errors": "1",
+      "critical_answers": "0"
+    },
+    {
+      "experiment_and_context": "Format diagnostic; hybrid/10/title0",
+      "arm": "Gemma3 / schema mode",
+      "fully_acceptable": "1/2",
+      "output_errors": "1",
+      "critical_answers": "0"
+    },
+    {
+      "experiment_and_context": "Precision repair; hybrid/10/title0",
+      "arm": "Gemma3 / numbered_evidence",
+      "fully_acceptable": "4/12",
+      "output_errors": "4",
+      "critical_answers": "1"
+    },
+    {
+      "experiment_and_context": "Precision repair; hybrid/10/title0",
+      "arm": "Gemma3 / numbered_precise",
+      "fully_acceptable": "4/12",
+      "output_errors": "4",
+      "critical_answers": "0"
+    },
+    {
+      "experiment_and_context": "Source-span feasibility, five cases",
+      "arm": "Gemma3 / source_spans_complete",
+      "fully_acceptable": "3/5",
+      "output_errors": "0",
+      "critical_answers": "1"
+    },
+    {
+      "experiment_and_context": "Source-span concise diagnostic, same cases",
+      "arm": "Gemma3 / source_spans_concise",
+      "fully_acceptable": "2/5",
+      "output_errors": "2",
+      "critical_answers": "0"
+    },
+    {
+      "experiment_and_context": "Source-excerpt feasibility, same cases",
+      "arm": "Gemma3 / source_extract_concise",
+      "fully_acceptable": "3/5",
+      "output_errors": "0",
+      "critical_answers": "0"
+    },
+    {
+      "experiment_and_context": "Source-excerpt feasibility, same cases",
+      "arm": "Gemma3 / source_extract_complete",
+      "fully_acceptable": "4/5",
+      "output_errors": "0",
+      "critical_answers": "0"
+    },
+    {
+      "experiment_and_context": "Source-excerpt six-slice pilot",
+      "arm": "Gemma3 / source_extract_concise",
+      "fully_acceptable": "6/12",
+      "output_errors": "0",
+      "critical_answers": "1"
+    },
+    {
+      "experiment_and_context": "Source-excerpt six-slice pilot",
+      "arm": "Gemma3 / source_extract_complete",
+      "fully_acceptable": "8/12",
+      "output_errors": "0",
+      "critical_answers": "1"
+    },
+    {
+      "experiment_and_context": "Checked selection feasibility, five cases",
+      "arm": "Gemma3 / source_extract_checked",
+      "fully_acceptable": "3/5",
+      "output_errors": "0",
+      "critical_answers": "1"
+    },
+    {
+      "experiment_and_context": "Reasoned selection feasibility, same cases",
+      "arm": "Gemma3 / source_extract_reasoned",
+      "fully_acceptable": "3/5",
+      "output_errors": "0",
+      "critical_answers": "1"
+    },
+    {
+      "experiment_and_context": "Phi3 source-selection feasibility, same cases",
+      "arm": "Phi3 / source_extract_checked",
+      "fully_acceptable": "1/5",
+      "output_errors": "3",
+      "critical_answers": "1"
+    },
+    {
+      "experiment_and_context": "Phi3 source-selection feasibility, same cases",
+      "arm": "Phi3 / source_extract_reasoned",
+      "fully_acceptable": "2/5",
+      "output_errors": "0",
+      "critical_answers": "2"
+    }
+  ],
+  "comparable_source_extract_pair": [
+    {
+      "arm": "extract-concise-six-slice-pilot",
+      "results_path": "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json",
+      "results_file_sha256": "03747ed408840fb8f7e5e6138cdbe4d8028d41e31863f91157fb4014ccec7348",
+      "results_id": "d0bc9a6e1e84b80dfa15f1af71086e239dc1d04abe5bcaa61d1ca46fb02d5f6d",
+      "review_summary_path": "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/review-summary.json",
+      "review_summary": {
+        "status": "REVIEWED_COMPLETE",
+        "results_hash": "d0bc9a6e1e84b80dfa15f1af71086e239dc1d04abe5bcaa61d1ca46fb02d5f6d",
+        "reviews_hash": "45f062e952abe7206959dc28a5cdfcbd33512be823a074a5ec47b5d49eded5ef",
+        "reviewer": "Codex source-based provisional assistant review",
+        "reviewer_kind": "assistant",
+        "aggregates": [
+          {
+            "prompt": "source_extract_concise",
+            "evaluated_questions": 12,
+            "acceptable_answers": 6,
+            "acceptable_rate": 0.5,
+            "supported_claims": 24,
+            "claim_denominator": 24,
+            "unsupported_claims": 0,
+            "mean_seconds": 44.19040032292347,
+            "errors": 0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 16,
+                "counts": {
+                  "covered": 10,
+                  "partial": 0,
+                  "missing": 6,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.625
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 3,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 3,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              }
+            },
+            "critical_failure_answers": 1
+          }
+        ],
+        "per_slice": [
+          {
+            "prompt": "source_extract_concise",
+            "slice": "absent",
+            "evaluated_questions": 2,
+            "acceptable_answers": 1,
+            "acceptable_rate": 0.5,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_concise",
+            "slice": "comparison",
+            "evaluated_questions": 2,
+            "acceptable_answers": 1,
+            "acceptable_rate": 0.5,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 4,
+                "counts": {
+                  "covered": 3,
+                  "partial": 0,
+                  "missing": 1,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.75
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 1,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 1,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_concise",
+            "slice": "direct",
+            "evaluated_questions": 2,
+            "acceptable_answers": 2,
+            "acceptable_rate": 1.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 4,
+                "counts": {
+                  "covered": 4,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 1.0
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_concise",
+            "slice": "exact_identifiers",
+            "evaluated_questions": 2,
+            "acceptable_answers": 2,
+            "acceptable_rate": 1.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 2,
+                "counts": {
+                  "covered": 2,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 1.0
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_concise",
+            "slice": "limitations",
+            "evaluated_questions": 2,
+            "acceptable_answers": 0,
+            "acceptable_rate": 0.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 2,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 2,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 2,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 2,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_concise",
+            "slice": "paraphrase",
+            "evaluated_questions": 2,
+            "acceptable_answers": 0,
+            "acceptable_rate": 0.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 4,
+                "counts": {
+                  "covered": 1,
+                  "partial": 0,
+                  "missing": 3,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.25
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          }
+        ],
+        "per_question": [
+          {
+            "question_id": "DIR-01",
+            "answer_id": "22f47f35-7166-4557-9eff-cad31a6af30c",
+            "prompt": "source_extract_concise",
+            "slice": "direct",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "DIR-02",
+            "answer_id": "438b94cb-88d1-4bba-9a9f-c75af4014c07",
+            "prompt": "source_extract_concise",
+            "slice": "direct",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The abstract and methods explicitly state the retrospective 22-patient cohort and 2000-2020 period. Extra cohort and diagnosis-age sentences are unnecessary but correctly remain attributed to the same study; no inferred population or causal claim is added.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The abstract and methods explicitly state the retrospective 22-patient cohort and 2000-2020 period. Extra cohort and diagnosis-age sentences are unnecessary but correctly remain attributed to the same study; no inferred population or causal claim is added.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "PAR-01",
+            "answer_id": "fb2668a2-b687-4379-87fe-109a2965eabe",
+            "prompt": "source_extract_concise",
+            "slice": "paraphrase",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "missing"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The selected abstract establishes retrospective design. The available electronic-medical-record methods excerpt is omitted; this source-backed but incomplete answer fails the original task requirements.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The selected abstract establishes retrospective design. The available electronic-medical-record methods excerpt is omitted; this source-backed but incomplete answer fails the original task requirements.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "PAR-02",
+            "answer_id": "7ffe10cd-8cc7-49d4-9da6-f24923436c76",
+            "prompt": "source_extract_concise",
+            "slice": "paraphrase",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [],
+            "fact_coverage": [
+              "missing",
+              "missing"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": true,
+            "reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "EXA-01",
+            "answer_id": "291447ff-17dc-4f16-bf1e-a4ca2b21bb21",
+            "prompt": "source_extract_concise",
+            "slice": "exact_identifiers",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "EXA-02",
+            "answer_id": "a5142aec-8b02-44aa-a5ba-0a4bbe99bd3d",
+            "prompt": "source_extract_concise",
+            "slice": "exact_identifiers",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "COM-01",
+            "answer_id": "eec51a9b-f061-4611-bef0-9f0122d3284e",
+            "prompt": "source_extract_concise",
+            "slice": "comparison",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The Italian retrospective-data sentence and guideline evidence/clinical-experience blend are both selected and separately attributed. Several funding/unit/background sentences make this verbose, but the requested contrast and source qualifications remain intact; no inferred agreement or pooled estimate is asserted.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The Italian retrospective-data sentence and guideline evidence/clinical-experience blend are both selected and separately attributed. Several funding/unit/background sentences make this verbose, but the requested contrast and source qualifications remain intact; no inferred agreement or pooled estimate is asserted.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "COM-02",
+            "answer_id": "68a7b2ea-e377-44ab-aa59-0c6283f76188",
+            "prompt": "source_extract_concise",
+            "slice": "comparison",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [
+              "supported",
+              "supported",
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "missing"
+            ],
+            "qualification_coverage": [
+              "missing"
+            ],
+            "abstention_correct": false,
+            "reason": "The Italian 86% result is present. Review common-genotype and NPARM-10% excerpts do not supply the requested PARM-90% figure; no complementary percentage may be inferred. Source-type metadata is retained but does not deliver the required small-cohort/different-evidence-base caution.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The Italian 86% result is present. Review common-genotype and NPARM-10% excerpts do not supply the requested PARM-90% figure; no complementary percentage may be inferred. Source-type metadata is retained but does not deliver the required small-cohort/different-evidence-base caution.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "LIM-01",
+            "answer_id": "85ce468d-3b4d-46e5-be30-14dc66e57aa9",
+            "prompt": "source_extract_concise",
+            "slice": "limitations",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "missing"
+            ],
+            "qualification_coverage": [
+              "missing"
+            ],
+            "abstention_correct": false,
+            "reason": "The sole selected excerpt concerns when parents may adjust ventilator settings under some healthcare systems. It neither states inconsistency of the repeat-length/continuous-ventilation relation nor its exceptions. Literal source copying does not justify this misleading task/context substitution; mark it critical rather than count an authentic quote as useful.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The sole selected excerpt concerns when parents may adjust ventilator settings under some healthcare systems. It neither states inconsistency of the repeat-length/continuous-ventilation relation nor its exceptions. Literal source copying does not justify this misleading task/context substitution; mark it critical rather than count an authentic quote as useful.",
+            "whole_answer_critical": true
+          },
+          {
+            "question_id": "LIM-02",
+            "answer_id": "e60cb20d-d8d3-4857-a428-f8be0f1e2389",
+            "prompt": "source_extract_concise",
+            "slice": "limitations",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [],
+            "fact_coverage": [
+              "missing"
+            ],
+            "qualification_coverage": [
+              "missing"
+            ],
+            "abstention_correct": false,
+            "reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "ABS-01",
+            "answer_id": "316a180d-8049-4d83-a09c-d9cfea8e1979",
+            "prompt": "source_extract_concise",
+            "slice": "absent",
+            "answerable": false,
+            "acceptable": true,
+            "claim_support": [],
+            "fact_coverage": [],
+            "qualification_coverage": [],
+            "abstention_correct": true,
+            "reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "ABS-02",
+            "answer_id": "feb0343a-4acb-4943-939d-d251c3026471",
+            "prompt": "source_extract_concise",
+            "slice": "absent",
+            "answerable": false,
+            "acceptable": false,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The returned cohort-method excerpt is true but supplies no transcriptomic accession. This is an incorrect answered status and an irrelevant response to an unanswerable corpus question. It does not invent a downloadable accession or fabricate dataset metadata; nevertheless it fails the original abstention rule.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The returned cohort-method excerpt is true but supplies no transcriptomic accession. This is an incorrect answered status and an irrelevant response to an unanswerable corpus question. It does not invent a downloadable accession or fabricate dataset metadata; nevertheless it fails the original abstention rule.",
+            "whole_answer_critical": false
+          }
+        ],
+        "eligible_best_prompts": [],
+        "completeness_available": true,
+        "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+        "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+        "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+        "whole_answer_reviewed": true,
+        "whole_reviews_hash": "fa35c8b8258fe8e98ae0e6fc011d6637439b637784200cb317372fb0addf621f",
+        "whole_answer_reviewer": "Codex source-based provisional assistant review",
+        "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+      },
+      "question_ids": [
+        "DIR-01",
+        "DIR-02",
+        "PAR-01",
+        "PAR-02",
+        "EXA-01",
+        "EXA-02",
+        "COM-01",
+        "COM-02",
+        "LIM-01",
+        "LIM-02",
+        "ABS-01",
+        "ABS-02"
+      ],
+      "context_ids": [
+        "8d704457764320aa6996b8336963f5a62c160c1e988f99b813854e2aa2c7b321",
+        "2d72d3a15390148b009f2cb5e5d45584efc951a66c2730f1ed6433071d2dbee8",
+        "c04c6eab6fc9333791fac33bf24e51b79eb8eba5a8955e3136e3b275c238b26e",
+        "e54fb8c76cb8217b971b742824e28e37d7589a7149ba6f43fc856a3f0449cc76",
+        "0b4770f2de9d5d64c32a8faf685cf0218df065751eb0e68fa44354142db24086",
+        "06e68bb652ad52e33b7bf598273ccd99ef1607b214079c91cc1f044b25346240",
+        "213a6fc7ab800defeb5d65f00da229827e8d1c22900b628ca24dda762f019309",
+        "fc94f741dd0e290773ea5dfca3cf25efbef4cae841b3500b54e36a954e7a5d32",
+        "e3610a4649a2a10617fe2bd7841f822f7be6484eb9b9da215cc95cd543d708ee",
+        "72a1c65dda3045fefbeb0a6252ef052cf42c9002217923f60483f3e2377f0a4f",
+        "fc965eeecb3b6d7c928bfe557fa646125afa08ec625e2c90818c1b6c0a2c53f0",
+        "54766131a59f5547ccdac78810da5bde421daa742ff7dc783186d10f304d66b9"
+      ],
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 10,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "gemma3:12b",
+        "prompt": "source_extract_concise",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "DEVELOPMENT_CANDIDATE",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "EVALUATION_CANDIDATE",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+        "json_mode": true,
+        "generation_json_schema": true
+      },
+      "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7",
+      "model_identity": {
+        "provider": "ollama",
+        "model": "gemma3:12b",
+        "resolved_model": "gemma3:12b",
+        "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+        "size_bytes": 8149190253,
+        "endpoint": "http://localhost:11434/"
+      },
+      "observed_generation_validation_seconds": {
+        "mean": 44.19040032292347,
+        "max": 61.716089666995686
+      }
+    },
+    {
+      "arm": "extract-complete-six-slice-pilot",
+      "results_path": "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json",
+      "results_file_sha256": "aa1a7aa06253fa30c3474244e649c629ae69d02914603c4555ef4395c178cc4f",
+      "results_id": "2aa7c2797b11598361c243066b49bd308b145d4159ab1bc2fb133de1879196e9",
+      "review_summary_path": "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/review-summary.json",
+      "review_summary": {
+        "status": "REVIEWED_COMPLETE",
+        "results_hash": "2aa7c2797b11598361c243066b49bd308b145d4159ab1bc2fb133de1879196e9",
+        "reviews_hash": "8685e236358fbf742a4228f839403d0da2495be6f8e2dd2eb9541c25e9f80595",
+        "reviewer": "Codex source-based provisional assistant review",
+        "reviewer_kind": "assistant",
+        "aggregates": [
+          {
+            "prompt": "source_extract_complete",
+            "evaluated_questions": 12,
+            "acceptable_answers": 8,
+            "acceptable_rate": 0.6666666666666666,
+            "supported_claims": 22,
+            "claim_denominator": 22,
+            "unsupported_claims": 0,
+            "mean_seconds": 53.521276545165165,
+            "errors": 0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 16,
+                "counts": {
+                  "covered": 11,
+                  "partial": 0,
+                  "missing": 5,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.6875
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 3,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 3,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              }
+            },
+            "critical_failure_answers": 1
+          }
+        ],
+        "per_slice": [
+          {
+            "prompt": "source_extract_complete",
+            "slice": "absent",
+            "evaluated_questions": 2,
+            "acceptable_answers": 2,
+            "acceptable_rate": 1.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_complete",
+            "slice": "comparison",
+            "evaluated_questions": 2,
+            "acceptable_answers": 1,
+            "acceptable_rate": 0.5,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 4,
+                "counts": {
+                  "covered": 3,
+                  "partial": 0,
+                  "missing": 1,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.75
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 1,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 1,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_complete",
+            "slice": "direct",
+            "evaluated_questions": 2,
+            "acceptable_answers": 2,
+            "acceptable_rate": 1.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 4,
+                "counts": {
+                  "covered": 4,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 1.0
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_complete",
+            "slice": "exact_identifiers",
+            "evaluated_questions": 2,
+            "acceptable_answers": 2,
+            "acceptable_rate": 1.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 2,
+                "counts": {
+                  "covered": 2,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 1.0
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_complete",
+            "slice": "limitations",
+            "evaluated_questions": 2,
+            "acceptable_answers": 0,
+            "acceptable_rate": 0.0,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 2,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 2,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 2,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 2,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.0
+              }
+            }
+          },
+          {
+            "prompt": "source_extract_complete",
+            "slice": "paraphrase",
+            "evaluated_questions": 2,
+            "acceptable_answers": 1,
+            "acceptable_rate": 0.5,
+            "coverage_diagnostics": {
+              "schema_version": 1,
+              "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+              "fact_coverage": {
+                "available": true,
+                "denominator": 4,
+                "counts": {
+                  "covered": 2,
+                  "partial": 0,
+                  "missing": 2,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": 0.5
+              },
+              "qualification_coverage": {
+                "available": true,
+                "denominator": 0,
+                "counts": {
+                  "covered": 0,
+                  "partial": 0,
+                  "missing": 0,
+                  "uncertain": 0
+                },
+                "fully_covered_rate": null
+              }
+            }
+          }
+        ],
+        "per_question": [
+          {
+            "question_id": "DIR-01",
+            "answer_id": "5a73308c-d8da-46b3-b7d3-453ce6a5511a",
+            "prompt": "source_extract_complete",
+            "slice": "direct",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "DIR-02",
+            "answer_id": "09d93268-fd02-4497-a567-094cbee6b66d",
+            "prompt": "source_extract_complete",
+            "slice": "direct",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The abstract and methods give retrospective 22-patient data and 2000-2020. Additional diagnosis-age, sex and late-diagnosis/hypoxia sentences are verbatim and remain attributed to the original study, but they are unnecessary for this count/period question. The core requested facts are complete; verbosity and irrelevant background are retained as a presentation defect rather than fabricated-source support.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The abstract and methods give retrospective 22-patient data and 2000-2020. Additional diagnosis-age, sex and late-diagnosis/hypoxia sentences are verbatim and remain attributed to the original study, but they are unnecessary for this count/period question. The core requested facts are complete; verbosity and irrelevant background are retained as a presentation defect rather than fabricated-source support.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "PAR-01",
+            "answer_id": "4e910db8-c18e-4d0d-9b00-1a39a92731df",
+            "prompt": "source_extract_complete",
+            "slice": "paraphrase",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported",
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The selected Italian abstract states retrospective analysis and the separate methods sentence states electronic medical records. Both requested facts are present; the source-owned review/export preserves their original wording and identity.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The selected Italian abstract states retrospective analysis and the separate methods sentence states electronic medical records. Both requested facts are present; the source-owned review/export preserves their original wording and identity.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "PAR-02",
+            "answer_id": "1cb5f872-949d-4551-8d06-938e9c2681c7",
+            "prompt": "source_extract_complete",
+            "slice": "paraphrase",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [],
+            "fact_coverage": [
+              "missing",
+              "missing"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": true,
+            "reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "EXA-01",
+            "answer_id": "55290658-8f95-4601-917a-ab116681ec43",
+            "prompt": "source_extract_complete",
+            "slice": "exact_identifiers",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "EXA-02",
+            "answer_id": "f1f52609-5589-4fdf-8c47-65c9b3e580e7",
+            "prompt": "source_extract_complete",
+            "slice": "exact_identifiers",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "COM-01",
+            "answer_id": "d96ae6f4-aae5-41bd-b692-70c1c386be92",
+            "prompt": "source_extract_complete",
+            "slice": "comparison",
+            "answerable": true,
+            "acceptable": true,
+            "claim_support": [
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported",
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "covered"
+            ],
+            "qualification_coverage": [],
+            "abstention_correct": false,
+            "reason": "Italian retrospective-data and guideline published-evidence/clinical-expertise sentences are both present and separately attributed. The extra study overview, search and manuscript-review process make this verbose but do not replace the required contrast or invent pooled/causal findings.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "Italian retrospective-data and guideline published-evidence/clinical-expertise sentences are both present and separately attributed. The extra study overview, search and manuscript-review process make this verbose but do not replace the required contrast or invent pooled/causal findings.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "COM-02",
+            "answer_id": "1287b92e-c546-404d-86cd-2da89a07a5a5",
+            "prompt": "source_extract_complete",
+            "slice": "comparison",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [
+              "supported",
+              "supported"
+            ],
+            "fact_coverage": [
+              "covered",
+              "missing"
+            ],
+            "qualification_coverage": [
+              "missing"
+            ],
+            "abstention_correct": false,
+            "reason": "The Italian 19/22 (86%) finding is present. The second excerpt names review genotypes but not the requested 90% PARM estimate, which is absent from this fixed context. The small-cohort/different-evidence-base qualification is also not delivered. No complementary percentage is inferred; the partial answer still fails completeness.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The Italian 19/22 (86%) finding is present. The second excerpt names review genotypes but not the requested 90% PARM estimate, which is absent from this fixed context. The small-cohort/different-evidence-base qualification is also not delivered. No complementary percentage is inferred; the partial answer still fails completeness.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "LIM-01",
+            "answer_id": "a873b40e-6c0f-4ec7-ad5f-6ad9971f1f07",
+            "prompt": "source_extract_complete",
+            "slice": "limitations",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [
+              "supported"
+            ],
+            "fact_coverage": [
+              "missing"
+            ],
+            "qualification_coverage": [
+              "missing"
+            ],
+            "abstention_correct": false,
+            "reason": "The selected guideline excerpt concerns ventilation modes at different times or ages. It does not address inconsistency of the repeat-length/continuous-ventilation relationship or exceptions. An authentic excerpt substitutes a different relationship for the requested qualification; this is the same critical relevance/context failure seen in the concise arm, not a quote-format success.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The selected guideline excerpt concerns ventilation modes at different times or ages. It does not address inconsistency of the repeat-length/continuous-ventilation relationship or exceptions. An authentic excerpt substitutes a different relationship for the requested qualification; this is the same critical relevance/context failure seen in the concise arm, not a quote-format success.",
+            "whole_answer_critical": true
+          },
+          {
+            "question_id": "LIM-02",
+            "answer_id": "9f935228-0b8a-43bb-a320-b7ad12bc666f",
+            "prompt": "source_extract_complete",
+            "slice": "limitations",
+            "answerable": true,
+            "acceptable": false,
+            "claim_support": [],
+            "fact_coverage": [
+              "missing"
+            ],
+            "qualification_coverage": [
+              "missing"
+            ],
+            "abstention_correct": false,
+            "reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "ABS-01",
+            "answer_id": "4734940b-a4ef-432c-8d40-638cbdd88c74",
+            "prompt": "source_extract_complete",
+            "slice": "absent",
+            "answerable": false,
+            "acceptable": true,
+            "claim_support": [],
+            "fact_coverage": [],
+            "qualification_coverage": [],
+            "abstention_correct": true,
+            "reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export.",
+            "whole_answer_critical": false
+          },
+          {
+            "question_id": "ABS-02",
+            "answer_id": "e9412def-e38c-4ddd-bf81-67fc8706a111",
+            "prompt": "source_extract_complete",
+            "slice": "absent",
+            "answerable": false,
+            "acceptable": true,
+            "claim_support": [],
+            "fact_coverage": [],
+            "qualification_coverage": [],
+            "abstention_correct": true,
+            "reason": "The response correctly refuses to provide a transcriptomic accession not established by these passages. No accession, downloadable dataset metadata or unsupported premise is fabricated, and no claim/tag row is exported.",
+            "visible_prose_supported": true,
+            "export_preserves_qualifications": true,
+            "whole_answer_reason": "The response correctly refuses to provide a transcriptomic accession not established by these passages. No accession, downloadable dataset metadata or unsupported premise is fabricated, and no claim/tag row is exported.",
+            "whole_answer_critical": false
+          }
+        ],
+        "eligible_best_prompts": [],
+        "completeness_available": true,
+        "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+        "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+        "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+        "whole_answer_reviewed": true,
+        "whole_reviews_hash": "126ad3fbdd4a5ac874118415afb6fce08b9801eaa8d7729777f580cd3ed7d713",
+        "whole_answer_reviewer": "Codex source-based provisional assistant review",
+        "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+      },
+      "question_ids": [
+        "DIR-01",
+        "DIR-02",
+        "PAR-01",
+        "PAR-02",
+        "EXA-01",
+        "EXA-02",
+        "COM-01",
+        "COM-02",
+        "LIM-01",
+        "LIM-02",
+        "ABS-01",
+        "ABS-02"
+      ],
+      "context_ids": [
+        "8d704457764320aa6996b8336963f5a62c160c1e988f99b813854e2aa2c7b321",
+        "2d72d3a15390148b009f2cb5e5d45584efc951a66c2730f1ed6433071d2dbee8",
+        "c04c6eab6fc9333791fac33bf24e51b79eb8eba5a8955e3136e3b275c238b26e",
+        "e54fb8c76cb8217b971b742824e28e37d7589a7149ba6f43fc856a3f0449cc76",
+        "0b4770f2de9d5d64c32a8faf685cf0218df065751eb0e68fa44354142db24086",
+        "06e68bb652ad52e33b7bf598273ccd99ef1607b214079c91cc1f044b25346240",
+        "213a6fc7ab800defeb5d65f00da229827e8d1c22900b628ca24dda762f019309",
+        "fc94f741dd0e290773ea5dfca3cf25efbef4cae841b3500b54e36a954e7a5d32",
+        "e3610a4649a2a10617fe2bd7841f822f7be6484eb9b9da215cc95cd543d708ee",
+        "72a1c65dda3045fefbeb0a6252ef052cf42c9002217923f60483f3e2377f0a4f",
+        "fc965eeecb3b6d7c928bfe557fa646125afa08ec625e2c90818c1b6c0a2c53f0",
+        "54766131a59f5547ccdac78810da5bde421daa742ff7dc783186d10f304d66b9"
+      ],
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 10,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "gemma3:12b",
+        "prompt": "source_extract_complete",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "DEVELOPMENT_CANDIDATE",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "EVALUATION_CANDIDATE",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+        "json_mode": true,
+        "generation_json_schema": true
+      },
+      "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7",
+      "model_identity": {
+        "provider": "ollama",
+        "model": "gemma3:12b",
+        "resolved_model": "gemma3:12b",
+        "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+        "size_bytes": 8149190253,
+        "endpoint": "http://localhost:11434/"
+      },
+      "observed_generation_validation_seconds": {
+        "mean": 53.521276545165165,
+        "max": 63.6135254589899
+      }
+    }
+  ],
+  "pair_check": {
+    "same_question_ids": true,
+    "same_context_ids": true,
+    "only_config_difference": {
+      "prompt": [
+        "source_extract_concise",
+        "source_extract_complete"
+      ]
+    }
+  },
+  "winner_config": {
+    "retrieval": "hybrid",
+    "top_k": 10,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 0.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "gemma3:12b",
+    "prompt": "source_extract_complete",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "SELECTED_ON_DEVELOPMENT_RETRIEVAL_EVIDENCE",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 300,
+    "rewrite_enabled": false,
+    "generation_selection_status": "BEST_OF_EVALUATED_ALTERNATIVES_INTERNAL_BAR_NOT_MET",
+    "question_bank": "data/evaluation/questions-v2.json",
+    "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+    "json_mode": true,
+    "generation_json_schema": true
+  },
+  "configuration_id": "a608ccf3cd3318d9f54abb2c0d49a7967e920b4e841dded47f823d86884b2055",
+  "configuration_file_sha256": "0b02560637088fb36449680d9b3680d2a88298c3a953d15a3b18172e2a927bf3",
+  "effective_configuration_id": "3512bea084a43b747957623873527b2c9e37728cffa294b27c89d1e327bdf170",
+  "historical_runtime_note": "Pilot results retain their own runtime identity; new native demonstration must prove binding on the current code. Historical quality results are not silently recast as new measurements.",
+  "rejected_alternatives": "Concise loses two complete answers in the paired pilot. Checked/reasoned and Phi3 follow-ups use only five feasibility cases and retain critical errors; their denominators are not pooled. Prior canonical/numbered/span outputs exposed citation or completeness errors.",
+  "tradeoffs": "Exact source-owned excerpt text reduces copying/paraphrase errors and supports source rows and pending tags, at the cost of verbosity, weaker synthesis and unresolved relevance/completeness errors. Gemma 3 12B is an approved course-model exception with higher memory demand than Phi3.",
+  "internal_bar": "NOT_MET: source-extract complete had one critical relevance failure (LIM-01); 8/12 fully acceptable, no malformed output.",
+  "held_out_test": {
+    "inference_calls": 0,
+    "status": "NOT_RUN",
+    "contents_previously_readable": true,
+    "reason": "Generation status is not SELECTED; the original final-evaluation guard is unchanged."
+  },
+  "retrieval_evidence": "reports/release-quality/hybrid-zero-fresh.json",
+  "retrieval_choice": {
+    "full_reference_coverage": 26,
+    "answerable_denominator": 35,
+    "mean_reference_coverage": 0.7761904761904762,
+    "comparison": "Vector/top-5 fully covers 18/35 under the factorial; named per-question losses and provisional-label limits remain in docs/release-status.md."
+  },
+  "revisit": "Before claiming internal quality readiness, resolve critical relevance and completeness failures using a separately approved development plan and untouched evaluation evidence. Do not promote on the new two-case operational demo."
+}

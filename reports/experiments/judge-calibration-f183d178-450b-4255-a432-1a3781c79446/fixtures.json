@@ -1,0 +1,426 @@
+{
+  "status": "EXECUTED_AWAITING_REVIEW",
+  "split": "calibration",
+  "questions": [
+    {
+      "id": "valid",
+      "question": "What population was observed and what causal conclusion was established?",
+      "answerable": true,
+      "required_facts": [
+        {
+          "text": "Ten adults were observed."
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Causation was not established."
+        }
+      ],
+      "abstention_reason": "",
+      "reference_quotes": [
+        {
+          "id": "fixture-source",
+          "quote": "The fictional study observed ten adults. It did not establish causation."
+        }
+      ]
+    },
+    {
+      "id": "negation",
+      "question": "What population was observed and what causal conclusion was established?",
+      "answerable": true,
+      "required_facts": [
+        {
+          "text": "Ten adults were observed."
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Causation was not established."
+        }
+      ],
+      "abstention_reason": "",
+      "reference_quotes": [
+        {
+          "id": "fixture-source",
+          "quote": "The fictional study observed ten adults. It did not establish causation."
+        }
+      ]
+    },
+    {
+      "id": "omission",
+      "question": "What population was observed and what causal conclusion was established?",
+      "answerable": true,
+      "required_facts": [
+        {
+          "text": "Ten adults were observed."
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Causation was not established."
+        }
+      ],
+      "abstention_reason": "",
+      "reference_quotes": [
+        {
+          "id": "fixture-source",
+          "quote": "The fictional study observed ten adults. It did not establish causation."
+        }
+      ]
+    },
+    {
+      "id": "overgeneralization",
+      "question": "What population was observed and what causal conclusion was established?",
+      "answerable": true,
+      "required_facts": [
+        {
+          "text": "Ten adults were observed."
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Causation was not established."
+        }
+      ],
+      "abstention_reason": "",
+      "reference_quotes": [
+        {
+          "id": "fixture-source",
+          "quote": "The fictional study observed ten adults. It did not establish causation."
+        }
+      ]
+    },
+    {
+      "id": "wrong_source",
+      "question": "What population was observed and what causal conclusion was established?",
+      "answerable": true,
+      "required_facts": [
+        {
+          "text": "Ten adults were observed."
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Causation was not established."
+        }
+      ],
+      "abstention_reason": "",
+      "reference_quotes": [
+        {
+          "id": "fixture-source",
+          "quote": "The fictional study observed ten adults. It did not establish causation."
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    "evidence_first"
+  ],
+  "per_question": [
+    {
+      "question_id": "valid",
+      "answerable": true,
+      "prompt": "evidence_first",
+      "record": {
+        "id": "synthetic-valid",
+        "question": "What population was observed and what causal conclusion was established?",
+        "config": {
+          "retrieval": "vector",
+          "top_k": 5,
+          "candidate_k": 20,
+          "rrf_k": 50,
+          "boosts": {
+            "title": 2.0,
+            "section": 1.0,
+            "content": 1.0
+          },
+          "model": "phi3",
+          "prompt": "evidence_first",
+          "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+          "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+          "max_output_tokens": 900,
+          "chunk_chars": 750,
+          "overlap_chars": 150,
+          "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+          "embedding_text": "title_content",
+          "embedding_device": "cpu",
+          "provider": "ollama",
+          "temperature": 0,
+          "request_timeout_seconds": 120,
+          "rewrite_enabled": false,
+          "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+          "question_bank": "data/evaluation/questions-v2.json"
+        },
+        "corpus_id": "FICTIONAL_CALIBRATION_ONLY",
+        "status": "answered",
+        "seconds": 0,
+        "hits": [
+          {
+            "id": "fixture-source",
+            "title": "Fictional fixture",
+            "section": "RESULTS",
+            "article_type": "fictional",
+            "content": "The fictional study observed ten adults. It did not establish causation.",
+            "year": "unknown"
+          }
+        ],
+        "claims": [
+          {
+            "text": "Ten adults were observed; causation was not established.",
+            "exact_quote": "The fictional study observed ten adults. It did not establish causation.",
+            "evidence_id": "fixture-source"
+          }
+        ],
+        "limitations": "Hand-authored fixture, not generated by a model.",
+        "mode": "synthetic_judge_fixture",
+        "model": "none",
+        "calls": []
+      },
+      "record_hash": "5476bc96c6cf64cff60dd0fd29a8ad51f4efb3f5764a644dd0a999bbc22433b8"
+    },
+    {
+      "question_id": "negation",
+      "answerable": true,
+      "prompt": "evidence_first",
+      "record": {
+        "id": "synthetic-negation",
+        "question": "What population was observed and what causal conclusion was established?",
+        "config": {
+          "retrieval": "vector",
+          "top_k": 5,
+          "candidate_k": 20,
+          "rrf_k": 50,
+          "boosts": {
+            "title": 2.0,
+            "section": 1.0,
+            "content": 1.0
+          },
+          "model": "phi3",
+          "prompt": "evidence_first",
+          "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+          "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+          "max_output_tokens": 900,
+          "chunk_chars": 750,
+          "overlap_chars": 150,
+          "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+          "embedding_text": "title_content",
+          "embedding_device": "cpu",
+          "provider": "ollama",
+          "temperature": 0,
+          "request_timeout_seconds": 120,
+          "rewrite_enabled": false,
+          "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+          "question_bank": "data/evaluation/questions-v2.json"
+        },
+        "corpus_id": "FICTIONAL_CALIBRATION_ONLY",
+        "status": "answered",
+        "seconds": 0,
+        "hits": [
+          {
+            "id": "fixture-source",
+            "title": "Fictional fixture",
+            "section": "RESULTS",
+            "article_type": "fictional",
+            "content": "The fictional study observed ten adults. It did not establish causation.",
+            "year": "unknown"
+          }
+        ],
+        "claims": [
+          {
+            "text": "The study established causation.",
+            "exact_quote": "It did not establish causation.",
+            "evidence_id": "fixture-source"
+          }
+        ],
+        "limitations": "Hand-authored fixture, not generated by a model.",
+        "mode": "synthetic_judge_fixture",
+        "model": "none",
+        "calls": []
+      },
+      "record_hash": "7c9c8f72841790ac997f9b1a6604b6d727caf9ba74e2f4b5311eee538054b926"
+    },
+    {
+      "question_id": "omission",
+      "answerable": true,
+      "prompt": "evidence_first",
+      "record": {
+        "id": "synthetic-omission",
+        "question": "What population was observed and what causal conclusion was established?",
+        "config": {
+          "retrieval": "vector",
+          "top_k": 5,
+          "candidate_k": 20,
+          "rrf_k": 50,
+          "boosts": {
+            "title": 2.0,
+            "section": 1.0,
+            "content": 1.0
+          },
+          "model": "phi3",
+          "prompt": "evidence_first",
+          "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+          "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+          "max_output_tokens": 900,
+          "chunk_chars": 750,
+          "overlap_chars": 150,
+          "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+          "embedding_text": "title_content",
+          "embedding_device": "cpu",
+          "provider": "ollama",
+          "temperature": 0,
+          "request_timeout_seconds": 120,
+          "rewrite_enabled": false,
+          "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+          "question_bank": "data/evaluation/questions-v2.json"
+        },
+        "corpus_id": "FICTIONAL_CALIBRATION_ONLY",
+        "status": "answered",
+        "seconds": 0,
+        "hits": [
+          {
+            "id": "fixture-source",
+            "title": "Fictional fixture",
+            "section": "RESULTS",
+            "article_type": "fictional",
+            "content": "The fictional study observed ten adults. It did not establish causation.",
+            "year": "unknown"
+          }
+        ],
+        "claims": [
+          {
+            "text": "Ten adults were observed.",
+            "exact_quote": "The fictional study observed ten adults.",
+            "evidence_id": "fixture-source"
+          }
+        ],
+        "limitations": "Hand-authored fixture, not generated by a model.",
+        "mode": "synthetic_judge_fixture",
+        "model": "none",
+        "calls": []
+      },
+      "record_hash": "a808024b4dae9e018fbe522b4f9d05cc13920cd78c7d34c460430484f0372ddd"
+    },
+    {
+      "question_id": "overgeneralization",
+      "answerable": true,
+      "prompt": "evidence_first",
+      "record": {
+        "id": "synthetic-overgeneralization",
+        "question": "What population was observed and what causal conclusion was established?",
+        "config": {
+          "retrieval": "vector",
+          "top_k": 5,
+          "candidate_k": 20,
+          "rrf_k": 50,
+          "boosts": {
+            "title": 2.0,
+            "section": 1.0,
+            "content": 1.0
+          },
+          "model": "phi3",
+          "prompt": "evidence_first",
+          "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+          "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+          "max_output_tokens": 900,
+          "chunk_chars": 750,
+          "overlap_chars": 150,
+          "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+          "embedding_text": "title_content",
+          "embedding_device": "cpu",
+          "provider": "ollama",
+          "temperature": 0,
+          "request_timeout_seconds": 120,
+          "rewrite_enabled": false,
+          "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+          "question_bank": "data/evaluation/questions-v2.json"
+        },
+        "corpus_id": "FICTIONAL_CALIBRATION_ONLY",
+        "status": "answered",
+        "seconds": 0,
+        "hits": [
+          {
+            "id": "fixture-source",
+            "title": "Fictional fixture",
+            "section": "RESULTS",
+            "article_type": "fictional",
+            "content": "The fictional study observed ten adults. It did not establish causation.",
+            "year": "unknown"
+          }
+        ],
+        "claims": [
+          {
+            "text": "The finding applies to every child in the population.",
+            "exact_quote": "The fictional study observed ten adults.",
+            "evidence_id": "fixture-source"
+          }
+        ],
+        "limitations": "Hand-authored fixture, not generated by a model.",
+        "mode": "synthetic_judge_fixture",
+        "model": "none",
+        "calls": []
+      },
+      "record_hash": "62363aff9915c27b54be33569cc477890b9b095fec532f0d98c74008db5f4b7f"
+    },
+    {
+      "question_id": "wrong_source",
+      "answerable": true,
+      "prompt": "evidence_first",
+      "record": {
+        "id": "synthetic-wrong_source",
+        "question": "What population was observed and what causal conclusion was established?",
+        "config": {
+          "retrieval": "vector",
+          "top_k": 5,
+          "candidate_k": 20,
+          "rrf_k": 50,
+          "boosts": {
+            "title": 2.0,
+            "section": 1.0,
+            "content": 1.0
+          },
+          "model": "phi3",
+          "prompt": "evidence_first",
+          "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+          "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+          "max_output_tokens": 900,
+          "chunk_chars": 750,
+          "overlap_chars": 150,
+          "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+          "embedding_text": "title_content",
+          "embedding_device": "cpu",
+          "provider": "ollama",
+          "temperature": 0,
+          "request_timeout_seconds": 120,
+          "rewrite_enabled": false,
+          "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+          "question_bank": "data/evaluation/questions-v2.json"
+        },
+        "corpus_id": "FICTIONAL_CALIBRATION_ONLY",
+        "status": "answered",
+        "seconds": 0,
+        "hits": [
+          {
+            "id": "fixture-source",
+            "title": "Fictional fixture",
+            "section": "RESULTS",
+            "article_type": "fictional",
+            "content": "The fictional study observed ten adults. It did not establish causation.",
+            "year": "unknown"
+          }
+        ],
+        "claims": [
+          {
+            "text": "Ten adults were observed; causation was not established.",
+            "exact_quote": "The fictional study observed ten adults. It did not establish causation.",
+            "evidence_id": "foreign-source"
+          }
+        ],
+        "limitations": "Hand-authored fixture, not generated by a model.",
+        "mode": "synthetic_judge_fixture",
+        "model": "none",
+        "calls": []
+      },
+      "record_hash": "040b82b5e2c50c3eed0557ff1f875df6bad1b18afdfe8e5f46cbfe73486dafe5"
+    }
+  ]
+}

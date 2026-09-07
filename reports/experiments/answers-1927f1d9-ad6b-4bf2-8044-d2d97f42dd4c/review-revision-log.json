@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-06T23:41:15.569779+00:00",
+  "reason": "Correct one diagnostic sentence: one nonliteral quotation, not two. Numeric scores, support/coverage labels and all model outputs remain unchanged. Prior review artifacts are preserved in review-revisions/1.",
+  "previous_hashes": {
+    "reviews.json": "c668daf7a1910a5178ea30eedddd2442f7ccb09d5bef96d40ab6878b121f28dc",
+    "whole-answer-review.json": "b92e6853a7bfb9fbe0f40cabd96e98b5b7fcf13229cc8aebfc3f7979e6e85035",
+    "review-summary.json": "9745a5a4cc38576fb545f18928691fadc87fe30ff7f14dc160a1ab448016d5d4"
+  },
+  "current_hashes": {
+    "reviews.json": "79cad6b23b509ee2c2e453611d7d2bc0edfa45e8320e3565719b5d161a48f830",
+    "whole-answer-review.json": "264c6f1dc6189de2cc5b57b7cd1e6c018613ec6f4c7e769feca1f021ac6f3f2b",
+    "review-summary.json": "153e00ebafe2e458598155d8ecf43e0a3b693aa7ca5eae4b3d9a662828f31f4b"
+  }
+}

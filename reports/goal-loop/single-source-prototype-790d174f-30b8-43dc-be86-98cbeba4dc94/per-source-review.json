@@ -1,0 +1,142 @@
+{
+  "reviewer_kind": "assistant",
+  "scope": "Provisional manual source-level diagnosis; not separate benchmark questions or independent scientific review",
+  "results_hash": "19fbb7e3a904282819e4a6e50c7a5c5fb82fbf4cf07f3bd2a7aae5daec4a220c",
+  "source_reviews": [
+    {
+      "question_id": "DIR-02",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+      "call_ids": [
+        "1f5fdcfa-ca88-4d9c-99a1-fec1f2383a90"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Complete supported source-level answer: Italian passage 19 explicitly supplies 22 patients, retrospective collection and follow-up referral between 2000–2020. This component does not rescue the invalid combined answer."
+    },
+    {
+      "question_id": "DIR-02",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+      "call_ids": [
+        "5e5808c0-4618-47a1-a428-32d21232079d"
+      ],
+      "observed_status": "invalid_output",
+      "source_based_agent_judgment": "Missing evidence_id makes output invalid. The statement that this passage does not specify size/period is bounded and accurate but violates the declared output contract. No repair or discarded-attempt promotion."
+    },
+    {
+      "question_id": "DIR-02",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+      "call_ids": [
+        "02ec1303-d526-42a8-ab9b-ebceec572702"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Exact supported management/follow-up background from passage 54, but it does not answer cohort size or period."
+    },
+    {
+      "question_id": "DIR-02",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+      "call_ids": [
+        "472b6eb7-8fd6-43e3-acfc-899c2e0fc237"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Passage 17 states aims, not a study period. Publication metadata year 2021 was turned into the time of clinical findings; unknown population metadata was treated as a descriptive study population. This is not supported."
+    },
+    {
+      "question_id": "DIR-02",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "call_ids": [
+        "99d111c9-4196-4f08-b795-dc11eafcddbc"
+      ],
+      "observed_status": "invalid_output",
+      "source_based_agent_judgment": "Null evidence_id makes output invalid. Passage 68 gives study limitations, not the requested number/time. Its output and the failed attempt remain recorded."
+    },
+    {
+      "question_id": "PAR-01",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+      "call_ids": [
+        "aac5eaed-2907-4560-b788-1103fdd662b4"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Passage 21 supports medical-record review; explicitly excluding randomization is stronger than what this window itself states. The answer also omits that the records were electronic."
+    },
+    {
+      "question_id": "PAR-01",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+      "call_ids": [
+        "d53b2724-e748-4af6-94ad-73c51b906a13"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Bounded statement that passage 23 does not establish study design is accurate; it describes diagnostic/genetic sampling. This is not a substantive answer to the question."
+    },
+    {
+      "question_id": "PAR-01",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+      "call_ids": [
+        "eda31708-531a-4419-a481-072e788e25ea"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Supported verbatim background from passage 54, but no study-design answer."
+    },
+    {
+      "question_id": "PAR-01",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "call_ids": [
+        "fe1d769d-379a-45c4-bc8e-9117b05a1a10"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Passage 68 explicitly says retrospective design. The added assertion that looking back is not explicitly stated is an unhelpful literal-word distinction; the claim needs qualification rather than treating a paraphrase as missing."
+    },
+    {
+      "question_id": "PAR-01",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+      "call_ids": [
+        "63be06e0-2f79-4b0d-85d5-fed1539d8493"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Passage 19 supports retrospective data collection. Patient records are established in passage 21; this selected window alone does not explicitly state the record source."
+    },
+    {
+      "question_id": "ABS-01",
+      "source_id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+      "call_ids": [
+        "8750adff-6d84-4abd-a2cd-a72442d05b6a"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Correct source-level empty result; review passage 10 supplies genotype background, not intervention results."
+    },
+    {
+      "question_id": "ABS-01",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+      "call_ids": [
+        "e84c0956-ae5c-484c-a380-7c58844b45e7"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Italian passage 56 supports PARM and NPARM/frameshift background. It does not establish the randomized gene-editing results asked for. The assembled answer therefore fails relevance and correct abstention despite a supported background claim."
+    },
+    {
+      "question_id": "ABS-01",
+      "source_id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+      "call_ids": [
+        "ae14aa22-c830-4eca-8875-f8b5291eb7a0"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Correct source-level empty result; review passage 64 second window addresses testing/inheritance rather than intervention results."
+    },
+    {
+      "question_id": "ABS-01",
+      "source_id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+      "call_ids": [
+        "42b96bcf-8739-400d-8e7d-a10d187838bd"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Correct source-level empty result; review passage 64 first window addresses diagnostic testing limitations rather than intervention results."
+    },
+    {
+      "question_id": "ABS-01",
+      "source_id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+      "call_ids": [
+        "4fc27c89-e9f4-4b5e-8ba1-d39947e3c3b6"
+      ],
+      "observed_status": "decoded",
+      "source_based_agent_judgment": "Correct source-level empty result; Italian passage 8 describes PHOX2B, not intervention results."
+    }
+  ]
+}

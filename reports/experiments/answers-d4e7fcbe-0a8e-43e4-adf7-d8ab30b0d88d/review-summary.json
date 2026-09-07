@@ -1,0 +1,424 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "f5dccdc3bd3372061b119960dc4cd891080e3e307000cf6044b1488d9aaf852c",
+  "reviews_hash": "111a4fa506d75024961aed28fd7869020fff962b9a427a899c55d4b6fa8a0f1c",
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 2,
+      "claim_denominator": 4,
+      "unsupported_claims": 2,
+      "mean_seconds": 22.077941833288474,
+      "errors": 4,
+      "critical_failure_answers": 4
+    },
+    {
+      "prompt": "coverage_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 3,
+      "claim_denominator": 10,
+      "unsupported_claims": 2,
+      "mean_seconds": 29.519782512001775,
+      "errors": 4,
+      "critical_failure_answers": 6
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "1ae4e4e5-f357-4298-9b6e-9b79bd85b47d",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Invents quality-of-life aims and an average 12-year follow-up absent from the cited passages, with fabricated verbatim quotes. The exact aims paragraph is not retrieved. Rejected by quotation validation.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Invents quality-of-life aims and an average 12-year follow-up absent from the cited passages, with fabricated verbatim quotes. The exact aims paragraph is not retrieved. Rejected by quotation validation. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "DIR-01",
+      "answer_id": "14882519-b96a-45b9-aaf5-d64e594d7cbb",
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Missing status/exact_quote and extra question field. Duplicates the same clinical/genetic sentence and points it at methods passage 2 rather than passage 54. No complete two-aim answer; schema rejection is correct.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Missing status/exact_quote and extra question field. Duplicates the same clinical/genetic sentence and points it at methods passage 2 rather than passage 54. No complete two-aim answer; schema rejection is correct. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "8861400d-84c2-4897-b5cf-9269262ec99d",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw first text includes both 22 patients and 2000–2020, but every claim omits exact_quote, and another sentence is attached to the wrong passage. A promising raw fragment is not a valid complete application answer; all claims are correctly blocked.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw first text includes both 22 patients and 2000–2020, but every claim omits exact_quote, and another sentence is attached to the wrong passage. A promising raw fragment is not a valid complete application answer; all claims are correctly blocked. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "7ce14c33-74d3-4e65-b894-db92b4ef4617",
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Three mechanically valid claims: patient count/retrospective in passage 19, study aims in 17, and caveats in 68. All are source-supported, but the requested period is omitted from claims, quotes and limitations. The statement about whether the original study was read is unhelpful and lacks a clear referent; no completeness credit follows from it.",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Three mechanically valid claims: patient count/retrospective in passage 19, study aims in 17, and caveats in 68. All are source-supported, but the requested period is omitted from claims, quotes and limitations. The statement about whether the original study was read is unhelpful and lacks a clear referent; no completeness credit follows from it. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "8fc1c311-1dc7-4d05-a6f4-f8161baccb1b",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [
+        "unsupported",
+        "unsupported"
+      ],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Both claims wrongly attribute a 2022 review to the 2021 Italian study. The first quote concerns where NPARMs occur, not what proportion of all CCHS cases is caused by PHOX2B; the second quote does not support the asserted mosaic-parent proportion. Limitations incorrectly say molecular diagnostic methods are unavailable although the context describes NGS. True quotes with wrong conclusions and source attribution pass mechanical validation but fail semantic review.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Both claims wrongly attribute a 2022 review to the 2021 Italian study. The first quote concerns where NPARMs occur, not what proportion of all CCHS cases is caused by PHOX2B; the second quote does not support the asserted mosaic-parent proportion. Limitations incorrectly say molecular diagnostic methods are unavailable although the context describes NGS. True quotes with wrong conclusions and source attribution pass mechanical validation but fail semantic review. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "6ab65ed0-5b5b-4d90-8be2-04a1d4282a81",
+      "prompt": "coverage_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Returns mutation/testing background instead of abstaining. The mother/son quotation is from Italian passage 56 but attached to a different review window; another quote crosses beyond its cited window. Validation blocks the response, but these source mix-ups remain recorded failures.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Returns mutation/testing background instead of abstaining. The mother/son quotation is from Italian passage 56 but attached to a different review window; another quote crosses beyond its cited window. Validation blocks the response, but these source mix-ups remain recorded failures. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "a722a3a5-187b-4785-bc2a-46dbf0d50d59",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The sole claim about clinical/genetic findings is supported by passage 54. Limitations mention retrospective design, supported by 68, so that requested fact is present somewhere visible. It omits electronic medical records despite passage 21. Correct background plus one design word is not a complete requested comparison.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The sole claim about clinical/genetic findings is supported by passage 54. Limitations mention retrospective design, supported by 68, so that requested fact is present somewhere visible. It omits electronic medical records despite passage 21. Correct background plus one design word is not a complete requested comparison. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "4f1aaee7-5531-4fef-b3aa-040a35eaacb6",
+      "prompt": "coverage_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "uncertain",
+        "uncertain",
+        "uncertain",
+        "uncertain"
+      ],
+      "fact_coverage": [
+        "uncertain",
+        "uncertain"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The first claim merely repeats the question and the other three repeat the article title, so none actually answers the question. Quotes contain electronic records and retrospective design, but limitations explicitly deny that these are established. Evidence snippets cannot compensate for that contradictory conclusion.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The first claim merely repeats the question and the other three repeat the article title, so none actually answers the question. Quotes contain electronic records and retrospective design, but limitations explicitly deny that these are established. Evidence snippets cannot compensate for that contradictory conclusion. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "14b9971b-f938-4d68-8482-acba14fe7f60",
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Invents chromosome 1q21.1 and ten exons, absent from the context and contradicted by frozen reference passage 10:0:750 (4p12, three exons). All exact_quote fields are absent. Reference passage was not retrieved; schema rejection prevents display.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Invents chromosome 1q21.1 and ten exons, absent from the context and contradicted by frozen reference passage 10:0:750 (4p12, three exons). All exact_quote fields are absent. Reference passage was not retrieved; schema rejection prevents display. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "89627e2e-398d-49de-a07a-a1e63295a2fe",
+      "prompt": "coverage_first",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Repeats the invented chromosome/exon answer with an unrelated diagnostic-testing quote. Further claims attach the mutation-frequency quote to other passages where it is absent. The complete output is blocked by citation validation; its source and factual errors remain failures.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Repeats the invented chromosome/exon answer with an unrelated diagnostic-testing quote. Further claims attach the mutation-frequency quote to other passages where it is absent. The complete output is blocked by citation validation; its source and factual errors remain failures. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "583d96fd-9bfb-4abc-a487-2a08d026171e",
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Uses publication IDs/full hashes instead of provided passage IDs. Its limitations deny sample size and study limitations that are explicitly present in passages 2 and 68. The required guideline blend reference is absent, and the response supplies background instead of a complete comparison. Validation blocks it.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Uses publication IDs/full hashes instead of provided passage IDs. Its limitations deny sample size and study limitations that are explicitly present in passages 2 and 68. The required guideline blend reference is absent, and the response supplies background instead of a complete comparison. Validation blocks it. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "57faeb9c-8797-4bee-9181-eab10129f7c4",
+      "prompt": "coverage_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Uses publication-only IDs rather than passage IDs. The background and caveat sentences do not establish the guideline evidence/experience blend, whose passage 13 is not retrieved. Invalid IDs block all claims.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Uses publication-only IDs rather than passage IDs. The background and caveat sentences do not establish the guideline evidence/experience blend, whose passage 13 is not retrieved. Invalid IDs block all claims. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "603ba439-5ed7-4be9-bbc1-16307f893285",
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The single equipment-certification quote matches passage 78, but is unrelated to the requested repeat-length association. Neither inconsistency nor exceptions is provided; reference passage 52 is not retrieved. The bounded statement that the context lacks this information is reasonable, but the response remains irrelevant/incomplete.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The single equipment-certification quote matches passage 78, but is unrelated to the requested repeat-length association. Neither inconsistency nor exceptions is provided; reference passage 52 is not retrieved. The bounded statement that the context lacks this information is reasonable, but the response remains irrelevant/incomplete. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "0d984778-5c97-4c7c-b8ca-930ad2b2685a",
+      "prompt": "coverage_first",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "unsupported",
+        "partial",
+        "unsupported"
+      ],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The first and third claims about invasive-use certification cite passage 93 about mask ventilation, not the supporting passage 78. The second claim is present earlier in its full source window, but its chosen truncated quote concerns a different mode and does not support the stated claim on its own. It supplies none of the required inconsistency/exception qualifications. Mechanical validity hides failed grounding and relevance.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The first and third claims about invasive-use certification cite passage 93 about mask ventilation, not the supporting passage 78. The second claim is present earlier in its full source window, but its chosen truncated quote concerns a different mode and does not support the stated claim on its own. It supplies none of the required inconsistency/exception qualifications. Mechanical validity hides failed grounding and relevance. Current export rows preserve the same text/provenance/uncertainty and do not independently certify scientific support; browser download not tested here.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "8d0a48ac87e57ebfbacdee2bb824a845971079479ff300ff0cd3933932f85e1a",
+  "whole_answer_reviewer": "Codex source-based provisional review, 2026-09-06",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

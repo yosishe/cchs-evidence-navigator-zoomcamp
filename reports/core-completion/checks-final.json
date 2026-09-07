@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-06T00:51:59.714112+00:00",
+  "status": "LOCAL_SUITE_PASS_EXTERNAL_GATES_PENDING",
+  "suite_passed": true,
+  "test_count": 79,
+  "passed_count": 79,
+  "skipped_count": 0,
+  "source_hashes_verified": true,
+  "question_anchors_verified": true,
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "chunk_count": 377,
+  "excluded_passages": 390,
+  "missing_dependencies_in_this_interpreter": [],
+  "docker_available": false,
+  "test_scope": "Python contracts plus real minsearch, dlt/DuckDB and Streamlit AppTest when their dependencies are present. SDK responses in contracts are mocks; AppTest is not a browser.",
+  "not_established_by_this_check": [
+    "live provider response",
+    "retrieval quality",
+    "answer quality",
+    "browser interaction (separate report)",
+    "PostgreSQL persistence",
+    "Compose startup",
+    "human scientific review",
+    "submission readiness"
+  ]
+}

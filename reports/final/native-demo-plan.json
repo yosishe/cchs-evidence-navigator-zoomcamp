@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-07T18:14:54.468654+00:00",
+  "status": "PREDECLARED_BEFORE_GENERATION",
+  "question_ids": [
+    "EXA-01",
+    "ABS-01"
+  ],
+  "questions": [
+    {
+      "schema_version": 2,
+      "id": "EXA-01",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-01",
+      "split": "tuning",
+      "question": "Where does the 2022 review locate PHOX2B, and how many exons does it describe?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "quote": "chromosome 4p12 and has 3 exons",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Chromosome 4p12; three exons.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-01",
+      "slice": "absent",
+      "group_id": "ABS-01",
+      "split": "tuning",
+      "question": "What measured results does the 2021 Italian study report from a randomized PHOX2B gene-editing intervention?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    }
+  ],
+  "attempt_limit_per_question": 1,
+  "planned_generation_calls": 2,
+  "planned_rewrite_calls": 0,
+  "final_split_calls": 0,
+  "retry_policy": "No retries to improve an observation",
+  "configuration_file_sha256": "0b02560637088fb36449680d9b3680d2a88298c3a953d15a3b18172e2a927bf3",
+  "port": 8601,
+  "storage_backend": "jsonl",
+  "traffic_origin": "qa",
+  "purpose": "Operational demonstration, not a new quality-selection sample",
+  "success_criteria": [
+    "EXA-01 returns the 2022 review evidence for chromosome4p12 and threeexons with exact source span",
+    "ABS-01 abstains without invented gene-editing trial results",
+    "Actual downloaded JSON/CSVs match stored source records and pending review states",
+    "Answer-linked QA feedback and all six charts visible; records retained after app restart"
+  ],
+  "prompt_boundary": "Only question text enters the UI; reference facts and judgments are for post-response review only."
+}

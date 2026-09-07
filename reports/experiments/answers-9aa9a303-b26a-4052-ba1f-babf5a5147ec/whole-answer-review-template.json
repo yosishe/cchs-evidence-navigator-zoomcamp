@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "b7ecc1fb97e38d89ae3ac000fd8e1b0631a99df9e73492fb71300594fa4597ed",
+  "reviews": [
+    {
+      "answer_id": "042a88fe-8384-4bb2-8627-d05979527acc",
+      "record_hash": "e82a6cd4b5c7869a279a018810b05b55e34b74da08ce3d5a8f7d01899774b8da",
+      "export_hash": "3db4d05dbb4dd6ba4ba6e9f8021bb5fdf907d6c5fdc2267e4b114f3dbd250a99",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "4d8ce908-e161-48b6-a138-5fbc2b956af5",
+      "record_hash": "10e36b6155dafc7993c20725d55f2ce51fcaa6874d961d48dec72e9bffcdbb9b",
+      "export_hash": "cb4331a689991bf5340cfc854318546b5b51fba38660daa98ef5685f2361e99c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "557f0c8a-363b-484f-84dc-59e364854a69",
+      "record_hash": "49e092169551b79a8cf792ff53913f91f0086a8119503eb7efae6be55b7051f6",
+      "export_hash": "b67283c394e8fc1d0378b508efdfa1a5022702d7b2afddde8469a8f3aa12b331",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "f1ab7442-2f1a-49e0-9bc5-9ca883afabf2",
+      "record_hash": "a18ce0ba110fbbaec3f07710e9b55af8be4bff4339cf976329ed7b0d10fd6b9b",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "6efe8aa7-9c83-4992-85c2-7cc2fc9f3669",
+      "record_hash": "a97bbf73b453db9532cb32c8167b18ac333cd930c9cf6ec758baa700a008eaf3",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    }
+  ]
+}

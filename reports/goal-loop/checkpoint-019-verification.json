@@ -1,0 +1,291 @@
+{
+  "created_at": "2026-09-06T12:55:49.160731+00:00",
+  "status": "SOFTWARE_AND_CONSISTENCY_CHECKPOINT_QUALITY_INCOMPLETE",
+  "runtime_code_id": "d6f21e818af6a48dfa7104458eeffa99927716e9810222986efe5b062b1dafa3",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "protected_file_count": 8,
+  "protected_file_hashes": {
+    "configs/app.json": "23db0695f936f9742865b1726da3e766025cc91974fd028e85f6e9fcb0aa47cf",
+    "data/README.md": "2656d2f4592a89fbeb7f3a13b8421ffdbf259fd0bbb0a77ccc5850708259733d",
+    "data/evaluation/questions-v2.json": "5137692ff65c370c67bf2f1df7e38d9f96b6c0bd5485477bad4ebb9d0133fdee",
+    "data/evaluation/questions.json": "17453afccfca77194a334fd2a64f60a242c948ae4a0bd5405967e91eeeff5da6",
+    "data/manifest.json": "5cb22c98c9565e8c0af3c80e186eb4b1b0466f367fe2bd1c1f9dcdd5f002c732",
+    "data/raw/PMC7503443.json": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+    "data/raw/PMC8039127.json": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+    "data/raw/PMC8963195.json": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde"
+  },
+  "protected_files_unchanged": true,
+  "generation_runs": [
+    {
+      "path": "reports/experiments/answers-58588fd2-785d-4495-9491-e29485cbb56e/results.json",
+      "hash": "67fc0cac00f8779872a61d3f5283104ab16e7e1dba0c139c9a21dec8a15493a3",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "22640429-f23e-43e4-ad6a-dc2d97445d6d",
+        "4e0d96a8-6666-432b-abd3-dce08ef51f8e",
+        "4e972dbf-776f-4539-bf68-a9a5e35497c7",
+        "6c1debd1-912f-4514-9046-378c1382c1ef",
+        "7d38e598-34d0-4f25-b659-bfec8d8d2943",
+        "d880c2cc-f910-4a7d-a453-fa69dfddacf0"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 6
+    },
+    {
+      "path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json",
+      "hash": "218462df7866e90312af3c959238d93ad789c0ee7d0f70ff374ef0513e53a0a2",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "37eeafec-b969-410d-a75c-f8fef7f4aa30",
+        "401ee166-e22b-46a1-9af3-626e3457188b",
+        "7475d483-3308-41b7-99b2-56af6d682779",
+        "74b46c74-2656-4173-9693-2bc0ec494985",
+        "9b48a74c-cd07-41b6-a832-600c7d7db0de",
+        "c82287a7-ae2b-4447-8380-c775d3c06e49"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 6
+    },
+    {
+      "path": "reports/experiments/answers-76980778-74eb-4cb6-be3d-1d9f61ef1396/results.json",
+      "hash": "45648bb848891d5388aa22df98ac2ee544f5ab43445624c600ff325b8d20069b",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "59e4604b-e0c0-4a08-8405-bafe71489595",
+        "626e06eb-a383-4d2c-a001-b03d25974eba",
+        "854bd973-300f-492b-9802-450cb8a534b6",
+        "c92bbd26-c4fd-41bb-b3df-b04e421fdd57",
+        "cb862d46-6e50-4c52-9c2f-ecc5dc578df6",
+        "ec0842ff-3a99-4acb-8ccb-e1f41f221c40"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 6
+    },
+    {
+      "path": "reports/experiments/answers-c0ee8b93-1913-41b8-b9f6-ab4e9fc32467/results.json",
+      "hash": "acff0344888e79c489f162ae0bc1cd01b44b404d9fe8937871f090a7b2822f56",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "3ec3dfab-f72b-48be-968e-873c50d2c73f",
+        "43c17bab-9e00-421f-9ce6-6c9d64a70095",
+        "6d1f5cf5-f393-4f5b-b477-0dd2e62bc2fb",
+        "7ef9e9ab-4a36-4d8f-81f0-56962be6b764",
+        "9d929274-b208-457a-b52e-ae55085c34bf",
+        "ee7b5395-8f05-4273-a647-2aa53a5660d5"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 6
+    },
+    {
+      "path": "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/results.json",
+      "hash": "ed01050ccc59b79e8308214b7666768ad3740b76e8924adc8ef0f11837e910f9",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "2019575c-a776-4d35-a8f3-606ca54bc24f",
+        "33e40f73-308b-48e6-92c4-9a4933586cd7",
+        "3b5dc99e-5a08-4b5d-8ea3-545c7ff648ee",
+        "7d2628d2-93a4-49ae-93c9-f60e9e5ff1d7",
+        "9ff8c9f3-5472-4d65-91b8-c453e5248f48",
+        "f61b2ecd-9372-4fa9-9979-1b09935b9d17"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 6
+    },
+    {
+      "path": "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/results.json",
+      "hash": "f5dccdc3bd3372061b119960dc4cd891080e3e307000cf6044b1488d9aaf852c",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "04fdcb59-3a7d-4c9b-93bd-edb7a6072312",
+        "0a986b74-4dd3-4295-bcdc-0c752f964e0d",
+        "0fc7eaab-880d-4fa9-aade-3854550fb599",
+        "1720ce13-b1ae-4de4-bb9b-49a9724da7be",
+        "219f0dae-9999-49f4-9464-bbd527f09a3f",
+        "388f41ee-4744-46af-9799-fcdf05521b21",
+        "46b914e9-1117-4499-983f-3e127db3a684",
+        "7c5c96ff-deae-407e-9537-4b7fe88c24fb",
+        "b8938e28-76d9-40e5-9581-e4d5c7876e22",
+        "decd3c44-2d19-4cbf-88cc-8cdc0d16f356",
+        "e59028d8-c814-4755-8484-11e981b66475",
+        "e8b2c8ca-715a-4cc1-a96c-c9a7848bd396",
+        "ec99ede2-5565-4c99-a70b-904e35233555",
+        "fc5573f7-01ea-45b7-a1b3-7557831bee91"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 14
+    },
+    {
+      "path": "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/results.json",
+      "hash": "4677aecc7b58534e7716baaf15a9cb849e2d0c5a9038a799788c2103ca56c451",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "38d249b4-c283-4978-91e8-ea9a8ae5e462",
+        "88c0e525-816d-4d89-9476-016a67ec39a9",
+        "9a7c2d92-dd08-4d9d-b248-3298e99d7a2d",
+        "b063550e-273c-4ef4-9955-c0940d98ec37",
+        "cdb80567-0916-47ce-b1f8-9a6a1d3f1241",
+        "f38d5cde-5877-40f2-8b03-24ead83b2ef7"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 6
+    },
+    {
+      "path": "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/results.json",
+      "hash": "094935df0549229f0b2dfaf17c1b48ee929c17003e3d870a99c9e0cd88d7cfb5",
+      "split": "tuning",
+      "recorded_call_ids": [
+        "341f494b-218f-4071-99ef-14add42daf00",
+        "3d77c3e5-b475-449c-a648-2f28eea46b21",
+        "537814a4-ca9c-45b6-9e5e-23edc026af5b",
+        "656c9d5a-a9dc-48c1-a291-0db388fb4811",
+        "68790c2b-1578-435f-ae4e-9cf78bd6695a",
+        "68c7eb9c-7d61-4d82-a2ce-023282183d9f",
+        "71fb2922-7f5d-4091-a4e7-b42acff698d4",
+        "9d7b7f7a-0cb0-424d-9c0a-6ea798803660",
+        "cda99c7b-aa70-466a-8de9-9800d6b9bece",
+        "e582237a-29e3-44bd-9067-9a4894438480",
+        "f3542695-9b30-4462-8cc7-522dcb2ec87c",
+        "f5cd7476-0b6b-4079-877c-62991f1eaa1f",
+        "f995d182-1a2f-46d1-afd1-fa4bea8c377b",
+        "ff10e2de-c79c-4d2a-b343-62def4e0e56a"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 14
+    },
+    {
+      "path": "reports/goal-loop/ordinary-answer-diagnostic-8240e573-ad24-4cb2-be7f-7be67ba91bd3/results.json",
+      "hash": "552654b28cd95d6ff683d37cc6b0409cc9fc1793d2dbe9ba0d123c3511f2b888",
+      "split": "format_diagnostic",
+      "recorded_call_ids": [
+        "0c3cdb19-6002-4a37-9c8d-2589b2979bde",
+        "8d730def-0567-4543-968d-5d6b3093fd09",
+        "907d6c98-ac4a-4b0a-bd2d-e9ac164396a1"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 3
+    },
+    {
+      "path": "reports/goal-loop/source-attached-prototype-ac57c06c-e5ad-401a-8282-4f192f927b13/results.json",
+      "hash": "492dd4d589bee515c7c6c3e7a45e8bb61f74d30d1c5c4417299a2d159e92214c",
+      "split": "source_attachment_diagnostic",
+      "recorded_call_ids": [
+        "1fb8a576-5227-480b-932d-3572970506cf",
+        "86748b35-62d6-479d-b917-7c64400fa166",
+        "c20c91de-a1cd-4ee2-9607-aaf952004058"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 3
+    },
+    {
+      "path": "reports/goal-loop/source-attached-prototype-c3389bee-6ac6-4ca5-a9af-2509a90a9627/results.json",
+      "hash": "0a44ac02b69642a440468ccff5f1687e0950d7b7a4371ee979712151bc4815e7",
+      "split": "source_attachment_diagnostic",
+      "recorded_call_ids": [
+        "03f0a199-f3aa-48a4-b5f7-f2af5afe608a",
+        "b0e20bc9-96cb-4eb3-95ad-062415aac1a6",
+        "cae9d292-373a-4f21-9acf-f746cee732f8"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 3
+    },
+    {
+      "path": "reports/goal-loop/source-attached-prototype-d6a7d708-8233-4fea-a820-8e5e4f439a8f/results.json",
+      "hash": "c6942d3a3c56698a7c3eb39c1a956be8cbb655565232e92f69640694e1148b1b",
+      "split": "source_attachment_diagnostic",
+      "recorded_call_ids": [
+        "993a21e3-8369-49de-adf7-0df3fc76983f",
+        "be4294f4-015d-4dcf-8c06-53799e39fbe7",
+        "c04836ab-ab41-4f53-abe0-aab9f00feefe"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 3
+    },
+    {
+      "path": "reports/goal-loop/staged-format-prototype-3875f943-104d-4451-9010-3f19a68f7d6c/results.json",
+      "hash": "2ba245998ced6b57685c6d6c1fc110d48059795d4fb667d182668867efc05dd6",
+      "split": "staged_diagnostic",
+      "recorded_call_ids": [
+        "30a31e8f-8e32-4b46-aed8-0fef9a8e567b",
+        "a4a5b4a1-fb55-4658-bf64-152d8aa3bfc0",
+        "f9b0b2a5-2dee-44ce-9526-dc2f35b2a975"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": 3
+    },
+    {
+      "path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-review-packet.json",
+      "hash": "2e9eb4c4fd7c3c8ea14300882d220dff395e525759dce4c26dd0007fc9b8fbdc",
+      "split": "reference_diagnostic",
+      "recorded_call_ids": [
+        "6eae2934-b8e6-4f08-b2ef-8a5d8bc876e7",
+        "8260f688-30e0-47ef-9658-5a1435ec5ef4",
+        "87b3a8c5-5055-4e23-ade0-db8a1201dc71",
+        "943aef85-5168-4b3d-bd6c-838c0dc6879d"
+      ],
+      "reused_ids_already_counted": 0,
+      "reported_new_requests": null
+    }
+  ],
+  "unique_new_goal_local_calls": 83,
+  "ordinary_application_calls": 64,
+  "diagnostic_calls": 19,
+  "reused_draft_calls_counted_once": 3,
+  "retrieval_queries": 378,
+  "retrieval_generation_calls": 0,
+  "latest_software_suite": {
+    "created_at": "2026-09-06T12:52:29.161683+00:00",
+    "status": "LOCAL_SUITE_PASS_EXTERNAL_GATES_PENDING",
+    "suite_passed": true,
+    "test_count": 116,
+    "passed_count": 116,
+    "skipped_count": 0,
+    "test_output": "test_alias_decodes_to_canonical_identity_without_changing_quote_or_export (test_citation_aliases.CitationAliasTests.test_alias_decodes_to_canonical_identity_without_changing_quote_or_export) ... ok\ntest_same_alias_is_scoped_to_each_request (test_citation_aliases.CitationAliasTests.test_same_alias_is_scoped_to_each_request) ... ok\ntest_selection_reconstructs_raw_alias_mapping_and_rejects_tampering (test_citation_aliases.CitationAliasTests.test_selection_reconstructs_raw_alias_mapping_and_rejects_tampering) ... ok\ntest_unknown_labels_quotes_and_extra_fields_remain_rejected (test_citation_aliases.CitationAliasTests.test_unknown_labels_quotes_and_extra_fields_remain_rejected) ... ok\ntest_invalid_completed_output_is_counted_and_other_prompt_still_runs (test_claude_remediation.EvaluationFailureTests.test_invalid_completed_output_is_counted_and_other_prompt_still_runs) ... ok\ntest_provider_outage_still_stops_without_retries (test_claude_remediation.EvaluationFailureTests.test_provider_outage_still_stops_without_retries) ... ok\ntest_reference_diagnostic_keeps_invalid_outputs_but_stops_on_provider_failure (test_claude_remediation.EvaluationFailureTests.test_reference_diagnostic_keeps_invalid_outputs_but_stops_on_provider_failure) ... ok\ntest_selector_keeps_failed_alternative_but_rejects_fabricated_failure (test_claude_remediation.EvaluationFailureTests.test_selector_keeps_failed_alternative_but_rejects_fabricated_failure) ... ok\ntest_dashboard_defaults_to_session_origin_and_stays_labeled (test_claude_remediation.ProviderSetupTests.test_dashboard_defaults_to_session_origin_and_stays_labeled) ... 2026-09-06 15:52:17.536 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\nok\ntest_json_mode_is_sent_and_recorded_without_weakening_validation (test_claude_remediation.ProviderSetupTests.test_json_mode_is_sent_and_recorded_without_weakening_validation) ... ok\ntest_length_limited_completion_is_retained_as_failed_output (test_claude_remediation.ProviderSetupTests.test_length_limited_completion_is_retained_as_failed_output) ... ok\ntest_metadata_distinguishes_architecture_and_loaded_context_without_inference (test_claude_remediation.ProviderSetupTests.test_metadata_distinguishes_architecture_and_loaded_context_without_inference) ... ok\ntest_missing_model_exits_nonzero_without_pull_or_show (test_claude_remediation.ProviderSetupTests.test_missing_model_exits_nonzero_without_pull_or_show) ... ok\ntest_timeout_override_is_validated_and_fingerprinted (test_claude_remediation.ProviderSetupTests.test_timeout_override_is_validated_and_fingerprinted) ... ok\ntest_altered_quote_rejected (test_contracts.AnswerTests.test_altered_quote_rejected) ... ok\ntest_empty_search_does_not_call_provider (test_contracts.AnswerTests.test_empty_search_does_not_call_provider) ... ok\ntest_empty_supported_answer_rejected (test_contracts.AnswerTests.test_empty_supported_answer_rejected) ... ok\ntest_malformed_provider_output_never_becomes_answer (test_contracts.AnswerTests.test_malformed_provider_output_never_becomes_answer) ... ok\ntest_mock_sdk_contract_and_actual_usage (test_contracts.AnswerTests.test_mock_sdk_contract_and_actual_usage) ... ok\ntest_paid_calls_disabled_by_default (test_contracts.AnswerTests.test_paid_calls_disabled_by_default) ... ok\ntest_preview_has_no_generated_claims_or_token_usage (test_contracts.AnswerTests.test_preview_has_no_generated_claims_or_token_usage) ... ok\ntest_provider_timeout_is_bounded_and_does_not_expose_secret (test_contracts.AnswerTests.test_provider_timeout_is_bounded_and_does_not_expose_secret) ... ok\ntest_unknown_citation_rejected (test_contracts.AnswerTests.test_unknown_citation_rejected) ... ok\ntest_bibliography_excluded_and_unknown_context_preserved (test_contracts.CorpusContractTests.test_bibliography_excluded_and_unknown_context_preserved) ... ok\ntest_csv_formula_neutralized_without_changing_plain_text (test_contracts.CorpusContractTests.test_csv_formula_neutralized_without_changing_plain_text) ... ok\ntest_hash_change_fails_closed (test_contracts.CorpusContractTests.test_hash_change_fails_closed) ... ok\ntest_identity_mismatch (test_contracts.CorpusContractTests.test_identity_mismatch) ... ok\ntest_invalid_overlap (test_contracts.CorpusContractTests.test_invalid_overlap) ... ok\ntest_real_corpus_quotes_have_no_invented_text (test_contracts.CorpusContractTests.test_real_corpus_quotes_have_no_invented_text) ... ok\ntest_repeat_preparation_same_ids_and_content (test_contracts.CorpusContractTests.test_repeat_preparation_same_ids_and_content) ... ok\ntest_windows_keep_exact_offsets_and_tail (test_contracts.CorpusContractTests.test_windows_keep_exact_offsets_and_tail) ... ok\ntest_dangling_feedback_is_rejected (test_contracts.FeedbackTests.test_dangling_feedback_is_rejected) ... ok\ntest_feedback_persists_and_duplicate_submission_is_idempotent (test_contracts.FeedbackTests.test_feedback_persists_and_duplicate_submission_is_idempotent) ... ok\ntest_invalid_feedback_is_rejected (test_contracts.FeedbackTests.test_invalid_feedback_is_rejected) ... ok\ntest_embedding_template_keeps_selected_text_exact (test_contracts.RetrievalEvaluationTests.test_embedding_template_keeps_selected_text_exact) ... ok\ntest_gold_missing_passage_is_invalid (test_contracts.RetrievalEvaluationTests.test_gold_missing_passage_is_invalid) ... ok\ntest_group_leakage_is_invalid (test_contracts.RetrievalEvaluationTests.test_group_leakage_is_invalid) ... ok\ntest_mrr_one_based (test_contracts.RetrievalEvaluationTests.test_mrr_one_based) ... ok\ntest_rrf_rejects_zero_constant (test_contracts.RetrievalEvaluationTests.test_rrf_rejects_zero_constant) ... ok\ntest_rrf_zero_based_and_duplicate_safe (test_contracts.RetrievalEvaluationTests.test_rrf_zero_based_and_duplicate_safe) ... ok\ntest_blocked_and_incomplete_reports_exit_nonzero (test_core_completion.CompletionAndCalibrationTests.test_blocked_and_incomplete_reports_exit_nonzero) ... ok\ntest_changed_calibration_inputs_or_judge_rejected (test_core_completion.CompletionAndCalibrationTests.test_changed_calibration_inputs_or_judge_rejected) ... ok\ntest_cli_propagates_matrix_failure (test_core_completion.CompletionAndCalibrationTests.test_cli_propagates_matrix_failure) ... ok\ntest_completed_generation_is_not_mislabeled_as_quality_review (test_core_completion.CompletionAndCalibrationTests.test_completed_generation_is_not_mislabeled_as_quality_review) ... ok\ntest_explicit_question_ids_cannot_cross_split_or_duplicate (test_core_completion.PlanTests.test_explicit_question_ids_cannot_cross_split_or_duplicate) ... ok\ntest_final_test_cannot_run_with_an_unselected_candidate (test_core_completion.PlanTests.test_final_test_cannot_run_with_an_unselected_candidate) ... ok\ntest_paired_evaluation_prepares_once_per_question_and_counts_actual_calls (test_core_completion.PlanTests.test_paired_evaluation_prepares_once_per_question_and_counts_actual_calls) ... ok\ntest_provider_failure_leaves_a_blocked_artifact_with_zero_attempts (test_core_completion.PlanTests.test_provider_failure_leaves_a_blocked_artifact_with_zero_attempts) ... ok\ntest_six_question_pilot_covers_all_slices_and_test_has_one_prompt (test_core_completion.PlanTests.test_six_question_pilot_covers_all_slices_and_test_has_one_prompt) ... ok\ntest_durable_attempt_is_written_before_the_sdk_attempt (test_core_completion.SelectionEvidenceTests.test_durable_attempt_is_written_before_the_sdk_attempt) ... ok\ntest_selected_config_verifies_until_config_or_evidence_changes (test_core_completion.SelectionEvidenceTests.test_selected_config_verifies_until_config_or_evidence_changes) ... ok\ntest_test_split_and_pilot_subset_cannot_select (test_core_completion.SelectionEvidenceTests.test_test_split_and_pilot_subset_cannot_select) ... ok\ntest_candidate_prompt_planning_does_not_change_incumbent_or_final_split (test_core_completion.SharedFlowTests.test_candidate_prompt_planning_does_not_change_incumbent_or_final_split) ... ok\ntest_compact_metadata_keeps_scientific_context_and_export_provenance (test_core_completion.SharedFlowTests.test_compact_metadata_keeps_scientific_context_and_export_provenance) ... ok\ntest_course_message_layout_preserves_the_same_question_evidence_and_rules (test_core_completion.SharedFlowTests.test_course_message_layout_preserves_the_same_question_evidence_and_rules) ... ok\ntest_frozen_context_cannot_be_changed_or_applied_to_other_question (test_core_completion.SharedFlowTests.test_frozen_context_cannot_be_changed_or_applied_to_other_question) ... ok\ntest_preview_never_calls_rewriter_or_generator (test_core_completion.SharedFlowTests.test_preview_never_calls_rewriter_or_generator) ... ok\ntest_reused_rewrite_is_referenced_not_counted_twice (test_core_completion.SharedFlowTests.test_reused_rewrite_is_referenced_not_counted_twice) ... ok\ntest_runtime_and_frozen_evaluation_have_same_context (test_core_completion.SharedFlowTests.test_runtime_and_frozen_evaluation_have_same_context) ... ok\ntest_browser_app_contract_shows_setup_action_without_provider_details (test_decision_refinement.EncoderPreparationTests.test_browser_app_contract_shows_setup_action_without_provider_details) ... 2026-09-06 15:52:19.433 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\nok\ntest_heading_experiment_preserves_original_passage_and_is_bound_to_context (test_decision_refinement.EncoderPreparationTests.test_heading_experiment_preserves_original_passage_and_is_bound_to_context) ... ok\ntest_missing_encoder_is_offline_and_actionable (test_decision_refinement.EncoderPreparationTests.test_missing_encoder_is_offline_and_actionable) ... ok\ntest_preparation_failure_writes_blocked_receipt_and_cli_exits_nonzero (test_decision_refinement.EncoderPreparationTests.test_preparation_failure_writes_blocked_receipt_and_cli_exits_nonzero) ... ok\ntest_all_scope_cannot_relabel_qa_as_user (test_decision_refinement.OriginIntegrityTests.test_all_scope_cannot_relabel_qa_as_user) ... ok\ntest_journal_rejects_mismatch_and_unknown_legacy_origin (test_decision_refinement.OriginIntegrityTests.test_journal_rejects_mismatch_and_unknown_legacy_origin) ... ok\ntest_postgres_checks_origin_before_insert_without_migration (test_decision_refinement.OriginIntegrityTests.test_postgres_checks_origin_before_insert_without_migration) ... ok\ntest_preview_and_empty_whitespace_quotes_cannot_export_claims (test_instructor_reassessment.ExportBoundaryTests.test_preview_and_empty_whitespace_quotes_cannot_export_claims) ... ok\ntest_source_exports_include_license_and_language (test_instructor_reassessment.ExportBoundaryTests.test_source_exports_include_license_and_language) ... ok\ntest_rehashed_inconsistent_evidence_cannot_select (test_instructor_reassessment.SelectionConsistencyTests.test_rehashed_inconsistent_evidence_cannot_select) ... ok\ntest_runtime_detects_changed_calibration_without_calling_judge (test_instructor_reassessment.SelectionConsistencyTests.test_runtime_detects_changed_calibration_without_calling_judge) ... ok\ntest_legacy_without_completeness_cannot_be_promoted (test_local_quality.CompletenessTests.test_legacy_without_completeness_cannot_be_promoted) ... ok\ntest_omitted_qualification_is_not_acceptable (test_local_quality.CompletenessTests.test_omitted_qualification_is_not_acceptable) ... ok\ntest_supported_but_incomplete_answer_is_not_acceptable (test_local_quality.CompletenessTests.test_supported_but_incomplete_answer_is_not_acceptable) ... ok\ntest_test_split_cannot_select_prompt (test_local_quality.CompletenessTests.test_test_split_cannot_select_prompt) ... ok\ntest_zero_acceptable_responses_do_not_nominate_a_winner (test_local_quality.CompletenessTests.test_zero_acceptable_responses_do_not_nominate_a_winner) ... ok\ntest_failed_retrieval_checkpoints_an_interrupted_run (test_local_quality.ExperimentFailureTests.test_failed_retrieval_checkpoints_an_interrupted_run) ... ok\ntest_missing_models_leave_durable_preflight_without_generation (test_local_quality.ExperimentFailureTests.test_missing_models_leave_durable_preflight_without_generation) ... ok\ntest_bank_has_six_slices_and_disjoint_source_passages (test_local_quality.HeadingAndBankTests.test_bank_has_six_slices_and_disjoint_source_passages) ... ok\ntest_corpus_changed_after_bank_freeze_is_rejected (test_local_quality.HeadingAndBankTests.test_corpus_changed_after_bank_freeze_is_rejected) ... ok\ntest_headings_are_metadata_not_evidence_windows (test_local_quality.HeadingAndBankTests.test_headings_are_metadata_not_evidence_windows) ... ok\ntest_changed_installed_model_digest_is_rejected (test_local_quality.LocalBoundaryTests.test_changed_installed_model_digest_is_rejected) ... ok\ntest_failed_actual_call_is_counted_once_and_secret_not_persisted (test_local_quality.LocalBoundaryTests.test_failed_actual_call_is_counted_once_and_secret_not_persisted) ... ok\ntest_invalid_json_retains_actual_usage_but_not_claims (test_local_quality.LocalBoundaryTests.test_invalid_json_retains_actual_usage_but_not_claims) ... ok\ntest_local_answer_is_generated_without_paid_flag_or_key (test_local_quality.LocalBoundaryTests.test_local_answer_is_generated_without_paid_flag_or_key) ... ok\ntest_local_endpoint_cannot_redirect_configuration_to_external_provider (test_local_quality.LocalBoundaryTests.test_local_endpoint_cannot_redirect_configuration_to_external_provider) ... ok\ntest_missing_provider_and_untaught_model_cannot_fallback (test_local_quality.LocalBoundaryTests.test_missing_provider_and_untaught_model_cannot_fallback) ... ok\ntest_proposals_use_only_quote_terms_and_keep_uncertainty (test_local_quality.LocalBoundaryTests.test_proposals_use_only_quote_terms_and_keep_uncertainty) ... ok\ntest_rewrite_preserves_identifiers_negation_and_falls_back_on_bad_output (test_local_quality.LocalBoundaryTests.test_rewrite_preserves_identifiers_negation_and_falls_back_on_bad_output) ... ok\ntest_claim_csv_round_trip_retains_quote_source_and_identity (test_review_regressions.ExportTests.test_claim_csv_round_trip_retains_quote_source_and_identity) ... ok\ntest_csv_formula_defense_and_preview_has_no_claims (test_review_regressions.ExportTests.test_csv_formula_defense_and_preview_has_no_claims) ... ok\ntest_export_rejects_legacy_tampered_record (test_review_regressions.ExportTests.test_export_rejects_legacy_tampered_record) ... ok\ntest_mismatched_feedback_origin_not_counted (test_review_regressions.MonitoringTests.test_mismatched_feedback_origin_not_counted) ... ok\ntest_monitor_read_outage_is_handled_and_recovers (test_review_regressions.MonitoringTests.test_monitor_read_outage_is_handled_and_recovers) ... 2026-09-06 15:52:23.272 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\nok\ntest_origin_mode_denominators_and_legacy_are_separate (test_review_regressions.MonitoringTests.test_origin_mode_denominators_and_legacy_are_separate) ... ok\ntest_context_includes_scientific_provenance (test_review_regressions.OutputOwnershipTests.test_context_includes_scientific_provenance) ... ok\ntest_model_cannot_overwrite_any_application_field (test_review_regressions.OutputOwnershipTests.test_model_cannot_overwrite_any_application_field) ... ok\ntest_nested_foreign_fields_and_non_string_id_rejected (test_review_regressions.OutputOwnershipTests.test_nested_foreign_fields_and_non_string_id_rejected) ... ok\ntest_record_owns_configuration_and_sources (test_review_regressions.OutputOwnershipTests.test_record_owns_configuration_and_sources) ... ok\ntest_complete_reviews_report_ties_without_promoting_config (test_review_regressions.ReviewWorkflowTests.test_complete_reviews_report_ties_without_promoting_config) ... ok\ntest_different_contexts_cannot_be_a_paired_comparison (test_review_regressions.ReviewWorkflowTests.test_different_contexts_cannot_be_a_paired_comparison) ... ok\ntest_incomplete_run_never_proposes_winner (test_review_regressions.ReviewWorkflowTests.test_incomplete_run_never_proposes_winner) ... ok\ntest_missing_judgments_or_changed_answer_cannot_pass (test_review_regressions.ReviewWorkflowTests.test_missing_judgments_or_changed_answer_cannot_pass) ... ok\ntest_plan_covers_unanswerable_questions_without_calls (test_review_regressions.ReviewWorkflowTests.test_plan_covers_unanswerable_questions_without_calls) ... ok\ntest_real_load_export_and_second_run (test_runtime.IngestionRuntimeTests.test_real_load_export_and_second_run) ... ok\ntest_real_index_preserves_filters_and_identity (test_runtime.SearchRuntimeTests.test_real_index_preserves_filters_and_identity) ... \nLoading weights:   0%|          | 0/103 [00:00<?, ?it/s]\nLoading weights: 100%|██████████| 103/103 [00:00<00:00, 9132.12it/s]\nok\ntest_missing_corpus_shows_setup_error (test_runtime.UIRuntimeTests.test_missing_corpus_shows_setup_error) ... 2026-09-06 15:52:25.921 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\nok\ntest_real_streamlit_question_and_feedback (test_runtime.UIRuntimeTests.test_real_streamlit_question_and_feedback) ... 2026-09-06 15:52:26.202 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\n\nLoading weights:   0%|          | 0/103 [00:00<?, ?it/s]\nLoading weights: 100%|██████████| 103/103 [00:00<00:00, 29899.18it/s]\n2026-09-06 15:52:28.221 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.\nok\ntest_all_abstention_cannot_pass_answerable_questions (test_whole_review.WholeReviewTests.test_all_abstention_cannot_pass_answerable_questions) ... ok\ntest_missing_duplicate_foreign_changed_and_nonboolean_reviews_rejected (test_whole_review.WholeReviewTests.test_missing_duplicate_foreign_changed_and_nonboolean_reviews_rejected) ... ok\ntest_mixed_bank_all_abstention_is_not_a_usable_winner (test_whole_review.WholeReviewTests.test_mixed_bank_all_abstention_is_not_a_usable_winner) ... ok\ntest_mixed_bank_supported_answerable_candidate_remains_selectable (test_whole_review.WholeReviewTests.test_mixed_bank_supported_answerable_candidate_remains_selectable) ... ok\ntest_selection_and_runtime_require_the_same_whole_answer_artifact (test_whole_review.WholeReviewTests.test_selection_and_runtime_require_the_same_whole_answer_artifact) ... ok\ntest_selector_rejects_when_every_candidate_has_a_critical_failure (test_whole_review.WholeReviewTests.test_selector_rejects_when_every_candidate_has_a_critical_failure) ... ok\ntest_supported_claims_do_not_override_unsupported_visible_prose (test_whole_review.WholeReviewTests.test_supported_claims_do_not_override_unsupported_visible_prose) ... ok\ntest_unknown_does_not_pass_and_sidecar_cannot_upgrade_incomplete_answer (test_whole_review.WholeReviewTests.test_unknown_does_not_pass_and_sidecar_cannot_upgrade_incomplete_answer) ... ok\ntest_whole_answer_veto_cannot_leave_only_refusals_as_a_winner (test_whole_review.WholeReviewTests.test_whole_answer_veto_cannot_leave_only_refusals_as_a_winner) ... ok\n\n----------------------------------------------------------------------\nRan 116 tests in 11.777s\n\nOK\n",
+    "source_hashes_verified": true,
+    "question_anchors_verified": true,
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "chunk_count": 377,
+    "excluded_passages": 390,
+    "missing_dependencies_in_this_interpreter": [],
+    "docker_available": false,
+    "test_scope": "Python contracts plus real minsearch, dlt/DuckDB and Streamlit AppTest when their dependencies are present. SDK responses in contracts are mocks; AppTest is not a browser.",
+    "not_established_by_this_check": [
+      "live provider response",
+      "retrieval quality",
+      "answer quality",
+      "browser interaction (separate report)",
+      "PostgreSQL persistence",
+      "Compose startup",
+      "human scientific review",
+      "submission readiness"
+    ]
+  },
+  "evaluator_comparison": "reports/goal-loop/evaluator-019-comparison.json",
+  "quality_promotion": false,
+  "official_points": null,
+  "final_model_calls_this_goal": 0,
+  "final_exposure": "No final inference; bank readable/validated, not guaranteed unseen. 42 development/18 final split and frozen labels unchanged.",
+  "pending": [
+    "Useful complete source-supported generator for documented research tasks",
+    "Full paired development comparison and selected-version proof",
+    "Final assessment after valid selection",
+    "Real selected-version browser/export/save/feedback/dashboard flow",
+    "Docker installation authorization and complete Compose startup/restart"
+  ],
+  "next_action": "Predeclare a bounded source-attachment interface diagnostic that reduces model formatting burden without changing required facts, scientific caveats or semantic acceptance. Do not promote from the pilot.",
+  "document_verification": {
+    "checked_at": "2026-09-06T12:59:40.173277+00:00",
+    "files": [
+      "README.md",
+      "docs/readiness.md",
+      "docs/evaluation.md",
+      "docs/decisions.md",
+      "docs/course-sources.md",
+      "docs/goal-loop.md"
+    ],
+    "local_targets_checked": 133,
+    "errors": [],
+    "method": "Static path existence and Markdown heading/explicit-anchor matching; not a rendered browser check"
+  },
+  "git_diff_whitespace_check": true
+}

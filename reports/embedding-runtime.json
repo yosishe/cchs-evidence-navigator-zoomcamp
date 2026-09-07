@@ -1,0 +1,13 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "resolved_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "corpus_id": "80225d882b27f7e955d5e240368314a49e29f4a8a4d516e0fa455e2cd2be1f6a",
+  "dimensions": 384,
+  "normalization": "L2",
+  "max_sequence_length": 256,
+  "truncated_input_count": 8,
+  "input_count": 411,
+  "device": "cpu",
+  "text_template": "title_content"
+}

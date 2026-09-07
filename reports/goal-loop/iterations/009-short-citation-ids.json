@@ -1,0 +1,78 @@
+{
+  "created_at": "2026-09-06T11:32:24.069304+00:00",
+  "status": "COMPLETED_REVIEWED",
+  "decision": "REJECT",
+  "official_points": null,
+  "candidate_code_id": "242592cb5f026da98659c9a1d8950c3c5f1e150126c63aebac516ce8db67892c",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "evaluator_version": "242592cb5f026da98659c9a1d8950c3c5f1e150126c63aebac516ce8db67892c",
+  "model": "phi3",
+  "model_digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+  "changed_dimension": "Request-local citation labels E1..En replace long passage IDs in model input/output; deterministic exact mapping restores canonical IDs before unchanged validation/export. Same instructions, model, context content and output token budget.",
+  "course_source": [
+    "01-agentic-rag source records and context construction",
+    "04-evaluation document-ID lookup and original-answer linkage"
+  ],
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "adaptation": "Original transport adapter, not a new retrieval/biomedical method. Canonical passage IDs, source hashes, coordinates, quotes and metadata are never replaced in stored evidence or exports.",
+  "hypothesis": "Short unambiguous citation labels may reduce confusion between full source-version hashes and passage IDs; they cannot guarantee semantic support or completeness.",
+  "split": "tuning",
+  "question_ids": [
+    "DIR-02",
+    "PAR-01",
+    "ABS-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "short_ids"
+  ],
+  "planned_calls": 6,
+  "attempted_calls": 6,
+  "acceptance": "Both answerable cases must be complete and supported, and the unanswerable case must abstain without unsupported prose. No unknown-label, wrong-quote, source-mapping or whole-answer regression. Format improvements alone cannot justify promotion.",
+  "rejected_alternatives": [
+    "Fuzzy-match an invented source ID to a source",
+    "Repair or normalize model quotations",
+    "Accept correct-looking IDs without semantic review",
+    "Change prompt wording and citation format simultaneously"
+  ],
+  "tradeoffs": [
+    "Short labels reduce copying burden but require rigorously scoped mapping",
+    "E1 has no global meaning; stored/exported claims always use canonical IDs",
+    "A valid label/quote can still support a false conclusion, so all semantic review remains mandatory"
+  ],
+  "heldout_exposure": "Only named development cases, no final inference and no guaranteed-unseen claim.",
+  "next_action": "Keep incumbent; isolate JSON output mode next. Short labels cannot repair semantic errors or missing facts.",
+  "completed_at": "2026-09-06T11:42:54.011855+00:00",
+  "run_directory": "reports/experiments/answers-c0ee8b93-1913-41b8-b9f6-ab4e9fc32467",
+  "result_hash": "acff0344888e79c489f162ae0bc1cd01b44b404d9fe8937871f090a7b2822f56",
+  "review_summary_hash": "c506296ba86398dc21ef4e403bff0b7407e3d29618557ed14d0245c41b7a2ce6",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 16.43911608333292,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "short_ids",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 26.371082166335935,
+      "errors": 2,
+      "critical_failure_answers": 3
+    }
+  ],
+  "software_checks": "112 tests passed, zero skipped before this run; see reports/checks.json"
+}

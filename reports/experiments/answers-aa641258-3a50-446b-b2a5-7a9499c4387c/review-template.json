@@ -1,0 +1,76 @@
+{
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "1d245c5c6a87effa4175678aeca61b7374cfcb723dd2d43787a14d11143206b7",
+  "reviews": [
+    {
+      "answer_id": "524760aa-f3f8-44a1-80d7-3d59518e74bb",
+      "record_hash": "f82dafa16e08d63b9bf2463ea68867239c8b18a40c267b0a05ca68211c18286c",
+      "relevance": null,
+      "claim_support": [
+        null,
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "f793f0ac-8081-42b2-acfd-ae68360b10f6",
+      "record_hash": "d8f37f07759ffba643909aa2b555541f56c8d1af708158e6a815aa256da35d9d",
+      "relevance": null,
+      "claim_support": [
+        null,
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "0da63cdc-7a1e-45b3-af56-371931965296",
+      "record_hash": "5a26d9b4940e3c26662aa06a60f34a82f3e8855f4b4406dbf021c06f4b5d4745",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "7e3b0ff1-6017-4661-bfa4-d97b1e1ff687",
+      "record_hash": "ca32e54f8f7b7434d908c5d2c8b93056a4618ffc18c2a7318671b6e68ca77463",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null
+      ],
+      "qualification_coverage": [
+        null
+      ],
+      "reason": ""
+    },
+    {
+      "answer_id": "9d482023-aa03-440a-8cfb-666c3e249cd3",
+      "record_hash": "4f041b72e03a115c250f737d9dffca49c47ebed592b9cfcc3b387d709afd8370",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    }
+  ]
+}

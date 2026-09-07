@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "b91008087b4223e5778255f6441f57688aad51c92171e06aa1606cb59ccaceee",
+  "reviews": [
+    {
+      "answer_id": "b108ca66-0323-4cbb-9ca4-f018bc696d84",
+      "record_hash": "1727707d06aea1e76cad5b411993d70995ee64c75ee08e866b88b01fa6bb2534",
+      "export_hash": "0d7b538366cc3023ef6611ea68370c12a2450b3878e9c72e459b8a8e1eb4e687",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Both requested aims are named, but the retrieved context lacks the stated-aims passage 17. The quotations from Italian passage 54 describe findings and updated management, not explicitly stated aims. The model openly labels its aims as inferred in limitations. Support is partial/uncertain for a stated-aims question; not a fully supported answer. No certainty is inferred merely from a correct-looking fact."
+    },
+    {
+      "answer_id": "131caa85-a39d-4d6a-8199-86a2c650845b",
+      "record_hash": "66ae5cc39516e03e274cbcafae1a3f764325e03f9f0981f60cb76fff44936e2c",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Inspected raw answer: the second quotation replaces the middle of Italian passage 19 with an ellipsis not in that source. The strict validator rejects the entire answer. Only the application error is displayed and no claim/tag rows are exported; the requested count and period do not reach an accepted answer."
+    },
+    {
+      "answer_id": "5c48c708-ef12-4f21-8391-7eee8d8d6d6b",
+      "record_hash": "3309015e83117a2160395a7a2370bae5de7413f19859743a8545ca2307179412",
+      "export_hash": "b7300cc1d1582bbc38701682982cc4f908151330c0bc6f70cd2018dc2bf8b4e3",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The answer correctly describes looking back at patient records and quotes retrospective collection from Italian passage 19. It does not explicitly include the electronic-record detail in its statement, quote or limitations, unlike arm 2 which displays the EMR quotation from passage 21. The generic record description partly covers that frozen detail. The retrospective-design limitation matches supplied passage 68."
+    },
+    {
+      "answer_id": "b73ff47b-64ac-4541-8334-1d8d75011efc",
+      "record_hash": "50cf27a1befa8c2116e087b45e4756628661519e4dd375d53660448f990e99da",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The supplied context contains guideline literature-search procedure (12) but omits the low-grade evidence/clinical-experience paragraph 13. The response stays scoped to those passages and correctly says that the requested certainty cannot be established from them; both required facts remain unprovided."
+    },
+    {
+      "answer_id": "45062027-421b-48b4-ab56-699f36f77396",
+      "record_hash": "9ca648835d61870b9b0a96cfb8f8f459f45841c2f2c11e8430e99233d8ddf547",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The supplied top-five passages omit the review paragraph containing chromosome 4p12 and three exons. The response does not invent those facts; its wording within the body is imprecise for a genomic-location question but makes no positive location claim. End-to-end answer completeness fails."
+    },
+    {
+      "answer_id": "8664ec90-f75f-4318-aab2-bbb88138ed55",
+      "record_hash": "7b677640c0ae276d9b35556e563d5651348eb7882b78eaf011ca1e4b9a90f066",
+      "export_hash": "06e694dca9842683dadc93283273cede125196b018caed4ed5e7b85ffa7d134d",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The Italian passage 32 explicitly supports 20/25, 20/26 and 20/27 PARMs. The additional review quotations from the two windows of passage 10 support the common genotypes and repeat/genotype range. Sources remain separately identified. The limitations correctly distinguish study/review material and the absent Table 2, without claiming that it was read. The required genotype identifiers are fully present."
+    },
+    {
+      "answer_id": "4a6b038a-0e84-4f9e-b801-3e1c28939466",
+      "record_hash": "af6df68010eda4c7188a9d4f6aa513f99dc6ba3852471c4830005cf39aca5ccd",
+      "export_hash": "d75dee4722e470bd1a13b994323c4401e42468d2054e28e665ff20a354db5c9d",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Italian passage 2 supports the retrospective cohort; guideline passage 12 supports literature searches and passage 68 supports the study limitations. The response omits the clinical-experience component of guideline development, whose explicit source paragraph 13 is not retrieved. Its stated inability to make a comprehensive contrast is appropriately context-scoped. Comparison rows retain the quotations and qualifications."
+    },
+    {
+      "answer_id": "d507295d-7bc0-4a51-ab55-e82af1d2d5be",
+      "record_hash": "e37bb73f509e0580bf5276d924b349daf532d91a0dc11c72b319fa61aa486910",
+      "export_hash": "1da739ce01639f49f77615761e6f14b336c035aed90a1a481166c63651c9d85f",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Reversed subgroup denominator in a displayed claim despite a genuine quote"
+      ],
+      "acceptable": false,
+      "reason": "Italian passage 32 supports 86%; review passage 10:600 supports common genotypes but not the missing 90% fraction. The third claim reverses the HSCR/PARM denominator: passage 60 describes PARMs within the HSCR subgroup, not 57% of all PARM patients having HSCR. The short true quote 57% had PARMs does not entail that reversed conditional. Limitations distinguish the reports but omit the full small-cohort/nonreplacement qualification."
+    },
+    {
+      "answer_id": "1dc37dae-a8e8-42ff-8f5d-24affef99770",
+      "record_hash": "89217ac5889834b3942bcc6d00a1a72f8796794f56a39cc50e11d88c2efb1258",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Actual retrieved passages discuss ventilator features/modes and omit guideline passage 52 on the inconsistent repeat-length association and exceptions. The refusal accurately limits itself to the supplied content; it does not answer the requested qualification."
+    },
+    {
+      "answer_id": "24435128-d519-4609-99fb-814e0f660078",
+      "record_hash": "38e6b012ae2dd54a0902b7de6cc7b1dafd9500f319cb1c204a2720c8a87b9c99",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unsupported universal methodological claim in visible limitations"
+      ],
+      "acceptable": false,
+      "reason": "The visible limitations give the narrow no-randomized-evidence answer and mention retrospective design, but status is insufficient_evidence with no claims. They also introduce a universal assertion that retrospective studies by their nature cannot establish causal relationships; that assertion is not in the supplied passages and is broader than this study. The heterogeneous-population qualification is missing."
+    },
+    {
+      "answer_id": "736598b4-9f55-412a-a718-d6a16390eeb2",
+      "record_hash": "8a17795283e37ce1e946c64afc58cb769e7b02f225d48a7eccbab37616f3f469",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The supplied passages concern PHOX2B variants, diagnostic testing, inheritance and variability, without a randomized gene-editing result. The answer explicitly says these passages do not report such results rather than asserting that the intervention occurred. No claims or proposal rows are emitted."
+    },
+    {
+      "answer_id": "4fd59888-6b37-46d8-94f2-76a5fc188082",
+      "record_hash": "cb333a4d8a3a4027bbc8f88c895b49762cbb458046bbf857e06dd130a12b5177",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The supplied passages provide genetics and Italian-center context, not a downloadable patient-level transcriptomic accession. The refusal is scoped to those passages and does not invent an accession or an external dataset. Empty claims/exports retain uncertainty."
+    }
+  ]
+}

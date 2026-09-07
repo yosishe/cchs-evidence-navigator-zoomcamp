@@ -1,0 +1,120 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "8d4b73a825efdf1d6dc46324d7e42d50073a8cd4c389d64537c3f0bcfeb13c28",
+  "reviews_hash": "4ab75df09213bc6a9d69d814cc86459924e2a69e3cb3d3a9f2fb0d325df259e7",
+  "reviewer": "Codex source-based provisional agent review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "prototype_claims_only",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 5,
+      "unsupported_claims": 3,
+      "mean_seconds": 7.326896431006996,
+      "errors": 0,
+      "critical_failure_answers": 2
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "prototype_claims_only",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_claims_only",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_claims_only",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "115802b8-c16c-49f9-a010-de82ddb23ff7",
+      "prompt": "prototype_claims_only",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported",
+        "partial"
+      ],
+      "fact_coverage": [
+        "partial",
+        "partial"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Italian passage 19 establishes 22 patients collected retrospectively and referral for follow-up during 2000–2020. The candidate states 22 and the years but omits retrospective collection and describes enrollment dates instead of the stated referral/follow-up period. Do not silently equate those event roles or treat the attached text as a complete authored answer.",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Italian passage 19 establishes 22 patients collected retrospectively and referral for follow-up during 2000–2020. The candidate states 22 and the years but omits retrospective collection and describes enrollment dates instead of the stated referral/follow-up period. Do not silently equate those event roles or treat the attached text as a complete authored answer. Canonical export rows retain these exact claims, full source windows, identifiers, application-owned process note and pending review. This is adapter-payload inspection, not a browser download or deployable acceptance.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "b44f4d00-484c-46c2-8670-585404458cee",
+      "prompt": "prototype_claims_only",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "unsupported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "partial"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Looking back at patient records expresses retrospective analysis, but electronic records are not specified. More importantly, E3 is Italian passage 54 (clinical/genetic findings and management updates), which does not establish the asserted study design. Electronic records and retrospective design occur in supplied passages 21 and 19/68, not the cited window. A plausible claim with the wrong supporting source fails.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Looking back at patient records expresses retrospective analysis, but electronic records are not specified. More importantly, E3 is Italian passage 54 (clinical/genetic findings and management updates), which does not establish the asserted study design. Electronic records and retrospective design occur in supplied passages 21 and 19/68, not the cited window. A plausible claim with the wrong supporting source fails. Canonical export rows retain these exact claims, full source windows, identifiers, application-owned process note and pending review. This is adapter-payload inspection, not a browser download or deployable acceptance.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "e8cad3cf-7119-4b1d-95c0-6bcaf89d74af",
+      "prompt": "prototype_claims_only",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [
+        "unsupported",
+        "unsupported"
+      ],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "No randomized gene-editing results are established. Candidate instead gives genotype background and attributes review findings to the Italian study. E2 is Italian passage 56; it does not give common 20/25–20/27 genotypes or NPARM frequency 10%. Those details occur in E1 from a different review, which says variants include multiple classes and most are in exons 2 and 3. Candidate changes this to mostly frameshift on exon 3. Correct source-window attachment does not fix wrong attribution or the unsupported paraphrase.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "No randomized gene-editing results are established. Candidate instead gives genotype background and attributes review findings to the Italian study. E2 is Italian passage 56; it does not give common 20/25–20/27 genotypes or NPARM frequency 10%. Those details occur in E1 from a different review, which says variants include multiple classes and most are in exons 2 and 3. Candidate changes this to mostly frameshift on exon 3. Correct source-window attachment does not fix wrong attribution or the unsupported paraphrase. Canonical export rows retain these exact claims, full source windows, identifiers, application-owned process note and pending review. This is adapter-payload inspection, not a browser download or deployable acceptance.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "ea37ef0df4e3f7fe55c084f20bdfd7b34013455b183969c6626f38b999a06828",
+  "whole_answer_reviewer": "Codex source-based whole-answer and export review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

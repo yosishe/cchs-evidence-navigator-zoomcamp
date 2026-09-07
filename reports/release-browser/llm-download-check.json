@@ -1,0 +1,34 @@
+{
+  "status": "ACTUAL_BROWSER_DOWNLOAD_BYTES_MATCH",
+  "created_at": "2026-09-07T00:39:26.006328+00:00",
+  "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7",
+  "answer_id": "e4df1784-2b2a-4fef-97af-63c7c6806346",
+  "config_id": "34eb0046447ecbd8207ae014c3dde940916e660dccea8cc9f979c09593dc539f",
+  "csv_downloads": [
+    {
+      "file": "passages-e4df1784-2b2a-4fef-97af-63c7c6806346.csv",
+      "bytes": 17214,
+      "rows": 10,
+      "sha256": "6c4a4dd1fb365ef4646d92592579a073579fe13370308c8d5482ff745b594628",
+      "actual_browser_download_matches_export": true
+    },
+    {
+      "file": "claims-e4df1784-2b2a-4fef-97af-63c7c6806346.csv",
+      "bytes": 2678,
+      "rows": 1,
+      "sha256": "7134f023d38f29fc50382a414820b171b1696cfb79296da3a304362c880f2909",
+      "actual_browser_download_matches_export": true
+    },
+    {
+      "file": "tag-proposals-e4df1784-2b2a-4fef-97af-63c7c6806346.csv",
+      "bytes": 2986,
+      "rows": 1,
+      "sha256": "cc0b55d7b1675cd0969c4fa2d7dd8f2ec61140069bb94691dffe0a4f44a0bc7a",
+      "actual_browser_download_matches_export": true
+    }
+  ],
+  "json_bytes": 54586,
+  "json_sha256": "e578327cda87a769c11e4d9abb30369c49292378131081e61f9296743e788aff",
+  "generation_attempts": 1,
+  "scope": "Real browser exports from one declared QA question; not held-out evaluation, selected release or container proof."
+}

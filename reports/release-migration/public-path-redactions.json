@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-09-06T23:12:38.357949+00:00",
+  "status": "REVIEWED_METADATA_REDACTIONS",
+  "files": [
+    {
+      "path": "reports/claude-remediation/before.json",
+      "original_sha256": "da8777664f76f0379cc29c0eac0192f0bde4e24118a489879819f39fe0e3a9e0",
+      "public_derivative_sha256": "71e80d88635770887cd7112434c06323f9e540cd676a244a5b5ec6e353f5bccb",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/claude-remediation/delivery.json",
+      "original_sha256": "3c0e30576bcc09191e220156fa423004c84e55a9c1f4a7b3ea25ee5809972ee9",
+      "public_derivative_sha256": "0c44d3ab71bdc80451c6fb3c08fee7bf2920688e175cf5e775d1960be4450ef4",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/claude-remediation/diagnostic-runtime/embedding-report.json",
+      "original_sha256": "d42ace3e43b0d7175dbe00c1f4ef87cd3c6f07b059893fc23c5db073034cf0af",
+      "public_derivative_sha256": "baa1a3409236ba5f185f304f3272f970f2e7e434b6ffc1c1fad6420696a522aa",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/decision-refinement/before.json",
+      "original_sha256": "88eac1d323aaebbdebcd8e0ab984f752c718c2362c03aa464e812a6d5110fde3",
+      "public_derivative_sha256": "e84b53c3ace72ca44ac4ccce0703040470b0508417d61d62506e89df329ca1be",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/decision-refinement/encoder-cached.json",
+      "original_sha256": "108724bdf2d7eecaff8a3cc900040e468f7a9c4ff5f1abbebf6cf329870f5595",
+      "public_derivative_sha256": "cca1621c4391c8c3a109e121d7b9c99e196f7b1c1f7a260277129383652a086d",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/decision-refinement/heading-ablation.json",
+      "original_sha256": "95a5dd0099c7f8b3e492af97d8db410d054b4f01f6392573cf6a067d5857fced",
+      "public_derivative_sha256": "f84b53fbfc965bcead8832b9f41550f1d70726172bf50e104996060d71df9ccd",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/decision-refinement/heading-runtime/embedding-report.json",
+      "original_sha256": "e0f5085ec5a9971a40dd797c8c3fa2dc3a45d15d05f4016eadbf5549ceddd23d",
+      "public_derivative_sha256": "c1b07ab8a94a9906140eca7a378d40fc7831521080dfd268f71df4f70feb0e9e",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/baseline-freeze.json",
+      "original_sha256": "569cbd0e7bf719468ca588943518b9a68adec34727a5655f47aa5ef6262b3624",
+      "public_derivative_sha256": "04fb9e434c101ffda9957c14970a630360f36b7ba379e2ff4d2753f3cd92b267",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/cutoff-answer-026/hybrid_title0_rrf1_10/embedding-report.json",
+      "original_sha256": "d42ace3e43b0d7175dbe00c1f4ef87cd3c6f07b059893fc23c5db073034cf0af",
+      "public_derivative_sha256": "baa1a3409236ba5f185f304f3272f970f2e7e434b6ffc1c1fad6420696a522aa",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/cutoff-answer-026/vector_10/embedding-report.json",
+      "original_sha256": "d42ace3e43b0d7175dbe00c1f4ef87cd3c6f07b059893fc23c5db073034cf0af",
+      "public_derivative_sha256": "baa1a3409236ba5f185f304f3272f970f2e7e434b6ffc1c1fad6420696a522aa",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/evaluator-019-before-test.json",
+      "original_sha256": "7debcbc45a76fb22cfd5039caefff627c97ef24e4e0088708eb23ede1694aece",
+      "public_derivative_sha256": "2352cbc8678f66c9ee77506ccded17dd7ca44e5d443bb4bc32914debcac9ce54",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/fresh-retrieval-025/hybrid_title_0_rrf_1/embedding-report.json",
+      "original_sha256": "d42ace3e43b0d7175dbe00c1f4ef87cd3c6f07b059893fc23c5db073034cf0af",
+      "public_derivative_sha256": "baa1a3409236ba5f185f304f3272f970f2e7e434b6ffc1c1fad6420696a522aa",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/fresh-retrieval-025/results.json",
+      "original_sha256": "3a6ddd7cb5c58eb0959481a1dbb8e5c6a434abf3cec2e23374eda23bcec3211c",
+      "public_derivative_sha256": "4eeaf5f42722353e5239488e9940495fac530d4432019a7c3f32a7aa75c54d4e",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/fresh-retrieval-025/vector/embedding-report.json",
+      "original_sha256": "d42ace3e43b0d7175dbe00c1f4ef87cd3c6f07b059893fc23c5db073034cf0af",
+      "public_derivative_sha256": "baa1a3409236ba5f185f304f3272f970f2e7e434b6ffc1c1fad6420696a522aa",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/goal-loop/title-weight-retrieval-016.json",
+      "original_sha256": "1c8cd650a5435e6319ff69c28aa9ed9495657327c784a6dfe645ddad7d3d2d11",
+      "public_derivative_sha256": "53b49d91cbcc194d35d47f809225e946a8d8182899e8d3a0af641680568a41fd",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    },
+    {
+      "path": "reports/instructor-reassessment/browser-check.json",
+      "original_sha256": "98f92e6c891fa92acba6c2bb1920edb86ee06e5fc649e6307709ef6d7f68ffd9",
+      "public_derivative_sha256": "b76aadf39d1064479bcd84baa27be526ac14a0c19a4589eabf3fcb3d5ab3a1a4",
+      "transformation": "Owner-local path metadata replaced by descriptive placeholders only; historical metrics and raw model answers unchanged."
+    }
+  ],
+  "scope": "Only the new copy is changed. Historical artifacts are derivatives where listed, not byte-identical reproductions. Their original hashes remain in baseline-import.json; current selection must use new unredacted runtime results, not these historical derivatives."
+}

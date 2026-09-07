@@ -1,0 +1,11 @@
+{
+  "created_at": "2026-09-07T00:08:52.995756+00:00",
+  "status": "MECHANICAL_PASS_SEMANTIC_CITATION_FAILURE",
+  "actual_attempts": 5,
+  "acceptable": 3,
+  "critical_answers": 1,
+  "output_errors": 0,
+  "runtime_code_id": "2df4dfc13e48ef863a60510e98e62970e72fc39dac857de559fe4168b6d74646",
+  "record_replay_verified": 5,
+  "reason": "All source ranges and output shapes are valid, but COM-01 attaches retrospective/count/period facts to an unrelated Italian source span. LIM-02 refuses despite available design/heterogeneity evidence. Do not expand this arm or select it. Compare the existing concise prompt on exactly the same five cases as a focused prompt diagnostic. No benchmark change."
+}

@@ -1,0 +1,98 @@
+services:
+  ollama:
+    image: ollama/ollama:0.31.1@sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc
+    environment:
+      OLLAMA_HOST: 0.0.0.0:11434
+      OLLAMA_NUM_PARALLEL: 1
+      # Local inference only; also disable optional cloud-model discovery.
+      OLLAMA_NO_CLOUD: "1"
+    volumes:
+      - model_weights:/root/.ollama
+    healthcheck:
+      test: [CMD, ollama, list]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+  model-init:
+    build: .
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434/v1/
+      ENABLE_PAID_LLM: "0"
+    # Setup is an explicit download action. It reads configs/app.json and checks
+    # the selected model digest; normal inference never pulls missing weights.
+    command: [python, tools/prepare_compose_model.py, --allow-download]
+    healthcheck:
+      disable: true
+    depends_on:
+      ollama:
+        condition: service_healthy
+  db:
+    image: postgres:17.6@sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929
+    environment:
+      POSTGRES_DB: evidence
+      POSTGRES_USER: evidence
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a local POSTGRES_PASSWORD in .env}
+    volumes:
+      - database:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U evidence -d evidence]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+  ingest:
+    build: .
+    command: [python, -m, navigator, ingest]
+    environment:
+      NAVIGATOR_RUNTIME: /app/runtime
+    volumes:
+      - artifacts:/app/runtime
+    healthcheck:
+      disable: true
+  encoder-init:
+    build: .
+    command: [python, -m, navigator, prepare-encoder, --allow-download]
+    environment:
+      NAVIGATOR_RUNTIME: /app/runtime
+      NAVIGATOR_MODEL_CACHE: /app/runtime/models
+    volumes:
+      - artifacts:/app/runtime
+    depends_on:
+      ingest:
+        condition: service_completed_successfully
+    healthcheck:
+      disable: true
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:${NAVIGATOR_APP_PORT:-8501}:8501"
+    environment:
+      NAVIGATOR_RUNTIME: /app/runtime
+      NAVIGATOR_MODEL_CACHE: /app/runtime/models
+      HF_HUB_OFFLINE: "1"
+      TRANSFORMERS_OFFLINE: "1"
+      TELEMETRY_BACKEND: postgres
+      POSTGRES_HOST: db
+      POSTGRES_DB: evidence
+      POSTGRES_USER: evidence
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set a local POSTGRES_PASSWORD in .env}
+      OLLAMA_BASE_URL: http://ollama:11434/v1/
+      ENABLE_PAID_LLM: "0"
+      NAVIGATOR_TRAFFIC_ORIGIN: ${NAVIGATOR_TRAFFIC_ORIGIN:-user}
+      # Empty means use the fingerprinted app config. An explicit override
+      # invalidates selection evidence if it changes the evaluated timeout.
+      NAVIGATOR_REQUEST_TIMEOUT: ${NAVIGATOR_REQUEST_TIMEOUT:-}
+      INPUT_USD_PER_MILLION: ${INPUT_USD_PER_MILLION:-}
+      OUTPUT_USD_PER_MILLION: ${OUTPUT_USD_PER_MILLION:-}
+    volumes:
+      - artifacts:/app/runtime
+    depends_on:
+      model-init:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+      encoder-init:
+        condition: service_completed_successfully
+volumes:
+  model_weights:
+  database:
+  artifacts:

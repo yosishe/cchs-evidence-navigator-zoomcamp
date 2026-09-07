@@ -1,0 +1,26 @@
+{
+  "original_source_files_checked": 425,
+  "original_source_changed": [],
+  "candidate_file_count": 440,
+  "suspected_secret_locations_only": [],
+  "absolute_owner_path_files": [
+    "reports/claude-remediation/before.json",
+    "reports/claude-remediation/delivery.json",
+    "reports/claude-remediation/diagnostic-runtime/embedding-report.json",
+    "reports/decision-refinement/before.json",
+    "reports/decision-refinement/encoder-cached.json",
+    "reports/decision-refinement/heading-ablation.json",
+    "reports/decision-refinement/heading-runtime/embedding-report.json",
+    "reports/goal-loop/baseline-freeze.json",
+    "reports/goal-loop/cutoff-answer-026/hybrid_title0_rrf1_10/embedding-report.json",
+    "reports/goal-loop/cutoff-answer-026/vector_10/embedding-report.json",
+    "reports/goal-loop/evaluator-019-before-test.json",
+    "reports/goal-loop/fresh-retrieval-025/hybrid_title_0_rrf_1/embedding-report.json",
+    "reports/goal-loop/fresh-retrieval-025/results.json",
+    "reports/goal-loop/fresh-retrieval-025/vector/embedding-report.json",
+    "reports/goal-loop/title-weight-retrieval-016.json",
+    "reports/instructor-reassessment/browser-check.json"
+  ],
+  "public_release_status": "REVIEW_REQUIRED_NOT_PUBLISHED",
+  "scope": "No secret values are emitted. Absolute paths in historical records need release packaging review; no publishing occurs."
+}

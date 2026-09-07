@@ -1,0 +1,83 @@
+{
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "results_hash": "67fc0cac00f8779872a61d3f5283104ab16e7e1dba0c139c9a21dec8a15493a3",
+  "reviews": [
+    {
+      "answer_id": "1fdba66b-7bad-4f7f-9f91-28df5cc16f09",
+      "record_hash": "f5ecc2048d339972d93880f139b46440f595428883694f7687c4c5c7f6b1a33b",
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The 22-patient retrospective claim and its quote match Italian passage 19, but the requested follow-up period 2000–2020 is missing. Caveats and electronic-record provenance match passages 68/21."
+    },
+    {
+      "answer_id": "306f88b2-0bd2-47b2-aeb9-9ca514ae393b",
+      "record_hash": "ada7f4bb351fb7f679b1d8c658b09dd7f304a264e417c55b9dc598b3d7f66132",
+      "relevance": "not_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The claim and quote about clinical/genetic findings match Italian passage 54, but neither patient count nor follow-up period answers the question. The limitations use source-authored Our study without explicit quotation/attribution; the underlying caveats and record provenance are supported, while source voice remains unclear."
+    },
+    {
+      "answer_id": "6a521583-31c3-4827-ac93-236af80f924d",
+      "record_hash": "4ede0cce3b300eb088589ed71c75a801259e788170150a2e0ee9ebaf3211bc7f",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The nonanswer denies retrospective patient-record analysis despite explicit data collection in Italian passage 19 and electronic medical record review in passage 21."
+    },
+    {
+      "answer_id": "c68f054c-7298-4a54-a9b6-6d08c02d081e",
+      "record_hash": "96d1f32496867adbc2a187dadb7bf9e343c82235803454f9395254a4466aadf9",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The raw answer has status answered with no claims and is correctly blocked. Its prose denies study-design information while acknowledging retrospective collection; passages 19/21 supply both required facts. The displayed application error is an accurate description of the validation failure."
+    },
+    {
+      "answer_id": "a4d65f31-7260-4df5-ad04-d2540b2beb76",
+      "record_hash": "5d6e2009039cfdf87b1e1ea31a974ae3febbdcb33b7d53255030a5b7c190be61",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The statement intervention reported in a 2021 Italian study accepts an unestablished premise. The variant/testing passages do not establish a randomized PHOX2B gene-editing intervention."
+    },
+    {
+      "answer_id": "3ce84275-43d6-448e-983e-b9b1a13d0c04",
+      "record_hash": "13034c3ca6fc8e86c15c1f5e9f98655e09a935296e5c90128fe6d7731997d7ee",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The raw response uses a title as a passage quotation and attributes repeat-genotype claims to testing/mosaicism passages that do not support them. It does not establish the requested intervention. The validator blocks every claim, so the displayed application error is appropriate."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "service": "app",
+    "tag": "cchs-zoomcamp-rehearsal-app:latest",
+    "id": "sha256:36b4317bd930a74811408c225d0369644010b919840e3d0c3620ab91ac5c8c86",
+    "repo_digests": [
+      "cchs-zoomcamp-rehearsal-app@sha256:36b4317bd930a74811408c225d0369644010b919840e3d0c3620ab91ac5c8c86"
+    ],
+    "architecture": "arm64",
+    "os": "linux",
+    "size_bytes": 545283578,
+    "created": "2026-09-07T11:09:41.225235959Z",
+    "layers": [
+      "sha256:41d6505109809884e681a97f978542a2d4d3506af0124f18b3f3a471edfcc9b7",
+      "sha256:c26df6d1045bcd70c62e835f44e2ce60fef71630493a92f17faa184941c0af7f",
+      "sha256:1fb14899b8ee7fc3e7a87a848cb065309798a1d922935345520f4d51701287e0",
+      "sha256:de965252ed39aa516a700a7d73a3441f6aceb27dca16b329e958c447d191347b",
+      "sha256:cc5aff6b33efcee669046beeca792e47bdcdee431eb1f437a56b69650baaf1f5",
+      "sha256:e189a977eb6feda679711bb059c3116a1f496875b4d66940eaaa6d780a6817c7",
+      "sha256:7d165616470dbb2a20427131dfcda773ecb2e444674e53b7837b7c723156d958",
+      "sha256:10e27ba44175356cc12a349acf2fc9bfbe692242dc517a71398acea23fc00178",
+      "sha256:03c308f2b37f62d8d6c9d9e44a1d760f31c33b45e0ae4bb290477159609c2891"
+    ]
+  },
+  {
+    "service": "ingest",
+    "tag": "cchs-zoomcamp-rehearsal-ingest:latest",
+    "id": "sha256:488f34fe4f455350c2fb50d446b7a2409c0d7bdeb4d6d704002094130b479c5e",
+    "repo_digests": [
+      "cchs-zoomcamp-rehearsal-ingest@sha256:488f34fe4f455350c2fb50d446b7a2409c0d7bdeb4d6d704002094130b479c5e"
+    ],
+    "architecture": "arm64",
+    "os": "linux",
+    "size_bytes": 545283581,
+    "created": "2026-09-07T11:09:41.225235959Z",
+    "layers": [
+      "sha256:41d6505109809884e681a97f978542a2d4d3506af0124f18b3f3a471edfcc9b7",
+      "sha256:c26df6d1045bcd70c62e835f44e2ce60fef71630493a92f17faa184941c0af7f",
+      "sha256:1fb14899b8ee7fc3e7a87a848cb065309798a1d922935345520f4d51701287e0",
+      "sha256:de965252ed39aa516a700a7d73a3441f6aceb27dca16b329e958c447d191347b",
+      "sha256:cc5aff6b33efcee669046beeca792e47bdcdee431eb1f437a56b69650baaf1f5",
+      "sha256:e189a977eb6feda679711bb059c3116a1f496875b4d66940eaaa6d780a6817c7",
+      "sha256:7d165616470dbb2a20427131dfcda773ecb2e444674e53b7837b7c723156d958",
+      "sha256:10e27ba44175356cc12a349acf2fc9bfbe692242dc517a71398acea23fc00178",
+      "sha256:03c308f2b37f62d8d6c9d9e44a1d760f31c33b45e0ae4bb290477159609c2891"
+    ]
+  },
+  {
+    "service": "encoder-init",
+    "tag": "cchs-zoomcamp-rehearsal-encoder-init:latest",
+    "id": "sha256:d753f1a26136257c802a13b4b751d80bf9895ddfc4128e02e812bba5b537db10",
+    "repo_digests": [
+      "cchs-zoomcamp-rehearsal-encoder-init@sha256:d753f1a26136257c802a13b4b751d80bf9895ddfc4128e02e812bba5b537db10"
+    ],
+    "architecture": "arm64",
+    "os": "linux",
+    "size_bytes": 545283587,
+    "created": "2026-09-07T11:09:41.225235959Z",
+    "layers": [
+      "sha256:41d6505109809884e681a97f978542a2d4d3506af0124f18b3f3a471edfcc9b7",
+      "sha256:c26df6d1045bcd70c62e835f44e2ce60fef71630493a92f17faa184941c0af7f",
+      "sha256:1fb14899b8ee7fc3e7a87a848cb065309798a1d922935345520f4d51701287e0",
+      "sha256:de965252ed39aa516a700a7d73a3441f6aceb27dca16b329e958c447d191347b",
+      "sha256:cc5aff6b33efcee669046beeca792e47bdcdee431eb1f437a56b69650baaf1f5",
+      "sha256:e189a977eb6feda679711bb059c3116a1f496875b4d66940eaaa6d780a6817c7",
+      "sha256:7d165616470dbb2a20427131dfcda773ecb2e444674e53b7837b7c723156d958",
+      "sha256:10e27ba44175356cc12a349acf2fc9bfbe692242dc517a71398acea23fc00178",
+      "sha256:03c308f2b37f62d8d6c9d9e44a1d760f31c33b45e0ae4bb290477159609c2891"
+    ]
+  },
+  {
+    "service": "model-init",
+    "tag": "cchs-zoomcamp-rehearsal-model-init:latest",
+    "id": "sha256:ea719b63b51b235f323b285ab4c331f83b5314d5de1a5224c01f7ea49e13adf3",
+    "repo_digests": [
+      "cchs-zoomcamp-rehearsal-model-init@sha256:ea719b63b51b235f323b285ab4c331f83b5314d5de1a5224c01f7ea49e13adf3"
+    ],
+    "architecture": "arm64",
+    "os": "linux",
+    "size_bytes": 545283585,
+    "created": "2026-09-07T11:09:41.225235959Z",
+    "layers": [
+      "sha256:41d6505109809884e681a97f978542a2d4d3506af0124f18b3f3a471edfcc9b7",
+      "sha256:c26df6d1045bcd70c62e835f44e2ce60fef71630493a92f17faa184941c0af7f",
+      "sha256:1fb14899b8ee7fc3e7a87a848cb065309798a1d922935345520f4d51701287e0",
+      "sha256:de965252ed39aa516a700a7d73a3441f6aceb27dca16b329e958c447d191347b",
+      "sha256:cc5aff6b33efcee669046beeca792e47bdcdee431eb1f437a56b69650baaf1f5",
+      "sha256:e189a977eb6feda679711bb059c3116a1f496875b4d66940eaaa6d780a6817c7",
+      "sha256:7d165616470dbb2a20427131dfcda773ecb2e444674e53b7837b7c723156d958",
+      "sha256:10e27ba44175356cc12a349acf2fc9bfbe692242dc517a71398acea23fc00178",
+      "sha256:03c308f2b37f62d8d6c9d9e44a1d760f31c33b45e0ae4bb290477159609c2891"
+    ]
+  }
+]

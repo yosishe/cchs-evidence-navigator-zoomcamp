@@ -1,0 +1,153 @@
+{
+  "created_at": "2026-09-07T18:40:40.204007+00:00",
+  "status": "PASS",
+  "freeze_sha256": "eceea70cf388a0eddb6ea346b30170d47c0b1c5f1669d39d223e3cd5c75b934e",
+  "original_file_count": 744,
+  "changed_authorized_files": [
+    {
+      "path": "README.md",
+      "before_sha256": "9beb4c1fe473907930e0576479c438c5fe6c0e34bc28e2e0c6fb5427ec1bbd21",
+      "after_sha256": "db63a7c27142cafb249fdd9fa97d9bfc038454174042bad38f4ffb3550098d1a"
+    },
+    {
+      "path": "configs/app.json",
+      "before_sha256": "23db0695f936f9742865b1726da3e766025cc91974fd028e85f6e9fcb0aa47cf",
+      "after_sha256": "0b02560637088fb36449680d9b3680d2a88298c3a953d15a3b18172e2a927bf3"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_PROMPT.en.md",
+      "before_sha256": "d3a750f3c75f8d3b69772be0eaa16398622700740e8e6c0fc2a7048a8cdbbac5",
+      "after_sha256": "fcddcfb893d27e17ae931c6b75a05a3c6c63c3a31c4fa19424062a49edf850f9"
+    },
+    {
+      "path": "docs/architecture.md",
+      "before_sha256": "836c3d271f7c11fd4a4da3d664a0fd716d3074be837b47d8d41021407c990533",
+      "after_sha256": "21b0364d461c7fca131995a10bf9489d13acf15aa29b6bb010340e0f993a0be8"
+    },
+    {
+      "path": "docs/course-sources.md",
+      "before_sha256": "1fd8abecdc185cc9cad25f717ed1f343dc100d3cdbce9042a0f769611616d568",
+      "after_sha256": "81fc72c4e870157bceb920133b9bde2d5ee3f292b6e2a300bf20019d1e77c40f"
+    },
+    {
+      "path": "docs/decisions.md",
+      "before_sha256": "0cc4c82479abc752dee16a6bf96c3a2c4f6a18f819ca32852eea0e4a5da0a65d",
+      "after_sha256": "b09e291c7f684111f315f408ef17191ed933ce7ea6f5b3e5dac84804bf61914a"
+    },
+    {
+      "path": "docs/evaluation.md",
+      "before_sha256": "2f77a47c1ea0d57040739a254a8a37e8e54d80c24eb63516d88b99db3b4a07e5",
+      "after_sha256": "b10c2c1181ff0ecf12831d43764a6b04aea6228d08d396977f41d3c841288824"
+    },
+    {
+      "path": "docs/execution-report.md",
+      "before_sha256": "e4e50cdc0d8c24e3eacc33f929179a7adcfb199ee3b63d5441eb99f0015689b1",
+      "after_sha256": "bd3c2bfc27652ac1a724f45d6d1fd9a3976871673fd453e2018be1559e39b81b"
+    },
+    {
+      "path": "docs/pre-submission-audit.md",
+      "before_sha256": "09ae4ed5006775033fb9deb361ce77817f5cc70516d4da5c0a5ecaeb3eb436c9",
+      "after_sha256": "096bc4db28b9c6b5e67fd110265a7dd808e5e0d5a15d8c81ef739aa59aff36d8"
+    },
+    {
+      "path": "docs/readiness.md",
+      "before_sha256": "6372b1d1483b907a39f0be9e4222c9d92f3e0bebf9b2afd2abfc3c246633ead7",
+      "after_sha256": "e366eebc2d295dc5c502a58b1da5d4d50840506804014b6a979f142c3920df0c"
+    },
+    {
+      "path": "docs/release-decisions.md",
+      "before_sha256": "0f47bdfc19f6e0e997d260e61a8de1fd61427844467b1255a3b8b5f0befecf15",
+      "after_sha256": "dc33be056b1cc82d9aa106b86af8f0abe75f4c5ad3c0aea4a9a440b96b0d4bcf"
+    },
+    {
+      "path": "docs/release-status.md",
+      "before_sha256": "7bfeeed7ed0e53e39c8a4541125ce626b000b7ed20889ae742794f944952a68d",
+      "after_sha256": "6358a0d21657730b80672f6e708f250696d297d4600bd9c91bb9d6dfc4b21b5b"
+    },
+    {
+      "path": "docs/review-remediation-v2.md",
+      "before_sha256": "78378f0a43424f01abe1386e9bb91f59072302942c5d7706b8025f2cc21e4cb2",
+      "after_sha256": "48be14ce7a007713a6f47480e77290f9475b021de9a15406af9de498f8eeb838"
+    },
+    {
+      "path": "docs/review-remediation.md",
+      "before_sha256": "3cc8ca67f418526e79567d14e1329088cc1220c50a815ab943ac858a498e985b",
+      "after_sha256": "17439fce94e35ef248a4698fef3546e21f0b2297c4de70fe537823da552b2478"
+    },
+    {
+      "path": "docs/setup.md",
+      "before_sha256": "6f5531ff0ecf5ebdbee1d3a8c5b43c9dc34cfb8657c67e01f472f8a1855ad89a",
+      "after_sha256": "7211cb900f0fd89278f657968957ef8535a3ab899c2661ee9310796128085381"
+    },
+    {
+      "path": "reports/checks.json",
+      "before_sha256": "0ee418f1049216e6bd8725011def7d05c7eac387d38ad82b26b1633dbbd48958",
+      "after_sha256": "96ee027d3fc348fb7a7be39ed8d69e7ebb16517b3d7a06a96ae3cf8a212d3db1"
+    },
+    {
+      "path": "reports/release-migration/link-audit.json",
+      "before_sha256": "b80c8aeeee87fc05874951a050e0224455df12f73417417d56aff0ab06ded3f3",
+      "after_sha256": "07d14ad0169d9810eaf90e3d1ca4e61ddbab51eaffc9a79843ba0572a6618ae6"
+    },
+    {
+      "path": "reports/release-migration/public-package-audit.json",
+      "before_sha256": "d517e809b17e9bfc9ae7a402547dc8f983c3b2add3af3b1d7e0dda2af8bf3cea",
+      "after_sha256": "6901c3509c8da420906876dac7ba31dc4fe6b1176a8dad6c5201ca4519eb1096"
+    },
+    {
+      "path": "tests/test_citation_aliases.py",
+      "before_sha256": "0a7bd5712aa08e94108959c5f5b6e3fb80949fe95db7c03a7d616b750ca6fb54",
+      "after_sha256": "1d0c7fb75a4616a15c2937f05902bd2aeca9a351cc4ca77b59eb7e3920ae6193"
+    },
+    {
+      "path": "tests/test_claude_remediation.py",
+      "before_sha256": "de4f38a6f64f97646bcf6bf605586b6860ae0728b3c49a46579bee030634d6a8",
+      "after_sha256": "19582d44d85317824ee6d352975e5a674789757349adddf9c5b13241336d6bc1"
+    },
+    {
+      "path": "tests/test_contracts.py",
+      "before_sha256": "5a06b77b58de471fe7fee197b1b6d9c1d1b6c8d1259a1ba7efcbcd5206a074f2",
+      "after_sha256": "7c71c242c884c382b9625048a7830488e9044b8db8ac386f7c60d462557ffb2a"
+    },
+    {
+      "path": "tests/test_core_completion.py",
+      "before_sha256": "d494f34e7235a28a589b3e4f245258f8ae2c6788a1dbfa0e2d13d7aa743f956c",
+      "after_sha256": "c62743369d90e369e52a377ae29ba14409089fc3ec280a9f1aeaa66f5fd3ac7c"
+    },
+    {
+      "path": "tests/test_local_quality.py",
+      "before_sha256": "754fe7e0772c9013692491432b06fdf2819b4efc517440607af77b384a668988",
+      "after_sha256": "47355b434f2e8011230464ee6b11576ca4dd5a36f18bb4f40bbd994f9efcd576"
+    },
+    {
+      "path": "tests/test_public_release.py",
+      "before_sha256": "c7fb2b91e09b07ccd18b5fa6ea9f3260df20d47c646fe9d48d9ec8e348c90809",
+      "after_sha256": "65739ab533db5d3316101de1a6f33daf9efaef33136e79ca5c3291ae45c9ff80"
+    },
+    {
+      "path": "tests/test_review_regressions.py",
+      "before_sha256": "07ce980f019f738805b7513de51e18891a19c7a12519bfa66f72e688af15b5b3",
+      "after_sha256": "e89b91997b9cf69a2fcc84703c6245792d8f2e4f06d4c5f913ababe7bb413869"
+    },
+    {
+      "path": "tests/test_source_extracts.py",
+      "before_sha256": "ba9325323be11739ab14a738c6fb8134ef6df09d9284cb13721526eb8753f134",
+      "after_sha256": "7156d5278eccd7c6832df1b948f9b7241b77da7a00b0b362670eaaa0e43b8265"
+    },
+    {
+      "path": "tests/test_source_spans.py",
+      "before_sha256": "1039af6cb75feb64169e3c7c82d06b16e45a048fc5d9eb8bead6c7df8d5af6ca",
+      "after_sha256": "e3894220c40f5c8b467cb263c2f694dff494f9852f3bf786d00d38099bdfbbe5"
+    }
+  ],
+  "missing_original_files": [],
+  "unexpected_changes": [],
+  "protected_original_file_count": 717,
+  "private_predecessor": {
+    "git_includable_files_checked": 447,
+    "changed_files_count": 0,
+    "status_unchanged": true,
+    "head_unchanged": true
+  },
+  "scope": "Every phase-zero public file checked; only named docs/tests, app config and three audit reports may change. New final reports, final screenshots and the bounded rewrite runner are audited separately. Private paths and history remain outside the package."
+}

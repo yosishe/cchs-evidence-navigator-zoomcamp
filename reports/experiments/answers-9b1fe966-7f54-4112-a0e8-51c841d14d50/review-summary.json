@@ -1,0 +1,305 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "768902d783d6a2394437b384dd739f22c609d3b67d856adfe2748348c75b71ba",
+  "reviews_hash": "8500ee650f4f5e0fdf2269c21edede8e8fc9c752c8bb20081fb8bf1b9898a36e",
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "source_extract_reasoned",
+      "evaluated_questions": 5,
+      "acceptable_answers": 3,
+      "acceptable_rate": 0.6,
+      "supported_claims": 11,
+      "claim_denominator": 11,
+      "unsupported_claims": 0,
+      "mean_seconds": 42.50898453319678,
+      "errors": 0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 6,
+          "counts": {
+            "covered": 4,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.6666666666666666
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "source_extract_reasoned",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_reasoned",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 1.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_reasoned",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 1.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_extract_reasoned",
+      "slice": "limitations",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "5d5c5d6b-afab-4ab4-9ea7-7723f66d5ab4",
+      "prompt": "source_extract_reasoned",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "6a473f37-9aa6-48ca-a2c6-ca28929d2521",
+      "prompt": "source_extract_reasoned",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Both retrospective-data and guideline evidence/experience method are explicitly selected. Several overview/unit/search/review excerpts are unnecessary, but separate attribution and low evidence grade are retained and no pooling or causal conclusion is added. The diagnostic note correctly identifies the contrast; its wording is not counted as source evidence.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Both retrospective-data and guideline evidence/experience method are explicitly selected. Several overview/unit/search/review excerpts are unnecessary, but separate attribution and low evidence grade are retained and no pooling or causal conclusion is added. The diagnostic note correctly identifies the contrast; its wording is not counted as source evidence.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "0beaf0c6-b5b4-4661-bf67-3f0d1aa2d77d",
+      "prompt": "source_extract_reasoned",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The note says varied ventilation types directly address the longer-repeat relationship, but the cited excerpt states only support modalities at different times/ages. Both the diagnostic justification and selected answer misidentify the requested relationship. It is a critical context substitution despite exact quotation.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The note says varied ventilation types directly address the longer-repeat relationship, but the cited excerpt states only support modalities at different times/ages. Both the diagnostic justification and selected answer misidentify the requested relationship. It is a critical context substitution despite exact quotation.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "LIM-02",
+      "answer_id": "01ee10b4-b669-44e3-82f2-a470d83fb44e",
+      "prompt": "source_extract_reasoned",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The diagnostic note recognizes retrospective design and heterogeneity, but the canonical answer refuses and exports no supporting claim. A correct fact inside raw diagnostic prose does not satisfy the actual answer contract. The source-backed requested design/caveat remain missing from the displayed answer.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The diagnostic note recognizes retrospective design and heterogeneity, but the canonical answer refuses and exports no supporting claim. A correct fact inside raw diagnostic prose does not satisfy the actual answer contract. The source-backed requested design/caveat remain missing from the displayed answer.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-02",
+      "answer_id": "a140f913-f45f-43dc-9972-0bc5c3982dfc",
+      "prompt": "source_extract_reasoned",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The diagnostic note correctly distinguishes a cohort description from an unprovided transcriptomic accession. Canonical output refuses without inventing an accession or asserting absence from all literature; no claim/tag rows result.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The diagnostic note correctly distinguishes a cohort description from an unprovided transcriptomic accession. Canonical output refuses without inventing an accession or asserting absence from all literature; no claim/tag rows result.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "518dc4ce4dbbaacf3e575c9acae216b4f525da15f5b7cf1e82900561ca140667",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

@@ -1,0 +1,24 @@
+{
+  "recorded_at": "2026-09-06T13:32:06.607205+00:00",
+  "scope": "Read-only host/library/course/registry observations in this goal turn; no model weight download or installation",
+  "physical_memory_bytes": 25769803776,
+  "physical_memory_gib": 24,
+  "disk_available_display_at_observation": "41Gi",
+  "free_memory_not_measured": true,
+  "installed_libraries": {
+    "transformers": "5.16.1",
+    "torch": "2.14.0",
+    "safetensors": "0.8.0",
+    "sentencepiece": null,
+    "accelerate": null
+  },
+  "flan_mistral_cache_candidates": [],
+  "course_notebooks_read_statically": [
+    "cohorts/2024/02-open-source/huggingface-flan-t5.ipynb",
+    "cohorts/2024/02-open-source/huggingface-mistral-7b.ipynb"
+  ],
+  "registry_metadata_hash": "4cdf0661a1ae5dcd065bdff54cd616c01433fe106810635f86297668e75fd08b",
+  "same_template_and_stop_metadata": true,
+  "model_weight_downloaded": false,
+  "official_points": null
+}

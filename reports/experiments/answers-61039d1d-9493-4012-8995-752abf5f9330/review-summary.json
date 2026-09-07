@@ -1,0 +1,206 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "218462df7866e90312af3c959238d93ad789c0ee7d0f70ff374ef0513e53a0a2",
+  "reviews_hash": "4d4a9e3289cf7ddab8cebf785421f9e6eecf2689aede3413633c5e3a270e181d",
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 11.524485180668611,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "schema_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 17.836385499996442,
+      "errors": 2,
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "ff883410-64f8-434f-8bd9-25db552596d9",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The count/retrospective claim is supported by passage 19, but the requested 2000–2020 period in the same passage is omitted. Other prose is supported by passages 68 and 21.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The count/retrospective claim is supported by passage 19, but the requested 2000–2020 period in the same passage is omitted. Other prose is supported by passages 68 and 21. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "808530ab-7389-4af1-8467-ec1d20143f8f",
+      "prompt": "schema_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "partial",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The clinical/genetic background claim is supported by passage 54 but neither the patient count nor period is answered. Limitations mention retrospective design and electronic records, supported by passages 68/21. Fact one is only partial because 22 patients is absent. The copied first-person caveat wording should be attributed to the publication, not reused as app narration.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The clinical/genetic background claim is supported by passage 54 but neither the patient count nor period is answered. Limitations mention retrospective design and electronic records, supported by passages 68/21. Fact one is only partial because 22 patients is absent. The copied first-person caveat wording should be attributed to the publication, not reused as app narration. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "17536a54-9ef6-4a2c-ab5d-57d40619f88f",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The response denies the study-design evidence explicitly provided by passages 19/68 and the record-review evidence in passage 21. Both requested facts remain unanswered.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The response denies the study-design evidence explicitly provided by passages 19/68 and the record-review evidence in passage 21. Both requested facts remain unanswered. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "181fc71a-2038-4c08-af95-88df2160c527",
+      "prompt": "schema_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "answered with an empty claims array violates the unchanged schema contract and is blocked. Raw limitations also deny study design while admitting retrospective data collection. No validated answer is available.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "answered with an empty claims array violates the unchanged schema contract and is blocked. Raw limitations also deny study design while admitting retrospective data collection. No validated answer is available. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "c4701302-eed2-43ee-ae04-3f94e0d74a74",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The phrase intervention reported in a 2021 Italian study accepts a premise not established by any supplied passage. This remains incorrect/unsupported whole-answer abstention.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The phrase intervention reported in a 2021 Italian study accepts a premise not established by any supplied passage. This remains incorrect/unsupported whole-answer abstention. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "2b742fef-9743-4fa1-a142-290ab5c49628",
+      "prompt": "schema_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The first exact_quote is an article title rather than text of the cited passage 8. Other claim/quote pairs attribute Italian PARM observations to unrelated review testing windows, and overstate a specific Italian genotype pattern. Validation blocks the output; it does not answer an unanswerable question correctly.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The first exact_quote is an article title rather than text of the cited passage 8. Other claim/quote pairs attribute Italian PARM observations to unrelated review testing windows, and overstate a specific Italian genotype pattern. Validation blocks the output; it does not answer an unanswerable question correctly. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "e0f530aa283593902324378020279f65a0096825f5ac6c9427630256f54dcacd",
+  "whole_answer_reviewer": "Codex source-based provisional review, 2026-09-06",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

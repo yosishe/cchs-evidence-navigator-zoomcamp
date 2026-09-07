@@ -1,0 +1,171 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "fc55dceaafe00bc0c734a8d63c5e8438338fd33d794e057d8f42bdbba1a035cc",
+  "reviews_hash": "0314a56f5a669784821e53c54577bff2f016285cef8469b4a28c32232897746f",
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "numbered_evidence",
+      "evaluated_questions": 2,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.5,
+      "supported_claims": 2,
+      "claim_denominator": 2,
+      "unsupported_claims": 0,
+      "mean_seconds": 42.56182374950731,
+      "errors": 1,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.5
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      },
+      "critical_failure_answers": 0
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "numbered_evidence",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "numbered_evidence",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 1.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "da437a9e-fdd1-44bd-95d8-3ab212c0c2ab",
+      "prompt": "numbered_evidence",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Both claims are explicit, source-attributed and supported by Italian passage 2: retrospective 22-patient data and 2000-2020 referral/follow-up period. The alternate abstract passage supplies the same facts as the frozen body references. Empty limitations add no unsupported prose; canonical exports preserve exact quotations.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Both claims are explicit, source-attributed and supported by Italian passage 2: retrospective 22-patient data and 2000-2020 referral/follow-up period. The alternate abstract passage supplies the same facts as the frozen body references. Empty limitations add no unsupported prose; canonical exports preserve exact quotations.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "dd59baf3-124a-4927-9c7c-eadabcf92605",
+      "prompt": "numbered_evidence",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The entire model response is rejected before canonical claims or tag/claim exports are produced. Object mode omitted limitations and inserted nonliteral ellipses; schema mode supplied limitations but still inserted ellipses into quotations and added further nonliteral quotes. This is a measured invalid-output failure, not a complete comparison or a correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The entire model response is rejected before canonical claims or tag/claim exports are produced. Object mode omitted limitations and inserted nonliteral ellipses; schema mode supplied limitations but still inserted ellipses into quotations and added further nonliteral quotes. This is a measured invalid-output failure, not a complete comparison or a correct abstention.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [
+    "numbered_evidence"
+  ],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "1ae9cb436edaef9600cd93e6da88c802f893544226a3c8b8df5b4eea8dc1fe2d",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

@@ -1,0 +1,1267 @@
+{
+  "status": "EXECUTED_EXPOSED_REGRESSION_ONLY",
+  "created_at": "2026-09-05T23:18:34.994809+00:00",
+  "config": {
+    "retrieval": "vector",
+    "top_k": 5,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 2.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "phi3",
+    "prompt": "evidence_first",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 120,
+    "rewrite_enabled": false,
+    "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+    "question_bank": "data/evaluation/questions-v2.json"
+  },
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "original_bank_hash": "69822f7ae74241ea23736caddf85294c090e525fffb415f8f0012c78325d049e",
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "Was the Italian-center study prospective or retrospective?",
+      "split": "regression_exposed",
+      "group_id": "study_design",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "relevant_source_ids": [
+        "PMC8039127"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "collected retrospectively"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q02",
+      "question": "What recruitment period does the Italian-center paper describe?",
+      "split": "regression_exposed",
+      "group_id": "study_design",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "relevant_source_ids": [
+        "PMC8039127"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "between 2000 and 2020"
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "quote": "between 2000 and 2020"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q03",
+      "question": "What limitations do the Italian-center authors acknowledge?",
+      "split": "regression_exposed",
+      "group_id": "limitations",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "relevant_source_ids": [
+        "PMC8039127"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "quote": "Our study has some limitations"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q04",
+      "question": "How do the guideline authors describe the underlying evidence base?",
+      "split": "regression_exposed",
+      "group_id": "guideline_evidence",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "most of the evidence is descriptive"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q05",
+      "question": "How did the guideline authors combine publications and clinical experience?",
+      "split": "regression_exposed",
+      "group_id": "guideline_evidence",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "clinical expertise"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q06",
+      "question": "Which organization performed the initial literature search for the guidelines?",
+      "split": "regression_exposed",
+      "group_id": "guideline_search",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "quote": "University of York"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q07",
+      "question": "Which research contexts are mentioned for investigation of PHOX2B mechanisms?",
+      "split": "regression_exposed",
+      "group_id": "research_context",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:10:0:750"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:750",
+          "quote": "in vitro, in vivo, and in CCHS patients"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q08",
+      "question": "Find a passage in the care review that discusses multidisciplinary care.",
+      "split": "regression_exposed",
+      "group_id": "review_coverage",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:15:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:15:600:1050",
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+        "PMC8963195:f6c8a0a4968ccaf4:2:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:35:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:41:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:52:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:52:600:1143",
+        "PMC8963195:f6c8a0a4968ccaf4:53:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:5:0:487",
+        "PMC8963195:f6c8a0a4968ccaf4:60:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:68:600:1133",
+        "PMC8963195:f6c8a0a4968ccaf4:70:0:749"
+      ],
+      "relevant_source_ids": [
+        "PMC8963195"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:15:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:15:600:1050",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:600:1350",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:600:1350",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:600:1350",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:600:1350",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:41:600:1350",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:52:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:52:600:1143",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:52:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:52:600:1143",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:53:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:5:0:487",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:60:0:750",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:68:600:1133",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:68:600:1133",
+          "quote": "multidisciplinary"
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "quote": "multidisciplinary"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q09",
+      "question": "Find the guidelines passage describing family associations as a resource.",
+      "split": "regression_exposed",
+      "group_id": "family_support",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:145:0:626"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "quote": "family associations"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q10",
+      "question": "Which earlier statement do the guideline conclusions compare with?",
+      "split": "regression_exposed",
+      "group_id": "guideline_comparison",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:188:0:666"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:188:0:666",
+          "quote": "2010 American Thoracic Society"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q11",
+      "question": "Find the passage connecting a reference centre with registry and research participation.",
+      "split": "regression_exposed",
+      "group_id": "registry_research",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:153:0:524"
+      ],
+      "relevant_source_ids": [
+        "PMC7503443"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:153:0:524",
+          "quote": "registry and research activities"
+        }
+      ],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Exact quoted anchor verified; relevance judgments are not exhaustive and require researcher review."
+    },
+    {
+      "id": "Q12",
+      "question": "Which randomized clinical trial in this corpus establishes a cure for CCHS?",
+      "split": "regression_exposed",
+      "group_id": "absent-tuning",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Designed out-of-corpus case; no claim about all published literature."
+    },
+    {
+      "id": "Q13",
+      "question": "What were the outcomes of the CCHS trial published in 2030?",
+      "split": "regression_exposed",
+      "group_id": "absent-test",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL",
+      "label_note": "Designed out-of-corpus case; no claim about all published literature."
+    }
+  ],
+  "quote_mappings": [
+    {
+      "question_id": "Q01",
+      "original_reference": {
+        "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "quote": "collected retrospectively"
+      },
+      "current_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ]
+    },
+    {
+      "question_id": "Q02",
+      "original_reference": {
+        "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "quote": "between 2000 and 2020"
+      },
+      "current_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ]
+    },
+    {
+      "question_id": "Q02",
+      "original_reference": {
+        "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "quote": "between 2000 and 2020"
+      },
+      "current_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ]
+    },
+    {
+      "question_id": "Q03",
+      "original_reference": {
+        "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "quote": "Our study has some limitations"
+      },
+      "current_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ]
+    },
+    {
+      "question_id": "Q04",
+      "original_reference": {
+        "id": "PMC7503443:a26671042513feb5:13:0:561",
+        "quote": "most of the evidence is descriptive"
+      },
+      "current_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ]
+    },
+    {
+      "question_id": "Q05",
+      "original_reference": {
+        "id": "PMC7503443:a26671042513feb5:13:0:561",
+        "quote": "clinical expertise"
+      },
+      "current_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ]
+    },
+    {
+      "question_id": "Q06",
+      "original_reference": {
+        "id": "PMC7503443:a26671042513feb5:12:0:409",
+        "quote": "University of York"
+      },
+      "current_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409"
+      ]
+    },
+    {
+      "question_id": "Q07",
+      "original_reference": {
+        "id": "PMC7503443:a26671042513feb5:10:0:1000",
+        "quote": "in vitro, in vivo, and in CCHS patients"
+      },
+      "current_ids": [
+        "PMC7503443:a26671042513feb5:10:0:750"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:15:0:1000",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:15:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:15:600:1050"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:1000",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:24:850:1689",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:2:0:1000",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+        "PMC8963195:f6c8a0a4968ccaf4:2:600:1350"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:2:850:1777",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+        "PMC8963195:f6c8a0a4968ccaf4:2:600:1350"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:1000",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:35:600:1350"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:35:850:1850",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:35:600:1350"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:41:850:1439",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:41:600:1350"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:52:0:1000",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:52:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:52:600:1143"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:52:850:1143",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:52:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:52:600:1143"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:53:0:853",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:53:0:750"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:5:0:487",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:5:0:487"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:60:0:972",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:60:0:750"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:68:0:1000",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:68:600:1133"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:68:850:1133",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:68:600:1133"
+      ]
+    },
+    {
+      "question_id": "Q08",
+      "original_reference": {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+        "quote": "multidisciplinary"
+      },
+      "current_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:70:0:749"
+      ]
+    },
+    {
+      "question_id": "Q09",
+      "original_reference": {
+        "id": "PMC7503443:a26671042513feb5:145:0:626",
+        "quote": "family associations"
+      },
+      "current_ids": [
+        "PMC7503443:a26671042513feb5:145:0:626"
+      ]
+    },
+    {
+      "question_id": "Q10",
+      "original_reference": {
+        "id": "PMC7503443:a26671042513feb5:188:0:666",
+        "quote": "2010 American Thoracic Society"
+      },
+      "current_ids": [
+        "PMC7503443:a26671042513feb5:188:0:666"
+      ]
+    },
+    {
+      "question_id": "Q11",
+      "original_reference": {
+        "id": "PMC7503443:a26671042513feb5:153:0:524",
+        "quote": "registry and research activities"
+      },
+      "current_ids": [
+        "PMC7503443:a26671042513feb5:153:0:524"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "question_id": "Q01",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "question_id": "Q02",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "question_id": "Q03",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "question_id": "Q04",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q05",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:69:0:686"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q06",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:14:0:635",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.25
+      }
+    },
+    {
+      "question_id": "Q07",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:194:0:58",
+        "PMC7503443:a26671042513feb5:4:0:201",
+        "PMC7503443:a26671042513feb5:10:0:750",
+        "PMC7503443:a26671042513feb5:103:600:844",
+        "PMC7503443:a26671042513feb5:122:0:716"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "question_id": "Q08",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:5:0:487",
+        "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+        "PMC8963195:f6c8a0a4968ccaf4:70:0:749"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q09",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:145:0:626",
+        "PMC7503443:a26671042513feb5:14:0:635",
+        "PMC8039127:b4a7750cb1b5b1d0:66:0:459",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q10",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+        "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+        "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q11",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:66:0:459",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:59:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q12",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:103:600:844",
+        "PMC7503443:a26671042513feb5:188:0:666",
+        "PMC7503443:a26671042513feb5:86:0:402",
+        "PMC7503443:a26671042513feb5:150:600:979",
+        "PMC7503443:a26671042513feb5:8:600:988"
+      ],
+      "metrics": null
+    },
+    {
+      "question_id": "Q13",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:29:0:149",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "metrics": null
+    },
+    {
+      "question_id": "Q01",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "question_id": "Q02",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q03",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:59:600:841",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      }
+    },
+    {
+      "question_id": "Q04",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC8963195:f6c8a0a4968ccaf4:65:0:722"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q05",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q06",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "PMC7503443:a26671042513feb5:237:0:250",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q07",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:10:0:750",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC8963195:f6c8a0a4968ccaf4:64:1200:1402",
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+        "PMC7503443:a26671042513feb5:194:0:58"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q08",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q09",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:145:0:626",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:137:0:431",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC7503443:a26671042513feb5:150:0:750"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q10",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:218:0:284",
+        "PMC8963195:f6c8a0a4968ccaf4:49:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:35:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q11",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:151:0:315",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:154:0:483",
+        "PMC7503443:a26671042513feb5:153:0:524",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.25
+      }
+    },
+    {
+      "question_id": "Q12",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+        "PMC7503443:a26671042513feb5:18:0:233",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC7503443:a26671042513feb5:10:600:1246"
+      ],
+      "metrics": null
+    },
+    {
+      "question_id": "Q13",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC7503443:a26671042513feb5:18:0:233",
+        "PMC7503443:a26671042513feb5:45:0:69",
+        "PMC7503443:a26671042513feb5:188:0:666"
+      ],
+      "metrics": null
+    },
+    {
+      "question_id": "Q01",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "question_id": "Q02",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q03",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      }
+    },
+    {
+      "question_id": "Q04",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:55:0:418"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q05",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q06",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:14:0:635",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "PMC7503443:a26671042513feb5:237:0:250"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q07",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:10:0:750",
+        "PMC7503443:a26671042513feb5:194:0:58",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC7503443:a26671042513feb5:9:0:276",
+        "PMC7503443:a26671042513feb5:195:0:71"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q08",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+        "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q09",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:145:0:626",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:14:0:635",
+        "PMC7503443:a26671042513feb5:137:0:431",
+        "PMC8039127:b4a7750cb1b5b1d0:66:0:459"
+      ],
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      }
+    },
+    {
+      "question_id": "Q10",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+        "PMC7503443:a26671042513feb5:218:0:284"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q11",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC7503443:a26671042513feb5:151:0:315",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      }
+    },
+    {
+      "question_id": "Q12",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:188:0:666",
+        "PMC7503443:a26671042513feb5:86:0:402",
+        "PMC7503443:a26671042513feb5:8:0:750",
+        "PMC7503443:a26671042513feb5:103:600:844",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750"
+      ],
+      "metrics": null
+    },
+    {
+      "question_id": "Q13",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218"
+      ],
+      "metrics": null
+    }
+  ],
+  "limitations": "Quote-bearing windows replace historical window IDs explicitly. Labels remain non-exhaustive and provisional. No model requests, no final v2 test, no configuration selection, no abstention quality claim."
+}

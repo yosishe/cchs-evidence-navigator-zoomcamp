@@ -1,0 +1,89 @@
+{
+  "results_hash": "b7ecc1fb97e38d89ae3ac000fd8e1b0631a99df9e73492fb71300594fa4597ed",
+  "scope": "Provisional implementing-assistant review. Verbatim source text makes copying mechanical; actual relevance, required-fact coverage, qualification retention and absence of misleading selection are inspected separately. Candidate identity known.",
+  "questions": {
+    "DIR-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The selected original Italian aims sentence includes both genotypes/clinical findings and changes in management over time. It is explicitly displayed as an attributed excerpt, not a newly generated scientific interpretation."
+    },
+    "PAR-01": {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The selected retrospective abstract is authentic and relevant but does not identify electronic medical records. The available methods excerpt is omitted. A correct excerpt alone does not make the answer complete."
+    },
+    "COM-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The selected Italian sentence explicitly states retrospective patient data. The selected guideline method explicitly combines published evidence with clinical expertise/experience. Publication identities stay separate and exports add no inferred agreement, pooled population or causal claim. Several extra contextual sentences make the answer verbose; both required sides are nevertheless present and supported."
+    },
+    "LIM-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The corpus-scoped refusal avoids a false randomized/causal claim but omits the supplied retrospective-design and heterogeneous-population limitations. It is not a complete answer to the frozen answerable question."
+    },
+    "ABS-01": {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Generic source-scoped refusal introduces no randomized-intervention premise or literature-wide absence assertion. No source or tag rows are presented as an answer."
+    }
+  }
+}

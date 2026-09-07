@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-09-06T14:56:30.451328+00:00",
+  "status": "COMPLETED_AWAITING_REVIEW",
+  "preparation_hash": "c0ba16e13b8ac2132dd0517cfacc65ad590434581eb091e6b727b219ab53b2ea",
+  "runs": [
+    {
+      "id": "vector_10",
+      "result_path": "reports/experiments/answers-0cb52db7-1c7d-493e-ae6c-1a8d635c80a2/results.json",
+      "result_hash": "ec0d194264288051496cba97c69276a43a7bc44016bf658eea8eaccaaac10e06",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "actual_provider_requests": 4
+    },
+    {
+      "id": "hybrid_title_0_rrf_1_10",
+      "result_path": "reports/experiments/answers-ca46397a-76c1-40f0-bda3-adfc0399b600/results.json",
+      "result_hash": "29ba245a4014708cf88a5a1115c48e691545c2a60007fac95a635f7d090d7f40",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "actual_provider_requests": 4
+    }
+  ],
+  "actual_provider_requests": 8,
+  "runtime_promoted": false,
+  "official_points": null,
+  "completed_at": "2026-09-06T15:00:03.447700+00:00"
+}

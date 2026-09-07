@@ -1,0 +1,176 @@
+{
+  "status": "PARTIAL_ANSWERABLE_REQUESTS_TIMED_OUT",
+  "planned_calls": 3,
+  "actual_provider_attempts": 3,
+  "completed_provider_calls": 1,
+  "failed_provider_calls": 2,
+  "paid_provider_calls": 0,
+  "final_evaluation_calls": 0,
+  "quality_selection_changed": false,
+  "plan": "browser-rehearsal-plan.json",
+  "requests": [
+    {
+      "id": "055067d5-10c1-4b6f-b6d4-41308b11b6f6",
+      "question": "Which gene is most often associated with congenital central hypoventilation syndrome?",
+      "timestamp": "2026-09-07T13:09:55.507361+00:00",
+      "status": "error",
+      "limitations": "The answer could not be generated and validated. No unsupported answer is displayed.",
+      "error_type": "APITimeoutError",
+      "error_stage": "provider",
+      "seconds": 121.02615776200037,
+      "retrieval_seconds": 17.096587924000232,
+      "context_preparation_seconds": 17.096879550000267,
+      "request_seconds_before_storage": 138.15132372799962,
+      "input_tokens": null,
+      "output_tokens": null,
+      "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+      "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+      "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+      "context_id": "9ce9e9dbe14e530933d5f71847fda9bc7fce27e84504aeb59c3947b8d3378336",
+      "model_identity": {
+        "model": "phi3",
+        "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+        "endpoint": "http://ollama:11434/",
+        "provider": "ollama",
+        "size_bytes": 2176178913,
+        "resolved_model": "phi3:latest"
+      },
+      "call_id": "664dedc7-0c67-4e28-a6c2-47ea1a768486",
+      "provider_seconds": 120.5913680119993,
+      "raw_browser_download": "downloads/evidence-055067d5-10c1-4b6f-b6d4-41308b11b6f6.json"
+    },
+    {
+      "id": "08748cb5-2bbd-4a2b-a95e-fd8dfda03347",
+      "question": "How many CCHS patients were enrolled in a 2026 registry study in Iceland?",
+      "timestamp": "2026-09-07T13:14:28.860873+00:00",
+      "status": "insufficient_evidence",
+      "limitations": "The provided passages do not contain specific information regarding the number of CCHS patients enrolled in a registry study from Iceland in 2026. The evidence available discusses guidelines, management changes over time, and aspects of home care but does not directly answer or provide data on patient numbers for that particular year.",
+      "error_type": null,
+      "error_stage": null,
+      "seconds": 42.03803206199973,
+      "retrieval_seconds": 0.15602629199929652,
+      "context_preparation_seconds": 0.15614983300019958,
+      "request_seconds_before_storage": 42.19925051999962,
+      "input_tokens": 1930,
+      "output_tokens": 101,
+      "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+      "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+      "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+      "context_id": "f9df47e1446fc2f0e1e0c02bff26a754d6af8358c2596494c95e615c334ed30d",
+      "model_identity": {
+        "model": "phi3",
+        "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+        "endpoint": "http://ollama:11434/",
+        "provider": "ollama",
+        "size_bytes": 2176178913,
+        "resolved_model": "phi3:latest"
+      },
+      "call_id": "d0acf228-d40a-410c-a051-f0cc509f96dc",
+      "provider_seconds": 42.02126214500004,
+      "raw_browser_download": "downloads/evidence-08748cb5-2bbd-4a2b-a95e-fd8dfda03347.json"
+    },
+    {
+      "id": "3b099d9a-31e7-4921-aad5-6960bed683dc",
+      "question": "Which gene is most often associated with congenital central hypoventilation syndrome?",
+      "timestamp": "2026-09-07T13:21:53.267442+00:00",
+      "status": "error",
+      "limitations": "The answer could not be generated and validated. No unsupported answer is displayed.",
+      "error_type": "APITimeoutError",
+      "error_stage": "provider",
+      "seconds": 120.83310051300032,
+      "retrieval_seconds": 10.105371338000623,
+      "context_preparation_seconds": 10.105500837998989,
+      "request_seconds_before_storage": 130.96581031000096,
+      "input_tokens": null,
+      "output_tokens": null,
+      "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+      "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+      "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+      "context_id": "9ce9e9dbe14e530933d5f71847fda9bc7fce27e84504aeb59c3947b8d3378336",
+      "model_identity": {
+        "model": "phi3",
+        "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+        "endpoint": "http://ollama:11434/",
+        "provider": "ollama",
+        "size_bytes": 2176178913,
+        "resolved_model": "phi3:latest"
+      },
+      "call_id": "ecad10c5-aad8-433f-a73b-8ff8ba8743aa",
+      "provider_seconds": 120.48758522199932,
+      "raw_browser_download": "downloads/evidence-3b099d9a-31e7-4921-aad5-6960bed683dc.json"
+    }
+  ],
+  "download_check": "browser-downloads.json",
+  "postgres_answers": [
+    "055067d5-10c1-4b6f-b6d4-41308b11b6f6",
+    "08748cb5-2bbd-4a2b-a95e-fd8dfda03347",
+    "3b099d9a-31e7-4921-aad5-6960bed683dc"
+  ],
+  "postgres_feedback": [
+    {
+      "id": "055067d5-10c1-4b6f-b6d4-41308b11b6f6:user",
+      "answer_id": "055067d5-10c1-4b6f-b6d4-41308b11b6f6",
+      "payload": {
+        "id": "055067d5-10c1-4b6f-b6d4-41308b11b6f6:user",
+        "score": -1,
+        "source": "qa",
+        "comment": "Automated container QA: the real model request timed out after 120 seconds. No generated answer was available. This is test activity, not researcher feedback.",
+        "answer_id": "055067d5-10c1-4b6f-b6d4-41308b11b6f6",
+        "timestamp": "2026-09-07T13:13:42.561170+00:00",
+        "traffic_origin": "qa"
+      }
+    },
+    {
+      "id": "08748cb5-2bbd-4a2b-a95e-fd8dfda03347:user",
+      "answer_id": "08748cb5-2bbd-4a2b-a95e-fd8dfda03347",
+      "payload": {
+        "id": "08748cb5-2bbd-4a2b-a95e-fd8dfda03347:user",
+        "score": 1,
+        "source": "qa",
+        "comment": "Automated container QA: useful corpus-limited abstention; no registry patient count was invented. Test feedback only, not a researcher evaluation.",
+        "answer_id": "08748cb5-2bbd-4a2b-a95e-fd8dfda03347",
+        "timestamp": "2026-09-07T13:16:40.940808+00:00",
+        "traffic_origin": "qa"
+      }
+    },
+    {
+      "id": "3b099d9a-31e7-4921-aad5-6960bed683dc:user",
+      "answer_id": "3b099d9a-31e7-4921-aad5-6960bed683dc",
+      "payload": {
+        "id": "3b099d9a-31e7-4921-aad5-6960bed683dc:user",
+        "score": -1,
+        "source": "qa",
+        "comment": "Automated post-restart QA: the predefined answerable request timed out again. Services recovered and saved the failure, but a useful generated answer was not demonstrated. Test activity only.",
+        "answer_id": "3b099d9a-31e7-4921-aad5-6960bed683dc",
+        "timestamp": "2026-09-07T13:25:50.094680+00:00",
+        "traffic_origin": "qa"
+      }
+    }
+  ],
+  "restart_persistence": "restart-persistence.json",
+  "post_local_only_change_payloads_unchanged": true,
+  "monitoring_observed": {
+    "origin": "qa",
+    "mode": "all",
+    "request_count": 3,
+    "feedback_coverage": "3/3",
+    "outcomes": {
+      "error": 2,
+      "insufficient_evidence": 1
+    },
+    "feedback": {
+      "Helpful": 1,
+      "Not helpful": 2
+    },
+    "charts": 6,
+    "observed_provider_tokens": {
+      "input": 1930,
+      "output": 101
+    },
+    "timeout_token_counts": "unknown; server partial decoding counters are separate diagnostics",
+    "method": "Browser accessibility-tree and visual inspection; matches the PostgreSQL records"
+  },
+  "claim_and_tag_exports": "Unavailable for these cases because no validated claims were produced. Not marked passed.",
+  "review": "The abstention is appropriately limited to the supplied corpus and invents no patient count. The answerable request and its predeclared post-restart repeat produced no usable answer. QA observations are not biomedical validation or a generation-quality benchmark.",
+  "environment_change_after_calls": "OLLAMA_NO_CLOUD=1 was added and the Ollama service recreated using the same volume/image. Its disabled-cloud log, exact model identity, healthy services and unchanged database were verified without additional generation calls."
+}

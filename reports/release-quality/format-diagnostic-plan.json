@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-09-06T23:08:33.712924+00:00",
+  "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "questions_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "contexts_path": "reports/release-quality/hybrid-zero-contexts.json",
+  "contexts_hash": "8b0bb94c81e7062bca17d4e6f89abd8eca5e1095bac0286ef4ab66bb5fb2b2a4",
+  "question_ids": [
+    "DIR-02",
+    "COM-01"
+  ],
+  "variants": [
+    {
+      "arm": "format-object",
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 10,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "gemma3:12b",
+        "prompt": "numbered_evidence",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "DEVELOPMENT_CANDIDATE",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "EVALUATION_CANDIDATE",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+        "json_mode": true,
+        "generation_json_schema": false
+      }
+    },
+    {
+      "arm": "format-schema",
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 10,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "gemma3:12b",
+        "prompt": "numbered_evidence",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "DEVELOPMENT_CANDIDATE",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "EVALUATION_CANDIDATE",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+        "json_mode": true,
+        "generation_json_schema": true
+      }
+    }
+  ],
+  "planned_attempts": 4,
+  "reason": "Isolate schema enforcement on a formerly successful answer and a missing-limitations format failure, with the same new hybrid/10 contexts. This is a format diagnostic, not prompt-quality selection. No retries. Inspect actual serving context and input/output token counts. Continue only when infrastructure/context and source output can be reviewed."
+}

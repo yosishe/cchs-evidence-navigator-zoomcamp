@@ -1,0 +1,55 @@
+{
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "questions_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "contexts_path": "reports/release-quality/hybrid-zero-contexts.json",
+  "contexts_hash": "8b0bb94c81e7062bca17d4e6f89abd8eca5e1095bac0286ef4ab66bb5fb2b2a4",
+  "created_at": "2026-09-07T01:29:39.946391+00:00",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "question_ids": [
+    "DIR-01",
+    "COM-01",
+    "LIM-01",
+    "LIM-02",
+    "ABS-02"
+  ],
+  "variants": [
+    {
+      "arm": "source-extract-reasoned-feasibility",
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 10,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "gemma3:12b",
+        "prompt": "source_extract_reasoned",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "DEVELOPMENT_CANDIDATE",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "EVALUATION_CANDIDATE",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+        "json_mode": true,
+        "generation_json_schema": true
+      }
+    }
+  ],
+  "planned_attempts": 5,
+  "purpose": "Test a brief bounded selection justification preceding source pointers, after worked examples fixed a design-label omission but failed association relevance and accession refusal. This is a generation-format/prompt adaptation, not an additional judge or extra model call.",
+  "continuation_gate": "Inspect both useful research output and every critical/relevance failure. LIM-01 lacks required source in the fixed context and should abstain; this is still a failed answerable benchmark question, not a changed label. LIM-02 has design and caveats available and should supply them. No full-development promotion from these five cases, no retry of this plan, no final inference.",
+  "fixed_conditions": "Same source-excerpt adapter, canonical contract, model digest, frozen sources, hybrid-10-title0-RRF50 contexts and one generation attempt per question. The changed prompt/runtime gets its own version; previous answers remain rejected evidence.",
+  "revision_rationale": "No domain answers are added. The diagnostic explanation is retained only in raw_output, never promoted to a canonical claim or treated as independent review. Existing canonical schema, exact excerpts, semantic/completeness/whole-answer criteria are unchanged."
+}

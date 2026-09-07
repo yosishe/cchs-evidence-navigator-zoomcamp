@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-06T14:14:36.017411+00:00",
+  "status": "BLOCKED_RUNTIME_PREFLIGHT",
+  "scope": "Local setup metadata only; no answer-quality or reproduction claim",
+  "runtime_code_id": "aec7fed7035ba48093c0f17f865e5be36a34f2c4c3247d61473da8face2f7f05",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "python_version": "3.12.14",
+  "platform": "Darwin",
+  "architecture": "arm64",
+  "docker_available": false,
+  "configured_model": "phi3",
+  "json_mode": true,
+  "request_timeout_seconds": 120,
+  "provider_requests": 0,
+  "metadata_requests": [
+    {
+      "method": "GET",
+      "endpoint": "api/version"
+    }
+  ],
+  "blockers": [
+    "Local model metadata preflight failed; check the allowed endpoint and Ollama service."
+  ],
+  "warnings": [],
+  "corpus": {
+    "id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "windows": 377
+  },
+  "ollama_cli_available": true,
+  "ollama_cli_version_candidates": [
+    "0.31.1"
+  ],
+  "still_required": [
+    "Offline encoder check: python -m navigator prepare-encoder",
+    "A successful generated answer and paired-prompt review",
+    "Compose and fresh-environment rehearsal before claiming reproduction"
+  ]
+}

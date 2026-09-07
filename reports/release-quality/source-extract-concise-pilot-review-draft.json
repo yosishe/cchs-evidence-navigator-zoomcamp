@@ -1,0 +1,197 @@
+{
+  "status": "PARTIAL_REVIEW_DO_NOT_SELECT",
+  "created_at": "2026-09-07T00:54:59.013389+00:00",
+  "results_path": "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json",
+  "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7",
+  "results_hash": null,
+  "scope": "Same-assistant source/excerpt and export review; candidate known. First ten completed rows inspected; remaining absence cases still need inspection.",
+  "questions": {
+    "DIR-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present."
+    },
+    "DIR-02": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The abstract and methods explicitly state the retrospective 22-patient cohort and 2000-2020 period. Extra cohort and diagnosis-age sentences are unnecessary but correctly remain attributed to the same study; no inferred population or causal claim is added."
+    },
+    "PAR-01": {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The selected abstract establishes retrospective design. The available electronic-medical-record methods excerpt is omitted; this source-backed but incomplete answer fails the original task requirements."
+    },
+    "PAR-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure."
+    },
+    "EXA-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted."
+    },
+    "EXA-02": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions."
+    },
+    "COM-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The Italian retrospective-data sentence and guideline evidence/clinical-experience blend are both selected and separately attributed. Several funding/unit/background sentences make this verbose, but the requested contrast and source qualifications remain intact; no inferred agreement or pooled estimate is asserted."
+    },
+    "COM-02": {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The Italian 86% result is present. Review common-genotype and NPARM-10% excerpts do not supply the requested PARM-90% figure; no complementary percentage may be inferred. Source-type metadata is retained but does not deliver the required small-cohort/different-evidence-base caution."
+    },
+    "LIM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unrelated ventilator-adjustment guidance is presented as the answer to a genetic-association qualification question."
+      ],
+      "reason": "The sole selected excerpt concerns when parents may adjust ventilator settings under some healthcare systems. It neither states inconsistency of the repeat-length/continuous-ventilation relation nor its exceptions. Literal source copying does not justify this misleading task/context substitution; mark it critical rather than count an authentic quote as useful."
+    },
+    "LIM-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification."
+    }
+  },
+  "record_hashes": {
+    "DIR-01": "0b9c84c976bd68ec55b572b002d4110e81bb028ec0a5f5171fade38af73eaaf2",
+    "DIR-02": "0077da47ea3d3367f00604f25d79a010a4460d0590ae09538843bfeed5f44c6f",
+    "PAR-01": "92e577dde48ce61fcc12716505dfcc21cc2a206ff65acaf3da14b2fd12148bd8",
+    "PAR-02": "aee35fc97e0501b9f57806b583b30d1827465434f85a168474898ad32ce38732",
+    "EXA-01": "69f003e666613ec03007106d57eddafa4bb81135d83be34aa17bff4d0ec45110",
+    "EXA-02": "e80df2b70561d37ce41f305126304625d0a87aab816b4154d431c0bd8d0e9c87",
+    "COM-01": "b11e2ba39fb2ac95863892359bd7e8345480756a2cab8bf820fd3cc84e75f2ec",
+    "COM-02": "5a9b37206f49b510a949569d50dbc829365bc6f1b7b24dd78b352106d1a0b508",
+    "LIM-01": "a8fb1deb1814d6ec6472ab2cf507156fa5509ecb772226d43b2b5aa0796af62e",
+    "LIM-02": "fa7d16b29bb9b4ff8cbc2e0c88b72b409ccca00c75aa8e6a0b770978c6d54a4c"
+  }
+}

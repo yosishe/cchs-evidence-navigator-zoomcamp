@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "d0b4f3e81d680538ce10bae80cfc6cf419088cee71f5af55ef341d0345ea4b23",
+  "reviews": [
+    {
+      "answer_id": "5bc50c8e-3120-4f48-b6bf-0fbca99b7e5f",
+      "record_hash": "7f8a48f838e617f25d656e68a13c0b9535ab828243a786c9eb53f19f5caee9b3",
+      "export_hash": "8b0daeb5843f816b17b8b4666963182a82bd4558764e22d6e8edda9109e761c0",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "cf539ba5-4bc6-49f1-9fdc-a3a67c41faed",
+      "record_hash": "f6858c8a281b3ee2bbfbffeccf4b7cf86595de8d28d5b5b7db0ce05b8c03c20e",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    }
+  ]
+}

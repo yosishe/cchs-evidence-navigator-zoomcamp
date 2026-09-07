@@ -1,0 +1,41 @@
+{
+  "status": "RESTORED_EXACT_EXISTING_ASSETS",
+  "created_at": "2026-09-07T18:38:57.197318+00:00",
+  "rationale": "The broad Markdown scan found two historical links whose original log assets had been omitted from the earlier copy. The referenced reports remain byte-for-byte frozen. These are restored existing artifacts, not newly generated reports.",
+  "assets": [
+    {
+      "path": "reports/goal-loop/schema-answer-027/targeted-tests.log",
+      "sha256": "8e1744b54b388b1ba39b8fe0683cdd59c6c3ada232328149614cd2b2557027bb",
+      "size_bytes": 305,
+      "source": "Exact existing historical asset from the private predecessor; copied without modification.",
+      "scope": "Historical 6 September 2026 test output, not newly executed checks."
+    },
+    {
+      "path": "reports/goal-loop/schema-answer-027/full-tests.log",
+      "sha256": "e9b35e270f0182f0cb7fae91d5780cffc65e8c0761a26ac6fc0580c7e8d2bfb7",
+      "size_bytes": 949,
+      "source": "Exact existing historical asset from the private predecessor; copied without modification.",
+      "scope": "Historical 6 September 2026 test output, not newly executed checks."
+    }
+  ],
+  "new_test_execution": false,
+  "source_modified": false,
+  "readme_alias": "Restored the existing local-setup anchor as an alias of Run and verify.",
+  "initial_link_findings": [
+    {
+      "file": "reports/answer-baseline/README.md",
+      "target": "../../README.md#local-setup",
+      "reason": "MISSING_MARKDOWN_ANCHOR"
+    },
+    {
+      "file": "reports/goal-loop/schema-answer-027/report.md",
+      "target": "targeted-tests.log",
+      "reason": "MISSING_LOCAL_TARGET"
+    },
+    {
+      "file": "reports/goal-loop/schema-answer-027/report.md",
+      "target": "full-tests.log",
+      "reason": "MISSING_LOCAL_TARGET"
+    }
+  ]
+}

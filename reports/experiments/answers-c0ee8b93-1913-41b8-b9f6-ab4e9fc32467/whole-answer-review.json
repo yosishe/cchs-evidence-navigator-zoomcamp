@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "results_hash": "acff0344888e79c489f162ae0bc1cd01b44b404d9fe8937871f090a7b2822f56",
+  "reviews": [
+    {
+      "answer_id": "d5eaa690-1566-4e3e-820c-38219a82c062",
+      "record_hash": "1bff8ba30b097fd98d4922a0398f7bebfe8d239a4e757771b5bd81cbab8573e3",
+      "export_hash": "739bbf90ca8e7c05b8145a745c21e7a93a3d98e43affccda244b557fa75f3df7",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The 22-patient retrospective claim and quote match Italian passage 19, but the requested follow-up period 2000–2020 is missing. Limitations are supported by passages 68 and 21. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed."
+    },
+    {
+      "answer_id": "b03a0477-74e2-4caf-90aa-bfb791f06a9b",
+      "record_hash": "96723e530e869ff7fd42d354d05146167f81594c65f571d8bbf826cba8e8cecd",
+      "export_hash": "963e122a4c32a77b581e804a36e616f4bd6d37a4c560efc914c9eb522115824f",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "unsupported_literature_coverage_caveat"
+      ],
+      "acceptable": false,
+      "reason": "The E1 label correctly maps to Italian passage 19 and the count quote is exact, but the follow-up period is missing. The added uncertainty about all relevant studies and unpublished data is not supported by these cohort passages and confuses a primary cohort with literature coverage. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed."
+    },
+    {
+      "answer_id": "ecf2c489-4c5a-4a71-bde7-3d50cf091cef",
+      "record_hash": "2236254bf4f91cb82747949815d8b09563f6a9b2c96c19287a07fcb1c311aeb4",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "false_denial_of_supplied_design_evidence"
+      ],
+      "acceptable": false,
+      "reason": "The nonanswer denies evidence of retrospective patient-record analysis even though Italian passages 19 and 21 explicitly describe retrospective collection and review of electronic medical records. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed."
+    },
+    {
+      "answer_id": "e8dd06d2-cf8a-4ed0-9e74-fd79a0495a91",
+      "record_hash": "2ed5353a663d8cb0b5f95a196aca7306177dd9b220cbcf50415e6afaf41acff1",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "invalid_schema_and_false_evidence_denial"
+      ],
+      "acceptable": false,
+      "reason": "The raw nonanswer omits mandatory claims and is blocked by the validator. It also denies design/record evidence explicitly present in Italian passages 19 and 21. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed."
+    },
+    {
+      "answer_id": "71872ae4-cb57-4695-a512-859431acddcd",
+      "record_hash": "fd7f47917905b6363caa3508dc0852b88b0243dd33bbd9e9be8289e9d6eab59f",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "unsupported_intervention_premise"
+      ],
+      "acceptable": false,
+      "reason": "The phrase intervention reported in a 2021 Italian study accepts an unestablished premise. The supplied variant/testing passages do not establish any randomized PHOX2B gene-editing intervention. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed."
+    },
+    {
+      "answer_id": "12e2e74e-1770-4fbc-94e7-c3b21629fc9c",
+      "record_hash": "4906e3be0b649c4e6252efaab2f91027760dfcac720b12a7487c571fb1619c61",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "fabricated_intervention_and_null_quotes"
+      ],
+      "acceptable": false,
+      "reason": "The raw output asserts an unestablished gene-editing intervention and supplies null quotes for every claim. The validator blocks all claims; mutation/testing background cannot establish that intervention. Current export adapters preserve limitations and canonical source metadata for validated claims; invalid/nonanswer records export no claim rows. No browser download was performed."
+    }
+  ]
+}

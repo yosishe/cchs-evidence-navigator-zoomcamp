@@ -1,0 +1,189 @@
+{
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "2aa7c2797b11598361c243066b49bd308b145d4159ab1bc2fb133de1879196e9",
+  "reviews": [
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present.",
+      "answer_id": "5a73308c-d8da-46b3-b7d3-453ce6a5511a",
+      "record_hash": "224e5996efe34202c176c70890e52aaab18c9b9147c19af544c555553c3511ed"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The abstract and methods give retrospective 22-patient data and 2000-2020. Additional diagnosis-age, sex and late-diagnosis/hypoxia sentences are verbatim and remain attributed to the original study, but they are unnecessary for this count/period question. The core requested facts are complete; verbosity and irrelevant background are retained as a presentation defect rather than fabricated-source support.",
+      "answer_id": "09d93268-fd02-4497-a567-094cbee6b66d",
+      "record_hash": "d946c6268bf1c256fd888b2ea3cb1e254a46777d5bc3ad6fabcab7e4d6a4fac9"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The selected Italian abstract states retrospective analysis and the separate methods sentence states electronic medical records. Both requested facts are present; the source-owned review/export preserves their original wording and identity.",
+      "answer_id": "4e910db8-c18e-4d0d-9b00-1a39a92731df",
+      "record_hash": "7ceebecce36d1f0306691b082622b93498edc009d5fc2e666c46917817be2548"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure.",
+      "answer_id": "1cb5f872-949d-4551-8d06-938e9c2681c7",
+      "record_hash": "457d3be58c971041d9f5e708c0086cc2c09370442b787296713b4420fa5baff5"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted.",
+      "answer_id": "55290658-8f95-4601-917a-ab116681ec43",
+      "record_hash": "8b735a17a8427320f7758c19982605682b7a341235b50e05024591865d8a9d34"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions.",
+      "answer_id": "f1f52609-5589-4fdf-8c47-65c9b3e580e7",
+      "record_hash": "32253b6b5ee3b75963fe6cf9e04b2f87431c23171ebd245758b118d3bc7df331"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "Italian retrospective-data and guideline published-evidence/clinical-expertise sentences are both present and separately attributed. The extra study overview, search and manuscript-review process make this verbose but do not replace the required contrast or invent pooled/causal findings.",
+      "answer_id": "d96ae6f4-aae5-41bd-b692-70c1c386be92",
+      "record_hash": "53de19f4c80c25a6d76773b318be4dfc9bb31f0f7e4d7e2c2eca02a40b118c93"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The Italian 19/22 (86%) finding is present. The second excerpt names review genotypes but not the requested 90% PARM estimate, which is absent from this fixed context. The small-cohort/different-evidence-base qualification is also not delivered. No complementary percentage is inferred; the partial answer still fails completeness.",
+      "answer_id": "1287b92e-c546-404d-86cd-2da89a07a5a5",
+      "record_hash": "441275f339e88578392096ad95956a9b90547f4667c0b0be9b421f8f65094908"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The selected guideline excerpt concerns ventilation modes at different times or ages. It does not address inconsistency of the repeat-length/continuous-ventilation relationship or exceptions. An authentic excerpt substitutes a different relationship for the requested qualification; this is the same critical relevance/context failure seen in the concise arm, not a quote-format success.",
+      "answer_id": "a873b40e-6c0f-4ec7-ad5f-6ad9971f1f07",
+      "record_hash": "ffc95856d28594642a4d13e344f9e76846d5bb2481405ecbc6ac5e00006aa017"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification.",
+      "answer_id": "9f935228-0b8a-43bb-a320-b7ad12bc666f",
+      "record_hash": "04b3bc589aa15b828edc6810c842b1bc458d7c62092c4185821a77c9229a0c54"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export.",
+      "answer_id": "4734940b-a4ef-432c-8d40-638cbdd88c74",
+      "record_hash": "9fae2162759066b6eada3d1bb5d91b2cf1088d49bb51a9bf517ff7c92e22d0c5"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The response correctly refuses to provide a transcriptomic accession not established by these passages. No accession, downloadable dataset metadata or unsupported premise is fabricated, and no claim/tag row is exported.",
+      "answer_id": "e9412def-e38c-4ddd-bf81-67fc8706a111",
+      "record_hash": "ad344c16e1ad5dd01b3d1fbfe0d1cd24e19d3488c191d4b37d8497fd86679b00"
+    }
+  ]
+}

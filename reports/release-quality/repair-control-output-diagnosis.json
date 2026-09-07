@@ -1,0 +1,98 @@
+{
+  "results_hash": "0bf3e8a80a763c84a3deda97d2c111cbbd97be74da6187f7437b1f68ac366b36",
+  "status": "DIAGNOSTIC_ONLY_NO_OUTPUT_REPAIR",
+  "rows": [
+    {
+      "question_id": "PAR-01",
+      "raw_hash": "5be86b77eb725d7816febe5198b8b3c176c63f77187e7fec692cbe5a9a2f5f3a",
+      "top_level": {
+        "missing": [],
+        "extra": []
+      },
+      "quotes": [
+        {
+          "claim_index": 1,
+          "outcome": "Quotation is absent or ambiguous within the specified passage"
+        },
+        {
+          "claim_index": 2,
+          "outcome": "Quotation is absent or ambiguous within the specified passage"
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-01",
+      "raw_hash": "c437a7679566b80d1716f54821fc773ba91dfee6d917a6062f3ef6d73bad9115",
+      "top_level": {
+        "missing": [],
+        "extra": []
+      },
+      "quotes": [
+        {
+          "claim_index": 1,
+          "outcome": "matches"
+        },
+        {
+          "claim_index": 2,
+          "outcome": "Quotation is absent or ambiguous within the specified passage"
+        },
+        {
+          "claim_index": 3,
+          "outcome": "matches"
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-02",
+      "raw_hash": "3e7532c66fc5e65ee49b22ca27307f662306827b924eae7b4bce32018729ce1f",
+      "top_level": {
+        "missing": [
+          "limitations"
+        ],
+        "extra": []
+      },
+      "quotes": [
+        {
+          "claim_index": 1,
+          "outcome": "matches"
+        },
+        {
+          "claim_index": 2,
+          "outcome": "matches"
+        },
+        {
+          "claim_index": 3,
+          "outcome": "matches"
+        },
+        {
+          "claim_index": 4,
+          "outcome": "matches"
+        }
+      ]
+    },
+    {
+      "question_id": "COM-01",
+      "raw_hash": "abd0edc42445277075266b323c2e91d389ffdef2a2f24762e18d12510bc696ef",
+      "top_level": {
+        "missing": [
+          "limitations"
+        ],
+        "extra": []
+      },
+      "quotes": [
+        {
+          "claim_index": 1,
+          "outcome": "Quotation is absent or ambiguous within the specified passage"
+        },
+        {
+          "claim_index": 2,
+          "outcome": "Quotation is absent or ambiguous within the specified passage"
+        },
+        {
+          "claim_index": 3,
+          "outcome": "matches"
+        }
+      ]
+    }
+  ]
+}

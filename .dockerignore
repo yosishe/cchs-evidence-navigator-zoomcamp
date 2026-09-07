@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+!.env.example
+.venv
+.cache
+__pycache__
+runtime
+# Keep transient browser QA databases out of the application image.
+reports/**/browser-runtime
+# Evaluation artifacts accompany a selected config so its inputs can be verified.

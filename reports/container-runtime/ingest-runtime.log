@@ -1,0 +1,19 @@
+ingest-1  | 2026-09-07T12:18:27.923102633Z {
+ingest-1  | 2026-09-07T12:18:27.923369175Z   "status": "EXECUTED",
+ingest-1  | 2026-09-07T12:18:27.923376800Z   "created_at": "2026-09-07T12:18:27.706376+00:00",
+ingest-1  | 2026-09-07T12:18:27.923379300Z   "engine": "dlt/duckdb",
+ingest-1  | 2026-09-07T12:18:27.923381258Z   "source_count": 3,
+ingest-1  | 2026-09-07T12:18:27.923383091Z   "chunk_count": 377,
+ingest-1  | 2026-09-07T12:18:27.923385091Z   "excluded_passage_count": 390,
+ingest-1  | 2026-09-07T12:18:27.923386925Z   "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+ingest-1  | 2026-09-07T12:18:27.923388966Z   "manifest_hash": "bb1cea58fcdddcb665702ad784befd55cc0c934f97b797f46bebbb7605313b46",
+ingest-1  | 2026-09-07T12:18:27.923390841Z   "documents_sha256": "b4ab1c1285763c4ad88ddb0bc6d052b129539f1fae5d1d218becf3a71da9a9ed",
+ingest-1  | 2026-09-07T12:18:27.923392716Z   "seconds": 5.648968794000211,
+ingest-1  | 2026-09-07T12:18:27.923394383Z   "load_ids": [
+ingest-1  | 2026-09-07T12:18:27.923396050Z     "1788783507.1092672"
+ingest-1  | 2026-09-07T12:18:27.923397841Z   ],
+ingest-1  | 2026-09-07T12:18:27.923399425Z   "config": {
+ingest-1  | 2026-09-07T12:18:27.923401091Z     "chunk_chars": 750,
+ingest-1  | 2026-09-07T12:18:27.923402800Z     "overlap_chars": 150
+ingest-1  | 2026-09-07T12:18:27.923404466Z   }
+ingest-1  | 2026-09-07T12:18:27.923406008Z }

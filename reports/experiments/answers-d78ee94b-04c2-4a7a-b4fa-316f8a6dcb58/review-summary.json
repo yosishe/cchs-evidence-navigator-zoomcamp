@@ -1,0 +1,499 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "637816278fffc76af56b7584e793944ad357daa8b6bd85c2b63fd4b9ac28df23",
+  "reviews_hash": "d82a810b210798f1b5ee1bc178e1ada5347721f137fa28b8d5672ec8f05f9b82",
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "numbered_evidence",
+      "evaluated_questions": 12,
+      "acceptable_answers": 2,
+      "acceptable_rate": 0.16666666666666666,
+      "supported_claims": 2,
+      "claim_denominator": 2,
+      "unsupported_claims": 0,
+      "mean_seconds": 22.7636873054192,
+      "errors": 9,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 14,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.125
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 0
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "numbered_evidence",
+      "slice": "absent",
+      "evaluated_questions": 2,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.5,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "numbered_evidence",
+      "slice": "comparison",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 4,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 1,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "numbered_evidence",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 4,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "numbered_evidence",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "numbered_evidence",
+      "slice": "limitations",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "numbered_evidence",
+      "slice": "paraphrase",
+      "evaluated_questions": 2,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.5,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.5
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "52b2e24c-c033-478b-a17b-d6b91eb07371",
+      "prompt": "numbered_evidence",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The supplied vector/5 context lacks Italian passage 17 with the two explicitly stated aims. The generic corpus-scoped refusal adds no false premise, but answers neither required fact.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The supplied vector/5 context lacks Italian passage 17 with the two explicitly stated aims. The generic corpus-scoped refusal adds no false premise, but answers neither required fact.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "f1d02d6f-045c-4319-bab4-d9c1e7b82acd",
+      "prompt": "numbered_evidence",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "DIR-02: inspected the raw and canonical output. JSONDecodeError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "DIR-02: inspected the raw and canonical output. JSONDecodeError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "3fcf29b7-cd05-4303-9b3b-4b23153875a4",
+      "prompt": "numbered_evidence",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Italian passage 68 explicitly describes retrospective design; passage 21 explicitly describes review of electronic medical records. The response states retrospective/nonrandomized collection and displays the EMR quotation, covering both facts across the visible response. The EMR fact appears in its quotation rather than a separate summary sentence, an explanatory weakness but not an absent visible fact. Limitations repeat the source retrospective/sample/heterogeneity qualifications. Comparison rows preserve both quotes and limitations; no scientific approval is implied.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Italian passage 68 explicitly describes retrospective design; passage 21 explicitly describes review of electronic medical records. The response states retrospective/nonrandomized collection and displays the EMR quotation, covering both facts across the visible response. The EMR fact appears in its quotation rather than a separate summary sentence, an explanatory weakness but not an absent visible fact. Limitations repeat the source retrospective/sample/heterogeneity qualifications. Comparison rows preserve both quotes and limitations; no scientific approval is implied.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-02",
+      "answer_id": "ce7b6196-7758-4fd8-8cd6-311bb841ffec",
+      "prompt": "numbered_evidence",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "PAR-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "PAR-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "ad916d3e-7442-451c-a075-f93329620c42",
+      "prompt": "numbered_evidence",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "EXA-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "EXA-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-02",
+      "answer_id": "2aebcabd-9b3a-4b76-85c3-cdcda2168ac9",
+      "prompt": "numbered_evidence",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "EXA-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "EXA-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "0a944723-4a52-4ee8-952c-85969c5091a1",
+      "prompt": "numbered_evidence",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "COM-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "COM-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-02",
+      "answer_id": "4a82f9df-8c77-49ec-83d9-c8b8965cace4",
+      "prompt": "numbered_evidence",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "COM-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "COM-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "7e6bc92f-b3aa-4ce7-95d9-6469e1c9b7c4",
+      "prompt": "numbered_evidence",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "LIM-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "LIM-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-02",
+      "answer_id": "da8babbc-6810-47fe-bfaa-ce2ca01e14dc",
+      "prompt": "numbered_evidence",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "LIM-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "LIM-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "b2f646c9-6639-425d-951e-1009e6600f1f",
+      "prompt": "numbered_evidence",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The actual supplied passages discuss genetic variants/testing and do not establish the proposed randomized gene-editing intervention. The refusal is scoped to those passages and does not assert that the intervention occurred. Empty claims/exports retain uncertainty.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The actual supplied passages discuss genetic variants/testing and do not establish the proposed randomized gene-editing intervention. The refusal is scoped to those passages and does not assert that the intervention occurred. Empty claims/exports retain uncertainty.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-02",
+      "answer_id": "46d0c947-c50f-4d19-b217-6f74ad61be0f",
+      "prompt": "numbered_evidence",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "ABS-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "ABS-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [
+    "numbered_evidence"
+  ],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "c0429c6d1f1f1c3819d4363c199ad5cb11a155209b301c3236d38ea80938f6fe",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

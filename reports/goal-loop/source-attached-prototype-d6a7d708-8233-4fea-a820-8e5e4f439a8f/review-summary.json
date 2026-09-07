@@ -1,0 +1,115 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "c6942d3a3c56698a7c3eb39c1a956be8cbb655565232e92f69640694e1148b1b",
+  "reviews_hash": "7678ac31c55d6d96e3dfb8f2fed2a7b780bcc1504a3ed64e0bb03aa5d2c8b8b3",
+  "reviewer": "Codex source-based provisional prototype review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "prototype_source_attached",
+      "evaluated_questions": 3,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.3333333333333333,
+      "supported_claims": 2,
+      "claim_denominator": 2,
+      "unsupported_claims": 0,
+      "mean_seconds": 9.405354999995325,
+      "errors": 0,
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0
+    },
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "d6f19d82-c77d-4786-b20f-91f2c885331a",
+      "prompt": "prototype_source_attached",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The two claims state 22 retrospectively collected CCHS patients and referral between 2000 and 2020. Both match Italian passage 19, whose full text is attached unchanged. The caveats about retrospective design, small sample and age heterogeneity match passage 68. Both required facts are covered without a wrong source or unsupported assertion.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The two claims state 22 retrospectively collected CCHS patients and referral between 2000 and 2020. Both match Italian passage 19, whose full text is attached unchanged. The caveats about retrospective design, small sample and age heterogeneity match passage 68. Both required facts are covered without a wrong source or unsupported assertion. Exact source-window attachment is application-owned, not model-selected quotation or proof of support. Adapter payloads retain canonical source and caveats; per-row quote-scope labeling and browser checks remain required before any application integration.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "7ea3b10b-d1fa-487a-b519-2b8a8560761c",
+      "prompt": "prototype_source_attached",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The output acknowledges retrospective design in limitations but returns insufficient_evidence with no answer claims and omits electronic medical record review. Italian passages 19/21/68 supply the requested design and records information. The caveats themselves are supported; this is an incomplete/unnecessary abstention, not fabricated evidence.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The output acknowledges retrospective design in limitations but returns insufficient_evidence with no answer claims and omits electronic medical record review. Italian passages 19/21/68 supply the requested design and records information. The caveats themselves are supported; this is an incomplete/unnecessary abstention, not fabricated evidence. Exact source-window attachment is application-owned, not model-selected quotation or proof of support. Adapter payloads retain canonical source and caveats; per-row quote-scope labeling and browser checks remain required before any application integration.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "83428744-a456-44ab-875f-0a996f9e9fa5",
+      "prompt": "prototype_source_attached",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The corpus gap is stated, but extra prose describes variability as due to mosaicism/environmental factors where Italian passage 56 only suggests they could influence expression. It also labels the Italian study as conducted in 2021, although that is the publication year rather than an established study period. This added prose is not safely supported.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The corpus gap is stated, but extra prose describes variability as due to mosaicism/environmental factors where Italian passage 56 only suggests they could influence expression. It also labels the Italian study as conducted in 2021, although that is the publication year rather than an established study period. This added prose is not safely supported. Exact source-window attachment is application-owned, not model-selected quotation or proof of support. Adapter payloads retain canonical source and caveats; per-row quote-scope labeling and browser checks remain required before any application integration.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "53625b10fedcafb4af31f4196c3a19b3afd0973be83f256ccb0b8e4b7f4b411f",
+  "whole_answer_reviewer": "Codex source-based provisional prototype review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

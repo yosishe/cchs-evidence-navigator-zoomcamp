@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED_AWAITING_REVIEW",
+  "created_at": "2026-09-06T14:19:24.850029+00:00",
+  "plan_hash": "752b77e38621e07e5630952bae71d0fc79d9e154d01e584c82e356b0c4c4bff3",
+  "context_report_hash": "8dbbe3ce24231a8827bb52bda91e423b3d2c8a5b29392c7f3574f4b1a1b4542d",
+  "model_calls": 8,
+  "runs": [
+    {
+      "id": "vector_10",
+      "path": "reports/experiments/answers-61c1c04b-6628-4313-8bdd-af0e0b15244a",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "result_hash": "a5953de93c1c1ba08d5735775b74a47cbb9348cea3cbdaaab21c9bd0191cbc36",
+      "model_calls": 4,
+      "postflight_status": "RUNTIME_METADATA_READY",
+      "loaded_context_tokens_after_arm": 4096
+    },
+    {
+      "id": "hybrid_title0_rrf1_10",
+      "path": "reports/experiments/answers-f88d7be4-47e4-4a00-9e84-16f4a8c0eadd",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "result_hash": "61dfa8dc43b8ee69acdbb3bcf8be0cafecaba00ab5ef17cc8d6574009878cfe7",
+      "model_calls": 4,
+      "postflight_status": "RUNTIME_METADATA_READY",
+      "loaded_context_tokens_after_arm": 4096
+    }
+  ],
+  "runtime_promoted": false,
+  "official_points": null,
+  "active_candidate": "hybrid_title0_rrf1_10",
+  "completed_at": "2026-09-06T14:21:40.073437+00:00"
+}

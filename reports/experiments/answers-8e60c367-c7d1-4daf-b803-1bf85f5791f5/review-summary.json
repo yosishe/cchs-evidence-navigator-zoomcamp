@@ -1,0 +1,506 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "6fe7c6f3bcbabc9736d7dd650f1e79b37bead5231b98b4ff58883eec15c8600e",
+  "reviews_hash": "5d02ebcd0ebadfd9cbb421b1e565b98e1f08dc7501f15fd634def9bb53a760c2",
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "numbered_precise",
+      "evaluated_questions": 12,
+      "acceptable_answers": 4,
+      "acceptable_rate": 0.3333333333333333,
+      "supported_claims": 7,
+      "claim_denominator": 7,
+      "unsupported_claims": 0,
+      "mean_seconds": 90.03702270816575,
+      "errors": 4,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 4,
+            "partial": 0,
+            "missing": 12,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.25
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 0
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "numbered_precise",
+      "slice": "absent",
+      "evaluated_questions": 2,
+      "acceptable_answers": 2,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "numbered_precise",
+      "slice": "comparison",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 1,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.25
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 1,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "numbered_precise",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.5,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.5
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "numbered_precise",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 2,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.5,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 1,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.5
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "numbered_precise",
+      "slice": "limitations",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "numbered_precise",
+      "slice": "paraphrase",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 4,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "e73bcd27-ab02-4404-8998-9acf0845e5af",
+      "prompt": "numbered_precise",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Both intended aims and original quotes are correct, but the limitations key is missing. The strict unchanged contract rejects the entire output. Correct text hidden behind a validation error is not delivered completeness.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Both intended aims and original quotes are correct, but the limitations key is missing. The strict unchanged contract rejects the entire output. Correct text hidden behind a validation error is not delivered completeness.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "d0ebbeb0-22c6-46ec-9fe6-0f2fd6fe76e9",
+      "prompt": "numbered_precise",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Italian abstract passage 2 directly supports the retrospective 22-patient cohort and 2000-2020 period. The answer explicitly supplies both requested parts and exports retain the exact quotation.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Italian abstract passage 2 directly supports the retrospective 22-patient cohort and 2000-2020 period. The answer explicitly supplies both requested parts and exports retain the exact quotation.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "25fe25c1-e097-4250-a648-841bcb23753f",
+      "prompt": "numbered_precise",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Retrospective and EMR evidence are both available. The first quote inserts ellipses and the second replaces continuation with a full stop. Whole-output validation rejects them; facts are not delivered.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Retrospective and EMR evidence are both available. The first quote inserts ellipses and the second replaces continuation with a full stop. Whole-output validation rejects them; facts are not delivered.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-02",
+      "answer_id": "67e8852e-17d8-472f-a063-64b6ad0e1fac",
+      "prompt": "numbered_precise",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The needed low-grade/descriptive and blended-clinical-experience paragraph is absent from the retrieved context. Generic context-scoped refusal is defensible, but the frozen answerable task remains incomplete.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The needed low-grade/descriptive and blended-clinical-experience paragraph is absent from the retrieved context. Generic context-scoped refusal is defensible, but the frozen answerable task remains incomplete.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "4a415bdc-016f-4231-aed1-4710d0f7dd41",
+      "prompt": "numbered_precise",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The location quote is exact, but the alleged exon quote is a rewritten fragment. Full answer rejected; the correct intended chromosome/exon statements do not count as a delivered answer.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The location quote is exact, but the alleged exon quote is a rewritten fragment. Full answer rejected; the correct intended chromosome/exon statements do not count as a delivered answer.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-02",
+      "answer_id": "7f0af64e-1bc4-4577-8edf-9224b1239408",
+      "prompt": "numbered_precise",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The correct Italian identifiers 20/25, 20/26 and 20/27 and 19/22 (86%) are supported by passage 32. The second claim is redundant but not false; both quote the correct source. No added caveat or approved scientific status is exported.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The correct Italian identifiers 20/25, 20/26 and 20/27 and 19/22 (86%) are supported by passage 32. The second claim is redundant but not false; both quote the correct source. No added caveat or approved scientific status is exported.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "de3ad4e3-235e-4af0-81fb-8d653aeb2c67",
+      "prompt": "numbered_precise",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The answer intends a retrospective-versus-published-evidence/clinical-expertise comparison, but one quote splices text with a nonliteral ellipsis. Entire output rejected. Both reference sources were actually available, so generation/copying is the failure boundary.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The answer intends a retrospective-versus-published-evidence/clinical-expertise comparison, but one quote splices text with a nonliteral ellipsis. Entire output rejected. Both reference sources were actually available, so generation/copying is the failure boundary.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-02",
+      "answer_id": "c1031181-fed8-4c47-86ba-7e40a7e5e666",
+      "prompt": "numbered_precise",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The Italian 86%/14%, review NPARM 10% and review repeat-genotype range are supported exactly. Unlike the pilot, no inverted arithmetic or invented population claim is added. The requested review PARM 90% and evidence-base/small-cohort qualification remain absent. A supported partial answer still fails completeness.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The Italian 86%/14%, review NPARM 10% and review repeat-genotype range are supported exactly. Unlike the pilot, no inverted arithmetic or invented population claim is added. The requested review PARM 90% and evidence-base/small-cohort qualification remain absent. A supported partial answer still fails completeness.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "7574dca6-bae7-4a76-82e7-950e0f60e0f5",
+      "prompt": "numbered_precise",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": true,
+      "reason": "The required repeat-length association/exception passage is absent. The generic refusal does not substitute amplification technique as a relationship qualification, removing the control arm critical error, but no complete answer is provided.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The required repeat-length association/exception passage is absent. The generic refusal does not substitute amplification technique as a relationship qualification, removing the control arm critical error, but no complete answer is provided.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-02",
+      "answer_id": "f3480651-c53e-459f-8a68-994c4fea0ddd",
+      "prompt": "numbered_precise",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "Retrospective design and population heterogeneity are available in Italian passage 68. Generic refusal avoids unsupported universal causal claims but misses the narrow answer and qualification, so the answerable task fails.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Retrospective design and population heterogeneity are available in Italian passage 68. Generic refusal avoids unsupported universal causal claims but misses the narrow answer and qualification, so the answerable task fails.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "1dcea760-a332-404c-b652-8e5814fc697d",
+      "prompt": "numbered_precise",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-02",
+      "answer_id": "e761dcdb-34a7-45f8-999d-5292180aacd1",
+      "prompt": "numbered_precise",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [
+    "numbered_precise"
+  ],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "26b4b2747766f13250fb8989becc9455e59ff0a0b33ecf6b6e8e5724581a73dc",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

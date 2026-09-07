@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-07T00:42:13.992005+00:00",
+  "status": "NATIVE_CANDIDATE_FULL_BROWSER_FLOW_VERIFIED",
+  "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7",
+  "config_id": "34eb0046447ecbd8207ae014c3dde940916e660dccea8cc9f979c09593dc539f",
+  "answer_id": "e4df1784-2b2a-4fef-97af-63c7c6806346",
+  "question_id": "EXA-01",
+  "mode": "llm",
+  "traffic_origin": "qa",
+  "actual_generation_attempts": 1,
+  "answer_style": "verbatim_source_selection",
+  "assertions": {
+    "local_model_call": true,
+    "both_requested_facts_in_original_review_excerpt": true,
+    "source_expanded_in_browser": true,
+    "downloaded_json_matches_record": true,
+    "three_downloaded_csvs_match_exact_expected_bytes": true,
+    "claim_count": 1,
+    "tag_proposal_count": 1,
+    "tag_registry_action": "NONE",
+    "feedback_id": "e4df1784-2b2a-4fef-97af-63c7c6806346:user",
+    "feedback_origin": "qa",
+    "jsonl_record_matches_download": true,
+    "all_six_charts_have_observed_data": true,
+    "qa_llm_filter_request_count": 1,
+    "qa_llm_feedback_coverage": "1/1",
+    "input_tokens": 2259,
+    "output_tokens": 18,
+    "generation_validation_seconds": 34.95975679100957
+  },
+  "screenshots": [
+    "docs/screenshots/qa-llm-answer.png",
+    "docs/screenshots/qa-llm-source.png",
+    "docs/screenshots/qa-llm-exports.png",
+    "docs/screenshots/qa-llm-monitoring-top.png",
+    "docs/screenshots/qa-llm-monitoring-tokens.png"
+  ],
+  "not_established": [
+    "selected-release default",
+    "broad answer quality",
+    "independent biomedical review",
+    "PostgreSQL persistence",
+    "Compose execution",
+    "public-commit reproducibility"
+  ],
+  "quality_review": "The original 2022 review excerpt explicitly reports chromosome 4p12 and three exons (plus its stated amino-acid count). Both requested facts are covered and the single literal PHOX2B proposal stays pending. This is a same-assistant QA observation, separate from experiment scores."
+}

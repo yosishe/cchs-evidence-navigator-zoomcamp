@@ -1,0 +1,57 @@
+{
+  "status": "IMPLEMENTED_TESTED_RUNTIME_BLOCKED",
+  "test_count": 79,
+  "passed_count": 79,
+  "skipped_count": 0,
+  "runtime_code_id": "f5538a06ce528f51b2d8c09365cb9a30f06ba0a5fb7c567f9adabc2839f7b775",
+  "active_config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "changed_existing_files": [
+    "docs/review-remediation-v2.md",
+    "navigator/experiments.py",
+    "navigator/providers.py",
+    ".dockerignore",
+    "README.md",
+    "app.py",
+    "docs/architecture.md",
+    "docs/decisions.md",
+    "docs/evaluation.md",
+    "docs/execution-report.md",
+    "docs/readiness.md",
+    "navigator/__main__.py",
+    "navigator/common.py",
+    "navigator/evaluation.py",
+    "navigator/rag.py",
+    "reports/checks.json"
+  ],
+  "new_files": [
+    "tests/test_core_completion.py"
+  ],
+  "protected_files_checked": 14,
+  "protected_files_changed": [],
+  "local_document_links_checked": 49,
+  "broken_links": [],
+  "model_preflight_status": "BLOCKED_MODEL_PREFLIGHT",
+  "model_preflight_exit_code": 1,
+  "actual_generation_requests": 0,
+  "new_core_points_established": 0,
+  "gates": {
+    "R02": "PENDING_REAL_MODEL_FLOW",
+    "R04": "PENDING_REAL_ANSWERS_REVIEWS_AND_SELECTION",
+    "R09": "PENDING_COMPLETE_REPRODUCTION"
+  },
+  "remaining_authorization": "Owner-required installation approval for Phi3, Gemma 2B, Docker and isolated PostgreSQL rehearsal is pending.",
+  "not_performed": [
+    "model download",
+    "dependency installation",
+    "paid API",
+    "real model generation",
+    "held-out generation test",
+    "Docker/PostgreSQL rehearsal",
+    "commit",
+    "push",
+    "publication",
+    "submission"
+  ],
+  "validation_scope": "79 software tests include mocked SDK responses and real ingestion/retrieval/AppTest; they are not model-quality or browser/Compose proof."
+}

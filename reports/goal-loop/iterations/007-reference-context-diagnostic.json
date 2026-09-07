@@ -1,0 +1,68 @@
+{
+  "created_at": "2026-09-06T11:16:53.249135+00:00",
+  "status": "DIAGNOSTIC_COMPLETE",
+  "decision": "REVISE_GENERATION_PATH",
+  "official_points": null,
+  "candidate_code_id": "bcd58001c8c6cc83feee0ec80f39d2c1cd9d2a8f4f3bef50ab00771d6ba3784e",
+  "original_code_id": "e1aea8768c14293f727fad43704cedc40016a9d47f8bdc7f731e26160090171e",
+  "original_results_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json",
+  "original_results_hash": "218462df7866e90312af3c959238d93ad789c0ee7d0f70ff374ef0513e53a0a2",
+  "config_id": "1d5cca9f0696568667564dbcfcb539154176a821d6dac05ad92c3b448832f5bb",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "model": "phi3",
+  "model_digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+  "changed_dimension": "Known reference passages replace normal top-five context, only for diagnosis. Prompts, model, schema, token budget and review criteria remain unchanged.",
+  "course_source": "04-evaluation separates retrieval and final-answer evaluation; exact-reference-context injection is a project diagnostic adaptation, never an application retrieval algorithm.",
+  "question_ids": [
+    "DIR-02",
+    "PAR-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "schema_first"
+  ],
+  "planned_calls": 4,
+  "attempted_calls": 4,
+  "hypothesis": "If complete answers appear with only the exact supporting passages, distractor/context handling is implicated. If they still fail, improve generation/output handling rather than blaming reference ranking.",
+  "acceptance": "Read all four raw outputs against their actual reference passages and frozen facts. Diagnosis may change the next engineering action but cannot select a winner or earn retrieval/heldout-quality credit.",
+  "accounting_fix": "Diagnostic now retains all completed invalid outputs instead of stopping at the first one; actual infrastructure errors still stop. All attempts are counted. Prompt and model behavior were not changed by this bookkeeping correction.",
+  "heldout_exposure": "Development diagnostic only; selected evidence contains reference IDs by design, so it is oracle-context evidence and never a blind test.",
+  "next_action": "Test plain-text context serialization, preserving all source fields and the unchanged answer contract. Do not count this oracle-context diagnostic as retrieval or full-development quality evidence.",
+  "raw_results_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-diagnostic-93e45fbc-e3b5-44be-a49d-4b544cf88a35.json",
+  "review_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-primary-review.json",
+  "whole_answer_review_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-whole-answer-review.json",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 7.185630812498857,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "schema_first",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 7.040072499999951,
+      "errors": 1,
+      "critical_failure_answers": 2
+    }
+  ],
+  "finding": "Neither prompt produces a complete supported answer even with only known supporting passages. Retrieval noise alone cannot explain these failures; temporal interpretation, reading the second source passage and citation-format following remain problematic.",
+  "configuration_promoted": false,
+  "validation": {
+    "tests": 108,
+    "skipped": 0,
+    "completed_calls": 4,
+    "exit_code": 0
+  }
+}

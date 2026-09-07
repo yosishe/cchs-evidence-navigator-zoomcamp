@@ -1,0 +1,80 @@
+{
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "ec9dcd8ed00568410690e3f2c12aba46ca2a27794e9660b719b7868bf8e9929b",
+  "reviews": [
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "Both original aims are explicitly stated and attributed through the correct Italian passage 17. Two identical claims are redundant and preserve source first-person wording, but introduce no new assertion and cover both required facts. Source-pointer offsets and exports retain the original sentence.",
+      "answer_id": "fd69e09b-d342-49da-a213-429fee800137",
+      "record_hash": "79ac4dfb7fe06f623f6610cefc9133de70c75b97284119e681206dd042a3615c"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The first claim paraphrases retrospective analysis from Italian abstract passage 2 as looking back; the second explicitly identifies the electronic medical record from passage 21. Both supplied quotes support the claims, including the equivalent unlisted abstract evidence discussed in the annotation audit.",
+      "answer_id": "192bf08f-44b8-4ff7-a88d-f07d80199bc6",
+      "record_hash": "3c8a17616fb41a01ab37359296feee7acb005049eb6b9fde09fe83c34d4bc9b5"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "unsupported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The Italian claim gives retrospective design, 22 patients and 2000-2020 but points to passage 54, which states clinical/genetic findings and changing management, not those facts. Correct facts elsewhere in the context cannot repair this false citation link. The two guideline claims accurately cite passages 12 and 13. The requested contrast is therefore not fully supported.",
+      "answer_id": "76ab2052-1626-44c7-962c-050ea8d0376a",
+      "record_hash": "5559fb434f28028ecb626a4592ceb56d3f9dd83a720cdc106cd0d7846a61eeb2"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The generic refusal is incomplete: supplied Italian passage 68 explicitly states retrospective design and population heterogeneity. It avoids a universal causal rule but misses the narrow design answer and required qualification.",
+      "answer_id": "57d65ebe-3371-49d0-b869-3c2c26d45257",
+      "record_hash": "5ef21025a0df924e5afd16d553af42648ebd105022a46eec741ac24ae1e448c6"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "Context-scoped abstention adds no gene-editing premise, trial result, external absence claim or tag. No canonical claims exist to export.",
+      "answer_id": "7ad29b62-2958-4be6-86b1-c544e576d220",
+      "record_hash": "5d11fd3b9dffdb28390b87d6b98eac0269ca13e0673404a9fd664ac46ee6de00"
+    }
+  ]
+}

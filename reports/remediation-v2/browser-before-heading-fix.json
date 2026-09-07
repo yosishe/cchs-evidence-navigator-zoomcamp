@@ -1,0 +1,13 @@
+{
+  "status": "PREVIEW_DOWNLOAD_VERIFIED_RETRIEVAL_DEFECT_FOUND",
+  "answer_id": "68c222a3-3ad0-4473-b7e9-d1780b80a29c",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "bb09105e6fd183e8c1d1ab1aa2d281484ae75457fc109fa00be9a7fc48aa6237",
+  "download_sha256": "e610f2c76893fda1be56cbb70383c376931b867ca87f722f8339830922465e2e",
+  "download_rows": 5,
+  "source_fields_and_exact_text_match": true,
+  "calls": [],
+  "feedback_records": 1,
+  "finding": "Standalone headings occupied candidate slots; limitation passage absent. Follow-up refinement is separately recorded.",
+  "scope": "Actual browser preview download, JSONL storage and QA feedback. No live model answer."
+}

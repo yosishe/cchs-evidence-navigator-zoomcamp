@@ -1,0 +1,46 @@
+{
+  "reviewer": "Codex source-based provisional prototype review",
+  "reviewer_kind": "assistant",
+  "results_hash": "c6942d3a3c56698a7c3eb39c1a956be8cbb655565232e92f69640694e1148b1b",
+  "reviews": [
+    {
+      "answer_id": "d6f19d82-c77d-4786-b20f-91f2c885331a",
+      "record_hash": "c720088e6f6b6377c71805b3bf0c1f8ad89e1ed7e762f6bc11f08b7b4d15e9c2",
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "The two claims state 22 retrospectively collected CCHS patients and referral between 2000 and 2020. Both match Italian passage 19, whose full text is attached unchanged. The caveats about retrospective design, small sample and age heterogeneity match passage 68. Both required facts are covered without a wrong source or unsupported assertion."
+    },
+    {
+      "answer_id": "7ea3b10b-d1fa-487a-b519-2b8a8560761c",
+      "record_hash": "5de6813043513d51f9b729e58fae3d541ae0cdedbf66521c5597a72492d3232f",
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The output acknowledges retrospective design in limitations but returns insufficient_evidence with no answer claims and omits electronic medical record review. Italian passages 19/21/68 supply the requested design and records information. The caveats themselves are supported; this is an incomplete/unnecessary abstention, not fabricated evidence."
+    },
+    {
+      "answer_id": "83428744-a456-44ab-875f-0a996f9e9fa5",
+      "record_hash": "e4af75118a32423f1c44185f7be35a1d4deed78d5c65b4083f9a0c74cb51c2c1",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The corpus gap is stated, but extra prose describes variability as due to mosaicism/environmental factors where Italian passage 56 only suggests they could influence expression. It also labels the Italian study as conducted in 2021, although that is the publication year rather than an established study period. This added prose is not safely supported."
+    }
+  ]
+}

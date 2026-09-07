@@ -1,0 +1,9 @@
+{
+  "id": "e4df1784-2b2a-4fef-97af-63c7c6806346:user",
+  "answer_id": "e4df1784-2b2a-4fef-97af-63c7c6806346",
+  "score": 1,
+  "comment": "QA browser test: the excerpt answers the stated review location/exon question; verifies source, downloaded exports and feedback linkage. Not independent researcher validation.",
+  "timestamp": "2026-09-07T00:38:51.615443+00:00",
+  "source": "qa",
+  "traffic_origin": "qa"
+}

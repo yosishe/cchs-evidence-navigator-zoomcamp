@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "before_at": "2026-09-07T13:16:57.099565+00:00",
+  "after_at": "2026-09-07T13:18:18.549823+00:00",
+  "before_sha256": "2a9a0e008cefd39c2e9f83d63cbc0dd84d435f93bda59e0dd67fefd602a67fe7",
+  "after_sha256": "2a9a0e008cefd39c2e9f83d63cbc0dd84d435f93bda59e0dd67fefd602a67fe7",
+  "answers_retained": [
+    "055067d5-10c1-4b6f-b6d4-41308b11b6f6",
+    "08748cb5-2bbd-4a2b-a95e-fd8dfda03347"
+  ],
+  "feedback_retained": [
+    "055067d5-10c1-4b6f-b6d4-41308b11b6f6:user",
+    "08748cb5-2bbd-4a2b-a95e-fd8dfda03347:user"
+  ],
+  "method": "Full SQL JSON payload equality before and after docker compose restart db ollama app; no volume removal."
+}

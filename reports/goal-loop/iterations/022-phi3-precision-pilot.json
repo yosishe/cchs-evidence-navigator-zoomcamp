@@ -1,0 +1,221 @@
+{
+  "status": "AWAITING_OWNER_DOWNLOAD_APPROVAL",
+  "split": "tuning",
+  "runtime_code_id": "aec7fed7035ba48093c0f17f865e5be36a34f2c4c3247d61473da8face2f7f05",
+  "questions": [
+    {
+      "schema_version": 2,
+      "id": "DIR-02",
+      "slice": "direct",
+      "group_id": "DIR-02",
+      "split": "tuning",
+      "question": "How many patients were included in the Italian retrospective cohort and during what period?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "Data of 22 patients affected by CCHS has been collected retrospectively.",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "between 2000 and 2020",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "22 patients, retrospectively.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Follow-up period 2000–2020.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-01",
+      "slice": "paraphrase",
+      "group_id": "PAR-01",
+      "split": "tuning",
+      "question": "Was the Italian analysis based on a randomized experiment or on looking back at patient records?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "collected retrospectively",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "quote": "review of the electronic medical record",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 21,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "A retrospective analysis.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Used electronic medical records.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-01",
+      "slice": "absent",
+      "group_id": "ABS-01",
+      "split": "tuning",
+      "question": "What measured results does the 2021 Italian study report from a randomized PHOX2B gene-editing intervention?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    }
+  ],
+  "questions_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "config": {
+    "retrieval": "vector",
+    "top_k": 5,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 2.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "phi3:3.8b-mini-128k-instruct-q8_0",
+    "prompt": "evidence_first",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 120,
+    "rewrite_enabled": false,
+    "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+    "question_bank": "data/evaluation/questions-v2.json",
+    "model_digest": "adc0589ce82eb5929896d7100a8f3a2a694a1251332d37f32b1cd5c72282f5a5"
+  },
+  "config_id": "69111e3d7f13f609783dc12a7c2e2d242eeca781b3c666461297e41bf4750d48",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "prompts": [
+    "evidence_first",
+    "schema_first"
+  ],
+  "covered_slices": [
+    "absent",
+    "direct",
+    "paraphrase"
+  ],
+  "maximum_generation_requests": 6,
+  "maximum_rewrite_requests": 0,
+  "maximum_provider_requests": 6,
+  "maximum_output_tokens": 5400,
+  "quality_review": "Per-question relevance, every-claim support and abstention review are required; no quality scores from JSON validity.",
+  "created_at": "2026-09-06T13:30:01.012659+00:00",
+  "iteration_id": "022",
+  "decision": "NOT_EXECUTED",
+  "official_points": null,
+  "attempted_calls": 0,
+  "scope": "Prepared six-call application-path pilot, not a downloaded or executed model. No app configuration change.",
+  "hypothesis": "Higher weight precision may improve adherence, copying and source discrimination on the same taught Phi3 Mini family. No evidence yet attributes failures to quantization; this is a controlled candidate comparison, not an expected quality award.",
+  "course_provenance": {
+    "local_call": "2024/02-open-source/qa_faq.py (Phi3 and Ollama Chat Completions)",
+    "quantization_principle": "2024/02-open-source/huggingface-mistral-7b.ipynb, physical cell 10 (load_in_4bit=True)",
+    "adaptation": "Apply the taught precision/resource trade-off to the same Phi3 Mini via an exact published Q8 tag. The lecturer did not demonstrate this exact Q8 tag or promise improved biomedical answers. No new framework, provider, model family or paid service."
+  },
+  "registry_metadata": "reports/goal-loop/phi3-precision-registry-metadata.json",
+  "required_download": {
+    "tag": "phi3:3.8b-mini-128k-instruct-q8_0",
+    "expected_manifest_digest": "adc0589ce82eb5929896d7100a8f3a2a694a1251332d37f32b1cd5c72282f5a5",
+    "model_layer_bytes": 4061222368,
+    "display_size": "about 4.1 GB additional model storage; runtime memory and small metadata are separate",
+    "command_after_approval": [
+      "ollama",
+      "pull",
+      "phi3:3.8b-mini-128k-instruct-q8_0"
+    ],
+    "preserve_existing_models": true,
+    "dependency_installs": []
+  },
+  "preconditions": [
+    "Explicit owner approval for this model download; existing approval is absent",
+    "Read installed model digest and require the declared registry digest",
+    "Compare both installed templates, stop parameters, architecture and context allocation; metadata catalog descriptions alone do not establish equivalent serving settings",
+    "If serving metadata differs materially, stop before claiming an isolated precision effect; do not change server settings without authorization",
+    "Use the same question/corpus/input context and no final-set inference",
+    "Before generation, confirm recreated evidence_first and schema_first request messages and retrieved source windows match their saved Q4 baseline counterparts; any mismatch invalidates a precision-only comparison."
+  ],
+  "controls": "Unchanged vector retrieval, original production answer validator, 900 output tokens, temperature 0, JSON mode and the two existing implemented prompts evidence_first/schema_first. Both Q4 baseline arms are present for all three questions in the saved six-call baseline. Do not reroll those failures. Record current code-version differences, exact message equality and source context identity. Source-attachment/workflow candidates are not bundled into this test.",
+  "acceptance": "Preserve and review all six planned answers, their exact source citations, every required fact/qualification and all visible prose/exports. A viable arm must answer both answerable cases completely and correctly abstain on the absent-evidence case, with no critical failures. A pilot pass only justifies wider development evaluation; no default promotion, core-ready claim or final test.",
+  "alternatives_rejected": [
+    "More instructions after 018 and 020 regressions",
+    "Five calls per question after 021 fails assembled answers",
+    "FLAN-T5 XL currently requires unavailable weights and additional compatibility work",
+    "Mistral-7B base model and historical CUDA quantization path require a broader compatibility experiment",
+    "Using installed but untaught Gemma 3 12B"
+  ],
+  "tradeoffs": [
+    "Additional 4.1 GB model download/storage and potentially higher memory/latency",
+    "Same model capacity may retain all reasoning limitations; higher numerical precision is no assurance of improvement",
+    "No extra framework or dependency installation for this candidate"
+  ],
+  "next_action": "Await model-download approval while continuing independent repository work. After approval, download only this exact tag, validate metadata and execute the prepared six-call pilot once. Docker approval remains a separate pending prerequisite for clean reproduction.",
+  "source_baseline_results": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json",
+  "source_baseline_hash": "218462df7866e90312af3c959238d93ad789c0ee7d0f70ff374ef0513e53a0a2"
+}

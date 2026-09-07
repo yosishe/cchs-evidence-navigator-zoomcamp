@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-09-06T01:22:02.042088+00:00",
+  "status": "PASS_LOCAL_CHECKS_EXTERNAL_GATES_PENDING",
+  "runtime_code_id": "99a5e5c4ba1fca9e8b10225cdf3a26f51718e4132043313af23fe47727e0242e",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "source_and_config_files_verified_unchanged": 13,
+  "protected_files": [
+    "configs/app.json",
+    "data/.DS_Store",
+    "data/README.md",
+    "data/evaluation/questions-v2.json",
+    "data/evaluation/questions.json",
+    "data/manifest.json",
+    "data/raw/PMC7503443.json",
+    "data/raw/PMC8039127.json",
+    "data/raw/PMC8963195.json",
+    "pyproject.toml",
+    "requirements-vectors.lock",
+    "requirements.lock",
+    "uv.lock"
+  ],
+  "changed_protected_files": [],
+  "local_link_count": 2142,
+  "broken_links": [],
+  "decision_ids_verified": true,
+  "test_count": 86,
+  "passed_count": 86,
+  "skipped_count": 0,
+  "compose_validation": "Parsed YAML and asserted service ordering/offline cache sharing only; Docker not installed or executed.",
+  "heading_ablation": {
+    "status": "EXECUTED_PROVISIONAL_LABELS",
+    "variants": 6,
+    "searches": 252,
+    "test_evaluated": false,
+    "runtime_promoted": false
+  },
+  "encoder_setup": {
+    "empty_cache": "BLOCKED_ENCODER_SETUP",
+    "existing_cache": "ENCODER_READY"
+  },
+  "new_generation_calls": 0,
+  "downloads_or_installations": false,
+  "database_migrations": false,
+  "publication_commit_push_submission": false,
+  "remaining_gates": [
+    "approved course-model setup",
+    "real paired generation and review",
+    "selected-only final evaluation",
+    "actual generated-answer browser walkthrough",
+    "clean Compose/PostgreSQL persistence rehearsal"
+  ],
+  "artifact_hashes": {
+    "heading-ablation.json": "95a5dd0099c7f8b3e492af97d8db410d054b4f01f6392573cf6a067d5857fced",
+    "review-response.en.md": "83769c06547325872ec147b372604bc80059c959cd8aedca86d9b22b4a87351f",
+    "checks.json": "9bdfbf4ee86151baf2366c0a3d9238c8625d9048fdb45d400328ca24cf2cb391"
+  },
+  "head_unchanged": true,
+  "attachment_hash_unchanged": true
+}

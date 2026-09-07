@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-07T18:12:00.636509+00:00",
+  "checks": [
+    {
+      "command": [
+        "git",
+        "rev-parse",
+        "--show-toplevel"
+      ],
+      "exit_code": 0,
+      "result": {
+        "verified_target": true
+      }
+    },
+    {
+      "command": [
+        "git",
+        "status",
+        "--porcelain"
+      ],
+      "exit_code": 0,
+      "result": "?? .dockerignore\n?? .env.example\n?? .gitignore\n?? Dockerfile\n?? README.md\n?? app.py\n?? compose.yaml\n?? configs/\n?? data/\n?? docs/\n?? navigator/\n?? pyproject.toml\n?? reports/\n?? requirements-container-amd64.lock\n?? requirements-container-arm64.lock\n?? requirements-vectors.lock\n?? requirements.lock\n?? tests/\n?? tools/\n?? uv.lock\n"
+    },
+    {
+      "command": [
+        "gh",
+        "api",
+        "user",
+        "--jq",
+        ".login"
+      ],
+      "exit_code": 0,
+      "result": "yosishe\n"
+    },
+    {
+      "command": [
+        "gh",
+        "repo",
+        "view",
+        "yosishe/cchs-evidence-navigator-zoomcamp",
+        "--json",
+        "nameWithOwner,visibility"
+      ],
+      "exit_code": 1,
+      "result": "GraphQL: Could not resolve to a Repository with the name 'yosishe/cchs-evidence-navigator-zoomcamp'. (repository)\n"
+    },
+    {
+      "command": [
+        "docker",
+        "info",
+        "--format",
+        "{{json .}}"
+      ],
+      "exit_code": 0,
+      "result": {
+        "ServerVersion": "29.7.2",
+        "NCPU": 6,
+        "MemTotal": 10417176576,
+        "Architecture": "aarch64",
+        "OperatingSystem": "Docker Desktop",
+        "DockerRootDir": "/var/lib/docker"
+      }
+    },
+    {
+      "command": [
+        "docker",
+        "compose",
+        "ls",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "result": [
+        {
+          "Name": "cchs-zoomcamp-rehearsal",
+          "Status": "running(3)"
+        }
+      ]
+    }
+  ],
+  "disk_free_bytes": 6603808768,
+  "installations": 0,
+  "downloads": 0,
+  "docker_mutations": 0,
+  "native_demo_port": 8601,
+  "optional_rewrite_cutoff_jerusalem": "2026-09-07T23:20:00+03:00"
+}

@@ -1,0 +1,408 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "094935df0549229f0b2dfaf17c1b48ee929c17003e3d870a99c9e0cd88d7cfb5",
+  "reviews_hash": "2ed116a8921633c2a19750e3bcd969fdddbe62bd0e7031db94976cdb64fa468e",
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 22.4663772738547,
+      "errors": 3,
+      "critical_failure_answers": 4
+    },
+    {
+      "prompt": "coverage_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 31.97695857142805,
+      "errors": 5,
+      "critical_failure_answers": 3
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "61f5e78a-a436-4c24-b9d8-86643b421bb0",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The exact aims passage 17 is not retrieved. The response does not give either required aim; passages 54 and 2 describe the study, but the requested explicit aims are not quoted. Safe corpus-bounded abstention is still an answerable end-to-end failure.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The exact aims passage 17 is not retrieved. The response does not give either required aim; passages 54 and 2 describe the study, but the requested explicit aims are not quoted. Safe corpus-bounded abstention is still an answerable end-to-end failure. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-01",
+      "answer_id": "4b01097f-5b7c-4d32-86fb-eda7651436a3",
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Raw JSON omits claims entirely and discusses study limitations instead of aims. Validation blocks it; displayed application error is accurate and exports contain no claims.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Raw JSON omits claims entirely and discusses study limitations instead of aims. Validation blocks it; displayed application error is accurate and exports contain no claims. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "924c5d28-4eb2-4865-b4cd-114726072022",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Claim and exact quotation match Italian passage 19 and cover 22 retrospectively collected patients. The requested 2000–2020 period is absent from every displayed field although it is in that same passage. Limitations are supported by passage 68; electronic records/IRB are in passage 21. The complete-answer requirement fails.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Claim and exact quotation match Italian passage 19 and cover 22 retrospectively collected patients. The requested 2000–2020 period is absent from every displayed field although it is in that same passage. Limitations are supported by passage 68; electronic records/IRB are in passage 21. The complete-answer requirement fails. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "bc425d44-5143-409e-b9a0-59c9c1684613",
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Claim matches passage 19 but still omits 2000–2020. Passage 68 describes heterogeneity and different prior care settings, not a population that is not well-defined. That additional characterization exceeds the supplied evidence. Export retains this text and therefore does not repair the defect.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Claim matches passage 19 but still omits 2000–2020. Passage 68 describes heterogeneity and different prior care settings, not a population that is not well-defined. That additional characterization exceeds the supplied evidence. Export retains this text and therefore does not repair the defect. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "6b817fea-5beb-4018-88ec-cf38a6da6752",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "None of the five retrieved passages establishes a randomized gene-editing intervention. The words intervention reported in a 2021 Italian study accept that false/unsupported premise. Empty claims and insufficient_evidence do not make the entire answer supported.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "None of the five retrieved passages establishes a randomized gene-editing intervention. The words intervention reported in a 2021 Italian study accept that false/unsupported premise. Empty claims and insufficient_evidence do not make the entire answer supported. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "6bd71558-2a75-4b1e-b823-35cdad99b6dc",
+      "prompt": "coverage_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The phrase measured results reported in a randomized ... intervention remains ambiguous about whether the intervention actually occurred. It does not explicitly reject the unsupported premise. Under the frozen conservative whole-prose rule, support and correct abstention cannot be certified; this is uncertain, not a pass.",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The phrase measured results reported in a randomized ... intervention remains ambiguous about whether the intervention actually occurred. It does not explicitly reject the unsupported premise. Under the frozen conservative whole-prose rule, support and correct abstention cannot be certified; this is uncertain, not a pass. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "a802867f-0a91-499b-a301-75077f4ab792",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Italian passage 19 explicitly says retrospectively and passage 68 names retrospective design; passage 21 explicitly describes electronic medical record review. The response denies that the passages establish retrospective versus randomized design and covers neither required fact in an answer. This is a generation/interpretation failure despite complete retrieval.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Italian passage 19 explicitly says retrospectively and passage 68 names retrospective design; passage 21 explicitly describes electronic medical record review. The response denies that the passages establish retrospective versus randomized design and covers neither required fact in an answer. This is a generation/interpretation failure despite complete retrieval. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "1fecc199-1188-4cde-95dd-c57f2f5ec49b",
+      "prompt": "coverage_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Raw output omits claims, invents underscore-style evidence IDs in limitations, then denies retrospective design despite quoting that limitation. Schema rejection keeps this contradictory output out of the displayed answer and exports; it remains a failed candidate output.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Raw output omits claims, invents underscore-style evidence IDs in limitations, then denies retrospective design despite quoting that limitation. Schema rejection keeps this contradictory output out of the displayed answer and exports; it remains a failed candidate output. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "f1151d63-45e0-4aba-804d-2b4d18ebb1ca",
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The long identifying-a-pathogenic-variant quote belongs to passage 64:0:750, not the cited 64:600:1350. Validation rejects the mismatch. The chromosome/exon reference passage 10:0:750 was not retrieved, and the generated background does not answer the question.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The long identifying-a-pathogenic-variant quote belongs to passage 64:0:750, not the cited 64:600:1350. Validation rejects the mismatch. The chromosome/exon reference passage 10:0:750 was not retrieved, and the generated background does not answer the question. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "e403b3e7-1f0d-4bb8-89e5-56653e42f274",
+      "prompt": "coverage_first",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The first claim repeats the same wrong-window quotation as the baseline; validation rejects all claims. Additional diagnostic-testing material does not supply chromosome 4p12 or three exons. Required reference passage 10:0:750 is absent from the five hits.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The first claim repeats the same wrong-window quotation as the baseline; validation rejects all claims. Additional diagnostic-testing material does not supply chromosome 4p12 or three exons. Required reference passage 10:0:750 is absent from the five hits. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "1bcb34fe-096e-46b5-8dac-2da541b7e8cf",
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Both raw evidence IDs are full publication/version strings, not provided passage IDs. The first quote also removes the parenthesized grant text, so it is not verbatim. Retrieved passage 12 describes guideline searches but the required evidence/experience blend in passage 13 is missing. Validation blocks the answer.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Both raw evidence IDs are full publication/version strings, not provided passage IDs. The first quote also removes the parenthesized grant text, so it is not verbatim. Retrieved passage 12 describes guideline searches but the required evidence/experience blend in passage 13 is missing. Validation blocks the answer. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "ab5dec48-6e17-44bc-8080-ef482f98b25a",
+      "prompt": "coverage_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Raw JSON omits claims and supplies only a nonanswer about missing comparison details. It is rejected. Italian retrospective design is available in passages 2 and 68, while the required guideline blend is absent. It neither provides a valid structured response nor a complete comparison.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Raw JSON omits claims and supplies only a nonanswer about missing comparison details. It is rejected. Italian retrospective design is available in passages 2 and 68, while the required guideline blend is absent. It neither provides a valid structured response nor a complete comparison. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "81a87e51-d954-4f35-a371-af2d658b9f82",
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "All four raw claims omit exact_quote and answer a different question about ventilator equipment. Several IDs point to windows that do not contain the assigned text. The required inconsistency/exceptions passage 52 is absent. Validation blocks the response.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "All four raw claims omit exact_quote and answer a different question about ventilator equipment. Several IDs point to windows that do not contain the assigned text. The required inconsistency/exceptions passage 52 is absent. Validation blocks the response. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "f809220f-8b60-4619-990f-96dfa5dc35c4",
+      "prompt": "coverage_first",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "Completed local call reaches its 900-token limit and produces malformed JSON, missing exact_quote fields, irrelevant clinical-equipment prose and a mistaken interpretation of longer repeats. It remains an output-validation failure with raw usage retained, not a service outage or a successful abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Completed local call reaches its 900-token limit and produces malformed JSON, missing exact_quote fields, irrelevant clinical-equipment prose and a mistaken interpretation of longer repeats. It remains an output-validation failure with raw usage retained, not a service outage or a successful abstention. Export content was inspected via the current comparison/tag row adapter; this is not a browser-download test.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "edf36b738648c883c14144d2ffb41b3de62c816143b64e10e9030bbc57189c6c",
+  "whole_answer_reviewer": "Codex source-based provisional review, 2026-09-06",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

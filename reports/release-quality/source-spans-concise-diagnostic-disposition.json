@@ -1,0 +1,11 @@
+{
+  "status": "REJECTED_FOR_EXPANSION",
+  "created_at": "2026-09-07T00:16:31.183061+00:00",
+  "actual_attempts": 5,
+  "acceptable": 2,
+  "output_errors": 2,
+  "critical_answers": 0,
+  "partial_source_support_claims": 1,
+  "runtime_code_id": "2df4dfc13e48ef863a60510e98e62970e72fc39dac857de559fe4168b6d74646",
+  "reason": "Shorter instructions did not restore a complete cross-source comparison; invalid ranges and a mixed support claim remain. The longer and shorter source-span synthesis routes are not selected. Next bounded adaptation will test source-excerpt selection itself: the model chooses exact source ranges and the application displays original attributed excerpts, retaining full relevance/fact/qualification/whole-answer evaluation. This changes answer style, not the pass rules or source data."
+}

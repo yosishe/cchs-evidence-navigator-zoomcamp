@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-07T12:25:28.691632+00:00",
+  "pip_check": {
+    "exit_code": 0,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  },
+  "identity_exit_code": 0,
+  "identity": {
+    "uid": 1000,
+    "machine": "aarch64",
+    "python": "3.12.14",
+    "private_env_present": false,
+    "git_history_present": false,
+    "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+    "config_file_sha256": "23db0695f936f9742865b1726da3e766025cc91974fd028e85f6e9fcb0aa47cf",
+    "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+    "model": "phi3",
+    "provider": "ollama",
+    "model_endpoint": "http://ollama:11434/v1/",
+    "paid_llm_enabled": "0"
+  }
+}

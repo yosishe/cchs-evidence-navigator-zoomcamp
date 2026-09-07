@@ -1,0 +1,86 @@
+{
+  "created_at": "2026-09-05T22:56:08.212866+00:00",
+  "status": "STRUCTURAL_COVERAGE_AUDIT_NOT_SYSTEMATIC_LITERATURE_REVIEW",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "windows": 377,
+  "excluded_passages": 390,
+  "exclusion_reasons": {
+    "non_evidence_type_or_empty": 297,
+    "heading_retained_as_metadata_only": 93
+  },
+  "sources": [
+    {
+      "source_id": "PMC7503443",
+      "source_hash": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+      "role": "review/guideline",
+      "windows": 226,
+      "excluded_by_section": {
+        "TITLE": 1,
+        "INTRO": 2,
+        "RESULTS": 25,
+        "FIG": 1,
+        "TABLE": 9,
+        "DISCUSS": 14,
+        "CONCL": 6,
+        "SUPPL": 3,
+        "ABBR": 54,
+        "AUTH_CONT": 2,
+        "ACK_FUND": 2,
+        "METHODS": 3,
+        "COMP_INT": 2,
+        "REF": 108
+      },
+      "interpretation": "Secondary synthesis; cited underlying experiments are not independently ingested"
+    },
+    {
+      "source_id": "PMC8039127",
+      "source_hash": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+      "role": "primary study",
+      "windows": 62,
+      "excluded_by_section": {
+        "TITLE": 1,
+        "INTRO": 1,
+        "TABLE": 8,
+        "METHODS": 1,
+        "FIG": 3,
+        "RESULTS": 6,
+        "DISCUSS": 1,
+        "CONCL": 1,
+        "SUPPL": 4,
+        "AUTH_CONT": 2,
+        "COMP_INT": 2,
+        "REF": 29,
+        "ABBR": 25
+      },
+      "interpretation": "Its own observations only"
+    },
+    {
+      "source_id": "PMC8963195",
+      "source_hash": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+      "role": "review",
+      "windows": 89,
+      "excluded_by_section": {
+        "TITLE": 1,
+        "INTRO": 17,
+        "TABLE": 4,
+        "FIG": 5,
+        "CONCL": 1,
+        "COMP_INT": 2,
+        "REF": 44
+      },
+      "interpretation": "Secondary synthesis; cited underlying experiments are not independently ingested"
+    }
+  ],
+  "research_tasks": [
+    "source-grounded evidence comparison",
+    "literal quote-based PHOX2B-related term proposals"
+  ],
+  "gaps": [
+    "No independent biomedical expert review of relevance or proposals.",
+    "Tables and figures are preserved but excluded from indexed evidence.",
+    "Only one included primary clinical cohort; the other included sources are guideline/review.",
+    "No coverage claim for primary molecular PHOX2B studies or new mechanistic hypotheses.",
+    "PMC10235709 remains a blocked earlier candidate; not counted as included."
+  ],
+  "expansion_rule": "Add an accessible licensed primary source only for a documented task gap; version corpus and references before new experiments. No automatic new-source collection in this run."
+}

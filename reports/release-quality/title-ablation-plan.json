@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-06T22:44:29.876845+00:00",
+  "source_artifact_hash": "ce6505f25056c0f3cad8181ea5842dcb2ebb5b79fc58b64f9961a05793c1bff5",
+  "hypothesis": "Removing the generic publication-title boost may recover specific content references outside existing candidate pools; lower RRF constants may then prioritize branch leaders. Evaluate title removal at fixed rrf=50, then rrf=1 on the same new pools.",
+  "course_provenance": "Module 1 minsearch boosts; Module 4/2026 homework RRF grid, as mapped in docs/course-sources.md. The title-zero hypothesis comes from historical iteration 016, not new benchmark labels.",
+  "config": {
+    "retrieval": "hybrid",
+    "top_k": 10,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 0.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "phi3",
+    "prompt": "evidence_first",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 120,
+    "rewrite_enabled": false,
+    "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+    "question_bank": "data/evaluation/questions-v2.json"
+  },
+  "rrf_constants": [
+    50,
+    1
+  ],
+  "planned_fresh_lexical_queries": 42,
+  "vector_query_policy": "Reuse the exact recorded top-20 vector candidates; embedding configuration/corpus unchanged. This is NOT a fresh end-to-end hybrid run.",
+  "promotion": "NONE. Verify a proposed winner with actual full retrieval plus generation before adoption."
+}

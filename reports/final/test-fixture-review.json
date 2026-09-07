@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "created_at": "2026-09-07T18:21:11.226378+00:00",
+  "root_cause": "Synthetic canonical-provider tests inherited production model, digest, prompt and JSON Schema settings after configuration binding.",
+  "fix": "Explicit deep-copied complete mock configuration; real shipped-configuration tests retained; two binding, transport, export and status checks added.",
+  "before": {
+    "tests": 184,
+    "failures": 32,
+    "errors": 19,
+    "seconds": 13.429
+  },
+  "after": {
+    "tests": 186,
+    "skips": 0,
+    "seconds": 12.367,
+    "wall_seconds": 13.687
+  },
+  "runtime_code_changes": false,
+  "weakened_assertions": false,
+  "test_removals": 0,
+  "new_skips": 0,
+  "raw_logs": "Private operations receipt outside the public package; current full-suite output is reports/checks.json.",
+  "review": "PASS: independent before/after review, with all nine reconstructed baselines verified against phase-zero hashes.",
+  "independent_review": {
+    "status": "PASS",
+    "reviewed_at": "2026-09-07T18:33:24.893421+00:00",
+    "baseline_files_verified": 9,
+    "unverifiable_baseline_files": 0,
+    "tests_removed": 0,
+    "skips_added": 0,
+    "behavioral_assertions_weakened": 0,
+    "real_config_checks_retained": true,
+    "new_tests": 2,
+    "note": "One incumbent-prompt assertion now compares against the shipped configuration instead of a hardcoded prompt; the configuration-mutation invariant is preserved.",
+    "patch_sha256": "944ce8e4cffcf93ccba3f612862f51178110a82c5bcab16a28d8fd94247ee482",
+    "baseline_hash_verification_sha256": "d9be7c620cf3361ed67eaea59a2ae94d2f6b5f8fcedb873b3c827fab36bbba78",
+    "external_diff": "Verified before/after patch and reconstructed baseline are retained outside the public package."
+  }
+}

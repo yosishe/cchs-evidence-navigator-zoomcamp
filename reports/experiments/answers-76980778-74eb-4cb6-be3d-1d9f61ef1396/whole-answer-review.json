@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "results_hash": "45648bb848891d5388aa22df98ac2ee544f5ab43445624c600ff325b8d20069b",
+  "reviews": [
+    {
+      "answer_id": "c3b7a5da-eee7-481c-9318-fa94e9127862",
+      "record_hash": "3ce7c8b7fd189a4e08fce6d0bb8bd7a89ff1611c3fbf623460e0617f443edc06",
+      "export_hash": "deb0ca9ee1e137459ecb0f35a6a803b967d862253098c9609d7f62f8317769bb",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The exact count/retrospective claim matches Italian passage 19, but the requested follow-up period 2000–2020 is missing. Caveats and record-review provenance match passages 68/21. Export adapters preserve the exact claim, source identity and caveats for the two validated count answers; nonanswers have no claim export. Actual browser downloads were not tested."
+    },
+    {
+      "answer_id": "6b87091a-d1e4-453f-910b-b367962bfc70",
+      "record_hash": "b25a1aef11cee4dacea2ea07df72620b228123e93718131639304b872d3f4066",
+      "export_hash": "a3b9905b59c9f37158cc382819c93e8355f7f5c22d7dac01912e4e85a7ce5619",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The exact count/retrospective claim matches Italian passage 19, but the requested follow-up period 2000–2020 is still missing. Limitations match passage 68; removing transport metadata does not complete the answer. Export adapters preserve the exact claim, source identity and caveats for the two validated count answers; nonanswers have no claim export. Actual browser downloads were not tested."
+    },
+    {
+      "answer_id": "c5f70482-676d-4241-8b51-ce2200c85a01",
+      "record_hash": "b971874fa13f8d50a023a22f77f3bf63810a6923512c676e62dd9e552e4b07d9",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "false_evidence_denial"
+      ],
+      "acceptable": false,
+      "reason": "The nonanswer denies retrospective patient-record analysis despite explicit retrospective collection in Italian passage 19 and electronic medical record review in passage 21. Export adapters preserve the exact claim, source identity and caveats for the two validated count answers; nonanswers have no claim export. Actual browser downloads were not tested."
+    },
+    {
+      "answer_id": "7a7605fc-773f-4500-9360-20a2d2837883",
+      "record_hash": "afe5eb03ee8324df7ed27ed6d8d8958355aa22ea30e29377df857f01c208e8fb",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "false_evidence_denial"
+      ],
+      "acceptable": false,
+      "reason": "The nonanswer still denies retrospective patient-record analysis, although the same complete evidence is present in the compact message: Italian passages 19/21. No relevant scientific field or source text was removed. Export adapters preserve the exact claim, source identity and caveats for the two validated count answers; nonanswers have no claim export. Actual browser downloads were not tested."
+    },
+    {
+      "answer_id": "35193528-89fe-418b-9940-f69306762dc5",
+      "record_hash": "62ce74618966fe46dc09ab069c543b17911c1705dad37197e9104fbb623cb651",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "unsupported_intervention_premise"
+      ],
+      "acceptable": false,
+      "reason": "The wording intervention reported in a 2021 Italian study accepts an unestablished premise. The provided genetic testing/variant passages do not establish that intervention. Export adapters preserve the exact claim, source identity and caveats for the two validated count answers; nonanswers have no claim export. Actual browser downloads were not tested."
+    },
+    {
+      "answer_id": "53a81fbe-5e7b-4e7c-a1c4-56c7c53da609",
+      "record_hash": "724871ca15d00553672dd48c5fb7025d0a06da97c0e6eb99a22c4c51109e369f",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "unsupported_intervention_premise"
+      ],
+      "acceptable": false,
+      "reason": "The compact context response repeats the same unsupported intervention premise. Variant/testing background does not establish a randomized gene-editing study. Export adapters preserve the exact claim, source identity and caveats for the two validated count answers; nonanswers have no claim export. Actual browser downloads were not tested."
+    }
+  ]
+}

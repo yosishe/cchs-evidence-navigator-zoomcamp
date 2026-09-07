@@ -1,0 +1,116 @@
+{
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "35bb9ae432fe2c0b9b9ef29f691089155e696642a23db4ca4fbec611c5ed7fd7",
+  "reviews": [
+    {
+      "answer_id": "190dabb2-65a3-490d-b2d4-847d3be00f9f",
+      "record_hash": "d54f18076e1f295c1902e2a07eb8583fcaa2d591e9d012bc22a3b614216ba99c",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "be023886-32b0-47f7-a00d-58796762e3b0",
+      "record_hash": "78aab6758fc59ca96ee3d21f3d6d28e6bec1a50de69ecccfd49ca400a06509b8",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "7c440916-a9d2-4840-a3f5-7e7558775bed",
+      "record_hash": "04eb7b69bd0a4e3f44a2bf607cf822c088b744435c925afd739a477b1672b25a",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "26ce7aaa-beda-472e-8111-54d836108aa6",
+      "record_hash": "a104a9a762b8831f02f1db601f7b68030be8a3e2c1586844044870c8ded0eb53",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "b37b0243-4ead-42b4-9cac-a2cd0b811740",
+      "record_hash": "ac482886e0fb9070955678f72172dbde519a072368bc733bb7df9971165f949c",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "bef3fbdb-4660-412a-ad94-7309b9b1d9d5",
+      "record_hash": "2b49f7ceb3a8e4fa29231815b6a310082d555f1c0d792cb3a946c399f28d1895",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "403b7332-5795-4a3d-963f-55938d5b1e3f",
+      "record_hash": "2d0c7c457f3ef8f14ce1ccec6b15eafae37db3963438b6c5bff41264063a1029",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "fed0d63b-9674-4fb7-b162-29602a9c91f5",
+      "record_hash": "c2c12f9b7958d471eef8072ce1a7fda3e5f38bfc0c38956f6f0d31c002d582b2",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "2a765afd-5c96-4c94-81ae-65c9bed9a090",
+      "record_hash": "559ab18f576bf2e9e59cc010d1d1915363d44204881ba83f47ce32c88e700ed3",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    }
+  ]
+}

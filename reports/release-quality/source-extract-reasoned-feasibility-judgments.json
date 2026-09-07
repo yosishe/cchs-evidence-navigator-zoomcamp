@@ -1,0 +1,102 @@
+{
+  "status": "COMPLETE_PROVISIONAL_ASSISTANT_REVIEW",
+  "scope": "All five actual source selections, diagnostic explanations, canonical outputs and exports reviewed by the implementing assistant; no independent scientific review.",
+  "created_at": "2026-09-07T01:36:34.124846+00:00",
+  "results_path": "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json",
+  "results_hash": "768902d783d6a2394437b384dd739f22c609d3b67d856adfe2748348c75b71ba",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "questions": {
+    "DIR-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present."
+    },
+    "COM-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Both retrospective-data and guideline evidence/experience method are explicitly selected. Several overview/unit/search/review excerpts are unnecessary, but separate attribution and low evidence grade are retained and no pooling or causal conclusion is added. The diagnostic note correctly identifies the contrast; its wording is not counted as source evidence."
+    },
+    "LIM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "The selected ventilation-modality excerpt does not establish the genetic-association caveat; the diagnostic explanation falsely rationalizes that relationship."
+      ],
+      "reason": "The note says varied ventilation types directly address the longer-repeat relationship, but the cited excerpt states only support modalities at different times/ages. Both the diagnostic justification and selected answer misidentify the requested relationship. It is a critical context substitution despite exact quotation."
+    },
+    "LIM-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The diagnostic note recognizes retrospective design and heterogeneity, but the canonical answer refuses and exports no supporting claim. A correct fact inside raw diagnostic prose does not satisfy the actual answer contract. The source-backed requested design/caveat remain missing from the displayed answer."
+    },
+    "ABS-02": {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The diagnostic note correctly distinguishes a cohort description from an unprovided transcriptomic accession. Canonical output refuses without inventing an accession or asserting absence from all literature; no claim/tag rows result."
+    }
+  },
+  "record_hashes": {
+    "DIR-01": "7d2111ac832d73800fcf18b8ac0ac0697da647e6019524c8abe2b4d7b2b0b426",
+    "COM-01": "823ebbd3faf0bf571de0ecac3cf3adec232063555ae5d4986ca4a594d5ecd925",
+    "LIM-01": "4e6a5f185fff2e35ee69906bdb2ff610c25813cdc39f5fc2e39b7ff02be56bd5",
+    "LIM-02": "a36dc67f1e7bf54c6ef46519b3c8f73825655c7ab051e3daf36250e67796f7d6",
+    "ABS-02": "df0801de30d20914955acf94acbd5e4ef514c80f359cc9f49865f9fcc5b7e180"
+  }
+}

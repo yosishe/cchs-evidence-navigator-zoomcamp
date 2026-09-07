@@ -1,0 +1,9 @@
+{
+  "id": "24f33691-148d-40fd-8ee3-7fa7b6ef94de:user",
+  "answer_id": "24f33691-148d-40fd-8ee3-7fa7b6ef94de",
+  "score": 1,
+  "comment": "QA browser test: verifies source navigation and passage CSV round-trip; not researcher validation.",
+  "timestamp": "2026-09-06T23:32:54.504762+00:00",
+  "source": "qa",
+  "traffic_origin": "qa"
+}

@@ -1,0 +1,331 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "1d245c5c6a87effa4175678aeca61b7374cfcb723dd2d43787a14d11143206b7",
+  "reviews_hash": "e6f7daa2915a1673897365844313cd108915ce20ea6b8548313da0f49465e1c3",
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "source_spans_concise",
+      "evaluated_questions": 5,
+      "acceptable_answers": 2,
+      "acceptable_rate": 0.4,
+      "supported_claims": 3,
+      "claim_denominator": 4,
+      "unsupported_claims": 0,
+      "mean_seconds": 72.63027127480018,
+      "errors": 2,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 7,
+          "counts": {
+            "covered": 4,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.5714285714285714
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 1,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 0
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "source_spans_concise",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_spans_concise",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_spans_concise",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 1.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "source_spans_concise",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 1,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 1,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "source_spans_concise",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 1.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "524760aa-f3f8-44a1-80d7-3d59518e74bb",
+      "prompt": "source_spans_concise",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": true,
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The two requested aims are copied from the correct Italian passage 17. An additional retrospective 22-patient statement is correctly sourced to passage 19 but unnecessary for this question. Both facts are covered; no altered source meaning or claimed scientific approval is exported.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The two requested aims are copied from the correct Italian passage 17. An additional retrospective 22-patient statement is correctly sourced to passage 19 but unnecessary for this question. Both facts are covered; no altered source meaning or claimed scientific approval is exported.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "f793f0ac-8081-42b2-acfd-ae68360b10f6",
+      "prompt": "source_spans_concise",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported",
+        "partial"
+      ],
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The first retrospective claim is supported by the abstract. The second correctly identifies electronic medical records but appends 22 patients, a count absent from that selected passage 21. The count exists elsewhere in the supplied same-study evidence, so this is a partial citation-support defect rather than a fabricated number. Both required task facts are present, but the unchanged per-claim rule prevents full acceptance.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The first retrospective claim is supported by the abstract. The second correctly identifies electronic medical records but appends 22 patients, a count absent from that selected passage 21. The count exists elsewhere in the supplied same-study evidence, so this is a partial citation-support defect rather than a fabricated number. Both required task facts are present, but the unchanged per-claim rule prevents full acceptance.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "0da63cdc-7a1e-45b3-af56-371931965296",
+      "prompt": "source_spans_concise",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw comparison chooses an unrelated Italian span and out-of-range guideline and limitation spans. The canonical validator rejects the entire output. No partial facts behind the error are counted as delivered.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw comparison chooses an unrelated Italian span and out-of-range guideline and limitation spans. The canonical validator rejects the entire output. No partial facts behind the error are counted as delivered.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-02",
+      "answer_id": "7e3b0ff1-6017-4661-bfa4-d97b1e1ff687",
+      "prompt": "source_spans_concise",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "Raw abstention also selects limitations, violating the explicit refusal contract, and includes an invalid span range. Output is rejected. The supplied retrospective/heterogeneous design evidence remains unused; no answer or qualification is delivered.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Raw abstention also selects limitations, violating the explicit refusal contract, and includes an invalid span range. Output is rejected. The supplied retrospective/heterogeneous design evidence remains unused; no answer or qualification is delivered.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "9d482023-aa03-440a-8cfb-666c3e249cd3",
+      "prompt": "source_spans_concise",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "Context-scoped abstention adds no gene-editing premise, trial result, external absence claim or tag. No canonical claims exist to export.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Context-scoped abstention adds no gene-editing premise, trial result, external absence claim or tag. No canonical claims exist to export.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [
+    "source_spans_concise"
+  ],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "0e510ad68172c69bcf6b237ada51d766bd8bc2bb93aa565f7bdb8e530a698eb2",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

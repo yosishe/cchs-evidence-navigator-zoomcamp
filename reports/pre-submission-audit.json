@@ -1,0 +1,358 @@
+{
+  "created_at": "2026-09-05T18:11:39.144595+00:00",
+  "config_id": "b7b7e0e80c62cc1d72c7e1aaacbb14dc959b4dff58e07cb40a20be088a88cdbb",
+  "handbook_sha256": "4483da88285d6c467929c5e4680fa587f53cc85d07537dd8fbe4d7a36cc1d703",
+  "checks": [
+    {
+      "id": "PT01",
+      "title": "Bind the audit to the correct course and rules",
+      "status": "PARTIAL",
+      "evidence": "official-rules-check.json",
+      "observation": "Live rubric and attempt-3 calendar checked; personal eligibility remains unknown."
+    },
+    {
+      "id": "PT02",
+      "title": "Prove the corpus is original and usable",
+      "status": "PARTIAL",
+      "evidence": "corpus-preparation.json",
+      "observation": "Licensed original literature snapshots and exclusions present; complete scientific/correction review pending."
+    },
+    {
+      "id": "PT03",
+      "title": "Check authorship and explainability",
+      "status": "PARTIAL",
+      "evidence": "../docs/course-sources.md",
+      "observation": "Course-code adaptations attributed; owner explanation has not been tested."
+    },
+    {
+      "id": "PT04",
+      "title": "Enforce the course-only implementation boundary",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "../docs/course-sources.md",
+      "observation": "Selected methods mapped to pinned teaching code; original Python glue identified; no new RAG framework."
+    },
+    {
+      "id": "PT05",
+      "title": "Make the problem understandable to a stranger",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "README example exercised in preview; unfamiliar human reader and live answer review pending."
+    },
+    {
+      "id": "PT06",
+      "title": "Verify the public repository at the exact commit",
+      "status": "BLOCKED",
+      "evidence": "../docs/readiness.md",
+      "observation": "Private by owner request; public exact-commit access is not authorized."
+    },
+    {
+      "id": "PT07",
+      "title": "Reproduce from a fresh environment",
+      "status": "PARTIAL",
+      "evidence": "runtime-versions.json",
+      "observation": "Fresh isolated dependency environment tested; clean external checkout plus provider/container path pending."
+    },
+    {
+      "id": "PT08",
+      "title": "Validate actual dependency versions",
+      "status": "PARTIAL",
+      "evidence": "runtime-versions.json",
+      "observation": "Installed package versions match frozen lock; real dlt/minsearch/encoder/UI APIs exercised; provider/PostgreSQL service unverified."
+    },
+    {
+      "id": "PT09",
+      "title": "Exercise the complete Compose stack",
+      "status": "BLOCKED",
+      "evidence": "static-verification.json",
+      "observation": "Complete stack parsed/inspected only; Docker installation approval pending."
+    },
+    {
+      "id": "PT10",
+      "title": "Restart without losing required state",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "JSONL reopens and page reload preserves records; actual service/PostgreSQL restart pending."
+    },
+    {
+      "id": "PT11",
+      "title": "Verify reviewer data and credential access",
+      "status": "PARTIAL",
+      "evidence": "../README.md",
+      "observation": "Raw licensed data included and local-key instructions given; repository remains private."
+    },
+    {
+      "id": "PT12",
+      "title": "Reconcile ingestion completeness",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "ingestion-runtime.json",
+      "observation": "Three inputs, 411 exported/indexed windows, 312 exclusions; fourth candidate explicitly blocked."
+    },
+    {
+      "id": "PT13",
+      "title": "Check repeat loads and updates",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "checks.json",
+      "observation": "Actual unchanged repeat load matches IDs/hash; immutable replace snapshots, no incremental-update claim."
+    },
+    {
+      "id": "PT14",
+      "title": "Round-trip passage citations to the source",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "checks.json",
+      "observation": "All retained windows round-trip exactly; tables/figures excluded; one actual browser source span also verified."
+    },
+    {
+      "id": "PT15",
+      "title": "Validate dlt normalized relationships",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../navigator/corpus.py",
+      "observation": "dlt receives flat normalized chunk records; no child-table join is selected."
+    },
+    {
+      "id": "PT16",
+      "title": "Test orchestration failure and rerun boundaries",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/decisions.md",
+      "observation": "No Kestra flow selected; Compose dependency startup has its own blocked check PT09."
+    },
+    {
+      "id": "PT17",
+      "title": "Check contracts across components",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "Source/chunk/config/answer/feedback identity traced; live generated answer remains untested."
+    },
+    {
+      "id": "PT18",
+      "title": "Challenge exact identifiers and filters",
+      "status": "PARTIAL",
+      "evidence": "retrieval-contracts.json",
+      "observation": "Three retrieval modes enforce source filters and reject near-collision source ID; biomedical ID/negation precision not yet reviewed."
+    },
+    {
+      "id": "PT19",
+      "title": "Validate vector identity and search behavior",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "retrieval-contracts.json",
+      "observation": "All vector rows aligned, finite normalized dimensions; exact rankings agree. No approximate index or persisted-vector claim."
+    },
+    {
+      "id": "PT20",
+      "title": "Exercise long Hebrew and mixed-language inputs",
+      "status": "PARTIAL",
+      "evidence": "embedding-runtime.json",
+      "observation": "English long-document windows checked and 8 truncated inputs reported; Hebrew retrieval and table extraction are outside scope."
+    },
+    {
+      "id": "PT21",
+      "title": "Hand-check metric and rank arithmetic",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "checks.json",
+      "observation": "One-based MRR, zero-based RRF, missing hit and duplicate ranking fixtures checked; independent RRF sums in retrieval-contracts."
+    },
+    {
+      "id": "PT22",
+      "title": "Audit evaluation questions and reference evidence",
+      "status": "PARTIAL",
+      "evidence": "retrieval-tuning.json",
+      "observation": "Anchor identity verified; labels are assistant-authored, incomplete and not human-approved."
+    },
+    {
+      "id": "PT23",
+      "title": "Prevent tuning leakage",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "config-selection.json",
+      "observation": "Grouped splits, tuning-only selection, then selected-only test. Test now exposed; no independent scientific gold claim."
+    },
+    {
+      "id": "PT24",
+      "title": "Compare multiple retrieval approaches fairly",
+      "status": "PARTIAL",
+      "evidence": "retrieval-tuning.json",
+      "observation": "Three real shared-input methods compared and selected config used; provisional labels limit interpretation."
+    },
+    {
+      "id": "PT25",
+      "title": "Demonstrate hybrid search with ablation",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "retrieval-contracts.json",
+      "observation": "Both candidate branches and hand-checked fused scores recorded; separate branch ablation metrics saved."
+    },
+    {
+      "id": "PT26",
+      "title": "Separate reranking evidence from bonus assumptions",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/decisions.md",
+      "observation": "No separate reranker claimed; no double credit for RRF fusion."
+    },
+    {
+      "id": "PT27",
+      "title": "Test query rewriting preserves intent",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/decisions.md",
+      "observation": "No query rewriting selected or credited."
+    },
+    {
+      "id": "PT28",
+      "title": "Prove the application loads the selected configuration",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "Active retrieval config/corpus match selection and test; no measured prompt winner exists yet."
+    },
+    {
+      "id": "PT29",
+      "title": "Trace a grounded answer end to end",
+      "status": "BLOCKED",
+      "evidence": "../docs/readiness.md",
+      "observation": "Live source-grounded provider answer needs explicit budget and locally configured key."
+    },
+    {
+      "id": "PT30",
+      "title": "Handle absent, conflicting and irrelevant evidence",
+      "status": "PARTIAL",
+      "evidence": "checks.json",
+      "observation": "Empty hits/malformed/citation attacks tested with fixtures; live irrelevant/conflicting/no-answer behavior awaits provider evaluation."
+    },
+    {
+      "id": "PT31",
+      "title": "Compare final-answer approaches",
+      "status": "BLOCKED",
+      "evidence": "../navigator/evaluation.py",
+      "observation": "Paired prompt comparison implemented, not run; no authorized provider budget/key."
+    },
+    {
+      "id": "PT32",
+      "title": "Audit the automatic judge",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/evaluation.md",
+      "observation": "No automatic judge contributes to a quality claim."
+    },
+    {
+      "id": "PT33",
+      "title": "Bound and validate the agent tool loop",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/decisions.md",
+      "observation": "Fixed flow; no model tool loop."
+    },
+    {
+      "id": "PT34",
+      "title": "Evaluate agent trajectory as well as final text",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/decisions.md",
+      "observation": "No claimed agent advantage over fixed RAG."
+    },
+    {
+      "id": "PT35",
+      "title": "Trace UI or API interaction and feedback",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "Real preview question/source/feedback flow and AppTest repeat actions passed; generated answers/export-file browser round trip pending."
+    },
+    {
+      "id": "PT36",
+      "title": "Isolate conversation state",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "checks.json",
+      "observation": "Two AppTest sessions do not inherit an answer; feedback duplicates suppressed; single-turn UI only."
+    },
+    {
+      "id": "PT37",
+      "title": "Exercise controlled end-to-end failures",
+      "status": "PARTIAL",
+      "evidence": "checks.json",
+      "observation": "Missing corpus, empty input, disabled provider and simulated provider timeout/malformed output handled; database outage UI unverified."
+    },
+    {
+      "id": "PT38",
+      "title": "Measure latency and account for all calls",
+      "status": "PARTIAL",
+      "evidence": "retrieval-tuning.json",
+      "observation": "Search/setup timing scopes recorded; no live provider latency/cost/usage measured."
+    },
+    {
+      "id": "PT39",
+      "title": "Verify feedback plus five actual charts",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "Feedback plus four populated chart types; fifth token view has no provider data; no top-tier completeness claim."
+    },
+    {
+      "id": "PT40",
+      "title": "Reconcile dashboard denominators",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "Actual 2/2 preview feedback and UTC buckets reconciled; mixed answered/failed/LLM fixture not fully exercised."
+    },
+    {
+      "id": "PT41",
+      "title": "Preserve telemetry and distinguish synthetic data",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "Explicitly labeled automated QA traffic survives page reload/JSONL reopen; PostgreSQL restart pending."
+    },
+    {
+      "id": "PT42",
+      "title": "Audit evidence honesty and completeness",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "../docs/execution-report.md",
+      "observation": "Measured, mocked, partial and blocked evidence separated; no grade/scientific completion claimed."
+    },
+    {
+      "id": "PT43",
+      "title": "Rehearse README and demonstration",
+      "status": "PARTIAL",
+      "evidence": "browser-qa.json",
+      "observation": "Preview/source/feedback/dashboard rehearsal done; live LLM, export-file and full container demonstration remain."
+    },
+    {
+      "id": "PT44",
+      "title": "Score each rubric row conservatively",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "../docs/readiness.md",
+      "observation": "Core/practice/bonus/review requirements separate, evidence gaps explicit, no awarded total."
+    },
+    {
+      "id": "PT45",
+      "title": "Freeze and revalidate the candidate release",
+      "status": "PARTIAL",
+      "evidence": "static-verification.json",
+      "observation": "Scoped source/config/file checks prepared; final commit/private remote verification recorded in workspace handoff outside this commit."
+    },
+    {
+      "id": "PT46",
+      "title": "Prepare the real submission fields",
+      "status": "BLOCKED",
+      "evidence": "../docs/readiness.md",
+      "observation": "No authorized submission/public release or personal form fields."
+    },
+    {
+      "id": "PT47",
+      "title": "Verify saving and later hash updates",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/readiness.md",
+      "observation": "Nothing submitted or updated; no saved receipt exists."
+    },
+    {
+      "id": "PT48",
+      "title": "Recheck both deadlines with timezone evidence",
+      "status": "PASS_WITH_SCOPE",
+      "evidence": "official-rules-check.json",
+      "observation": "Attempt-3 submission/review UTC DTSTART converted to Asia/Jerusalem; recheck immediately before submission."
+    },
+    {
+      "id": "PT49",
+      "title": "Complete all assigned peer reviews at submitted commits",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/readiness.md",
+      "observation": "No assigned reviews inspected or submitted."
+    },
+    {
+      "id": "PT50",
+      "title": "Confirm final status and certificate details",
+      "status": "NOT_APPLICABLE",
+      "evidence": "../docs/readiness.md",
+      "observation": "No official grade or certificate state inspected."
+    }
+  ],
+  "submission_ready": false
+}

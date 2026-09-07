@@ -1,0 +1,414 @@
+{
+  "created_at": "2026-09-05T22:48:05.476537+00:00",
+  "status": "PASS",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "scope": "Exact normalized NumPy ranking versus minsearch; row IDs, filters, and independently summed zero-based RRF. No configuration/label tuning.",
+  "rows": 377,
+  "dimensions": 384,
+  "all_row_ids_preserved": true,
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261": 7
+      }
+    },
+    {
+      "question_id": "DIR-02",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605": 1
+      }
+    },
+    {
+      "question_id": "DIR-03",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192": 1
+      }
+    },
+    {
+      "question_id": "DIR-04",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:12:0:409": 1
+      }
+    },
+    {
+      "question_id": "DIR-05",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274": 1
+      }
+    },
+    {
+      "question_id": "DIR-06",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:60:0:317": 16
+      }
+    },
+    {
+      "question_id": "DIR-07",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181": 2
+      }
+    },
+    {
+      "question_id": "PAR-01",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605": 5,
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192": 1
+      }
+    },
+    {
+      "question_id": "PAR-02",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:13:0:561": 22
+      }
+    },
+    {
+      "question_id": "PAR-03",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:20:0:358": 3
+      }
+    },
+    {
+      "question_id": "PAR-04",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:53:0:311": 1
+      }
+    },
+    {
+      "question_id": "PAR-05",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:52:0:455": 35
+      }
+    },
+    {
+      "question_id": "PAR-06",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:58:0:750": 5
+      }
+    },
+    {
+      "question_id": "PAR-07",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089": 1
+      }
+    },
+    {
+      "question_id": "EXA-01",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750": 19
+      }
+    },
+    {
+      "question_id": "EXA-02",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181": 2
+      }
+    },
+    {
+      "question_id": "EXA-03",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:67:0:194": 1
+      }
+    },
+    {
+      "question_id": "EXA-04",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:60:0:317": 1
+      }
+    },
+    {
+      "question_id": "EXA-05",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:61:0:166": 1
+      }
+    },
+    {
+      "question_id": "EXA-06",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:49:0:572": 5
+      }
+    },
+    {
+      "question_id": "EXA-07",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750": 1,
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089": 2
+      }
+    },
+    {
+      "question_id": "COM-01",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:13:0:561": 119,
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605": 7
+      }
+    },
+    {
+      "question_id": "COM-02",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181": 1,
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750": 12
+      }
+    },
+    {
+      "question_id": "COM-03",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:52:0:455": 55,
+        "PMC8963195:f6c8a0a4968ccaf4:11:600:987": 29
+      }
+    },
+    {
+      "question_id": "COM-04",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:53:0:311": 18,
+        "PMC8039127:b4a7750cb1b5b1d0:49:0:480": 21
+      }
+    },
+    {
+      "question_id": "COM-05",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:13:0:561": 96,
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274": 7
+      }
+    },
+    {
+      "question_id": "COM-06",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:50:0:513": 14,
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089": 2
+      }
+    },
+    {
+      "question_id": "COM-07",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:14:0:635": 211,
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261": 5
+      }
+    },
+    {
+      "question_id": "LIM-01",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:52:0:455": 102
+      }
+    },
+    {
+      "question_id": "LIM-02",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274": 6
+      }
+    },
+    {
+      "question_id": "LIM-03",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:61:0:750": 1
+      }
+    },
+    {
+      "question_id": "LIM-04",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711": 1
+      }
+    },
+    {
+      "question_id": "LIM-05",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:13:0:561": 20
+      }
+    },
+    {
+      "question_id": "LIM-06",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC7503443:a26671042513feb5:60:0:317": 40
+      }
+    },
+    {
+      "question_id": "LIM-07",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {
+        "PMC8963195:f6c8a0a4968ccaf4:11:0:750": 7,
+        "PMC8963195:f6c8a0a4968ccaf4:11:600:987": 24
+      }
+    },
+    {
+      "question_id": "ABS-01",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {}
+    },
+    {
+      "question_id": "ABS-02",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {}
+    },
+    {
+      "question_id": "ABS-03",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {}
+    },
+    {
+      "question_id": "ABS-04",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {}
+    },
+    {
+      "question_id": "ABS-05",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {}
+    },
+    {
+      "question_id": "ABS-06",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {}
+    },
+    {
+      "question_id": "ABS-07",
+      "top20_identity_matches": true,
+      "gold_vector_ranks": {}
+    }
+  ],
+  "filters": [
+    {
+      "method": "lexical",
+      "restricted_source": "PMC8039127",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "near_collision_returns_empty": true
+    },
+    {
+      "method": "vector",
+      "restricted_source": "PMC8039127",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+        "PMC8039127:b4a7750cb1b5b1d0:59:0:750"
+      ],
+      "near_collision_returns_empty": true
+    },
+    {
+      "method": "hybrid",
+      "restricted_source": "PMC8039127",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:12:0:219"
+      ],
+      "near_collision_returns_empty": true
+    }
+  ],
+  "fusion_example": {
+    "query": "Which organization performed the initial literature search for the guidelines?",
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "lexical_ids": [
+      "PMC7503443:a26671042513feb5:14:0:635",
+      "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+      "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+      "PMC7503443:a26671042513feb5:12:0:409",
+      "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+      "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+      "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+      "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+      "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+      "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+      "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+      "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+      "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+      "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+      "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+      "PMC8039127:b4a7750cb1b5b1d0:22:0:349",
+      "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+      "PMC8039127:b4a7750cb1b5b1d0:42:0:403",
+      "PMC8039127:b4a7750cb1b5b1d0:20:0:358"
+    ],
+    "vector_ids": [
+      "PMC7503443:a26671042513feb5:12:0:409",
+      "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+      "PMC7503443:a26671042513feb5:237:0:250",
+      "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+      "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+      "PMC7503443:a26671042513feb5:193:0:102",
+      "PMC7503443:a26671042513feb5:151:0:315",
+      "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+      "PMC7503443:a26671042513feb5:324:0:36",
+      "PMC7503443:a26671042513feb5:242:0:104",
+      "PMC7503443:a26671042513feb5:154:0:483",
+      "PMC7503443:a26671042513feb5:147:0:465",
+      "PMC7503443:a26671042513feb5:155:600:928",
+      "PMC8963195:f6c8a0a4968ccaf4:49:600:1350",
+      "PMC7503443:a26671042513feb5:245:0:158",
+      "PMC8963195:f6c8a0a4968ccaf4:49:0:750",
+      "PMC7503443:a26671042513feb5:156:0:391",
+      "PMC7503443:a26671042513feb5:320:0:14",
+      "PMC7503443:a26671042513feb5:153:0:524",
+      "PMC8963195:f6c8a0a4968ccaf4:41:600:1350"
+    ],
+    "fused": [
+      {
+        "id": "PMC7503443:a26671042513feb5:12:0:409",
+        "score": 0.038867924528301886
+      },
+      {
+        "id": "PMC7503443:a26671042513feb5:14:0:635",
+        "score": 0.02
+      },
+      {
+        "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "score": 0.0196078431372549
+      },
+      {
+        "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "score": 0.0196078431372549
+      },
+      {
+        "id": "PMC7503443:a26671042513feb5:237:0:250",
+        "score": 0.019230769230769232
+      }
+    ]
+  },
+  "peak_process_rss_bytes": 856064000,
+  "memory_scope": "Peak of this diagnostic process, including imports, model, documents, indexes and queries. Not isolated encoder memory or a deployment capacity benchmark.",
+  "limitations": "No scientific label validation, approximate-search test, biomedical identifier precision estimate, live answer or PostgreSQL proof."
+}

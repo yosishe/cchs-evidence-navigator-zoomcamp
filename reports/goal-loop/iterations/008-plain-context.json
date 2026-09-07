@@ -1,0 +1,127 @@
+{
+  "created_at": "2026-09-06T11:23:46.559413+00:00",
+  "status": "REJECTED_AFTER_FOCUSED_DIAGNOSTIC",
+  "decision": "REJECT",
+  "official_points": null,
+  "candidate_code_id": "c2ee13f25c644782939effaef3a8d881488438ce3e5e7ef56046254e47d6b6ee",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "evaluator_version": "c2ee13f25c644782939effaef3a8d881488438ce3e5e7ef56046254e47d6b6ee",
+  "model": "phi3",
+  "model_digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+  "changed_dimension": "Serialize the same question and all passage fields as labeled plain text instead of a JSON user message. System instructions, model, output schema, retrieval, token budget and review rules unchanged.",
+  "course_source": "https://github.com/DataTalksClub/llm-zoomcamp/blob/bc7b6aad6b92a5611d3d37bf7521a363f3b9d398/cohorts/2024/02-open-source/qa_faq.py",
+  "adaptation": "Course context construction uses labeled textual fields. This project retains every canonical provenance field and exact passage text; actual messages are recorded and verified independently of canonical context serialization.",
+  "hypothesis": "Plain labeled passages may make source text and the question easier for the small model to use than nested JSON fields.",
+  "split": "tuning",
+  "question_ids": [
+    "DIR-02",
+    "PAR-01",
+    "ABS-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "plain_context"
+  ],
+  "planned_calls": 6,
+  "attempted_calls": 6,
+  "acceptance": "Both answerable cases require complete source-supported answers; the unsupported-premise case requires bounded abstention without unsupported prose. No critical regression. Only a passing focused diagnostic justifies the broader six-slice pilot; no direct promotion.",
+  "rejected_alternatives": [
+    "Remove provenance fields to reduce tokens",
+    "Use oracle reference passages as application retrieval",
+    "Change both context format and system instructions",
+    "Relax exact-quote or semantic requirements"
+  ],
+  "tradeoffs": [
+    "Human-readable field boundaries may aid use but are less formally separated than JSON",
+    "No metadata is discarded; source identities remain long and may still be copied incorrectly",
+    "Source text remains untrusted data under unchanged instructions"
+  ],
+  "heldout_exposure": "Explicit development cases only; no final inference or guaranteed blindness.",
+  "next_action": "Address the repeatedly observed long source-version/passage-ID confusion with request-local short citation aliases, retaining exact canonical source/quote validation and evaluating semantic quality separately.",
+  "raw_results_path": "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/results.json",
+  "review_path": "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/reviews.json",
+  "whole_answer_review_path": "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/whole-answer-review.json",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 12.824959833325314,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "plain_context",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 25.61746244466728,
+      "errors": 3,
+      "critical_failure_answers": 3
+    }
+  ],
+  "metrics_by_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "plain_context",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "plain_context",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "plain_context",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "quality_wins": [],
+  "regressions": [
+    "All three plain-context outputs are invalid; no complete answer improvement"
+  ],
+  "configuration_promoted": false,
+  "validation": {
+    "tests": 108,
+    "skipped": 0,
+    "completed_calls": 6,
+    "exit_code": 0
+  }
+}

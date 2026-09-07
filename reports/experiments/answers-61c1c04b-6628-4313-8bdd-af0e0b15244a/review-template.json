@@ -1,0 +1,56 @@
+{
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "a5953de93c1c1ba08d5735775b74a47cbb9348cea3cbdaaab21c9bd0191cbc36",
+  "reviews": [
+    {
+      "answer_id": "0e7521e2-dbee-437e-993e-c56f9f376364",
+      "record_hash": "eb907eddd32ac87ecad325998b89c699a2000d5ad269b485045aba3d7dd1091e",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "3a3e7442-5ac3-4d1d-89ca-2a6b267f9c73",
+      "record_hash": "55d7e0ffbb349e8c69f077916c1b7388d48fe2448a62c0308176ebd759f57452",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "b04901a0-b154-4370-9345-c57bdce07be0",
+      "record_hash": "297e664d9eec3b7c1f2bfc7efe312d39ebfab6089569e526a6d8b01b5d6bc07b",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "ca68c989-bccb-4742-8ad0-6849029649b6",
+      "record_hash": "d0f9c22f824b5e2863632b849637a08d58cd14bef4970e5f6bf78dbef0a7b478",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    }
+  ]
+}

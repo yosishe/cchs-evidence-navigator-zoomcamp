@@ -1,0 +1,346 @@
+{
+  "method": "Docker.raw allocated filesystem blocks, host filesystem free bytes, guest /proc/meminfo and Docker stats. These are sampled measurements, not continuous peak tracking.",
+  "sample_count": 231,
+  "sampled_peak_container_disk_bytes": 14772899840,
+  "sampled_min_host_free_bytes": 11283341312,
+  "last_disk_allocated_bytes": 14767337472,
+  "last_host_free_bytes": 12848226304,
+  "guest_sampled_peak_used_bytes": 6136156160,
+  "memory_samples": [
+    {
+      "at": "2026-09-07T13:12:10.460676+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 5238300672,
+      "container_stats": [
+        {
+          "BlockIO": "452MB / 28.7kB",
+          "CPUPerc": "1.07%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "5.45%",
+          "MemUsage": "541.3MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "218kB / 5.65MB",
+          "PIDs": "30"
+        },
+        {
+          "BlockIO": "85.2MB / 54.2MB",
+          "CPUPerc": "5.60%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.27%",
+          "MemUsage": "26.79MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "36.6kB / 33.9kB",
+          "PIDs": "6"
+        },
+        {
+          "BlockIO": "648MB / 2.38GB",
+          "CPUPerc": "0.00%",
+          "Container": "255d9baab0f6b2f0928db095fd23e81ad1f1dce3094b47c97fc8b85d4831ae2c",
+          "ID": "255d9baab0f6",
+          "MemPerc": "38.33%",
+          "MemUsage": "3.718GiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "2.46GB / 71.8MB",
+          "PIDs": "25"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-07T13:14:46.050343+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 6136156160,
+      "container_stats": [
+        {
+          "BlockIO": "452MB / 28.7kB",
+          "CPUPerc": "0.42%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "5.57%",
+          "MemUsage": "553.4MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "346kB / 5.77MB",
+          "PIDs": "36"
+        },
+        {
+          "BlockIO": "85.3MB / 54.5MB",
+          "CPUPerc": "0.00%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.27%",
+          "MemUsage": "26.64MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "49.7kB / 138kB",
+          "PIDs": "6"
+        },
+        {
+          "BlockIO": "648MB / 2.38GB",
+          "CPUPerc": "604.65%",
+          "Container": "255d9baab0f6b2f0928db095fd23e81ad1f1dce3094b47c97fc8b85d4831ae2c",
+          "ID": "255d9baab0f6",
+          "MemPerc": "46.62%",
+          "MemUsage": "4.523GiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "2.46GB / 71.8MB",
+          "PIDs": "30"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-07T13:16:57.099565+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 6135988224,
+      "container_stats": [
+        {
+          "BlockIO": "452MB / 45.1kB",
+          "CPUPerc": "1.24%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "5.51%",
+          "MemUsage": "547.6MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "604kB / 5.95MB",
+          "PIDs": "30"
+        },
+        {
+          "BlockIO": "85.3MB / 54.5MB",
+          "CPUPerc": "0.00%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.26%",
+          "MemUsage": "26.31MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "91.2kB / 380kB",
+          "PIDs": "6"
+        },
+        {
+          "BlockIO": "648MB / 2.38GB",
+          "CPUPerc": "0.01%",
+          "Container": "255d9baab0f6b2f0928db095fd23e81ad1f1dce3094b47c97fc8b85d4831ae2c",
+          "ID": "255d9baab0f6",
+          "MemPerc": "46.62%",
+          "MemUsage": "4.523GiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "2.46GB / 71.8MB",
+          "PIDs": "25"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-07T13:18:18.549823+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 958926848,
+      "container_stats": [
+        {
+          "BlockIO": "11.6MB / 0B",
+          "CPUPerc": "1.16%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "0.45%",
+          "MemUsage": "44.74MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "5.02kB / 3.26kB",
+          "PIDs": "5"
+        },
+        {
+          "BlockIO": "2.05MB / 61.4kB",
+          "CPUPerc": "0.04%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.20%",
+          "MemUsage": "19.74MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "1.21kB / 126B",
+          "PIDs": "6"
+        },
+        {
+          "BlockIO": "4.82MB / 0B",
+          "CPUPerc": "0.00%",
+          "Container": "255d9baab0f6b2f0928db095fd23e81ad1f1dce3094b47c97fc8b85d4831ae2c",
+          "ID": "255d9baab0f6",
+          "MemPerc": "0.22%",
+          "MemUsage": "21.61MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "19.1kB / 6.05kB",
+          "PIDs": "11"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-07T13:22:26.105157+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 5238513664,
+      "container_stats": [
+        {
+          "BlockIO": "153MB / 4.1kB",
+          "CPUPerc": "0.88%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "5.20%",
+          "MemUsage": "517MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "131kB / 62.6kB",
+          "PIDs": "30"
+        },
+        {
+          "BlockIO": "25MB / 573kB",
+          "CPUPerc": "0.01%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.42%",
+          "MemUsage": "41.87MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "9.31kB / 109kB",
+          "PIDs": "6"
+        },
+        {
+          "BlockIO": "1.88GB / 4.1kB",
+          "CPUPerc": "602.07%",
+          "Container": "255d9baab0f6b2f0928db095fd23e81ad1f1dce3094b47c97fc8b85d4831ae2c",
+          "ID": "255d9baab0f6",
+          "MemPerc": "37.48%",
+          "MemUsage": "3.636GiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "34.6kB / 12.5kB",
+          "PIDs": "26"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-07T13:24:57.990240+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 5332070400,
+      "container_stats": [
+        {
+          "BlockIO": "154MB / 20.5kB",
+          "CPUPerc": "2.38%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "5.21%",
+          "MemUsage": "517.5MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "216kB / 127kB",
+          "PIDs": "24"
+        },
+        {
+          "BlockIO": "26.6MB / 578kB",
+          "CPUPerc": "0.00%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.43%",
+          "MemUsage": "42.79MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "34.7kB / 185kB",
+          "PIDs": "6"
+        },
+        {
+          "BlockIO": "1.88GB / 4.1kB",
+          "CPUPerc": "0.01%",
+          "Container": "255d9baab0f6b2f0928db095fd23e81ad1f1dce3094b47c97fc8b85d4831ae2c",
+          "ID": "255d9baab0f6",
+          "MemPerc": "37.66%",
+          "MemUsage": "3.653GiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "37kB / 15.7kB",
+          "PIDs": "21"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-07T13:27:21.390566+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 5391839232,
+      "container_stats": [
+        {
+          "BlockIO": "160MB / 20.5kB",
+          "CPUPerc": "1.20%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "5.21%",
+          "MemUsage": "517.6MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "486kB / 242kB",
+          "PIDs": "24"
+        },
+        {
+          "BlockIO": "26.9MB / 578kB",
+          "CPUPerc": "0.08%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.44%",
+          "MemUsage": "43.57MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "46.7kB / 438kB",
+          "PIDs": "6"
+        },
+        {
+          "BlockIO": "1.88GB / 4.1kB",
+          "CPUPerc": "0.01%",
+          "Container": "255d9baab0f6b2f0928db095fd23e81ad1f1dce3094b47c97fc8b85d4831ae2c",
+          "ID": "255d9baab0f6",
+          "MemPerc": "37.64%",
+          "MemUsage": "3.652GiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "38.5kB / 18kB",
+          "PIDs": "21"
+        }
+      ]
+    },
+    {
+      "at": "2026-09-07T13:31:36.669113+00:00",
+      "guest_total_bytes": 10417176576,
+      "guest_used_excluding_available_bytes": 1464713216,
+      "container_stats": [
+        {
+          "BlockIO": "642MB / 0B",
+          "CPUPerc": "0.00%",
+          "Container": "147a2274a751d693b13e6c966856e3dbd6bb13764be13804acfb5f0450dcf7b4",
+          "ID": "147a2274a751",
+          "MemPerc": "0.23%",
+          "MemUsage": "22.89MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+          "NetIO": "872B / 126B",
+          "PIDs": "12"
+        },
+        {
+          "BlockIO": "160MB / 20.5kB",
+          "CPUPerc": "2.06%",
+          "Container": "f55a7a138f561f224411cb2cc0333f1e5b876c7361a3bb070962df0266cbbde3",
+          "ID": "f55a7a138f56",
+          "MemPerc": "5.21%",
+          "MemUsage": "517.5MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-app-1",
+          "NetIO": "490kB / 245kB",
+          "PIDs": "24"
+        },
+        {
+          "BlockIO": "26.9MB / 582kB",
+          "CPUPerc": "0.09%",
+          "Container": "87496ca7a7d36239def2caa24bf6abec5c6234d05c7f9f827cbbf168485b844d",
+          "ID": "87496ca7a7d3",
+          "MemPerc": "0.44%",
+          "MemUsage": "43.54MiB / 9.702GiB",
+          "Name": "cchs-zoomcamp-rehearsal-db-1",
+          "NetIO": "46.8kB / 438kB",
+          "PIDs": "6"
+        }
+      ]
+    }
+  ],
+  "all_project_samples_within_bounds": true,
+  "native_models_loaded_at_sample_times": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "installer_bytes_additional": 582430056,
+  "app_allocated_bytes_additional": 2308718592,
+  "old_empty_disk_allocated_bytes_retained": 11857920,
+  "capacity_note": "The retained empty original disk is counted conservatively in allocated container data. Its old sparse logical capacity is not the active 20 GiB disk."
+}

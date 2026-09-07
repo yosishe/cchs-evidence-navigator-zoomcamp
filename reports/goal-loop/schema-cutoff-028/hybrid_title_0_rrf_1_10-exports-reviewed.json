@@ -1,0 +1,34 @@
+[
+  {
+    "answer_id": "37fb4a98-f470-4d99-92db-a80bd4525558",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    },
+    "hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c"
+  },
+  {
+    "answer_id": "be3f0b16-329c-47a2-9c97-ce57a7f98bfa",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    },
+    "hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c"
+  },
+  {
+    "answer_id": "55e2d97e-b858-4090-9db1-2e9fa5ec3a17",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    },
+    "hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c"
+  },
+  {
+    "answer_id": "d12dd7f6-6bdc-4d9a-956b-e6fd79642cb8",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    },
+    "hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c"
+  }
+]

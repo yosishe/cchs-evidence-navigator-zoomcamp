@@ -1,0 +1,112 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "492dd4d589bee515c7c6c3e7a45e8bb61f74d30d1c5c4417299a2d159e92214c",
+  "reviews_hash": "c68b4faaf559956561727a63afbeeab5cab69f6f385c9f953a8f93077ceafc2f",
+  "reviewer": "Codex source-based provisional model-comparison review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "prototype_source_attached",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 8.05538961099713,
+      "errors": 3,
+      "critical_failure_answers": 3
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_source_attached",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "8781d322-f135-4138-b945-e24fdf7a0380",
+      "prompt": "prototype_source_attached",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The model returns sufficient_evidence, outside the frozen status enum, and is rejected. It repeats the patient count but omits the period; its second claim is attached to E4 (Italian aims passage 17), although its wording comes from passage 54 (E3).",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The model returns sufficient_evidence, outside the frozen status enum, and is rejected. It repeats the patient count but omits the period; its second claim is attached to E4 (Italian aims passage 17), although its wording comes from passage 54 (E3). The displayed prototype failure is accurate and no claim rows are exported. Raw model errors remain preserved; no application integration or promotion occurred.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "e5c5b4c6-f9f0-4651-85e6-7dc556ce58a5",
+      "prompt": "prototype_source_attached",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The invalid sufficient_evidence status is rejected. The raw statements give generic methodology/findings instead of the requested retrospective design and electronic records, and the limitations falsely deny study-design information present in Italian passages 19/68.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The invalid sufficient_evidence status is rejected. The raw statements give generic methodology/findings instead of the requested retrospective design and electronic records, and the limitations falsely deny study-design information present in Italian passages 19/68. The displayed prototype failure is accurate and no claim rows are exported. Raw model errors remain preserved; no application integration or promotion occurred.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "dc80bcc6-f3c1-4531-82af-499c21352918",
+      "prompt": "prototype_source_attached",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The invalid status is rejected. Raw claims invent a randomized gene-editing intervention, confuse the 2021 primary paper with the 2022 review, assign several claims to wrong passages, and reduce the parental-mosaicism range to an unsupported up-to-10-percent statement. No final claim can be accepted.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The invalid status is rejected. Raw claims invent a randomized gene-editing intervention, confuse the 2021 primary paper with the 2022 review, assign several claims to wrong passages, and reduce the parental-mosaicism range to an unsupported up-to-10-percent statement. No final claim can be accepted. The displayed prototype failure is accurate and no claim rows are exported. Raw model errors remain preserved; no application integration or promotion occurred.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "59115da71543932c93a307c22516b8930def45fe6a73b0dc1ed70cd128dde1fe",
+  "whole_answer_reviewer": "Codex source-based provisional model-comparison review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

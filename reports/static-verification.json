@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-09-05T18:13:52.611285+00:00",
+  "status": "PASS_STATIC_ONLY",
+  "checked_project_files": 62,
+  "local_markdown_links_checked": 83,
+  "code_and_config_sha256": {
+    "Dockerfile": "a133b3d0249cec02db12704bcb2d5f82c1d77e012af7420f3d781d2a1fb76425",
+    "app.py": "e60b48d037a0aa4ae9de1e78f6ac9d2bb028c9d21f3ce850e2afb9f5ffdca702",
+    "compose.yaml": "264a976369f7d96fca92cb4a30d3fc344e0d60b6cbae75f289a62558dbb94bd7",
+    "configs/app.json": "fde30e0b65abaa04205bfddcfcc0e3eede21628e001ec976b5fbf5a837adcd7c",
+    "data/evaluation/questions.json": "17453afccfca77194a334fd2a64f60a242c948ae4a0bd5405967e91eeeff5da6",
+    "data/manifest.json": "5cb22c98c9565e8c0af3c80e186eb4b1b0466f367fe2bd1c1f9dcdd5f002c732",
+    "navigator/__init__.py": "a320e014a49daf30c7c5813fd3a819b27d354208fafc012006a1d00df3faf354",
+    "navigator/__main__.py": "12604d65627b176fea5d8cad3699798845040296d4b1a1aeaac73e8524504221",
+    "navigator/common.py": "4ec780d2372b58ecb42bc3acce9e114f1a4f0ef8a5128df2f25c18a2c9389fbd",
+    "navigator/corpus.py": "5684e95ea10caee5d17584429731c5c64c7eb0b74a10c8cacdb3fc7b0346b864",
+    "navigator/evaluation.py": "c7a34338b3e57083db39403134138ae5ecd268594127a9a5c07d9e7c13da1f11",
+    "navigator/rag.py": "2ccc64a71ab7f18dcae3ad47c8783aaee468baee3a75c9a1065d040e3fa83cc2",
+    "navigator/retrieval.py": "0862f0faac7bf56bcf640763740831442bb332eee5afc4ec296d42d03f41232a",
+    "navigator/storage.py": "4c92af4e14072326d82f128eaec6f5e104416c6c5ee4d2c4bef9fcd920bc6d4d",
+    "requirements-vectors.lock": "acbbf27060246c527e105470eaab33712f0050a5d56327dd5b1dc2097d6a69ca",
+    "requirements.lock": "9411777a8fefdd0174fc68b5b1f12852821df33b14602f592dac2f741fba9ffa",
+    "tests/test_contracts.py": "4912f49e0d8b0e73cd2e05ff00ffff76602cdf8ba8a01d256a513e561d081635",
+    "tests/test_runtime.py": "d255a8e9dfa5893c969336768711ca55bc1d42d04f0abd3e13ec29bff623de19",
+    "tools/run_checks.py": "9734f8c7ab67775f5f9393342bcdc15efebdbf20a9e32032ed54d9889b701432",
+    "tools/verify_retrieval.py": "862a5e27bfb9b56e416f2b50e40e2c56637829845263c6b43045760c533d5218",
+    "uv.lock": "4c425edf549d5d9c18bb96fbad9b63cbfbe7107c23eafed0ec4bccb160dc2ffb"
+  },
+  "json_and_python_syntax": "PASS",
+  "potential_secret_scan": "No matches in selected tracked/unignored files; pattern scan is not an absolute secret-detection guarantee.",
+  "compose": "YAML/service dependency/localhost/mount configuration inspected; not built or run.",
+  "container_version_limit": "Python base tag is 3.12-slim and PostgreSQL 17.6; registry image digests not resolved or tested.",
+  "active_config_matches_measured_selected_reports": true,
+  "source_guides_unchanged": {
+    "course-project-decision-guide.en.md": true,
+    "cchs-evidence-navigator-project-brief.en.md": true
+  },
+  "teaching_checkout_clean_at_pinned_commit": true,
+  "all_acquired_raw_source_hashes_match_manifest": true,
+  "raw_source_count": 4,
+  "chunk_count": 411,
+  "errors": []
+}

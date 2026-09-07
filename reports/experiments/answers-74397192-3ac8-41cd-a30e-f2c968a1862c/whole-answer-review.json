@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "d0bc9a6e1e84b80dfa15f1af71086e239dc1d04abe5bcaa61d1ca46fb02d5f6d",
+  "reviews": [
+    {
+      "answer_id": "22f47f35-7166-4557-9eff-cad31a6af30c",
+      "record_hash": "0b9c84c976bd68ec55b572b002d4110e81bb028ec0a5f5171fade38af73eaaf2",
+      "export_hash": "77b3499d13ac29603783a1ab42cde88f419aff3744c228d64e44396227d5bbd0",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present."
+    },
+    {
+      "answer_id": "438b94cb-88d1-4bba-9a9f-c75af4014c07",
+      "record_hash": "0077da47ea3d3367f00604f25d79a010a4460d0590ae09538843bfeed5f44c6f",
+      "export_hash": "390b59b81835a92c4fd767aaacb88739dc22f90730aab2865d19f0d6c1a841b2",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The abstract and methods explicitly state the retrospective 22-patient cohort and 2000-2020 period. Extra cohort and diagnosis-age sentences are unnecessary but correctly remain attributed to the same study; no inferred population or causal claim is added."
+    },
+    {
+      "answer_id": "fb2668a2-b687-4379-87fe-109a2965eabe",
+      "record_hash": "92e577dde48ce61fcc12716505dfcc21cc2a206ff65acaf3da14b2fd12148bd8",
+      "export_hash": "8f90fe0201862b686282f48c75adba80e10b19864081d5129bad8dc13b4ca700",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The selected abstract establishes retrospective design. The available electronic-medical-record methods excerpt is omitted; this source-backed but incomplete answer fails the original task requirements."
+    },
+    {
+      "answer_id": "7ffe10cd-8cc7-49d4-9da6-f24923436c76",
+      "record_hash": "aee35fc97e0501b9f57806b583b30d1827465434f85a168474898ad32ce38732",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The needed guideline evidence-grade/blended-experience paragraph is absent from this fixed retrieved context. Corpus-scoped refusal is justified for these passages, but the frozen answerable task remains a retrieval/completeness failure."
+    },
+    {
+      "answer_id": "291447ff-17dc-4f16-bf1e-a4ca2b21bb21",
+      "record_hash": "69f003e666613ec03007106d57eddafa4bb81135d83be34aa17bff4d0ec45110",
+      "export_hash": "cf4d6eb69763e8c8336a1fe145fc3489708dadb93fd31acb67297d8effe7955a",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The selected 2022 review sentence explicitly states chromosome 4p12 and three exons, preserving the reported amino-acid count and review attribution. No generated paraphrase or source identity is substituted."
+    },
+    {
+      "answer_id": "a5142aec-8b02-44aa-a5ba-0a4bbe99bd3d",
+      "record_hash": "e80df2b70561d37ce41f305126304625d0a87aab816b4154d431c0bd8d0e9c87",
+      "export_hash": "a1f4f5a3aa06fcb76ea6d884866efea46224628fd2b7e6998d136056ac4eaf94",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The original Italian molecular-results sentence includes all three requested identifiers, 20/25, 20/26 and 20/27, with the unchanged cohort denominator and proportions."
+    },
+    {
+      "answer_id": "eec51a9b-f061-4611-bef0-9f0122d3284e",
+      "record_hash": "b11e2ba39fb2ac95863892359bd7e8345480756a2cab8bf820fd3cc84e75f2ec",
+      "export_hash": "a3117b4701c676773c5ff8046ed2a47f5ac86c3530752303cf0e3fc41d6d3c34",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The Italian retrospective-data sentence and guideline evidence/clinical-experience blend are both selected and separately attributed. Several funding/unit/background sentences make this verbose, but the requested contrast and source qualifications remain intact; no inferred agreement or pooled estimate is asserted."
+    },
+    {
+      "answer_id": "68a7b2ea-e377-44ab-aa59-0c6283f76188",
+      "record_hash": "5a9b37206f49b510a949569d50dbc829365bc6f1b7b24dd78b352106d1a0b508",
+      "export_hash": "3866fa25aeadd8e53f3a88b32c61231d5a51b94890f7dea75d321aaae6bf1dd4",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The Italian 86% result is present. Review common-genotype and NPARM-10% excerpts do not supply the requested PARM-90% figure; no complementary percentage may be inferred. Source-type metadata is retained but does not deliver the required small-cohort/different-evidence-base caution."
+    },
+    {
+      "answer_id": "85ce468d-3b4d-46e5-be30-14dc66e57aa9",
+      "record_hash": "a8fb1deb1814d6ec6472ab2cf507156fa5509ecb772226d43b2b5aa0796af62e",
+      "export_hash": "0a3ee02d22e0b744600dab965e38396c3c802582d5ee01aeac62301368489827",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unrelated ventilator-adjustment guidance is presented as the answer to a genetic-association qualification question."
+      ],
+      "acceptable": false,
+      "reason": "The sole selected excerpt concerns when parents may adjust ventilator settings under some healthcare systems. It neither states inconsistency of the repeat-length/continuous-ventilation relation nor its exceptions. Literal source copying does not justify this misleading task/context substitution; mark it critical rather than count an authentic quote as useful."
+    },
+    {
+      "answer_id": "e60cb20d-d8d3-4857-a428-f8be0f1e2389",
+      "record_hash": "fa7d16b29bb9b4ff8cbc2e0c88b72b409ccca00c75aa8e6a0b770978c6d54a4c",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The supplied Italian limitations passage explicitly describes retrospective design and population heterogeneity. Generic refusal avoids a false causal claim but omits both the requested design answer and qualification."
+    },
+    {
+      "answer_id": "316a180d-8049-4d83-a09c-d9cfea8e1979",
+      "record_hash": "7125bfebbb64928489c4561fcd519373d15f318ed57b7b03faf8166bf23138e6",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The generic refusal remains scoped to the supplied passages and adds no randomized-intervention premise or claim/tag export."
+    },
+    {
+      "answer_id": "feb0343a-4acb-4943-939d-d251c3026471",
+      "record_hash": "14d13505cf4a9c002309dbcef81a13e16af1c869dad957faa1b9ac1fa2f8db1c",
+      "export_hash": "910dde5aa41afba69e049270090226dc1a112beb904a7517b6153554845b62fe",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The returned cohort-method excerpt is true but supplies no transcriptomic accession. This is an incorrect answered status and an irrelevant response to an unanswerable corpus question. It does not invent a downloadable accession or fabricate dataset metadata; nevertheless it fails the original abstention rule."
+    }
+  ]
+}

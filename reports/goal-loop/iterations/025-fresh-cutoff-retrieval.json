@@ -1,0 +1,51 @@
+{
+  "iteration_id": "025",
+  "created_at": "2026-09-06T14:02:12.990558+00:00",
+  "status": "EXECUTED_REVIEWED",
+  "decision": "REVISE",
+  "official_points": null,
+  "runtime_code_id": "aec7fed7035ba48093c0f17f865e5be36a34f2c4c3247d61473da8face2f7f05",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "expected_result_path": "reports/goal-loop/retrieval-cutoff-capacity-024.json",
+  "expected_result_hash": "3b2275158bb5a58a383c9ad8d5d28c5af7318dd7fba6b80ccc45c653f87cce2d",
+  "split": "tuning",
+  "questions": 42,
+  "answerable_denominator": 35,
+  "candidates": [
+    {
+      "method": "vector",
+      "cutoff": 10
+    },
+    {
+      "method": "hybrid_title_0_rrf_1",
+      "cutoff": 10
+    }
+  ],
+  "planned_retrieval_queries": 84,
+  "planned_model_calls": 0,
+  "course_source": "Module 2 minsearch vector retrieval and cohorts/2026/04-evaluation/homework.md Q6/Using this framework, pinned bc7b6aad6b92a5611d3d37bf7521a363f3b9d398.",
+  "purpose": "Verify that the actual Retriever reconstructs the eligible saved-rank cutoff candidates, not merely a diagnostic calculation. Measure setup/search and serialized application-context size separately; character counts are not model tokens or context-fit proof.",
+  "controls": "Unchanged source/corpus, frozen development questions/references, encoder model/revision/device/normalization/text, filters, generation settings and active config. Separate retriever initialization per candidate; model-cache access is local-only. Each candidate gets its stated cutoff; hybrid gets title0 and RRF1 exactly as the replay, with candidate depth20.",
+  "acceptance": "All 84 returned ID lists and metrics match replay exactly. No missing/duplicate question rows. Verify encoder resolution/corpus/zero-truncation reports. Each known no-loss candidate remains only eligible for downstream model-capacity/answer comparison; a mismatch triggers investigation, never rewriting expected data. No promotion or claim of full core readiness.",
+  "failure_policy": "Retain partial rows and failure type, terminal status and actual query attempts. No retries or concurrent duplicate run after timeout. Do not run missing-model downloads.",
+  "output_directory": "reports/goal-loop/fresh-retrieval-025",
+  "context_fit": "Unproven; do not convert characters to assumed model tokens.",
+  "heldout_exposure": "42 development questions only; final bank previously readable/validated but no final inference/selection.",
+  "next_action": "Predeclare an eight-call ordinary application pilot on DIR-01, PAR-01, COM-01 and ABS-01: both verified cutoff-ten retrieval policies, same existing Phi3 model, evidence_first prompt and output budget. Reuse matching baseline receipts, verify request/config identities and retain primary plus whole-answer review. No promotion from retrieval alone.",
+  "completed_at": "2026-09-06T14:10:30.280907+00:00",
+  "actual_retrieval_queries": 84,
+  "actual_model_calls": 0,
+  "result_path": "reports/goal-loop/fresh-retrieval-025/results.json",
+  "result_hash": "0bf58085f10305b09db785652e3915487d20395187f6ac07ac93fd36ef692491",
+  "analysis_path": "reports/goal-loop/retrieval-cutoff-capacity-024.md",
+  "runtime_promoted": false,
+  "process_observation": {
+    "tool_session_id": 6221,
+    "exit_code": 0,
+    "terminal": true,
+    "observed_completed_at": "2026-09-06T14:04:01.357650+00:00"
+  },
+  "outcome": "All 84 fresh offline queries match saved IDs, reference coverage and metrics exactly. Both encoder reports match the pinned revision and corpus with zero truncated inputs. Vector@10 fully covers 20/35, hybrid-title0-RRF1@10 covers 25/35, both versus active vector@5 at 18/35. Hybrid@10 loses LIM-07 partial coverage versus vector@10. No generation or actual model-token context-fit proof."
+}

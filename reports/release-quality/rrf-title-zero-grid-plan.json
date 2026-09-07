@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-06T22:49:14.489696+00:00",
+  "source_hash": "09316dc629991a4a10daa080aac2bd3ff11b6e2ead32e7ae6ddeaf7e29430482",
+  "constants": [
+    1,
+    5,
+    10,
+    20,
+    50
+  ],
+  "scope": "42 frozen development candidate pools; rank replay only, no fresh search/model calls. Compare intermediate RRF constants to resolve the observed coverage-vs-PAR-01 loss.",
+  "decision_rule": "Prefer maximum mean reference coverage among candidates with no annotated coverage loss versus active vector/5; then full coverage, then retain the simpler previously tested constant on ties. This is provisional retrieval selection, not answer readiness.",
+  "promotion": "NONE until fresh chosen retrieval and paired generation prove the complete contract."
+}

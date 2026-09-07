@@ -1,0 +1,112 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "2ba245998ced6b57685c6d6c1fc110d48059795d4fb667d182668867efc05dd6",
+  "reviews_hash": "9dce6394cedabe430458a3cef98ea10efd5c7bca964ca9eb2b5b7a75811f35c2",
+  "reviewer": "Codex source-based provisional prototype review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "prototype_draft_format",
+      "evaluated_questions": 3,
+      "acceptable_answers": 1,
+      "acceptable_rate": 0.3333333333333333,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 44.04294105633744,
+      "errors": 2,
+      "critical_failure_answers": 2
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "prototype_draft_format",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 1,
+      "acceptable_rate": 1.0
+    },
+    {
+      "prompt": "prototype_draft_format",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_draft_format",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "95b8f256-efa4-4479-b0c4-a64522176c8e",
+      "prompt": "prototype_draft_format",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The draft count and period are carried into raw claims, but the period claim cites Italian passage 68 and quotes a sentence absent there; the actual period is in passage 19. The validator correctly blocks the full output. Added population-not-well-defined prose is not an established source limitation.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The draft count and period are carried into raw claims, but the period claim cites Italian passage 68 and quotes a sentence absent there; the actual period is in passage 19. The validator correctly blocks the full output. Added population-not-well-defined prose is not an established source limitation. Current export adapters produce no claim rows for these error/nonanswer records. Displayed failure messages are accurate; unsafe raw outputs are retained as failures. This is a nonpromotable prototype, not the deployed application.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "711e7657-7e02-4675-a2bb-5931980d45a8",
+      "prompt": "prototype_draft_format",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The formatting turn propagates the malformed draft period and uses full source-version strings as passage IDs. It produces altered quotations and reaches the 900-token limit. No claims can be accepted or exported, despite some required facts appearing in raw text.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The formatting turn propagates the malformed draft period and uses full source-version strings as passage IDs. It produces altered quotations and reaches the 900-token limit. No claims can be accepted or exported, despite some required facts appearing in raw text. Current export adapters produce no claim rows for these error/nonanswer records. Displayed failure messages are accurate; unsafe raw outputs are retained as failures. This is a nonpromotable prototype, not the deployed application.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "08bfdde6-b685-4457-abae-bdb3e5fd5274",
+      "prompt": "prototype_draft_format",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The final output correctly states that the supplied passages do not report outcomes of the requested randomized gene-editing intervention. It describes the corpus gap without asserting the intervention occurred; the genetic/management scope is consistent with the supplied publications. No unsupported added findings remain.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The final output correctly states that the supplied passages do not report outcomes of the requested randomized gene-editing intervention. It describes the corpus gap without asserting the intervention occurred; the genetic/management scope is consistent with the supplied publications. No unsupported added findings remain. Current export adapters produce no claim rows for these error/nonanswer records. Displayed failure messages are accurate; unsafe raw outputs are retained as failures. This is a nonpromotable prototype, not the deployed application.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "e646fc318df2109b7d495d9b70ff0ad4fb2003e57d117d7866de876df27901ab",
+  "whole_answer_reviewer": "Codex source-based provisional prototype review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

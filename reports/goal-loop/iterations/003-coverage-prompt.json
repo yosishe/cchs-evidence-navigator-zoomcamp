@@ -1,0 +1,183 @@
+{
+  "created_at": "2026-09-06T10:41:24.825235+00:00",
+  "status": "REJECTED_AFTER_COMPLETE_PILOT",
+  "decision": "REJECT",
+  "official_points": null,
+  "baseline_commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+  "candidate_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "evaluator_version": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+  "model_digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+  "hypothesis": "Explicit coverage, copy-exact citation and premise-handling instructions will reduce incomplete/invalid responses without introducing unsupported prose.",
+  "changed_dimension": "Prompt only within the paired comparison. Both arms share current accounting and whole-answer enforcement.",
+  "course_source": [
+    "01-agentic-rag prompt/context composition",
+    "04-evaluation paired prompt comparisons",
+    "cohorts/2024/02-open-source/qa_faq.py local Phi3"
+  ],
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "adaptation": "Original task-specific coverage instructions, not a course medical method",
+  "split": "tuning",
+  "question_ids": [
+    "DIR-01",
+    "DIR-02",
+    "ABS-01",
+    "PAR-01",
+    "EXA-01",
+    "COM-01",
+    "LIM-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "coverage_first"
+  ],
+  "planned_calls": 14,
+  "attempted_calls": 14,
+  "acceptance": "Candidate must yield more fully acceptable answers than the incumbent with no new visible unsupported claims/prose, source-identity failure or qualification loss. Review all seven paired questions and all six slices. A viable pilot only justifies a full 42-question comparison, never promotion.",
+  "critical_failure_handling": "Invalid raw output stays a failure even when blocked before display. Record raw fabricated IDs separately; do not reward mere syntactic validity.",
+  "heldout_exposure": "No final-set inference; file readable and validated earlier, not guaranteed unseen. Only explicit development questions inspected for this pilot.",
+  "rejected_alternatives": [
+    "Increase output budget: different causal dimension",
+    "Switch model before evaluating explicit prompt instructions",
+    "Relax exact citations or required facts",
+    "Retry failed answers until favorable"
+  ],
+  "tradeoffs": [
+    "Longer input instructions consume additional tokens and could distract the small model",
+    "Completeness can require longer output, but the 900-token limit remains fixed",
+    "No asserted accuracy threshold or statistical significance"
+  ],
+  "raw_results_path": "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/results.json",
+  "review_path": "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/reviews.json",
+  "whole_answer_review_path": "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/whole-answer-review.json",
+  "next_action": "Compare the already installed taught Gemma 2B on these same frozen contexts and prompt alternatives. Do not promote the failed Phi3 candidate or broaden it to the full development set.",
+  "execution_session": 45137,
+  "metrics_by_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 22.4663772738547,
+      "errors": 3,
+      "critical_failure_answers": 4
+    },
+    {
+      "prompt": "coverage_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 31.97695857142805,
+      "errors": 5,
+      "critical_failure_answers": 3
+    }
+  ],
+  "quality_wins": [],
+  "regressions": [
+    "DIR-02 candidate introduces unsupported population characterization",
+    "Malformed/invalid response count increases from 3/7 to 5/7",
+    "LIM-01 candidate reaches the unchanged 900-token budget"
+  ],
+  "configuration_promoted": false,
+  "validation": {
+    "software_tests": 106,
+    "skipped": 0,
+    "generation_exit_code": 0,
+    "completed_generation_calls": 14,
+    "all_outputs_source_reviewed": true
+  }
+}

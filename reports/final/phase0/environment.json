@@ -1,0 +1,133 @@
+{
+  "phase": "0-preflight",
+  "created_at": "2026-09-06T07:52:14+00:00",
+  "created_by": "Claude examiner session; model downloads executed with the owner's explicit approval given at 10:40 Asia/Jerusalem",
+  "status": "RUNTIME_METADATA_READY",
+  "scope": "Local setup metadata and receipts only. No generation call, no Docker, no commit, push, publication or submission.",
+  "owner_gates": {
+    "model_downloads": "APPROVED_AND_EXECUTED (phi3 at 10:47, gemma:2b at 10:51 Asia/Jerusalem; both exit code 0)",
+    "docker_install": "PENDING_OWNER (docker binary absent)",
+    "gemma3_12b_fallback": "NOT_APPROVED (default no; outside constraints C01/C02)",
+    "cloud_deployment": "NOT_APPROVED (default no)",
+    "push_visibility_submission": "NOT_APPROVED"
+  },
+  "host": {
+    "os": "macOS 26.6.2 (Darwin 25.6.0)",
+    "architecture": "arm64",
+    "python": "3.12.14",
+    "uv": "0.12.3",
+    "docker": "absent",
+    "disk_free_after_pulls": "51 GiB"
+  },
+  "ollama": {
+    "cli_version": "0.31.1",
+    "server_version": "0.31.1",
+    "release_note": "0.31.1 is the 30 June 2026 release; CLI and server match. The earlier external suspicion of a version mismatch and of a 2024-era image is withdrawn.",
+    "endpoint": "http://localhost:11434",
+    "loaded_models_at_preflight": [],
+    "loaded_context_window": null,
+    "context_note": "Nothing was loaded at preflight, so the effective window was not observed. Ollama documents a 4096 default unless OLLAMA_CONTEXT_LENGTH is set. Phase 2 must read GET /api/ps after the first generation call and record the loaded window; Compose should set OLLAMA_CONTEXT_LENGTH explicitly."
+  },
+  "models": [
+    {
+      "name": "phi3:latest",
+      "role": "configured candidate (configs/app.json model=phi3)",
+      "course_source": "cohorts/2024/02-open-source/qa_faq.py (pinned teaching commit bc7b6aad)",
+      "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+      "size_bytes": 2176178913,
+      "family": "phi3",
+      "parameter_size": "3.8B",
+      "parameter_count": 3821079648,
+      "quantization_level": "Q4_0",
+      "architecture_context_length": 131072,
+      "rope_scaling_original_context_length": 4096,
+      "embedding_length": 3072,
+      "stop_tokens": ["<|end|>", "<|user|>", "<|assistant|>"],
+      "capabilities": ["completion"],
+      "pulled_at": "2026-09-06T10:47:54+03:00",
+      "pull_exit_code": 0
+    },
+    {
+      "name": "gemma:2b",
+      "role": "optional second candidate (ADR11: one-model route first)",
+      "course_source": "cohorts/2024/02-open-source/homework.md (pinned teaching commit bc7b6aad)",
+      "digest": "b50d6c999e592ae4f79acae23b4feaefbdfceaa7cd366df2610e3072c052a160",
+      "size_bytes": 1678456656,
+      "family": "gemma",
+      "parameter_size": "3B (Ollama label; general.parameter_count 2506434560)",
+      "parameter_count": 2506434560,
+      "quantization_level": "Q4_0",
+      "architecture_context_length": 8192,
+      "embedding_length": 2048,
+      "stop_tokens": ["<start_of_turn>", "<end_of_turn>"],
+      "repeat_penalty": 1,
+      "capabilities": ["completion"],
+      "pulled_at": "2026-09-06T10:51:42+03:00",
+      "pull_exit_code": 0
+    },
+    {
+      "name": "gemma3:12b",
+      "role": "pre-existing on this host; NOT a course model; excluded by C01/C02 unless the owner opens that gate",
+      "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+      "size_bytes": 8149190253
+    }
+  ],
+  "repository": {
+    "head": "4fc74d7b7ec9850312d8f3d9b787f7f4aa08bd0a",
+    "remote": "https://github.com/yosishe/cchs-evidence-navigator (PRIVATE)",
+    "status_entries": 69,
+    "uncommitted_remediation": true,
+    "runtime_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011"
+  },
+  "configuration": {
+    "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "windows": 377,
+    "model": "phi3",
+    "provider": "ollama",
+    "retrieval": "vector",
+    "json_mode": true,
+    "request_timeout_seconds": 120,
+    "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED"
+  },
+  "encoder": {
+    "status": "ENCODER_READY (offline check, no download)",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "resolved_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dimensions": 384,
+    "max_sequence_length": 256,
+    "truncated_input_count": 0,
+    "input_count": 377,
+    "vectors_persisted": false,
+    "receipt": "runtime/encoder-preparation.json (gitignored)",
+    "run_at": "2026-09-06T07:49:42+00:00"
+  },
+  "checks": {
+    "suite": "tools/run_checks.py (HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1)",
+    "result": "LOCAL_SUITE_PASS_EXTERNAL_GATES_PENDING",
+    "tests": 98,
+    "passed": 98,
+    "skipped": 0,
+    "run_at": "2026-09-06T07:42:43+00:00",
+    "note": "Run before the downloads; no code changed afterwards. Mocked SDK responses and AppTest are not model-quality or browser proof."
+  },
+  "repo_preflight": {
+    "command": "python -m navigator check-runtime",
+    "status": "RUNTIME_METADATA_READY",
+    "run_at": "2026-09-06T07:52:13+00:00",
+    "receipt": "runtime/runtime-preflight.json (gitignored)",
+    "blockers": [],
+    "warnings": []
+  },
+  "not_performed": [
+    "generation call",
+    "context-window probe",
+    "Docker installation or Compose build",
+    "commit",
+    "push",
+    "visibility change",
+    "submission"
+  ],
+  "next": "Phase 1 open item (empirical context probe and receipt warning), then the Phase 2 pilot: evaluate-answers --max-questions 6 with phi3 and two prompts; Docker installation remains an owner action for Phase 7."
+}

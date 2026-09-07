@@ -1,0 +1,239 @@
+{
+  "status": "REVIEWED_INCOMPLETE_NO_SELECTION",
+  "results_hash": "35bb9ae432fe2c0b9b9ef29f691089155e696642a23db4ca4fbec611c5ed7fd7",
+  "reviews_hash": "8818a114313b1d330d79684a8129a2dd18581029bdfe54ac0cc4315ee99794ea",
+  "reviewer": "Codex goal baseline audit",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "concise",
+      "evaluated_questions": 5,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 27.674753908600543,
+      "errors": 5
+    },
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 4,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 14.131908926996402,
+      "errors": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "concise",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "concise",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "concise",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "concise",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "concise",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "190dabb2-65a3-490d-b2d4-847d3be00f9f",
+      "prompt": "concise",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Rejected actual output: Unknown evidence ID or quote absent from cited passage. No generated claim is displayed. Required answer facts are not delivered."
+    },
+    {
+      "question_id": "DIR-01",
+      "answer_id": "be023886-32b0-47f7-a00d-58796762e3b0",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Abstains instead of providing the two required aims. The labeled reference passage is absent from top 5. Conservative context handling is still an end-to-end failure for this answerable question."
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "7c440916-a9d2-4840-a3f5-7e7558775bed",
+      "prompt": "concise",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Rejected actual output: Unknown evidence ID or quote absent from cited passage. No generated claim is displayed. Required answer facts are not delivered."
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "26ce7aaa-beda-472e-8111-54d836108aa6",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Correct empty-claim abstention status, but limitations presuppose a randomized intervention was reported by the Italian study. That premise is unsupported; whole-answer abstention is not acceptable."
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "b37b0243-4ead-42b4-9cac-a2cd0b811740",
+      "prompt": "concise",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Rejected actual output: Unexpected or missing answer fields. No generated claim is displayed. Required answer facts are not delivered."
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "bef3fbdb-4660-412a-ad94-7309b9b1d9d5",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Abstains instead of identifying the retrospective examination of patient records and rejecting the randomized-experiment alternative. Required facts are missing."
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "403b7332-5795-4a3d-963f-55938d5b1e3f",
+      "prompt": "concise",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Rejected actual output: Unknown evidence ID or quote absent from cited passage. No generated claim is displayed. Required answer facts are not delivered."
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "fed0d63b-9674-4fb7-b162-29602a9c91f5",
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Rejected actual output: Unknown evidence ID or quote absent from cited passage. No generated claim is displayed. Required answer facts are not delivered."
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "2a765afd-5c96-4c94-81ae-65c9bed9a090",
+      "prompt": "concise",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Rejected actual output: Unterminated string starting at: line 30 column 18 (char 2317). No generated claim is displayed. Required answer facts are not delivered. Receipt reached 900 output tokens with finish_reason=length; not a request-timeout observation."
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review."
+}

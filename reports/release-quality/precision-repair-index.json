@@ -1,0 +1,81 @@
+{
+  "status": "EXECUTED_AWAITING_AGENT_REVIEW",
+  "created_at": "2026-09-06T23:15:20.448062+00:00",
+  "plan_hash": "4264fd93da903fe728cde5bc3b51b1df3d133a7a77b012da34fd370865962b46",
+  "arms": [
+    {
+      "arm": "repair-numbered-control",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json",
+      "actual_attempts": 12,
+      "after": {
+        "observed_at": "2026-09-06T23:30:07.541675+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "gemma3:12b",
+              "model": "gemma3:12b",
+              "size": 7809332673,
+              "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma3",
+                "families": [
+                  "gemma3"
+                ],
+                "parameter_size": "12.2B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-09-07T02:35:07.367487+03:00",
+              "size_vram": 7809332673,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    },
+    {
+      "arm": "repair-numbered-precise",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json",
+      "actual_attempts": 12,
+      "after": {
+        "observed_at": "2026-09-06T23:48:09.443192+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "gemma3:12b",
+              "model": "gemma3:12b",
+              "size": 7809332673,
+              "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma3",
+                "families": [
+                  "gemma3"
+                ],
+                "parameter_size": "12.2B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-09-07T02:53:09.312809+03:00",
+              "size_vram": 7809332673,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "actual_attempts": 24,
+  "planned_attempts": 24
+}

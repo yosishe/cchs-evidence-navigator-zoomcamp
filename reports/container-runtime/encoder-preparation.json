@@ -1,0 +1,22 @@
+{
+  "status": "ENCODER_READY",
+  "started_at": "2026-09-07T12:18:28.871397+00:00",
+  "completed_at": "2026-09-07T12:26:30.367991+00:00",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "embedding": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "resolved_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "dimensions": 384,
+    "normalization": "L2",
+    "max_sequence_length": 256,
+    "truncated_input_count": 0,
+    "input_count": 377,
+    "device": "cpu",
+    "text_template": "title_content",
+    "allow_download": true,
+    "cache_directory": "/app/runtime/models",
+    "vectors_persisted": false
+  }
+}

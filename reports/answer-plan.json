@@ -1,0 +1,311 @@
+{
+  "status": "PLANNED_NOT_EXECUTED",
+  "split": "tuning",
+  "runtime_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011",
+  "questions": [
+    {
+      "schema_version": 2,
+      "id": "DIR-01",
+      "slice": "direct",
+      "group_id": "DIR-01",
+      "split": "tuning",
+      "question": "What were the two stated aims of the Italian center study?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "quote": "to describe the genotypes and the clinical findings",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 17,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "quote": "to highlight the changing strategy in the management of these patients over time",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 17,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Describe genotypes and clinical findings.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Describe management changes over time.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-01",
+      "slice": "absent",
+      "group_id": "ABS-01",
+      "split": "tuning",
+      "question": "What measured results does the 2021 Italian study report from a randomized PHOX2B gene-editing intervention?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-01",
+      "slice": "paraphrase",
+      "group_id": "PAR-01",
+      "split": "tuning",
+      "question": "Was the Italian analysis based on a randomized experiment or on looking back at patient records?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "collected retrospectively",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "quote": "review of the electronic medical record",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 21,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "A retrospective analysis.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Used electronic medical records.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-01",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-01",
+      "split": "tuning",
+      "question": "Where does the 2022 review locate PHOX2B, and how many exons does it describe?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "quote": "chromosome 4p12 and has 3 exons",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Chromosome 4p12; three exons.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-01",
+      "slice": "comparison",
+      "group_id": "COM-01",
+      "split": "tuning",
+      "question": "Contrast the Italian study design with the guideline evidence-development method.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "collected retrospectively",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "a blend of published evidence and clinical experience",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 13,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Italian study: retrospective patient data.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Guideline: published evidence blended with clinical experience.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-01",
+      "slice": "limitations",
+      "group_id": "LIM-01",
+      "split": "tuning",
+      "question": "What qualification must accompany a tag linking longer repeats with continuous ventilation?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:52:0:455"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:52:0:455",
+          "quote": "although this is inconsistent",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 52,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:52:0:455",
+          "quote": "a few remarkable exceptions",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 52,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Relationship is inconsistent.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Known exceptions must be included.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    }
+  ],
+  "questions_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "config": {
+    "retrieval": "vector",
+    "top_k": 5,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 2.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "phi3",
+    "prompt": "evidence_first",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 120,
+    "rewrite_enabled": false,
+    "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+    "question_bank": "data/evaluation/questions-v2.json"
+  },
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "prompts": [
+    "concise",
+    "evidence_first"
+  ],
+  "covered_slices": [
+    "absent",
+    "comparison",
+    "direct",
+    "exact_identifiers",
+    "limitations",
+    "paraphrase"
+  ],
+  "maximum_generation_requests": 12,
+  "maximum_rewrite_requests": 0,
+  "maximum_provider_requests": 12,
+  "maximum_output_tokens": 10800,
+  "quality_review": "Per-question relevance, every-claim support and abstention review are required; no quality scores from JSON validity."
+}

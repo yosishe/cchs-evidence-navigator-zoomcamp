@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-09-06T23:47:28.129119+00:00",
+  "status": "PREVIEW_FLOW_VERIFIED_SINGLE_POINT_CHART_FIX_PENDING",
+  "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4",
+  "answer_id": "24f33691-148d-40fd-8ee3-7fa7b6ef94de",
+  "config_id": "23848ff9c0e3a03a920cd3b93ec0215ca48014f11ba3a63d9a24691e5f48a0ca",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "observations": {
+    "ui_question_and_preview": true,
+    "source_19_text_and_offsets_visible": true,
+    "downloaded_csv_matches_canonical_bytes": true,
+    "qa_feedback_saved_for_same_answer": true,
+    "monitoring_qa_scope_requests": 1,
+    "feedback_coverage": "1/1",
+    "provider_calls": 0,
+    "console_error_count": 0,
+    "console_warning_count": 17
+  },
+  "broken_boundary": "Single-observation generation-duration line has no clearly visible value in the viewport; use a chart with an explicit mark for one observation and recheck after the current frozen experiment completes.",
+  "screenshots": [
+    "docs/screenshots/qa-preview-monitoring-top.png",
+    "docs/screenshots/qa-preview-monitoring-middle.png"
+  ],
+  "excluded_screenshot": "qa-preview-monitoring.png used full-page capture with unsuitable framing; not used as a delivery illustration.",
+  "not_claimed": [
+    "LLM generated browser answer",
+    "selected-release flow",
+    "PostgreSQL or Compose",
+    "researcher satisfaction"
+  ]
+}

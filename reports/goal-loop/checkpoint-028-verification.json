@@ -1,0 +1,94 @@
+{
+  "created_at": "2026-09-06T15:06:13.254408+00:00",
+  "status": "VERIFIED_SCOPE_LIMITED",
+  "previous_goal_turn_classification": "NO_PROGRESS toward project goal: verified TextEdit file opening only.",
+  "this_goal_turn_classification": "PROGRESS: added optional schema adapter with no default change, passed15 targeted/121 full tests, executed14 local calls in two predeclared experiments and rejected semantic regressions after source/whole/export review.",
+  "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "previous_checkpoint": {
+    "path": "reports/goal-loop/checkpoint-026-verification.json",
+    "hash": "5af9676e9ddfe06c7c7ace61178118a04b14c8d11aff85f669462f7cd2ee6d02"
+  },
+  "new_experiments": [
+    "027",
+    "028"
+  ],
+  "new_calls_this_turn": 14,
+  "unique_new_goal_local_calls": 123,
+  "ordinary_application_calls": 86,
+  "reference_diagnostic_calls": 4,
+  "format_source_diagnostic_calls": 33,
+  "new_call_ids": [
+    "8287496c-2542-4813-8788-65d01068fcb8",
+    "82f62cf2-b680-4874-9cf4-854eefc8dea5",
+    "3ab21861-4087-459c-b897-2a5e061f8720",
+    "f22679b0-f31e-4840-b535-3ab1c47bfe0d",
+    "b11c6188-e316-493b-b3c8-8bec95c5fc13",
+    "0a2aef7a-0faf-4405-a515-169d99871a21",
+    "7b104b0c-50e2-4e12-939d-96812ce8fd82",
+    "3d2c5b13-cd69-4061-915f-c73c9a3607b2",
+    "e15b85ba-cc98-45fe-86d7-723034323644",
+    "a6ce11fb-b4d5-4915-a1eb-6d5ae47c04ab",
+    "487f01aa-34a8-4fe9-9175-6ab00ddd7ec6",
+    "94edf117-3723-4714-8dc3-750d1d55dc50",
+    "daecf178-e55e-4984-ba33-cae26a74b83b",
+    "b38c3b2b-b062-485d-b670-e2a18cb01d88"
+  ],
+  "new_ids_disjoint_from_previous_results": true,
+  "input_tokens_this_turn": 40490,
+  "output_tokens_this_turn": 2825,
+  "new_retrieval_queries_this_turn": 0,
+  "goal_retrieval_queries": 470,
+  "goal_rank_replays": 420,
+  "final_model_calls_this_goal": 0,
+  "final_exposure": "Readable/validated frozen bank, no guaranteed unseen claim; no final inference or tuning.",
+  "quality_promotion": false,
+  "official_points": null,
+  "local_core_evidence_ready": false,
+  "quality_outcome": "027 outputs all equal baseline;028 fields1/8 to8/8 but no acceptable answers, six refusals now reach visible prose. Incumbent retained.",
+  "protected_file_hashes": {
+    "configs/app.json": "23db0695f936f9742865b1726da3e766025cc91974fd028e85f6e9fcb0aa47cf",
+    "data/README.md": "2656d2f4592a89fbeb7f3a13b8421ffdbf259fd0bbb0a77ccc5850708259733d",
+    "data/evaluation/questions-v2.json": "5137692ff65c370c67bf2f1df7e38d9f96b6c0bd5485477bad4ebb9d0133fdee",
+    "data/evaluation/questions.json": "17453afccfca77194a334fd2a64f60a242c948ae4a0bd5405967e91eeeff5da6",
+    "data/manifest.json": "5cb22c98c9565e8c0af3c80e186eb4b1b0466f367fe2bd1c1f9dcdd5f002c732",
+    "data/raw/PMC7503443.json": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+    "data/raw/PMC8039127.json": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+    "data/raw/PMC8963195.json": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde"
+  },
+  "protected_files_unchanged": true,
+  "latest_software_suite": {
+    "path": "reports/checks.json",
+    "hash": "17da4c40091c1072b49a8adbd29a6cefb405636d046f85325a0fd776025856c0",
+    "passed": 121,
+    "skipped": 0,
+    "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065"
+  },
+  "new_result_hashes": {
+    "reports/experiments/answers-760b413c-69a7-4d62-ae94-f41098570e78/results.json": "c9f6473da84897f7443a25be0efa6030420ca1a915f33d5c01345413aa97b405",
+    "reports/experiments/answers-0cb52db7-1c7d-493e-ae6c-1a8d635c80a2/results.json": "ec0d194264288051496cba97c69276a43a7bc44016bf658eea8eaccaaac10e06",
+    "reports/experiments/answers-ca46397a-76c1-40f0-bda3-adfc0399b600/results.json": "29ba245a4014708cf88a5a1115c48e691545c2a60007fac95a635f7d090d7f40"
+  },
+  "process_evidence": {
+    "sessions": {
+      "60468": "exit0 targeted tests",
+      "90213": "exit0 full suite",
+      "7583": "exit0 six-call experiment",
+      "74993": "exit0 eight-call experiment"
+    },
+    "all_this_turn_jobs_terminal": true
+  },
+  "pending_approvals": [
+    "Exact Q8 model download",
+    "Docker installation and prepared Compose rehearsal"
+  ],
+  "next_action": "Predeclare six calls using the already installed taught Gemma2B, changing only model versus iteration027 schema-on Phi3; preserve the same three development contexts, two prompts and output budget. No default promotion without full quality evidence. Q8 and Compose approvals remain separate.",
+  "not_a_blocked_goal": "This turn made concrete independent progress; the full acceptance contract remains unproven.",
+  "local_markdown_targets_checked": 157,
+  "unresolved_local_paths": [],
+  "git_diff_whitespace_check": {
+    "exit_code": 0,
+    "output": ""
+  }
+}

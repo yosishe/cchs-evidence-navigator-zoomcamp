@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-09-06T10:32:08.872607+00:00",
+  "status": "KEEP_EVALUATOR_ENFORCEMENT_NOT_MODEL_QUALITY",
+  "baseline_commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+  "baseline_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011",
+  "candidate_code_id": "9909c345ce06e4437f54bb6725d8a30f970f03546bfa31e8fd9b69d6200a83eb",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "hypothesis": "Selection and runtime must require the whole-answer veto already specified by the frozen goal contract. Formal-claim validity cannot establish narrative support.",
+  "taught_source": "docs/course-sources.md: Module 4 paired evaluation; sidecar hashes and vetoes are project adaptations",
+  "changed_dimension": "evaluation enforcement; no generation prompt/model/retrieval changes",
+  "acceptance": "Reject missing/tampered/foreign/uncertain/contradictory reviews and critical narrative failures; preserve all existing test assertions.",
+  "validation": {
+    "suite_path": "reports/checks.json",
+    "tests_passed": 104,
+    "skipped": 0,
+    "new_tests": 6,
+    "new_generation_calls": 0
+  },
+  "decision": "KEEP",
+  "tradeoffs": [
+    "Requires reviewing every answer and export payload; more review effort",
+    "Rejects stale selection artifacts; historical outputs remain retained but cannot select current code",
+    "Semantic labels remain provisional assistant judgments; hashes do not prove honesty"
+  ],
+  "rejected_alternatives": [
+    "Trust valid JSON and formal citations alone",
+    "Treat documented sidecar as optional or permit unknown as pass"
+  ],
+  "official_points": null,
+  "heldout_inference": false,
+  "next_action": "Compare the incumbent prompt and a focused complete-output prompt on identical development contexts."
+}

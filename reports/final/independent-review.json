@@ -1,0 +1,53 @@
+{
+  "status": "PASS_SCOPED_INDEPENDENT_AGENT_REVIEW",
+  "reviewed_at": "2026-09-07T18:37:26.971355+00:00",
+  "reviewer_kind": "Separate read-only agent; not an external course examiner or scientific reviewer.",
+  "areas": [
+    {
+      "area": "Selection and identities",
+      "result": "PASS",
+      "scope": "All eighteen historical arm rows match original aggregates; paired source-extract arms used the same twelve questions and contexts. The full prompt reached 8/12 with one critical failure; timing and all configuration hash scopes agree."
+    },
+    {
+      "area": "Test change preservation",
+      "result": "PASS",
+      "scope": "Nine reconstructed before-files match phase-zero hashes. No tests removed, no skips added and no behavioral assertions weakened; two production-config transport/export/status tests added.",
+      "evidence": "reports/final/test-fixture-review.json"
+    },
+    {
+      "area": "Native operational evidence",
+      "result": "PASS",
+      "scope": "All six downloaded files match hashes and 158118 total bytes; JSON records match events; both requests use the bound config and exactly one call; EXA has the requested facts in its exact source; ABS abstains. Four record hashes and six restart charts agree.",
+      "evidence": "reports/final/native-bound-flow.json"
+    },
+    {
+      "area": "Documentation",
+      "result": "PASS_AFTER_CORRECTIONS",
+      "resolved_findings": [
+        "Changed stale Docker/approval next actions to the completed native and authorized release scope.",
+        "Marked PT47 course save as owner-only and not performed."
+      ],
+      "scope": "Quality limitations, latency observations, historical Phi3 Compose and current native Gemma evidence remain distinct; no guaranteed grade or new-install claim."
+    },
+    {
+      "area": "Bounded rewrite runner",
+      "result": "PASS_STATIC_REVIEW",
+      "scope": "Exact twelve tuning IDs, separate journal, no overwrite/retry, only question text sent, no generation, frozen code unchanged; stop on provider failure or time cutoff."
+    },
+    {
+      "area": "Rewrite results",
+      "result": "PASS_RECOMPUTED",
+      "scope": "Twelve unique completed local calls, 24 searches, zero generation; all raw rewrites and ranks unchanged. Hit@10 8/10 and MRR@10 0.287619 in both routes; 930 input and 270 output tokens; no observed benefit or default promotion.",
+      "evidence": "reports/final/rewrite-diagnostic-review.json"
+    }
+  ],
+  "not_established": [
+    "Independent biomedical validity",
+    "Official course grade",
+    "Fresh dependency installation",
+    "Gemma Compose execution",
+    "Course-form save",
+    "Public access before the later publication step"
+  ],
+  "final_requirement": "Refresh package and link scans after the final edits, then verify the published commit and clone externally."
+}

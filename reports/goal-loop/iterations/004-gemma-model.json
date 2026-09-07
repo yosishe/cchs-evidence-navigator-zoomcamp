@@ -1,0 +1,170 @@
+{
+  "created_at": "2026-09-06T10:50:46.046118+00:00",
+  "status": "REJECTED_AFTER_COMPLETE_PILOT",
+  "decision": "REJECT",
+  "official_points": null,
+  "candidate_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+  "config_id": "f7dade56a998b9d70d8fe03bddf5cf7ad0df4415c75aab5e400cafbbf9a808a9",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "model": "gemma:2b",
+  "model_digest": "b50d6c999e592ae4f79acae23b4feaefbdfceaa7cd366df2610e3072c052a160",
+  "changed_dimension": "Model only relative to iteration 003; compare each same-prompt arm, retaining identical frozen contexts, 900-token limit and temperature zero.",
+  "course_source": "https://github.com/DataTalksClub/llm-zoomcamp/blob/bc7b6aad6b92a5611d3d37bf7521a363f3b9d398/cohorts/2024/02-open-source/homework.md",
+  "hypothesis": "A different already installed taught local model may follow complete-answer and exact-citation instructions more reliably than Phi3; smaller size is not assumed to mean worse or better quality.",
+  "split": "tuning",
+  "question_ids": [
+    "DIR-01",
+    "DIR-02",
+    "ABS-01",
+    "PAR-01",
+    "EXA-01",
+    "COM-01",
+    "LIM-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "coverage_first"
+  ],
+  "planned_calls": 14,
+  "attempted_calls": 14,
+  "frozen_context_source": "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/results.json",
+  "frozen_context_hash": "01261e45baa02c3794b5eba5b7ed09266c0914745dcc15170c0536f4724f1e58",
+  "acceptance": "Require at least one complete supported answerable response and no new unsupported visible prose, citation-identity error or material-qualification loss compared with the same Phi3 prompt. Inspect all six slices and correct abstention separately. A passing pilot only justifies full development comparison, not promotion.",
+  "rejected_alternatives": [
+    "Retry Phi3 until favorable",
+    "Increase output/context budgets simultaneously",
+    "Use installed untaught Gemma 3",
+    "Relax source IDs, semantic support or completeness"
+  ],
+  "tradeoffs": [
+    "Gemma 2B uses fewer weights but may follow instructions less well",
+    "Changing a model can improve formatting while losing factual reasoning",
+    "Fourteen additional bounded local calls and model loading, with no supplier billing"
+  ],
+  "heldout_exposure": "Development-only inference; earlier file readability prevents a guaranteed-unseen claim. No new final-set questions inspected.",
+  "next_action": "Test course-style single-user-message prompt composition while keeping model, evidence, output schema and acceptance fixed; do not promote either failed model configuration.",
+  "execution_session": 43531,
+  "raw_results_path": "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/results.json",
+  "review_path": "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/reviews.json",
+  "whole_answer_review_path": "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/whole-answer-review.json",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 2,
+      "claim_denominator": 4,
+      "unsupported_claims": 2,
+      "mean_seconds": 22.077941833288474,
+      "errors": 4,
+      "critical_failure_answers": 4
+    },
+    {
+      "prompt": "coverage_first",
+      "evaluated_questions": 7,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 3,
+      "claim_denominator": 10,
+      "unsupported_claims": 2,
+      "mean_seconds": 29.519782512001775,
+      "errors": 4,
+      "critical_failure_answers": 6
+    }
+  ],
+  "metrics_by_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "limitations",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "coverage_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "configuration_promoted": false,
+  "quality_wins": [],
+  "regressions": [
+    "ABS-01 baseline prompt yields mechanically valid but semantically unsupported claims and wrong-study attribution",
+    "Both EXA-01 raw outputs invent chromosome and exon facts",
+    "LIM-01 coverage prompt yields mechanically valid but poorly grounded claims"
+  ]
+}

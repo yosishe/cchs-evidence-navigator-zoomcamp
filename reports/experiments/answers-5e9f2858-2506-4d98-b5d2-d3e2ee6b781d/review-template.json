@@ -1,0 +1,79 @@
+{
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "a25516322bac508a2bfad853258e82f8e416ae89333d8becb8fb51783956c3d8",
+  "reviews": [
+    {
+      "answer_id": "f0a23a47-fed3-403b-a276-7067d0daba84",
+      "record_hash": "043657a590619016e471e4b97c9a03d504bc491eeddee6e18802a9ea6607e231",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "aed2e8c7-a4da-4690-9383-f1036852c78a",
+      "record_hash": "898d2e096bb955735eadda04ef1a6a42e40e930b16724dfc04c068073f62c93f",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "cbbdf5b6-307b-44ab-badf-c9ff0379cf0a",
+      "record_hash": "061da867aaca2059d7a79594659d8d4aa7e0543a87a029918fb9af243c322bb1",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null
+      ],
+      "qualification_coverage": [
+        null
+      ],
+      "reason": ""
+    },
+    {
+      "answer_id": "77cdd44f-50c9-44a3-8d43-00ed2a9afb47",
+      "record_hash": "45f8999d8aba5ccf416299db02338eb9c0e561207a20f644b728b16e7bc391dd",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null
+      ],
+      "qualification_coverage": [
+        null
+      ],
+      "reason": ""
+    },
+    {
+      "answer_id": "2b4c93f0-f72a-4990-8b8b-96c8457ce84a",
+      "record_hash": "d7b7447225076c669204723ecf897d052a2aeb1249855c2244c46ef7e566fe4f",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    }
+  ]
+}

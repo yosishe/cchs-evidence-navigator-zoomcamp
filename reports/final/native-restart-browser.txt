@@ -1,0 +1,95 @@
+- heading "Corpus and run" [level=2]
+- paragraph: 3 publications · 377 passages/windows
+- paragraph: Corpus a06955ab5c7a · config a608ccf3cd33
+- paragraph: "Retrieval: hybrid. Selected on provisional development labels; researcher review remains pending."
+- paragraph: Publication filter
+- combobox "Publication filter": All publications
+- button "Open":
+- paragraph: Mode
+- radiogroup "Mode":
+  - radio "Evidence preview" [checked]
+  - paragraph: Evidence preview
+  - radio "LLM answer"
+  - paragraph: LLM answer
+- paragraph: Population/model context is unknown unless reviewed; article type is separate.
+- status:
+  - paragraph: This session records qa activity, separately from researcher feedback.
+- banner:
+  - button "Deploy":
+    - generic: Deploy
+  - button "Main menu":
+- heading "CCHS Evidence Navigator" [level=1]:
+  - text: CCHS Evidence Navigator
+  - link "Link to heading":
+    - /url: "#cchs-evidence-navigator"
+- paragraph: Trace a literature question to the passages behind it. Research evidence requires human review.
+- tablist:
+  - tab "Find evidence":
+    - paragraph: Find evidence
+  - tab "Monitoring" [active] [selected]:
+    - paragraph: Monitoring
+- tabpanel "Monitoring":
+  - heading "Observed application activity" [level=3]:
+    - text: Observed application activity
+    - link "Link to heading":
+      - /url: "#observed-application-activity"
+  - paragraph: QA, evaluation and researcher activity are separate. Older records without an origin are labeled legacy_unknown.
+  - paragraph: Activity origin
+  - combobox "Activity origin": qa
+  - button "Open":
+  - paragraph: Activity mode
+  - combobox "Activity mode": all
+  - button "Open":
+  - paragraph: "Scope: 2 stored requests; origin=qa; mode=all. Daily buckets use UTC. Feedback uses these answers and this origin only."
+  - status:
+    - paragraph: This scope may contain test or unclassified activity. It is not a researcher-satisfaction estimate.
+  - paragraph:
+    - strong: 1. Request volume by day
+    - text: — recorded requests, including failures.
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph:
+    - strong: 2. Generation/validation duration
+    - text: — seconds; excludes retrieval, storage and initial index build.
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph:
+    - strong: 3. Retrieved passage count by request
+    - text: — number passed to answer generation or preview; a count is not relevance.
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph:
+    - strong: 4. Feedback distribution
+    - text: — unique rated answers in the selected origin and mode.
+  - paragraph: "Feedback coverage: 2/2 requests."
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph:
+    - strong: 5. Request outcomes
+    - text: — count by final status; errors are included.
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph:
+    - strong: 6. Provider tokens by model (when observed)
+    - text: — previews have no model tokens.
+  - button "Show data":
+  - button "Download as PNG":
+  - button "Copy Vega-Lite spec":
+  - button "Fullscreen":
+  - generic "Vega visualization":
+  - paragraph: Local calls have zero API billing; electricity and compute are unmeasured. Missing token usage stays unknown. Commercial estimates require explicit rates.

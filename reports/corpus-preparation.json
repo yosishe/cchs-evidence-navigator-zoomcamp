@@ -1,0 +1,9 @@
+{
+  "status": "EXECUTED_PYTHON_PREPARATION_ONLY",
+  "sources_included": 3,
+  "chunks": 411,
+  "excluded_passages": 312,
+  "corpus_id": "80225d882b27f7e955d5e240368314a49e29f4a8a4d516e0fa455e2cd2be1f6a",
+  "question_count": 13,
+  "note": "Not a dlt ingestion run, retrieval evaluation or scientific validation."
+}

@@ -1,0 +1,1841 @@
+{
+  "status": "EXECUTED_RANK_REPLAY_NOT_FRESH_SEARCH",
+  "plan_hash": "5973181e1f8a5ea576f5d3b2e9990634c4d622bb3a6a2517c3b3cce97f44cd60",
+  "source_hash": "ce6505f25056c0f3cad8181ea5842dcb2ebb5b79fc58b64f9961a05793c1bff5",
+  "provider_calls": 0,
+  "fresh_searches": 0,
+  "rank_replays": 84,
+  "results": [
+    {
+      "rrf_k": 1,
+      "fully_covered": 21,
+      "answerable_denominator": 35,
+      "mean_reference_coverage": 0.6619047619047619,
+      "gains": [
+        "COM-02"
+      ],
+      "losses": [],
+      "per_question": [
+        {
+          "id": "DIR-01",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:3:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "DIR-02",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "DIR-03",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+            "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "DIR-04",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+            "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "DIR-05",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+            "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:66:0:459",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "DIR-06",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:57:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8039127:b4a7750cb1b5b1d0:42:0:403",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC7503443:a26671042513feb5:57:600:972",
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "DIR-07",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC7503443:a26671042513feb5:54:0:644"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "PAR-01",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "PAR-02",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+            "PMC7503443:a26671042513feb5:324:0:36",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC7503443:a26671042513feb5:245:0:158",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC7503443:a26671042513feb5:203:0:119",
+            "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+            "PMC7503443:a26671042513feb5:155:600:928",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "PAR-03",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:37:600:1350"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.16666666666666666
+          }
+        },
+        {
+          "id": "PAR-04",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:203:0:119",
+            "PMC7503443:a26671042513feb5:53:0:311",
+            "PMC7503443:a26671042513feb5:10:600:1246",
+            "PMC7503443:a26671042513feb5:156:0:391",
+            "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+            "PMC8963195:f6c8a0a4968ccaf4:14:600:1161",
+            "PMC7503443:a26671042513feb5:158:0:490",
+            "PMC8963195:f6c8a0a4968ccaf4:15:0:750",
+            "PMC7503443:a26671042513feb5:188:0:666",
+            "PMC7503443:a26671042513feb5:41:0:61"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "PAR-05",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:77:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC7503443:a26671042513feb5:213:0:210",
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8039127:b4a7750cb1b5b1d0:3:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:28:600:1305",
+            "PMC7503443:a26671042513feb5:214:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:66:0:459",
+            "PMC7503443:a26671042513feb5:76:0:677",
+            "PMC8039127:b4a7750cb1b5b1d0:64:0:750"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "PAR-06",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+            "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.25
+          }
+        },
+        {
+          "id": "PAR-07",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "EXA-01",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:194:0:58",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "EXA-02",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC7503443:a26671042513feb5:54:0:644",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "EXA-03",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC7503443:a26671042513feb5:63:0:581",
+            "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "EXA-04",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC7503443:a26671042513feb5:60:0:317",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+            "PMC7503443:a26671042513feb5:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "EXA-05",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:61:0:166",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8039127:b4a7750cb1b5b1d0:59:0:750",
+            "PMC7503443:a26671042513feb5:117:0:550"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "EXA-06",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.1
+          }
+        },
+        {
+          "id": "EXA-07",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:54:0:644",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "COM-01",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+          ],
+          "reference_coverage": 0.5,
+          "baseline_coverage": 0.5,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.16666666666666666
+          }
+        },
+        {
+          "id": "COM-02",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:70:0:750"
+          ],
+          "reference_coverage": 0.6666666666666666,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "COM-03",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+            "PMC7503443:a26671042513feb5:175:0:52",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC7503443:a26671042513feb5:57:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "COM-04",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "COM-05",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:70:0:750"
+          ],
+          "reference_coverage": 0.5,
+          "baseline_coverage": 0.5,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "COM-06",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC7503443:a26671042513feb5:196:0:156",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC7503443:a26671042513feb5:50:0:513",
+            "PMC7503443:a26671042513feb5:194:0:58",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:253:0:87",
+            "PMC7503443:a26671042513feb5:2:0:746",
+            "PMC7503443:a26671042513feb5:25:0:148"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.25
+          }
+        },
+        {
+          "id": "COM-07",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:3:600:1219"
+          ],
+          "reference_coverage": 0.5,
+          "baseline_coverage": 0.5,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "LIM-01",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:78:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:28:0:750",
+            "PMC7503443:a26671042513feb5:84:600:860",
+            "PMC8963195:f6c8a0a4968ccaf4:58:0:750",
+            "PMC7503443:a26671042513feb5:93:0:135",
+            "PMC8963195:f6c8a0a4968ccaf4:62:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:26:600:1350",
+            "PMC7503443:a26671042513feb5:150:600:979",
+            "PMC7503443:a26671042513feb5:77:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "LIM-02",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "LIM-03",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+            "PMC8039127:b4a7750cb1b5b1d0:64:600:945",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "LIM-04",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC7503443:a26671042513feb5:164:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:3:600:1219",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:6:0:509",
+            "PMC7503443:a26671042513feb5:27:0:668"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "LIM-05",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:324:0:36",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC7503443:a26671042513feb5:203:0:119",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC7503443:a26671042513feb5:155:600:928",
+            "PMC8039127:b4a7750cb1b5b1d0:59:0:750"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "LIM-06",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "LIM-07",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:53:0:311",
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC7503443:a26671042513feb5:54:0:644"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "ABS-01",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-02",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-03",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:171:0:62",
+            "PMC8963195:f6c8a0a4968ccaf4:50:0:626",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC7503443:a26671042513feb5:13:0:561",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:14:0:635",
+            "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+            "PMC7503443:a26671042513feb5:114:0:628",
+            "PMC7503443:a26671042513feb5:90:600:940"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-04",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC7503443:a26671042513feb5:54:0:644",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8963195:f6c8a0a4968ccaf4:11:0:750"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-05",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:8:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:10:600:1246",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC7503443:a26671042513feb5:103:600:844",
+            "PMC7503443:a26671042513feb5:142:0:551",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC7503443:a26671042513feb5:14:0:635",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-06",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC7503443:a26671042513feb5:153:0:524",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:10:600:1246",
+            "PMC7503443:a26671042513feb5:92:600:846",
+            "PMC7503443:a26671042513feb5:4:0:201",
+            "PMC7503443:a26671042513feb5:9:0:276",
+            "PMC7503443:a26671042513feb5:8:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-07",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC7503443:a26671042513feb5:86:0:402",
+            "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC7503443:a26671042513feb5:18:0:233",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC7503443:a26671042513feb5:244:0:56",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        }
+      ]
+    },
+    {
+      "rrf_k": 10,
+      "fully_covered": 21,
+      "answerable_denominator": 35,
+      "mean_reference_coverage": 0.6619047619047619,
+      "gains": [
+        "COM-02"
+      ],
+      "losses": [],
+      "per_question": [
+        {
+          "id": "DIR-01",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+            "PMC8039127:b4a7750cb1b5b1d0:29:0:149",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "DIR-02",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "DIR-03",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "DIR-04",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+            "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "DIR-05",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+            "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "DIR-06",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC7503443:a26671042513feb5:57:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8039127:b4a7750cb1b5b1d0:42:0:403",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC7503443:a26671042513feb5:57:600:972",
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+            "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "DIR-07",
+          "slice": "direct",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.25
+          }
+        },
+        {
+          "id": "PAR-01",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "PAR-02",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+            "PMC7503443:a26671042513feb5:324:0:36",
+            "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+            "PMC7503443:a26671042513feb5:245:0:158",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC7503443:a26671042513feb5:203:0:119",
+            "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+            "PMC7503443:a26671042513feb5:155:600:928",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "PAR-03",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:37:600:1350"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "PAR-04",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+            "PMC7503443:a26671042513feb5:203:0:119",
+            "PMC7503443:a26671042513feb5:53:0:311",
+            "PMC7503443:a26671042513feb5:10:600:1246",
+            "PMC7503443:a26671042513feb5:156:0:391",
+            "PMC8963195:f6c8a0a4968ccaf4:14:600:1161",
+            "PMC7503443:a26671042513feb5:158:0:490",
+            "PMC8963195:f6c8a0a4968ccaf4:15:0:750",
+            "PMC7503443:a26671042513feb5:188:0:666",
+            "PMC7503443:a26671042513feb5:41:0:61"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "PAR-05",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:77:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC7503443:a26671042513feb5:213:0:210",
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8039127:b4a7750cb1b5b1d0:3:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:28:600:1305",
+            "PMC7503443:a26671042513feb5:214:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:66:0:459",
+            "PMC7503443:a26671042513feb5:76:0:677",
+            "PMC8039127:b4a7750cb1b5b1d0:64:0:750"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "PAR-06",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "PAR-07",
+          "slice": "paraphrase",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:1:0:138"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.16666666666666666
+          }
+        },
+        {
+          "id": "EXA-01",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:24:0:163",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+            "PMC7503443:a26671042513feb5:194:0:58"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "EXA-02",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC7503443:a26671042513feb5:54:0:644",
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "EXA-03",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+            "PMC8039127:b4a7750cb1b5b1d0:65:0:159"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "EXA-04",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC7503443:a26671042513feb5:60:0:317",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC7503443:a26671042513feb5:10:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.16666666666666666
+          }
+        },
+        {
+          "id": "EXA-05",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:61:0:166",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8039127:b4a7750cb1b5b1d0:59:0:750",
+            "PMC7503443:a26671042513feb5:117:0:550"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "EXA-06",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.1
+          }
+        },
+        {
+          "id": "EXA-07",
+          "slice": "exact_identifiers",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.25
+          }
+        },
+        {
+          "id": "COM-01",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+          ],
+          "reference_coverage": 0.5,
+          "baseline_coverage": 0.5,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.2
+          }
+        },
+        {
+          "id": "COM-02",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:12:0:219"
+          ],
+          "reference_coverage": 0.6666666666666666,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.14285714285714285
+          }
+        },
+        {
+          "id": "COM-03",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+            "PMC7503443:a26671042513feb5:175:0:52",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "COM-04",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+            "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "COM-05",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ],
+          "reference_coverage": 0.5,
+          "baseline_coverage": 0.5,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.3333333333333333
+          }
+        },
+        {
+          "id": "COM-06",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:194:0:58",
+            "PMC7503443:a26671042513feb5:50:0:513",
+            "PMC7503443:a26671042513feb5:2:0:746",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC7503443:a26671042513feb5:196:0:156",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC7503443:a26671042513feb5:9:0:276",
+            "PMC7503443:a26671042513feb5:195:0:71"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "COM-07",
+          "slice": "comparison",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:3:600:1219"
+          ],
+          "reference_coverage": 0.5,
+          "baseline_coverage": 0.5,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "LIM-01",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:26:600:1350",
+            "PMC7503443:a26671042513feb5:78:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:28:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:32:600:1350",
+            "PMC7503443:a26671042513feb5:84:600:860",
+            "PMC8963195:f6c8a0a4968ccaf4:58:0:750",
+            "PMC7503443:a26671042513feb5:93:0:135",
+            "PMC8963195:f6c8a0a4968ccaf4:62:0:750",
+            "PMC7503443:a26671042513feb5:150:600:979",
+            "PMC7503443:a26671042513feb5:77:0:750"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "LIM-02",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 0.5
+          }
+        },
+        {
+          "id": "LIM-03",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:64:600:945",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC8039127:b4a7750cb1b5b1d0:44:0:589",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+            "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "LIM-04",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+            "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+            "PMC7503443:a26671042513feb5:164:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8039127:b4a7750cb1b5b1d0:3:600:1219",
+            "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ],
+          "reference_coverage": 1.0,
+          "baseline_coverage": 1.0,
+          "metrics": {
+            "hit": 1,
+            "reciprocal_rank": 1.0
+          }
+        },
+        {
+          "id": "LIM-05",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:324:0:36",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC7503443:a26671042513feb5:203:0:119",
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC7503443:a26671042513feb5:155:600:928",
+            "PMC8039127:b4a7750cb1b5b1d0:59:0:750"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "LIM-06",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+            "PMC8963195:f6c8a0a4968ccaf4:65:0:722"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "LIM-07",
+          "slice": "limitations",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:53:0:311",
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+            "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC7503443:a26671042513feb5:54:0:644"
+          ],
+          "reference_coverage": 0.0,
+          "baseline_coverage": 0.0,
+          "metrics": {
+            "hit": 0,
+            "reciprocal_rank": 0.0
+          }
+        },
+        {
+          "id": "ABS-01",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+            "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+            "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:49:0:572",
+            "PMC7503443:a26671042513feb5:58:0:461"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-02",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+            "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+            "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-03",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:171:0:62",
+            "PMC8963195:f6c8a0a4968ccaf4:50:0:626",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC7503443:a26671042513feb5:13:0:561",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:14:0:635",
+            "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+            "PMC7503443:a26671042513feb5:114:0:628",
+            "PMC7503443:a26671042513feb5:90:600:940"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-04",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+            "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+            "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC7503443:a26671042513feb5:54:0:644",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+            "PMC8963195:f6c8a0a4968ccaf4:11:0:750"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-05",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC7503443:a26671042513feb5:8:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:10:600:1246",
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+            "PMC7503443:a26671042513feb5:188:0:666",
+            "PMC7503443:a26671042513feb5:103:600:844",
+            "PMC7503443:a26671042513feb5:142:0:551",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+            "PMC7503443:a26671042513feb5:14:0:635"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-06",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC7503443:a26671042513feb5:153:0:524",
+            "PMC7503443:a26671042513feb5:8:0:750",
+            "PMC7503443:a26671042513feb5:12:0:409",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+            "PMC7503443:a26671042513feb5:10:600:1246",
+            "PMC7503443:a26671042513feb5:92:600:846",
+            "PMC7503443:a26671042513feb5:4:0:201",
+            "PMC7503443:a26671042513feb5:9:0:276",
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        },
+        {
+          "id": "ABS-07",
+          "slice": "absent",
+          "ranked_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+            "PMC7503443:a26671042513feb5:170:0:156",
+            "PMC7503443:a26671042513feb5:86:0:402",
+            "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+            "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+            "PMC7503443:a26671042513feb5:18:0:233",
+            "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+            "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+            "PMC7503443:a26671042513feb5:244:0:56"
+          ],
+          "reference_coverage": null,
+          "baseline_coverage": null,
+          "metrics": null
+        }
+      ]
+    }
+  ],
+  "runtime_promoted": false
+}

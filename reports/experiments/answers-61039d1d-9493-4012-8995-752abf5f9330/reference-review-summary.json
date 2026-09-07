@@ -1,0 +1,156 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "2e9eb4c4fd7c3c8ea14300882d220dff395e525759dce4c26dd0007fc9b8fbdc",
+  "reviews_hash": "02af8a329266f2047b6d9a4522de3c84bf42088e79a5a239112fae764564a60a",
+  "reviewer": "Codex source-based provisional diagnostic review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 7.185630812498857,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "schema_first",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 7.040072499999951,
+      "errors": 1,
+      "critical_failure_answers": 2
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "2c95244d-176c-4c41-b109-2112bc56a384",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "partial"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The count/retrospective quote is supported. The model now emits 2000 and 2020, but describes cases being identified/occurring in that interval and denies an exact period; source passage 19 instead specifies a follow-up program between those years. This is not a clean complete answer to the requested cohort/follow-up period. Knowing the reference does not fix temporal interpretation.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The count/retrospective quote is supported. The model now emits 2000 and 2020, but describes cases being identified/occurring in that interval and denies an exact period; source passage 19 instead specifies a follow-up program between those years. This is not a clean complete answer to the requested cohort/follow-up period. Knowing the reference does not fix temporal interpretation. All displayed prose and export semantics were considered; no browser test is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "79e6b530-6e33-42be-8332-838a5a317027",
+      "prompt": "schema_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw count claim is plausible but the evidence ID is a full source-version string rather than the supplied passage ID, so validation rejects the entire output. Its caveat also confuses the stated follow-up interval with missing per-patient temporal detail, which the question did not request.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw count claim is plausible but the evidence ID is a full source-version string rather than the supplied passage ID, so validation rejects the entire output. Its caveat also confuses the stated follow-up interval with missing per-patient temporal detail, which the question did not request. All displayed prose and export semantics were considered; no browser test is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "fdc97582-a47c-40aa-b408-94d807988019",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "With only references 19 and 21 present, the model still denies retrospective-record study design. Passage 19 explicitly says retrospectively and passage 21 explicitly says review of the electronic medical record. Requiring that all aspects be observational adds an unnecessary condition; the requested facts are available.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "With only references 19 and 21 present, the model still denies retrospective-record study design. Passage 19 explicitly says retrospectively and passage 21 explicitly says review of the electronic medical record. Requiring that all aspects be observational adds an unnecessary condition; the requested facts are available. All displayed prose and export semantics were considered; no browser test is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "8563ce53-235a-4383-918d-0275ceda4ede",
+      "prompt": "schema_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The model acknowledges retrospective data collection but denies that existing medical records are specified. The second supplied reference, passage 21, states electronic medical record review. This disproves an explanation based solely on failing to retrieve that passage.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The model acknowledges retrospective data collection but denies that existing medical records are specified. The second supplied reference, passage 21, states electronic medical record review. This disproves an explanation based solely on failing to retrieve that passage. All displayed prose and export semantics were considered; no browser test is claimed.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "f3e8f1327170c313aa0d650df272d862f0d6834f4c3c00411c3056ebffbbb27c",
+  "whole_answer_reviewer": "Codex source-based provisional diagnostic review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

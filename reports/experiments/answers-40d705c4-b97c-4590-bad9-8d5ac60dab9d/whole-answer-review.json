@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "fc55dceaafe00bc0c734a8d63c5e8438338fd33d794e057d8f42bdbba1a035cc",
+  "reviews": [
+    {
+      "answer_id": "da437a9e-fdd1-44bd-95d8-3ab212c0c2ab",
+      "record_hash": "01dd0aeeefb96bea0013e7ac1bc281b3cf5071ffe21796f1a27cd274a10a2d26",
+      "export_hash": "b076c49b42fc557e6315d39cd48d7f1ef6700a07cf938461f8de5248648e2c32",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "Both claims are explicit, source-attributed and supported by Italian passage 2: retrospective 22-patient data and 2000-2020 referral/follow-up period. The alternate abstract passage supplies the same facts as the frozen body references. Empty limitations add no unsupported prose; canonical exports preserve exact quotations."
+    },
+    {
+      "answer_id": "dd59baf3-124a-4927-9c7c-eadabcf92605",
+      "record_hash": "9c1d33f32aa0c13d7ba3878e6f5b96eb455ed7163c5f01e43667fd2bee1bf183",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The entire model response is rejected before canonical claims or tag/claim exports are produced. Object mode omitted limitations and inserted nonliteral ellipses; schema mode supplied limitations but still inserted ellipses into quotations and added further nonliteral quotes. This is a measured invalid-output failure, not a complete comparison or a correct abstention."
+    }
+  ]
+}

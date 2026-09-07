@@ -1,0 +1,14 @@
+{
+  "input_guides": {
+    "handbook": {
+      "name": "course-project-decision-guide.en.md",
+      "sha256": "4483da88285d6c467929c5e4680fa587f53cc85d07537dd8fbe4d7a36cc1d703"
+    },
+    "selected_brief": {
+      "name": "cchs-evidence-navigator-project-brief.en.md",
+      "sha256": "256923773a6c2ee5f04f0e20cf0098960ebc181e3b62d04fa115b6f1ef288e55"
+    }
+  },
+  "teaching_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "source_materials_modified": false
+}

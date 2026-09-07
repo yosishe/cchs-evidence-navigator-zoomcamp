@@ -1,0 +1,204 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "4677aecc7b58534e7716baaf15a9cb849e2d0c5a9038a799788c2103ca56c451",
+  "reviews_hash": "0ca2108414d0b5d7dcabc89f3a44a157577efe15bbe843dc7f1a7b27294d7fbb",
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 12.824959833325314,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "plain_context",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 25.61746244466728,
+      "errors": 3,
+      "critical_failure_answers": 3
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "plain_context",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "plain_context",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "plain_context",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "ae704ece-e83b-4374-8a86-39c59573b53f",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The quoted 22-patient retrospective fact is correct, but the requested period is absent despite passage 19 supplying 2000–2020. Caveats/record provenance match passages 68/21.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The quoted 22-patient retrospective fact is correct, but the requested period is absent despite passage 19 supplying 2000–2020. Caveats/record provenance match passages 68/21. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "8da7ddd1-1a2c-4b10-9652-0fb0d0726a05",
+      "prompt": "plain_context",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Raw output uses a full source-version string instead of the supplied passage ID; its quote also changes follow-up to follow-thru and removes words/punctuation. It gives background and falsely says patient count/period are unavailable despite passage 19. Validation blocks this response.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Raw output uses a full source-version string instead of the supplied passage ID; its quote also changes follow-up to follow-thru and removes words/punctuation. It gives background and falsely says patient count/period are unavailable despite passage 19. Validation blocks this response. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "c819746f-1935-4f77-acdb-2de5f2296fe2",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The nonanswer denies study-design evidence explicitly present in passages 19/68 and electronic record review in passage 21. Safe-looking abstention is still incorrect here.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The nonanswer denies study-design evidence explicitly present in passages 19/68 and electronic record review in passage 21. Safe-looking abstention is still incorrect here. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "c9d7f12d-7c20-44fd-8309-87e46bc38100",
+      "prompt": "plain_context",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The model now identifies retrospective design, but both raw IDs are full source-version strings rather than passage IDs. It omits the requested electronic-record source and instead discusses management follow-up. Correct fragments cannot pass the unchanged citation/complete-answer contract.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The model now identifies retrospective design, but both raw IDs are full source-version strings rather than passage IDs. It omits the requested electronic-record source and instead discusses management follow-up. Correct fragments cannot pass the unchanged citation/complete-answer contract. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "8fdbb02b-97aa-4b99-ac0f-752f966dd497",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The phrasing intervention reported in the Italian study accepts an unestablished premise. Supplied genetic-testing/variant passages do not establish that intervention.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The phrasing intervention reported in the Italian study accepts an unestablished premise. Supplied genetic-testing/variant passages do not establish that intervention. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "52722f50-5a46-4242-9f31-8d1e9300a602",
+      "prompt": "plain_context",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Malformed output reaches the token limit. It uses article titles as quotations, wrong windows and a foreign passage ID; mutation-background statements do not answer the unsupported intervention question. All claims are blocked, and the completed failed attempt remains counted.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Malformed output reaches the token limit. It uses article titles as quotations, wrong windows and a foreign passage ID; mutation-background statements do not answer the unsupported intervention question. All claims are blocked, and the completed failed attempt remains counted. Export adapter retains the same limitations and source mapping; no downloaded-byte proof is claimed.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data. Zero-quality, legacy incomplete-reference and test-only results cannot nominate a winner. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "27a3c02c887c06077f4a8b4f0a39459f53586dbae5c11b5ab2c3321ed7c7c734",
+  "whole_answer_reviewer": "Codex source-based provisional review, 2026-09-06",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

@@ -1,0 +1,115 @@
+{
+  "created_at": "2026-09-06T11:42:54.031560+00:00",
+  "status": "COMPLETED_REVIEWED",
+  "decision": "REJECT",
+  "official_points": null,
+  "candidate_code_id": "242592cb5f026da98659c9a1d8950c3c5f1e150126c63aebac516ce8db67892c",
+  "config_id": "ce030b44d9870c21a0eb2fa473fb5ef0aa80d0bb14ce89784baeaa178533417b",
+  "incumbent_config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "changed_dimension": "Disable provider JSON object mode only; preserve evidence_first and schema_first prompt wording, model, normal frozen top-5 contexts and token budget from iteration 006.",
+  "baseline_run": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json",
+  "course_source": "2024 cohorts/2024/02-open-source/qa_faq.py uses ordinary local Chat Completions without response_format; Module 4 paired evaluation.",
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "adaptation": "Controlled provider-setting experiment; strict project JSON/source/quote/whole-answer validators are unchanged.",
+  "hypothesis": "Removing the provider format setting may change instruction-following; it could instead introduce prose or markdown that fails strict parsing.",
+  "acceptance": "Both answerable cases complete and supported, correct premise-free abstention, and no critical failures. Compare each prompt against iteration 006 on identical contexts. Pilot success alone cannot promote.",
+  "rejected_alternatives": [
+    "Silently repair malformed output",
+    "Increase output budget at the same time",
+    "Choose a winner from JSON validity alone"
+  ],
+  "planned_calls": 6,
+  "attempted_calls": 6,
+  "question_ids": [
+    "DIR-02",
+    "PAR-01",
+    "ABS-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "schema_first"
+  ],
+  "heldout_exposure": "Development only; no final inference; no blindness claim.",
+  "next_action": "Keep JSON mode and incumbent. Output formatting mode did not resolve semantic/completeness failures; next generation investigation should simplify redundant context metadata separately or revisit a taught model after evidence/approval.",
+  "completed_at": "2026-09-06T11:48:57.329285+00:00",
+  "run_directory": "reports/experiments/answers-58588fd2-785d-4495-9491-e29485cbb56e",
+  "results_hash": "67fc0cac00f8779872a61d3f5283104ab16e7e1dba0c139c9a21dec8a15493a3",
+  "review_summary_hash": "734cb30c982c7c2db041d3a583fa44a9e4e1bea9beabcabc70efb767256e85de",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 11.554979083332,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "schema_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 17.222126874999958,
+      "errors": 2,
+      "critical_failure_answers": 2
+    }
+  ],
+  "mode_comparison": [
+    {
+      "question_id": "DIR-02",
+      "prompt": "evidence_first",
+      "same_decoded_json_output": true,
+      "same_context_id": true,
+      "old_json_mode": true,
+      "new_json_mode": false
+    },
+    {
+      "question_id": "DIR-02",
+      "prompt": "schema_first",
+      "same_decoded_json_output": true,
+      "same_context_id": true,
+      "old_json_mode": true,
+      "new_json_mode": false
+    },
+    {
+      "question_id": "PAR-01",
+      "prompt": "evidence_first",
+      "same_decoded_json_output": true,
+      "same_context_id": true,
+      "old_json_mode": true,
+      "new_json_mode": false
+    },
+    {
+      "question_id": "PAR-01",
+      "prompt": "schema_first",
+      "same_decoded_json_output": true,
+      "same_context_id": true,
+      "old_json_mode": true,
+      "new_json_mode": false
+    },
+    {
+      "question_id": "ABS-01",
+      "prompt": "evidence_first",
+      "same_decoded_json_output": true,
+      "same_context_id": true,
+      "old_json_mode": true,
+      "new_json_mode": false
+    },
+    {
+      "question_id": "ABS-01",
+      "prompt": "schema_first",
+      "same_decoded_json_output": true,
+      "same_context_id": true,
+      "old_json_mode": true,
+      "new_json_mode": false
+    }
+  ]
+}

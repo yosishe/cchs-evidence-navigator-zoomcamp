@@ -1,0 +1,27 @@
+{
+  "scope": "Adapter payload inspection, not browser downloads. Integration must expose quote ownership/scope in each exported row.",
+  "quote_selection_method": "application_full_source_window",
+  "answers": [
+    {
+      "answer_id": "8781d322-f135-4138-b945-e24fdf7a0380",
+      "payload": {
+        "comparison_rows": [],
+        "tag_proposal_rows": []
+      }
+    },
+    {
+      "answer_id": "e5c5b4c6-f9f0-4651-85e6-7dc556ce58a5",
+      "payload": {
+        "comparison_rows": [],
+        "tag_proposal_rows": []
+      }
+    },
+    {
+      "answer_id": "dc80bcc6-f3c1-4531-82af-499c21352918",
+      "payload": {
+        "comparison_rows": [],
+        "tag_proposal_rows": []
+      }
+    }
+  ]
+}

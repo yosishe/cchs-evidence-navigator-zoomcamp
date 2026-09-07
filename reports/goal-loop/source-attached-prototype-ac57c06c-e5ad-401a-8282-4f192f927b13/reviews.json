@@ -1,0 +1,43 @@
+{
+  "reviewer": "Codex source-based provisional model-comparison review",
+  "reviewer_kind": "assistant",
+  "results_hash": "492dd4d589bee515c7c6c3e7a45e8bb61f74d30d1c5c4417299a2d159e92214c",
+  "reviews": [
+    {
+      "answer_id": "8781d322-f135-4138-b945-e24fdf7a0380",
+      "record_hash": "e3303b62ac931392b469073f9bc678edf7af6a88f5ddc81c2db210eb021fb05e",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The model returns sufficient_evidence, outside the frozen status enum, and is rejected. It repeats the patient count but omits the period; its second claim is attached to E4 (Italian aims passage 17), although its wording comes from passage 54 (E3)."
+    },
+    {
+      "answer_id": "e5c5b4c6-f9f0-4651-85e6-7dc556ce58a5",
+      "record_hash": "7885b7106e88c1d375314ae3b7020ed9c829e1427f532392f46b7b83ddd33e2c",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The invalid sufficient_evidence status is rejected. The raw statements give generic methodology/findings instead of the requested retrospective design and electronic records, and the limitations falsely deny study-design information present in Italian passages 19/68."
+    },
+    {
+      "answer_id": "dc80bcc6-f3c1-4531-82af-499c21352918",
+      "record_hash": "903bf20d90b04ce433bc9ef714bd2b5366d79f3cb5290e8d3fec2285f2cb987b",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The invalid status is rejected. Raw claims invent a randomized gene-editing intervention, confuse the 2021 primary paper with the 2022 review, assign several claims to wrong passages, and reduce the parental-mosaicism range to an unsupported up-to-10-percent statement. No final claim can be accepted."
+    }
+  ]
+}

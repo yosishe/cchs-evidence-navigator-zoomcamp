@@ -1,0 +1,12 @@
+{
+  "status": "PLANNED_NOT_EXECUTED",
+  "created_at": "2026-09-06T23:30:28.961820+00:00",
+  "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4",
+  "config_hash": "23848ff9c0e3a03a920cd3b93ec0215ca48014f11ba3a63d9a24691e5f48a0ca",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "story": "Research question -> shared RAG flow -> exact source and canonical answer -> downloaded evidence/claim/tag file bytes -> answer-linked QA feedback -> monitoring and persisted page reload. Native JSONL rehearsal is separate from required PostgreSQL/Compose rehearsal.",
+  "origin": "qa",
+  "port": 18501,
+  "models": "No overlapping LLM calls during the timed experiment; preview first. Any later diagnostic LLM request is counted separately and is not a selected-release proof.",
+  "seed": "Copies the current verified new-repository ingestion JSONL/report into an isolated QA runtime; no private predecessor data dependency."
+}

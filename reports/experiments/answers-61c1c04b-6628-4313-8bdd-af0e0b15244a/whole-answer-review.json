@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional assistant review, iteration026",
+  "reviewer_kind": "assistant",
+  "results_hash": "a5953de93c1c1ba08d5735775b74a47cbb9348cea3cbdaaab21c9bd0191cbc36",
+  "reviews": [
+    {
+      "answer_id": "0e7521e2-dbee-437e-993e-c56f9f376364",
+      "record_hash": "eb907eddd32ac87ecad325998b89c699a2000d5ad269b485045aba3d7dd1091e",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The application rejects raw JSON missing limitations. Italian passage17 is now retrieved and explicitly states both requested aims, but no validated answer or exported fact is delivered. The raw insufficient-evidence choice also misses available evidence. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed."
+    },
+    {
+      "answer_id": "3a3e7442-5ac3-4d1d-89ca-2a6b267f9c73",
+      "record_hash": "55d7e0ffbb349e8c69f077916c1b7388d48fe2448a62c0308176ebd759f57452",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The raw object omits claims. Its statement that the passages lack design information conflicts with Italian19 (retrospective collection) and21 (electronic medical records), both in the actual context. It is rejected before display; neither required fact reaches a valid answer. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed."
+    },
+    {
+      "answer_id": "b04901a0-b154-4370-9345-c57bdce07be0",
+      "record_hash": "297e664d9eec3b7c1f2bfc7efe312d39ebfab6089569e526a6d8b01b5d6bc07b",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The raw insufficient-evidence object omits limitations and is rejected. Italian19 supplies the retrospective fact, but the exact guideline13 evidence/clinical-experience passage is not in this vector context. Both the remaining retrieval gap and the output-schema failure are retained; no validated comparison is delivered. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed."
+    },
+    {
+      "answer_id": "ca68c989-bccb-4742-8ad0-6849029649b6",
+      "record_hash": "d0f9c22f824b5e2863632b849637a08d58cd14bef4970e5f6bf78dbef0a7b478",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The raw response chooses insufficient_evidence but omits limitations. The application presents an error, not a validated corpus-bounded nonanswer. No randomized gene-editing outcome is established by the retrieved descriptive/guideline literature; an intended refusal is not a passing delivered response. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed."
+    }
+  ]
+}

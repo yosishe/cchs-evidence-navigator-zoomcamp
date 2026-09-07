@@ -1,0 +1,64 @@
+{
+  "created_at": "2026-09-06T08:49:09.602452+00:00",
+  "scope": "Examiner review of three deliberately selected development questions; not representative accuracy or a project generation-selection artifact",
+  "reviewer": "Codex examiner",
+  "reviewer_kind": "assistant",
+  "source_hash": "65c2141a567f5e3716eec6ff5e79c0080632f25d296acde96be99feb1d469a3e",
+  "reviews": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "ecd66066-a76a-48cb-86ef-8e1b400e4451",
+      "record_hash": "c71a49493b73e3015f952cd69ff4133bbd99bff736bf2aa7ee561cbd0c1fb88a",
+      "reviewer_kind": "assistant",
+      "scientific_review": "PENDING_HUMAN_REVIEW",
+      "schema_valid": true,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "abstention": "Conservative for supplied passages; not a successful answer to an answerable corpus question. Reference passage omitted from top 5; nearby discussion is only indirect.",
+      "finding": "retrieval reference miss; known-reference diagnostic also fails schema"
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "94a8ce67-e42f-47bd-9bc3-23ab1ba26661",
+      "record_hash": "dd87e738dc7af6905004e2c8aeebc19680e8ade75f38fbd734d98e404f2e9a05",
+      "reviewer_kind": "assistant",
+      "scientific_review": "PENDING_HUMAN_REVIEW",
+      "schema_valid": true,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "abstention": "Not applicable; answer attempted.",
+      "finding": "The requested 2000-2020 period occurs in the first retrieved passage but is absent from the answer."
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "d491be81-59c6-49c2-ae7c-0afb77d30bc0",
+      "record_hash": "d0881b90c3b4c46efd97aada9c6e406d7e87a599d58d39bdefe4dde263abb89f",
+      "reviewer_kind": "assistant",
+      "scientific_review": "PENDING_HUMAN_REVIEW",
+      "schema_valid": true,
+      "claim_support": [],
+      "fact_coverage": [],
+      "abstention": "Correct insufficient-evidence status; wording presupposes the requested intervention was reported, so semantic wording needs correction.",
+      "finding": "Do not adopt an unsupported premise in limitations text."
+    }
+  ],
+  "counts": {
+    "distinct_questions": 3,
+    "answerable_questions": 2,
+    "complete_answerable_answers": 0,
+    "supported_claims": 1,
+    "claim_denominator": 1,
+    "unanswerable_questions": 1,
+    "correct_abstention_status": 1
+  },
+  "selection_performed": false,
+  "test_split_accessed_for_inference": false
+}

@@ -1,0 +1,81 @@
+{
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "4677aecc7b58534e7716baaf15a9cb849e2d0c5a9038a799788c2103ca56c451",
+  "reviews": [
+    {
+      "answer_id": "ae704ece-e83b-4374-8a86-39c59573b53f",
+      "record_hash": "94d9f37ba5b09c5c2c10b6979587493e202a4185a555192215c8168372557b94",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "8da7ddd1-1a2c-4b10-9652-0fb0d0726a05",
+      "record_hash": "aa7a15265fecc1ad748ba7ad6c6556ea97bc592badcb4c7aeaf6bf0169198498",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "c819746f-1935-4f77-acdb-2de5f2296fe2",
+      "record_hash": "7f05c40d200771490d505cc816b19886d3072f6b2aac82192a043fb3c7090b62",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "c9d7f12d-7c20-44fd-8309-87e46bc38100",
+      "record_hash": "fc84599bed57da03abcb16ee8f559329aec5a7ceddb95eb2a3179396a5eb88d5",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "8fdbb02b-97aa-4b99-ac0f-752f966dd497",
+      "record_hash": "078e790fa111ea83768bf0ac1ea9bfd03e378f17b4eaf3e57b82dbf76c265912",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "52722f50-5a46-4242-9f31-8d1e9300a602",
+      "record_hash": "a825474e23732055ef3a2a97901460e90ed6d72888805c5187f4a578bb584bbb",
+      "relevance": null,
+      "claim_support": [],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    }
+  ]
+}

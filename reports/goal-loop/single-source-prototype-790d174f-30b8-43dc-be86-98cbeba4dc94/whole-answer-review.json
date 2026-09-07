@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex provisional whole-answer/export review",
+  "reviewer_kind": "assistant",
+  "results_hash": "19fbb7e3a904282819e4a6e50c7a5c5fb82fbf4cf07f3bd2a7aae5daec4a220c",
+  "reviews": [
+    {
+      "answer_id": "187d900c-019c-4691-82c2-b9ec309f27a1",
+      "record_hash": "b3b14d9665abbf7c7293370e36088d98f11d84bc7ed14094f4eff5a108c2bd6c",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Underlying source-level generation converted publication year to study period"
+      ],
+      "acceptable": false,
+      "reason": "The assembled output is error because two of five source-level outputs violate the schema. One source-level response is fully supported and complete, but the predeclared workflow does not select it and hide failed/irrelevant/unsupported attempts. A separate source-level output also misuses publication year as study time. Canonical exports retain all final claim text and full windows with the application process note and pending human review; errors export no claims. This is diagnostic payload review, not browser download verification."
+    },
+    {
+      "answer_id": "b563a8d6-7d5a-43cc-aa8b-5867827a6f47",
+      "record_hash": "bc1df066cc7bd57a235e8cad3b3e287f9104fa8b046af8e2b69e0001084fed4b",
+      "export_hash": "43fc19ec211c8b22f8604ddbe98bac156972687fd910a8685cc8ab2085587148",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Retrospective design is stated, but electronic records are not named. Several claims are irrelevant passage summaries or source-absence observations; explicit exclusion of randomization and patient-record attribution go beyond the individually cited windows. See per-source review. Extra claims do not repair support/completeness. Canonical exports retain all final claim text and full windows with the application process note and pending human review; errors export no claims. This is diagnostic payload review, not browser download verification."
+    },
+    {
+      "answer_id": "138dd2e5-ccab-42e8-9f66-9d60304f0a29",
+      "record_hash": "25bed2cd80a63c0d4c276046da91653fad90767e608caa2dcec5dbd0c72243f4",
+      "export_hash": "597b9e3ad3a2a7444ef7766c38f8418f1a92da345c466e21e4c4061ccda4a0d4",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Four source-level outputs are correctly empty. The remaining claim reports supported genetic background from Italian passage 56 but no randomized gene-editing results. The combined answer is answered with a claim rather than a bounded nonanswer, so this unanswerable question fails. No intervention result has been invented by this particular final output; the failure is relevance/abstention. Canonical exports retain all final claim text and full windows with the application process note and pending human review; errors export no claims. This is diagnostic payload review, not browser download verification."
+    }
+  ]
+}

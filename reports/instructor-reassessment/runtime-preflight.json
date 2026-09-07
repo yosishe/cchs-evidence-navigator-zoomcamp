@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-06T01:26:44.666866+00:00",
+  "docker_path": null,
+  "ollama_path": "/opt/homebrew/bin/ollama",
+  "generated_model_calls": 0,
+  "models": [
+    {
+      "name": "gemma3:12b",
+      "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+      "size": 8149190253
+    }
+  ],
+  "model_inventory_status": "READ_INSTALLED_MODELS_ONLY"
+}

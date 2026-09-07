@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-09-07T13:39:10.661860+00:00",
+  "status": "UNCHANGED",
+  "files_checked": 425,
+  "changed_paths": [],
+  "original_head": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+  "scope": "Every imported predecessor file rechecked after the Docker rehearsal; the private source repository was read only."
+}

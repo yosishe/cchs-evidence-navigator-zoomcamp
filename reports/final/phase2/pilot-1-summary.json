@@ -1,0 +1,45 @@
+{
+  "phase": "2-pilot-1",
+  "created_at": "2026-09-06T08:40:00+00:00",
+  "created_by": "Claude examiner session; pilot approved by the owner at 11:30 Asia/Jerusalem",
+  "command": "HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 .venv/bin/python -m navigator evaluate-answers --max-questions 6",
+  "run_directory": "reports/experiments/answers-73a724cb-ac01-49e1-8937-d0aee751302f",
+  "status": "STOPPED_ON_ERROR (length cutoff on the 9th call treated as a provider-stage error)",
+  "model": {"name": "phi3:latest", "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9", "loaded_context_window_from_api_ps": 4096, "size_vram_bytes": 3042789293},
+  "configuration": {"config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2", "json_mode": true, "max_output_tokens": 900, "top_k": 5, "request_timeout_seconds": 120, "rewrite_enabled": false, "temperature": 0},
+  "questions": ["DIR-01", "ABS-01", "PAR-01", "EXA-01", "COM-01", "LIM-01"],
+  "calls_planned": 12,
+  "calls_made": 9,
+  "calls_not_made": ["COM-01 evidence_first", "LIM-01 concise", "LIM-01 evidence_first"],
+  "timing_seconds": {"per_call": [20.7, 9.1, 36.2, 11.3, 7.0, 9.9, 22.4, 26.2, 51.7], "mean": 21.6, "median": 20.7, "max": 51.7, "wall_clock": "08:31:45Z to 08:35:09Z"},
+  "prompt_tokens": {"min": 1728, "max": 2170, "note": "All prompts fit the 4096 loaded window with 900 output tokens reserved; no truncation signature (prompt_tokens never equalled the window)."},
+  "validated_answers": 0,
+  "json_parse_failures": 1,
+  "outcomes": [
+    {"question": "DIR-01", "prompt": "concise", "status": "error", "stage": "output_validation", "cause": "citation misattribution: both quotes are verbatim in the retrieved context but cited under neighbouring passage ids (quote from 54:0:218 cited as 68:0:274; quote from 19:0:605 cited as 54:0:218)", "retrieval": "reference passage 17 absent from hits (known miss)"},
+    {"question": "DIR-01", "prompt": "evidence_first", "status": "insufficient_evidence", "stage": null, "cause": "abstained; defensible because the aims passage was not retrieved; end-to-end failure is retrieval", "retrieval": "reference absent"},
+    {"question": "ABS-01", "prompt": "concise", "status": "error", "stage": "output_validation", "cause": "answered an unanswerable question with six claims; four quotes not found in any retrieved passage (fabricated), two misattributed", "retrieval": "n/a (unanswerable)"},
+    {"question": "ABS-01", "prompt": "evidence_first", "status": "insufficient_evidence", "stage": null, "cause": "correct abstention with a limitations sentence", "retrieval": "n/a"},
+    {"question": "PAR-01", "prompt": "concise", "status": "error", "stage": "output_validation", "cause": "schema: returned {status, claims} without the required limitations key", "retrieval": "both reference passages (19, 21) present in hits"},
+    {"question": "PAR-01", "prompt": "evidence_first", "status": "insufficient_evidence", "stage": null, "cause": "over-abstention: 'collected retrospectively' was in the context; the model did not connect it to the question (generation failure)", "retrieval": "both references present"},
+    {"question": "EXA-01", "prompt": "concise", "status": "error", "stage": "output_validation", "cause": "citation misattribution: 270-char verbatim quote from 64:0:750 cited as 64:600:1350; claim text is an article title, off target", "retrieval": "reference absent"},
+    {"question": "EXA-01", "prompt": "evidence_first", "status": "error", "stage": "output_validation", "cause": "identical output to concise; same misattribution", "retrieval": "reference absent"},
+    {"question": "COM-01", "prompt": "concise", "status": "error", "stage": "provider (finish_reason=length)", "cause": "900 output tokens exhausted by verbose claims; JSON unterminated; also an invented evidence id built from the full source hash", "retrieval": "both references absent"}
+  ],
+  "failure_modes": {
+    "citation_misattribution_to_neighbouring_window_id": 3,
+    "fabricated_quotes_on_unanswerable_question": 1,
+    "missing_limitations_key_on_abstention": 1,
+    "over_abstention_with_evidence_present": 1,
+    "length_cutoff_verbose_claims": 1,
+    "retrieval_reference_absent_from_top5": "3 of 5 answerable questions (DIR-01, EXA-01, COM-01)"
+  },
+  "interpretation": "JSON object mode removed the syntax failure class entirely (8 of 9 outputs were valid JSON; the ninth was cut off). The remaining failures are contract-level: the model cannot reliably copy near-identical 40-character window ids, omits an optional-looking key when abstaining, and is verbose or fabricates when the context lacks an answer. evidence_first abstains more (safer on unanswerable, over-cautious on answerable); concise answers more and fabricates more.",
+  "proposed_next_change_set_for_pilot_2": [
+    "A. Short evidence aliases in the model context (E1..E5) mapped back to real window ids by the application before validation; the verbatim-quote check is unchanged. Addresses 3 misattributions and the invented-hash id.",
+    "B. Instruction: limitations is mandatory in every response, including insufficient_evidence; quotes at most 240 characters; at most 6 claims. Enforced in validate_answer. Addresses the schema miss and the verbosity that caused the cutoff.",
+    "C. Evaluation policy: a completed response with finish_reason=length is an observed malformed answer (output_validation class), not an infrastructure failure; the paired run continues and counts it. Addresses the run stopping at call 9.",
+    "D. Optional, only after A-C are measured: gemma:2b as the second course-model candidate on the same six questions."
+  ],
+  "not_changed": "No code, prompt, config, label or split was modified in this pilot. No model substitution."
+}

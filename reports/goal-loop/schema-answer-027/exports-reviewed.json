@@ -1,0 +1,122 @@
+[
+  {
+    "question_id": "DIR-02",
+    "prompt": "evidence_first",
+    "payload": {
+      "comparison_rows": [
+        {
+          "answer_id": "4e139662-9292-4f0e-a57e-127f0bd70cb0",
+          "question": "How many patients were included in the Italian retrospective cohort and during what period?",
+          "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+          "config_id": "9644b010ae161d1136228eb1ad465268b666cec56b8d93a8829187e1e1457205",
+          "mode": "llm",
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "source_id": "PMC8039127",
+          "title": "How the Management of Children With Congenital Central Hypoventilation Syndrome Has Changed Over Time: Two Decades of Experience From an Italian Center",
+          "section": "METHODS",
+          "section_heading": "Materials and Methods",
+          "article_type": "primary study",
+          "year": "2021",
+          "population_or_model": "unknown",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8039127/",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "start_in_passage": 0,
+          "end_in_passage": 605,
+          "bioc_offset": 5250,
+          "license": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+          "language": "en",
+          "exact_text": "Data of 22 patients affected by CCHS has been collected retrospectively. Enrolled patients were referred to the Pediatric Pulmonology and Respiratory Intermediate Care Unit of Bambino Gesù Children's Hospital (Rome, Italy) for a multidisciplinary follow-up program between 2000 and 2020. Our Respiratory Unit is a reference center for children affected with acute or chronic respiratory failure due to neurologic or neuromuscular impairment and by congenital or acquired lung diseases. Our hospital is the reference point for the Italian pediatric population, especially from central and southern regions.",
+          "review_status": "PENDING_REVIEW",
+          "claim_index": 1,
+          "claim_text": "Data of 22 patients affected by CCHS has been collected retrospectively.",
+          "claim_id": "4e139662-9292-4f0e-a57e-127f0bd70cb0:claim:1",
+          "answer_limitations": "The study's limitations include its retrospective design, the poor sample size, and heterogeneity in patient ages and primary care settings regarding diagnosis and ventilation support. Additionally, demographic data was obtained from electronic medical records with Institutional Review Board approval.",
+          "support_review": "PENDING_AGENT_REVIEW",
+          "scientific_review": "PENDING_HUMAN_REVIEW",
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "exact_quote": "Data of 22 patients affected by CCHS has been collected retrospectively.",
+          "comparison_id": "4e139662-9292-4f0e-a57e-127f0bd70cb0",
+          "comparison_status": "SOURCE_ROWS_ONLY_RELATION_NOT_ADJUDICATED"
+        }
+      ],
+      "tag_proposal_rows": []
+    }
+  },
+  {
+    "question_id": "DIR-02",
+    "prompt": "schema_first",
+    "payload": {
+      "comparison_rows": [
+        {
+          "answer_id": "77e3bf8e-9574-416a-8fe9-0c85a495fe94",
+          "question": "How many patients were included in the Italian retrospective cohort and during what period?",
+          "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+          "config_id": "4a05ad9deb947ad85c1ce903cb4bcb6fcf44ad307ab88486c2da628e5dfcd3f7",
+          "mode": "llm",
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "source_id": "PMC8039127",
+          "title": "How the Management of Children With Congenital Central Hypoventilation Syndrome Has Changed Over Time: Two Decades of Experience From an Italian Center",
+          "section": "DISCUSS",
+          "section_heading": "Discussion",
+          "article_type": "primary study",
+          "year": "2021",
+          "population_or_model": "unknown",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8039127/",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 54,
+          "start_in_passage": 0,
+          "end_in_passage": 218,
+          "bioc_offset": 17655,
+          "license": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+          "language": "en",
+          "exact_text": "The study describes the clinical and genetic findings of patients with CCHS, whose management—updated over time—allowed for the development of a well-defined follow-up program in the largest Italian pediatric hospital.",
+          "review_status": "PENDING_REVIEW",
+          "claim_index": 1,
+          "claim_text": "The study describes the clinical and genetic findings of patients with CCHS, whose management allowed for a well-defined follow-up program in an Italian pediatric hospital.",
+          "claim_id": "77e3bf8e-9574-416a-8fe9-0c85a495fe94:claim:1",
+          "answer_limitations": "Our study has some limitations as the retrospective design, the poor sample, and the heterogeneity of the described population composed of patients of different ages and who had experienced different primary care settings regarding the diagnosis and the ventilation support. The demographic data was obtained from a review of electronic medical records with approval from an Institutional Review Board.",
+          "support_review": "PENDING_AGENT_REVIEW",
+          "scientific_review": "PENDING_HUMAN_REVIEW",
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "exact_quote": "The study describes the clinical and genetic findings of patients with CCHS, whose management—updated over time—allowed for the development of a well-defined follow-up program in the largest Italian pediatric hospital.",
+          "comparison_id": "77e3bf8e-9574-416a-8fe9-0c85a495fe94",
+          "comparison_status": "SOURCE_ROWS_ONLY_RELATION_NOT_ADJUDICATED"
+        }
+      ],
+      "tag_proposal_rows": []
+    }
+  },
+  {
+    "question_id": "PAR-01",
+    "prompt": "evidence_first",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    }
+  },
+  {
+    "question_id": "PAR-01",
+    "prompt": "schema_first",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    }
+  },
+  {
+    "question_id": "ABS-01",
+    "prompt": "evidence_first",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    }
+  },
+  {
+    "question_id": "ABS-01",
+    "prompt": "schema_first",
+    "payload": {
+      "comparison_rows": [],
+      "tag_proposal_rows": []
+    }
+  }
+]

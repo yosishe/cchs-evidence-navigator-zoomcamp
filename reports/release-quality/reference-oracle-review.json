@@ -1,0 +1,28 @@
+{
+  "status": "PROVISIONAL_DIAGNOSTIC_REVIEW_COMPLETE",
+  "created_at": "2026-09-07T01:44:17.242063+00:00",
+  "results_path": "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/reference-diagnostic-1fc16d20-dfb5-44c3-a392-f8f540c23d20.json",
+  "results_hash": "0831539712c9cf1580f5cae9db74015077e5291ba9f9312a8f4f306db522db67",
+  "reviewer": "Codex source-based provisional assistant review",
+  "scope": "Known reference source context, not normal retrieval quality or selection evidence. No points or general accuracy estimate are derived.",
+  "actual_generation_attempts": 2,
+  "rows": [
+    {
+      "question_id": "LIM-01",
+      "claim_support": "supported",
+      "required_fact": "covered",
+      "required_qualification": "missing",
+      "fully_acceptable": false,
+      "reason": "The selected original sentence correctly states that the polyalanine-genotype/continuous-ventilatory-dependence relationship is inconsistent. The separately required exceptions sentence in the same supplied source is omitted. The wrong-topic substitution disappeared when the reference was supplied, but the full task still lacks its frozen qualification."
+    },
+    {
+      "question_id": "LIM-02",
+      "claim_support": "supported",
+      "required_fact": "covered",
+      "required_qualification": "covered",
+      "fully_acceptable": true,
+      "reason": "The original limitations sentence supplies retrospective design and heterogeneity. This contrasts with the original refusal under ten retrieved passages, even though this source had been present there. Context distraction/selection remains a generator problem; retrieval absence cannot explain that original failure."
+    }
+  ],
+  "conclusion": "Both retrieval coverage and selection/completeness matter. LIM-01 has a missing-reference problem plus an observed caveat omission; LIM-02 had available evidence but failed under the normal context. A query rewrite alone is not assumed to solve both."
+}

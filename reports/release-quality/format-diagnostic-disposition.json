@@ -1,0 +1,11 @@
+{
+  "status": "NO_QUALITY_GAIN_KEEP_JSON_OBJECT_FOR_NEXT_PROMPT_COMPARISON",
+  "created_at": "2026-09-06T23:15:16.493388+00:00",
+  "actual_attempts": 4,
+  "per_arm_acceptable": {
+    "object": 1,
+    "schema": 1
+  },
+  "decision": "Schema enforcement repaired the missing field but not invented ellipses; invalid quotes still reject the entire comparison. Keep the simpler existing object mode fixed in both next prompt arms. This two-question diagnostic does not prove schema mode is generally useless. Observed input tokens 1887-2218 and output 174-358 remained below the observed 4096 serving context.",
+  "preflight_correction": "An initial manually authored relevance boolean was rejected by the review validator. It was corrected to the required explicit enum before materialization. A dependent run then failed for absent plan, making zero provider attempts."
+}

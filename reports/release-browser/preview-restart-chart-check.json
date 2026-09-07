@@ -1,0 +1,31 @@
+{
+  "status": "NATIVE_JSONL_RESTART_AND_SINGLE_POINT_BAR_VERIFIED",
+  "created_at": "2026-09-07T00:02:31.986139+00:00",
+  "runtime_code_id": "2df4dfc13e48ef863a60510e98e62970e72fc39dac857de559fe4168b6d74646",
+  "answer_id": "24f33691-148d-40fd-8ee3-7fa7b6ef94de",
+  "record_hash": "a6be1a3b0c5b486f10bb1745dc6ff19419e539c0773c36c198fa05ab5ded4c59",
+  "record_is_from_prior_runtime": true,
+  "actions": [
+    "Stopped only owned Streamlit process",
+    "Restarted same app with same isolated QA JSONL directory",
+    "Reloaded actual browser",
+    "Selected Monitoring",
+    "Inspected AX bar and screenshot"
+  ],
+  "observed": {
+    "requests": 1,
+    "origin": "qa",
+    "feedback_coverage": "1/1",
+    "outcome": "preview",
+    "passages": 10,
+    "generation_validation_seconds": 0.000754666980355978,
+    "visible_single_point_bar": true
+  },
+  "screenshot": "docs/screenshots/qa-single-point-chart-fixed.png",
+  "not_established": [
+    "LLM browser flow",
+    "PostgreSQL persistence",
+    "container execution",
+    "researcher satisfaction"
+  ]
+}

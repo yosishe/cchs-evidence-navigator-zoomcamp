@@ -1,0 +1,111 @@
+{
+  "created_at": "2026-09-06T13:27:50.784448+00:00",
+  "scope": "Public registry metadata only; no model weight requests or inference",
+  "previous_read_results": {
+    "created_at": "2026-09-06T13:26:31.720492+00:00",
+    "scope": "Public registry metadata only; no model weights, installation, inference or settings changes",
+    "models": [
+      {
+        "tag": "3.8b-mini-128k-instruct-q4_0",
+        "error_type": "AssertionError"
+      },
+      {
+        "tag": "3.8b-mini-128k-instruct-q8_0",
+        "error_type": "AssertionError"
+      }
+    ]
+  },
+  "read_correction": "Follow public CDN redirects for the small published metadata blobs; retain byte limit and verify published digest. First attempt did not follow blob redirects and failed digest verification.",
+  "models": [
+    {
+      "tag": "3.8b-mini-128k-instruct-q4_0",
+      "manifest_digest": "sha256:4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+      "manifest": {
+        "schemaVersion": 2,
+        "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "config": {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "digest": "sha256:23291dc44752bac878bf46ab0f2b8daf75c710060f80f1a351151c7be2f5ee0f",
+          "size": 483
+        },
+        "layers": [
+          {
+            "mediaType": "application/vnd.ollama.image.model",
+            "digest": "sha256:633fc5be925f9a484b61d6f9b9a78021eeb462100bd557309f01ba84cac26adf",
+            "size": 2176177120
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.license",
+            "digest": "sha256:fa8235e5b48faca34e3ca98cf4f694ef08bd216d28b58071a1f85b1d50cb814d",
+            "size": 1084
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.template",
+            "digest": "sha256:542b217f179c7825eeb5bca3c77d2b75ed05bafbd3451d9188891a60a85337c6",
+            "size": 148
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.params",
+            "digest": "sha256:8dde1baf1db03d318a2ab076ae363318357dff487bdd8c1703a29886611e581f",
+            "size": 78
+          }
+        ]
+      },
+      "metadata": {
+        "application/vnd.ollama.image.template": {
+          "digest": "sha256:542b217f179c7825eeb5bca3c77d2b75ed05bafbd3451d9188891a60a85337c6",
+          "text": "{{ if .System }}<|system|>\n{{ .System }}<|end|>\n{{ end }}{{ if .Prompt }}<|user|>\n{{ .Prompt }}<|end|>\n{{ end }}<|assistant|>\n{{ .Response }}<|end|>"
+        },
+        "application/vnd.ollama.image.params": {
+          "digest": "sha256:8dde1baf1db03d318a2ab076ae363318357dff487bdd8c1703a29886611e581f",
+          "text": "{\"stop\":[\"\\u003c|end|\\u003e\",\"\\u003c|user|\\u003e\",\"\\u003c|assistant|\\u003e\"]}\n"
+        }
+      }
+    },
+    {
+      "tag": "3.8b-mini-128k-instruct-q8_0",
+      "manifest_digest": "sha256:adc0589ce82eb5929896d7100a8f3a2a694a1251332d37f32b1cd5c72282f5a5",
+      "manifest": {
+        "schemaVersion": 2,
+        "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "config": {
+          "mediaType": "application/vnd.docker.container.image.v1+json",
+          "digest": "sha256:0e6810201f19f5e2fc64b6de7ac8ce60bcea6230c85f0a5ea426152ac44b45e4",
+          "size": 483
+        },
+        "layers": [
+          {
+            "mediaType": "application/vnd.ollama.image.model",
+            "digest": "sha256:b977fcd05546427229af675fc6a8ea2140f0cc20b1fb7e6aeb1dcaa758112017",
+            "size": 4061222368
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.license",
+            "digest": "sha256:fa8235e5b48faca34e3ca98cf4f694ef08bd216d28b58071a1f85b1d50cb814d",
+            "size": 1084
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.template",
+            "digest": "sha256:542b217f179c7825eeb5bca3c77d2b75ed05bafbd3451d9188891a60a85337c6",
+            "size": 148
+          },
+          {
+            "mediaType": "application/vnd.ollama.image.params",
+            "digest": "sha256:8dde1baf1db03d318a2ab076ae363318357dff487bdd8c1703a29886611e581f",
+            "size": 78
+          }
+        ]
+      },
+      "metadata": {
+        "application/vnd.ollama.image.template": {
+          "digest": "sha256:542b217f179c7825eeb5bca3c77d2b75ed05bafbd3451d9188891a60a85337c6",
+          "text": "{{ if .System }}<|system|>\n{{ .System }}<|end|>\n{{ end }}{{ if .Prompt }}<|user|>\n{{ .Prompt }}<|end|>\n{{ end }}<|assistant|>\n{{ .Response }}<|end|>"
+        },
+        "application/vnd.ollama.image.params": {
+          "digest": "sha256:8dde1baf1db03d318a2ab076ae363318357dff487bdd8c1703a29886611e581f",
+          "text": "{\"stop\":[\"\\u003c|end|\\u003e\",\"\\u003c|user|\\u003e\",\"\\u003c|assistant|\\u003e\"]}\n"
+        }
+      }
+    }
+  ]
+}

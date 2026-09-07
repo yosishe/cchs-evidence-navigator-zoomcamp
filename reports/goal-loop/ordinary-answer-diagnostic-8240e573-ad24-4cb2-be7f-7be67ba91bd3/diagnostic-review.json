@@ -1,0 +1,39 @@
+{
+  "created_at": "2026-09-06T12:10:09.736026+00:00",
+  "reviewer": "Codex source-based provisional diagnostic review",
+  "reviewer_kind": "assistant",
+  "results_hash": "552654b28cd95d6ff683d37cc6b0409cc9fc1793d2dbe9ba0d123c3511f2b888",
+  "scope": "Ordinary prose diagnosis only; no schema/citation/export acceptance or selection eligibility",
+  "rows": [
+    {
+      "question_id": "DIR-02",
+      "row_hash": "24a598c04821f005d7e24d8745ec03108486de508edd10737d00c342989835a9",
+      "required_fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "all_visible_prose_supported": true,
+      "application_acceptable": false,
+      "reason": "The prose states 22 CCHS patients and the retrospective cohort timeframe 2000–2020, consistent with Italian passage 19. It includes an escaped spelling artifact in the hospital name and supplies no exact citation/quote contract; it cannot be an application answer."
+    },
+    {
+      "question_id": "PAR-01",
+      "row_hash": "42fda60c9d0ed248c7303b9259adfaf103cfb51cfca5d9937ee908be9b3da0ed",
+      "required_fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "all_visible_prose_supported": false,
+      "application_acceptable": false,
+      "reason": "The requested retrospective design and electronic-record review are now stated and supported by Italian passages 19/21/68. However, extra prose changes the period to 2000 and 2decade, and uses full source-version strings as if they were valid passage IDs. These errors disqualify the full response even though the requested facts appear."
+    },
+    {
+      "question_id": "ABS-01",
+      "row_hash": "5fd432e918dd7b2ff733707c9b27f8d62ca81c730baced77d736a66b74e81b8a",
+      "required_fact_coverage": [],
+      "all_visible_prose_supported": false,
+      "application_acceptable": false,
+      "reason": "The core nonanswer is corpus-bounded, but the first-passage assertion conflates source attribution: PARM heterozygosity/exon 3 occurs in Italian passage 56, not review passage 10:600. The second/third-passages summary also adds management evolution that those passages do not establish. Correct abstention does not rescue this added unsupported prose."
+    }
+  ]
+}

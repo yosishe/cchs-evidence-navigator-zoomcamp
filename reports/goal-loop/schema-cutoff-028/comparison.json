@@ -1,0 +1,165 @@
+{
+  "created_at": "2026-09-06T15:02:11.015013+00:00",
+  "candidates": [
+    {
+      "id": "vector_10",
+      "result_path": "reports/experiments/answers-0cb52db7-1c7d-493e-ae6c-1a8d635c80a2/results.json",
+      "result_hash": "ec0d194264288051496cba97c69276a43a7bc44016bf658eea8eaccaaac10e06",
+      "review_summary": "reports/experiments/answers-0cb52db7-1c7d-493e-ae6c-1a8d635c80a2/review-summary.json",
+      "baseline_hash": "a5953de93c1c1ba08d5735775b74a47cbb9348cea3cbdaaab21c9bd0191cbc36",
+      "pairs": [
+        {
+          "question_id": "DIR-01",
+          "baseline_answer_id": "0e7521e2-dbee-437e-993e-c56f9f376364",
+          "candidate_answer_id": "2240efd9-1cd7-4862-9eda-03094be949c1",
+          "baseline_fields_present": false,
+          "candidate_fields_present": true,
+          "raw_equal": false,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "insufficient_evidence",
+          "visible_prose_supported": false,
+          "reason": "Passage 17 explicitly enumerates both aims. The refusal denies explicit aims while mentioning genotype/clinical findings and changing management in its own prose. This is not a correct answer; the required relation to study aims is contradicted."
+        },
+        {
+          "question_id": "PAR-01",
+          "baseline_answer_id": "3a3e7442-5ac3-4d1d-89ca-2a6b267f9c73",
+          "candidate_answer_id": "8b3daa31-f149-41f6-80eb-fdea7a2fee02",
+          "baseline_fields_present": false,
+          "candidate_fields_present": true,
+          "raw_equal": false,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "error",
+          "visible_prose_supported": true,
+          "reason": "Canonical output is an application-owned validation error, with no claims or exports. Raw output contradicts insufficient_evidence with nonempty claims, uses a full publication version as a passage ID plus an invented ID, and emits empty quotations. The blocked retrospective caveat is not a usable answer about retrospective electronic records (passages 19/21)."
+        },
+        {
+          "question_id": "COM-01",
+          "baseline_answer_id": "b04901a0-b154-4370-9345-c57bdce07be0",
+          "candidate_answer_id": "e7780bf1-441a-44e8-b855-09b8ab3b929e",
+          "baseline_fields_present": false,
+          "candidate_fields_present": true,
+          "raw_equal": false,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "insufficient_evidence",
+          "visible_prose_supported": null,
+          "reason": "The response does not compare the methods. Italian passages 2/19/21 establish retrospective records. Guideline 12 establishes a European GDG literature search, but guideline 13 is absent in this context. The prose describes guidelines as for management in Italy without source support for that restriction; this context characterization is unresolved. A corpus-bound partial response would need to identify what is supported and what is missing, rather than assert no possible comparison."
+        },
+        {
+          "question_id": "ABS-01",
+          "baseline_answer_id": "ca68c989-bccb-4742-8ad0-6849029649b6",
+          "candidate_answer_id": "ef64e450-67ee-4b5d-bfc3-cd2cde63bed5",
+          "baseline_fields_present": false,
+          "candidate_fields_present": true,
+          "raw_equal": false,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "insufficient_evidence",
+          "visible_prose_supported": false,
+          "reason": "Status correctly abstains from intervention results, but the phrase intervention reported in a 2021 Italian study adopts the unsupported premise. Genetic testing and mutation passages do not establish that intervention. Correct status cannot make this whole nonanswer acceptable."
+        }
+      ],
+      "aggregates": [
+        {
+          "prompt": "evidence_first",
+          "evaluated_questions": 4,
+          "acceptable_answers": 0,
+          "acceptable_rate": 0.0,
+          "supported_claims": 0,
+          "claim_denominator": 0,
+          "unsupported_claims": 0,
+          "mean_seconds": 18.705948791495757,
+          "errors": 1,
+          "critical_failure_answers": 2
+        }
+      ],
+      "acceptable_answerable": 0,
+      "answerable_denominator": 3,
+      "acceptable_nonanswers": 0,
+      "nonanswer_denominator": 1,
+      "eligible_best_prompts": [],
+      "input_tokens": 13821,
+      "output_tokens": 858
+    },
+    {
+      "id": "hybrid_title_0_rrf_1_10",
+      "result_path": "reports/experiments/answers-ca46397a-76c1-40f0-bda3-adfc0399b600/results.json",
+      "result_hash": "29ba245a4014708cf88a5a1115c48e691545c2a60007fac95a635f7d090d7f40",
+      "review_summary": "reports/experiments/answers-ca46397a-76c1-40f0-bda3-adfc0399b600/review-summary.json",
+      "baseline_hash": "61dfa8dc43b8ee69acdbb3bcf8be0cafecaba00ab5ef17cc8d6574009878cfe7",
+      "pairs": [
+        {
+          "question_id": "DIR-01",
+          "baseline_answer_id": "cbd36c34-7150-4f34-835c-0b9e21f7b7cf",
+          "candidate_answer_id": "37fb4a98-f470-4d99-92db-a80bd4525558",
+          "baseline_fields_present": true,
+          "candidate_fields_present": true,
+          "raw_equal": true,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "error",
+          "visible_prose_supported": true,
+          "reason": "Canonical error is accurate and has no claims/exports. The raw first claim contains both aims from Italian passage 17, but uses a full source-version identity instead of its passage ID and adds a comma to exact_quote. The second changes The study to Our study and repeats the invalid ID. These raw fragments remain blocked and do not earn complete-answer credit."
+        },
+        {
+          "question_id": "PAR-01",
+          "baseline_answer_id": "6c220020-fee6-4229-a401-2df9faef1772",
+          "candidate_answer_id": "be3f0b16-329c-47a2-9c97-ce57a7f98bfa",
+          "baseline_fields_present": false,
+          "candidate_fields_present": true,
+          "raw_equal": false,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "insufficient_evidence",
+          "visible_prose_supported": false,
+          "reason": "Italian passages 19/68 state retrospective design and passage 21 states electronic medical-record review. The visible refusal denies these specific design facts, although both are present. No correct answer is delivered."
+        },
+        {
+          "question_id": "COM-01",
+          "baseline_answer_id": "a372208c-82e0-417f-b4ac-92ed3f8766ef",
+          "candidate_answer_id": "55e2d97e-b858-4090-9db1-2e9fa5ec3a17",
+          "baseline_fields_present": false,
+          "candidate_fields_present": true,
+          "raw_equal": false,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "insufficient_evidence",
+          "visible_prose_supported": true,
+          "reason": "The supplied sources do not literally compare themselves, so the narrow statement about no explicit cross-study discussion is supportable. However Italian passages 2/19/21 and guideline 13 supply the two methods that the application should compare. The refusal is incomplete and not useful; no unsupported comparison is credited or invented."
+        },
+        {
+          "question_id": "ABS-01",
+          "baseline_answer_id": "20364456-9595-442d-8568-c206b0918f78",
+          "candidate_answer_id": "d12dd7f6-6bdc-4d9a-956b-e6fd79642cb8",
+          "baseline_fields_present": false,
+          "candidate_fields_present": true,
+          "raw_equal": false,
+          "baseline_canonical_status": "error",
+          "candidate_canonical_status": "insufficient_evidence",
+          "visible_prose_supported": false,
+          "reason": "The nonanswer says a randomized intervention was reported in the Italian 2021 study, which is not established by any provided passage. The corpus-bound lack of measured results does not license that presupposition."
+        }
+      ],
+      "aggregates": [
+        {
+          "prompt": "evidence_first",
+          "evaluated_questions": 4,
+          "acceptable_answers": 0,
+          "acceptable_rate": 0.0,
+          "supported_claims": 0,
+          "claim_denominator": 0,
+          "unsupported_claims": 0,
+          "mean_seconds": 34.12150707299588,
+          "errors": 1,
+          "critical_failure_answers": 2
+        }
+      ],
+      "acceptable_answerable": 0,
+      "answerable_denominator": 3,
+      "acceptable_nonanswers": 0,
+      "nonanswer_denominator": 1,
+      "eligible_best_prompts": [],
+      "input_tokens": 14240,
+      "output_tokens": 749
+    }
+  ],
+  "new_calls": 8,
+  "fresh_retrieval_queries": 0,
+  "runtime_promoted": false,
+  "official_points": null
+}

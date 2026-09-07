@@ -1,0 +1,2271 @@
+{
+  "status": "EXECUTED_PROVISIONAL_LABELS",
+  "created_at": "2026-09-05T22:56:13.965994+00:00",
+  "split": "tuning",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "questions_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "config": {
+    "retrieval": "vector",
+    "top_k": 5,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 2.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "phi3",
+    "prompt": "evidence_first",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 120,
+    "rewrite_enabled": false,
+    "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+    "question_bank": "data/evaluation/questions-v2.json"
+  },
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "aggregates": [
+    {
+      "method": "lexical",
+      "answerable_denominator": 35,
+      "hit_at_k": 0.4,
+      "mrr_at_k": 0.2880952380952381,
+      "query_seconds_excluding_setup": 0.03905283300264273,
+      "additional_setup_seconds": 2.0800507627427578e-07
+    },
+    {
+      "method": "vector",
+      "answerable_denominator": 35,
+      "hit_at_k": 0.6,
+      "mrr_at_k": 0.4695238095238095,
+      "query_seconds_excluding_setup": 0.1492459590008366,
+      "additional_setup_seconds": 4.33225400000083
+    },
+    {
+      "method": "hybrid",
+      "answerable_denominator": 35,
+      "hit_at_k": 0.5714285714285714,
+      "mrr_at_k": 0.34523809523809523,
+      "query_seconds_excluding_setup": 0.19976520900672767,
+      "additional_setup_seconds": 2.2500025806948543e-06
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:3:0:750"
+      ],
+      "seconds": 0.001070915997843258,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-02",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+      ],
+      "seconds": 0.0009433329978492111,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-03",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:25:0:639"
+      ],
+      "seconds": 0.0009304580016760156,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-04",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "seconds": 0.0008979580015875399,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-05",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:66:0:459",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891"
+      ],
+      "seconds": 0.0009182909998344257,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-06",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:42:0:403",
+        "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+        "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+      ],
+      "seconds": 0.0009186250026687048,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-07",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "seconds": 0.000920833001146093,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-01",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "seconds": 0.0009115419961744919,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-02",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+        "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+      ],
+      "seconds": 0.0009205419992213137,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-03",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "seconds": 0.0011655839989543892,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.25
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-04",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:203:0:119",
+        "PMC7503443:a26671042513feb5:156:0:391",
+        "PMC8963195:f6c8a0a4968ccaf4:14:600:1161",
+        "PMC7503443:a26671042513feb5:158:0:490",
+        "PMC7503443:a26671042513feb5:41:0:61"
+      ],
+      "seconds": 0.0009322080004494637,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-05",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+        "PMC8039127:b4a7750cb1b5b1d0:3:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:66:0:459",
+        "PMC8039127:b4a7750cb1b5b1d0:64:0:750"
+      ],
+      "seconds": 0.0008920420004869811,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-06",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "seconds": 0.0008911659970181063,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-07",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169"
+      ],
+      "seconds": 0.0008875839994288981,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-01",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169"
+      ],
+      "seconds": 0.0008842500028549694,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-02",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+        "PMC8039127:b4a7750cb1b5b1d0:25:0:639",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "seconds": 0.0008784590027062222,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-03",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+        "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:11:0:320"
+      ],
+      "seconds": 0.0008815409964881837,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-04",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:31:0:152"
+      ],
+      "seconds": 0.0009539999955450185,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-05",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:61:0:166",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:59:0:750"
+      ],
+      "seconds": 0.0009512079996056855,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-06",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+        "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+        "PMC8039127:b4a7750cb1b5b1d0:24:0:163"
+      ],
+      "seconds": 0.0011235839992878027,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-07",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+      ],
+      "seconds": 0.000906458000827115,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-01",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+      ],
+      "seconds": 0.0008818330024951138,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-02",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+        "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "seconds": 0.0008755410017329268,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-03",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "seconds": 0.0008725829975446686,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-04",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+        "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+      ],
+      "seconds": 0.0008715000003576279,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-05",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949"
+      ],
+      "seconds": 0.0008870829988154583,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-06",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC7503443:a26671042513feb5:196:0:156",
+        "PMC7503443:a26671042513feb5:50:0:513",
+        "PMC7503443:a26671042513feb5:253:0:87",
+        "PMC7503443:a26671042513feb5:2:0:746"
+      ],
+      "seconds": 0.0009347090017399751,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-07",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286"
+      ],
+      "seconds": 0.0010922919973381795,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-01",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:28:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:58:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:62:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:26:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+      ],
+      "seconds": 0.0008735000010346994,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-02",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "seconds": 0.0008655839992570691,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-03",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228"
+      ],
+      "seconds": 0.0008647909999126568,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-04",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:37:0:750"
+      ],
+      "seconds": 0.0009202080036629923,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-05",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:59:0:750"
+      ],
+      "seconds": 0.0009314999988419004,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-06",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+      ],
+      "seconds": 0.0009437920016353019,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-07",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+        "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949"
+      ],
+      "seconds": 0.0009117500012507662,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-01",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+        "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "seconds": 0.0009390420018462464,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-02",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "seconds": 0.0009323749982286245,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-03",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:171:0:62",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC7503443:a26671042513feb5:13:0:561",
+        "PMC7503443:a26671042513feb5:14:0:635",
+        "PMC7503443:a26671042513feb5:90:600:940"
+      ],
+      "seconds": 0.0009267909990740009,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-04",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "seconds": 0.0009320419994764961,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-05",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:8:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC7503443:a26671042513feb5:103:600:844",
+        "PMC7503443:a26671042513feb5:142:0:551",
+        "PMC7503443:a26671042513feb5:14:0:635"
+      ],
+      "seconds": 0.0009291250025853515,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-06",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC7503443:a26671042513feb5:153:0:524",
+        "PMC7503443:a26671042513feb5:92:600:846",
+        "PMC7503443:a26671042513feb5:4:0:201",
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+      ],
+      "seconds": 0.0009368330065626651,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-07",
+      "method": "lexical",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC7503443:a26671042513feb5:244:0:56"
+      ],
+      "seconds": 0.0009313749978900887,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-01",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "seconds": 0.004155999995418824,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-02",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "seconds": 0.003910125000402331,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-03",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "seconds": 0.0034878750011557713,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-04",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "seconds": 0.004058708000229672,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-05",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "seconds": 0.0037752080024802126,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-06",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:57:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC7503443:a26671042513feb5:57:600:972",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "seconds": 0.0038863339941599406,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-07",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:12:0:219"
+      ],
+      "seconds": 0.0034306250017834827,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-01",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "seconds": 0.003584250000130851,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-02",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:324:0:36",
+        "PMC7503443:a26671042513feb5:245:0:158",
+        "PMC7503443:a26671042513feb5:203:0:119",
+        "PMC7503443:a26671042513feb5:155:600:928"
+      ],
+      "seconds": 0.0035399170010350645,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-03",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "seconds": 0.003338041999086272,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-04",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:53:0:311",
+        "PMC7503443:a26671042513feb5:10:600:1246",
+        "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+        "PMC8963195:f6c8a0a4968ccaf4:15:0:750",
+        "PMC7503443:a26671042513feb5:188:0:666"
+      ],
+      "seconds": 0.0036374170013004914,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-05",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:77:0:750",
+        "PMC7503443:a26671042513feb5:213:0:210",
+        "PMC8963195:f6c8a0a4968ccaf4:28:600:1305",
+        "PMC7503443:a26671042513feb5:214:0:212",
+        "PMC7503443:a26671042513feb5:76:0:677"
+      ],
+      "seconds": 0.0033432089985581115,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-06",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+        "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+        "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+        "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+      ],
+      "seconds": 0.0035372089987504296,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-07",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+        "PMC7503443:a26671042513feb5:50:0:513"
+      ],
+      "seconds": 0.0034230829987791367,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-01",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:194:0:58",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC7503443:a26671042513feb5:9:0:276"
+      ],
+      "seconds": 0.0037583749945042655,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-02",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:54:0:644",
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750"
+      ],
+      "seconds": 0.003687958997034002,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-03",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+        "PMC7503443:a26671042513feb5:63:0:581",
+        "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+        "PMC8963195:f6c8a0a4968ccaf4:11:0:750"
+      ],
+      "seconds": 0.003531249996740371,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-04",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:60:0:317",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC7503443:a26671042513feb5:10:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286"
+      ],
+      "seconds": 0.0034226249990751967,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-05",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:61:0:166",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8039127:b4a7750cb1b5b1d0:31:0:152"
+      ],
+      "seconds": 0.0032892500021262094,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-06",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+        "PMC7503443:a26671042513feb5:49:0:572"
+      ],
+      "seconds": 0.003679458000988234,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-07",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:54:0:644",
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350"
+      ],
+      "seconds": 0.003424583002924919,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-01",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "seconds": 0.0033633339990046807,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-02",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC7503443:a26671042513feb5:54:0:644"
+      ],
+      "seconds": 0.003486749999865424,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-03",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:175:0:52",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC7503443:a26671042513feb5:57:0:750"
+      ],
+      "seconds": 0.003567249994375743,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-04",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "seconds": 0.003762542000913527,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-05",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273"
+      ],
+      "seconds": 0.0034056660006172024,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-06",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:194:0:58",
+        "PMC7503443:a26671042513feb5:25:0:148"
+      ],
+      "seconds": 0.0033937920015887357,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-07",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "seconds": 0.003337458001624327,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.2
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-01",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:78:0:750",
+        "PMC7503443:a26671042513feb5:84:600:860",
+        "PMC7503443:a26671042513feb5:93:0:135",
+        "PMC7503443:a26671042513feb5:150:600:979",
+        "PMC7503443:a26671042513feb5:77:0:750"
+      ],
+      "seconds": 0.003285999999206979,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-02",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+        "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "seconds": 0.003588916006265208,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-03",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+        "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:64:600:945"
+      ],
+      "seconds": 0.0033830000029411167,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-04",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+        "PMC7503443:a26671042513feb5:164:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:3:600:1219",
+        "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:6:0:509"
+      ],
+      "seconds": 0.0033276249960181303,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-05",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:324:0:36",
+        "PMC7503443:a26671042513feb5:203:0:119",
+        "PMC7503443:a26671042513feb5:155:600:928"
+      ],
+      "seconds": 0.0033458750040153973,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-06",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350"
+      ],
+      "seconds": 0.0035877500049537048,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-07",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:53:0:311",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "seconds": 0.0037066669974592514,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-01",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:8:0:127"
+      ],
+      "seconds": 0.00349287500284845,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-02",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "seconds": 0.003529292000166606,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-03",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:50:0:626",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+        "PMC7503443:a26671042513feb5:114:0:628"
+      ],
+      "seconds": 0.0034096660019713454,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-04",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC7503443:a26671042513feb5:54:0:644",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8963195:f6c8a0a4968ccaf4:11:0:750"
+      ],
+      "seconds": 0.0038317910002660938,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-05",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:10:600:1246",
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218"
+      ],
+      "seconds": 0.0034882920008385554,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-06",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:10:600:1246",
+        "PMC7503443:a26671042513feb5:9:0:276",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169"
+      ],
+      "seconds": 0.003472416996373795,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-07",
+      "method": "vector",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:86:0:402",
+        "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+        "PMC7503443:a26671042513feb5:18:0:233",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "seconds": 0.00352362499688752,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-01",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "seconds": 0.005062625001301058,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-02",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "seconds": 0.004674791998695582,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-03",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "seconds": 0.004599041996698361,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-04",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "seconds": 0.004467040998861194,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-05",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+        "PMC8039127:b4a7750cb1b5b1d0:61:600:817"
+      ],
+      "seconds": 0.0046904159971745685,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-06",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC7503443:a26671042513feb5:57:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8039127:b4a7750cb1b5b1d0:42:0:403",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "seconds": 0.004825874995731283,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "DIR-07",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169"
+      ],
+      "seconds": 0.004982083002687432,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.25
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-01",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949"
+      ],
+      "seconds": 0.005046040998422541,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-02",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+        "PMC7503443:a26671042513feb5:324:0:36",
+        "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+        "PMC7503443:a26671042513feb5:245:0:158"
+      ],
+      "seconds": 0.004941958002746105,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-03",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262"
+      ],
+      "seconds": 0.00471458299580263,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-04",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+        "PMC7503443:a26671042513feb5:203:0:119",
+        "PMC7503443:a26671042513feb5:53:0:311",
+        "PMC7503443:a26671042513feb5:10:600:1246",
+        "PMC7503443:a26671042513feb5:156:0:391"
+      ],
+      "seconds": 0.004665708998800255,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-05",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:77:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC7503443:a26671042513feb5:213:0:210",
+        "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+        "PMC8039127:b4a7750cb1b5b1d0:3:0:750"
+      ],
+      "seconds": 0.0050765830019372515,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-06",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+        "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+        "PMC8039127:b4a7750cb1b5b1d0:58:600:891"
+      ],
+      "seconds": 0.004685917003371287,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "PAR-07",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228"
+      ],
+      "seconds": 0.004598541992891114,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-01",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:24:0:163",
+        "PMC8039127:b4a7750cb1b5b1d0:8:0:127"
+      ],
+      "seconds": 0.004764500001328997,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-02",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+        "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+        "PMC7503443:a26671042513feb5:54:0:644"
+      ],
+      "seconds": 0.004756959002406802,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-03",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+        "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+        "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+        "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+        "PMC8039127:b4a7750cb1b5b1d0:49:0:480"
+      ],
+      "seconds": 0.004606041999068111,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-04",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687"
+      ],
+      "seconds": 0.004679375000705477,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-05",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:61:0:166",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "seconds": 0.004990499997802544,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-06",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:31:0:152"
+      ],
+      "seconds": 0.004707959000370465,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "EXA-07",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212"
+      ],
+      "seconds": 0.0047227079994627275,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-01",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "seconds": 0.004749792002257891,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-02",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218"
+      ],
+      "seconds": 0.004791583996848203,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-03",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+        "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+        "PMC8039127:b4a7750cb1b5b1d0:61:0:750"
+      ],
+      "seconds": 0.004567040996334981,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-04",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212"
+      ],
+      "seconds": 0.0046430420043179765,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-05",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "seconds": 0.00513620900164824,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.3333333333333333
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-06",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:194:0:58",
+        "PMC7503443:a26671042513feb5:50:0:513",
+        "PMC7503443:a26671042513feb5:2:0:746",
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC7503443:a26671042513feb5:195:0:71"
+      ],
+      "seconds": 0.004671125003369525,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "COM-07",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "seconds": 0.004750124993734062,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-01",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:26:600:1350",
+        "PMC8963195:f6c8a0a4968ccaf4:32:600:1350",
+        "PMC7503443:a26671042513feb5:78:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:28:0:750",
+        "PMC7503443:a26671042513feb5:84:600:860"
+      ],
+      "seconds": 0.004721542005427182,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-02",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "seconds": 0.004738042000099085,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 0.5
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-03",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+        "PMC8039127:b4a7750cb1b5b1d0:64:600:945",
+        "PMC8039127:b4a7750cb1b5b1d0:44:0:589",
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212"
+      ],
+      "seconds": 0.00457395899866242,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-04",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+        "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "seconds": 0.00460916700103553,
+      "metrics": {
+        "hit": 1,
+        "reciprocal_rank": 1.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-05",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:324:0:36"
+      ],
+      "seconds": 0.004848166005103849,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-06",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750"
+      ],
+      "seconds": 0.0047855410011834465,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "LIM-07",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:53:0:311"
+      ],
+      "seconds": 0.0047582499973941594,
+      "metrics": {
+        "hit": 0,
+        "reciprocal_rank": 0.0
+      },
+      "answerable": true,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-01",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+        "PMC7503443:a26671042513feb5:49:0:572",
+        "PMC7503443:a26671042513feb5:58:0:461",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+      ],
+      "seconds": 0.004746582999359816,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-02",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "seconds": 0.004848082993703429,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-03",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:171:0:62",
+        "PMC8963195:f6c8a0a4968ccaf4:50:0:626",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ],
+      "seconds": 0.004481666001083795,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-04",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+        "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+        "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+        "PMC7503443:a26671042513feb5:54:0:644"
+      ],
+      "seconds": 0.004694374998507556,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-05",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC7503443:a26671042513feb5:188:0:666",
+        "PMC7503443:a26671042513feb5:8:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+        "PMC7503443:a26671042513feb5:10:600:1246"
+      ],
+      "seconds": 0.0049260420055361465,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-06",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC7503443:a26671042513feb5:153:0:524",
+        "PMC7503443:a26671042513feb5:8:0:750",
+        "PMC7503443:a26671042513feb5:12:0:409",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC8963195:f6c8a0a4968ccaf4:64:0:750"
+      ],
+      "seconds": 0.004599874999257736,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "question_id": "ABS-07",
+      "method": "hybrid",
+      "ranked_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+        "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+        "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+        "PMC7503443:a26671042513feb5:170:0:156",
+        "PMC7503443:a26671042513feb5:86:0:402"
+      ],
+      "seconds": 0.004835624997213017,
+      "metrics": null,
+      "answerable": false,
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    }
+  ],
+  "shared_lexical_setup_seconds": 0.9830477920040721,
+  "timing_scope": "Search only; initial index/encoder setup reported separately. Hybrid reuses the vector index if already built.",
+  "limitations": "Assistant-authored labels require researcher review. Unanswerable queries are excluded from Hit/MRR and need answer-abstention review. No automatic configuration promotion."
+}

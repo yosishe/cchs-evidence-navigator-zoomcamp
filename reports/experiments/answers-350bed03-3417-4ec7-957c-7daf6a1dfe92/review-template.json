@@ -1,0 +1,85 @@
+{
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "17836118e0fd5dc3ab26864fbed3bc23dc3986920cbac77d05d433cd74a1767e",
+  "reviews": [
+    {
+      "answer_id": "2dc58f10-a83c-4cf9-a8ea-f9a2835272d7",
+      "record_hash": "ea981bbef462e8869e0809307546c7e9fef753dec8486a9b47213d5d33689e3e",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "a0b03254-fda9-427a-bfce-43b41b159422",
+      "record_hash": "9c4fa89812b93ede2ce863be9a26142578009596145c6ecc56abf51e9068d013",
+      "relevance": null,
+      "claim_support": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null,
+        null
+      ],
+      "qualification_coverage": [],
+      "reason": ""
+    },
+    {
+      "answer_id": "2ab32342-39bf-486b-83f6-2bae37a7a523",
+      "record_hash": "0f66ff329a677a6a3bab1bbe1f3e9dbabf308f1ac7b9a56b82be2da4c66b3d96",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null
+      ],
+      "qualification_coverage": [
+        null
+      ],
+      "reason": ""
+    },
+    {
+      "answer_id": "9655b63f-3a84-49eb-b381-4276cce1acd1",
+      "record_hash": "fcc1e3814bbf44b5f5a3651e023a8aac4d3d57a0979d35348639f0066d971bb6",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [
+        null
+      ],
+      "qualification_coverage": [
+        null
+      ],
+      "reason": ""
+    },
+    {
+      "answer_id": "23d417b9-2101-4bc8-b9b1-100e71a24a03",
+      "record_hash": "681dffd31c2934df0ab912e86e2cace73789215aa306d40ffc7af8f21398286e",
+      "relevance": null,
+      "claim_support": [
+        null
+      ],
+      "abstention_correct": null,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": ""
+    }
+  ]
+}

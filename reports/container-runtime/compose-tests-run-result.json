@@ -1,0 +1,92 @@
+{
+  "phase": "compose-tests-run",
+  "command": [
+    "/Applications/Docker.app/Contents/Resources/bin/docker",
+    "--context",
+    "desktop-linux",
+    "compose",
+    "-p",
+    "cchs-zoomcamp-rehearsal",
+    "run",
+    "--name",
+    "cchs-zoomcamp-rehearsal-checks",
+    "--no-deps",
+    "--pull",
+    "never",
+    "-e",
+    "TELEMETRY_BACKEND=jsonl",
+    "-e",
+    "NAVIGATOR_RUNTIME=/tmp/cchs-compose-tests",
+    "-e",
+    "NAVIGATOR_MODEL_CACHE=/app/runtime/models",
+    "-e",
+    "HF_HUB_OFFLINE=1",
+    "-e",
+    "TRANSFORMERS_OFFLINE=1",
+    "-e",
+    "OLLAMA_BASE_URL=http://localhost:11434/v1/",
+    "-e",
+    "ENABLE_PAID_LLM=0",
+    "-e",
+    "NAVIGATOR_TRAFFIC_ORIGIN=qa",
+    "ingest",
+    "python",
+    "tools/run_checks.py"
+  ],
+  "exit_code": 0,
+  "violation": null,
+  "initial": {
+    "at": "2026-09-07T12:30:52.890151+00:00",
+    "elapsed_seconds": 0.0,
+    "host_free_bytes": 14547812352,
+    "new_container_disk_allocated_bytes": 13496172544,
+    "disks": [
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/cchs-rehearsal-data/Docker.raw",
+        "logical_bytes": 21474836480,
+        "allocated_bytes": 13484314624
+      },
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw",
+        "logical_bytes": 494384709632,
+        "allocated_bytes": 11857920
+      }
+    ],
+    "settings": {
+      "Cpus": 6,
+      "MemoryMiB": 10240,
+      "DiskSizeMiB": 20480,
+      "AutoStart": false,
+      "KubernetesEnabled": false,
+      "EnableInference": false,
+      "EnableDockerAI": false
+    }
+  },
+  "final": {
+    "at": "2026-09-07T12:31:19.338586+00:00",
+    "elapsed_seconds": 26.45,
+    "host_free_bytes": 14526660608,
+    "new_container_disk_allocated_bytes": 13514391552,
+    "disks": [
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/cchs-rehearsal-data/Docker.raw",
+        "logical_bytes": 21474836480,
+        "allocated_bytes": 13502533632
+      },
+      {
+        "name": "Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw",
+        "logical_bytes": 494384709632,
+        "allocated_bytes": 11857920
+      }
+    ],
+    "settings": {
+      "Cpus": 6,
+      "MemoryMiB": 10240,
+      "DiskSizeMiB": 20480,
+      "AutoStart": false,
+      "KubernetesEnabled": false,
+      "EnableInference": false,
+      "EnableDockerAI": false
+    }
+  }
+}

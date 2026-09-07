@@ -1,0 +1,129 @@
+{
+  "created_at": "2026-09-06T11:00:49.389021+00:00",
+  "status": "REJECTED_AFTER_FOCUSED_DIAGNOSTIC",
+  "decision": "REJECT",
+  "official_points": null,
+  "candidate_code_id": "6ca6e11ab623ee37412303e25fe627076fcfabffe35c007ee1b9031e5f260479",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "evaluator_version": "6ca6e11ab623ee37412303e25fe627076fcfabffe35c007ee1b9031e5f260479",
+  "model": "phi3",
+  "model_digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+  "changed_dimension": "Prompt message composition only: identical evidence_first instructions/output rules and context in one user message with QUESTION/CONTEXT labels.",
+  "course_source": "https://github.com/DataTalksClub/llm-zoomcamp/blob/bc7b6aad6b92a5611d3d37bf7521a363f3b9d398/cohorts/2024/02-open-source/qa_faq.py",
+  "adaptation": "Retain original project JSON context/strict output schema; adopt taught single-user-message layout. No course data or answers enter the biomedical prompt.",
+  "hypothesis": "The small local model may answer labeled QUESTION more reliably than the current serialized question/passages request split from system instructions.",
+  "split": "tuning",
+  "question_ids": [
+    "DIR-02",
+    "PAR-01",
+    "ABS-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "course_user"
+  ],
+  "planned_calls": 6,
+  "attempted_calls": 6,
+  "pilot_scope": "Focused diagnosis: two answerable questions with all reference facts already retrieved, and one unsupported-premise question. Not all-slice quality proof; broad pilot and full development coverage still required.",
+  "acceptance": "Both answerable cases must become fully supported/complete, the unanswerable case must abstain without unsupported premise, and no new critical errors may appear. Otherwise revise/reject; no promotion from three questions.",
+  "rejected_alternatives": [
+    "Change prompt wording, model and layout simultaneously",
+    "Treat the prior old-code pilot as current selection evidence",
+    "Use reference answers in the model request",
+    "Relax source quotation requirements"
+  ],
+  "tradeoffs": [
+    "Single-message composition follows the taught local example but gives less role separation to untrusted retrieved data",
+    "All source text remains explicitly untrusted in unchanged output rules",
+    "Any layout gain still requires broad question coverage and prompt-injection failure tests"
+  ],
+  "heldout_exposure": "Only named development questions; final inference not run and no guaranteed-unseen claim.",
+  "next_action": "Keep the incumbent. Test an explicit complete-answer JSON shape and question-part instructions as a separate prompt candidate; continue checking reference availability separately. Do not broaden a zero-quality layout into full development inference.",
+  "raw_results_path": "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/results.json",
+  "execution_session": 15845,
+  "review_path": "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/reviews.json",
+  "whole_answer_review_path": "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/whole-answer-review.json",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 14.794095805671532,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "course_user",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 14.508031819670578,
+      "errors": 0,
+      "critical_failure_answers": 1
+    }
+  ],
+  "metrics_by_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "course_user",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "course_user",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "course_user",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "validation": {
+    "tests": 107,
+    "skipped": 0,
+    "completed_generation_calls": 6,
+    "exit_code": 0
+  },
+  "quality_wins": [],
+  "regressions": [
+    "DIR-02 loses the already supported patient-count fragment and becomes an unnecessary abstention"
+  ],
+  "configuration_promoted": false
+}

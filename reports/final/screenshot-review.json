@@ -1,0 +1,123 @@
+{
+  "status": "PASS_WITH_HISTORICAL_DISTINCTIONS",
+  "reviewed_at": "2026-09-07T18:33:24.895185+00:00",
+  "method": "Assistant visually inspected every listed screenshot using image-viewing tools.",
+  "screenshots": [
+    {
+      "path": "docs/screenshots/final-native-abstention.png",
+      "sha256": "7001dfea3dbbaa3d02b4ec3b811fa5e4e335811a5588c44b4c89df0c20be6b49",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-answer.png",
+      "sha256": "4d971191fc43b87dac5c4614bd6631bd4cd2b6e2bfee67d81c385e864a368f17",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-chart-1.png",
+      "sha256": "d9c771d85d604ed47a07d39cbedc05dd005a7598e0d7ee51c9ba221dd6470766",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-chart-2.png",
+      "sha256": "241604d5735e6abf51dff0ff24867404f3136cf749dec21736eee8320e1702f5",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-chart-3.png",
+      "sha256": "8d7ed92ba40cb391a90e7608daa1f4e96f30ead0ef449559f02974eddcc02f31",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-chart-4.png",
+      "sha256": "7e11a72e08df943cf2a0e345250999037e25010a7b6264e4b9f860bf5f189692",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-chart-5.png",
+      "sha256": "1170d3fda43ba5407fdc01a3aa64a4979cc2bda6c9bd9ba1580a2ebbf9d386ef",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-chart-6.png",
+      "sha256": "4bb1f92f6e8228be0ded5d5226b2d70ba42e8c81c0b88604ee29822e391096b9",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-exports.png",
+      "sha256": "146cbd742ab314485644376163b75e725d568b10707be6e5203666c11bd61932",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/final-native-restart.png",
+      "sha256": "efb9a531e856c422ae2478eaf3a70be99c11f31aff414ad8f535be0811189b3d",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Current native demo; operational evidence, not a quality benchmark."
+    },
+    {
+      "path": "docs/screenshots/qa-llm-answer.png",
+      "sha256": "b339e911e782a49a6963f337108d68620e83ede9505066c1ae0fde8e1446735a",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session."
+    },
+    {
+      "path": "docs/screenshots/qa-llm-exports.png",
+      "sha256": "f8d8bfd2a035bc2069383c6741be6f401cf6df4c5664a9e897f7cd67d7fc2f82",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session."
+    },
+    {
+      "path": "docs/screenshots/qa-llm-monitoring-tokens.png",
+      "sha256": "22e38180fa813412e7cd197ac467292553168d775230bb72898351d037ae0479",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session."
+    },
+    {
+      "path": "docs/screenshots/qa-llm-monitoring-top.png",
+      "sha256": "b6f012cd85c85fb431966bc0330e4783ae97565b7f8c4513c86bb1e5a33c2aec",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session."
+    },
+    {
+      "path": "docs/screenshots/qa-llm-source.png",
+      "sha256": "df8bf80c6ea560ba22da8c4efb33a6d520cb1db706bd92fab3d30c6bd5cef201",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session."
+    },
+    {
+      "path": "docs/screenshots/qa-preview-monitoring-middle.png",
+      "sha256": "bca33bc0a00bf0346b2187ed90c20e9125d0572d3648060002a70272520752f8",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session. Captures the old invisible single-point line before the documented bar-chart fix; not a current passing chart."
+    },
+    {
+      "path": "docs/screenshots/qa-preview-monitoring-top.png",
+      "sha256": "b10d234f0c70953df352863481dc5373888185adc9c3b2f69da0ecc2d671c2c6",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session."
+    },
+    {
+      "path": "docs/screenshots/qa-preview-monitoring.png",
+      "sha256": "586dedf86c455522b406bf53097bec64ceedbfe84740c37b026031408f596e2a",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session. Legacy zoomed/cropped view; retained for history, not used as the primary demonstration."
+    },
+    {
+      "path": "docs/screenshots/qa-single-point-chart-fixed.png",
+      "sha256": "526f3f2635e5f8fbc5fe9686aae2861f245aa2b2d47db07048573f218765923a",
+      "visual_language_check": "English visible UI; no Hebrew observed",
+      "notes": "Historical screenshot; not evidence for the final bound native session."
+    }
+  ],
+  "count": 19,
+  "limitation": "Visual review does not prove hidden interactive behavior; recorded browser exports and restart records provide separate evidence."
+}

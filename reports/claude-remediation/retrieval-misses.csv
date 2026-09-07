@@ -1,0 +1,32 @@
+question_id,slice,question,source_id,reference_quote,best_candidate_rank,diagnosis
+DIR-01,direct,What were the two stated aims of the Italian center study?,PMC8039127,to describe the genotypes and the clinical findings,7.0,candidate_present_below_final_cutoff
+DIR-01,direct,What were the two stated aims of the Italian center study?,PMC8039127,to highlight the changing strategy in the management of these patients over time,7.0,candidate_present_below_final_cutoff
+DIR-06,direct,Which two additional genes does the guideline report in consanguineous families?,PMC7503443,MYO1H and LBX1,16.0,candidate_present_below_final_cutoff
+DIR-06,direct,Which two additional genes does the guideline report in consanguineous families?,PMC7503443,two consanguineous families with CCHS,16.0,candidate_present_below_final_cutoff
+PAR-02,paraphrase,Did the guideline authors rely entirely on high-certainty trials when drafting recommendations?,PMC7503443,most of the evidence is descriptive and of low grade of recommendation,,reference_not_in_candidate_pool
+PAR-02,paraphrase,Did the guideline authors rely entirely on high-certainty trials when drafting recommendations?,PMC7503443,a blend of published evidence and clinical experience,,reference_not_in_candidate_pool
+PAR-05,paraphrase,Does repeat length invariably determine how much ventilatory support is needed?,PMC7503443,although this is inconsistent,,reference_not_in_candidate_pool
+PAR-05,paraphrase,Does repeat length invariably determine how much ventilatory support is needed?,PMC7503443,this relationship is variable and a few remarkable exceptions are known,,reference_not_in_candidate_pool
+EXA-01,exact_identifiers,"Where does the 2022 review locate PHOX2B, and how many exons does it describe?",PMC8963195,chromosome 4p12 and has 3 exons,19.0,candidate_present_below_final_cutoff
+COM-01,comparison,Contrast the Italian study design with the guideline evidence-development method.,PMC8039127,collected retrospectively,7.0,candidate_present_below_final_cutoff
+COM-01,comparison,Contrast the Italian study design with the guideline evidence-development method.,PMC7503443,a blend of published evidence and clinical experience,,reference_not_in_candidate_pool
+COM-02,comparison,Compare the PARM fraction in the Italian cohort with the general estimate in the 2022 review.,PMC8963195,account for 90% of CCHS cases,12.0,candidate_present_below_final_cutoff
+COM-03,comparison,Compare how the guideline and review qualify genotype–phenotype associations.,PMC7503443,this relationship is variable,,reference_not_in_candidate_pool
+COM-03,comparison,Compare how the guideline and review qualify genotype–phenotype associations.,PMC8963195,variable expression and incomplete penetrance,,reference_not_in_candidate_pool
+COM-04,comparison,Compare the Italian observation and guideline account concerning severity with NPARMs.,PMC8039127,NPARMs are more likely to have more severe disease,,reference_not_in_candidate_pool
+COM-04,comparison,Compare the Italian observation and guideline account concerning severity with NPARMs.,PMC7503443,some of whom may have only mild hypoventilation,18.0,candidate_present_below_final_cutoff
+COM-04,comparison,Compare the Italian observation and guideline account concerning severity with NPARMs.,PMC7503443,wide spectrum of phenotypes,18.0,candidate_present_below_final_cutoff
+COM-05,comparison,How do the Italian limitations and guideline evidence grade constrain research conclusions?,PMC8039127,"retrospective design, the poor sample",7.0,candidate_present_below_final_cutoff
+COM-05,comparison,How do the Italian limitations and guideline evidence grade constrain research conclusions?,PMC7503443,most of the evidence is descriptive,,reference_not_in_candidate_pool
+COM-06,comparison,Compare the guideline and review descriptions of rare PHOX2B deletions.,PMC7503443,mainly large deletions,14.0,candidate_present_below_final_cutoff
+COM-07,comparison,Compare the Italian study aim with the guideline purpose regarding change over time.,PMC7503443,clinical features of the condition continue to change,,reference_not_in_candidate_pool
+LIM-01,limitations,What qualification must accompany a tag linking longer repeats with continuous ventilation?,PMC7503443,although this is inconsistent,,reference_not_in_candidate_pool
+LIM-01,limitations,What qualification must accompany a tag linking longer repeats with continuous ventilation?,PMC7503443,a few remarkable exceptions,,reference_not_in_candidate_pool
+LIM-02,limitations,May the Italian retrospective findings be presented as randomized causal evidence?,PMC8039127,retrospective design,6.0,candidate_present_below_final_cutoff
+LIM-02,limitations,May the Italian retrospective findings be presented as randomized causal evidence?,PMC8039127,heterogeneity of the described population,6.0,candidate_present_below_final_cutoff
+LIM-05,limitations,What prevents the guideline recommendations from being labeled entirely trial-proven?,PMC7503443,combined with clinical expertise as required,20.0,candidate_present_below_final_cutoff
+LIM-05,limitations,What prevents the guideline recommendations from being labeled entirely trial-proven?,PMC7503443,low grade of recommendation,20.0,candidate_present_below_final_cutoff
+LIM-06,limitations,Does the guideline additional-gene passage claim all unexplained CCHS cases are genetically solved?,PMC7503443,without any identified gene mutations,,reference_not_in_candidate_pool
+LIM-06,limitations,Does the guideline additional-gene passage claim all unexplained CCHS cases are genetically solved?,PMC7503443,yet unknown genes,,reference_not_in_candidate_pool
+LIM-07,limitations,Can the review NPARM description justify assuming identical disease in every carrier?,PMC8963195,clinical variability,7.0,candidate_present_below_final_cutoff
+LIM-07,limitations,Can the review NPARM description justify assuming identical disease in every carrier?,PMC8963195,variable expression and incomplete penetrance,,reference_not_in_candidate_pool

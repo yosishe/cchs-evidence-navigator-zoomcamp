@@ -1,0 +1,82 @@
+{
+  "status": "PROVISIONAL_LOCAL_WORKTREE_ASSESSMENT_NOT_OFFICIAL",
+  "rows": [
+    {
+      "id": "R01",
+      "points": 2,
+      "maximum": 2
+    },
+    {
+      "id": "R02",
+      "points": 0,
+      "maximum": 2
+    },
+    {
+      "id": "R03",
+      "points": 2,
+      "maximum": 2
+    },
+    {
+      "id": "R04",
+      "points": 0,
+      "maximum": 2
+    },
+    {
+      "id": "R05",
+      "points": 2,
+      "maximum": 2
+    },
+    {
+      "id": "R06",
+      "points": 2,
+      "maximum": 2
+    },
+    {
+      "id": "R07",
+      "points": 2,
+      "maximum": 2
+    },
+    {
+      "id": "R08",
+      "points": 2,
+      "maximum": 2
+    },
+    {
+      "id": "R09",
+      "points": 1,
+      "maximum": 2
+    },
+    {
+      "id": "R10",
+      "points": 1,
+      "maximum": 1
+    },
+    {
+      "id": "R11",
+      "points": 0,
+      "maximum": 1
+    },
+    {
+      "id": "R12",
+      "points": 0,
+      "maximum": 1
+    },
+    {
+      "id": "R13",
+      "points": 0,
+      "maximum": 2
+    },
+    {
+      "id": "R14",
+      "points": 0,
+      "maximum": 3
+    }
+  ],
+  "core": 13,
+  "core_maximum": 18,
+  "total": 14,
+  "maximum": 26,
+  "rrf_additional_point": "RESERVED_UNCERTAIN_NOT_INCLUDED",
+  "peer_review_points": "SEPARATE_NOT_ASSESSED",
+  "source": "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md#evaluation-criteria"
+}

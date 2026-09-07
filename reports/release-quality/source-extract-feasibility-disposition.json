@@ -1,0 +1,14 @@
+{
+  "created_at": "2026-09-07T00:31:35.341776+00:00",
+  "status": "CONTINUE_TO_SIX_SLICE_PILOT_NOT_SELECTED",
+  "runtime_code_id": "d5333de3cad1eb0314e71d2dd72445dad833447fd1a836e382b30103cc882d7d",
+  "actual_attempts": 10,
+  "concise_acceptable": 3,
+  "complete_acceptable": 4,
+  "denominator_per_arm": 5,
+  "critical_answers_per_arm": 0,
+  "output_errors_per_arm": 0,
+  "record_replays_verified": 10,
+  "reason": "Both source-excerpt arms now provide a complete supported cross-publication comparison; complete additionally supplies electronic medical records. Both still refuse LIM-02 despite available design/caveat evidence, and some comparisons are verbose. Narrow feasibility supports a full six-slice pilot, not release selection or general quality certification. Original labels/pass rules remain unchanged.",
+  "next": "Freeze unchanged prompts/contexts in a 12-question-per-arm six-slice pilot after the export-style integrity checks. No final-set inference."
+}

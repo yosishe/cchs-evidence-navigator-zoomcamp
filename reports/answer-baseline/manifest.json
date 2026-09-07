@@ -1,0 +1,59 @@
+{
+  "packaged_at": "2026-09-06T09:34:16.712546+00:00",
+  "status": "SINGLE_PROMPT_DEVELOPMENT_BASELINE_REVIEWED_WITH_LIMITATIONS",
+  "origin": "Actual Codex examiner calls and assistant review from the preceding audit; copied byte-for-byte, not newly executed",
+  "runtime_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "model": "phi3",
+  "prompt": "evidence_first",
+  "distinct_questions": 3,
+  "new_model_calls_when_packaging": 0,
+  "eligible_for_generation_selection": false,
+  "raw_record_format": "Examiner live-smoke schema, not the CLI paired-comparison schema",
+  "quality_counts": {
+    "distinct_questions": 3,
+    "answerable_questions": 2,
+    "complete_answerable_answers": 0,
+    "supported_claims": 1,
+    "claim_denominator": 1,
+    "unanswerable_questions": 1,
+    "correct_abstention_status": 1
+  },
+  "files": [
+    {
+      "path": "results.json",
+      "sha256": "2a5c3f8e56f1d6ba8f33054471e139dcb23562478614a53a8062ed64b34f9d29",
+      "original_workspace_artifact": "outputs/.research/course-project-guide/examiner-review-2026-09-06-v3/live-smoke.json"
+    },
+    {
+      "path": "reviews.json",
+      "sha256": "ec8911d8e7b68177cc43a7ca1406ba0ec4356692d0f0a149ca956764e89f72c9",
+      "original_workspace_artifact": "outputs/.research/course-project-guide/examiner-review-2026-09-06-v3/smoke-quality-review.json"
+    },
+    {
+      "path": "runtime-preflight.json",
+      "sha256": "ef15dc38795e58783aee3865c02c356c6a138c967af915ec88fe652f0ecaefec",
+      "original_workspace_artifact": "outputs/.research/course-project-guide/examiner-review-2026-09-06-v3/runtime-preflight.json"
+    },
+    {
+      "path": "browser-check.json",
+      "sha256": "84eef002f9ba27ab7a9c76cc5b573c2eedccffcb0cb55eb3d722132c0279a5f1",
+      "original_workspace_artifact": "outputs/.research/course-project-guide/examiner-review-2026-09-06-v3/browser-check.json"
+    },
+    {
+      "path": "browser-events.jsonl",
+      "sha256": "f7a0694bcbe200cef841950c787bd8407e3069d2c20ed278253897a471ac0be1",
+      "original_workspace_artifact": "outputs/.research/course-project-guide/examiner-review-2026-09-06-v3/live-runtime/events.jsonl"
+    },
+    {
+      "path": "known-reference-diagnostic.json",
+      "sha256": "370eb64250e94102c68281cf5fc21f80c99a57804537f0b50be9f534cb724561",
+      "original_workspace_artifact": "outputs/.research/course-project-guide/examiner-review-2026-09-06-v3/known-reference-diagnostic.json"
+    },
+    {
+      "path": "unit-tests.log",
+      "sha256": "8b87c8de3ae46e58af4318a2afdfc83ba7827eff4860c0f48014331a71fe23a5",
+      "original_workspace_artifact": "outputs/.research/course-project-guide/examiner-review-2026-09-06-v3/unit-tests.log"
+    }
+  ]
+}

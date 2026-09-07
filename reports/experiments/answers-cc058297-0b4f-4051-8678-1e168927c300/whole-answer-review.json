@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "results_hash": "ed01050ccc59b79e8308214b7666768ad3740b76e8924adc8ef0f11837e910f9",
+  "reviews": [
+    {
+      "answer_id": "3485d2d1-a505-49c0-910d-c5ea0f98e5b8",
+      "record_hash": "d942040bee4a96eb63d324e4867e043611446e0525ed889b4bd174e57ca883c2",
+      "export_hash": "16b34694829a8a4517c834326467762df316abb28e3316904d92f148b4feab6c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Passage 19 supports the 22 retrospective patients claim, but the requested 2000–2020 period is omitted despite being in the same retrieved passage. Limitations are supported by 68 and electronic-record/IRB details by 21. Current export payload was inspected; no browser-download success is implied."
+    },
+    {
+      "answer_id": "f9764be3-dea2-4cad-8339-415ba9335777",
+      "record_hash": "26ac58b727a3da5990c147d3b9572c541ac920c6ebd599572d9a5d69301f8590",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Abstains and gives only the study limitations, although passage 19 contains both the patient count and requested period. Compared with the baseline it loses even the supported count fragment. Its caveat text itself is supported by passage 68, but it is not a complete answer. Current export payload was inspected; no browser-download success is implied."
+    },
+    {
+      "answer_id": "3bbcad5a-1fac-4c24-aa69-cc510a07b3de",
+      "record_hash": "928a04338cbe2f531b0eb95992203f71b1e8787c0895b96bf775a9f0b30bbadc",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Denies retrospective-record evidence present in context"
+      ],
+      "acceptable": false,
+      "reason": "Passages 19/68 explicitly describe retrospective collection/design and passage 21 names electronic medical records. The response denies this direct evidence and fails both required facts. Current export payload was inspected; no browser-download success is implied."
+    },
+    {
+      "answer_id": "a61e2346-0143-40e9-8ae9-f5168b0e1df1",
+      "record_hash": "40144296e1d3db424e2efcde07b4462c17816fa4c8270a15304570c2d2c69d34",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Contradictory nonanswer despite complete retrospective-record evidence"
+      ],
+      "acceptable": false,
+      "reason": "Mentions retrospective data collection but simultaneously says the passages do not establish whether the study looked back at records. Passage 21 explicitly says electronic medical record review. It is a contradictory nonanswer, not a complete explanation; one design phrase does not repair it. Current export payload was inspected; no browser-download success is implied."
+    },
+    {
+      "answer_id": "eb2047b4-01f0-4c51-88f9-5ae4b17f411e",
+      "record_hash": "9cf134a9476c236144e262460d6c499f69d0e715fb4a6ad8ccf5c4916284269d",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unsupported intervention premise"
+      ],
+      "acceptable": false,
+      "reason": "The phrase intervention reported in a 2021 Italian study treats the unsupported intervention premise as established. The context reports genetic testing/variants, not that experiment. Empty claims do not make this valid abstention. Current export payload was inspected; no browser-download success is implied."
+    },
+    {
+      "answer_id": "383bc87f-9309-4fd0-b1ef-a778f075b499",
+      "record_hash": "fa7ea29f76db073d12df5dceed98f0ac8d6054f49bb145d10e3eb5317b48027b",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "This wording removes the baseline phrase intervention reported, but still speaks of results from such an intervention without clearly distinguishing an unestablished intervention from missing result detail. It is less explicit than the known bad baseline; under the frozen conservative review rule, the whole-prose support/abstention remains uncertain rather than a verified pass. Current export payload was inspected; no browser-download success is implied."
+    }
+  ]
+}

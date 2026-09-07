@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-09-06T23:21:06.174746+00:00",
+  "architecture": "amd64",
+  "exit_code": 0,
+  "status": "RESOLVED_NOT_INSTALLED",
+  "source_uv_lock_hash": "4c425edf549d5d9c18bb96fbad9b63cbfbe7107c23eafed0ec4bccb160dc2ffb",
+  "cpu_wheel_sha256": "a09987c95ec4cffdb6df798d3d641558110a334cfccce22f2f046d83142bc260",
+  "constraints_hash": "b475d0cf11d2f104f4310355a73361945d9a4b814d35e48da2d9e4928c76142d",
+  "stdout": "",
+  "stderr": "",
+  "scope": "Pinned-version CPU variant resolution. Wheel archives may be cached for metadata; no package installation or container execution.",
+  "output_hash": "c4be9024cf2f86e289effb31f33499cd8130fbfe3a7f52e0dc23dac57482604c"
+}

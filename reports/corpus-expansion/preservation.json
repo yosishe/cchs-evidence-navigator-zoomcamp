@@ -1,0 +1,35 @@
+{
+  "status": "PASS_PROTECTED_INPUTS_AND_LIVE_STACK_UNCHANGED",
+  "created_at": "2026-09-07T16:11:52.474825+00:00",
+  "baseline_inventory_files": 735,
+  "protected_input_file_count": 32,
+  "original_files_changed_so_far": [
+    {
+      "path": "README.md",
+      "before": "2265ee0c4674774b97826026cc9c6fd01fcefc7433a9355960b594154e353a40",
+      "after": "9beb4c1fe473907930e0576479c438c5fe6c0e34bc28e2e0c6fb5427ec1bbd21"
+    },
+    {
+      "path": "data/README.md",
+      "before": "2656d2f4592a89fbeb7f3a13b8421ffdbf259fd0bbb0a77ccc5850708259733d",
+      "after": "1616ff425bf4e1c2a6c332317f8ee5855a74ae304e8ebb1bfb642668ad38373c"
+    },
+    {
+      "path": "reports/release-migration/link-audit.json",
+      "before": "6b6f4c368abcf5e6acb99580e9cdab551b1d7e02ef1b10558617b965030035da",
+      "after": "b80c8aeeee87fc05874951a050e0224455df12f73417417d56aff0ab06ded3f3"
+    }
+  ],
+  "permitted_following_audit_refresh": "reports/release-migration/public-package-audit.json; previous audit preserved in local research evidence",
+  "original_pdf_hashes_rechecked": 14,
+  "original_bioc_hashes_rechecked": 10,
+  "live_compose": {
+    "source_count": 3,
+    "windows": 377,
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+    "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc"
+  },
+  "candidate_not_promoted": true,
+  "meaning": "Only navigation docs and current packaging/link audit reports may change among old package files; scientific inputs, runtime/config/locks and historical evaluation results remain unchanged."
+}

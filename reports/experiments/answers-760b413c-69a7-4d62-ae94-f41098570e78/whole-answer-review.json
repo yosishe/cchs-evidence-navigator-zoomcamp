@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source review, iteration 027; same agent, not independent human validation",
+  "reviewer_kind": "assistant",
+  "results_hash": "c9f6473da84897f7443a25be0efa6030420ca1a915f33d5c01345413aa97b405",
+  "reviews": [
+    {
+      "answer_id": "4e139662-9292-4f0e-a57e-127f0bd70cb0",
+      "record_hash": "82f30ee1ecbbc42d36a5334f11e0633eca90fa2083ccb34c3e298c80e441eb29",
+      "export_hash": "03943449574f74233850549ff7e9ce800d9bdbee41bc93bca9e477c5073118ed",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The count/retrospective claim is supported by passage 19, but the requested 2000–2020 period in the same passage is omitted. Other prose is supported by passages 68 and 21. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review."
+    },
+    {
+      "answer_id": "77e3bf8e-9574-416a-8fe9-0c85a495fe94",
+      "record_hash": "54a630896968a35df50a6a3cea8f7ea5a130eea801eadb4a95cb4c9323c519a1",
+      "export_hash": "684f42facce893b00f33a4354e96d3acf3ecc125177357c86377ebde5bed1eb4",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The clinical/genetic background claim is supported by passage 54 but neither the patient count nor period is answered. Limitations mention retrospective design and electronic records, supported by passages 68/21. Fact one is only partial because 22 patients is absent. The copied first-person caveat wording should be attributed to the publication, not reused as app narration. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review."
+    },
+    {
+      "answer_id": "8e23c3f4-ea62-4139-970c-666d49b402ed",
+      "record_hash": "43ba175c04ec9d2da7d125542eaca6272952087e5a7854c8286f537c63119b3e",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Visible denial of available retrospective-record evidence"
+      ],
+      "acceptable": false,
+      "reason": "The response denies the study-design evidence explicitly provided by passages 19/68 and the record-review evidence in passage 21. Both requested facts remain unanswered. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review."
+    },
+    {
+      "answer_id": "fa3fe301-9b87-41b6-b121-435c6d8708e4",
+      "record_hash": "08f08cd529fdb563f8fe1cf279bb09e87797d0d6fcb92a5eee16cb43713d2504",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "answered with an empty claims array violates the unchanged schema contract and is blocked. Raw limitations also deny study design while admitting retrospective data collection. No validated answer is available. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review."
+    },
+    {
+      "answer_id": "c3d894e7-6cdc-4c80-8e29-8d5e1ca2380c",
+      "record_hash": "797a0fe7904e107df80d01f206d04dfa69236a30fdab7ddba4123505a475a8e7",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unsupported intervention premise"
+      ],
+      "acceptable": false,
+      "reason": "The phrase intervention reported in a 2021 Italian study accepts a premise not established by any supplied passage. This remains incorrect/unsupported whole-answer abstention. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review."
+    },
+    {
+      "answer_id": "18633502-234f-48dd-ba78-ea2fa180db46",
+      "record_hash": "d77e33b7bd05427786d9cb68fc3201d03c04bc33273a4d3f88c29f1354bf3036",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Raw title-as-quote and wrong-source claim attribution"
+      ],
+      "acceptable": false,
+      "reason": "The first exact_quote is an article title rather than text of the cited passage 8. Other claim/quote pairs attribute Italian PARM observations to unrelated review testing windows, and overstate a specific Italian genotype pattern. Validation blocks the output; it does not answer an unanswerable question correctly. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review."
+    }
+  ]
+}

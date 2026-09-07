@@ -1,0 +1,177 @@
+{
+  "created_at": "2026-09-06T23:08:27.360589+00:00",
+  "status": "REJECTED_FOR_RELEASE_FOCUSED_REPAIR_REQUIRED",
+  "actual_attempts": 48,
+  "runtime_code_id": "707513aec2de746fc9696f46f127a187e98b20234101edbee75c06c3dea61c46",
+  "arms": [
+    {
+      "arm": "arm-1",
+      "results": "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json",
+      "results_hash": "74a5b496a560f7a92b4f2024f97a769cb4398cfc1b81fba41df25a25b0a1f9c3",
+      "review_path": "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/review-summary.json",
+      "prompt": "evidence_first",
+      "evaluated_questions": 12,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 54.20446263533328,
+      "errors": 6,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 1,
+            "partial": 1,
+            "missing": 14,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0625
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 2
+    },
+    {
+      "arm": "arm-2",
+      "results": "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json",
+      "results_hash": "637816278fffc76af56b7584e793944ad357daa8b6bd85c2b63fd4b9ac28df23",
+      "review_path": "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/review-summary.json",
+      "prompt": "numbered_evidence",
+      "evaluated_questions": 12,
+      "acceptable_answers": 2,
+      "acceptable_rate": 0.16666666666666666,
+      "supported_claims": 2,
+      "claim_denominator": 2,
+      "unsupported_claims": 0,
+      "mean_seconds": 22.7636873054192,
+      "errors": 9,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 2,
+            "partial": 0,
+            "missing": 14,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.125
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 0
+    },
+    {
+      "arm": "arm-3",
+      "results": "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json",
+      "results_hash": "b91008087b4223e5778255f6441f57688aad51c92171e06aa1606cb59ccaceee",
+      "review_path": "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/review-summary.json",
+      "prompt": "evidence_first",
+      "evaluated_questions": 12,
+      "acceptable_answers": 3,
+      "acceptable_rate": 0.25,
+      "supported_claims": 9,
+      "claim_denominator": 12,
+      "unsupported_claims": 1,
+      "mean_seconds": 65.35717170833475,
+      "errors": 1,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 7,
+            "partial": 2,
+            "missing": 7,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.4375
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 1,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 2
+    },
+    {
+      "arm": "arm-4",
+      "results": "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json",
+      "results_hash": "ea7f2d281d88fa2a6b7520d2707bc55f1d9a7b5a59dccbe460efaa979f5aaec2",
+      "review_path": "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/review-summary.json",
+      "prompt": "numbered_evidence",
+      "evaluated_questions": 12,
+      "acceptable_answers": 4,
+      "acceptable_rate": 0.3333333333333333,
+      "supported_claims": 7,
+      "claim_denominator": 11,
+      "unsupported_claims": 3,
+      "mean_seconds": 51.35351807632833,
+      "errors": 1,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 7,
+            "partial": 1,
+            "missing": 8,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.4375
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 2
+    }
+  ],
+  "decision": "Gemma3/numbered is a diagnostic lead, not a selected winner. Genuine quotes still accompanied wrong aims and inverted arithmetic. Repair retrieval and source precision before broadening; preserve all original acceptance rules."
+}

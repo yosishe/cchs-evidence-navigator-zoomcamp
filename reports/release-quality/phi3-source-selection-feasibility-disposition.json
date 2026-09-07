@@ -1,0 +1,7 @@
+{
+  "status": "BOTH_REJECTED_FOR_RELEASE",
+  "created_at": "2026-09-07T01:41:00.441974+00:00",
+  "actual_generation_attempts": 10,
+  "selected": false,
+  "reason": "The taught smaller model remains an explicit measured alternative, but source-selection interfaces did not remove critical context failures. Checked has 1/5 acceptable with three output errors; reasoned has 2/5 acceptable with two critical whole-answer/diagnostic failures. No automatic full-development expansion or final calls."
+}

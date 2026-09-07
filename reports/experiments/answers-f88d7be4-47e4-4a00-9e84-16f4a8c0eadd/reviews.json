@@ -1,0 +1,56 @@
+{
+  "reviewer": "Codex source-based provisional assistant review, iteration026",
+  "reviewer_kind": "assistant",
+  "results_hash": "61dfa8dc43b8ee69acdbb3bcf8be0cafecaba00ab5ef17cc8d6574009878cfe7",
+  "reviews": [
+    {
+      "answer_id": "cbd36c34-7150-4f34-835c-0b9e21f7b7cf",
+      "record_hash": "76f1d3e842945ba66a4e97eac9b299ed134df413ce0a0be1662ae15062971116",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The raw first claim contains both study aims in meaning, now available in Italian17. It uses a publication/version string instead of a passage ID and inserts a comma into the exact quote. The second quote changes The study to Our study relative to Italian54 and repeats the invalid ID. Canonical validation rejects the whole output. No validated claim or export is delivered; do not repair IDs or quotes after seeing the result."
+    },
+    {
+      "answer_id": "6c220020-fee6-4229-a401-2df9faef1772",
+      "record_hash": "9328e198ecefc92608c06054247ffaed06072c0373d300c64dee11e6c6af5b90",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The raw insufficient-evidence object omits limitations and is rejected. Both frozen sources are retrieved: Italian21 at rank2 and19 at rank10 provide electronic records and retrospective design. This is a generation/structure failure despite reference availability."
+    },
+    {
+      "answer_id": "a372208c-82e0-417f-b4ac-92ed3f8766ef",
+      "record_hash": "ea5b933f96cc2589e56f9c86ec3f9e0b0c2eb00c9b42b3c05e33340d19ff5522",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The raw insufficient-evidence object omits limitations and is rejected. Italian19 and guideline13 are both in the actual context and support the two required study-method facts. Retrieval coverage has improved, but no complete supported comparison is delivered."
+    },
+    {
+      "answer_id": "20364456-9595-442d-8568-c206b0918f78",
+      "record_hash": "b35d37519313b6e499ab010accbe2dd08d85abf408c9cdcbacbab07879b1dc6a",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The raw response chooses insufficient_evidence but lacks the mandatory limitations field. It is rejected into a safe application error with no evidence/tag rows, not a successful abstention answer. No requested randomized gene-editing outcome is established."
+    }
+  ]
+}

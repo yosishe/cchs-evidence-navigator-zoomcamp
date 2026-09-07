@@ -1,0 +1,61 @@
+{
+  "reviewer": "Codex source-based provisional diagnostic review",
+  "reviewer_kind": "assistant",
+  "results_hash": "2e9eb4c4fd7c3c8ea14300882d220dff395e525759dce4c26dd0007fc9b8fbdc",
+  "reviews": [
+    {
+      "answer_id": "2c95244d-176c-4c41-b109-2112bc56a384",
+      "record_hash": "bd3dc1bc3fa3ffd5c89df499fbaf286eb85fdd892971bfa348112e6b5fef0978",
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "partial"
+      ],
+      "qualification_coverage": [],
+      "reason": "The count/retrospective quote is supported. The model now emits 2000 and 2020, but describes cases being identified/occurring in that interval and denies an exact period; source passage 19 instead specifies a follow-up program between those years. This is not a clean complete answer to the requested cohort/follow-up period. Knowing the reference does not fix temporal interpretation."
+    },
+    {
+      "answer_id": "79e6b530-6e33-42be-8332-838a5a317027",
+      "record_hash": "cba1dc3576dc135b09579edf24d4c5bbee39824bbfff6701f8fd0177f9c6221f",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The raw count claim is plausible but the evidence ID is a full source-version string rather than the supplied passage ID, so validation rejects the entire output. Its caveat also confuses the stated follow-up interval with missing per-patient temporal detail, which the question did not request."
+    },
+    {
+      "answer_id": "fdc97582-a47c-40aa-b408-94d807988019",
+      "record_hash": "1d9a1cc199a856bbe2c66dd57541315e56c84150d11ed77c150fc0b4b0dae977",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "With only references 19 and 21 present, the model still denies retrospective-record study design. Passage 19 explicitly says retrospectively and passage 21 explicitly says review of the electronic medical record. Requiring that all aspects be observational adds an unnecessary condition; the requested facts are available."
+    },
+    {
+      "answer_id": "8563ce53-235a-4383-918d-0275ceda4ede",
+      "record_hash": "b74731aec07f0d3588c6dc48525f0b4ca5e03db05b73ca0e464ae88ca5c53311",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The model acknowledges retrospective data collection but denies that existing medical records are specified. The second supplied reference, passage 21, states electronic medical record review. This disproves an explanation based solely on failing to retrieve that passage."
+    }
+  ]
+}

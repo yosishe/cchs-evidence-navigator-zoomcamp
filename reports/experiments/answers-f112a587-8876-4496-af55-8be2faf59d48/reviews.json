@@ -1,0 +1,187 @@
+{
+  "reviewer": "Codex source-based provisional review, 2026-09-06",
+  "reviewer_kind": "assistant",
+  "results_hash": "094935df0549229f0b2dfaf17c1b48ee929c17003e3d870a99c9e0cd88d7cfb5",
+  "reviews": [
+    {
+      "answer_id": "61f5e78a-a436-4c24-b9d8-86643b421bb0",
+      "record_hash": "e16561055bb2e0f3bd05b1e120b04cbad7d7d11b44fe5baee65dbb3fc227ecb5",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The exact aims passage 17 is not retrieved. The response does not give either required aim; passages 54 and 2 describe the study, but the requested explicit aims are not quoted. Safe corpus-bounded abstention is still an answerable end-to-end failure."
+    },
+    {
+      "answer_id": "4b01097f-5b7c-4d32-86fb-eda7651436a3",
+      "record_hash": "484686d6b8e2bc0dcb5764762fb0645e25486aa60c4e70a46b421fb7f91b3f06",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Raw JSON omits claims entirely and discusses study limitations instead of aims. Validation blocks it; displayed application error is accurate and exports contain no claims."
+    },
+    {
+      "answer_id": "924c5d28-4eb2-4865-b4cd-114726072022",
+      "record_hash": "d53489493e24b1380a583c99c1546f800855670589082a242f2f06970c0f0937",
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Claim and exact quotation match Italian passage 19 and cover 22 retrospectively collected patients. The requested 2000–2020 period is absent from every displayed field although it is in that same passage. Limitations are supported by passage 68; electronic records/IRB are in passage 21. The complete-answer requirement fails."
+    },
+    {
+      "answer_id": "bc425d44-5143-409e-b9a0-59c9c1684613",
+      "record_hash": "9025f33549a51aeec5559f416b0a15ef5f368fcffbff1e67e9f06c075dc29f6c",
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Claim matches passage 19 but still omits 2000–2020. Passage 68 describes heterogeneity and different prior care settings, not a population that is not well-defined. That additional characterization exceeds the supplied evidence. Export retains this text and therefore does not repair the defect."
+    },
+    {
+      "answer_id": "6b817fea-5beb-4018-88ec-cf38a6da6752",
+      "record_hash": "5d5c5263fdeb21cd5007249385ce3e0ce91924740c5056fa0ed2d70359993849",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "None of the five retrieved passages establishes a randomized gene-editing intervention. The words intervention reported in a 2021 Italian study accept that false/unsupported premise. Empty claims and insufficient_evidence do not make the entire answer supported."
+    },
+    {
+      "answer_id": "6bd71558-2a75-4b1e-b823-35cdad99b6dc",
+      "record_hash": "a53cf5edaf3763c922e1fee69f7730defe4b059a41c9bc3e53c83ba34178ad6b",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The phrase measured results reported in a randomized ... intervention remains ambiguous about whether the intervention actually occurred. It does not explicitly reject the unsupported premise. Under the frozen conservative whole-prose rule, support and correct abstention cannot be certified; this is uncertain, not a pass."
+    },
+    {
+      "answer_id": "a802867f-0a91-499b-a301-75077f4ab792",
+      "record_hash": "4d74ce6f3e6b005b4ea8a2e191b3bb35946fec5a55630bd3d1df4d0ec55d2174",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Italian passage 19 explicitly says retrospectively and passage 68 names retrospective design; passage 21 explicitly describes electronic medical record review. The response denies that the passages establish retrospective versus randomized design and covers neither required fact in an answer. This is a generation/interpretation failure despite complete retrieval."
+    },
+    {
+      "answer_id": "1fecc199-1188-4cde-95dd-c57f2f5ec49b",
+      "record_hash": "87a48680c3cd9c55b454c3ab32dea6f7ef118f10657bd5c513c55da61ac31099",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Raw output omits claims, invents underscore-style evidence IDs in limitations, then denies retrospective design despite quoting that limitation. Schema rejection keeps this contradictory output out of the displayed answer and exports; it remains a failed candidate output."
+    },
+    {
+      "answer_id": "f1151d63-45e0-4aba-804d-2b4d18ebb1ca",
+      "record_hash": "5f3035399760e6589c3170cfd77e50ee32d29fdb814b91bd78d37e4d116f6950",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The long identifying-a-pathogenic-variant quote belongs to passage 64:0:750, not the cited 64:600:1350. Validation rejects the mismatch. The chromosome/exon reference passage 10:0:750 was not retrieved, and the generated background does not answer the question."
+    },
+    {
+      "answer_id": "e403b3e7-1f0d-4bb8-89e5-56653e42f274",
+      "record_hash": "90c423847c50f9c81c93f11bb1236c680a22c784cdfb00fb81a7b1d8b6783974",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The first claim repeats the same wrong-window quotation as the baseline; validation rejects all claims. Additional diagnostic-testing material does not supply chromosome 4p12 or three exons. Required reference passage 10:0:750 is absent from the five hits."
+    },
+    {
+      "answer_id": "1bcb34fe-096e-46b5-8dac-2da541b7e8cf",
+      "record_hash": "5e01288100f7aefa6785a12474e4b8c0c3be963fd940024832c4f70b39bb090f",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Both raw evidence IDs are full publication/version strings, not provided passage IDs. The first quote also removes the parenthesized grant text, so it is not verbatim. Retrieved passage 12 describes guideline searches but the required evidence/experience blend in passage 13 is missing. Validation blocks the answer."
+    },
+    {
+      "answer_id": "ab5dec48-6e17-44bc-8080-ef482f98b25a",
+      "record_hash": "cc01daf16b3236e774cccf2d6475e4531c1cf819d4cb157099bc1e884b481cde",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "Raw JSON omits claims and supplies only a nonanswer about missing comparison details. It is rejected. Italian retrospective design is available in passages 2 and 68, while the required guideline blend is absent. It neither provides a valid structured response nor a complete comparison."
+    },
+    {
+      "answer_id": "81a87e51-d954-4f35-a371-af2d658b9f82",
+      "record_hash": "52747fc9f5960720e7119d39ad89ae2304f8f8232b852ca7b6207d42f6884cd3",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "All four raw claims omit exact_quote and answer a different question about ventilator equipment. Several IDs point to windows that do not contain the assigned text. The required inconsistency/exceptions passage 52 is absent. Validation blocks the response."
+    },
+    {
+      "answer_id": "f809220f-8b60-4619-990f-96dfa5dc35c4",
+      "record_hash": "304a274d1d90ab29eacd3809e7b68334147e9a05c490df6b00b836927e1d363e",
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "Completed local call reaches its 900-token limit and produces malformed JSON, missing exact_quote fields, irrelevant clinical-equipment prose and a mistaken interpretation of longer repeats. It remains an output-validation failure with raw usage retained, not a service outage or a successful abstention."
+    }
+  ]
+}

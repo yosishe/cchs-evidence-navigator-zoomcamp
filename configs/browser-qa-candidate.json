@@ -1,0 +1,30 @@
+{
+  "retrieval": "hybrid",
+  "top_k": 10,
+  "candidate_k": 20,
+  "rrf_k": 50,
+  "boosts": {
+    "title": 0.0,
+    "section": 1.0,
+    "content": 1.0
+  },
+  "model": "gemma3:12b",
+  "prompt": "source_extract_complete",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "max_output_tokens": 900,
+  "chunk_chars": 750,
+  "overlap_chars": 150,
+  "selection_status": "DEVELOPMENT_CANDIDATE",
+  "embedding_text": "title_content",
+  "embedding_device": "cpu",
+  "provider": "ollama",
+  "temperature": 0,
+  "request_timeout_seconds": 300,
+  "rewrite_enabled": false,
+  "generation_selection_status": "EVALUATION_CANDIDATE",
+  "question_bank": "data/evaluation/questions-v2.json",
+  "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+  "json_mode": true,
+  "generation_json_schema": true
+}

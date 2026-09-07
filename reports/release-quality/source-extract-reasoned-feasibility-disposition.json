@@ -1,0 +1,11 @@
+{
+  "status": "REJECTED_RELEVANCE_FAILURE",
+  "created_at": "2026-09-07T01:36:34.142033+00:00",
+  "actual_generation_attempts": 5,
+  "acceptable": 3,
+  "denominator": 5,
+  "critical_answers": 1,
+  "output_errors": 0,
+  "results": "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json",
+  "decision": "A model explanation can rationalize a wrong source relationship and can contain facts absent from its displayed answer. It is not a semantic guard or judge. Do not promote or broaden this Gemma arm. Reassess the taught Phi3 comparator under the now-simpler source-selection interfaces before assuming the larger model is necessary."
+}

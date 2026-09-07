@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-09-06T07:48:08.083471+00:00",
+  "status": "PASS_DELIVERY_WITH_RUNTIME_GATES",
+  "runtime_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "head": "4fc74d7b7ec9850312d8f3d9b787f7f4aa08bd0a",
+  "head_unchanged": true,
+  "test_count": 98,
+  "distinct_test_ids": 98,
+  "skipped_tests": 0,
+  "local_links_checked": 2272,
+  "errors": [],
+  "preserved_inputs": {
+    "<PRIVATE_PREDECESSOR>/data/raw/PMC7503443.json": true,
+    "<PRIVATE_PREDECESSOR>/data/raw/PMC8039127.json": true,
+    "<PRIVATE_PREDECESSOR>/data/raw/PMC8963195.json": true,
+    "<PRIVATE_PREDECESSOR>/data/evaluation/questions.json": true,
+    "<PRIVATE_PREDECESSOR>/data/evaluation/questions-v2.json": true,
+    "<PRIVATE_PREDECESSOR>/configs/app.json": true,
+    "<PRIVATE_PREDECESSOR>/uv.lock": true,
+    "<OWNER_ATTACHMENTS>/cchsevidencenavigatorcodexremediationrationale.en.md": true,
+    "<OWNER_ATTACHMENTS>/cchsevidencenavigatorgradingreport.en.md": true
+  },
+  "source_inventory_files_checked": 4118,
+  "source_content_changes": [],
+  "preexisting_source_metadata_drift": [
+    "<COURSE_WORKSPACE>/sources/.DS_Store"
+  ],
+  "missing_sources": [],
+  "new_retrieval_diagnostic_searches": 35,
+  "new_live_generation_calls": 0,
+  "browser_check": "browser-check.json",
+  "model_setup_approval": "PENDING",
+  "docker_rehearsal": "NOT_EXECUTED",
+  "no_model_or_dependency_installation": true,
+  "no_publication_commit_push_or_submission": true,
+  "not_established": [
+    "real LLM quality",
+    "selected generator",
+    "Compose build and PostgreSQL restart",
+    "fresh-release reproduction",
+    "passing grade"
+  ],
+  "artifact_hashes": {
+    "README.md": "f1c4c48bd05e6069cbcd6488da8d05eeb54ed40c66b45babfa6d6b504242201f",
+    "docs/evaluation.md": "d76e6402243c072645ad83651a81962139218f076295247aaf7648d582406c1f",
+    "docs/decisions.md": "05b0c8484c7b611556ca1b94d2f16ffce52b4a7463ac179d0ce10113dc447f31",
+    "reports/checks.json": "a6d73fb4ccb6910891a4bba2e92d231d557cb92155620845bf84d1ce8bdb2344",
+    "reports/claude-remediation/response.en.md": "834a3729ad1ab2a1279a6d169e9339c4e07e1329d9e2aaab72f092888c88bfdf",
+    "reports/claude-remediation/retrieval-misses.json": "6b247b65a1db301b7ec1f7c90e2ab100301c1364a6abe8aafb8b9cf99d6e4a99",
+    "reports/claude-remediation/runtime-preflight.json": "4a238674d2ac2a6144c1ed4fe82e487fd0a2f5c589824c1d1bebc2a896f80dab",
+    "reports/claude-remediation/browser-check.json": "8ac276b5fe706a1c5b819b832f875f045272b368aedbeb7b4f1b08e4e1e0ae0b",
+    "reports/claude-remediation/pilot-plan.json": "225d6f6cddc4d2768ab918536f59b8eb1f2ebda5bd6cead4333c0df3b92ca894",
+    "reports/claude-remediation/development-plan.json": "e59c271ca0d47ce52fa7d1e28ec7485c390b210c198514cf12e07011d0c932a1"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-09-07T18:23:43.626949+00:00",
+  "status": "PASS_NATIVE_OPERATIONAL_DEMO",
+  "scope": "Two predeclared development cases, one generation attempt each; actual browser downloads and native app restart. Not an accuracy estimate, independent scientific review or new selection experiment.",
+  "plan": "reports/final/native-demo-plan.json",
+  "configuration_id": "a608ccf3cd3318d9f54abb2c0d49a7967e920b4e841dded47f823d86884b2055",
+  "configuration_file_sha256": "0b02560637088fb36449680d9b3680d2a88298c3a953d15a3b18172e2a927bf3",
+  "effective_configuration_id": "3512bea084a43b747957623873527b2c9e37728cffa294b27c89d1e327bdf170",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+  "model_server_version": "0.31.1",
+  "observed_allocated_context_tokens": 4096,
+  "architecture_context_limit_not_used_as_allocated_evidence": 131072,
+  "generation_attempts": 2,
+  "rewrite_attempts": 0,
+  "retry_attempts": 0,
+  "final_split_inference_attempts": 0,
+  "provider_billing_usd": 0,
+  "download_check": "reports/final/native-download-check.json",
+  "downloaded_files": 6,
+  "downloaded_bytes": 158118,
+  "answers": [
+    {
+      "id": "631e4ab2-237c-42ef-a129-5ec160e33828",
+      "record_hash": "773fecfb782ce99d5854ad5be161bd618df6ff6b424f0dbe309d42f0d9b567c3",
+      "question": "Where does the 2022 review locate PHOX2B, and how many exons does it describe?",
+      "status": "answered",
+      "seconds": 148.8153905000072,
+      "retrieval_seconds": 6.356372125010239,
+      "request_seconds_before_storage": 155.19402645798982,
+      "input_tokens": 2259,
+      "output_tokens": 18,
+      "claim_count": 1,
+      "retrieved_count": 10
+    },
+    {
+      "id": "0f9eba15-aba6-478c-9677-9bd52869cf76",
+      "record_hash": "dfe19eb5e3d00800a739bafc3ac058f4c04abb615ce3f72d8555faecde9d72f2",
+      "question": "What measured results does the 2021 Italian study report from a randomized PHOX2B gene-editing intervention?",
+      "status": "insufficient_evidence",
+      "seconds": 50.95597408301546,
+      "retrieval_seconds": 0.7965774170006625,
+      "request_seconds_before_storage": 51.76819566698396,
+      "input_tokens": 2855,
+      "output_tokens": 16,
+      "claim_count": 0,
+      "retrieved_count": 10
+    }
+  ],
+  "reviewer_kind": "assistant",
+  "operational_reviews": {
+    "EXA-01": {
+      "useful": true,
+      "structure_valid": true,
+      "source_correct": true,
+      "exact_quote": true,
+      "facts_covered": [
+        "Requested 2022 review location: chromosome 4p12",
+        "Requested exon count: 3"
+      ],
+      "all_visible_claim_text_reviewed": true,
+      "unnecessary_source_fact": "The original quote also states 314 amino acids; retained as attributable source text, not an inferred finding.",
+      "limits": "Single operational case, source-bound statement; no general biomedical correctness claim."
+    },
+    "ABS-01": {
+      "correct_corpus_scoped_abstention": true,
+      "invented_intervention_results": false,
+      "claims": 0,
+      "displayed_limit": "The supplied passages do not establish the information requested."
+    }
+  },
+  "monitoring": {
+    "origin": "qa",
+    "mode": "all",
+    "requests": 2,
+    "rated_requests": 2,
+    "chart_count": 6,
+    "input_tokens": 5114,
+    "output_tokens": 34,
+    "researcher_satisfaction_claimed": false
+  },
+  "persistence": {
+    "backend": "explicit JSONL",
+    "native_app_stopped_and_restarted": true,
+    "full_record_hashes_before": {
+      "631e4ab2-237c-42ef-a129-5ec160e33828": "773fecfb782ce99d5854ad5be161bd618df6ff6b424f0dbe309d42f0d9b567c3",
+      "0f9eba15-aba6-478c-9677-9bd52869cf76": "dfe19eb5e3d00800a739bafc3ac058f4c04abb615ce3f72d8555faecde9d72f2",
+      "631e4ab2-237c-42ef-a129-5ec160e33828:user": "a5ee28a4e16a70b7ce467d538e77d09ea4d2e3f26afd4e5c7fad7932a8bcb3cc",
+      "0f9eba15-aba6-478c-9677-9bd52869cf76:user": "1469f782f31ec14147b06cd6d50b91e2aef0c8ae6bdad8e9cbb93c1f951b8b45"
+    },
+    "full_record_hashes_after": {
+      "631e4ab2-237c-42ef-a129-5ec160e33828": "773fecfb782ce99d5854ad5be161bd618df6ff6b424f0dbe309d42f0d9b567c3",
+      "631e4ab2-237c-42ef-a129-5ec160e33828:user": "a5ee28a4e16a70b7ce467d538e77d09ea4d2e3f26afd4e5c7fad7932a8bcb3cc",
+      "0f9eba15-aba6-478c-9677-9bd52869cf76": "dfe19eb5e3d00800a739bafc3ac058f4c04abb615ce3f72d8555faecde9d72f2",
+      "0f9eba15-aba6-478c-9677-9bd52869cf76:user": "1469f782f31ec14147b06cd6d50b91e2aef0c8ae6bdad8e9cbb93c1f951b8b45"
+    },
+    "unchanged": true,
+    "post_restart_browser_monitoring": "PASS: same 2 stored requests, 2 linked ratings and 6 rendered charts",
+    "browser_evidence": "reports/final/native-restart-browser.txt"
+  },
+  "screenshots": [
+    "docs/screenshots/final-native-answer.png",
+    "docs/screenshots/final-native-abstention.png",
+    "docs/screenshots/final-native-exports.png",
+    "docs/screenshots/final-native-chart-1.png",
+    "docs/screenshots/final-native-chart-2.png",
+    "docs/screenshots/final-native-chart-3.png",
+    "docs/screenshots/final-native-chart-4.png",
+    "docs/screenshots/final-native-chart-5.png",
+    "docs/screenshots/final-native-chart-6.png",
+    "docs/screenshots/final-native-restart.png"
+  ],
+  "known_limitations": [
+    "Historical source-extract pilot: 8/12 with one critical relevance failure; unchanged.",
+    "Final 18 inference and full 42-question paired generation follow-up were not run.",
+    "Native EXA-01 took 148.815 seconds for generation/validation, slower than the historical pilot; no latency promise.",
+    "Gemma was not run in Compose; historical Phi3 timeouts remain.",
+    "Existing Python dependencies and encoder/model cache reused; no fresh installation."
+  ],
+  "recovery_observation": "Browser control timed out once while model inference ran; reattached to the same live tab without resubmitting. The original request and completed response were retained."
+}

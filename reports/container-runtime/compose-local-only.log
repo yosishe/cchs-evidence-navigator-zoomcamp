@@ -1,0 +1,5 @@
+time="2026-09-07T16:28:45+03:00" level=warning msg="Found orphan containers (cchs-zoomcamp-rehearsal-checks) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container cchs-zoomcamp-rehearsal-ollama-1 Recreate 
+ Container cchs-zoomcamp-rehearsal-ollama-1 Recreated 
+ Container cchs-zoomcamp-rehearsal-ollama-1 Starting 
+ Container cchs-zoomcamp-rehearsal-ollama-1 Started 

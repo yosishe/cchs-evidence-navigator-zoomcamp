@@ -1,0 +1,134 @@
+{
+  "created_at": "2026-09-06T11:08:58.897737+00:00",
+  "status": "REJECTED_AFTER_FOCUSED_DIAGNOSTIC",
+  "decision": "REJECT",
+  "official_points": null,
+  "previous_goal_turn_classification": "PROGRESS: 34 new real calls reviewed, unsuccessful candidates rejected, selection and failure accounting strengthened.",
+  "candidate_code_id": "e1aea8768c14293f727fad43704cedc40016a9d47f8bdc7f731e26160090171e",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "evaluator_version": "e1aea8768c14293f727fad43704cedc40016a9d47f8bdc7f731e26160090171e",
+  "model": "phi3",
+  "model_digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+  "changed_dimension": "Prompt text only, preserving two-message layout, output schema, local model and frozen retrieval.",
+  "course_source": [
+    "01-agentic-rag/lessons/06-building-prompt.md",
+    "04-evaluation/lessons/12-rag-answers.md",
+    "04-evaluation/lessons/13-llm-as-judge.md"
+  ],
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "adaptation": "Explicit JSON shape and task-completeness instructions are original prompt adaptations; no biomedical answer exemplars or benchmark labels supplied.",
+  "hypothesis": "Showing the complete response shape and distinguishing answer statements from titles/questions may reduce missing fields and incomplete responses.",
+  "split": "tuning",
+  "question_ids": [
+    "DIR-02",
+    "PAR-01",
+    "ABS-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "schema_first"
+  ],
+  "planned_calls": 6,
+  "attempted_calls": 6,
+  "acceptance": "Both answerable questions must have complete supported answers with valid citations, and the unsupported-premise question must abstain without unsupported prose. No critical regressions. Focused diagnostic only; all six slices and full development comparison still required before promotion.",
+  "rejected_alternatives": [
+    "Supply the required reference facts to inference",
+    "Force evaluator to accept background/title text",
+    "Change model or retrieval simultaneously",
+    "Reroll failed outputs without a new declared hypothesis"
+  ],
+  "tradeoffs": [
+    "Longer instructions and an output-shape template consume input tokens",
+    "Placeholder copying would cause real validation failures and will not be excused",
+    "A template may bias the model toward abstention; answerable completeness stays mandatory"
+  ],
+  "heldout_exposure": "Only explicit development cases; no final inference and no guaranteed-unseen claim.",
+  "next_action": "Use known-reference-only context diagnostics to distinguish distractor/context effects from output-format or interpretation failure; never count these oracle contexts as retrieval or selection results.",
+  "raw_results_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json",
+  "review_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reviews.json",
+  "whole_answer_review_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/whole-answer-review.json",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 11.524485180668611,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "schema_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 17.836385499996442,
+      "errors": 2,
+      "critical_failure_answers": 1
+    }
+  ],
+  "metrics_by_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "configuration_promoted": false,
+  "validation": {
+    "software_tests": 107,
+    "skipped": 0,
+    "completed_calls": 6,
+    "exit_code": 0
+  },
+  "quality_wins": [],
+  "regressions": [
+    "Count fragment lost on DIR-02",
+    "PAR-01 and ABS-01 become invalid outputs"
+  ]
+}

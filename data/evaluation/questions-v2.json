@@ -1,0 +1,2624 @@
+{
+  "schema_version": 2,
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "manifest_hash": "bb1cea58fcdddcb665702ad784befd55cc0c934f97b797f46bebbb7605313b46",
+  "questions": [
+    {
+      "schema_version": 2,
+      "id": "DIR-01",
+      "slice": "direct",
+      "group_id": "DIR-01",
+      "split": "tuning",
+      "question": "What were the two stated aims of the Italian center study?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "quote": "to describe the genotypes and the clinical findings",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 17,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "quote": "to highlight the changing strategy in the management of these patients over time",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 17,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Describe genotypes and clinical findings.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Describe management changes over time.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-02",
+      "slice": "direct",
+      "group_id": "DIR-02",
+      "split": "tuning",
+      "question": "How many patients were included in the Italian retrospective cohort and during what period?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "Data of 22 patients affected by CCHS has been collected retrospectively.",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "between 2000 and 2020",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "22 patients, retrospectively.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Follow-up period 2000–2020.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-03",
+      "slice": "direct",
+      "group_id": "DIR-03",
+      "split": "tuning",
+      "question": "Which records supplied the Italian study data and what approval is reported?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "quote": "review of the electronic medical record with the approval from the Institutional Review Board",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 21,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Electronic medical records, with Institutional Review Board approval.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-04",
+      "slice": "direct",
+      "group_id": "DIR-04",
+      "split": "tuning",
+      "question": "Which organization performed the initial literature search for the European guideline?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:12:0:409"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "quote": "Centre for Reviews and Dissemination at the University of York, UK",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 12,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Centre for Reviews and Dissemination, University of York.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-05",
+      "slice": "direct",
+      "group_id": "DIR-05",
+      "split": "tuning",
+      "question": "What limitations do the Italian authors state about design, sample and population?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "quote": "retrospective design, the poor sample, and the heterogeneity of the described population",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 68,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "quote": "patients of different ages and who had experienced different primary care settings",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 68,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Retrospective design, small sample and heterogeneous population.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Different ages and prior care settings.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-06",
+      "slice": "direct",
+      "group_id": "DIR-06",
+      "split": "tuning",
+      "question": "Which two additional genes does the guideline report in consanguineous families?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:60:0:317"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "quote": "MYO1H and LBX1",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 60,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "quote": "two consanguineous families with CCHS",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 60,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "MYO1H and LBX1.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Reported in two families; not a universal cause.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-07",
+      "slice": "direct",
+      "group_id": "DIR-07",
+      "split": "tuning",
+      "question": "What share of the Italian cohort had PARMs versus NPARMs?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "quote": "19/22 cases (86%) and NPARMs in 3/22 cases (14%)",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 32,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "PARMs 19/22 (86%); NPARMs 3/22 (14%).",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-08",
+      "slice": "direct",
+      "group_id": "DIR-08",
+      "split": "test",
+      "question": "At what ages were the two adult women diagnosed in the Italian cohort?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+          "quote": "at 35 and 38 years in two adult female patients",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 28,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+          "quote": "after the detection of genetic mutation in their children",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 28,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "35 and 38 years.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Diagnosis followed detection in their children.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-09",
+      "slice": "direct",
+      "group_id": "DIR-09",
+      "split": "test",
+      "question": "In what year does the guideline say PHOX2B was identified as the major CCHS-causing gene?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:9:0:276"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "quote": "PHOX2B was identified as the major CCHS-causing gene for patients in 2003.",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 9,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:9:0:276"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "2003, as reported by the guideline.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "DIR-10",
+      "slice": "direct",
+      "group_id": "DIR-10",
+      "split": "test",
+      "question": "Which name does the guideline give to CCHS accompanied by Hirschsprung disease?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:24:0:192"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:24:0:192",
+          "quote": "CCHS with Hirschsprung disease (known as Haddad Syndrome)",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 24,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:24:0:192"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Haddad Syndrome.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-01",
+      "slice": "paraphrase",
+      "group_id": "PAR-01",
+      "split": "tuning",
+      "question": "Was the Italian analysis based on a randomized experiment or on looking back at patient records?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+        "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "collected retrospectively",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "quote": "review of the electronic medical record",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 21,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "A retrospective analysis.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Used electronic medical records.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-02",
+      "slice": "paraphrase",
+      "group_id": "PAR-02",
+      "split": "tuning",
+      "question": "Did the guideline authors rely entirely on high-certainty trials when drafting recommendations?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "most of the evidence is descriptive and of low grade of recommendation",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 13,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "a blend of published evidence and clinical experience",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 13,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Mostly descriptive evidence of low recommendation grade.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Combined publications and clinical experience.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-03",
+      "slice": "paraphrase",
+      "group_id": "PAR-03",
+      "split": "tuning",
+      "question": "How do the Italian data illustrate care changing as a team gained experience?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:20:0:358"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "quote": "14 patients have been followed in our Pediatric Intermediate Care Unit (PICU) since the onset of symptoms",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 20,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "quote": "The remaining 8 patients were initially treated by the staff of the Intensive Care Unit",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 20,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "14 followed in PICU from symptom onset.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Eight initially treated in ICU.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-04",
+      "slice": "paraphrase",
+      "group_id": "PAR-04",
+      "split": "tuning",
+      "question": "Can a researcher tag every NPARM case as having uniformly severe respiratory disease?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:53:0:311"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:53:0:311",
+          "quote": "some of whom may have only mild hypoventilation",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 53,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:53:0:311",
+          "quote": "Hypoventilation may not be the main feature in some PHOX2B mutations.",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 53,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Some NPARM cases may have mild hypoventilation.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Hypoventilation need not be the main feature.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-05",
+      "slice": "paraphrase",
+      "group_id": "PAR-05",
+      "split": "tuning",
+      "question": "Does repeat length invariably determine how much ventilatory support is needed?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:52:0:455"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:52:0:455",
+          "quote": "although this is inconsistent",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 52,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:52:0:455",
+          "quote": "this relationship is variable and a few remarkable exceptions are known",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 52,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "The described genotype relationship is inconsistent.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Variability and exceptions must be retained.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-06",
+      "slice": "paraphrase",
+      "group_id": "PAR-06",
+      "split": "tuning",
+      "question": "Why should the ventilation choices in the Italian study not be attributed only to genotype?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "quote": "but also by management habits in 6 children born before 2010",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 58,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "quote": "It is probable that the brain damage due to HIE contributed",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 58,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Management habits affected six pre-2010 children.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "HIE was proposed as a contributor, not established as the sole cause.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-07",
+      "slice": "paraphrase",
+      "group_id": "PAR-07",
+      "split": "tuning",
+      "question": "What does the review say about gene deletions as an uncommon CCHS category?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "quote": "Partial or whole gene deletions of PHOX2B account for <1% cases",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "quote": "are associated with variable phenotypes",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Partial or whole PHOX2B deletions account for under 1%.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Variable phenotypes.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-08",
+      "slice": "paraphrase",
+      "group_id": "PAR-08",
+      "split": "test",
+      "question": "Does later presentation mean only childhood presentation in the guideline classification?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:22:0:152"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:22:0:152",
+          "quote": "or in childhood or adulthood",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 22,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:22:0:152"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Later onset also includes adulthood.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-09",
+      "slice": "paraphrase",
+      "group_id": "PAR-09",
+      "split": "test",
+      "question": "How does the guideline distinguish the two levels of respiratory phenotype by duration?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:23:0:99"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:23:0:99",
+          "quote": "(i) sleep hypoventilation; (ii) 24",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 23,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:23:0:99"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Sleep-only versus 24-hour hypoventilation.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "PAR-10",
+      "slice": "paraphrase",
+      "group_id": "PAR-10",
+      "split": "test",
+      "question": "How were the apparently asymptomatic adult women in the Italian discussion eventually identified?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:55:0:418"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+          "quote": "received the diagnosis after confirmation of the disease in their offspring",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 55,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+          "quote": "Only two asymptomatic female patients",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 55,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "After confirmation in their offspring.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Observation concerns two women.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-01",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-01",
+      "split": "tuning",
+      "question": "Where does the 2022 review locate PHOX2B, and how many exons does it describe?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "quote": "chromosome 4p12 and has 3 exons",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Chromosome 4p12; three exons.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-02",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-02",
+      "split": "tuning",
+      "question": "Which PARM genotype identifiers were common in the Italian molecular analysis?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "quote": "PARMs (20/25, 20/26, and 20/27)",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 32,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "20/25, 20/26 and 20/27.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-03",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-03",
+      "split": "tuning",
+      "question": "What observation does the Italian report connect specifically to c.780dupT and neural crest tumor?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:67:0:194"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+          "quote": "one child with c.780dupT mutation",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 67,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:67:0:194"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+          "quote": "one child",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 67,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:67:0:194"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "A neural crest tumor was detected in one child carrying c.780dupT.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Single observed child; not a population effect estimate.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-04",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-04",
+      "split": "tuning",
+      "question": "Which gene symbols accompany MYO1H in the guideline additional-gene paragraph?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:60:0:317"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "quote": "MYO1H and LBX1",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 60,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "quote": "two consanguineous families",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 60,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "LBX1 is paired with MYO1H.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Evidence described concerns two consanguineous families.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-05",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-05",
+      "split": "tuning",
+      "question": "What does the guideline identify as RET and ECE1?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:61:0:166"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:61:0:166",
+          "quote": "receptor tyrosine kinase (RET), and endothelin converting enzyme 1 (ECE1)",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 61,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:61:0:166"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "RET: receptor tyrosine kinase; ECE1: endothelin converting enzyme 1.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-06",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-06",
+      "split": "tuning",
+      "question": "Which exon and repeat counts does the guideline associate with PHOX2B PARMs?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:49:0:572"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "quote": "in the exon 3",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 49,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "quote": "20 repeats",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 49,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "quote": "24 to 33 repeats",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 49,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Exon 3.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Normally 20 repeats.",
+          "reference_indices": [
+            1
+          ]
+        },
+        {
+          "text": "Affected allele 24–33 repeats.",
+          "reference_indices": [
+            2
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-07",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-07",
+      "split": "tuning",
+      "question": "Which repeat-genotype range does the 2022 review describe for PARMs?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "quote": "20/24 – 20/33",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "20/24–20/33.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-08",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-08",
+      "split": "test",
+      "question": "Which G47.35, MIM and ORPHA identifiers are listed together in the guideline?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:8:0:750"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:8:0:750",
+          "quote": "G47.35; MIM 209880, ORPHA 661",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 8,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:8:0:750"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "G47.35; MIM 209880; ORPHA 661.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-09",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-09",
+      "split": "test",
+      "question": "Which ICSD version and publication year accompany the PHOX2B classification statement?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:9:0:276"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "quote": "version 3 published in 2014",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 9,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:9:0:276"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "International Classification of Sleep Disorders version 3, 2014.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "EXA-10",
+      "slice": "exact_identifiers",
+      "group_id": "EXA-10",
+      "split": "test",
+      "question": "Which frameshift mutation strings are written in the Italian discussion?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "quote": "C.225_256delCT, c.780dupT",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 56,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "quote": "C.225–256delCT",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 56,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Preserve the reported strings C.225_256delCT and c.780dupT.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "The paragraph also uses a different dash-form spelling; do not silently normalize HGVS nomenclature.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-01",
+      "slice": "comparison",
+      "group_id": "COM-01",
+      "split": "tuning",
+      "question": "Contrast the Italian study design with the guideline evidence-development method.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561",
+        "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "quote": "collected retrospectively",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "a blend of published evidence and clinical experience",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 13,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Italian study: retrospective patient data.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Guideline: published evidence blended with clinical experience.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-02",
+      "slice": "comparison",
+      "group_id": "COM-02",
+      "split": "tuning",
+      "question": "Compare the PARM fraction in the Italian cohort with the general estimate in the 2022 review.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+        "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "quote": "19/22 cases (86%)",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 32,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "quote": "account for 90% of CCHS cases",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "quote": "19/22 cases",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 32,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Italian cohort 86%.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Review general estimate 90%.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Different evidence bases; the small cohort is not a replacement prevalence estimate.",
+          "reference_indices": [
+            2
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-03",
+      "slice": "comparison",
+      "group_id": "COM-03",
+      "split": "tuning",
+      "question": "Compare how the guideline and review qualify genotype–phenotype associations.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:52:0:455",
+        "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:52:0:455",
+          "quote": "this relationship is variable",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 52,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:600:987",
+          "quote": "variable expression and incomplete penetrance",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 11,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Guideline: variable relationship.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Review: variable expression and incomplete penetrance.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-04",
+      "slice": "comparison",
+      "group_id": "COM-04",
+      "split": "tuning",
+      "question": "Compare the Italian observation and guideline account concerning severity with NPARMs.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:53:0:311",
+        "PMC8039127:b4a7750cb1b5b1d0:49:0:480"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "quote": "NPARMs are more likely to have more severe disease",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 49,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:53:0:311",
+          "quote": "some of whom may have only mild hypoventilation",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 53,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:53:0:311",
+          "quote": "wide spectrum of phenotypes",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 53,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Italian account describes greater likelihood of severity.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Guideline includes mild cases.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "A spectrum, not a universal deterministic rule.",
+          "reference_indices": [
+            2
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-05",
+      "slice": "comparison",
+      "group_id": "COM-05",
+      "split": "tuning",
+      "question": "How do the Italian limitations and guideline evidence grade constrain research conclusions?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561",
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "quote": "retrospective design, the poor sample",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 68,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "most of the evidence is descriptive",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 13,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Italian retrospective/small-sample limitation.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Guideline mostly descriptive evidence.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-06",
+      "slice": "comparison",
+      "group_id": "COM-06",
+      "split": "tuning",
+      "question": "Compare the guideline and review descriptions of rare PHOX2B deletions.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:50:0:513",
+        "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "quote": "mainly large deletions",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 50,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:50:0:513"
+          ]
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "quote": "Partial or whole gene deletions",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "quote": "variable phenotypes",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 10,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Guideline includes large deletions.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Review includes partial or whole deletions.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Variable phenotypes; neither passage justifies a uniform phenotype.",
+          "reference_indices": [
+            2
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-07",
+      "slice": "comparison",
+      "group_id": "COM-07",
+      "split": "tuning",
+      "question": "Compare the Italian study aim with the guideline purpose regarding change over time.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:14:0:635",
+        "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "quote": "changing strategy in the management",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 17,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:14:0:635",
+          "quote": "clinical features of the condition continue to change",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 14,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:14:0:635"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Italian aim: changing management strategy.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Guideline must be read in context of evolving clinical features.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-08",
+      "slice": "comparison",
+      "group_id": "COM-08",
+      "split": "test",
+      "question": "Compare sleep-stage and waking hypoventilation descriptions in the guideline and 2022 review.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:19:0:543",
+        "PMC8963195:f6c8a0a4968ccaf4:7:0:688"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:19:0:543",
+          "quote": "more severe during sleep than during wakefulness",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 19,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:19:0:543"
+          ]
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:7:0:688",
+          "quote": "worse during nonrapid eye movement (NREM) sleep than during rapid eye movement (REM) sleep",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 7,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:7:0:688"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Guideline: worse during sleep.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Review: worse in NREM than REM.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-09",
+      "slice": "comparison",
+      "group_id": "COM-09",
+      "split": "test",
+      "question": "Compare the guideline description of transmission probability with its qualification about expression in offspring.",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:58:0:461"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "quote": "50% risk for transmitting the mutation",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 58,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:58:0:461"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "quote": "depends on the penetrance of the mutation transmitted",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 58,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:58:0:461"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "quote": "incomplete penetrance or very mild manifestations",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 58,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:58:0:461"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Reported transmission probability 50%.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Expression depends on penetrance.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Transmission is not a promise of identical clinical severity.",
+          "reference_indices": [
+            2
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "COM-10",
+      "slice": "comparison",
+      "group_id": "COM-10",
+      "split": "test",
+      "question": "How do the Italian results and discussion describe detection of the two adult women?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+        "PMC8039127:b4a7750cb1b5b1d0:55:0:418"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+          "quote": "at 35 and 38 years",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 28,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:28:0:593"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+          "quote": "after confirmation of the disease in their offspring",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 55,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:55:0:418"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Results provide ages 35 and 38.",
+          "reference_indices": [
+            0
+          ]
+        },
+        {
+          "text": "Discussion links identification to offspring.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "required_qualifications": [],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-01",
+      "slice": "limitations",
+      "group_id": "LIM-01",
+      "split": "tuning",
+      "question": "What qualification must accompany a tag linking longer repeats with continuous ventilation?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:52:0:455"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:52:0:455",
+          "quote": "although this is inconsistent",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 52,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:52:0:455",
+          "quote": "a few remarkable exceptions",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 52,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Relationship is inconsistent.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Known exceptions must be included.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-02",
+      "slice": "limitations",
+      "group_id": "LIM-02",
+      "split": "tuning",
+      "question": "May the Italian retrospective findings be presented as randomized causal evidence?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "quote": "retrospective design",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 68,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "quote": "heterogeneity of the described population",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 68,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "No; retrospective design.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Heterogeneous population restricts interpretation.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-03",
+      "slice": "limitations",
+      "group_id": "LIM-03",
+      "split": "tuning",
+      "question": "What does the Italian epilepsy paragraph say about a genotype correlation?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:61:0:750"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "quote": "no correlation between epilepsy and genotype was finally seen",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 61,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "quote": "Three of our patients",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 61,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "No correlation was observed in that sample.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Only three cases; not proof of no association in all CCHS.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-04",
+      "slice": "limitations",
+      "group_id": "LIM-04",
+      "split": "tuning",
+      "question": "How should the Italian authors suggestion about hypoxia and behavior be qualified?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "quote": "It seems that the psychological development",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 62,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "quote": "influenced by hypoxia rather than the genotype",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 62,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Tentative author interpretation.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Do not upgrade the proposed influence to proven causation.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-05",
+      "slice": "limitations",
+      "group_id": "LIM-05",
+      "split": "tuning",
+      "question": "What prevents the guideline recommendations from being labeled entirely trial-proven?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:13:0:561"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "combined with clinical expertise as required",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 13,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "quote": "low grade of recommendation",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 13,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Clinical expertise supplements published evidence.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Evidence recommendation grade is described as low.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-06",
+      "slice": "limitations",
+      "group_id": "LIM-06",
+      "split": "tuning",
+      "question": "Does the guideline additional-gene passage claim all unexplained CCHS cases are genetically solved?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:60:0:317"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "quote": "without any identified gene mutations",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 60,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "quote": "yet unknown genes",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 60,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "No; a subset has no identified gene mutation.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Unknown genes remain.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-07",
+      "slice": "limitations",
+      "group_id": "LIM-07",
+      "split": "tuning",
+      "question": "Can the review NPARM description justify assuming identical disease in every carrier?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+        "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "quote": "clinical variability",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 11,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+          ]
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:600:987",
+          "quote": "variable expression and incomplete penetrance",
+          "source_id": "PMC8963195",
+          "source_version": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+          "passage_index": 11,
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "No, clinical variability is described.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Preserve variability and incomplete penetrance.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-08",
+      "slice": "limitations",
+      "group_id": "LIM-08",
+      "split": "test",
+      "question": "Does the mother–son observation in the Italian discussion prove environmental cofactors caused the difference?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "quote": "This observation suggests",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 56,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ]
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "quote": "somatic mosaicism or unknown environmental cofactors could influence",
+          "source_id": "PMC8039127",
+          "source_version": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+          "passage_index": 56,
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:56:0:582"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "The authors present a suggestion.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "Possible explanations, not proven causal attribution.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-09",
+      "slice": "limitations",
+      "group_id": "LIM-09",
+      "split": "test",
+      "question": "Can the guideline supply an exact recurrence percentage for proven somatic mosaicism?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:57:600:972"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "quote": "less than 50%",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 57,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:57:600:972"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "quote": "not quantifiable risk of recurrence",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 57,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:57:600:972"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "Described as less than 50%.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "The risk is not quantified exactly.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "LIM-10",
+      "slice": "limitations",
+      "group_id": "LIM-10",
+      "split": "test",
+      "question": "Does the guideline advocate PHOX2B testing for BRUE without hypoventilation?",
+      "answerable": true,
+      "relevant_ids": [
+        "PMC7503443:a26671042513feb5:47:0:296"
+      ],
+      "reference_quotes": [
+        {
+          "id": "PMC7503443:a26671042513feb5:47:0:296",
+          "quote": "We do not advocate testing for PHOX2B",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 47,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:47:0:296"
+          ]
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:47:0:296",
+          "quote": "without hypoventilation",
+          "source_id": "PMC7503443",
+          "source_version": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+          "passage_index": 47,
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:47:0:296"
+          ]
+        }
+      ],
+      "required_facts": [
+        {
+          "text": "No.",
+          "reference_indices": [
+            0
+          ]
+        }
+      ],
+      "required_qualifications": [
+        {
+          "text": "The absence of hypoventilation is an essential qualification.",
+          "reference_indices": [
+            1
+          ]
+        }
+      ],
+      "abstention_reason": "",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-01",
+      "slice": "absent",
+      "group_id": "ABS-01",
+      "split": "tuning",
+      "question": "What measured results does the 2021 Italian study report from a randomized PHOX2B gene-editing intervention?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-02",
+      "slice": "absent",
+      "group_id": "ABS-02",
+      "split": "tuning",
+      "question": "Which downloadable patient-level transcriptomic accession belongs to the Italian retrospective cohort?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-03",
+      "slice": "absent",
+      "group_id": "ABS-03",
+      "split": "tuning",
+      "question": "What sensitivity and specificity did these papers measure for this Evidence Navigator software?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-04",
+      "slice": "absent",
+      "group_id": "ABS-04",
+      "split": "tuning",
+      "question": "What experiment in the guideline proves that every NPARM variant has the same effect size?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-05",
+      "slice": "absent",
+      "group_id": "ABS-05",
+      "split": "tuning",
+      "question": "Which clinical trial completed in 2026 is reported by these 2020–2022 source publications?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-06",
+      "slice": "absent",
+      "group_id": "ABS-06",
+      "split": "tuning",
+      "question": "What approved research-registry identifier was assigned to each tag proposed by this application?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-07",
+      "slice": "absent",
+      "group_id": "ABS-07",
+      "split": "tuning",
+      "question": "What exact universal effect size for CCHS treatment can be obtained from these heterogeneous sources?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-08",
+      "slice": "absent",
+      "group_id": "ABS-08",
+      "split": "test",
+      "question": "What results does the 2022 review report for a prospective trial completed in 2025?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-09",
+      "slice": "absent",
+      "group_id": "ABS-09",
+      "split": "test",
+      "question": "What is the DOI of an unpublished laboratory experiment conducted yesterday by our team?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    },
+    {
+      "schema_version": 2,
+      "id": "ABS-10",
+      "slice": "absent",
+      "group_id": "ABS-10",
+      "split": "test",
+      "question": "Which researcher has clinically validated the answers produced by this application?",
+      "answerable": false,
+      "relevant_ids": [],
+      "reference_quotes": [],
+      "required_facts": [],
+      "required_qualifications": [],
+      "abstention_reason": "The requested result, artifact, date or validation is not established by this frozen three-publication corpus. Do not infer absence from all literature.",
+      "label_status": "ASSISTANT_AUTHORED_PROVISIONAL_NOT_HUMAN_VALIDATED"
+    }
+  ],
+  "design": "60 questions; six slices; 42 tuning/18 test. Project design, not a course threshold.",
+  "limitations": [
+    "Assistant-authored source-anchored references; no biomedical expert validation.",
+    "Source-passage groups are separated across tuning/test, but broad topics and publications overlap.",
+    "Synthetic questions may favor source wording; this is not a representative user study.",
+    "Legacy 13 questions were previously exposed and remain regression-only.",
+    "Hit/MRR measures any reference hit; multi-fact coverage is evaluated separately."
+  ]
+}

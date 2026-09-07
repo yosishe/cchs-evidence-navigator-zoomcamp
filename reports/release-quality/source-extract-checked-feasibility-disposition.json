@@ -1,0 +1,11 @@
+{
+  "status": "REJECTED_RELEVANCE_FAILURE",
+  "created_at": "2026-09-07T01:28:31.362730+00:00",
+  "actual_generation_attempts": 5,
+  "acceptable": 3,
+  "denominator": 5,
+  "critical_answers": 1,
+  "output_errors": 0,
+  "results": "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json",
+  "decision": "The worked examples recover the available design qualification but still answer a missing association caveat with generic mutation background and regress accession refusal. No candidate promotion or full-development expansion. Test whether requiring a brief selection justification before choosing source pointers changes this failure; the explanation itself will never count as independent source review."
+}

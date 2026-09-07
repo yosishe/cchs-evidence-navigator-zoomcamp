@@ -1,0 +1,322 @@
+{
+  "created_at": "2026-09-06T12:22:36.860711+00:00",
+  "status": "COMPLETED_ANALYZED",
+  "decision": "REJECT_CURRENT_PROMOTION",
+  "official_points": null,
+  "runtime_code_id": "a37a640c61b1eb0794ba76a6d10c7cb397b3913f37289c8e6ad9b40e65e97416",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "split": "tuning",
+  "question_count": 42,
+  "answerable_denominator": 35,
+  "variants": [
+    {
+      "id": "vector_incumbent",
+      "config": {
+        "retrieval": "vector",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 2.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "lexical_title_0.0",
+      "config": {
+        "retrieval": "lexical",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "lexical_title_0.25",
+      "config": {
+        "retrieval": "lexical",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.25,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "lexical_title_1.0",
+      "config": {
+        "retrieval": "lexical",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 1.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "lexical_title_2.0",
+      "config": {
+        "retrieval": "lexical",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 2.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "hybrid_title_0.0",
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "hybrid_title_0.25",
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 0.25,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "hybrid_title_1.0",
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 1.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    },
+    {
+      "id": "hybrid_title_2.0",
+      "config": {
+        "retrieval": "hybrid",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 2.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 120,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json"
+      }
+    }
+  ],
+  "changed_dimension": "Lexical title-field boost only, evaluated in the existing lexical and RRF hybrid branches. Same vectors, source windows, queries, other field boosts, top_k 5, candidate_k 20 and zero-based RRF k 50. Vector incumbent is the reference.",
+  "course_source": "Module 1 minsearch field boosts; Module 4 search tuning and 12-rag-answers.md explicitly uses selected question/answer/section boosts; optional Module 6 RRF.",
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "adaptation": "The title weight levels 0, 0.25, 1 and 2 are project experiment choices, not taught optimum values. No query labels are used in ranking.",
+  "hypothesis": "Repeated publication-title words may dominate lexical ranking and weaken the hybrid candidate pool. Lower title boost may improve answer-bearing passage ranks but lose publication specificity.",
+  "acceptance": "Compare frozen reference coverage, Hit@5/MRR and full-reference cases on all 35 answerable development questions, plus every slice and per-query gain/loss. Nominate only an improvement with no lost fully covered case; mixed effects remain explicit and cannot automatically replace the vector incumbent. No answer quality or final-test claim from retrieval scores.",
+  "alternatives_rejected": [
+    "Change embedding model or chunking in this experiment",
+    "Rebuild labels to fit a new configuration",
+    "Choose a title weight separately for each benchmark question",
+    "Activate hybrid solely for bonus points"
+  ],
+  "planned_generation_calls": 0,
+  "planned_retrieval_queries": 378,
+  "heldout_exposure": "Final set excluded from ranking evaluation; bank read/validated as previously disclosed.",
+  "next_action": "Inspect source/branch ranks in the three regressions before any further rank tuning. Preserve the eight observed gains and three losses; no automatic promotion or inferred answer quality.",
+  "results_path": "reports/goal-loop/title-weight-retrieval-016.json",
+  "completed_at": "2026-09-06T12:29:22.075536+00:00",
+  "actual_retrieval_queries": 378,
+  "results_hash": "1442b966001ba69e955246d45bfca9c72d56bcdcba682373d417dc9b9e72bca1",
+  "analysis_path": "reports/goal-loop/title-weight-retrieval-016-analysis.json",
+  "analysis_hash": "5a67a2f268667affe17dcd5434cb076cbcd7294d8ad98fc58cef515f6c32a096",
+  "best_aggregate_variant": "hybrid_title_0.0",
+  "best_aggregate": {
+    "questions": 42,
+    "answerable_denominator": 35,
+    "hits": 25,
+    "hit_at_5": 0.7142857142857143,
+    "mrr_at_5": 0.4766666666666667,
+    "reference_coverage": 0.6714285714285714,
+    "fully_covered": 22
+  },
+  "lost_fully_covered": [
+    "DIR-07",
+    "PAR-01"
+  ],
+  "finding": "Hybrid with title boost zero improves mean coverage and fully covered count, but loses fully covered DIR-07 and PAR-01 and loses partial coverage on COM-02. It fails the predeclared no-lost-complete-case nomination rule; current vector config is unchanged."
+}

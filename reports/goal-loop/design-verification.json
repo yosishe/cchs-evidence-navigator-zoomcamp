@@ -1,0 +1,136 @@
+{
+  "created_at": "2026-09-06T09:57:31.290575+00:00",
+  "status": "DESIGN_VERIFIED_PROJECT_QUALITY_GOAL_NOT_EXECUTED",
+  "scope": "Local commit of existing remediation; Goal loop/evaluation design and usage prompt. No new model experiment, deployment, push, publication or submission.",
+  "remediation_commit": "c74b743df84fc6e89fa1c2c60e42da24ba3e398d",
+  "runtime_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "application_configuration_dependencies_and_labels_unchanged_by_design": true,
+  "new_model_generation_calls": 0,
+  "tests": {
+    "path": "reports/checks.json",
+    "sha256": "0e1b011dacd7284fb4542cdafcb4ddf589e47fc3711aa2be0f57a294e9e2378b",
+    "passed": 98,
+    "skipped": 0,
+    "scope": "Python contracts plus real minsearch, dlt/DuckDB and Streamlit AppTest when their dependencies are present. SDK responses in contracts are mocks; AppTest is not a browser.",
+    "not_established": [
+      "live provider response",
+      "retrieval quality",
+      "answer quality",
+      "browser interaction (separate report)",
+      "PostgreSQL persistence",
+      "Compose startup",
+      "human scientific review",
+      "submission readiness"
+    ]
+  },
+  "design_files": [
+    {
+      "path": "README.md",
+      "sha256": "6e5ce93e2e3b2f2baf3118a741297f921ccc76b8c4a9cdc35e6fb1f3aae93a16"
+    },
+    {
+      "path": "docs/goal-loop.md",
+      "sha256": "7de30a1a3d8a0ba8e42cdfafa26645153b1c885c17dd991954bf8ce05c1cf4b7"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_PROMPT.en.md",
+      "sha256": "e6c73eb2071be032eeea646b591ad21efa4f6c0fbc302ab11df8641f90d359a0"
+    },
+    {
+      "path": "docs/evaluation.md",
+      "sha256": "751c7264de0a62ae9b5bc36d5f08e6f05b19d066da226f883fe8d3a2e78a1afd"
+    },
+    {
+      "path": "docs/readiness.md",
+      "sha256": "fcecb8b48b4726821d1104252e731bd030da79b5c2f93098f5ac491b071e2399"
+    }
+  ],
+  "source_files_preserved": [
+    {
+      "path": "data/raw/PMC7503443.json",
+      "sha256": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b"
+    },
+    {
+      "path": "data/raw/PMC8039127.json",
+      "sha256": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f"
+    },
+    {
+      "path": "data/raw/PMC8963195.json",
+      "sha256": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde"
+    }
+  ],
+  "local_markdown_links_and_anchors_checked": 71,
+  "broken_local_links": [],
+  "rubric_arithmetic": {
+    "core_maximum": 18,
+    "practices_maximum": 3,
+    "bonuses_maximum": 5,
+    "total_maximum": 26,
+    "official_points": null
+  },
+  "documented_cli_parser_checks": {
+    "check-runtime": {
+      "help_exit_code": 0,
+      "help_sha256": "0a5ae1883e615cde07a0e9e8ccbca94144793aebf3a775f423e4cfccab005a48"
+    },
+    "plan-answers": {
+      "help_exit_code": 0,
+      "help_sha256": "b18534d6ac1e1ed68e7dfdc79790a8ff79134795958903e0073b739c54121edd"
+    },
+    "evaluate-answers": {
+      "help_exit_code": 0,
+      "help_sha256": "8685ec6a8c151ced7b6c2b44da7e77cf15e4eab51fe07d0d9c71c4f9e5f478d3"
+    },
+    "review-answers": {
+      "help_exit_code": 0,
+      "help_sha256": "210406afb1b7299e5bea3e0724bc885155d8051b5e2374c5e758d1ec249f7f30"
+    },
+    "select-generation": {
+      "help_exit_code": 0,
+      "help_sha256": "061bdfc7aa69c27880052dfbd1aa0b9de31a7b00078e73726040bbd3d032bc51"
+    }
+  },
+  "goal_feature": {
+    "active_in_this_thread_verified": true,
+    "official_usage_source": "https://learn.chatgpt.com/use-cases/follow-goals",
+    "settings_changed": false
+  },
+  "completion_audit": [
+    {
+      "requirement": "Commit all project remediation work",
+      "evidence": "c74b743df84fc6e89fa1c2c60e42da24ba3e398d",
+      "status": "COMPLETE_LOCAL_ONLY"
+    },
+    {
+      "requirement": "Design a repeatable improvement loop",
+      "evidence": "docs/goal-loop.md sections 3, 4, 7, 8",
+      "status": "DESIGNED_WITH_EXISTING_COMMANDS"
+    },
+    {
+      "requirement": "Design evaluation aligned to the course",
+      "evidence": "docs/goal-loop.md sections 2, 5, 6",
+      "status": "DESIGNED_NO_OFFICIAL_GRADE_CLAIM"
+    },
+    {
+      "requirement": "Explain Goal usage and provide a detailed prompt",
+      "evidence": "docs/goal-loop.md section 1; docs/IMPLEMENTATION_PROMPT.en.md#goal-prompt",
+      "status": "DOCUMENTED_VERIFIED_OFFICIAL_USAGE"
+    },
+    {
+      "requirement": "Counter reward hacking and Goodhart effects",
+      "evidence": "docs/goal-loop.md sections 3, 5, 6; frozen contract, counterexamples, whole-answer veto and heldout exposure rules",
+      "status": "DESIGNED_WITH_LIMITATIONS"
+    }
+  ],
+  "limitations": [
+    "The future quality-improvement loop was not executed by this design task.",
+    "Whole-answer sidecar is a required agent review procedure, not a newly implemented automated validator.",
+    "Existing final-answer CLI does not mechanically certify all free-form prose; a green CLI result cannot bypass whole-answer review.",
+    "The local suite is not a fresh live-model quality comparison or a complete container rehearsal.",
+    "Final test access by the coding agent limits independence; no claim of perfect blindness.",
+    "No official points are awarded by this verification.",
+    "Regenerable dlt job state, caches, model weights and secrets remain outside Git; project reports and public-source QA receipts are committed."
+  ]
+}

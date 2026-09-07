@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-09-06T07:46:53.324806+00:00",
+  "status": "PASS_PREVIEW_AND_DEFAULT_SCOPE_ONLY",
+  "runtime_code_id": "e675401ddae7adfb80548bb47e7ce2d9912fc5b0603030858069fccfc39ff011",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "answer_id": "5d92caff-1559-4af4-9436-65da97c60418",
+  "qa_requests": 1,
+  "qa_rated_requests": 1,
+  "user_scope_empty": true,
+  "observed_in_browser": [
+    "Five retrieved passages",
+    "Rank-five source expansion and original limitations paragraph",
+    "Default activity origin qa without changing the selector",
+    "QA feedback coverage 1/1",
+    "Five dashboard charts in DOM with clear scopes",
+    "No provider usage recorded"
+  ],
+  "visually_inspected": "Native CUA screenshot of dashboard title, QA origin, scope and warning",
+  "generation_calls": 0,
+  "tab_closed": true,
+  "limitations": [
+    "No generated-answer test; Phi3 is missing",
+    "Browser content export is unsupported; no repository screenshot file claimed",
+    "The earlier actual CSV download is preserved separately in instructor-reassessment"
+  ],
+  "earlier_csv_evidence": "reports/instructor-reassessment/browser-check.json"
+}

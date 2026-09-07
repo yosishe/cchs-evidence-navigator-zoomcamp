@@ -1,0 +1,139 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "61dfa8dc43b8ee69acdbb3bcf8be0cafecaba00ab5ef17cc8d6574009878cfe7",
+  "reviews_hash": "6435738f60380b10a885777a168d4adee305d3719092c25575967d94978d8b56",
+  "reviewer": "Codex source-based provisional assistant review, iteration026",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 4,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 19.442612833503517,
+      "errors": 4,
+      "critical_failure_answers": 0
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "cbd36c34-7150-4f34-835c-0b9e21f7b7cf",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw first claim contains both study aims in meaning, now available in Italian17. It uses a publication/version string instead of a passage ID and inserts a comma into the exact quote. The second quote changes The study to Our study relative to Italian54 and repeats the invalid ID. Canonical validation rejects the whole output. No validated claim or export is delivered; do not repair IDs or quotes after seeing the result.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw first claim contains both study aims in meaning, now available in Italian17. It uses a publication/version string instead of a passage ID and inserts a comma into the exact quote. The second quote changes The study to Our study relative to Italian54 and repeats the invalid ID. Canonical validation rejects the whole output. No validated claim or export is delivered; do not repair IDs or quotes after seeing the result. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "6c220020-fee6-4229-a401-2df9faef1772",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw insufficient-evidence object omits limitations and is rejected. Both frozen sources are retrieved: Italian21 at rank2 and19 at rank10 provide electronic records and retrospective design. This is a generation/structure failure despite reference availability.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw insufficient-evidence object omits limitations and is rejected. Both frozen sources are retrieved: Italian21 at rank2 and19 at rank10 provide electronic records and retrospective design. This is a generation/structure failure despite reference availability. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "a372208c-82e0-417f-b4ac-92ed3f8766ef",
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw insufficient-evidence object omits limitations and is rejected. Italian19 and guideline13 are both in the actual context and support the two required study-method facts. Retrieval coverage has improved, but no complete supported comparison is delivered.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw insufficient-evidence object omits limitations and is rejected. Italian19 and guideline13 are both in the actual context and support the two required study-method facts. Retrieval coverage has improved, but no complete supported comparison is delivered. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "20364456-9595-442d-8568-c206b0918f78",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The raw response chooses insufficient_evidence but lacks the mandatory limitations field. It is rejected into a safe application error with no evidence/tag rows, not a successful abstention answer. No requested randomized gene-editing outcome is established.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The raw response chooses insufficient_evidence but lacks the mandatory limitations field. It is rejected into a safe application error with no evidence/tag rows, not a successful abstention answer. No requested randomized gene-editing outcome is established. The only displayed prose is the accurate application-owned validation-failure note. Both canonical exports are empty and do not fabricate or lose a displayed qualification. This consistency is not useful research output and cannot upgrade a primary rejection. Raw model defects remain in the results. Export payloads were inspected in code; no browser download was executed.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "08b0bfc479b5faeb90150e27c5b04d915e3a32b144dc9aef9504a381a69fdb96",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review, iteration026",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

@@ -1,0 +1,206 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "c9f6473da84897f7443a25be0efa6030420ca1a915f33d5c01345413aa97b405",
+  "reviews_hash": "e2dab2541142aca8dda921155730c68868c7214f2871a48ed6696dd6813246ec",
+  "reviewer": "Codex source review, iteration 027; same agent, not independent human validation",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 12.057412860997525,
+      "errors": 0,
+      "critical_failure_answers": 2
+    },
+    {
+      "prompt": "schema_first",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 18.267139930001576,
+      "errors": 2,
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "schema_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "4e139662-9292-4f0e-a57e-127f0bd70cb0",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The count/retrospective claim is supported by passage 19, but the requested 2000–2020 period in the same passage is omitted. Other prose is supported by passages 68 and 21.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The count/retrospective claim is supported by passage 19, but the requested 2000–2020 period in the same passage is omitted. Other prose is supported by passages 68 and 21. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "77e3bf8e-9574-416a-8fe9-0c85a495fe94",
+      "prompt": "schema_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "partial",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The clinical/genetic background claim is supported by passage 54 but neither the patient count nor period is answered. Limitations mention retrospective design and electronic records, supported by passages 68/21. Fact one is only partial because 22 patients is absent. The copied first-person caveat wording should be attributed to the publication, not reused as app narration.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The clinical/genetic background claim is supported by passage 54 but neither the patient count nor period is answered. Limitations mention retrospective design and electronic records, supported by passages 68/21. Fact one is only partial because 22 patients is absent. The copied first-person caveat wording should be attributed to the publication, not reused as app narration. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "8e23c3f4-ea62-4139-970c-666d49b402ed",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The response denies the study-design evidence explicitly provided by passages 19/68 and the record-review evidence in passage 21. Both requested facts remain unanswered.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The response denies the study-design evidence explicitly provided by passages 19/68 and the record-review evidence in passage 21. Both requested facts remain unanswered. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "fa3fe301-9b87-41b6-b121-435c6d8708e4",
+      "prompt": "schema_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "answered with an empty claims array violates the unchanged schema contract and is blocked. Raw limitations also deny study design while admitting retrospective data collection. No validated answer is available.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "answered with an empty claims array violates the unchanged schema contract and is blocked. Raw limitations also deny study design while admitting retrospective data collection. No validated answer is available. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "c3d894e7-6cdc-4c80-8e29-8d5e1ca2380c",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The phrase intervention reported in a 2021 Italian study accepts a premise not established by any supplied passage. This remains incorrect/unsupported whole-answer abstention.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The phrase intervention reported in a 2021 Italian study accepts a premise not established by any supplied passage. This remains incorrect/unsupported whole-answer abstention. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "18633502-234f-48dd-ba78-ea2fa180db46",
+      "prompt": "schema_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The first exact_quote is an article title rather than text of the cited passage 8. Other claim/quote pairs attribute Italian PARM observations to unrelated review testing windows, and overstate a specific Italian genotype pattern. Validation blocks the output; it does not answer an unanswerable question correctly.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The first exact_quote is an article title rather than text of the cited passage 8. Other claim/quote pairs attribute Italian PARM observations to unrelated review testing windows, and overstate a specific Italian genotype pattern. Validation blocks the output; it does not answer an unanswerable question correctly. Export row content preserves the recorded text and pending review; actual downloaded bytes were not tested. Re-inspected all 11 unique retrieved windows and identical raw/canonical prose in iteration 027. These unchanged source judgments are reused transparently, not presented as independent review.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "e7849bab31e827a35f4f51262d24f9a2c8b0d839a7f90679580372434f72a8d2",
+  "whole_answer_reviewer": "Codex source review, iteration 027; same agent, not independent human validation",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

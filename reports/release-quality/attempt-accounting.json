@@ -1,0 +1,1587 @@
+{
+  "created_at": "2026-09-07T01:44:17.446850+00:00",
+  "status": "RECONCILED",
+  "scope": "New public-copy generation/rewrite attempts only; imported historical results excluded. Read-only model metadata calls and software fixtures are not generation attempts.",
+  "journal_attempts": 145,
+  "linked_unique_attempts": 145,
+  "journal_statuses": {
+    "completed": 145
+  },
+  "journal_stages": {
+    "generation": 145
+  },
+  "providers": {
+    "ollama": 145
+  },
+  "unlinked_attempts": [],
+  "findings": [],
+  "experiments": [
+    {
+      "path": "reports/experiments/answers-00e41106-d6db-4228-bb1a-ca357436525b/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 2,
+      "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4"
+    },
+    {
+      "path": "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4"
+    },
+    {
+      "path": "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "707513aec2de746fc9696f46f127a187e98b20234101edbee75c06c3dea61c46"
+    },
+    {
+      "path": "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "55853d7f11faf527e328ad68c4d7846da4eb65ad1814e28ce459c6b7906b04e1"
+    },
+    {
+      "path": "reports/experiments/answers-36aface6-347d-4be1-b1a9-bbce057416fd/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "2df4dfc13e48ef863a60510e98e62970e72fc39dac857de559fe4168b6d74646"
+    },
+    {
+      "path": "reports/experiments/answers-40d705c4-b97c-4590-bad9-8d5ac60dab9d/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 2,
+      "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4"
+    },
+    {
+      "path": "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "707513aec2de746fc9696f46f127a187e98b20234101edbee75c06c3dea61c46"
+    },
+    {
+      "path": "reports/experiments/answers-5e9f2858-2506-4d98-b5d2-d3e2ee6b781d/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc"
+    },
+    {
+      "path": "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7"
+    },
+    {
+      "path": "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "532dc57c709488f93155d51925903ef5dd1b3830cfe53bb7c013c12c7e75a4e4"
+    },
+    {
+      "path": "reports/experiments/answers-9aa9a303-b26a-4052-ba1f-babf5a5147ec/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "d5333de3cad1eb0314e71d2dd72445dad833447fd1a836e382b30103cc882d7d"
+    },
+    {
+      "path": "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc"
+    },
+    {
+      "path": "reports/experiments/answers-aa641258-3a50-446b-b2a5-7a9499c4387c/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "2df4dfc13e48ef863a60510e98e62970e72fc39dac857de559fe4168b6d74646"
+    },
+    {
+      "path": "reports/experiments/answers-b49ba118-b1a2-4325-a6d4-238bd5b8b889/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc"
+    },
+    {
+      "path": "reports/experiments/answers-c263c9b9-438f-4b85-b233-27471a114061/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 5,
+      "runtime_code_id": "d5333de3cad1eb0314e71d2dd72445dad833447fd1a836e382b30103cc882d7d"
+    },
+    {
+      "path": "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "707513aec2de746fc9696f46f127a187e98b20234101edbee75c06c3dea61c46"
+    },
+    {
+      "path": "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7"
+    },
+    {
+      "path": "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "declared_actual_provider_requests": 12,
+      "runtime_code_id": "707513aec2de746fc9696f46f127a187e98b20234101edbee75c06c3dea61c46"
+    },
+    {
+      "path": "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/reference-diagnostic-1fc16d20-dfb5-44c3-a392-f8f540c23d20.json",
+      "status": "EXECUTED_AWAITING_COMPARISON",
+      "scope": "KNOWN_REFERENCE_DIAGNOSTIC_NOT_SELECTION",
+      "declared_actual_provider_requests": 2
+    }
+  ],
+  "linked_calls": [
+    {
+      "id": "e93289a7-cec2-495d-a7aa-1ad11fd57a60",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-00e41106-d6db-4228-bb1a-ca357436525b/results.json"
+      ],
+      "hash": "37da4148a76e28e36ae77069a37ee2d9c4c72f8adde54864cf6fd48f064241fa"
+    },
+    {
+      "id": "b8e0bea8-808d-4213-80fa-9f62ae8407e3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-00e41106-d6db-4228-bb1a-ca357436525b/results.json"
+      ],
+      "hash": "3ca6128c499375106e85116a7f86b7148ce82d41786070722135c17cdbf48d8c"
+    },
+    {
+      "id": "9705cdb5-bb32-4123-903f-289066047a0a",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "b36ef84abd329293f80af94790af612ae34836af10c90d55ab1147ec76dbf65f"
+    },
+    {
+      "id": "66aad2db-799a-479d-bb9f-66c766aef910",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "bee77d2753962e7595d381e763f900ee25eff9e6805b4182f51f594b3ddfb0b4"
+    },
+    {
+      "id": "f0e98248-7363-42eb-ae54-5154585c1bef",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "b3d515dd70b0ff13eefe8516b0f0164d8a163942f49508fb1adc94a4c7882aec"
+    },
+    {
+      "id": "b63d7f97-25b3-4010-831d-8cfb910176f6",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "5fbff6c25b73c8fa4e4a808c063376df592d7d66d14772e80fe27f3590cb8047"
+    },
+    {
+      "id": "f198f525-69da-4fb9-996d-c6b2dfa80917",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "834725a20f81200205296573a214c323b0bd6c36300bd28685f6825a01725779"
+    },
+    {
+      "id": "21060980-811a-4144-af02-bac7045e1a5d",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "225c26786402abd9def91d364cb145db005e8d33d88cc1dc1f49f06241a39bc9"
+    },
+    {
+      "id": "91e64ab7-3685-4f52-939d-36a3e9f09544",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "d97f2f6c7a3b2f3155b392edd7153b6400ce4f2b6fca75a9044ee1551ea61a4a"
+    },
+    {
+      "id": "6dda8129-c1ea-4b54-b274-12b48eaf4ca4",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "74160cdc10b473bc498222779a8ce2aef95d4e5463d3220fc8237da86e64c5b5"
+    },
+    {
+      "id": "62a8e940-0fa4-40a2-8f9f-31192c7429b3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "c58cee1689f6e3aea41e7ca0f1b2e4283cb851f8321432f6c8c98f73e9dd33f8"
+    },
+    {
+      "id": "d068c199-07f2-42fd-a3ac-62ecadfa76ce",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "87c601e79a186d276f7956f81a81bc40044f52c0bd3bd3b56a449aa745335b86"
+    },
+    {
+      "id": "e4f3b829-d059-49d2-ae26-da55011288aa",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "3596197e38c319b56fc47195684cdb1cba9d5b7d05876c552a9b084963d3b2d6"
+    },
+    {
+      "id": "f365b580-9630-4f95-8e8b-195f598e3424",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1927f1d9-ad6b-4bf2-8044-d2d97f42dd4c/results.json"
+      ],
+      "hash": "d966a1c7102a5089f80143453a3027be569528b7b6143c792a1362f3b6d67085"
+    },
+    {
+      "id": "4e33f87f-b411-42f6-bd9a-0794b8d8c1b2",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "c6d135b8c0f7bcca78dd85e3789baa28d8c1af740f7d9ac164078c6a7f7a6f9d"
+    },
+    {
+      "id": "6d792945-324f-4518-b380-94414471e931",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "07ccd4eabb7f178c4c51b68b4101b751ba582b0c4d10e42b10652b3ece56ee45"
+    },
+    {
+      "id": "30617209-4ebc-441d-a7c6-60018fe1b348",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "9c14d9940ac7022773f493d8e38e7e84cc65f783302fe7ebb74b53dd769726fb"
+    },
+    {
+      "id": "6b00ea1a-3141-46cb-b504-3f7b9896cac3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "ec13337838251bfb61d57a9f6c443c35b0a42771e9264e1150723ce3f3c74e1d"
+    },
+    {
+      "id": "a02f61d5-8f91-4376-8d36-4532bd62f547",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "74a37702a49ba2439b7e84458fbe66684e576ea0f028a9173f73fb392e09127d"
+    },
+    {
+      "id": "f24f7530-21ec-418e-8961-7b52d4ad1a01",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "b3650163f74251444790c8b5b7a09010ab99dfac0d1e267e589fb8eab48d8810"
+    },
+    {
+      "id": "3c83e637-6417-4bb5-b21e-8d056544ee91",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "141c063e7e02847a0f6bcaf1ec4a407f898553b0b008b020524fc6e1e00a1823"
+    },
+    {
+      "id": "f02d9c37-6132-4a1c-8889-489ecd7db79a",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "36f54bbf1dc1c250d8637d09d02030d8bd8fa0c65624a914d34d50961aefd959"
+    },
+    {
+      "id": "57518160-d127-43a9-8b5d-8fdcdc4e53ac",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "a26b7ac2c3e76c581653fa82558e1ddef35f9aa8a4a6b9cf4b255bc8d63972f2"
+    },
+    {
+      "id": "4127cf30-f2c6-48a5-a0c6-5cbb5cbb06b2",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "aa2cd2f1b9724783810754704fdcd88db018663c6c766c2f32b409b422ac6791"
+    },
+    {
+      "id": "7b6ef34e-33f6-4dd8-8ec5-7f7e2158bb28",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "7fa193178a2a93895f6115abab47193af7f9d24ab174aa62b58500b8a16fc6d2"
+    },
+    {
+      "id": "7bf01704-13fe-4e39-a359-01d5bbab3cb1",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json"
+      ],
+      "hash": "6494aedcb0bad9efba4914753ce4a3f3a59f866e6cbc001133c4f0db958dd691"
+    },
+    {
+      "id": "78e66168-b617-4a6e-a9ef-b0d31df51025",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json"
+      ],
+      "hash": "d479f984c549a66cb27535322a78129347606815b135920243f22e9fdb91d456"
+    },
+    {
+      "id": "7f2ac1e9-126c-477a-81df-4b3b38b3b6f0",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json"
+      ],
+      "hash": "4fa2dbf4117ea9b42de7aeec2ed1390ca9fce76a46d4bfb75e1d01590e21c353"
+    },
+    {
+      "id": "c5188883-49ab-4dba-8ae3-aa9aacd989e2",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json"
+      ],
+      "hash": "0616cf5999dd786fc111401602ab59dd5bc7aa998d94c8b097aca5c599275816"
+    },
+    {
+      "id": "179a98e2-f308-4e49-aee0-f191057ef314",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json"
+      ],
+      "hash": "4475b98802fe21c5d151a9bd29a0400fc33b36db6665bfc298aeae6657a87f9b"
+    },
+    {
+      "id": "9dd7e23e-baae-4829-8684-62cebdb4598b",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json"
+      ],
+      "hash": "96e0c5a5b6bbbe52bcc8ee9841ec3f0f032ea602bcd54e4a90b264b8ef5ae6e8"
+    },
+    {
+      "id": "804377bb-63e1-4c16-9244-6c3d8cb51ea9",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-36aface6-347d-4be1-b1a9-bbce057416fd/results.json"
+      ],
+      "hash": "6cba9ad48b34eb31c3b266af3ddb82a3411b2765486b8310a6873bcd9315c8a8"
+    },
+    {
+      "id": "b3a5a4a1-88a1-40c8-b84f-1f2396523e81",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-36aface6-347d-4be1-b1a9-bbce057416fd/results.json"
+      ],
+      "hash": "188d5a4aa06b2b81d83ca4015389e90d4e2823b0e30e5e0d65f33d732a7f7784"
+    },
+    {
+      "id": "21f76946-c896-479f-a679-4098cff72881",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-36aface6-347d-4be1-b1a9-bbce057416fd/results.json"
+      ],
+      "hash": "46c7c6d80af46ec9796f0b29af6ef6770647353924d2380d55ffd30f3eff5fc1"
+    },
+    {
+      "id": "7ba75f98-ea2c-44df-aca8-c1adb6b88840",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-36aface6-347d-4be1-b1a9-bbce057416fd/results.json"
+      ],
+      "hash": "5f8808bcc879108f85fff27a3ec2cf5ea53c391a36515db9cf319981b7c7c133"
+    },
+    {
+      "id": "91141d5c-abc9-4375-b502-4f4fb062929b",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-36aface6-347d-4be1-b1a9-bbce057416fd/results.json"
+      ],
+      "hash": "0b4e5dcd6dd226c5cbdaef0945d16807f6306993eca5516bdf63f915625649f9"
+    },
+    {
+      "id": "1a2a8a83-fa73-4d4a-8fa2-f2d4412b2a68",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-40d705c4-b97c-4590-bad9-8d5ac60dab9d/results.json"
+      ],
+      "hash": "9449b24eba2759b98675620c5430cddea483ff07b666dc6a84e9ea83f1614eff"
+    },
+    {
+      "id": "fc1f4193-3a0b-486e-b04c-977294a29b6a",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-40d705c4-b97c-4590-bad9-8d5ac60dab9d/results.json"
+      ],
+      "hash": "448097e1b4edb6cd8594332147baa1feb94d2ca845a4c23cf37e55a51f399c76"
+    },
+    {
+      "id": "2f8e059d-0b2f-4852-ad45-b5198813db94",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "33308fa677cbdc86631b81292505c7e88b1eb15169acbd2cd18073ce6f88f946"
+    },
+    {
+      "id": "8bbd6daa-1488-4ac6-8150-26efeca32696",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "4b7e3f80fbdf199cf6dcca4bd7f8b824ad1d1d29f6a68a262ed6dae6790597c2"
+    },
+    {
+      "id": "9dc2dc73-d784-49ae-a5e8-524fc8014216",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "e594d510b465f05afa57c18b94297ba62b67c4184ae2dbffbc0ca0745452f0d6"
+    },
+    {
+      "id": "bb36534e-43d2-4d17-b682-f4ae253f5316",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "f1b43b5a6ca6b94fcd5803a70d404c35d36d5654237d38fd2d1e73d3e7a9cc68"
+    },
+    {
+      "id": "b3c52420-5cf4-4bdb-a6cc-d554b0681a03",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "06bc120657e58fe7b77cb725f2cb16378c19f1041c1db3fec9a51d5e555ca451"
+    },
+    {
+      "id": "c6a14d3d-82a1-4085-bf14-a5e49e53eaac",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "43b25e60dcbe8a278b437c38ed6b278b692bf972e7363488b2fba2b28c7588a6"
+    },
+    {
+      "id": "d5cf7f82-3277-4950-be6c-19fe140498f6",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "f6a957d4b99b1bbc7097f81cbde430f31b54fb61726a237a6087062fca05ccdb"
+    },
+    {
+      "id": "2eaa1cdd-7b81-4d37-86f4-6dfe5f6aa150",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "f83be0b9c25ec0e2cfcf29723dd34ee3b2ef1a512eb23a140496e46b176ae432"
+    },
+    {
+      "id": "28424f39-d36d-4e9e-96b2-0a4768d82f1d",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "ed0bea8c33b510f2454f21a85703dacf9533ad6bcc7da6345a23f7976b749516"
+    },
+    {
+      "id": "841e8ce9-9f15-40a1-9189-999d2bff3493",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "8e9da49cb0bbdd37e8b64441b1a1132a2d2cfd0cdd09c7fe0557a0a0a76fb3a1"
+    },
+    {
+      "id": "ee6076d6-2277-4d14-88a5-ba5a95f0e045",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "dbdfc455dd8d5faf28c1a7b3db4af5e342da4e7d745b9495e6c74c3b7797a71a"
+    },
+    {
+      "id": "3ea2acf1-fd83-4fc8-8a69-046017f8a4fb",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json"
+      ],
+      "hash": "54ac694daf6697855e3fc318cdd9394e7d2e84c8d7f375ced514f40e5a18872b"
+    },
+    {
+      "id": "ddaed260-ac91-46b5-ad85-e28ecfeb4be3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-5e9f2858-2506-4d98-b5d2-d3e2ee6b781d/results.json"
+      ],
+      "hash": "18eddd7edef321db9e346ac011fb43e6baa6805243f670d1e5e41186a6a7451a"
+    },
+    {
+      "id": "e870dc85-5632-4b6a-9bf5-11cbdfb56bdb",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-5e9f2858-2506-4d98-b5d2-d3e2ee6b781d/results.json"
+      ],
+      "hash": "2f08c705b4476e06434ff023104616741f847d6c6b28b72fd77431e7513aa422"
+    },
+    {
+      "id": "6860cb8e-c53e-41cf-9f63-74190b03ead3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-5e9f2858-2506-4d98-b5d2-d3e2ee6b781d/results.json"
+      ],
+      "hash": "b91a315fc4bcb2de3d7fd32b0244cfa0adaf0a9fa9f0ea17e9e316105dc9f84b"
+    },
+    {
+      "id": "0cdfd575-f0de-486e-8496-f643d6fab904",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-5e9f2858-2506-4d98-b5d2-d3e2ee6b781d/results.json"
+      ],
+      "hash": "22079be326c4652ca044a98a808894f51ebff65555b4a956cbadc77e27fbc23e"
+    },
+    {
+      "id": "55cc8195-313a-4c8a-9438-fab1fe1a837d",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-5e9f2858-2506-4d98-b5d2-d3e2ee6b781d/results.json"
+      ],
+      "hash": "cd4743aa24604c96b5a5a2ad2cfef9e6a5187ef9a122224531cc957392da252c"
+    },
+    {
+      "id": "32f20b57-47ff-41e5-b99f-86843c17c9e7",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "7efa94340088ae317752517bc38dd750427d2f2723f0d0b15d6a01ec93fee363"
+    },
+    {
+      "id": "1b8cd847-7ec7-469d-ad9a-a2d3082a9a54",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "2763d2c7fca5fb9e453feee58a903a4e4b135cd9a6aabc5961f8d632417d0f16"
+    },
+    {
+      "id": "9636e25f-5341-459f-92b6-8807ad49c43b",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "4dcd0fbc859ac42d1d3e74f007bedd523dee754b25bc2ea06c4c09613ee55113"
+    },
+    {
+      "id": "02f58cc6-1be5-41bb-8944-308dfaaab705",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "a8b8bbf3590415ba7b7e57d36556b3a651a68cedc728131af0e09eb312470214"
+    },
+    {
+      "id": "1bd045e3-23a2-456f-b42c-1c7935112a66",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "bc9e1e1f3f023a22b73e55de5cde63a27ee81d7dd6d7a940d0bb61afd60c5af9"
+    },
+    {
+      "id": "c5a84cb3-be17-4ae2-bedd-4d5224bd41f4",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "02b958fc1609c1d1dc2d357a0d9183a4799ea3131808cf3bd88807768c74a185"
+    },
+    {
+      "id": "520890fe-bdd2-4553-abed-67d8ffb61daf",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "9bd3551558b96cc028c5e4af7efcdf95f134d7bff7afd98a4f813a88174600c2"
+    },
+    {
+      "id": "6885a46e-0a59-40ca-8e5a-de1e082a1728",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "90a29e3c64cb6fc433e004a6053b23b2546514f059ed7b5c5363db66d9f6380a"
+    },
+    {
+      "id": "956797b7-063f-406a-addd-0b9c916e816c",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "4ae99f13b23bf68ae5fdce3bd19116f4fd554530d37e368727fb49b01b6df75b"
+    },
+    {
+      "id": "f0f68785-0e17-4df9-81ec-0a4c8bf254ee",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "dd55400e68e09b805d73f3422efd76fb2437f8ae504ef638aeb98c820f2da382"
+    },
+    {
+      "id": "8c251fdc-5587-4b96-bd42-579adf9a6b15",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "ff466055ef9439d71afc3d66d394ba4801bd3d6c8561138e54854faa11d9b0fb"
+    },
+    {
+      "id": "d764f831-0245-477d-92b0-7a345652a126",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-74397192-3ac8-41cd-a30e-f2c968a1862c/results.json"
+      ],
+      "hash": "36c5135765c409fc3e98d1744c26c47ca316a6ffdb8930d73dafa9c132abb084"
+    },
+    {
+      "id": "939c84e2-99a5-4c8d-af54-efce0507e56d",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "a2de3600c549f16cbfe5044ea97cccf666b1e9628df7e73be92ee8415741d432"
+    },
+    {
+      "id": "f69262b1-af1b-4b69-8d46-4db1aa7c9425",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "313e15ada63492522154e18be4a969062f3073f9cca68b5e476003b4cde5bb44"
+    },
+    {
+      "id": "8fb591df-f6a4-4fb1-9a94-4011f29e328c",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "1f425be92a5918b6a542f3e6eaf65535705d3047ed7ad3c891951b7852d83fac"
+    },
+    {
+      "id": "80e427d0-c9ce-464f-9ea6-8e87d1bb3e81",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "ba744afb8b80c7ab295f46defb4ede3a19c9b1ca7fb3bd11bd3c51ab90e8ea13"
+    },
+    {
+      "id": "111ad813-1d9d-4ddf-a7ad-629a47452f03",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "118d61a18b39d6d699149eeeacbcec6b82a835cc93e3cd641693424e391bbbe8"
+    },
+    {
+      "id": "6880d4b6-c531-42b1-ac8e-21318616b722",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "bc4609ed807f7c2f984f11dcb1549a005db16765d415ae895c2a0248044cd2f4"
+    },
+    {
+      "id": "f4830fa1-b09e-4333-be5e-3ca44f5863b7",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "c58b820c1701f7b97312c4f503d6ed13b0a7d37124ba45637c624869a9507d7a"
+    },
+    {
+      "id": "b01d8d33-1474-4bad-bb11-156331e302e1",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "ad8a56880e54088955a6fe035992aee1c0b94113cfc5602912fe077fdf59b3b1"
+    },
+    {
+      "id": "1179b464-003e-4112-a080-6516849786fa",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "5006cce16ab2229559a33b3600eede3b3dfc0d915f081acf4e9c2d838dd6ea37"
+    },
+    {
+      "id": "80748717-63c3-4066-a31e-48d09f04dd00",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "594d02ef8345f550ec2a0c574263d780bbad37fd580b5c86381ec24e35c092ff"
+    },
+    {
+      "id": "3bd30388-709a-40de-99e5-ddf3409ed59d",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "e55043d47a974d227ab3c18d3f117eddd2550a9bb8486da1c5efc46ea9996d1d"
+    },
+    {
+      "id": "85a90b67-7ba1-4cbc-8721-3e19e63c2489",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-8e60c367-c7d1-4daf-b803-1bf85f5791f5/results.json"
+      ],
+      "hash": "1da1e4ecd39ee29bb46799609277dec0126b22a9203eab416dc8ef6b3582bd56"
+    },
+    {
+      "id": "4f7d3f99-04a1-485c-8804-ca54f0ab59ab",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9aa9a303-b26a-4052-ba1f-babf5a5147ec/results.json"
+      ],
+      "hash": "fb93bc010e9c64a48da1aefb01eb04643cbc1be31b563001abdc302107941f67"
+    },
+    {
+      "id": "2905cd21-79f4-4705-8817-e69626aad47f",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9aa9a303-b26a-4052-ba1f-babf5a5147ec/results.json"
+      ],
+      "hash": "dda75109e927d3504ae563e55aca06a9de33f514f16628997d5a96e3c543fe34"
+    },
+    {
+      "id": "1043e8eb-c250-4bd7-ace5-409140f1be64",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9aa9a303-b26a-4052-ba1f-babf5a5147ec/results.json"
+      ],
+      "hash": "13dff2feebc0d87f71d1b6c07cbd6f1df49914cf370de20ddfec6e6e8e9ee4ea"
+    },
+    {
+      "id": "c3c2cf43-3614-4463-bce7-2b169b143719",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9aa9a303-b26a-4052-ba1f-babf5a5147ec/results.json"
+      ],
+      "hash": "b103681ada5143443be032effafa4cf119262aa7c76abc0c1a0318cd1be60735"
+    },
+    {
+      "id": "97f38a30-0a9f-4098-a8e7-49df9421a06c",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9aa9a303-b26a-4052-ba1f-babf5a5147ec/results.json"
+      ],
+      "hash": "9fcceb5929e969317551a0c0a0e23202fd9ac1055a5fa471e0fd2dd340ef73fa"
+    },
+    {
+      "id": "a9ed80f0-984d-47e7-8f7e-6b78471fbcd2",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json"
+      ],
+      "hash": "27f744d283273402e87dcbab5940dafa89b10bdf34cc62538e7f5f06457b0eb2"
+    },
+    {
+      "id": "366e9ba7-048c-4ef2-bb40-b0807351b352",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json"
+      ],
+      "hash": "ed3c221b872bca30bc67f6d7ef3545b3a8f6b1a8416e656fbe038ab7530959a1"
+    },
+    {
+      "id": "1d104a4c-70a9-4a1e-b664-b81ebbfda698",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json"
+      ],
+      "hash": "d7df9dc6301fdbea620a86be023b7084ce4667574cfcbc274f7cd294d237bc27"
+    },
+    {
+      "id": "4b454df6-7d53-4ec4-a5ba-86940bb18670",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json"
+      ],
+      "hash": "fd0ddc053c3c52028db775af4b70b5f60cf86db50bc99ead277bb98109c8c28d"
+    },
+    {
+      "id": "98fc0214-96c6-4665-addc-618d1501485f",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/results.json"
+      ],
+      "hash": "ee4d4e930daf01e3178bef26492a5774c0f45bc93734b034cd1af945df70b259"
+    },
+    {
+      "id": "69956e83-2ace-47d8-840e-969b2877b41b",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-aa641258-3a50-446b-b2a5-7a9499c4387c/results.json"
+      ],
+      "hash": "2dd12e4d517d375e09aefe9c640457beec76179b49fa61bd6da3864716cdec12"
+    },
+    {
+      "id": "313ebb20-8269-4f0d-b456-74e3cc916bbf",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-aa641258-3a50-446b-b2a5-7a9499c4387c/results.json"
+      ],
+      "hash": "18a0b76e9ec3d151a02ff1ff8bbc1519a5e24fc4daafa7500d8f756705936606"
+    },
+    {
+      "id": "f6c2b03c-2968-4d88-86ca-c4ac5acea99b",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-aa641258-3a50-446b-b2a5-7a9499c4387c/results.json"
+      ],
+      "hash": "6caed22e92e821a7adcb14e69afc34110631987cce4e64a7a8b0016ad5777be6"
+    },
+    {
+      "id": "c32eaf04-0c0e-4219-81b3-368d3c543f8b",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-aa641258-3a50-446b-b2a5-7a9499c4387c/results.json"
+      ],
+      "hash": "23436933a9b6b43982c5582a1160f64add4cbef85749c6cc15e1cffabab3123f"
+    },
+    {
+      "id": "46d4c250-081e-4d8a-bf5b-89c71362b47a",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-aa641258-3a50-446b-b2a5-7a9499c4387c/results.json"
+      ],
+      "hash": "98a486b0d22344092f28af796633f2d74f839c587dc1dd7fefc3ce92c0ca5aef"
+    },
+    {
+      "id": "35d27d41-8046-479b-91fb-781d266c6052",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-b49ba118-b1a2-4325-a6d4-238bd5b8b889/results.json"
+      ],
+      "hash": "107ac27705e7b3e61685b73972c87d723b282f9274b7f44223fce7ea2207e4d1"
+    },
+    {
+      "id": "c12fe9ba-7711-48de-a60a-3d98e75eb28e",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-b49ba118-b1a2-4325-a6d4-238bd5b8b889/results.json"
+      ],
+      "hash": "723bc872236845949dc2d1add298dbc0fa5accd1a91e5cb1612647e35684aef9"
+    },
+    {
+      "id": "4e8dfcd1-ee9d-40c6-a04d-553429fcf0ca",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-b49ba118-b1a2-4325-a6d4-238bd5b8b889/results.json"
+      ],
+      "hash": "663d18fa4b76775d10bd62b44e5e136335a75ab4339adf0a76305c7190d0859c"
+    },
+    {
+      "id": "39b7a1a9-7da5-49df-8a45-54fef6cd4d34",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-b49ba118-b1a2-4325-a6d4-238bd5b8b889/results.json"
+      ],
+      "hash": "b7a382fe2173976488281833e184a37b636ee99411f5087f7377b0d0237ef7cf"
+    },
+    {
+      "id": "ef8d5f2a-a47f-4484-a1d8-761b92f49b7c",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-b49ba118-b1a2-4325-a6d4-238bd5b8b889/results.json"
+      ],
+      "hash": "50473d03295882acfbdcb2f5253d02d57022516c455e2099830fa43aab5a22da"
+    },
+    {
+      "id": "cce55b9b-3649-4701-a762-a211ec496448",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-c263c9b9-438f-4b85-b233-27471a114061/results.json"
+      ],
+      "hash": "2a1afb73c5ea674b9ccb74c6b8bc414fc19cd951ec6ff1626a57649258fd94b5"
+    },
+    {
+      "id": "fbf1c4ff-d2b1-4336-879e-d721016b4a90",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-c263c9b9-438f-4b85-b233-27471a114061/results.json"
+      ],
+      "hash": "2b50c9c3fca715f6719513994acdea703553187de89dc0f7807a4b541a3a2b3f"
+    },
+    {
+      "id": "050637ab-ea5c-46bb-bf74-6f1bf89928f0",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-c263c9b9-438f-4b85-b233-27471a114061/results.json"
+      ],
+      "hash": "08689f795af62e8691db7aee5da4de92fcc8a6b723e57cd00141f8be86739b88"
+    },
+    {
+      "id": "f868635d-deeb-415e-ba70-a2f5b2027417",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-c263c9b9-438f-4b85-b233-27471a114061/results.json"
+      ],
+      "hash": "67061d7e506afab9edac7c08c4b9824a56ee957aa3fcdc44fde655d8e8f0c3d7"
+    },
+    {
+      "id": "73743d33-6d3c-4099-a5ef-68deb1a3284b",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-c263c9b9-438f-4b85-b233-27471a114061/results.json"
+      ],
+      "hash": "a8bbcecb679c7051b17ee9e1bba11a0b0673d7148a72a2b152b4e10a3b8c3486"
+    },
+    {
+      "id": "1e8cc442-40dd-4b6c-a1c9-a5c6a8a3efac",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "a5a10951fb0fc05d48edbbfff9a109c3d2ecd74b7187b1d4a3122f7b174f1172"
+    },
+    {
+      "id": "ce3ce7f3-6820-4c3e-bbb5-ac8c2f5229b0",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "e4b42e79c1cdc2157a1f1953dd1e480ead8290e942a1b7ae930cffde91861585"
+    },
+    {
+      "id": "ecd6c7a0-3bf1-4bb3-bcd8-78aab931d535",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "97bbd62e6e33abf1429eb3d363b63a4f6dd128efc7a84a8f71d1b01460efdb20"
+    },
+    {
+      "id": "1ebf62d6-28c4-43d7-81e9-14d66bdad5da",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "196d9e361509a2d4e7aaecfb1789be3614b181fc238e5fc0a10862a139b5bfed"
+    },
+    {
+      "id": "77bf1bd6-6f91-4c3b-9614-6bb007461dc3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "8a2c27eea267495d683915405df6d17a58448ad1a26a7c42fd34f835117b2a0d"
+    },
+    {
+      "id": "cca01f74-ceb6-43cc-a672-a9f3beffdc27",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "6417e02c9de4b81b0ba4d9bfb28ce331e78ec4b6abae76ae69afde7801c9507b"
+    },
+    {
+      "id": "4b0b2b29-1b1e-4979-9c26-1ba52ef7fcc0",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "3bff627e08c03ce4c72055f25a28958db4aa3cc959f38b224341cf518468bddc"
+    },
+    {
+      "id": "a42928ec-a1ea-4354-9f02-61d3a41cae24",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "7a48a3724fad5fd8fa056bcc8591f17ade6119fad6b965cfad9d3cb5d09ddd64"
+    },
+    {
+      "id": "af9c4e5f-fa24-4113-88dc-8b56d92ea510",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "cd62529ca8634a68edf41b7ad7328e15f5c420cdb4cff339c10e1f16fb0dec73"
+    },
+    {
+      "id": "ee97d8e4-ea59-444d-a5d8-2c654400cfc9",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "89f1d6b67116236909a0ac8d6680ef379beaa72b2d65e8e706ae12639ef654ef"
+    },
+    {
+      "id": "d0fa935b-7564-41cd-8983-d959b1216d80",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "1b21214da774c5409a8ae2b659790ffc5dc650aa08a521a913417c7a1d84eaeb"
+    },
+    {
+      "id": "0629d2ae-5715-4675-bece-36148d8cc9f5",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json"
+      ],
+      "hash": "59bc84d904ded01215ff7cd7311672ba236da9d9ac13ec89360b52c54ebf0dae"
+    },
+    {
+      "id": "5b05b323-b249-4e18-9463-6ae6588db019",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "5f32896b4b5e4a9dbdc2e48f764b4041534a664d228935f435ae5c5321824d6e"
+    },
+    {
+      "id": "6d975fe1-9079-4863-8756-650fa0e8a0fe",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "7a7e8d9918d92af0cadb2a785bec0f4a18ca3151158799d799efea03cbfc3aaa"
+    },
+    {
+      "id": "ae51854a-31f0-4157-923b-2168e8bf3a57",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "7809adaab4e5cddf5b35e03ac0e49385ba746955d690b00e3f4a58587d563f1f"
+    },
+    {
+      "id": "e39972c2-b4f8-4930-9eec-d93d18fa9e05",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "8b343dff20e307e12bc195892ae17f78804d6465f9b0f3b156459ab157c59f7d"
+    },
+    {
+      "id": "eb210ab5-d1b1-42f0-81cd-cb4ef89090ad",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "f98b7fbbff859642762a5396af5ed9060294d49a443d4b2964c5beaaa6ea1ac6"
+    },
+    {
+      "id": "c39d6e5a-e843-4a04-80b1-78a284f133f9",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "184072ba9b69144426043117c0a54b1d7b9f9f0ca1acbae4be901c4b7151de16"
+    },
+    {
+      "id": "19c57ab4-705e-42bb-b03c-9d2852edf158",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "6d5903bf508c940e5bdb26b1736a10d60b943b4e1fea652bc34c6cb8911d9898"
+    },
+    {
+      "id": "0a06cb20-1e50-4eda-85f2-ca1ab5f37d62",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "7e6349593f5c1667e08f252a7795741fa61d0b7a5b484a23cd5b2d5723b06beb"
+    },
+    {
+      "id": "4aea4a01-134b-48dc-9158-ebd824b47d07",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "f19aea0c228ead96d11cd95f80560573c2b17aed8513a2fe63ac3314020dd8f4"
+    },
+    {
+      "id": "e65109a3-0c54-4293-9796-4c8a9f51219e",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "7a09e2c0a6a0ffd70f94018d0e7af2cda7724466ec2f1ffb198cef12c7474550"
+    },
+    {
+      "id": "3709de85-4644-4beb-acc8-d14b015a542f",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "59f9e6d4d47f978f65422ebfde14892dc0f6b37aa4e415acbd06e5ade4c04954"
+    },
+    {
+      "id": "f4df2640-e614-4cbb-b1a7-c3b4b77aeaa3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f5c2bfdd-706e-4dc5-92d5-4aa5305a11c9/results.json"
+      ],
+      "hash": "afcaead0817725fbe28bdd5842e712c9e85f26d22bfd172d737063405b2720b8"
+    },
+    {
+      "id": "f73df9f4-e863-42e8-9beb-a610dbd2462c",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "462fa098c830dd0d6b6459a0aae702e5d77a4bcd1474d83d4a56afe048c7d172"
+    },
+    {
+      "id": "1d76d5f6-aefb-4c8f-8b7b-130ee30bbb28",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "9d0c62aa7cb6644d59271d388e5ad879e8886330e900ab94e194f9e50a244e9d"
+    },
+    {
+      "id": "e3e18649-c505-4149-8d69-3fdba3bf723f",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "362e7ea5cabcfccb2f0267013f7757f171206b3ae58ee3f4df6971ad9f17401e"
+    },
+    {
+      "id": "93b7de94-63e6-4541-8a9e-583d97da0e89",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "d4c347d77661ca2b35c8029760039d2c77d883a95be54531a2efc915c70ece0e"
+    },
+    {
+      "id": "7317060a-a7ed-456c-af1e-2f154716b8d3",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "6748d0a93b7ab8a14580732e02035403c98f9848a8f5d40ca73c834796b35c7c"
+    },
+    {
+      "id": "8ff09bee-9158-4ebd-be95-742088d80284",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "d6b6f868309b18459537de7756b7b2132208142a2f1e760cce0b4d8c458adaa5"
+    },
+    {
+      "id": "d2642b90-0caa-45c9-8611-f1348793b874",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "af1718c9fc55ced69195412b38b72f1b82732dcfca49d236d226db009778111c"
+    },
+    {
+      "id": "07a50618-40c7-4eff-a974-e3759bf03f39",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "dac5a0f7dc81331c7bf1e75b71a4806c3a2b0b27b151f9509c69ff5dd7e19926"
+    },
+    {
+      "id": "30b63e30-1a45-463e-a4dc-cdc5ba78f4a0",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "755643b3fd69e7bbad512440dc3f0e506b5515501d821e0ef206201f9ce073ca"
+    },
+    {
+      "id": "38251be5-0612-46ab-8874-fe6393497209",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "1691f52c03bfdc52beab1d08de8f40612b5045ce53b44fbe05866a36a37d6634"
+    },
+    {
+      "id": "515b389a-b35c-4e14-b9ce-90b660fe8ec5",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "48d2665c6513ca57f554a9059c3c476bbe98e13892e70b3ecad7016d20c50342"
+    },
+    {
+      "id": "f816ffb6-ab02-4a6f-a346-4f853c6737a6",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json"
+      ],
+      "hash": "8a87b22acb1e381ad9b5a08012834720c3744e7a685b04dbabb553291ed81362"
+    },
+    {
+      "id": "49729f5a-8510-490c-90e1-7432d875619a",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/reference-diagnostic-1fc16d20-dfb5-44c3-a392-f8f540c23d20.json"
+      ],
+      "hash": "366bcc407589f99e8fbe15103fad7d6e38c4cf0366003a871aac5889479813dd"
+    },
+    {
+      "id": "f0180753-ef73-468f-81d7-13e3f9155a93",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/experiments/answers-9b1fe966-7f54-4112-a0e8-51c841d14d50/reference-diagnostic-1fc16d20-dfb5-44c3-a392-f8f540c23d20.json"
+      ],
+      "hash": "f8cb801592f7cf70770efa816f3d97883c84f330a77072323c517a992d3b48a8"
+    },
+    {
+      "id": "7415346e-754a-49ce-946b-bbb1df669464",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/release-quality/feasibility.json"
+      ],
+      "hash": "da17265847e4bdf4c635363e7e9ce46ef77178caf33abbb67a33d497e380b134"
+    },
+    {
+      "id": "61b3b05c-d7b3-4789-95f7-dadbcde54d4d",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/release-quality/feasibility.json"
+      ],
+      "hash": "b35a12e55ac243d1e28693ac8c1407789982e78f50583e5e753faa8e9b423122"
+    },
+    {
+      "id": "e5ce2e40-57f2-4f26-b8b4-e3b9e70610c7",
+      "provider": "ollama",
+      "stage": "generation",
+      "status": "completed",
+      "locations": [
+        "reports/release-browser/llm-record.json"
+      ],
+      "hash": "eb119b8283520bad19ef995fbeb825ce8a2249c0dd14bb6ed93a141702d93c4c"
+    }
+  ],
+  "note": "An unlinked attempt during an active run can be in flight; after termination it requires retained failure evidence. Do not omit it or claim a completed experiment."
+}

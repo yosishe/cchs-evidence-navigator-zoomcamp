@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-06T10:39:22.307933+00:00",
+  "status": "KEEP_ACCOUNTING_CORRECTION",
+  "decision": "KEEP",
+  "official_points": null,
+  "candidate_code_id": "ee971778042a42b337fc52e0cca9af64ee430005ad67fc13ea8d326d19c79e0b",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "changed_dimension": "Completion classification, not prompt, model, budget, labels or quality criteria",
+  "observed_failure": "The ninth preserved pilot call finished with length at 900 tokens, but was treated as a provider outage and stopped the paired run.",
+  "hypothesis": "Retain a length-limited completion as a failed answer and continue the other planned pairs without retrying.",
+  "acceptance": "The response remains an error even if its partial output happens to be valid JSON; usage/raw receipt stay intact; outages still stop.",
+  "evidence": "reports/experiments/answers-73a724cb-ac01-49e1-8937-d0aee751302f/results.json",
+  "validation": {
+    "command": "python -m unittest discover -s tests -p test_claude_remediation.py -q",
+    "tests": 9,
+    "skipped": 0,
+    "exit_code": 0,
+    "live_calls": 0
+  },
+  "course_source": "2024 Ollama/OpenAI adapter; Module 4 comparing all observed outputs. Failure bookkeeping is an original project adaptation.",
+  "tradeoffs": [
+    "Runs can now spend the remaining predeclared local calls after a truncated response; no extra retries or higher token limit.",
+    "Historical raw results are preserved and not relabeled."
+  ],
+  "next_action": "Run both prompt alternatives using this same accounting version."
+}

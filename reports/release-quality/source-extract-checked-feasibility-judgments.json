@@ -1,0 +1,102 @@
+{
+  "status": "COMPLETE_PROVISIONAL_ASSISTANT_REVIEW",
+  "scope": "All 12 questions, actual selected excerpts, task facts/qualifications and exports inspected by the implementing assistant. Candidate identity known; no independent scientific validation.",
+  "created_at": "2026-09-07T01:28:31.342900+00:00",
+  "results_path": "reports/experiments/answers-350bed03-3417-4ec7-957c-7daf6a1dfe92/results.json",
+  "results_hash": "17836118e0fd5dc3ab26864fbed3bc23dc3986920cbac77d05d433cd74a1767e",
+  "runtime_code_id": "55853d7f11faf527e328ad68c4d7846da4eb65ad1814e28ce459c6b7906b04e1",
+  "questions": {
+    "DIR-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present."
+    },
+    "COM-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The selected Italian retrospective-data and guideline published-evidence/clinical-expertise excerpts directly establish both requested methods. Low evidence grade and the original Italian retrospective/heterogeneity caveat are preserved. The added search-strategy-file sentence in limitations is unnecessary context, not a scientific limitation; retain this presentation defect. No pooled or causal claim is generated."
+    },
+    "LIM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Generic mutation classification is presented as the requested qualification of a continuous-ventilation association."
+      ],
+      "reason": "The selected PHOX2B mutation-description excerpt is real but does not address inconsistency or exceptions in the repeat-length/ventilation relationship. This is still a misleading substitution for the requested qualification, despite greater topical proximity than the prior ventilation excerpts."
+    },
+    "LIM-02": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [
+        "covered"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The original Italian limitations sentence itself states retrospective design and sample/population heterogeneity. It answers the study-label question by showing the reported actual design and its limitation; it does not invent a universal causal-evidence rule."
+    },
+    "ABS-02": {
+      "relevance": "not_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The true Italian retrospective-cohort excerpt supplies no transcriptomic accession. This incorrect answered response fails abstention and usefulness, even though no accession or dataset metadata was fabricated."
+    }
+  },
+  "record_hashes": {
+    "DIR-01": "ea981bbef462e8869e0809307546c7e9fef753dec8486a9b47213d5d33689e3e",
+    "COM-01": "9c4fa89812b93ede2ce863be9a26142578009596145c6ecc56abf51e9068d013",
+    "LIM-01": "0f66ff329a677a6a3bab1bbe1f3e9dbabf308f1ac7b9a56b82be2da4c66b3d96",
+    "LIM-02": "fcc1e3814bbf44b5f5a3651e023a8aac4d3d57a0979d35348639f0066d971bb6",
+    "ABS-02": "681dffd31c2934df0ab912e86e2cace73789215aa306d40ffc7af8f21398286e"
+  }
+}

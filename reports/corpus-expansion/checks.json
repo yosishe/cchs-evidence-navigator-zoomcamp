@@ -1,0 +1,185 @@
+{
+  "status": "EXECUTED_RETRIEVAL_DIAGNOSTICS_NOT_QUALITY_SELECTED",
+  "created_at": "2026-09-07T16:00:17.284156+00:00",
+  "baseline_corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "candidate_corpus_id": "51ba5652e876225b17ba1407fe5d848ade67b38c71c0e3fab3d7aadebed6806a",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "comparison_config_id": "3cd25866babafc627feb22d2e206bd0babedd2b5024801eff46645382dfc032e",
+  "active_config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "baseline_rows_preserved": 377,
+  "candidate_rows": 1212,
+  "per_source_chunks": {
+    "PMC10226304": 34,
+    "PMC10362500": 65,
+    "PMC10557475": 197,
+    "PMC10897158": 123,
+    "PMC11168103": 80,
+    "PMC11927375": 56,
+    "PMC12004424": 40,
+    "PMC13080240": 55,
+    "PMC4503865": 51,
+    "PMC7503443": 226,
+    "PMC7835644": 116,
+    "PMC8039127": 62,
+    "PMC8963195": 89,
+    "PMID20208042": 6,
+    "PMID36289132": 5,
+    "PMID40610826": 5,
+    "PMID40816914": 2
+  },
+  "source_span_validation_count": 1212,
+  "question_bank_guards": {
+    "old_bank": "ValueError",
+    "missing_new_bank": "FileNotFoundError"
+  },
+  "excluded_old_unanswerable_development_ids": [
+    "ABS-01",
+    "ABS-02",
+    "ABS-03",
+    "ABS-04",
+    "ABS-05",
+    "ABS-06",
+    "ABS-07"
+  ],
+  "old_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "source_probe_hash": "8794d6c1cd53e4b61262662ae8d3877b5e5e30da704832372927a11cb288eac5",
+  "llm_generation_requests": 0,
+  "paid_requests": 0,
+  "new_downloads_for_inference": 0,
+  "promotion_performed": false,
+  "quality_selected": false,
+  "limitations": [
+    "Old answerable source anchors are not exhaustive gold labels for an expanded corpus.",
+    "New probes are source-authored development smoke checks, not blind or independent quality labels.",
+    "Four new publications have abstract-only coverage; tables and figures remain excluded.",
+    "Timing is local CPU diagnostics with the existing idle Compose stack, not an isolated performance benchmark.",
+    "No final-test inference, answer generation, scientific approval or candidate browser/Compose certification."
+  ],
+  "retrieval": {
+    "baseline": {
+      "lexical": {
+        "denominator": 35,
+        "hit_at_5": 0.4,
+        "mrr_at_5": 0.2880952380952381
+      },
+      "vector": {
+        "denominator": 35,
+        "hit_at_5": 0.6,
+        "mrr_at_5": 0.4695238095238095
+      },
+      "hybrid": {
+        "denominator": 35,
+        "hit_at_5": 0.5714285714285714,
+        "mrr_at_5": 0.34523809523809523
+      }
+    },
+    "expanded": {
+      "lexical": {
+        "denominator": 35,
+        "hit_at_5": 0.3142857142857143,
+        "mrr_at_5": 0.1761904761904762
+      },
+      "vector": {
+        "denominator": 35,
+        "hit_at_5": 0.4857142857142857,
+        "mrr_at_5": 0.3504761904761905
+      },
+      "hybrid": {
+        "denominator": 35,
+        "hit_at_5": 0.5714285714285714,
+        "mrr_at_5": 0.3385714285714286
+      }
+    }
+  },
+  "new_source_probes": {
+    "lexical": {
+      "denominator": 14,
+      "source_hits": 13,
+      "passage_hits": 9
+    },
+    "vector": {
+      "denominator": 14,
+      "source_hits": 12,
+      "passage_hits": 5
+    },
+    "hybrid": {
+      "denominator": 14,
+      "source_hits": 14,
+      "passage_hits": 7
+    }
+  },
+  "tokenizer_truncation": {
+    "baseline": 0,
+    "candidate": 17,
+    "maximum_input_tokens": 321,
+    "model_max_sequence_length": 256,
+    "per_source": {
+      "PMC10362500": 4,
+      "PMC10897158": 6,
+      "PMC11168103": 6,
+      "PMC4503865": 1
+    }
+  },
+  "posthoc_larger_context": {
+    "vector": {
+      "top_k": 10,
+      "old_reference_hits": 19,
+      "old_denominator": 35,
+      "old_mrr": 0.3581292517006803,
+      "new_source_hits": 13,
+      "new_reference_hits": 7,
+      "new_denominator": 14
+    },
+    "hybrid": {
+      "top_k": 10,
+      "old_reference_hits": 22,
+      "old_denominator": 35,
+      "old_mrr": 0.34650793650793654,
+      "new_source_hits": 14,
+      "new_reference_hits": 11,
+      "new_denominator": 14
+    }
+  },
+  "source_scope_diagnostic": {
+    "questions": [
+      "PAR-03",
+      "EXA-05",
+      "EXA-06"
+    ],
+    "methods": [
+      "lexical",
+      "vector",
+      "hybrid"
+    ],
+    "successful_reference_retrievals": 9,
+    "runs": 9,
+    "meaning": "Simulated explicit user paper choice; no automatic source router implemented; selected development failures, not an unbiased benchmark."
+  },
+  "diagnosed_losses": [
+    {
+      "question_id": "PAR-03",
+      "finding": "New caregiver-burden passages outranked the requested Italian-center evidence. Explicit source filter recovered its old anchor."
+    },
+    {
+      "question_id": "EXA-05",
+      "finding": "RET/ECE1 query retrieved a RETT-syndrome passage. Identifier and requested-source distinctions matter; a guideline filter recovered the anchor."
+    },
+    {
+      "question_id": "EXA-06",
+      "finding": "Related repeat-count information appeared in a review, but the question requested the guideline. This is an attribution/scope loss against incomplete old references, not proof all retrieved facts were false."
+    },
+    {
+      "question_id": "COM-06",
+      "finding": "Molecular-method passages displaced the old comparison anchors. Multi-source context and incomplete labels need review; no automatic repair was applied."
+    }
+  ],
+  "rerun_ingestion": {
+    "status": "PASS_IDENTICAL_CONTENT_ON_REINGESTION",
+    "runs": 2,
+    "source_count": 17,
+    "window_count": 1212,
+    "documents_sha256": "e719ef6940010f28e3a6adfd8c20a9bf01080e94d5aacdb5d725ef81401b3ea8",
+    "meaning": "Local dlt replace twice; not a new Compose restart result."
+  },
+  "release_decision": "KEEP_ACTIVE_THREE_PAPER_VERSION; resolve extraction, truncation, reference labels, retrieval losses and useful model answers before promotion."
+}

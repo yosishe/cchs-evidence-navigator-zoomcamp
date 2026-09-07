@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-09-06T14:48:25.942824+00:00",
+  "status": "EXECUTED_REVIEWED",
+  "decision": "REJECT",
+  "official_points": null,
+  "previous_goal_turn_classification": "NO_PROGRESS toward project acceptance; file-opening problem was resolved and verified in TextEdit. No experiment was running.",
+  "changed_dimension": "Generation response_format only: fixed JSON schema instead of generic json_object. Prompts, model, context, output budget, evaluator and active default preserved.",
+  "baseline_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json",
+  "baseline_hash": "218462df7866e90312af3c959238d93ad789c0ee7d0f70ff374ef0513e53a0a2",
+  "baseline_runtime_code_id": "aec7fed7035ba48093c0f17f865e5be36a34f2c4c3247d61473da8face2f7f05",
+  "active_config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "model": {
+    "provider": "ollama",
+    "model": "phi3",
+    "resolved_model": "phi3:latest",
+    "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+    "size_bytes": 2176178913,
+    "endpoint": "http://localhost:11434/"
+  },
+  "question_ids": [
+    "DIR-02",
+    "PAR-01",
+    "ABS-01"
+  ],
+  "prompts": [
+    "evidence_first",
+    "schema_first"
+  ],
+  "planned_model_calls": 6,
+  "fresh_retrieval_queries": 0,
+  "reused_baseline_calls": 6,
+  "config_change": {
+    "generation_json_schema": true
+  },
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "course_sources": [
+    "04-evaluation/lessons/02-ground-truth.md:90-165",
+    "04-evaluation/code/evaluation_utils.py:32-44"
+  ],
+  "provider_source": "https://docs.ollama.com/capabilities/structured-outputs",
+  "adaptation": "Course implements Pydantic with Responses.parse. Our compatibility adaptation maps the existing answer contract to a fixed JSON schema through local Chat Completions response_format. No new library, dynamic reference answers, evidence ID enum, quote repair or loosened validator.",
+  "hypothesis": "Required typed fields reduce the observed missing-field failures without needing a more verbose prompt. Schema cannot guarantee semantic support or completeness.",
+  "acceptance": "At least one prompt must give complete supported answers to both answerable questions and a correct corpus-bound nonanswer for ABS-01, with valid sources, no unsupported visible prose or misleading exports. No new critical failures. A passing pilot only justifies full paired development, not promotion or points.",
+  "alternatives_and_tradeoffs": [
+    {
+      "option": "Keep generic JSON mode",
+      "decision": "Baseline retained in actual app",
+      "tradeoff": "Less constrained generation but observed omitted fields."
+    },
+    {
+      "option": "Fixed schema for generation only",
+      "decision": "Six-call isolated pilot",
+      "tradeoff": "Can require shape while still producing false claims, copied placeholders or truncation. Unsupported schemas must fail visibly with no fallback."
+    },
+    {
+      "option": "Pydantic model plus new direct dependency",
+      "decision": "Not required for fixed existing contract in this isolated compatibility change",
+      "tradeoff": "More declarative typing but dependency/lock churn unnecessary; the current strict validator remains authoritative."
+    },
+    {
+      "option": "Dynamic ID/quote constraints or prompt/model change",
+      "decision": "Deferred to independent experiments",
+      "tradeoff": "Might help source identity but would confound this field-shape test."
+    }
+  ],
+  "heldout_exposure": "Only three existing development questions used; final bank hashes checked, no blind/unseen claim and no final inference.",
+  "implementation_evidence": "reports/goal-loop/schema-answer-027",
+  "attempted_calls": 6,
+  "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+  "result_path": "reports/experiments/answers-760b413c-69a7-4d62-ae94-f41098570e78/results.json",
+  "review_path": "reports/experiments/answers-760b413c-69a7-4d62-ae94-f41098570e78/reviews.json",
+  "whole_review_path": "reports/experiments/answers-760b413c-69a7-4d62-ae94-f41098570e78/whole-answer-review.json",
+  "comparison_path": "reports/goal-loop/schema-answer-027/comparison.json",
+  "next_action": "Test schema on all eight saved iteration026 contexts where seven baseline outputs actually omitted top-level fields; preserve both retrieval policies and messages. No promotion from structural validity alone."
+}

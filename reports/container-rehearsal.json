@@ -1,0 +1,403 @@
+{
+  "created_at": "2026-09-07T10:32:59.893332+00:00",
+  "status": "INSTALLATION_AND_STACK_EXECUTED_FUNCTIONAL_REHEARSAL_PARTIAL",
+  "authorization": "Owner explicitly requested official Apple-silicon Docker Desktop installation and this project Compose rehearsal on 2026-09-07, including necessary image/dependency/encoder/configured-model setup.",
+  "resource_limits": {
+    "vm_memory_gib_max": 14,
+    "initial_vm_memory_gib": 10,
+    "cpus_max": 6,
+    "new_container_data_gib_max": 20,
+    "installer_and_app_files_additional": true,
+    "threshold_type": "Owner operational bounds, not measured model requirements or course thresholds"
+  },
+  "host_preflight": {
+    "architecture": "arm64",
+    "memory_bytes": 25769803776,
+    "cpus": 8,
+    "free_disk_bytes": 36482654208,
+    "memory_pressure_free_percent": 49,
+    "docker_present": false,
+    "native_comparison_process_observed": false
+  },
+  "installer": {
+    "version": "4.90.0",
+    "build": "238679",
+    "url": "https://desktop.docker.com/mac/main/arm64/238679/Docker.dmg",
+    "checksum_url": "https://desktop.docker.com/mac/main/arm64/238679/checksums.txt",
+    "expected_sha256": "c131ee28ef56248d4abee2268c05235b19216b015ddf632727cef1b95a6f995c",
+    "expected_bytes": 582430056,
+    "download_verified": true,
+    "signature_verified": true,
+    "notarization_verified": true,
+    "actual_sha256": "c131ee28ef56248d4abee2268c05235b19216b015ddf632727cef1b95a6f995c",
+    "download_bytes": 582430056,
+    "signer": "Docker Inc (9BNSXJN65R)",
+    "read_only_mount_detached": true
+  },
+  "configuration": {
+    "sha256": "23db0695f936f9742865b1726da3e766025cc91974fd028e85f6e9fcb0aa47cf",
+    "model": "phi3",
+    "generation_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+    "quality_selection_changed": false,
+    "paid_llm_enabled": false
+  },
+  "compose_preflight": "Static coherence confirmed, followed by actual build/start and restart. Final Compose syntax also passed after disabling optional Ollama cloud features.",
+  "environment": {
+    "private_env_created": true,
+    "git_ignored": true,
+    "file_mode": "0600",
+    "password_value_recorded": false,
+    "qa_traffic": true,
+    "loopback_port": 57894,
+    "compose_project_name": "cchs-zoomcamp-rehearsal"
+  },
+  "verification": {
+    "full_build": true,
+    "full_startup": true,
+    "actual_container_model_response": true,
+    "browser_downloads": true,
+    "postgres_answer_feedback": true,
+    "restart_persistence": true,
+    "dlt_ingestion": true,
+    "installed_dependency_consistency": true,
+    "non_root_image": true,
+    "source_and_config_identity": true,
+    "private_env_and_history_excluded_from_image": true,
+    "encoder_preparation": true,
+    "software_suite": true,
+    "successful_answerable_generation": false,
+    "complete_functional_rehearsal": false,
+    "qa_monitoring": true,
+    "cloud_features_disabled": true,
+    "model_blob_checksums": true
+  },
+  "official_points": null,
+  "scope_exclusions": [
+    "paid service",
+    "cloud deployment",
+    "Kubernetes",
+    "login-startup item",
+    "model-provider account",
+    "unrelated applications/files",
+    "native-model comparison overlap"
+  ],
+  "evidence_scope": "Verified official installation, fresh locked ARM64 image build, fresh encoder/model setup, 172 software checks, real browser requests/downloads and PostgreSQL persistence. Two answerable requests timed out; one no-evidence request returned a valid abstention. Complete useful-answer and selected-release acceptance remain unproved.",
+  "updated_at": "2026-09-07T13:35:14.775782+00:00",
+  "desktop": {
+    "version": "4.90.0",
+    "engine_version": "29.7.2",
+    "cpus_observed": 6,
+    "vm_memory_setting_mib": 10240,
+    "engine_memory_bytes": 10417176576,
+    "active_disk_capacity_bytes": 21474836480,
+    "autostart": false,
+    "kubernetes": false,
+    "docker_model_runner": false,
+    "docker_ai": false,
+    "account_required": false,
+    "route_observed": "Personal",
+    "owner_password_prompt_observed": false,
+    "original_empty_disk_retained": true,
+    "macos_docker_background_activity": "Disabled through System Settings; off state observed",
+    "open_at_login": "Docker absent from Open at Login list; AutoStart false",
+    "login_helper_note": "Docker installed a registered helper despite AutoStart false. Only its macOS background permission was turned off; other application settings were preserved."
+  },
+  "setup_deviation": {
+    "description": "A backend help probe and subsequent initial UI launch started the empty engine using Docker defaults of eight CPUs and 8192 MiB. The engine was stopped before any project images or model setup. Limits were then applied and runtime-verified.",
+    "project_work_over_limit": false,
+    "corrected": true
+  },
+  "build": {
+    "exit_code": 0,
+    "duration_seconds": 547.71,
+    "resource_guard_triggered": false,
+    "sampled_peak_new_container_disk_bytes": 9471930368,
+    "sampled_min_host_free_bytes": 15413964800,
+    "peak_note": "Largest recorded sample, not a continuous measurement of peak usage. Sparse-disk allocation can decrease after discarded build data is reclaimed.",
+    "images": [
+      {
+        "service": "app",
+        "tag": "cchs-zoomcamp-rehearsal-app:latest",
+        "id": "sha256:36b4317bd930a74811408c225d0369644010b919840e3d0c3620ab91ac5c8c86",
+        "repo_digests": [
+          "cchs-zoomcamp-rehearsal-app@sha256:36b4317bd930a74811408c225d0369644010b919840e3d0c3620ab91ac5c8c86"
+        ],
+        "architecture": "arm64",
+        "os": "linux",
+        "size_bytes": 545283578,
+        "created": "2026-09-07T11:09:41.225235959Z"
+      },
+      {
+        "service": "ingest",
+        "tag": "cchs-zoomcamp-rehearsal-ingest:latest",
+        "id": "sha256:488f34fe4f455350c2fb50d446b7a2409c0d7bdeb4d6d704002094130b479c5e",
+        "repo_digests": [
+          "cchs-zoomcamp-rehearsal-ingest@sha256:488f34fe4f455350c2fb50d446b7a2409c0d7bdeb4d6d704002094130b479c5e"
+        ],
+        "architecture": "arm64",
+        "os": "linux",
+        "size_bytes": 545283581,
+        "created": "2026-09-07T11:09:41.225235959Z"
+      },
+      {
+        "service": "encoder-init",
+        "tag": "cchs-zoomcamp-rehearsal-encoder-init:latest",
+        "id": "sha256:d753f1a26136257c802a13b4b751d80bf9895ddfc4128e02e812bba5b537db10",
+        "repo_digests": [
+          "cchs-zoomcamp-rehearsal-encoder-init@sha256:d753f1a26136257c802a13b4b751d80bf9895ddfc4128e02e812bba5b537db10"
+        ],
+        "architecture": "arm64",
+        "os": "linux",
+        "size_bytes": 545283587,
+        "created": "2026-09-07T11:09:41.225235959Z"
+      },
+      {
+        "service": "model-init",
+        "tag": "cchs-zoomcamp-rehearsal-model-init:latest",
+        "id": "sha256:ea719b63b51b235f323b285ab4c331f83b5314d5de1a5224c01f7ea49e13adf3",
+        "repo_digests": [
+          "cchs-zoomcamp-rehearsal-model-init@sha256:ea719b63b51b235f323b285ab4c331f83b5314d5de1a5224c01f7ea49e13adf3"
+        ],
+        "architecture": "arm64",
+        "os": "linux",
+        "size_bytes": 545283585,
+        "created": "2026-09-07T11:09:41.225235959Z"
+      }
+    ]
+  },
+  "ingestion": {
+    "source_count": 3,
+    "chunk_count": 377,
+    "excluded_passage_count": 390,
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "documents_sha256": "b4ab1c1285763c4ad88ddb0bc6d052b129539f1fae5d1d218becf3a71da9a9ed",
+    "load_ids": [
+      "1788783507.1092672"
+    ],
+    "seconds": 5.648968794000211,
+    "status": "EXECUTED"
+  },
+  "initial_service_states": [
+    {
+      "Service": "app",
+      "Name": "cchs-zoomcamp-rehearsal-app-1",
+      "State": "created",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-app"
+    },
+    {
+      "Service": "db",
+      "Name": "cchs-zoomcamp-rehearsal-db-1",
+      "State": "running",
+      "Health": "healthy",
+      "ExitCode": 0,
+      "Image": "postgres:17.6@sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929"
+    },
+    {
+      "Service": "encoder-init",
+      "Name": "cchs-zoomcamp-rehearsal-encoder-init-1",
+      "State": "running",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-encoder-init"
+    },
+    {
+      "Service": "ingest",
+      "Name": "cchs-zoomcamp-rehearsal-ingest-1",
+      "State": "exited",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-ingest"
+    },
+    {
+      "Service": "model-init",
+      "Name": "cchs-zoomcamp-rehearsal-model-init-1",
+      "State": "running",
+      "Health": "",
+      "ExitCode": 0,
+      "Image": "cchs-zoomcamp-rehearsal-model-init"
+    },
+    {
+      "Service": "ollama",
+      "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+      "State": "running",
+      "Health": "healthy",
+      "ExitCode": 0,
+      "Image": "ollama/ollama:0.31.1@sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc"
+    }
+  ],
+  "resource_observations": {
+    "initialization_container_stats": "container-runtime/initialization-container-stats.jsonl",
+    "native_activity_check": "Native Ollama API reported no loaded models; known comparison-command screen found none. No native inference was invoked."
+  },
+  "image_integrity_evidence": "container-runtime/container-image-integrity.json",
+  "software_checks": {
+    "path": "container-runtime/software-checks.json",
+    "passed": 172,
+    "skipped": 0,
+    "environment": "Freshly built Linux ARM64 image, locked dependencies and newly downloaded pinned encoder; mocked generation and isolated JSONL test storage",
+    "docker_available_field_note": "This field checks for the Docker CLI inside the application image; false does not mean the host engine is unavailable.",
+    "launcher_history": "The first command used an unsupported --no-build flag and exited before tests. The corrected command used the existing image with --pull never; the actual suite passed."
+  },
+  "encoder": {
+    "status": "ENCODER_READY",
+    "started_at": "2026-09-07T12:18:28.871397+00:00",
+    "completed_at": "2026-09-07T12:26:30.367991+00:00",
+    "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+    "embedding": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "requested_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "resolved_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+      "dimensions": 384,
+      "normalization": "L2",
+      "max_sequence_length": 256,
+      "truncated_input_count": 0,
+      "input_count": 377,
+      "device": "cpu",
+      "text_template": "title_content",
+      "allow_download": true,
+      "cache_directory": "/app/runtime/models",
+      "vectors_persisted": false
+    }
+  },
+  "startup": {
+    "exit_code": 0,
+    "seconds": 5988.33,
+    "resource_guard_triggered": false,
+    "evidence": "container-runtime/compose-up-result.json"
+  },
+  "model": {
+    "model": "phi3",
+    "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+    "endpoint": "http://ollama:11434/",
+    "provider": "ollama",
+    "size_bytes": 2176178913,
+    "resolved_model": "phi3:latest",
+    "actual_loaded_context": 4096,
+    "architectural_context_capacity": 131072,
+    "size_vram_observed": 0,
+    "blob_hashes_verified": true,
+    "config_digest_field_present": false,
+    "note": "Tag resolved and actual files verified; bind the digest in a later selected release. No change to the candidate generation configuration."
+  },
+  "browser": {
+    "evidence": "container-runtime/browser-flow.json",
+    "actual_attempts": 3,
+    "timeouts": 2,
+    "valid_abstentions": 1,
+    "successful_answerable_responses": 0,
+    "downloaded_exports": 6,
+    "downloaded_export_bytes": 102087,
+    "qa_feedback_rows": 3,
+    "pre_restart_answers_and_feedback_retained": true
+  },
+  "resources": {
+    "evidence": "container-runtime/resource-summary.json",
+    "sampled_peak_container_disk_bytes": 14772899840,
+    "sampled_min_host_free_bytes": 11283341312,
+    "last_disk_allocated_bytes": 14767337472,
+    "last_host_free_bytes": 12848226304,
+    "guest_sampled_peak_used_bytes": 6136156160,
+    "all_project_samples_within_bounds": true
+  },
+  "cloud_features": {
+    "initial_observation": "Startup attempted optional cloud metadata refresh; no cloud inference, provider account or paid fallback was used.",
+    "correction": "OLLAMA_NO_CLOUD=1 in Compose",
+    "official_reference": "https://docs.ollama.com/faq#how-do-i-disable-ollama-cloud-features",
+    "verification": "container-runtime/local-only-checks.json",
+    "scope": "Application cloud-feature setting, not a claim of network-level egress isolation."
+  },
+  "current_service_states": [
+    {
+      "ExitCode": 0,
+      "Health": "healthy",
+      "ID": "f55a7a138f56",
+      "Image": "cchs-zoomcamp-rehearsal-app",
+      "Name": "cchs-zoomcamp-rehearsal-app-1",
+      "Service": "app",
+      "State": "running"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "a3edd4891609",
+      "Image": "cchs-zoomcamp-rehearsal-ingest",
+      "Name": "cchs-zoomcamp-rehearsal-checks",
+      "Service": "ingest",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "healthy",
+      "ID": "87496ca7a7d3",
+      "Image": "postgres:17.6@sha256:00bc86618629af00d2937fdc5a5d63db3ff8450acf52f0636ec813c7f4902929",
+      "Name": "cchs-zoomcamp-rehearsal-db-1",
+      "Service": "db",
+      "State": "running"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "a49bb3831706",
+      "Image": "cchs-zoomcamp-rehearsal-encoder-init",
+      "Name": "cchs-zoomcamp-rehearsal-encoder-init-1",
+      "Service": "encoder-init",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "f86db05d1c57",
+      "Image": "cchs-zoomcamp-rehearsal-ingest",
+      "Name": "cchs-zoomcamp-rehearsal-ingest-1",
+      "Service": "ingest",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "",
+      "ID": "7cedf59c4dc2",
+      "Image": "cchs-zoomcamp-rehearsal-model-init",
+      "Name": "cchs-zoomcamp-rehearsal-model-init-1",
+      "Service": "model-init",
+      "State": "exited"
+    },
+    {
+      "ExitCode": 0,
+      "Health": "healthy",
+      "ID": "147a2274a751",
+      "Image": "ollama/ollama:0.31.1@sha256:f1a705f2bd113fb8d15f85f7c217f0dc5f6bebda6b0cc42b82c3ad165ffcb9dc",
+      "Name": "cchs-zoomcamp-rehearsal-ollama-1",
+      "Service": "ollama",
+      "State": "running"
+    }
+  ],
+  "final_compose_sha256": "8e6c01fc8a877f5a9e0971825c73ae4b9b57af3495284275fb243783b834d7e8",
+  "remaining_gates": [
+    "Useful source-supported answer within a declared measured operating contract",
+    "Complete claim/tag browser exports for a valid generated answer on the selected container configuration",
+    "Generation quality selection and full development/final evaluation under the unchanged contract",
+    "Reviewed publication, anonymous exact-commit access and reproduction, and separate course submission"
+  ],
+  "download_accounting": {
+    "export_download_bytes_exact": 102087,
+    "setup_network_transfer_bytes": null,
+    "note": "Prepared file bytes and compressed image-layer descriptors are recorded separately from network transfer. Full setup network-wire bytes were not captured; container NetIO is cumulative and includes other traffic. Browser export bytes have independent actual download receipts."
+  },
+  "handover": {
+    "local_url": "http://127.0.0.1:57894/",
+    "stack_state": "Running and healthy; manually started; no login autostart",
+    "guidance": "docs/setup.md",
+    "commit_push_publication_submission": "Not performed"
+  },
+  "acceptance_audits": {
+    "links": "release-migration/link-audit.json",
+    "package": "release-migration/public-package-audit.json",
+    "protected_inputs": "release-migration/protected-input-recheck.json",
+    "private_predecessor": "release-migration/original-source-recheck.json",
+    "software": "container-runtime/software-checks.json",
+    "validation_scope": "172 container software tests preceded the isolated Ollama cloud-flag change; final Compose syntax, live setting, logs, service health, model identity and record retention were then checked without additional inference."
+  }
+}

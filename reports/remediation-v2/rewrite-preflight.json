@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED_MODEL_PREFLIGHT",
+  "created_at": "2026-09-05T22:49:39.015524+00:00",
+  "split": "tuning",
+  "rows": [],
+  "run_directory": "reports/experiments/rewrite-8b4045e5-d82e-4bd1-bd5e-c9a093884116",
+  "enabled_in_runtime": false,
+  "error_type": "RuntimeError"
+}

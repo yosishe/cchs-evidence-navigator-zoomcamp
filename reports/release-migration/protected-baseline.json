@@ -1,0 +1,18 @@
+{
+  "created_at": "2026-09-06T22:04:18.045672+00:00",
+  "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+  "files": {
+    "configs/app.json": "23db0695f936f9742865b1726da3e766025cc91974fd028e85f6e9fcb0aa47cf",
+    "data/manifest.json": "5cb22c98c9565e8c0af3c80e186eb4b1b0466f367fe2bd1c1f9dcdd5f002c732",
+    "data/evaluation/questions.json": "17453afccfca77194a334fd2a64f60a242c948ae4a0bd5405967e91eeeff5da6",
+    "data/evaluation/questions-v2.json": "5137692ff65c370c67bf2f1df7e38d9f96b6c0bd5485477bad4ebb9d0133fdee",
+    "data/raw/PMC7503443.json": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+    "data/raw/PMC8039127.json": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+    "data/raw/PMC8963195.json": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+    "docs/goal-loop.md": "434e8a2947f13c4085812c4c60895ead42279bb62b98f3d0a62e9f52e0c41831",
+    "docs/evaluation.md": "be820f11586590bcdcc6915ed40ab42724b24e14474766fc85370aad869748fd"
+  },
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "final_set_exposure": "Bank has been read/validated previously; no final-set inference or candidate tuning. Not a blind scientific test.",
+  "official_points": null
+}

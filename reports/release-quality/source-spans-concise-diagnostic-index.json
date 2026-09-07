@@ -1,0 +1,45 @@
+{
+  "status": "EXECUTED_AWAITING_AGENT_REVIEW",
+  "created_at": "2026-09-07T00:08:56.594433+00:00",
+  "plan_hash": "6c7179c21d0fd363da8a527e70f1ab481678c8c15552da47114e1a7f7de6084c",
+  "arms": [
+    {
+      "arm": "source-spans-concise-diagnostic",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-aa641258-3a50-446b-b2a5-7a9499c4387c/results.json",
+      "actual_attempts": 5,
+      "after": {
+        "observed_at": "2026-09-07T00:15:01.639303+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "gemma3:12b",
+              "model": "gemma3:12b",
+              "size": 7809332673,
+              "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma3",
+                "families": [
+                  "gemma3"
+                ],
+                "parameter_size": "12.2B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-09-07T03:20:01.522625+03:00",
+              "size_vram": 7809332673,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "actual_attempts": 5,
+  "planned_attempts": 5
+}

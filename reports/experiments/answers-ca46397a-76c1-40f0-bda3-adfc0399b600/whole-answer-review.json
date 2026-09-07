@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex provisional source-based review, iteration 028; not independent or human validation",
+  "reviewer_kind": "assistant",
+  "results_hash": "29ba245a4014708cf88a5a1115c48e691545c2a60007fac95a635f7d090d7f40",
+  "reviews": [
+    {
+      "answer_id": "37fb4a98-f470-4d99-92db-a80bd4525558",
+      "record_hash": "f28aa158b0bd9d5a0390ba5af5ccb45c6e15054b6a00bb12392c7b198a248c24",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "Canonical error is accurate and has no claims/exports. The raw first claim contains both aims from Italian passage 17, but uses a full source-version identity instead of its passage ID and adds a comma to exact_quote. The second changes The study to Our study and repeats the invalid ID. These raw fragments remain blocked and do not earn complete-answer credit. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    },
+    {
+      "answer_id": "be3f0b16-329c-47a2-9c97-ce57a7f98bfa",
+      "record_hash": "ea3c5f749d600b8b52e56c1cbcff30ed8afcebc4d5704ed5b307f7b95703f926",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Visible denial of retrospective-record evidence"
+      ],
+      "acceptable": false,
+      "reason": "Italian passages 19/68 state retrospective design and passage 21 states electronic medical-record review. The visible refusal denies these specific design facts, although both are present. No correct answer is delivered. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    },
+    {
+      "answer_id": "55e2d97e-b858-4090-9db1-2e9fa5ec3a17",
+      "record_hash": "181e5361400ad50f76f6c681b01a366a63a01a827081ca2ebb23dbb69063c3e2",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The supplied sources do not literally compare themselves, so the narrow statement about no explicit cross-study discussion is supportable. However Italian passages 2/19/21 and guideline 13 supply the two methods that the application should compare. The refusal is incomplete and not useful; no unsupported comparison is credited or invented. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    },
+    {
+      "answer_id": "d12dd7f6-6bdc-4d9a-956b-e6fd79642cb8",
+      "record_hash": "333cfe93adb14304d72239d0a9496e0e5dae964a892fef1741b02409e0be88a2",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Unsupported intervention premise in visible limitations"
+      ],
+      "acceptable": false,
+      "reason": "The nonanswer says a randomized intervention was reported in the Italian 2021 study, which is not established by any provided passage. The corpus-bound lack of measured results does not license that presupposition. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed."
+    }
+  ]
+}

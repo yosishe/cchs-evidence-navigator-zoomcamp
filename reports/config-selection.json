@@ -1,0 +1,93 @@
+{
+  "status": "SELECTED_ON_PROVISIONAL_V2_TUNING_LABELS",
+  "selected_config": {
+    "retrieval": "vector",
+    "top_k": 5,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 2.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "phi3",
+    "prompt": "evidence_first",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 120,
+    "rewrite_enabled": false,
+    "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+    "question_bank": "data/evaluation/questions-v2.json"
+  },
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "selection_evidence": "reports/remediation-v2/retrieval-comparison-v2.json",
+  "generation_selection": "NOT_EXECUTED",
+  "previous_selection_historical": {
+    "created_at": "2026-09-05T17:50:34.348077+00:00",
+    "status": "PROVISIONAL_ENGINEERING_SELECTION",
+    "config_id": "b7b7e0e80c62cc1d72c7e1aaacbb14dc959b4dff58e07cb40a20be088a88cdbb",
+    "config": {
+      "retrieval": "hybrid",
+      "top_k": 5,
+      "candidate_k": 20,
+      "rrf_k": 50,
+      "boosts": {
+        "title": 2.0,
+        "section": 1.0,
+        "content": 1.0
+      },
+      "model": "gpt-5.4-mini",
+      "prompt": "evidence_first",
+      "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "max_output_tokens": 900,
+      "chunk_chars": 1000,
+      "overlap_chars": 150,
+      "selection_status": "SELECTED_ON_PROVISIONAL_TUNING_LABELS",
+      "embedding_text": "title_content",
+      "embedding_device": "cpu"
+    },
+    "objective": "At the fixed top-5 cutoff, prefer greater Hit@5, then higher MRR among the measured development alternatives; report resource tradeoffs. No final-test access used for selection.",
+    "selected_evidence": "experiments/initial-title-content.json",
+    "selected_method": "hybrid",
+    "observed_tuning": {
+      "answerable_questions": 7,
+      "hit_at_5": 0.7142857142857143,
+      "mrr_at_5": 0.5476190476190477
+    },
+    "rejected": [
+      {
+        "variant": "original lexical",
+        "reason": "Same 5/7 coverage, lower MRR 0.20; faster search remains a useful fallback."
+      },
+      {
+        "variant": "original vector",
+        "reason": "4/7 coverage despite better early ranks than lexical."
+      },
+      {
+        "variant": "content-only embeddings",
+        "reason": "Truncated inputs fell from 8 to 4, but hybrid MRR fell to 0.35 with unchanged 5/7 coverage."
+      },
+      {
+        "variant": "content-only embeddings plus content-weighted lexical search",
+        "reason": "Hybrid coverage fell to 4/7 and MRR to 0.3143."
+      }
+    ],
+    "limitations": [
+      "Only 7 answerable tuning questions with provisional/incomplete assistant-authored labels.",
+      "Eight of 411 title+content encoding inputs exceed 256 tokens and are truncated by SentenceTransformer.",
+      "Two evidence-base questions remain retrieval failures under these labels.",
+      "Prompt/model quality, researcher utility and container execution are not established."
+    ],
+    "reversal": "Review label completeness and missed evidence; change only on a new documented tuning experiment or a violated resource constraint."
+  }
+}

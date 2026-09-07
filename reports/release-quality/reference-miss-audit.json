@@ -1,0 +1,414 @@
+{
+  "status": "EXECUTED_MECHANICAL_REFERENCE_DIAGNOSIS",
+  "source_hash": "ce6505f25056c0f3cad8181ea5842dcb2ebb5b79fc58b64f9961a05793c1bff5",
+  "counts": {
+    "RETRIEVED": 41,
+    "IN_CANDIDATE_POOL_BELOW_CUTOFF": 12,
+    "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS": 14
+  },
+  "rows": [
+    {
+      "question_id": "DIR-01",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-01",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-02",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-02",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-03",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-04",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:12:0:409",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-05",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-05",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "DIR-06",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:60:0:317",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "DIR-06",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:60:0:317",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "DIR-07",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-01",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-01",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-02",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:13:0:561",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "PAR-02",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:13:0:561",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "PAR-03",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-03",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-04",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:53:0:311",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-04",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:53:0:311",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-05",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:52:0:455",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "PAR-05",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:52:0:455",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "PAR-06",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-06",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-07",
+      "reference_index": 0,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "PAR-07",
+      "reference_index": 1,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-01",
+      "reference_index": 0,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "EXA-02",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-03",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-03",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-04",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:60:0:317",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-04",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:60:0:317",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-05",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:61:0:166",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-06",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:49:0:572",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-06",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:49:0:572",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-06",
+      "reference_index": 2,
+      "reference_id": "PMC7503443:a26671042513feb5:49:0:572",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "EXA-07",
+      "reference_index": 0,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "COM-01",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "COM-01",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:13:0:561",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "COM-02",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "COM-02",
+      "reference_index": 1,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "COM-02",
+      "reference_index": 2,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "COM-03",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:52:0:455",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "COM-03",
+      "reference_index": 1,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:11:600:987",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "COM-04",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "COM-04",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:53:0:311",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "COM-04",
+      "reference_index": 2,
+      "reference_id": "PMC7503443:a26671042513feb5:53:0:311",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "COM-05",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "COM-05",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:13:0:561",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "COM-06",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:50:0:513",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "COM-06",
+      "reference_index": 1,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "COM-06",
+      "reference_index": 2,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "COM-07",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "COM-07",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:14:0:635",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "LIM-01",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:52:0:455",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "LIM-01",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:52:0:455",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "LIM-02",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "LIM-02",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "LIM-03",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "LIM-03",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "LIM-04",
+      "reference_index": 0,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "LIM-04",
+      "reference_index": 1,
+      "reference_id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+      "state": "RETRIEVED"
+    },
+    {
+      "question_id": "LIM-05",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:13:0:561",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "LIM-05",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:13:0:561",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "LIM-06",
+      "reference_index": 0,
+      "reference_id": "PMC7503443:a26671042513feb5:60:0:317",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "LIM-06",
+      "reference_index": 1,
+      "reference_id": "PMC7503443:a26671042513feb5:60:0:317",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    },
+    {
+      "question_id": "LIM-07",
+      "reference_index": 0,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+      "state": "IN_CANDIDATE_POOL_BELOW_CUTOFF"
+    },
+    {
+      "question_id": "LIM-07",
+      "reference_index": 1,
+      "reference_id": "PMC8963195:f6c8a0a4968ccaf4:11:600:987",
+      "state": "IN_INDEX_OUTSIDE_BOTH_RECORDED_POOLS"
+    }
+  ],
+  "limitations": "Addresses annotated references only. Does not establish exhaustive relevance, source availability outside this corpus or biomedical correctness. Excluded tables remain a separate coverage limitation."
+}

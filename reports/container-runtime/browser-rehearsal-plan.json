@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-09-07T11:04:04.403102+00:00",
+  "purpose": "Operational Compose QA, not a final evaluation or quality-selection comparison",
+  "configuration": "configs/app.json unchanged",
+  "traffic_origin": "qa",
+  "generation_retry_policy": "One attempt per listed request; preserve failures, do not retry for favorable output",
+  "questions": [
+    {
+      "id": "compose-qa-answerable",
+      "question": "Which gene is most often associated with congenital central hypoventilation syndrome?",
+      "expected_evidence_scope": "A direct CCHS/PHOX2B association in the existing publications",
+      "phase": "before_restart"
+    },
+    {
+      "id": "compose-qa-absent",
+      "question": "How many CCHS patients were enrolled in a 2026 registry study in Iceland?",
+      "expected_evidence_scope": "Outside the three-publication corpus; explicit insufficient evidence required",
+      "phase": "before_restart"
+    },
+    {
+      "id": "compose-qa-restart",
+      "question": "Which gene is most often associated with congenital central hypoventilation syndrome?",
+      "expected_evidence_scope": "Repeat solely to verify service recovery; not an extra quality-selection attempt",
+      "phase": "after_restart"
+    }
+  ],
+  "evidence": [
+    "container model receipt",
+    "exact question and raw output",
+    "rendered status and retrieved sources",
+    "downloaded exports when available",
+    "PostgreSQL IDs and persisted payloads",
+    "QA feedback and monitoring",
+    "rows and IDs retained after restart"
+  ]
+}

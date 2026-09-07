@@ -1,0 +1,37 @@
+{
+  "status": "REVIEWED_COMPLETE_REJECTED",
+  "created_at": "2026-09-06T14:26:08.489463+00:00",
+  "execution_hash": "9b0ef9324f2f2f84ac6cca8181acabe5d6a16d6b453240db46e3d0758d269fee",
+  "candidates": [
+    {
+      "candidate": "vector_10",
+      "path": "reports/experiments/answers-61c1c04b-6628-4313-8bdd-af0e0b15244a",
+      "results_hash": "a5953de93c1c1ba08d5735775b74a47cbb9348cea3cbdaaab21c9bd0191cbc36",
+      "reviews_hash": "6515424f3e1b5820dd3a2f4e3507758efaab02e68ce243222c690d68f321037c",
+      "whole_reviews_hash": "eaf71f551847cb1ed7d05cd230a617af3b5a5626e4c2d82439096c79b72b5b49",
+      "summary_hash": "5c16fb6cb263656868eb28c5ea9402ba173951f437c41dd95cbb07d789375a49",
+      "answerable_acceptable": 0,
+      "answerable_denominator": 3,
+      "unanswerable_acceptable": 0,
+      "unanswerable_denominator": 1,
+      "output_errors": 4
+    },
+    {
+      "candidate": "hybrid_title0_rrf1_10",
+      "path": "reports/experiments/answers-f88d7be4-47e4-4a00-9e84-16f4a8c0eadd",
+      "results_hash": "61dfa8dc43b8ee69acdbb3bcf8be0cafecaba00ab5ef17cc8d6574009878cfe7",
+      "reviews_hash": "6435738f60380b10a885777a168d4adee305d3719092c25575967d94978d8b56",
+      "whole_reviews_hash": "08b0bfc479b5faeb90150e27c5b04d915e3a32b144dc9aef9504a381a69fdb96",
+      "summary_hash": "51075076307a24d20f0e9830effd927f11cbead7592f410e4c77bac0a5237bbf",
+      "answerable_acceptable": 0,
+      "answerable_denominator": 3,
+      "unanswerable_acceptable": 0,
+      "unanswerable_denominator": 1,
+      "output_errors": 4
+    }
+  ],
+  "raw_source_windows_read": 41,
+  "scope": "Same assistant inspected all41 unique retrieved windows, eight raw outputs, canonical visible errors and empty comparison/tag payloads. Provisional review, not independent human validation. All invalid outputs remain in their denominators.",
+  "runtime_promoted": false,
+  "official_points": null
+}

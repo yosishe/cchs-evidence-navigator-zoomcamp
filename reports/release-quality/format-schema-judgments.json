@@ -1,0 +1,36 @@
+{
+  "results_hash": "fc55dceaafe00bc0c734a8d63c5e8438338fd33d794e057d8f42bdbba1a035cc",
+  "questions": {
+    "DIR-02": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Both claims are explicit, source-attributed and supported by Italian passage 2: retrospective 22-patient data and 2000-2020 referral/follow-up period. The alternate abstract passage supplies the same facts as the frozen body references. Empty limitations add no unsupported prose; canonical exports preserve exact quotations."
+    },
+    "COM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The entire model response is rejected before canonical claims or tag/claim exports are produced. Object mode omitted limitations and inserted nonliteral ellipses; schema mode supplied limitations but still inserted ellipses into quotations and added further nonliteral quotes. This is a measured invalid-output failure, not a complete comparison or a correct abstention."
+    }
+  }
+}

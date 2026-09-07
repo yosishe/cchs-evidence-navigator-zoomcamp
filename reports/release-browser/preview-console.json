@@ -1,0 +1,108 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "level": "warn",
+      "message": "WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.",
+      "timestamp": "2026-09-06T23:34:47.599Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"requests_start\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.628Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"requests_end\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.629Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.",
+      "timestamp": "2026-09-06T23:34:47.631Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"seconds\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.652Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"seconds\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.706Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"seconds\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.706Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.",
+      "timestamp": "2026-09-06T23:34:47.706Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"passages_start\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.706Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"passages_end\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.706Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.",
+      "timestamp": "2026-09-06T23:34:47.706Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"rated requests_start\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.707Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"rated requests_end\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.707Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Scale bindings are currently only supported for scales with unbinned, continuous domains.",
+      "timestamp": "2026-09-06T23:34:47.724Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"requests_start\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.728Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"requests_end\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.728Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    },
+    {
+      "level": "warn",
+      "message": "WARN Infinite extent for field \"seconds\": [Infinity, -Infinity]",
+      "timestamp": "2026-09-06T23:34:47.755Z",
+      "url": "http://127.0.0.1:18501/static/js/styled-components.CEexHQqE.js"
+    }
+  ],
+  "scope": "Connected browser observations during QA preview; single-observation line needs a visible mark."
+}

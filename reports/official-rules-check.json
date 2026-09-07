@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-09-05T18:05:51.026149+00:00",
+  "calendar_url": "https://courses.datatalks.club/llm-zoomcamp-2026/calendar.ics",
+  "calendar_sha256": "3c37793cf5e015db88bc433c16ee733b8e464202154e5e24fe7cf7e13862a422",
+  "project_events": [
+    {
+      "summary": "LLM Zoomcamp 2026: Project Attempt 1 submission deadline",
+      "uid": "project-72-submission@courses.datatalks.club",
+      "dtstart": "20260803T230000Z",
+      "url": "https://courses.datatalks.club/llm-zoomcamp-2026/project/project1",
+      "jerusalem": "2026-08-04T02:00:00+03:00"
+    },
+    {
+      "summary": "LLM Zoomcamp 2026: Project Attempt 1 peer review deadline",
+      "uid": "project-72-peer-review@courses.datatalks.club",
+      "dtstart": "20260811T210000Z",
+      "url": "https://courses.datatalks.club/llm-zoomcamp-2026/project/project1",
+      "jerusalem": "2026-08-12T00:00:00+03:00"
+    },
+    {
+      "summary": "LLM Zoomcamp 2026: Project Attempt 2 submission deadline",
+      "uid": "project-73-submission@courses.datatalks.club",
+      "dtstart": "20260817T230000Z",
+      "url": "https://courses.datatalks.club/llm-zoomcamp-2026/project/project2",
+      "jerusalem": "2026-08-18T02:00:00+03:00"
+    },
+    {
+      "summary": "LLM Zoomcamp 2026: Project Attempt 2 peer review deadline",
+      "uid": "project-73-peer-review@courses.datatalks.club",
+      "dtstart": "20260826T070000Z",
+      "url": "https://courses.datatalks.club/llm-zoomcamp-2026/project/project2",
+      "jerusalem": "2026-08-26T10:00:00+03:00"
+    },
+    {
+      "summary": "LLM Zoomcamp 2026: Project Attempt 3 submission deadline",
+      "uid": "project-77-submission@courses.datatalks.club",
+      "dtstart": "20260907T230000Z",
+      "url": "https://courses.datatalks.club/llm-zoomcamp-2026/project/project3",
+      "jerusalem": "2026-09-08T02:00:00+03:00"
+    },
+    {
+      "summary": "LLM Zoomcamp 2026: Project Attempt 3 peer review deadline",
+      "uid": "project-77-peer-review@courses.datatalks.club",
+      "dtstart": "20260914T230000Z",
+      "url": "https://courses.datatalks.club/llm-zoomcamp-2026/project/project3",
+      "jerusalem": "2026-09-15T02:00:00+03:00"
+    }
+  ],
+  "project_page": "https://courses.datatalks.club/llm-zoomcamp-2026/project/project3",
+  "rubric_url": "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md",
+  "rubric_checked_via": "Live rendered GitHub page read 2026-09-05; nine 0/1/2 core rows and separate practices, bonus, peer reviews.",
+  "attempt_conflict": "General project document says two attempts; current cohort publicly lists a third attempt.",
+  "personal_eligibility": "UNKNOWN; no authenticated account inspected",
+  "submission": "NOT_PERFORMED"
+}

@@ -1,0 +1,99 @@
+{
+  "created_at": "2026-09-05T23:18:59.226145+00:00",
+  "status": "PASS",
+  "protected_project_files": [
+    {
+      "path": "uv.lock",
+      "before_sha256": "4c425edf549d5d9c18bb96fbad9b63cbfbe7107c23eafed0ec4bccb160dc2ffb",
+      "after_sha256": "4c425edf549d5d9c18bb96fbad9b63cbfbe7107c23eafed0ec4bccb160dc2ffb",
+      "unchanged": true
+    },
+    {
+      "path": "requirements-vectors.lock",
+      "before_sha256": "acbbf27060246c527e105470eaab33712f0050a5d56327dd5b1dc2097d6a69ca",
+      "after_sha256": "acbbf27060246c527e105470eaab33712f0050a5d56327dd5b1dc2097d6a69ca",
+      "unchanged": true
+    },
+    {
+      "path": "pyproject.toml",
+      "before_sha256": "6d5401a5d404857576ff82638c84136d9e9d92cbcf6ce91506859d374d713dc8",
+      "after_sha256": "6d5401a5d404857576ff82638c84136d9e9d92cbcf6ce91506859d374d713dc8",
+      "unchanged": true
+    },
+    {
+      "path": "requirements.lock",
+      "before_sha256": "9411777a8fefdd0174fc68b5b1f12852821df33b14602f592dac2f741fba9ffa",
+      "after_sha256": "9411777a8fefdd0174fc68b5b1f12852821df33b14602f592dac2f741fba9ffa",
+      "unchanged": true
+    },
+    {
+      "path": "data/manifest.json",
+      "before_sha256": "5cb22c98c9565e8c0af3c80e186eb4b1b0466f367fe2bd1c1f9dcdd5f002c732",
+      "after_sha256": "5cb22c98c9565e8c0af3c80e186eb4b1b0466f367fe2bd1c1f9dcdd5f002c732",
+      "unchanged": true
+    },
+    {
+      "path": "data/evaluation/questions.json",
+      "before_sha256": "17453afccfca77194a334fd2a64f60a242c948ae4a0bd5405967e91eeeff5da6",
+      "after_sha256": "17453afccfca77194a334fd2a64f60a242c948ae4a0bd5405967e91eeeff5da6",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/PMC7503443.json",
+      "before_sha256": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+      "after_sha256": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/PMC8039127.json",
+      "before_sha256": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+      "after_sha256": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+      "unchanged": true
+    },
+    {
+      "path": "data/raw/PMC8963195.json",
+      "before_sha256": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+      "after_sha256": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+      "unchanged": true
+    }
+  ],
+  "teaching_pin": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "teaching_files_checked": [
+    {
+      "path": "01-agentic-rag/lessons/13-function-calling.md",
+      "sha256": "08695c4f2de3402099f9306b93b496489aa25e99924bd098f9a1ca109c5a2b99",
+      "matches_pinned_object": true
+    },
+    {
+      "path": "01-agentic-rag/lessons/14-agentic-loop.md",
+      "sha256": "eded512101ac2cf8f23f43c0e520a3108a3421d8c285c56ccf0ee75797927b61",
+      "matches_pinned_object": true
+    },
+    {
+      "path": "01-agentic-rag/code/agents.ipynb",
+      "sha256": "8abd2d82814c114bb500e963f0b1d14efd6ff01c754dc37f0d91b01b62469b75",
+      "matches_pinned_object": true
+    },
+    {
+      "path": "06-best-practices/lessons/03-reranking.md",
+      "sha256": "752f0b895eb12d986e48dc911e13f14d1bfd244ede7689458fab19e3dddcf284",
+      "matches_pinned_object": true
+    },
+    {
+      "path": "cohorts/2024/02-open-source/qa_faq.py",
+      "sha256": "6bb1cca6ed6110194302a8e0fe76c971822a093a4795277c96e84ba9762329bc",
+      "matches_pinned_object": true
+    },
+    {
+      "path": "cohorts/2024/02-open-source/homework.md",
+      "sha256": "d918b96474d20208f01fe764c3860e974070cdca7d2e2bafed25d102a66c2171",
+      "matches_pinned_object": true
+    },
+    {
+      "path": "project.md",
+      "sha256": "fde0647a0df91470234593854c619307bf07aa28062d4e090065a57e348c896b",
+      "matches_pinned_object": true
+    }
+  ],
+  "scope": "Project protected files compared with this turn pre-edit SHA-256; listed teaching files compared with pinned Git objects. Other site assets were not rehashed by this check."
+}

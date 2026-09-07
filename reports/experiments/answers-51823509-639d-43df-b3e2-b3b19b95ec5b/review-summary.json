@@ -1,0 +1,496 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "74a5b496a560f7a92b4f2024f97a769cb4398cfc1b81fba41df25a25b0a1f9c3",
+  "reviews_hash": "89248b55b4fde4b90c61918ceb4a6edf7968dc2d601f4c5693120c3320bb515d",
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 12,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 1,
+      "claim_denominator": 1,
+      "unsupported_claims": 0,
+      "mean_seconds": 54.20446263533328,
+      "errors": 6,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 16,
+          "counts": {
+            "covered": 1,
+            "partial": 1,
+            "missing": 14,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0625
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 3,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      },
+      "critical_failure_answers": 2
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 4,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 1,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 1,
+            "partial": 0,
+            "missing": 3,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.25
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 1,
+            "missing": 1,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 2,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 2,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        }
+      }
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 2,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "coverage_diagnostics": {
+        "schema_version": 1,
+        "purpose": "DIAGNOSTIC_ONLY_NOT_A_SELECTION_SCORE",
+        "fact_coverage": {
+          "available": true,
+          "denominator": 4,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 4,
+            "uncertain": 0
+          },
+          "fully_covered_rate": 0.0
+        },
+        "qualification_coverage": {
+          "available": true,
+          "denominator": 0,
+          "counts": {
+            "covered": 0,
+            "partial": 0,
+            "missing": 0,
+            "uncertain": 0
+          },
+          "fully_covered_rate": null
+        }
+      }
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "0d69a67a-a6ad-4c78-a90a-272cb17c34d5",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The retrieved Italian passages 21,19,54,68,2 describe records, findings and management, but omit the explicitly stated two aims in passage 17. The refusal is defensible for the precise stated-aims request but does not answer either frozen required fact. Its description of the supplied context is supported.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The retrieved Italian passages 21,19,54,68,2 describe records, findings and management, but omit the explicitly stated two aims in passage 17. The refusal is defensible for the precise stated-aims request but does not answer either frozen required fact. Its description of the supplied context is supported.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "DIR-02",
+      "answer_id": "c430c699-0c0c-42cc-842b-189cc6f06b10",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Italian passage 19 supports the quoted 22-patient retrospective count. The answer omits 2000-2020 despite its presence in that same retrieved passage. Limitations match passage 68 and the additional records/IRB sentence matches passage 21. The canonical comparison/export retains the quote and limitations, but this remains incomplete.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Italian passage 19 supports the quoted 22-patient retrospective count. The answer omits 2000-2020 despite its presence in that same retrieved passage. Limitations match passage 68 and the additional records/IRB sentence matches passage 21. The canonical comparison/export retains the quote and limitations, but this remains incomplete.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "9af09204-03ed-4d8a-979b-8180c2dd687c",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The response says there is no direct evidence of retrospective examination of records, but retrieved Italian passage 19 explicitly says collected retrospectively and passage 21 says review of the electronic medical record. This denial contradicts the provided context; neither required fact is answered.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The response says there is no direct evidence of retrospective examination of records, but retrieved Italian passage 19 explicitly says collected retrospectively and passage 21 says review of the electronic medical record. This denial contradicts the provided context; neither required fact is answered.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-02",
+      "answer_id": "3eb9d651-fbcc-4216-9489-f29189745f1a",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The supplied guideline passages include literature-search methods (12), publication consent and unrelated recommendations, but omit passage 13 containing low-grade descriptive evidence and blended clinical experience. Corpus-scoped refusal is defensible for these hits; both requested facts remain missing.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The supplied guideline passages include literature-search methods (12), publication consent and unrelated recommendations, but omit passage 13 containing low-grade descriptive evidence and blended clinical experience. Corpus-scoped refusal is defensible for these hits; both requested facts remain missing.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-01",
+      "answer_id": "84dfb851-b5d4-40dc-8893-8befc66cd965",
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "EXA-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "EXA-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "EXA-02",
+      "answer_id": "8a0b2ead-7722-4189-b89e-f15f723e4209",
+      "prompt": "evidence_first",
+      "slice": "exact_identifiers",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "EXA-02: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "EXA-02: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "c68fd208-6795-4704-b837-dcf3bf91c768",
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "COM-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "COM-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-02",
+      "answer_id": "d7e98e8d-0303-4c5d-942c-b98d9fa3792f",
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "COM-02: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "COM-02: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-01",
+      "answer_id": "ffaac4bc-793d-4575-8dd3-12185f51b628",
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "LIM-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "LIM-01: inspected raw output and the canonical record. ValueError rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "LIM-02",
+      "answer_id": "cc623476-41cc-420e-9c35-685a6e06e6cf",
+      "prompt": "evidence_first",
+      "slice": "limitations",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "partial"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "abstention_correct": false,
+      "reason": "The response refers to retrospective findings but does not directly answer no to the randomized-causal-evidence question. The context includes Italian passage 19 explicitly describing retrospective collection; passage 70 supports the precautionary-principle description. The qualification about heterogeneity is absent from the response. The narrative does not establish a randomized study, but the required answer remains incomplete.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The response refers to retrospective findings but does not directly answer no to the randomized-causal-evidence question. The context includes Italian passage 19 explicitly describing retrospective collection; passage 70 supports the precautionary-principle description. The qualification about heterogeneity is absent from the response. The narrative does not establish a randomized study, but the required answer remains incomplete.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "4a56ea1e-678d-472f-8cb2-dfa40a880bd1",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The phrase randomized PHOX2B gene-editing intervention reported in a 2021 Italian study repeats the unsupported premise as an event. Retrieved Italian passages 56/8 and review passages 10/64 discuss variants/testing, not such an intervention. An insufficient_evidence status does not neutralize that false premise in visible limitations.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The phrase randomized PHOX2B gene-editing intervention reported in a 2021 Italian study repeats the unsupported premise as an event. Retrieved Italian passages 56/8 and review passages 10/64 discuss variants/testing, not such an intervention. An insufficient_evidence status does not neutralize that false premise in visible limitations.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "ABS-02",
+      "answer_id": "98c3d9d6-8ce5-4a29-9da0-1b1f9a579bc6",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "ABS-02: inspected raw output and the canonical record. IncompleteModelOutput rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "ABS-02: inspected raw output and the canonical record. IncompleteModelOutput rejected the output; the displayed response contains only the application error message, no claims and no comparison/tag rows. This is a failed answer, not correct abstention or evidence of model quality. Raw fabricated/irrelevant content is retained as a rejected attempt.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "273664b42f4ef3b55f8f45e6e8a91d7b1b9e22ed87713716e2fd485610629954",
+  "whole_answer_reviewer": "Codex source-based provisional assistant review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-06T22:42:34.728692+00:00",
+  "source_artifact_hash": "ce6505f25056c0f3cad8181ea5842dcb2ebb5b79fc58b64f9961a05793c1bff5",
+  "runtime_code_id": "707513aec2de746fc9696f46f127a187e98b20234101edbee75c06c3dea61c46",
+  "hypothesis": "On fixed lexical/vector candidate pools, smaller taught RRF constants prioritize strong branch leaders over mid-ranked overlap. This may recover references but can lose consensus hits.",
+  "source": "docs/course-sources.md: 2026 Homework 4 grid and zero-based RRF convention",
+  "constants": [
+    1,
+    10
+  ],
+  "final_k": 10,
+  "branch_pool_k": 20,
+  "new_searches": 0,
+  "provider_calls": 0,
+  "label_scope": "42 development questions; no final-set queries",
+  "promotion": "NONE; fixed-candidate replay alone does not prove end-to-end answer quality"
+}

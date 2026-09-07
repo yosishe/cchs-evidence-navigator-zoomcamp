@@ -1,0 +1,7 @@
+{
+  "status": "BLOCKED_ENCODER_SETUP",
+  "started_at": "2026-09-06T01:09:23.086737+00:00",
+  "error_type": "RuntimeError",
+  "allow_download": false,
+  "next_step": "Check ingestion and the pinned encoder cache. Downloads require explicit approval."
+}

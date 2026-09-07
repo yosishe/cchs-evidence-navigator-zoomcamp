@@ -1,0 +1,322 @@
+[
+  {
+    "source": "PMC7503443",
+    "table_count": 9,
+    "tables": [
+      {
+        "passage_index": 29,
+        "infons": {
+          "file": "Tab1.xml",
+          "id": "Tab1",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "Reference values for PO2, oxygen saturation and PCO2",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 30,
+        "infons": {
+          "file": "Tab1.xml",
+          "id": "Tab1",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th><bold><italic>Measurement</italic></bold></th><th><bold><italic>Reference values</italic></bold></th><th><bold><italic>Comments</italic></bold></th></tr></thead><tbody><tr><td colspan=\"3\"><bold><italic>Oxygenation</italic></bold></td></tr><tr><td>\u2003Arterial oxygenation (SpO<sub>2</sub>)</td><td>\u2265 95%</td><td><p>In room air / no supplemental O2</p><p>Ensure there is good detection of pulse waveforms to exclude movement artefacts or inadequate pulse detection</p></td></tr><tr><td><p>\u2003Transcutaneous PO<sub>2</sub> (TcPO<sub>2</sub>)</p><p>Arterial/Capillary PO<sub>2</sub></p></td><td><p>80\u2013100\u2009mmHg</p><p>10.7\u201313.3\u2009kPa</p></td><td><p>In-hospital use only</p><p>Change site of the heated probe according to manufacturer\u2019s recommendations</p></td></tr><tr><td colspan=\"3\"><bold><italic>Carbon Dioxide</italic></bold></td></tr><tr><td>Transcutaneous (TcPCO<sub>2</sub>)/ Arterial/Capillary PCO<sub>2</sub></td><td><p>35\u201345\u2009mmHg</p><p>4.7\u20136.0\u2009kPa</p></td><td>Change site of the heated probe according to manufacturer\u2019s recommendations</td></tr><tr><td>End-tidal CO<sub>2</sub> (ETCO<sub>2</sub>)</td><td><p>30\u201340\u2009mmHg</p><p>4.0\u20135.3\u2009kPa</p></td><td><p>Measured at the nose or tracheostomy cannula</p><p>Technically difficult, requires end-tidal plateau</p></td></tr></tbody></table>\n"
+        },
+        "text": "Measurement\tReference values\tComments\t \tOxygenation\t \t\u2003Arterial oxygenation (SpO2)\t\u2265 95%\tIn room air / no supplemental O2Ensure there is good detection of pulse waveforms to exclude movement artefacts or inadequate pulse detection\t \t\u2003Transcutaneous PO2 (TcPO2)Arterial/Capillary PO2\t80\u2013100\u2009mmHg10.7\u201313.3\u2009kPa\tIn-hospital use onlyChange site of the heated probe according to manufacturer\u2019s recommendations\t \tCarbon Dioxide\t \tTranscutaneous (TcPCO2)/ Arterial/Capillary PCO2\t35\u201345\u2009mmHg4.7\u20136.0\u2009kPa\tChange site of the heated probe according to manufacturer\u2019s recommendations\t \tEnd-tidal CO2 (ETCO2)\t30\u201340\u2009mmHg4.0\u20135.3\u2009kPa\tMeasured at the nose or tracheostomy cannulaTechnically difficult, requires end-tidal plateau\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 66,
+        "infons": {
+          "file": "Tab2.xml",
+          "id": "Tab2",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "Follow up programme",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 67,
+        "infons": {
+          "file": "Tab2.xml",
+          "id": "Tab2",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th>Functions</th><th>Subjects</th><th>Frequency</th><th>Test</th><th>Objective of testing</th></tr></thead><tbody><tr><td><bold>Spontaneous and assisted ventilation</bold></td><td>All patients</td><td><p>&lt;\u20092yo: every 2\u20136\u2009months</p><p>\u22652yo: annually</p><p>As often as needed if symptoms</p></td><td><p>-Wakefulness: SpO<sub>2</sub>, Tc or Et-CO<sub>2</sub></p><p>-PSG or CRP with SpO<sub>2</sub>, Tc or Et-CO<sub>2</sub></p></td><td><p>-Assess spontaneous breathing while awake</p><p>-Adjust ventilator settings during sleep</p></td></tr><tr><td><bold>Tracheostomy</bold></td><td>With tracheostomy</td><td><p>-If symptoms (desaturation, pain, bleeding, breath holding spells, recurrent infections, intolerance to speaking valve or plugged tracheostomy, change in voice)</p><p>-After changing the tube size or type</p><p>-Before decannulation</p><p>-Every 3\u20136\u2009months in children in the first 2\u2009years after tracheostomy</p></td><td><p>-Tracheo-bronchoscopy</p><p>-Simple fibre-optic tracheoscopy</p></td><td><p>-Detect tracheostomy-related complications</p><p>-Check the position of the tube tip (simple fibre-optic tracheoscopy instead of bronchoscopy)</p></td></tr><tr><td><bold>Maxillo-facial growth</bold></td><td>With mask ventilation</td><td><p>-Every 4\u20136\u2009months</p><p>-Annually for older patients</p></td><td><p>-Examination by maxillo-facial specialist</p><p>-Imaging if needed</p></td><td>-Detect midface deformation</td></tr><tr><td><bold>Cardiovascular system</bold></td><td>All patients</td><td>Annually, and as often as needed if symptoms</td><td><p>\u221248-72\u2009h ECG Holter</p><p>-24\u2009h BPAM</p><p>-Echocardiogram</p></td><td><p>-Detect arrhythmias</p><p>-Detect complications of ineffective ventilation</p></td></tr><tr><td><bold>Response to physical exertion</bold></td><td>&gt;6yo</td><td>Annually to every 2\u20133\u2009years (in patients breathing spontaneously while awake)</td><td>Exercise test with bike or treadmill</td><td>Verify response of SpO<sub>2</sub>/ CO<sub>2</sub> to physical effort</td></tr><tr><td><bold>Digestive system</bold></td><td>All patients</td><td>Each visit</td><td>Symptoms, physical examination anthropometry,</td><td>Detect Hirschsprung, oesophageal and large bowel dysmotility</td></tr><tr><td><bold>Eyes</bold></td><td>All patients</td><td><p>&lt;6yo: Annually</p><p>&gt;6yo: According to ophthalmologist</p></td><td>Comprehensive ocular testing</td><td><p>-Detect visual disorders</p><p>-Adapt glass or lens correction</p></td></tr><tr><td><bold>Neurological development</bold></td><td>All patients</td><td><p>&lt;\u20092-3yo: Every 4\u20136\u2009months</p><p>&gt;6yo: Every 2\u2009years</p><p>As often as needed if disorders</p></td><td>Comprehensive neurocognitive tests</td><td><p>-Detect neurocognitive disorders</p><p>-Assess education needs</p></td></tr><tr><td><bold>Endocrinology and Metabolism</bold></td><td>All patients</td><td>Once, then as needed</td><td><p>- 24\u2009h glycaemia</p><p>-OGTT</p></td><td>Identify risk of hypo or hyperglycaemia</td></tr><tr><td><bold>Neural crests tumours</bold></td><td><p>\u221220/28\u201320/33 PARMs</p><p>-NPARMs</p></td><td><p>&lt;2yo: Every 6\u2009months</p><p>2-7yo: Annually or bi-annually</p><p>&gt;7yo: according to local oncologist protocols</p></td><td><p>-Chest and abdominal imaging, KUB ultrasound</p><p>-Total body MRI if needed</p></td><td>Detect neural crests tumours</td></tr><tr><td><bold>Autonomic dysregulation</bold></td><td>&gt;6yo</td><td>If symptoms</td><td>Testing: tilt testing, deep breathing, Valsalva maneuver, thermal stressors</td><td>Assess autonomic dysregulation</td></tr></tbody></table>\n"
+        },
+        "text": "Functions\tSubjects\tFrequency\tTest\tObjective of testing\t \tSpontaneous and assisted ventilation\tAll patients\t<\u20092yo: every 2\u20136\u2009months\u22652yo: annuallyAs often as needed if symptoms\t-Wakefulness: SpO2, Tc or Et-CO2-PSG or CRP with SpO2, Tc or Et-CO2\t-Assess spontaneous breathing while awake-Adjust ventilator settings during sleep\t \tTracheostomy\tWith tracheostomy\t-If symptoms (desaturation, pain, bleeding, breath holding spells, recurrent infections, intolerance to speaking valve or plugged tracheostomy, change in voice)-After changing the tube size or type-Before decannulation-Every 3\u20136\u2009months in children in the first 2\u2009years after tracheostomy\t-Tracheo-bronchoscopy-Simple fibre-optic tracheoscopy\t-Detect tracheostomy-related complications-Check the position of the tube tip (simple fibre-optic tracheoscopy instead of bronchoscopy)\t \tMaxillo-facial growth\tWith mask ventilation\t-Every 4\u20136\u2009months-Annually for older patients\t-Examination by maxillo-facial specialist-Imaging if needed\t-Detect midface deformation\t \tCardiovascular system\tAll patients\tAnnually, and as often as needed if symptoms\t\u221248-72\u2009h ECG Holter-24\u2009h BPAM-Echocardiogram\t-Detect arrhythmias-Detect complications of ineffective ventilation\t \tResponse to physical exertion\t>6yo\tAnnually to every 2\u20133\u2009years (in patients breathing spontaneously while awake)\tExercise test with bike or treadmill\tVerify response of SpO2/ CO2 to physical effort\t \tDigestive system\tAll patients\tEach visit\tSymptoms, physical examination anthropometry,\tDetect Hirschsprung, oesophageal and large bowel dysmotility\t \tEyes\tAll patients\t<6yo: Annually>6yo: According to ophthalmologist\tComprehensive ocular testing\t-Detect visual disorders-Adapt glass or lens correction\t \tNeurological development\tAll patients\t<\u20092-3yo: Every 4\u20136\u2009months>6yo: Every 2\u2009yearsAs often as needed if disorders\tComprehensive neurocognitive tests\t-Detect neurocognitive disorders-Assess education needs\t \tEndocrinology and Metabolism\tAll patients\tOnce, then as needed\t- 24\u2009h glycaemia-OGTT\tIdentify risk of hypo or hyperglycaemia\t \tNeural crests tumours\t\u221220/28\u201320/33 PARMs-NPARMs\t<2yo: Every 6\u2009months2-7yo: Annually or bi-annually>7yo: according to local oncologist protocols\t-Chest and abdominal imaging, KUB ultrasound-Total body MRI if needed\tDetect neural crests tumours\t \tAutonomic dysregulation\t>6yo\tIf symptoms\tTesting: tilt testing, deep breathing, Valsalva maneuver, thermal stressors\tAssess autonomic dysregulation\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 68,
+        "infons": {
+          "file": "Tab2.xml",
+          "id": "Tab2",
+          "section_type": "TABLE",
+          "type": "table_foot"
+        },
+        "text": "Abbreviations: BPAM blood pressure ambulatory monitoring; CRP cardio-respiratory polysomnography; ECG electrocardiogram; Et-CO2 end-tidal CO2; KUB kidney, ureter and bladder X-ray; NPARM non-PARM; OGTT oral glucose tolerance test; PARM polyalanine repeat mutation; PSG polysomnography; Tc, transcutaneous",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 82,
+        "infons": {
+          "file": "Tab3.xml",
+          "id": "Tab3",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "Benefits and risks of different types of ventilation support in CCHS",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 83,
+        "infons": {
+          "file": "Tab3.xml",
+          "id": "Tab3",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th/><th>Tracheostomy Ventilation</th><th>Mask Ventilation</th><th>Phrenic Nerve Pacing</th><th>Negative Pressure Ventilation</th></tr></thead><tbody><tr><td><bold>Benefits</bold></td><td><p>\u2022 Provides effective ventilation at baseline and during infections</p><p>\u2022 The airway is secured</p><p>\u2022 Easy connection and disconnection</p><p>\u2022 Enables prolonged continuous mechanical ventilation</p><p>\u2022 Decreases dead space and airway resistance</p><p>\u2022 Facilitates suctioning of secretions</p><p>\u2022 Prevents obstructive apnoeas</p><p>\u2022 Uses portable, battery-operated ventilators (favours mobility)</p></td><td><p>\u2022 Non invasive ventilation</p><p>\u2022 Easy handling</p><p>\u2022 Short training, facilitating discharge home</p><p>\u2022 Avoids tracheostomy</p><p>\u2022 Uses portable, battery-operated ventilators (favours mobility)</p><p>\u2022 Reduces stigmatisation, better self-image</p><p>\u2022 Allows speech development</p></td><td><p>\u2022 Enables mobility during ventilation</p><p>\u2022 Psychological well-being as the patient is independent and the breathing is \u201cmore physiological\u201d breathing.</p><p>\u2022 Avoids mask-related facial deformation</p><p>\u2022 Possibility of decannulation</p></td><td><p>\u2022 Non invasive ventilation</p><p>\u2022 Avoids tracheostomy</p><p>\u2022 Easy handling</p><p>\u2022 Short training, facilitating discharge.</p><p>\u2022 If used just overnight, the patient is device-free during the day</p><p>\u2022 Costs less than tracheostomy</p><p>\u2022 The face is free</p><p>\u2022 Avoids mask-related facial deformation</p></td></tr><tr><td><bold>Risks</bold></td><td><p>\u2022 Invasive ventilation</p><p>\u2022 Requires specialised care and long training</p><p>\u2022 Daily tracheostomy care</p><p>\u2022 Increases costs</p><p>\u2022 May interfere with feeding</p><p>\u2022 Risk of phonation &amp; speech development delays</p><p>\u2022 Potential stigma</p><p>\u2022 Complications: infections, accidental decannulation, obstruction, granuloma, tracheomalacia, tracheo-cutaneous fistula after decannulation</p></td><td><p>\u2022 The airway is not secured</p><p>\u2022 Potential ineffective ventilation due to leakage, upper airway obstruction or asynchrony</p><p>\u2022 More limited interfaces in infants and younger children</p><p>\u2022 Difficult to be used more than 18\u2009h a day</p><p>\u2022 Risk of facial deformation due to prolonged use</p><p>\u2022 Potential discomfort, pressure sores, pain and non-cooperation that increase risk of self-disconnection</p><p>\u2022 Potential for aspiration</p><p>\u2022 Needs high degree of carer surveillance during sleep</p><p>\u2022 May require temporary intubation when with infection or other challenges</p></td><td><p>\u2022 Surgical procedure for implanting electrodes and receiver</p><p>\u2022 Requires highly-experienced medical centres</p><p>\u2022 Can cause OSA requiring mask ventilation, when decannulated</p><p>\u2022 May require alternative or additional form of ventilation support during illness</p><p>\u2022 Pacer malfunction</p><p>\u2022 Surgery is needed for replacement of electrode or receiver</p><p>\u2022 The airway is not secured</p><p>\u2022 There is no alarm to alert carers to antenna-receiver uncoupling in some devices</p><p>\u2022 Not indicated under 1 yo</p><p>\u2022 Pacing &gt;\u200912\u201316\u2009h/day is not recommended</p></td><td><p>\u2022 Ventilation is less effective</p><p>\u2022 Lack of portability</p><p>\u2022 The patient is not accessible for assessment and care (according to devices)</p><p>\u2022 Can cause OSA requiring mask ventilation</p><p>\u2022 The airway is not secured</p><p>\u2022 Can cause aspiration in patients with swallowing disorders</p><p>\u2022 Can cause back/shoulders pain and difficulty sleeping related to supine positioning</p><p>\u2022 Can cause skin irritation and a sense of feeling chilled</p><p>\u2022 May require alternative or additional form of ventilation support during illness</p></td></tr></tbody></table>\n"
+        },
+        "text": "\tTracheostomy Ventilation\tMask Ventilation\tPhrenic Nerve Pacing\tNegative Pressure Ventilation\t \tBenefits\t\u2022 Provides effective ventilation at baseline and during infections\u2022 The airway is secured\u2022 Easy connection and disconnection\u2022 Enables prolonged continuous mechanical ventilation\u2022 Decreases dead space and airway resistance\u2022 Facilitates suctioning of secretions\u2022 Prevents obstructive apnoeas\u2022 Uses portable, battery-operated ventilators (favours mobility)\t\u2022 Non invasive ventilation\u2022 Easy handling\u2022 Short training, facilitating discharge home\u2022 Avoids tracheostomy\u2022 Uses portable, battery-operated ventilators (favours mobility)\u2022 Reduces stigmatisation, better self-image\u2022 Allows speech development\t\u2022 Enables mobility during ventilation\u2022 Psychological well-being as the patient is independent and the breathing is \u201cmore physiological\u201d breathing.\u2022 Avoids mask-related facial deformation\u2022 Possibility of decannulation\t\u2022 Non invasive ventilation\u2022 Avoids tracheostomy\u2022 Easy handling\u2022 Short training, facilitating discharge.\u2022 If used just overnight, the patient is device-free during the day\u2022 Costs less than tracheostomy\u2022 The face is free\u2022 Avoids mask-related facial deformation\t \tRisks\t\u2022 Invasive ventilation\u2022 Requires specialised care and long training\u2022 Daily tracheostomy care\u2022 Increases costs\u2022 May interfere with feeding\u2022 Risk of phonation & speech development delays\u2022 Potential stigma\u2022 Complications: infections, accidental decannulation, obstruction, granuloma, tracheomalacia, tracheo-cutaneous fistula after decannulation\t\u2022 The airway is not secured\u2022 Potential ineffective ventilation due to leakage, upper airway obstruction or asynchrony\u2022 More limited interfaces in infants and younger children\u2022 Difficult to be used more than 18\u2009h a day\u2022 Risk of facial deformation due to prolonged use\u2022 Potential discomfort, pressure sores, pain and non-cooperation that increase risk of self-disconnection\u2022 Potential for aspiration\u2022 Needs high degree of carer surveillance during sleep\u2022 May require temporary intubation when with infection or other challenges\t\u2022 Surgical procedure for implanting electrodes and receiver\u2022 Requires highly-experienced medical centres\u2022 Can cause OSA requiring mask ventilation, when decannulated\u2022 May require alternative or additional form of ventilation support during illness\u2022 Pacer malfunction\u2022 Surgery is needed for replacement of electrode or receiver\u2022 The airway is not secured\u2022 There is no alarm to alert carers to antenna-receiver uncoupling in some devices\u2022 Not indicated under 1 yo\u2022 Pacing >\u200912\u201316\u2009h/day is not recommended\t\u2022 Ventilation is less effective\u2022 Lack of portability\u2022 The patient is not accessible for assessment and care (according to devices)\u2022 Can cause OSA requiring mask ventilation\u2022 The airway is not secured\u2022 Can cause aspiration in patients with swallowing disorders\u2022 Can cause back/shoulders pain and difficulty sleeping related to supine positioning\u2022 Can cause skin irritation and a sense of feeling chilled\u2022 May require alternative or additional form of ventilation support during illness\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 186,
+        "infons": {
+          "file": "Tab4.xml",
+          "id": "Tab4",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "Main differences between the current guidelines and the 2010 ATS statement",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 187,
+        "infons": {
+          "file": "Tab4.xml",
+          "id": "Tab4",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th>I<bold><sc>ssue</sc></bold></th><th>C<bold><sc>urrent</sc></bold> G<bold><sc>uidelines</sc></bold> (2020)</th><th>ATS S<bold><sc>tatement</sc></bold> (2010)</th></tr></thead><tbody><tr><td><bold>Phenotype</bold></td><td>Disease may have varying respiratory impact, with predominance of other system dysfunction</td><td>Hypoventilation with other autonomic disturbance</td></tr><tr><td><bold>Cardiac issues</bold></td><td>All CCHS at risk for sinus arrest</td><td>Longer PARMs at risk for sinus arrest</td></tr><tr><td><bold>Targets for ventilatory support</bold></td><td><p>pCO<sub>2</sub> 35\u201345\u2009mmHg</p><p>SpO<sub>2</sub>\u2009\u2265\u200995%</p></td><td><p>Reasonably: Et CO<sub>2</sub> 30\u201350\u2009mmHg</p><p>Ideally: PCO<sub>2</sub> 35\u201340\u2009mmHg</p><p>SpO<sub>2</sub>\u2009\u2265\u200995%</p></td></tr><tr><td><bold>Ventilation support</bold></td><td>Use of new modalities, such as volume guaranteed to allow varying needs to be met with less swings in CO<sub>2</sub></td><td>Largely non-varying tracheostomy / mask ventilation</td></tr><tr><td><bold>Tracheostomy ventilation</bold></td><td>The commonest method of ventilation support in the first years of life</td><td>Recommended in the first years of life</td></tr><tr><td><bold>Airway assessment procedure</bold></td><td>Simple fibre-optic tracheoscopy preferred</td><td>Bronchoscopy</td></tr><tr><td><bold>Indications for Airway assessment procedure</bold></td><td><p>-If new symptoms</p><p>-After changing tube size or type</p><p>-Before decannulation</p><p>-Every 3\u20136\u2009months in children in the first 2\u2009years after tracheostomy</p></td><td>Every 12\u201324\u2009months</td></tr><tr><td><bold>Ventilatory Device</bold></td><td><p>-Home ventilators while on tracheostomy and mask ventilation:</p><p>-Home ventilators or bi-level devices with all safety requirements while on mask ventilation</p></td><td><p>-Home ventilators while on tracheostomy ventilation</p><p>-Bi-level devices on timed mode while on mask</p></td></tr><tr><td><bold>Ventilation mode</bold></td><td><p>-Recommended: Pressure-control ventilation (e.g. pressure control on the ventilators, or timed mode on the bi-level devices)</p><p>-To be avoided: Pressure support mode with no ability to set back-up rate and minimum inspiratory time on spontaneous breaths, and CPAP mode.</p></td><td><p><italic>-Recommended: Pressure control or pressure plateau mode</italic> via <italic>tracheostomy</italic></p><p><italic>-Bi-level positive airway pressure ventilation by mask or nasal prongs: timed mode</italic></p></td></tr><tr><td><p><bold>Non-invasive ventilation</bold></p><p><bold>(mask ventilation)</bold></p></td><td><p>-May be considered in infants and young children with close monitoring</p><p>-The first option for older children and adults presenting with late-onset CCHS</p></td><td><p>-Not considered as an optimal mode of ventilation in infants and children</p><p>-Not considered until 6\u20138 yo at the earliest in stable patients on sleep time ventilation only</p></td></tr><tr><td><bold>Prevention of mid-face hypoplasia (related to mask ventilation)</bold></td><td><p>-Use of total face masks</p><p>-Alternating masks of different shapes</p></td><td>Extreme caution recommended while used in young children</td></tr><tr><td><bold>Mask models available</bold></td><td>Total face mask used to reduce pressure on facial structure or to prevent oral air leaks</td><td>Full face mask discouraged because of discomfort and aspiration risks.</td></tr><tr><td><bold>Age at transition from trach to mask ventilation</bold></td><td>Can be initiated at varying ages during childhood</td><td>After 6 to 8 yo</td></tr><tr><td><bold>Procedure for transition from trach to mask ventilation or phrenic nerve pacemaker</bold></td><td><p>-Tracheal fiberscope</p><p>-Downsize the tracheostomy cannula</p><p>-Sleep study while on mask ventilation or pacing with capped tracheostomy</p></td><td>/</td></tr><tr><td><bold>Is PHOX2B the sole CCHS gene?</bold></td><td><p>-A few other genes, responsible for autosomal recessive hypoventilation, like MYO1H and LBX1, were identified in consanguineous families negative for PHOX2B mutations.</p><p>-CCHS is a genetically heterogeneous trait</p></td><td>Besides CCHS associated PHOX2B mutations, only patients carrying coincidental mutations in genes already involved in other neurocristopathies and/or in the development of Neural Crest derived cell lines were reported</td></tr><tr><td><bold>Novel kind of CCHS associated PHOX2B anomalies</bold></td><td>Interstitial deletions of the PHOX2B found in association with atypical CCHS presentations, neonatal respiratory distress, Hirschsprung disease, BRUE, etc</td><td>Unknown at that time</td></tr><tr><td><bold>Mutation penetrance and expressivity</bold></td><td>For most PARMs and NPARMs, a wide variability in intra-familial mutation penetrance &amp; expressivity is emerging.</td><td>Reduced penetrance only reported for a few NPARMs and the shortest PARMs</td></tr><tr><td><bold>Genotype \u2013 phenotype correlation</bold></td><td>Differences for NPARM have been recognized both within and between missense, nonsense, and frameshift mutations</td><td>NPARM mutations did have roughly the same effect without distinguishing among them</td></tr></tbody></table>\n"
+        },
+        "text": "Issue\tCurrent Guidelines (2020)\tATS Statement (2010)\t \tPhenotype\tDisease may have varying respiratory impact, with predominance of other system dysfunction\tHypoventilation with other autonomic disturbance\t \tCardiac issues\tAll CCHS at risk for sinus arrest\tLonger PARMs at risk for sinus arrest\t \tTargets for ventilatory support\tpCO2 35\u201345\u2009mmHgSpO2\u2009\u2265\u200995%\tReasonably: Et CO2 30\u201350\u2009mmHgIdeally: PCO2 35\u201340\u2009mmHgSpO2\u2009\u2265\u200995%\t \tVentilation support\tUse of new modalities, such as volume guaranteed to allow varying needs to be met with less swings in CO2\tLargely non-varying tracheostomy / mask ventilation\t \tTracheostomy ventilation\tThe commonest method of ventilation support in the first years of life\tRecommended in the first years of life\t \tAirway assessment procedure\tSimple fibre-optic tracheoscopy preferred\tBronchoscopy\t \tIndications for Airway assessment procedure\t-If new symptoms-After changing tube size or type-Before decannulation-Every 3\u20136\u2009months in children in the first 2\u2009years after tracheostomy\tEvery 12\u201324\u2009months\t \tVentilatory Device\t-Home ventilators while on tracheostomy and mask ventilation:-Home ventilators or bi-level devices with all safety requirements while on mask ventilation\t-Home ventilators while on tracheostomy ventilation-Bi-level devices on timed mode while on mask\t \tVentilation mode\t-Recommended: Pressure-control ventilation (e.g. pressure control on the ventilators, or timed mode on the bi-level devices)-To be avoided: Pressure support mode with no ability to set back-up rate and minimum inspiratory time on spontaneous breaths, and CPAP mode.\t-Recommended: Pressure control or pressure plateau mode via tracheostomy-Bi-level positive airway pressure ventilation by mask or nasal prongs: timed mode\t \tNon-invasive ventilation(mask ventilation)\t-May be considered in infants and young children with close monitoring-The first option for older children and adults presenting with late-onset CCHS\t-Not considered as an optimal mode of ventilation in infants and children-Not considered until 6\u20138 yo at the earliest in stable patients on sleep time ventilation only\t \tPrevention of mid-face hypoplasia (related to mask ventilation)\t-Use of total face masks-Alternating masks of different shapes\tExtreme caution recommended while used in young children\t \tMask models available\tTotal face mask used to reduce pressure on facial structure or to prevent oral air leaks\tFull face mask discouraged because of discomfort and aspiration risks.\t \tAge at transition from trach to mask ventilation\tCan be initiated at varying ages during childhood\tAfter 6 to 8 yo\t \tProcedure for transition from trach to mask ventilation or phrenic nerve pacemaker\t-Tracheal fiberscope-Downsize the tracheostomy cannula-Sleep study while on mask ventilation or pacing with capped tracheostomy\t/\t \tIs PHOX2B the sole CCHS gene?\t-A few other genes, responsible for autosomal recessive hypoventilation, like MYO1H and LBX1, were identified in consanguineous families negative for PHOX2B mutations.-CCHS is a genetically heterogeneous trait\tBesides CCHS associated PHOX2B mutations, only patients carrying coincidental mutations in genes already involved in other neurocristopathies and/or in the development of Neural Crest derived cell lines were reported\t \tNovel kind of CCHS associated PHOX2B anomalies\tInterstitial deletions of the PHOX2B found in association with atypical CCHS presentations, neonatal respiratory distress, Hirschsprung disease, BRUE, etc\tUnknown at that time\t \tMutation penetrance and expressivity\tFor most PARMs and NPARMs, a wide variability in intra-familial mutation penetrance & expressivity is emerging.\tReduced penetrance only reported for a few NPARMs and the shortest PARMs\t \tGenotype \u2013 phenotype correlation\tDifferences for NPARM have been recognized both within and between missense, nonsense, and frameshift mutations\tNPARM mutations did have roughly the same effect without distinguishing among them\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      }
+    ]
+  },
+  {
+    "source": "PMC8039127",
+    "table_count": 8,
+    "tables": [
+      {
+        "passage_index": 13,
+        "infons": {
+          "file": "T1.xml",
+          "id": "T1",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "Symptoms of the Autonomic Nervous System dysregulation described in CCHS patients.",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 14,
+        "infons": {
+          "file": "T1.xml",
+          "id": "T1",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th valign=\"top\" style=\"background-color:#bbbdc0\" align=\"left\" rowspan=\"1\" colspan=\"1\"><bold>LIST OF SYMPTOMS</bold></th></tr></thead><tbody><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Diminished pupillary light response</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Esophageal dysmotility</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Breath-holding spells</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Low basal body temperature</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Profuse sweating</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Lack of physiologic response to the stressors</td></tr></tbody></table>\n"
+        },
+        "text": "LIST OF SYMPTOMS\t \tDiminished pupillary light response\t \tEsophageal dysmotility\t \tBreath-holding spells\t \tLow basal body temperature\t \tProfuse sweating\t \tLack of physiologic response to the stressors\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 33,
+        "infons": {
+          "file": "T2.xml",
+          "id": "T2",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "PHOX2B gene mutations and ventilation mode for 22 of our patients.",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 34,
+        "infons": {
+          "file": "T2.xml",
+          "id": "T2",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\"><bold>Number</bold></th><th valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\"><bold>Type of mutations</bold></th><th valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\"><bold>Mutations</bold></th><th valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\"><bold>Ventilation</bold></th></tr></thead><tbody><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N1</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N2</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N3</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV/NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N4</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N5</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N6</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N7</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Frameshift</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">C.225\u2013256delCT</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">none</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N8</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N9</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N10</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N11</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N12</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Frameshift</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">c.780dupT<xref ref-type=\"table-fn\" rid=\"TN1\"><sup>*</sup></xref></td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N13</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N14</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV/NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N15</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N16</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N17</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N18</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV/NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N19</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N20</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">IMV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N21</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">PARMs</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N22</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">Frameshift</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">C.225\u2013256delCT</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">NIV</td></tr></tbody></table>\n"
+        },
+        "text": "Number\tType of mutations\tMutations\tVentilation\t \tN1\tPARMs\t20 > 26\tIMV\t \tN2\tPARMs\t20 > 26\tIMV\t \tN3\tPARMs\t20 > 26\tIMV/NIV\t \tN4\tPARMs\t20 > 25\tNIV\t \tN5\tPARMs\t20 > 26\tIMV\t \tN6\tPARMs\t20 > 25\tNIV\t \tN7\tFrameshift\tC.225\u2013256delCT\tnone\t \tN8\tPARMs\t20 > 26\tNIV\t \tN9\tPARMs\t20 > 26\tIMV\t \tN10\tPARMs\t20 > 26\tNIV\t \tN11\tPARMs\t20 > 25\tNIV\t \tN12\tFrameshift\tc.780dupT*\tIMV\t \tN13\tPARMs\t20 > 27\tIMV\t \tN14\tPARMs\t20 > 26\tIMV/NIV\t \tN15\tPARMs\t20 > 25\tIMV\t \tN16\tPARMs\t20 > 26\tNIV\t \tN17\tPARMs\t20 > 27\tIMV\t \tN18\tPARMs\t20 > 26\tIMV/NIV\t \tN19\tPARMs\t20 > 27\tIMV\t \tN20\tPARMs\t20 > 27\tIMV\t \tN21\tPARMs\t20 > 25\tNIV\t \tN22\tFrameshift\tC.225\u2013256delCT\tNIV\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 35,
+        "infons": {
+          "file": "T2.xml",
+          "id": "T2",
+          "section_type": "TABLE",
+          "type": "table_footnote"
+        },
+        "text": "Only patients with c.780dupT mutation and HIE showed high dependence on ventilation (22 h/day). PARMs; Polyalanine repeat expansion mutations.",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 50,
+        "infons": {
+          "file": "T3.xml",
+          "id": "T3",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "Genotype and phenotype features of our patients with CCHS.",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 51,
+        "infons": {
+          "file": "T3.xml",
+          "id": "T3",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\"><bold>Number</bold></th><th valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\"><bold>Mutations</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>H&amp;H</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>HSCR</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>HA</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>E</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>S</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>NMi</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>D</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>BHS</bold></th><th valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\"><bold>H&amp;S</bold></th></tr></thead><tbody><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N1</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N2</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N3</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N4</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N5</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N6</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N7</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">C.225_256delCT</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N8</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N9</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N10</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N11</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N12</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">c.780dupT</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N13</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N14</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N15</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N16</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N17</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N18</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 26</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N19</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N20</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 27</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N21</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">20 &gt; 25</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr><tr><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">N22</td><td valign=\"top\" align=\"left\" rowspan=\"1\" colspan=\"1\">C.225_256delCT</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td valign=\"top\" align=\"center\" rowspan=\"1\" colspan=\"1\">X</td><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/><td rowspan=\"1\" colspan=\"1\"/></tr></tbody></table>\n"
+        },
+        "text": "Number\tMutations\tH&H\tHSCR\tHA\tE\tS\tNMi\tD\tBHS\tH&S\t \tN1\t20 > 26\tX\tX\t\t\t\t\t\t\t\t \tN2\t20 > 26\tX\tX\tX\t\t\t\t\t\t\t \tN3\t20 > 26\tX\tX\t\t\tX\t\t\t\t\t \tN4\t20 > 25\tX\t\t\t\t\t\t\t\t\t \tN5\t20 > 26\tX\t\t\t\tX\t\tX\t\t\t \tN6\t20 > 25\tX\t\t\tX\t\tX\t\t\t\t \tN7\tC.225_256delCT\t\tX\t\t\t\t\t\t\t\t \tN8\t20 > 26\tX\t\tX\t\t\t\t\t\t\t \tN9\t20 > 26\tX\tX\t\t\tX\tX\tX\tX\t\t \tN10\t20 > 26\tX\t\t\t\tX\t\t\t\t\t \tN11\t20 > 25\tX\t\t\t\t\t\t\t\t\t \tN12\tc.780dupT\tX\tX\t\t\tX\tX\tX\tX\tX\t \tN13\t20 > 27\tX\t\t\t\tX\tX\tX\t\t\t \tN14\t20 > 26\tX\t\t\t\t\t\t\t\t\t \tN15\t20 > 25\tX\t\tX\t\t\t\t\t\t\t \tN16\t20 > 26\tX\t\t\tX\t\tX\t\t\t\t \tN17\t20 > 27\tX\t\tX\tX\t\tX\t\t\t\t \tN18\t20 > 26\tX\t\t\t\t\t\t\t\t\t \tN19\t20 > 27\tX\t\t\t\t\t\tX\t\tX\t \tN20\t20 > 27\tX\t\tX\t\t\t\tX\t\t\t \tN21\t20 > 25\tX\t\t\t\t\t\t\t\t\t \tN22\tC.225_256delCT\tX\tX\tX\t\t\t\t\t\t\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 52,
+        "infons": {
+          "file": "T3.xml",
+          "id": "T3",
+          "section_type": "TABLE",
+          "type": "table_foot"
+        },
+        "text": "H&H, hypoventilation & hypercapnia; HSCR, Hirschsprung's disease; HA, heart anomalies; E, epilepsy; S, strabismus; NMi, neuromotor impairment; D, dysphagia; BHS, breath-holding spells; H&S, hypoglycemia & seizure.",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      }
+    ]
+  },
+  {
+    "source": "PMC8963195",
+    "table_count": 4,
+    "tables": [
+      {
+        "passage_index": 16,
+        "infons": {
+          "file": "t0001.xml",
+          "id": "t0001",
+          "section_type": "TABLE",
+          "type": "table_caption"
+        },
+        "text": "Recommended Evaluations in Patients with CCHS",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 17,
+        "infons": {
+          "file": "t0001.xml",
+          "id": "t0001",
+          "section_type": "TABLE",
+          "type": "table",
+          "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<table frame=\"hsides\" rules=\"groups\"><thead><tr><th rowspan=\"1\" colspan=\"1\"/><th rowspan=\"1\" colspan=\"1\">Evaluation</th><th rowspan=\"1\" colspan=\"1\">Frequency</th><th rowspan=\"1\" colspan=\"1\"><italic toggle=\"yes\">PHOX2B</italic> Genotype</th></tr></thead><tbody><tr><td rowspan=\"1\" colspan=\"1\">Pulmonary</td><td rowspan=\"1\" colspan=\"1\">Comprehensive physiologic testing during sleep and wakefulness including continuous pulse oximetry, cardiorespiratory monitoring, capnography, and polysomnography</td><td rowspan=\"1\" colspan=\"1\">&lt; 3 years of age: every 6 months<break/>\u2265 3 years: annually</td><td rowspan=\"1\" colspan=\"1\">All <italic toggle=\"yes\">PHOX2B</italic> PARM and NPARM</td></tr><tr><td rowspan=\"1\" colspan=\"1\">Cardiovascular</td><td rowspan=\"1\" colspan=\"1\">Ambulatory cardiac monitoring (\u226572 hours), blood pressure, and echocardiogram</td><td rowspan=\"1\" colspan=\"1\">Annually</td><td rowspan=\"1\" colspan=\"1\">All <italic toggle=\"yes\">PHOX2B</italic> PARM and NPARM</td></tr><tr><td rowspan=\"1\" colspan=\"1\">Gastrointestinal</td><td rowspan=\"1\" colspan=\"1\">Barium enema or anorectal manometry. Confirmation by rectal biopsy.</td><td rowspan=\"1\" colspan=\"1\">At initial diagnosis and subsequently if symptoms appear</td><td rowspan=\"1\" colspan=\"1\">20/26 \u2013 20/33 PARM and NPARM</td></tr><tr><td rowspan=\"1\" colspan=\"1\">Neurodevelopmental</td><td rowspan=\"1\" colspan=\"1\">Comprehensive neurocognitive tests</td><td rowspan=\"1\" colspan=\"1\">&lt; 3 years of age: every 6 months<break/>\u2265 3 years: annually</td><td rowspan=\"1\" colspan=\"1\">All <italic toggle=\"yes\">PHOX2B</italic> PARM and NPARM</td></tr><tr><td rowspan=\"1\" colspan=\"1\">Oncologic</td><td rowspan=\"1\" colspan=\"1\">Chest radiograph, abdominal ultrasound, and urine catecholamines (homovanillic acid and vanillylmandelic acid).</td><td rowspan=\"1\" colspan=\"1\">0\u20136 years of age: every 3 months<break/>6\u201310 years of age: every 6 months<break/>&gt; 10 years of age: per oncologist recommendation</td><td rowspan=\"1\" colspan=\"1\">20/28 \u2013 20/33 PARM and NPARM</td></tr><tr><td rowspan=\"1\" colspan=\"1\">Ophthalmologic</td><td rowspan=\"1\" colspan=\"1\">Comprehensive ocular testing by an ophthalmologist</td><td rowspan=\"1\" colspan=\"1\">Annually</td><td rowspan=\"1\" colspan=\"1\">All <italic toggle=\"yes\">PHOX2B</italic> PARM and NPARM</td></tr></tbody></table>\n"
+        },
+        "text": "\tEvaluation\tFrequency\tPHOX2B Genotype\t \tPulmonary\tComprehensive physiologic testing during sleep and wakefulness including continuous pulse oximetry, cardiorespiratory monitoring, capnography, and polysomnography\t< 3 years of age: every 6 months\u2265 3 years: annually\tAll PHOX2B PARM and NPARM\t \tCardiovascular\tAmbulatory cardiac monitoring (\u226572 hours), blood pressure, and echocardiogram\tAnnually\tAll PHOX2B PARM and NPARM\t \tGastrointestinal\tBarium enema or anorectal manometry. Confirmation by rectal biopsy.\tAt initial diagnosis and subsequently if symptoms appear\t20/26 \u2013 20/33 PARM and NPARM\t \tNeurodevelopmental\tComprehensive neurocognitive tests\t< 3 years of age: every 6 months\u2265 3 years: annually\tAll PHOX2B PARM and NPARM\t \tOncologic\tChest radiograph, abdominal ultrasound, and urine catecholamines (homovanillic acid and vanillylmandelic acid).\t0\u20136 years of age: every 3 months6\u201310 years of age: every 6 months> 10 years of age: per oncologist recommendation\t20/28 \u2013 20/33 PARM and NPARM\t \tOphthalmologic\tComprehensive ocular testing by an ophthalmologist\tAnnually\tAll PHOX2B PARM and NPARM\t \t",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 18,
+        "infons": {
+          "file": "t0001.xml",
+          "id": "t0001",
+          "section_type": "TABLE",
+          "type": "table_footnote"
+        },
+        "text": "Note: Data from these studies..",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      },
+      {
+        "passage_index": 19,
+        "infons": {
+          "file": "t0001.xml",
+          "id": "t0001",
+          "section_type": "TABLE",
+          "type": "table_footnote"
+        },
+        "text": "Abbreviations: NPARM, nonpolyalanine repeat expansion mutation; PARM, polyalanine repeat expansion mutation; PHOX2B, paired-like homeobox 2B.",
+        "other_keys": [
+          "bioctype",
+          "sentences"
+        ]
+      }
+    ]
+  }
+]

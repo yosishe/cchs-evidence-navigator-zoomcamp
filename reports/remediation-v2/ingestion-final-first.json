@@ -1,0 +1,19 @@
+{
+  "status": "EXECUTED",
+  "created_at": "2026-09-05T22:44:48.831683+00:00",
+  "engine": "dlt/duckdb",
+  "source_count": 3,
+  "chunk_count": 377,
+  "excluded_passage_count": 390,
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "manifest_hash": "bb1cea58fcdddcb665702ad784befd55cc0c934f97b797f46bebbb7605313b46",
+  "documents_sha256": "b4ab1c1285763c4ad88ddb0bc6d052b129539f1fae5d1d218becf3a71da9a9ed",
+  "seconds": 0.6774734999999055,
+  "load_ids": [
+    "1788648288.680005"
+  ],
+  "config": {
+    "chunk_chars": 750,
+    "overlap_chars": 150
+  }
+}

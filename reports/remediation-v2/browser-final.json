@@ -1,0 +1,47 @@
+{
+  "status": "PREVIEW_CSV_VERIFIED",
+  "answer_id": "34413eb9-722b-4229-ad6e-94e3778faf91",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "download_sha256": "63026c4e7de16e8bfb22cbc87d5e46d9aa0dd939b815d7b0a75b22597193ddec",
+  "download_rows": 5,
+  "exact_source_fields_verified": true,
+  "standalone_headings_present": false,
+  "requested_limitation_passage_rank": 5,
+  "real_model_calls": 0,
+  "qa_scope_only": true,
+  "feedback_saved": true,
+  "monitoring_browser_observation": {
+    "observed_at": "2026-09-05T23:16:54.860199+00:00",
+    "origin": "qa",
+    "mode": "all",
+    "stored_requests": 2,
+    "feedback_coverage": [
+      2,
+      2
+    ],
+    "ratings": {
+      "Helpful": 1,
+      "Not helpful": 1
+    },
+    "outcomes": {
+      "preview": 2
+    },
+    "five_charts_rendered": true,
+    "provider_usage": "No provider usage has been recorded.",
+    "user_scope_empty": true,
+    "researcher_satisfaction_established": false
+  },
+  "startup_compatibility_recheck": {
+    "observed_at": "2026-09-05T23:24:16.433007+00:00",
+    "file_watcher": "none",
+    "answer_id": "98cfe043-7494-4543-9798-84dc97be94cb",
+    "preview_search_rendered": true,
+    "model_embedding_loaded_from_existing_cache": true,
+    "missing_optional_dependency_errors": false,
+    "generative_model_calls": 0,
+    "server_log": "browser-server-final.log",
+    "extra_qa_request_saved": true,
+    "feedback_not_submitted_on_this_recheck": true
+  }
+}

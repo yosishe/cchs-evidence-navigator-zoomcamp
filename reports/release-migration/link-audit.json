@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-09-07T18:40:40.323679+00:00",
+  "scope": "README/docs/data relative Markdown links; fenced examples and external URLs excluded; not an HTTP availability or rendered-browser check",
+  "files_checked": 18,
+  "links_checked": 421,
+  "findings": [],
+  "status": "PASS"
+}

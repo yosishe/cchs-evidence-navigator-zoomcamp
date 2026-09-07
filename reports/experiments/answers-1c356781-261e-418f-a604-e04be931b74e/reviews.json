@@ -1,0 +1,175 @@
+{
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "ea7f2d281d88fa2a6b7520d2707bc55f1d9a7b5a59dccbe460efaa979f5aaec2",
+  "reviews": [
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "partial",
+        "unsupported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The first claim names clinical/genetic findings from Italian discussion passage 54. The second turns retrospective analysis (methods passage 2) into a stated study aim. The actual second aim in source passage 17 is management changes over time, and passage 17 is not retrieved. The answer does not label this substitution as inference. Genuine copied quotes do not justify the claimed second aim.",
+      "answer_id": "9982ec1d-6dcc-41a4-8d24-33939d88f6df",
+      "record_hash": "f5fb3b92aadcc2306a1d606c4f1a16d79df327e97cfe0c18b827fbe5f992c5db"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "Italian passage 19 explicitly supports 22 patients collected retrospectively and referral/follow-up between 2000 and 2020. Both claims and quotes include the requested facts with the correct publication. The canonical/exported text retains the original quotes; empty limitations introduces no unsupported study caveat.",
+      "answer_id": "95853516-fc2b-4444-a2a9-61a72809dd91",
+      "record_hash": "b496f60653e295d2f39ad8394ce583a96550d6db873d1f6e5ebcea61791fce8f"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "partial"
+      ],
+      "qualification_coverage": [],
+      "reason": "The response states looking back at patient records and quotes retrospective collection from Italian passage 19. The frozen requirement explicitly identifies electronic records; that detail is not in the statement, quoted span or limitations. It is partly, not fully, covered. This is the same criterion used for arm 3; arm 2 visibly includes the EMR quote.",
+      "answer_id": "db5e7f68-929d-48f0-ae03-bf80100a051a",
+      "record_hash": "17bf7018db91b92d6cfa6397f73ba9bb7c02c9d299c38421c4eaf684938af206"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The fixed vector/5 context omits guideline paragraph 13 on low-grade descriptive evidence and clinical experience. The generic corpus-scoped refusal does not assert an unsupported premise, but does not answer the two required facts.",
+      "answer_id": "fd981feb-7f53-4598-85c1-6777547c331f",
+      "record_hash": "2f794f826a7a6c5c89b0012d3aaf0d32543ca3185f7bd20c61544019b5ca11ce"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The context lacks the review passage with chromosome 4p12 and three exons. The response does not invent a location/exon count and limits its uncertainty to the supplied passages; it remains an end-to-end failure on this answerable question.",
+      "answer_id": "58f02bc9-1caa-4fea-ba07-c24e878b2d20",
+      "record_hash": "1e82d600cc035b8332aba21a9ae90862b70c14638e3d4451845c59353f646bf8"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "reason": "Italian passage 32 explicitly gives 20/25, 20/26 and 20/27 PARMs in 19/22 cases; the review passage 10:600 independently states those common genotypes. The answer separates the publications, keeps the requested exact identifiers and does not add unsupported limitations. Source-linked exports retain the same quotes.",
+      "answer_id": "35749c9f-58b3-459f-b25c-22be6bc52dc6",
+      "record_hash": "c9529f69207993fe52411d0638add4d148e618c5ee6bc98d1af06d0f5b7da509"
+    },
+    {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "reason": "The raw JSON omits the required top-level limitations field, so strict validation rejects the response. Its narrative is retained only as a failed raw attempt; no canonical claims or claim/tag exports are displayed. The missing clinical-experience comparison is not repaired by schema compliance.",
+      "answer_id": "f5d5ddaf-7db9-4b32-b59f-06e58bfcff19",
+      "record_hash": "e0301eb67b56d2dc8b718a3f1c15f65f2efa715de985987dda75d67c18f9b22d"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "unsupported",
+        "unsupported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The first two claims accurately quote the Italian PARM/NPARM counts and review NPARM 10%. The third incorrectly says 86% is higher than an inferred 90%, and the fourth incorrectly says 14% is lower than 10%. The 90% value appears but is inferred from NPARM 10%, not directly supported by its quote. Numeric coverage is recorded separately from these unsupported/arithmetically false claims. The different-evidence-bases/small-cohort qualification is absent.",
+      "answer_id": "d39dc66b-edc8-4e91-bbcf-6cb046d60757",
+      "record_hash": "bdec631ab1425efcbb15a3eaad3eba4cf3cbe63beedd8b780a6b8343787c5dbe"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The supplied ventilator-mode passages do not contain the repeat-length association qualification and exceptions in guideline passage 52. Generic corpus-scoped refusal is defensible for the actual context but provides neither required element.",
+      "answer_id": "28b3bc5a-c14f-4406-8ae9-473f2f9b54b5",
+      "record_hash": "03935892db49cd97eaae84d63bf02d4fa369150efc8db914bbc1283989097d82"
+    },
+    {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "reason": "The response declines to answer whether retrospective findings may be presented as randomized causal evidence. It adds no broad causal rule or positive randomization claim, but omits the available narrow retrospective-design answer and the required heterogeneity qualification. It is an incomplete answer, not a successful end-to-end abstention.",
+      "answer_id": "7a72dc06-5f4e-4407-b6a5-1707d9228ef2",
+      "record_hash": "89044e90d89c80cd27249acc555707a42617abb8d8c4e61823f4f4f3a75aa787"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "The refusal says that the supplied genetics/testing passages do not report a randomized gene-editing result. It does not assert that such an intervention occurred. No claims or claim/tag exports are emitted.",
+      "answer_id": "4789db9e-5540-4bb8-9b6d-c3e56fe63fb8",
+      "record_hash": "703bb7ccbda78ebea3803425673a98f016719cac6584ace984cd38cf26b3bf20"
+    },
+    {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "reason": "No downloadable patient-level transcriptomic accession is established by these supplied passages. The refusal invents no identifier and stays scoped to this corpus context. Empty claims/exports preserve uncertainty.",
+      "answer_id": "1dcd00cb-84e5-4ea4-8354-e4d5399dcabd",
+      "record_hash": "6b7b91cdad9249e2e0ad63ca9642aecb5b1950e7f1104919c5bd3c1f9c071a59"
+    }
+  ]
+}

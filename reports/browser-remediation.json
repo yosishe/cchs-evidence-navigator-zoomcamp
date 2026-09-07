@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-09-05T21:21:58.093270+00:00",
+  "scope": "Revised local app at http://127.0.0.1:8502/; CUA browser AX and initial-page screenshot",
+  "answer_id": "5c880b8d-11c1-48b5-84d0-b2f61f89e431",
+  "traffic_origin": "qa",
+  "mode": "evidence_preview",
+  "question": "What limitations does the retrospective Italian study describe?",
+  "search_displayed": true,
+  "sources_displayed": 5,
+  "feedback_saved": true,
+  "feedback_join_verified_in_journal": true,
+  "five_populated_core_charts_observed": [
+    "request volume",
+    "generation/validation duration",
+    "retrieved passage count",
+    "feedback distribution",
+    "request outcomes"
+  ],
+  "qa_scope_at_observation": {
+    "requests": 1,
+    "rated_requests": 1
+  },
+  "later_correction": "One additional known pre-fix AppTest request was classified as QA; subsequent QA scope includes it without inventing feedback.",
+  "provider_tokens": "No provider usage recorded; optional sixth chart remains empty",
+  "download_verification": "Button clicked; browser download wait stalled and returned no usable file location. Downloaded-file verification remains incomplete. CSV content passed local round-trip regressions.",
+  "human_researcher_satisfaction": "NOT_ESTABLISHED",
+  "paid_model_calls": 0
+}

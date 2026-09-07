@@ -1,0 +1,826 @@
+{
+  "status": "LOCAL_RESEARCH_CANDIDATE_NOT_PROMOTED",
+  "created_at": "2026-09-07T16:06:46.129411+00:00",
+  "requested_new_publications": 14,
+  "original_publications_preserved": 3,
+  "candidate_publication_count": 17,
+  "new_fulltext_prose_candidates": 10,
+  "new_abstract_only_publications": 4,
+  "local_original_pdf_count": 14,
+  "local_original_pdf_pages": 236,
+  "full_pdf_bodies_not_indexed_pmids": [
+    "40816914",
+    "40610826",
+    "20208042",
+    "36289132"
+  ],
+  "source_list_pdf_pages_reviewed": [
+    1,
+    2
+  ],
+  "scientific_validation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW; full scientific review pending",
+  "active_corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "candidate_corpus_id": "51ba5652e876225b17ba1407fe5d848ade67b38c71c0e3fab3d7aadebed6806a",
+  "candidate_config_id": "3cd25866babafc627feb22d2e206bd0babedd2b5024801eff46645382dfc032e",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "active_config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "candidate_window_count": 1212,
+  "original_windows_preserved": 377,
+  "excluded_passages": 1704,
+  "sources": [
+    {
+      "source_id": "PMC11168103",
+      "source_list_row": 1,
+      "source_list_article_id": "ART-001",
+      "pmid": "38873078",
+      "pmcid": "PMC11168103",
+      "doi": "10.1039/d3sc06427a",
+      "title": "Structural characterization of PHOX2B and its DNA interaction shed light on the molecular basis of the +7Ala variant pathogenicity in CCHS",
+      "article_type": "primary study; structural biophysics",
+      "year": "2024",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY-NC",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Protein structures and DNA interaction; do not infer patient treatment efficacy.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "30182187b3053616fde1011b70b5586edf7b04aac1a3a1e97428c54b75761129",
+      "full_pdf_sha256": "8f273e9db7888ace64d476c92aa122dea06c1c7051ab40f65515f11380329c24",
+      "transformations": [
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 2,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2024Jun12",
+        "pubmed_article_dates": [
+          {
+            "Year": "2024",
+            "Month": "05",
+            "Day": "01"
+          }
+        ],
+        "bioc_year": "2024"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/38873078/",
+      "candidate_chunks": 80,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMC12004424",
+      "source_list_row": 2,
+      "source_list_article_id": "ART-002",
+      "pmid": "40248550",
+      "pmcid": "PMC12004424",
+      "doi": "10.7759/cureus.80776",
+      "title": "Current Status and Challenges of Diaphragm Pacing in Japan: A Systematic Review of Case Reports",
+      "article_type": "systematic review of case reports",
+      "year": "2025",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Case reports include spinal cord injury and CCHS; do not apply pooled rates to CCHS alone.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "bc61be3b7b32be0b817f90969a84b23a34194d3a5281084a288c4eebae2c772c",
+      "full_pdf_sha256": "7a177268cd96b36fec8a41c9dfc2b081237272ecdac2adfda902202b9273b917",
+      "transformations": [],
+      "publication_dates": {
+        "pubmed_journal_date": "2025Mar",
+        "pubmed_article_dates": [
+          {
+            "Year": "2025",
+            "Month": "03",
+            "Day": "18"
+          }
+        ],
+        "bioc_year": "2025"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/40248550/",
+      "candidate_chunks": 40,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMID40816914",
+      "source_list_row": 3,
+      "source_list_article_id": "ART-003",
+      "pmid": "40816914",
+      "pmcid": "PMC12360489",
+      "doi": "10.1016/j.tins.2025.07.006",
+      "title": "Retrotrapezoid nucleus chemoreception: mechanisms of function and contributions to disordered breathing in disease",
+      "article_type": "review; preclinical chemoreception; ABSTRACT ONLY",
+      "year": "2025",
+      "content_scope": "abstract_only_full_pdf_not_indexed",
+      "license_code": "LOCAL_ONLY_COPYRIGHT_RETAINED",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Review of preclinical rodent mechanisms; not proof of a clinical intervention.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "2dc92a879655364cb47f83c3dc9df71d7faff81ad96d8d323eee252ed0306540",
+      "full_pdf_sha256": "a68926c339f4ed45cdd092075cd3f7a33991ad266e0c0f7b7b6a1203516e0050",
+      "transformations": [
+        {
+          "operation": "PubMed_abstract_to_BioC_envelope",
+          "basis": "Each abstract section text is unchanged from XML itertext extraction; artificial BioC offsets locate this derived envelope, not the PDF."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2025Sep",
+        "pubmed_article_dates": [
+          {
+            "Year": "2025",
+            "Month": "08",
+            "Day": "15"
+          }
+        ],
+        "bioc_year": null
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/40816914/",
+      "candidate_chunks": 2,
+      "extract_scope_status": "PARTIAL_ABSTRACT_ONLY"
+    },
+    {
+      "source_id": "PMID40610826",
+      "source_list_row": 4,
+      "source_list_article_id": "ART-004",
+      "pmid": "40610826",
+      "pmcid": null,
+      "doi": "10.1007/s11325-025-03402-3",
+      "title": "Respiratory events and sleep structure of children suffering from congenital central hypoventilation syndrome under assisted ventilation: a cross-sectional descriptive study",
+      "article_type": "primary study; cross-sectional pediatric ventilation; ABSTRACT ONLY",
+      "year": "2025",
+      "content_scope": "abstract_only_full_pdf_not_indexed",
+      "license_code": "LOCAL_ONLY_COPYRIGHT_RETAINED",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Children under assisted ventilation in a cross-sectional study; not untreated natural history.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "fdc1b9b76cb622d36b1f59180b1b7e7dc99db034badba0f6bbde21e0e454950b",
+      "full_pdf_sha256": "1e3e24a00f28eb7dd523ff3916cd2f5e6b3bce26243b3f49cb209361cba7ea26",
+      "transformations": [
+        {
+          "operation": "PubMed_abstract_to_BioC_envelope",
+          "basis": "Each abstract section text is unchanged from XML itertext extraction; artificial BioC offsets locate this derived envelope, not the PDF."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2025Jul03",
+        "pubmed_article_dates": [
+          {
+            "Year": "2025",
+            "Month": "07",
+            "Day": "03"
+          }
+        ],
+        "bioc_year": null
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/40610826/",
+      "candidate_chunks": 5,
+      "extract_scope_status": "PARTIAL_ABSTRACT_ONLY"
+    },
+    {
+      "source_id": "PMC10897158",
+      "source_list_row": 5,
+      "source_list_article_id": "ART-005",
+      "pmid": "38177505",
+      "pmcid": "PMC10897158",
+      "doi": "10.1038/s44318-023-00018-9",
+      "title": "Disease-associated polyalanine expansion mutations impair UBA6-dependent ubiquitination",
+      "article_type": "primary study; molecular and cellular models",
+      "year": "2024",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Polyalanine disease models include neurons; distinguish molecular rescue from clinical benefit.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "6342395935c75bc100c67de24c9181f2526eb5022c03c1659153cd4f13846b6a",
+      "full_pdf_sha256": "256b4f87ae83184e3a3187cd2e572a44b26927f3315df29176d149f3e4d0884d",
+      "transformations": [
+        {
+          "operation": "canonicalize_document_id",
+          "before": "unknown",
+          "after": "PMC10897158",
+          "basis": "Verified PubMed PMCID, front-matter PMCID identifiers and DOI agree. All other JSON content is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 2,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 2,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 3,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 4,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 5,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 6,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 7,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 8,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 9,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2024Jan",
+        "pubmed_article_dates": [
+          {
+            "Year": "2024",
+            "Month": "01",
+            "Day": "02"
+          }
+        ],
+        "bioc_year": "2024"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/38177505/",
+      "candidate_chunks": 123,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMC10557475",
+      "source_list_row": 6,
+      "source_list_article_id": "ART-006",
+      "pmid": "35965033",
+      "pmcid": "PMC10557475",
+      "doi": "10.1016/B978-0-323-91534-2.00007-2",
+      "title": "Central respiratory chemoreception",
+      "article_type": "review; respiratory chemoreception",
+      "year": "2022",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "author_manuscript",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Broad physiological review; not every mechanism is demonstrated in human CCHS.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "7b8289dd2f6a361c3d424b62090093ef1ade30fe80ff357cb9edb5f4b1fc34ca",
+      "full_pdf_sha256": "1a360b3c1d13399fdb42203318e22d04b882816b0ca1c915dfb182c3bca8c8e0",
+      "transformations": [
+        {
+          "operation": "canonicalize_document_id",
+          "before": "10557475",
+          "after": "PMC10557475",
+          "basis": "Verified PubMed PMCID, front-matter PMCID identifiers and DOI agree. All other JSON content is unchanged."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2022",
+        "pubmed_article_dates": [],
+        "bioc_year": "2023"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/35965033/",
+      "candidate_chunks": 197,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMC7835644",
+      "source_list_row": 7,
+      "source_list_article_id": "ART-007",
+      "pmid": "33510615",
+      "pmcid": "PMC7835644",
+      "doi": "10.3389/fnins.2020.615666",
+      "title": "Research Advances on Therapeutic Approaches to Congenital Central Hypoventilation Syndrome (CCHS)",
+      "article_type": "review; therapeutic research",
+      "year": "2020",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Review-era hypotheses and experiments; proposed treatment is not established efficacy.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "ac1d6829ff59075ab780dd6e9990e31a7cb1f4c4314d53395778a333a5447a4b",
+      "full_pdf_sha256": "ecac492d2dccbea55980574b0d415c9d2557bd1128d010c4315d4d9199ecfac4",
+      "transformations": [],
+      "publication_dates": {
+        "pubmed_journal_date": "2020",
+        "pubmed_article_dates": [
+          {
+            "Year": "2021",
+            "Month": "01",
+            "Day": "12"
+          }
+        ],
+        "bioc_year": "2020"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/33510615/",
+      "candidate_chunks": 116,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMID20208042",
+      "source_list_row": 8,
+      "source_list_article_id": "ART-008",
+      "pmid": "20208042",
+      "pmcid": null,
+      "doi": "10.1164/rccm.200807-1069ST",
+      "title": "An official ATS clinical policy statement: Congenital central hypoventilation syndrome: genetic basis, diagnosis, and management",
+      "article_type": "historical clinical policy statement; ABSTRACT ONLY",
+      "year": "2010",
+      "content_scope": "abstract_only_full_pdf_not_indexed",
+      "license_code": "LOCAL_ONLY_COPYRIGHT_RETAINED",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "2010 statement; preserve its date and compare later guidelines rather than calling it current.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "19095b16e96526e7896bc400ab503546674bba16828b059b829bb52ec7329e24",
+      "full_pdf_sha256": "2d21906a49d8a35a71c169f090a8eb9f4de51b6f891923756a8fa82c6834d0f2",
+      "transformations": [
+        {
+          "operation": "PubMed_abstract_to_BioC_envelope",
+          "basis": "Each abstract section text is unchanged from XML itertext extraction; artificial BioC offsets locate this derived envelope, not the PDF."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2010Mar15",
+        "pubmed_article_dates": [],
+        "bioc_year": null
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/20208042/",
+      "candidate_chunks": 6,
+      "extract_scope_status": "PARTIAL_ABSTRACT_ONLY"
+    },
+    {
+      "source_id": "PMC4503865",
+      "source_list_row": 9,
+      "source_list_article_id": "ART-009",
+      "pmid": "25975378",
+      "pmcid": "PMC4503865",
+      "doi": "10.1007/s00401-015-1441-0",
+      "title": "Dysregulation of locus coeruleus development in congenital central hypoventilation syndrome",
+      "article_type": "primary study; human postmortem and transgenic mouse models",
+      "year": "2015",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Two neonatal-lethal postmortem cases and a transgenic mouse model are different evidence units.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "91de154ca04145d850e8587f981bf31c1b6dc2fa21557c5fb3b4cae6d0c52138",
+      "full_pdf_sha256": "3ac9bb0d5038bba566b1188884346ab55a08880af041b319d0ab59fb97c759da",
+      "transformations": [
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 2,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 2,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 3,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2015Aug",
+        "pubmed_article_dates": [
+          {
+            "Year": "2015",
+            "Month": "05",
+            "Day": "15"
+          }
+        ],
+        "bioc_year": "2015"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/25975378/",
+      "candidate_chunks": 51,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMC10362500",
+      "source_list_row": 10,
+      "source_list_article_id": "ART-010",
+      "pmid": "37352849",
+      "pmcid": "PMC10362500",
+      "doi": "10.1016/j.stemcr.2023.05.020",
+      "title": "Organoid models of breathing disorders reveal patterning defect of hindbrain neurons caused by PHOX2B-PARMs",
+      "article_type": "primary study; human stem-cell-derived organoids",
+      "year": "2023",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY-NC-ND",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Human organoid models are not patient therapeutic outcomes; distinguish brainstem and cerebral models.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "321f9e8613c8267cd0849aa9038f3bee616a794a9c3691d8fdde46053689c164",
+      "full_pdf_sha256": "c7272b07e4b3f228114b3e1a0f93e9b7d0adcfbe758d89777ec210ab08c2c6d9",
+      "transformations": [
+        {
+          "operation": "canonicalize_document_id",
+          "before": "10362500",
+          "after": "PMC10362500",
+          "basis": "Verified PubMed PMCID, front-matter PMCID identifiers and DOI agree. All other JSON content is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 1,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 3,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 3,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 4,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 5,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 6,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 7,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 8,
+          "before": "ABSTRACT",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2023Jul11",
+        "pubmed_article_dates": [
+          {
+            "Year": "2023",
+            "Month": "06",
+            "Day": "22"
+          }
+        ],
+        "bioc_year": "2023"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/37352849/",
+      "candidate_chunks": 65,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMC13080240",
+      "source_list_row": 11,
+      "source_list_article_id": "ART-011",
+      "pmid": "41981969",
+      "pmcid": "PMC13080240",
+      "doi": "10.1002/ppul.71619",
+      "title": "International Congenital Central Hypoventilation Syndrome (CCHS) Registry: Analysis of Patient-Reported Symptoms by PHOX2B Variant",
+      "article_type": "primary study; patient-reported registry surveys",
+      "year": "2026",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Initial registry surveys are patient-reported associations, not causal effects of variants.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "047a3470763427156382b1da1a757e3a3bf7560beea62ad240aa326682656e29",
+      "full_pdf_sha256": "53e905b405ff409859e5f5edd8e6437bed193122d4ca14d2f9d0ddea33abc276",
+      "transformations": [
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 1,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 2,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 4,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 6,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 8,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2026Apr",
+        "pubmed_article_dates": [],
+        "bioc_year": "2026"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/41981969/",
+      "candidate_chunks": 55,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMC11927375",
+      "source_list_row": 12,
+      "source_list_article_id": "ART-012",
+      "pmid": "40116467",
+      "pmcid": "PMC11927375",
+      "doi": "10.1002/ppul.71012",
+      "title": "Congenital Central Hypoventilation Syndrome (CCHS): Patient Quality of Life and Caregiver Burden",
+      "article_type": "primary study; cross-sectional patient and caregiver surveys",
+      "year": "2025",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY-NC-ND",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Separate patient QoL from caregiver burden, instruments, recruitment and denominators.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "012619b7515084e6d62c958cd5b1872ef81750adfc8140126dff0dc33833aebe",
+      "full_pdf_sha256": "1dd3415f4f55e7caf030f0ac66274fd3b3e207e3349abbd237a53a625837bdac",
+      "transformations": [
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 1,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 2,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 4,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 6,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 8,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2025Mar",
+        "pubmed_article_dates": [],
+        "bioc_year": "2025"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/40116467/",
+      "candidate_chunks": 56,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMC10226304",
+      "source_list_row": 13,
+      "source_list_article_id": "ART-013",
+      "pmid": "37256017",
+      "pmcid": "PMC10226304",
+      "doi": "10.1177/11795565231169556",
+      "title": "Congenital Central Hypoventilation Syndrome: Diagnosis and Long-Term Ventilatory Outcomes",
+      "article_type": "primary study; retrospective single-center cohort",
+      "year": "2023",
+      "content_scope": "full_text_prose_candidate",
+      "license_code": "CC BY-NC",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Retrospective single-center respiratory outcomes; association is not proof of treatment causality.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "76986f0f05f94d0e96aad866e00f23578ef23a6e3a67f6474d58957012af4f1c",
+      "full_pdf_sha256": "976f2d7ae9de0a6911422cca3ed8f4716edde431c023cf89438fb2187385dbb4",
+      "transformations": [
+        {
+          "operation": "canonicalize_document_id",
+          "before": "10226304",
+          "after": "PMC10226304",
+          "basis": "Verified PubMed PMCID, front-matter PMCID identifiers and DOI agree. All other JSON content is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 1,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 3,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 5,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "normalize_abstract_heading_type",
+          "passage_index": 7,
+          "before": "abstract_title_1",
+          "after": "title",
+          "basis": "Existing parser recognizes title-prefixed headings as metadata; heading text is unchanged."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 55,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 56,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 58,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 59,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 60,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 61,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 62,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        },
+        {
+          "operation": "exclude_reviewed_non_body_record",
+          "passage_index": 63,
+          "before": "DISCUSS",
+          "after": "SUPPL",
+          "basis": "Reviewed graphical summary, editorial synopsis/highlights, supplementary-material notice or administrative footnote; preserved upstream but outside this evidence-prose pilot."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2023",
+        "pubmed_article_dates": [
+          {
+            "Year": "2023",
+            "Month": "05",
+            "Day": "26"
+          }
+        ],
+        "bioc_year": "2023"
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/37256017/",
+      "candidate_chunks": 34,
+      "extract_scope_status": "FULLTEXT_PROSE_WITH_DECLARED_EXCLUSIONS"
+    },
+    {
+      "source_id": "PMID36289132",
+      "source_list_row": 14,
+      "source_list_article_id": "ART-015",
+      "pmid": "36289132",
+      "pmcid": null,
+      "doi": "10.1007/s10286-022-00901-1",
+      "title": "Neurocognition as a biomarker in the rare autonomic disorders of CCHS and ROHHAD",
+      "article_type": "narrative review with additional center data; CCHS and ROHHAD; ABSTRACT ONLY",
+      "year": "2023",
+      "content_scope": "abstract_only_full_pdf_not_indexed",
+      "license_code": "LOCAL_ONLY_COPYRIGHT_RETAINED",
+      "public_distribution_status": "NOT_APPROVED_FOR_LOCAL_CANDIDATE",
+      "evidence_context": "Keep CCHS and ROHHAD findings separate; mixed review and previously unpublished center data.",
+      "annotation_status": "AGENT_METADATA_AND_ABSTRACT_REVIEW_ONLY; full scientific review pending",
+      "sha256": "dceb9de61ee110b315335c9b08af4067e4bfcdf2ad52d265bcdea9531b78cf51",
+      "full_pdf_sha256": "13ecb6d4f29ea3350feb438e3d31aaa0ccc021c5cff244776cf26ddb2b51f5e0",
+      "transformations": [
+        {
+          "operation": "PubMed_abstract_to_BioC_envelope",
+          "basis": "Each abstract section text is unchanged from XML itertext extraction; artificial BioC offsets locate this derived envelope, not the PDF."
+        }
+      ],
+      "publication_dates": {
+        "pubmed_journal_date": "2023Jun",
+        "pubmed_article_dates": [
+          {
+            "Year": "2022",
+            "Month": "10",
+            "Day": "27"
+          }
+        ],
+        "bioc_year": null
+      },
+      "article_url": "https://pubmed.ncbi.nlm.nih.gov/36289132/",
+      "candidate_chunks": 5,
+      "extract_scope_status": "PARTIAL_ABSTRACT_ONLY"
+    }
+  ],
+  "new_raw_sources_in_public_package": false,
+  "candidate_location": "Separate local research workspace; deliberately excluded from public package",
+  "meaning": "Source intake and local retrieval evidence only. Not answer quality, promotion, publication approval or a grade."
+}

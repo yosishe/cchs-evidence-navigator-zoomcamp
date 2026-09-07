@@ -1,0 +1,11 @@
+{
+  "status": "NOT_RUN_GEMMA_COMPOSE_OUTSIDE_APPROVED_FINAL_SCOPE",
+  "created_at": "2026-09-07T18:21:11.226272+00:00",
+  "primary_runtime": "Native Mac Ollama and explicit JSONL",
+  "new_container_model_copies": 0,
+  "docker_resource_changes": 0,
+  "historical_evidence": "reports/container-rehearsal.json",
+  "historical_model": "phi3",
+  "historical_result": "Build, initialization, 172 Linux checks, one abstention, exports, feedback and PostgreSQL restart passed; two answerable calls timed out at 120 seconds. No Gemma Compose execution is claimed.",
+  "resources": "Existing rehearsal unchanged; no installs or new downloads were authorized for final native work."
+}

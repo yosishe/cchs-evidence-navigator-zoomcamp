@@ -1,0 +1,61 @@
+{
+  "iteration_id": "024",
+  "created_at": "2026-09-06T13:58:20.839401+00:00",
+  "status": "EXECUTED_REVIEWED",
+  "decision": "REVISE",
+  "official_points": null,
+  "previous_goal_turn_classification": "Iteration 023 completed in the current turn; the prior file-access turn made no project-goal progress.",
+  "runtime_code_id": "aec7fed7035ba48093c0f17f865e5be36a34f2c4c3247d61473da8face2f7f05",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "source_artifact": "reports/goal-loop/title-weight-retrieval-016.json",
+  "source_hash": "1442b966001ba69e955246d45bfca9c72d56bcdcba682373d417dc9b9e72bca1",
+  "rrf_artifact": "reports/goal-loop/rrf-rank-replay-023.json",
+  "rrf_artifact_hash": "fe91a124c7801bae14e4ef821dd0a4af27c0f7ff1af24409e67407161c4823fd",
+  "split": "tuning",
+  "questions": 42,
+  "answerable_denominator": 35,
+  "candidate_methods": [
+    "vector",
+    "hybrid_title_0_rrf_1"
+  ],
+  "cutoffs": [
+    5,
+    10,
+    20
+  ],
+  "candidate_pool": 20,
+  "changed_dimension": "Final retrieval cutoff only within each frozen ranked list. Methods are separate strata; the incumbent remains vector@5. RRF constant/title weight are fixed per stratum, not retuned here.",
+  "hypothesis": "A larger cutoff can recover known displaced references. Remaining candidate-pool misses identify where cutoff changes alone are insufficient. Added context may worsen generation or exceed the actual serving window; retrieval coverage cannot certify those effects.",
+  "course_source": "cohorts/2026/04-evaluation/homework.md#using-this-framework, lines 282–296; the taught parameter is number of returned results. Cutoffs 5/10/20 are project choices within the existing configured candidate pool, not course-optimal values.",
+  "course_commit": "bc7b6aad6b92a5611d3d37bf7521a363f3b9d398",
+  "acceptance": "Reproduce stored vector@5 and RRF1@5 IDs and metrics before interpreting larger cutoffs. Report all question/slice gains, losses, missing reference positions and raw content-character burden. A method/cutoff is only eligible for a future runtime capacity check if it increases full-reference coverage over vector@5 with no per-question reference-coverage loss. Keep only the smallest eligible cutoff per method for further consideration; do not choose or promote a runtime winner from this replay. All-generation, exact serving-token/context allocation and user-flow gates remain required.",
+  "controls": "Same documents, source versions, questions/references/splits, branch candidates/order and score ties. No re-embedding, fresh query, gold context in application, label modification, output budget or prompt changes.",
+  "tradeoffs": [
+    "More evidence may improve answerability but add irrelevant context and source-confusion risk.",
+    "Character counts describe payload length; they are not model token counts or proof of serving-window fit.",
+    "A larger cutoff increases recall mechanically; no precision or generated-answer improvement is inferred.",
+    "References absent from the existing candidate lists cannot be recovered by final-cutoff changes alone."
+  ],
+  "alternatives_rejected": [
+    "Tune RRF or lexical weights again inside this cutoff comparison.",
+    "Promote the largest list solely because recall rises.",
+    "Pretend an unanswerable question has relevant passages to improve the metric.",
+    "Select on final-test questions or broaden relevance labels after losses."
+  ],
+  "planned_rank_replays": 252,
+  "planned_retrieval_queries": 0,
+  "planned_model_calls": 0,
+  "heldout_exposure": "Final questions excluded from calculation; previously readable/validated bank is not claimed unseen.",
+  "next_action": "Fresh retrieval for both cutoff-10 candidates on 42 development questions, matching every stored ID/metric, preserving full traces and recording actual context character burden. No generation or automatic runtime promotion.",
+  "completed_at": "2026-09-06T14:02:12.988249+00:00",
+  "result_path": "reports/goal-loop/retrieval-cutoff-capacity-024.json",
+  "result_hash": "3b2275158bb5a58a383c9ad8d5d28c5af7318dd7fba6b80ccc45c653f87cce2d",
+  "actual_rank_replays": 252,
+  "actual_retrieval_queries": 0,
+  "actual_model_calls": 0,
+  "runtime_promoted": false,
+  "outcome": "Vector@10 and title-zero RRF1@10 are the smallest eligible cutoffs in their method strata. They fully cover 20/35 and 25/35 questions respectively, versus vector@5 18/35, without per-question coverage loss against vector@5. Hybrid@10 still loses LIM-07 coverage versus vector@10; neither is an application winner. Missing candidate references remain.",
+  "analysis_path": "reports/goal-loop/retrieval-cutoff-capacity-024.md"
+}

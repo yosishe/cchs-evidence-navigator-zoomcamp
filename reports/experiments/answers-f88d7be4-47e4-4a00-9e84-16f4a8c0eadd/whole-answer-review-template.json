@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "reviewer": "",
+  "reviewer_kind": "",
+  "results_hash": "61dfa8dc43b8ee69acdbb3bcf8be0cafecaba00ab5ef17cc8d6574009878cfe7",
+  "reviews": [
+    {
+      "answer_id": "cbd36c34-7150-4f34-835c-0b9e21f7b7cf",
+      "record_hash": "76f1d3e842945ba66a4e97eac9b299ed134df413ce0a0be1662ae15062971116",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "6c220020-fee6-4229-a401-2df9faef1772",
+      "record_hash": "9328e198ecefc92608c06054247ffaed06072c0373d300c64dee11e6c6af5b90",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "a372208c-82e0-417f-b4ac-92ed3f8766ef",
+      "record_hash": "ea5b933f96cc2589e56f9c86ec3f9e0b0c2eb00c9b42b3c05e33340d19ff5522",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    },
+    {
+      "answer_id": "20364456-9595-442d-8568-c206b0918f78",
+      "record_hash": "b35d37519313b6e499ab010accbe2dd08d85abf408c9cdcbacbab07879b1dc6a",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": null,
+      "critical_failures": [],
+      "acceptable": null,
+      "reason": ""
+    }
+  ]
+}

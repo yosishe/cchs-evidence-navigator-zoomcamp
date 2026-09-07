@@ -1,0 +1,260 @@
+{
+  "created_at": "2026-09-06T12:53:23.551216+00:00",
+  "status": "CONSISTENCY_VERIFIED_NO_REGRADING",
+  "before_runtime_code_id": "a37a640c61b1eb0794ba76a6d10c7cb397b3913f37289c8e6ad9b40e65e97416",
+  "after_runtime_code_id": "d6f21e818af6a48dfa7104458eeffa99927716e9810222986efe5b062b1dafa3",
+  "scope": "Recomputed both evaluators on identical saved real results and agent judgments. No model calls, semantic rejudgment, label edits, historical summary overwrite or promotion. Hashes establish consistency only.",
+  "entries": [
+    {
+      "results_path": "reports/experiments/answers-58588fd2-785d-4495-9491-e29485cbb56e/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-58588fd2-785d-4495-9491-e29485cbb56e/results.json": "03b05c0dcef9d8f319576551052aa0eaab8fc7748f4311ff2289d07173056381",
+        "reports/experiments/answers-58588fd2-785d-4495-9491-e29485cbb56e/reviews.json": "ae9674d4a5c1e0650d9f6da3cd654ff47a1ff67ac58c463e29ecc1556bb32289",
+        "reports/experiments/answers-58588fd2-785d-4495-9491-e29485cbb56e/whole-answer-review.json": "5321dd1871bffd359b650cb15cd13116ddb7a9f84e9fc31f5e054a6ff53d3589"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/results.json": "0a6d26369c66f6ab0b383b941f423f696252519509e7a27c40fd7333a737ece8",
+        "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reviews.json": "4089e73a85296286ede885d3a29801e51e2954c658f249a7919ae0554f1a648a",
+        "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/whole-answer-review.json": "6a59a4b796bf7e67c7a9faf20ba181d6f13512f772efff7b3b964e4ee7be1be1"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-73a724cb-ac01-49e1-8937-d0aee751302f/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-73a724cb-ac01-49e1-8937-d0aee751302f/results.json": "74113f844d4f6c5f1ce752f354e7bedf89c1cc92ada12d26da1dcb52e72aff4c",
+        "reports/experiments/answers-73a724cb-ac01-49e1-8937-d0aee751302f/reviews.json": "f0f5f49787799deeb54315eaefba1323fa8364d469f41aae544be7c7d95228e2",
+        "reports/experiments/answers-73a724cb-ac01-49e1-8937-d0aee751302f/whole-answer-review.json": "10b7565b6e5b589be5902ba71e4d600fb0f1da6858f4ce0b503ccb0d2885915f"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_review_historical_limitation": "A versioned whole-answer artifact with explicit assistant review is required",
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-76980778-74eb-4cb6-be3d-1d9f61ef1396/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-76980778-74eb-4cb6-be3d-1d9f61ef1396/results.json": "e95a45106209a92c2e877a40582a2b774d492bf4dcedbf9c70e3129b7fe59f4a",
+        "reports/experiments/answers-76980778-74eb-4cb6-be3d-1d9f61ef1396/reviews.json": "01500a52f76ff8c975a5b29afd411b8889efa239be2363cb2b8933ec71567460",
+        "reports/experiments/answers-76980778-74eb-4cb6-be3d-1d9f61ef1396/whole-answer-review.json": "d72401a94181eb34bf978d17e133994d8d1628703b4c6ecfcc508548ee9f43a0"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-c0ee8b93-1913-41b8-b9f6-ab4e9fc32467/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-c0ee8b93-1913-41b8-b9f6-ab4e9fc32467/results.json": "2902e9f560497963f54f3113b16388d553f52b66eca19953193cc3e89ebd2ccc",
+        "reports/experiments/answers-c0ee8b93-1913-41b8-b9f6-ab4e9fc32467/reviews.json": "6eb2f2384d148a83a06f89c6400594e3e317b8f7edfd0110c09caf8fb52313f3",
+        "reports/experiments/answers-c0ee8b93-1913-41b8-b9f6-ab4e9fc32467/whole-answer-review.json": "730af7643cf0e81a74bdcac29439bb33c392389959f412bad796edc542a418cd"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/results.json": "2ad4c86e1deb8ea3a6ad0c4535a1c1db658e452e0ea0d6a6b597e2d123cddd9d",
+        "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/reviews.json": "c5e52c6095bb1d5d2df357315ca564cca45415a627e7a6bb16a7a9c13b6e98ee",
+        "reports/experiments/answers-cc058297-0b4f-4051-8678-1e168927c300/whole-answer-review.json": "e0baaf45bfc487212d316a6e1b7b21e635bddd1768ca4792ad2042cd85fe0b03"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/results.json": "4609096d34def670b64c2222aa766566fb0e7bce130b3205c50bc27127f68acc",
+        "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/reviews.json": "f18f3ecd55ebb385b461b5fd93f0f57607a57c062e568d3318bcb4786f2eb456",
+        "reports/experiments/answers-d4e7fcbe-0a8e-43e4-adf7-d8ab30b0d88d/whole-answer-review.json": "a2406d22cc0ef293526f21d99b6781202ab9f6c0c627552ec97bb595b10ef1e0"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/results.json": "4fb6ef93b21d2899f1c6e8b61926adc1fc0eeb912b379d319e3cea675069af49",
+        "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/reviews.json": "cb02b24039fd180e008ab9e06e7dc63f7204c4f34bdef69641bfd6c808809a76",
+        "reports/experiments/answers-ef8f9a4a-40fc-45f5-b349-a8c2342771f6/whole-answer-review.json": "b57860b968a04d00ad4de967f727a68f5d10ed39ea375921d6bff863e1a63e3f"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/results.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/results.json": "39ce32c53f9cbbe5b1eb5d7cb5eb2d7614ffa143828f321318a381324ae013d6",
+        "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/reviews.json": "f404480f06916c02e278cf787abc931fa1091b3fba7f10a7b6284aa1d877bfc4",
+        "reports/experiments/answers-f112a587-8876-4496-af55-8be2faf59d48/whole-answer-review.json": "91b1e8d4a30d9d6f43d8e0d32f89919258c17c09d3015f1330cf63cd310c6dd8"
+      },
+      "split": "tuning",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/goal-loop/source-attached-prototype-ac57c06c-e5ad-401a-8282-4f192f927b13/results.json",
+      "input_file_hashes": {
+        "reports/goal-loop/source-attached-prototype-ac57c06c-e5ad-401a-8282-4f192f927b13/results.json": "5d96762a9fe73d08ee5148fcb766a94714a3cf8441f752e1385f1e7ad7026d93",
+        "reports/goal-loop/source-attached-prototype-ac57c06c-e5ad-401a-8282-4f192f927b13/reviews.json": "e248110a70ae67fccff7a5e5e63b90f5953239a1f4cc8a0e3e00293aeded1c6f",
+        "reports/goal-loop/source-attached-prototype-ac57c06c-e5ad-401a-8282-4f192f927b13/whole-answer-review.json": "c449227d565cbd9a8439c53c1abd3b66b2fd64a5319189ccd867e85a7e091cc2"
+      },
+      "split": "source_attachment_diagnostic",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/goal-loop/source-attached-prototype-c3389bee-6ac6-4ca5-a9af-2509a90a9627/results.json",
+      "input_file_hashes": {
+        "reports/goal-loop/source-attached-prototype-c3389bee-6ac6-4ca5-a9af-2509a90a9627/results.json": "20f346a704e0a56d9022f1e553c43b080031ab9e42ae593cf448660ae505134e",
+        "reports/goal-loop/source-attached-prototype-c3389bee-6ac6-4ca5-a9af-2509a90a9627/reviews.json": "66fcc00f69e497d506fc4fb2befe3803b488db29fb61e98f01d56cd88da46f4e",
+        "reports/goal-loop/source-attached-prototype-c3389bee-6ac6-4ca5-a9af-2509a90a9627/whole-answer-review.json": "2a900b2819175f2295cd7c136f89241d2e74b4e6fe5aed87e1a262f3c1ffda05"
+      },
+      "split": "source_attachment_diagnostic",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/goal-loop/source-attached-prototype-d6a7d708-8233-4fea-a820-8e5e4f439a8f/results.json",
+      "input_file_hashes": {
+        "reports/goal-loop/source-attached-prototype-d6a7d708-8233-4fea-a820-8e5e4f439a8f/results.json": "5122ca5068b756f708f5f30fafccd11a25f56c42dafd034c03daad5e47e56fd6",
+        "reports/goal-loop/source-attached-prototype-d6a7d708-8233-4fea-a820-8e5e4f439a8f/reviews.json": "18c6f3e125f891f479b6aa9517c47ebb6a262f64c3bfc75247ebaecc50f7eade",
+        "reports/goal-loop/source-attached-prototype-d6a7d708-8233-4fea-a820-8e5e4f439a8f/whole-answer-review.json": "836d856cd7f1dac1c4ffce0b4aa7de4a07e1de1473faf3bdb60dbdb2aeb8cd7e"
+      },
+      "split": "source_attachment_diagnostic",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/goal-loop/staged-format-prototype-3875f943-104d-4451-9010-3f19a68f7d6c/results.json",
+      "input_file_hashes": {
+        "reports/goal-loop/staged-format-prototype-3875f943-104d-4451-9010-3f19a68f7d6c/results.json": "569174781df3869eb60eaf75325e3c0ca13594bef74e14b803588f481aece63f",
+        "reports/goal-loop/staged-format-prototype-3875f943-104d-4451-9010-3f19a68f7d6c/reviews.json": "92b4a50048c89e267c3b669d0f66266ef59bf1406fff638a7e8cff80744be25e",
+        "reports/goal-loop/staged-format-prototype-3875f943-104d-4451-9010-3f19a68f7d6c/whole-answer-review.json": "691cd853e5856e4ed01d57a67b187fdf6177705b924562a3ef08136a5a2d453b"
+      },
+      "split": "staged_diagnostic",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    },
+    {
+      "results_path": "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-review-packet.json",
+      "input_file_hashes": {
+        "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-review-packet.json": "3fdf8e8d8790786721d255a4085ac32bfc067ea168aa0fe8faedf7ce0524f306",
+        "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-primary-review.json": "0b6a6f7bab3f6b0982ea0984e6eaec7b4f80199a1a1ee7e7c8a81a1566ba34d9",
+        "reports/experiments/answers-61039d1d-9493-4012-8995-752abf5f9330/reference-whole-answer-review.json": "5acb3201e9080d58f902f4304f29b4665108c473fc042ba33ecd4e3850f7dfed"
+      },
+      "split": "reference_diagnostic",
+      "primary_changed_fields": [
+        "selection_rule"
+      ],
+      "primary_old_nominees": [],
+      "primary_new_nominees": [],
+      "whole_old_nominees": [],
+      "whole_new_nominees": [],
+      "whole_metrics_unchanged": true,
+      "observed_counts_and_judgments_unchanged": true
+    }
+  ],
+  "official_points": null
+}

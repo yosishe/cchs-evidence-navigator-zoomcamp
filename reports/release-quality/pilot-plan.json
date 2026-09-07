@@ -1,0 +1,176 @@
+{
+  "status": "PLANNED_NOT_EXECUTED",
+  "created_at": "2026-09-06T22:09:12.983806+00:00",
+  "runtime_code_id": "707513aec2de746fc9696f46f127a187e98b20234101edbee75c06c3dea61c46",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "questions_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "question_ids": [
+    "DIR-01",
+    "DIR-02",
+    "PAR-01",
+    "PAR-02",
+    "EXA-01",
+    "EXA-02",
+    "COM-01",
+    "COM-02",
+    "LIM-01",
+    "LIM-02",
+    "ABS-01",
+    "ABS-02"
+  ],
+  "slices": {
+    "direct": 2,
+    "paraphrase": 2,
+    "exact_identifiers": 2,
+    "comparison": 2,
+    "limitations": 2,
+    "absent": 2
+  },
+  "variants": [
+    {
+      "arm": "arm-1",
+      "config": {
+        "retrieval": "vector",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 2.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "generation_json_schema": false,
+        "json_mode": true
+      }
+    },
+    {
+      "arm": "arm-2",
+      "config": {
+        "retrieval": "vector",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 2.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "phi3",
+        "prompt": "numbered_evidence",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "generation_json_schema": false,
+        "json_mode": true
+      }
+    },
+    {
+      "arm": "arm-3",
+      "config": {
+        "retrieval": "vector",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 2.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "gemma3:12b",
+        "prompt": "evidence_first",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "generation_json_schema": false,
+        "json_mode": true,
+        "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a"
+      }
+    },
+    {
+      "arm": "arm-4",
+      "config": {
+        "retrieval": "vector",
+        "top_k": 5,
+        "candidate_k": 20,
+        "rrf_k": 50,
+        "boosts": {
+          "title": 2.0,
+          "section": 1.0,
+          "content": 1.0
+        },
+        "model": "gemma3:12b",
+        "prompt": "numbered_evidence",
+        "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+        "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+        "max_output_tokens": 900,
+        "chunk_chars": 750,
+        "overlap_chars": 150,
+        "selection_status": "SELECTED_ON_V2_PROVISIONAL_TUNING_LABELS",
+        "embedding_text": "title_content",
+        "embedding_device": "cpu",
+        "provider": "ollama",
+        "temperature": 0,
+        "request_timeout_seconds": 300,
+        "rewrite_enabled": false,
+        "generation_selection_status": "CANDIDATE_NOT_QUALITY_SELECTED",
+        "question_bank": "data/evaluation/questions-v2.json",
+        "generation_json_schema": false,
+        "json_mode": true,
+        "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a"
+      }
+    }
+  ],
+  "planned_generation_attempts": 48,
+  "feasibility": {
+    "question_id": "DIR-01",
+    "models": [
+      "phi3",
+      "gemma3:12b"
+    ],
+    "prompt": "numbered_evidence",
+    "planned_attempts": 2,
+    "purpose": "Capacity/format observations only; excluded from pilot quality totals"
+  },
+  "fixed_conditions": "Same context artifacts, vector/5, max output 900, temperature 0, timeout 300 s, JSON object mode; no retries or paid fallback. The timeout is an execution bound, not a course threshold.",
+  "continuation_gate": "At least one complete supported answerable pilot response; inspect every slice and all whole-answer/critical regressions before broadening. Partial-coverage diagnostics cannot nominate a winner or bypass the original quality contract.",
+  "full_development_gate": "Compare two justified generation alternatives across all 42 development questions with identical chosen retrieval contexts. No automatic promotion.",
+  "final_test": "No final-set inference in this pilot; exposed/validated bank is not a blind test."
+}

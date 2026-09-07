@@ -1,0 +1,56 @@
+{
+  "status": "DECLARED_BEFORE_EXECUTION",
+  "created_at": "2026-09-07T18:33:24.892945+00:00",
+  "authorization": "Final submission plan approved by the owner; this declaration supersedes the earlier proposal approval status for this bounded diagnostic only.",
+  "prerequisites": {
+    "native_operational_demo": "PASS",
+    "documentation_and_bound_config": "PASS_INDEPENDENT_REVIEW",
+    "unit_tests": 186,
+    "skipped_tests": 0
+  },
+  "question_ids": [
+    "DIR-01",
+    "DIR-02",
+    "PAR-01",
+    "PAR-02",
+    "EXA-01",
+    "EXA-02",
+    "COM-01",
+    "COM-02",
+    "LIM-01",
+    "LIM-02",
+    "ABS-01",
+    "ABS-02"
+  ],
+  "config_id": "a608ccf3cd3318d9f54abb2c0d49a7967e920b4e841dded47f823d86884b2055",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "questions_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "planned_rewrite_attempts": 12,
+  "planned_searches": 24,
+  "planned_generation_attempts": 0,
+  "start_before": "2026-09-07T20:20:00+00:00",
+  "stop_before": "2026-09-07T20:50:00+00:00",
+  "display_timezone": "Asia/Jerusalem",
+  "keep_default_disabled": true,
+  "procedure": [
+    "Search each original question once.",
+    "Make one local rewrite call using only the original question.",
+    "Search the guarded rewrite or original fallback once.",
+    "Retain branch ranks, final ranks, known-label coverage, raw output, failures and timings.",
+    "Review intent, dates, identifiers, negation, study scope and added assumptions for all rows.",
+    "Stop on a provider failure or the time boundary; publish partial status when applicable."
+  ],
+  "not_permitted": [
+    "Final-test inference",
+    "Answer generation",
+    "Automatic retries",
+    "Automatic expansion to 42 questions",
+    "Changing the submission configuration",
+    "Installing or downloading assets"
+  ],
+  "label_limitations": "The question bank has provisional assistant-authored, incomplete relevance labels; source coverage is not fact completeness.",
+  "runner": "tools/run_final_rewrite_diagnostic.py",
+  "runner_sha256": "c792043e0ddbb4876b3eb9461577e7c457aeb7cda2f146e2e57361ef9b9de162",
+  "static_review": "Independent read-only reviewer passed the bounded runner before execution."
+}

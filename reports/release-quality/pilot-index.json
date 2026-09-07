@@ -1,0 +1,153 @@
+{
+  "status": "EXECUTED_AWAITING_AGENT_REVIEW",
+  "created_at": "2026-09-06T22:16:14.830745+00:00",
+  "plan_hash": "798e9d73e08ca170342870333339bc313d7d98a57d5745fd1bffb79cf43d6736",
+  "context_hash": "bd4953c9d460d215475fd8c4b3d2e9fc731b9453c332a9f0825a92455500abf7",
+  "arms": [
+    {
+      "arm": "arm-1",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-51823509-639d-43df-b3e2-b3b19b95ec5b/results.json",
+      "actual_attempts": 12,
+      "after": {
+        "observed_at": "2026-09-06T22:27:06.548268+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "phi3:latest",
+              "model": "phi3:latest",
+              "size": 3042789293,
+              "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "phi3",
+                "families": [
+                  "phi3"
+                ],
+                "parameter_size": "3.8B",
+                "quantization_level": "Q4_0"
+              },
+              "expires_at": "2026-09-07T01:32:06.167029+03:00",
+              "size_vram": 3042789293,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    },
+    {
+      "arm": "arm-2",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-d78ee94b-04c2-4a7a-b4fa-316f8a6dcb58/results.json",
+      "actual_attempts": 12,
+      "after": {
+        "observed_at": "2026-09-06T22:31:41.430530+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "phi3:latest",
+              "model": "phi3:latest",
+              "size": 3042789293,
+              "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "phi3",
+                "families": [
+                  "phi3"
+                ],
+                "parameter_size": "3.8B",
+                "quantization_level": "Q4_0"
+              },
+              "expires_at": "2026-09-07T01:36:41.372822+03:00",
+              "size_vram": 3042789293,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    },
+    {
+      "arm": "arm-3",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-f782ef42-26d2-4794-8fa8-5696e39ec23d/results.json",
+      "actual_attempts": 12,
+      "after": {
+        "observed_at": "2026-09-06T22:44:46.479098+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "gemma3:12b",
+              "model": "gemma3:12b",
+              "size": 8643862854,
+              "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma3",
+                "families": [
+                  "gemma3"
+                ],
+                "parameter_size": "12.2B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-09-07T01:49:46.30501+03:00",
+              "size_vram": 8643862854,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    },
+    {
+      "arm": "arm-4",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-1c356781-261e-418f-a604-e04be931b74e/results.json",
+      "actual_attempts": 12,
+      "after": {
+        "observed_at": "2026-09-06T22:55:04.300026+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "gemma3:12b",
+              "model": "gemma3:12b",
+              "size": 8643862854,
+              "digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma3",
+                "families": [
+                  "gemma3"
+                ],
+                "parameter_size": "12.2B",
+                "quantization_level": "Q4_K_M"
+              },
+              "expires_at": "2026-09-07T02:00:04.090104+03:00",
+              "size_vram": 8643862854,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "actual_attempts": 48
+}

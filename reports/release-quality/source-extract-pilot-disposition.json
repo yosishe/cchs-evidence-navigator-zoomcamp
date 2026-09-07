@@ -1,0 +1,10 @@
+{
+  "status": "BOTH_REJECTED_CRITICAL_RELEVANCE_FAILURE",
+  "created_at": "2026-09-07T01:17:21.809948+00:00",
+  "plan": "reports/release-quality/source-extract-pilot-plan.json",
+  "actual_generation_attempts": 24,
+  "selected": false,
+  "final_test_calls": 0,
+  "observation": "Complete improves 6/12 to 8/12; both have zero schema errors and one critical wrong-context substitution on LIM-01. Authentic quotations alone do not establish a useful answer.",
+  "next_step": "Diagnose retrieval representation under fixed corpus/top-10 and inspect missing versus available evidence before further generation. No critical candidate advances automatically to the full development comparison."
+}

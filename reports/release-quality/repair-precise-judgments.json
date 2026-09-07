@@ -1,0 +1,180 @@
+{
+  "results_hash": "6fe7c6f3bcbabc9736d7dd650f1e79b37bead5231b98b4ff58883eec15c8600e",
+  "scope": "Same-assistant source review, candidate identity known. Original pass rules unchanged.",
+  "questions": {
+    "DIR-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Both intended aims and original quotes are correct, but the limitations key is missing. The strict unchanged contract rejects the entire output. Correct text hidden behind a validation error is not delivered completeness."
+    },
+    "DIR-02": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Italian abstract passage 2 directly supports the retrospective 22-patient cohort and 2000-2020 period. The answer explicitly supplies both requested parts and exports retain the exact quotation."
+    },
+    "PAR-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Retrospective and EMR evidence are both available. The first quote inserts ellipses and the second replaces continuation with a full stop. Whole-output validation rejects them; facts are not delivered."
+    },
+    "PAR-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The needed low-grade/descriptive and blended-clinical-experience paragraph is absent from the retrieved context. Generic context-scoped refusal is defensible, but the frozen answerable task remains incomplete."
+    },
+    "EXA-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The location quote is exact, but the alleged exon quote is a rewritten fragment. Full answer rejected; the correct intended chromosome/exon statements do not count as a delivered answer."
+    },
+    "EXA-02": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The correct Italian identifiers 20/25, 20/26 and 20/27 and 19/22 (86%) are supported by passage 32. The second claim is redundant but not false; both quote the correct source. No added caveat or approved scientific status is exported."
+    },
+    "COM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The answer intends a retrospective-versus-published-evidence/clinical-expertise comparison, but one quote splices text with a nonliteral ellipsis. Entire output rejected. Both reference sources were actually available, so generation/copying is the failure boundary."
+    },
+    "COM-02": {
+      "relevance": "partly_relevant",
+      "claim_support": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The Italian 86%/14%, review NPARM 10% and review repeat-genotype range are supported exactly. Unlike the pilot, no inverted arithmetic or invented population claim is added. The requested review PARM 90% and evidence-base/small-cohort qualification remain absent. A supported partial answer still fails completeness."
+    },
+    "LIM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The required repeat-length association/exception passage is absent. The generic refusal does not substitute amplification technique as a relationship qualification, removing the control arm critical error, but no complete answer is provided."
+    },
+    "LIM-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Retrospective design and population heterogeneity are available in Italian passage 68. Generic refusal avoids unsupported universal causal claims but misses the narrow answer and qualification, so the answerable task fails."
+    },
+    "ABS-01": {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports."
+    },
+    "ABS-02": {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The generic refusal stays scoped to supplied passages. It introduces no intervention premise, invented accession or literature-wide absence claim, and produces no claim/tag exports."
+    }
+  }
+}

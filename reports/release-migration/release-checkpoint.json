@@ -1,0 +1,40 @@
+{
+  "status": "AWAITING_OWNER_DECISIONS_NOT_SUBMISSION_READY",
+  "created_at": "2026-09-07T01:48:41.068323+00:00",
+  "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "software_checks": {
+    "passed": 157,
+    "skipped": 0,
+    "evidence": "reports/checks.json"
+  },
+  "actual_local_generation_attempts": 145,
+  "attempts_evidence": "reports/release-quality/attempt-accounting.json",
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_id": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "final_inference_calls": 0,
+  "selected_configuration": false,
+  "public_repository": "NOT_CREATED",
+  "new_repository_has_commit": false,
+  "original_preservation": "425 imported predecessor files unchanged",
+  "owner_decisions_pending": [
+    {
+      "action": "Install Docker Desktop and rehearse complete stack",
+      "scope": "docs/container-installation-scope.md",
+      "reason": "Owner instructions require explicit approval before installation/settings/resource changes."
+    },
+    {
+      "action": "Move the bounded rewrite diagnostic before core success",
+      "scope": "reports/release-quality/early-rewrite-proposal.json",
+      "reason": "The accepted plan explicitly requires core success first; an owner-approved order change is needed."
+    }
+  ],
+  "later_gates": [
+    "viable pilot and fully reviewed paired development comparison",
+    "configuration bound to and loaded by the app",
+    "selected-version browser and clean complete Compose reproduction",
+    "once-only final assessment with exposure disclosure",
+    "concrete commit/push approval, public repository and anonymous exact-commit check",
+    "separate owner-controlled course submission and peer reviews"
+  ],
+  "official_points": null
+}

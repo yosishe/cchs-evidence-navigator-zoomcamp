@@ -1,0 +1,86 @@
+{
+  "checked_at": "2026-09-05T21:21:58.093270+00:00",
+  "status": "LOCAL_REMEDIATION_VERIFIED_EXTERNAL_GATES_PENDING",
+  "baseline_commit": "4fc74d7b7ec9850312d8f3d9b787f7f4aa08bd0a",
+  "modified_code_identified_by_sha256": {
+    "navigator/exports.py": "94ed2b839c9f86f6d88beb14d16668fc033fffcda924171f49457282ad844ce2",
+    "navigator/monitoring.py": "712cc1f07e26ae129c9a781be7c0de06487c7fb5791df26541c5b3819ac2bf10",
+    "navigator/evaluation.py": "70a395fc4a536066ff0d8ef38c58a3ff6eed95f1f1f34e8899d1f978c4b39571",
+    "navigator/__init__.py": "a320e014a49daf30c7c5813fd3a819b27d354208fafc012006a1d00df3faf354",
+    "navigator/common.py": "4ec780d2372b58ecb42bc3acce9e114f1a4f0ef8a5128df2f25c18a2c9389fbd",
+    "navigator/rag.py": "fc0cc04a71bf5b286a0424f83e20b26e0034e1f864bb4cb8974f006a83bc6208",
+    "navigator/storage.py": "29d05b904a06f2b62d54256455f4e26f35e917976ab46b5556fd07c8d27e3be1",
+    "navigator/retrieval.py": "0862f0faac7bf56bcf640763740831442bb332eee5afc4ec296d42d03f41232a",
+    "navigator/__main__.py": "ad55f47f958fee271e1b29b634868747b12682e2b3bac0ec313ed42c839630e6",
+    "navigator/corpus.py": "5684e95ea10caee5d17584429731c5c64c7eb0b74a10c8cacdb3fc7b0346b864",
+    "tests/test_contracts.py": "4912f49e0d8b0e73cd2e05ff00ffff76602cdf8ba8a01d256a513e561d081635",
+    "tests/test_runtime.py": "d255a8e9dfa5893c969336768711ca55bc1d42d04f0abd3e13ec29bff623de19",
+    "tests/test_review_regressions.py": "a3aacb3e15d28bb22b9c5e9f7bfeaa08f2078007461baec8c1c310e130e168f8",
+    "tools/compare_retrieval_grid.py": "a2c19baac01ff611e24dc51c08707fa04a0d1acb671e9955e96c2ab5c274108f",
+    "tools/run_checks.py": "9734f8c7ab67775f5f9393342bcdc15efebdbf20a9e32032ed54d9889b701432",
+    "tools/build_review_packet.py": "338f17b22d0e55c333f956fdc3b02e8803cc42ee3dbc5432c1336bd95ad900bc",
+    "tools/verify_retrieval.py": "862a5e27bfb9b56e416f2b50e40e2c56637829845263c6b43045760c533d5218",
+    "app.py": "0fce8a7479def08e9f18416bad53ba83cc3a0d769c3f37e45729f2a5e3d80dfe"
+  },
+  "test_result": {
+    "tests": 45,
+    "passed": 45,
+    "skipped": 0,
+    "fresh_runtime_directory": true
+  },
+  "regressions_closed": [
+    "F01 foreign answer fields",
+    "F02 dashboard read failure",
+    "cross-environment storage cache"
+  ],
+  "other_improvements": [
+    "Full claim/passage export identities",
+    "Scientific context metadata",
+    "Five real core charts and explicit QA origins",
+    "Checkpointed paired answer evaluation and reviewed-result validation",
+    "Tuning-only grid and researcher packet"
+  ],
+  "unchanged_baseline_artifacts": {
+    "configs/app.json": true,
+    "data/evaluation/questions.json": true,
+    "data/manifest.json": true,
+    "reports/retrieval-tuning.json": true,
+    "reports/retrieval-test.json": true,
+    "reports/config-selection.json": true,
+    "requirements.lock": true,
+    "requirements-vectors.lock": true,
+    "uv.lock": true,
+    "pyproject.toml": true
+  },
+  "source_hashes_match": {
+    "PMC7503443": true,
+    "PMC8039127": true,
+    "PMC8963195": true
+  },
+  "input_guides_unchanged": {
+    "course-project-decision-guide.en.md": true,
+    "cchs-evidence-navigator-project-brief.en.md": true
+  },
+  "local_markdown_paths_checked": 103,
+  "python_syntax": "PASS",
+  "paid_calls": 0,
+  "dependencies_installed": 0,
+  "retrieval_grid": {
+    "candidates": 12,
+    "incumbent_retained": true,
+    "tuning_hit": 0.7142857142857143,
+    "tuning_mrr": 0.5476190476190477,
+    "new_heldout_test": false
+  },
+  "unresolved": [
+    "Authorized provider budget and locally configured API key",
+    "Live answer comparison and support review",
+    "Docker/PostgreSQL execution and persistence",
+    "Browser-export downloaded-file verification",
+    "Human corpus/label review",
+    "Public reviewer access and submission/peer reviews",
+    "Commit/push authorization for this change"
+  ],
+  "course_score": "No official grade. Prior structural estimate + completed fifth chart = conditional 17/26, with prior runtime caveats. No final-answer, cloud, rewriting, independent reranking or discretionary points invented.",
+  "errors": []
+}

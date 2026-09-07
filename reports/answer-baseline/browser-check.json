@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-09-06T08:43:19.141896+00:00",
+  "browser_url": "http://127.0.0.1:8513/",
+  "answer_id": "46c8f8b4-41ce-4642-b633-13dcda87fcb3",
+  "browser_observations": [
+    "LLM answer mode selected",
+    "Answer and exact citation rendered",
+    "Claim comparison row rendered",
+    "Feedback saved once message",
+    "Five required charts plus provider tokens chart observed",
+    "QA origin and 1/4 feedback coverage shown"
+  ],
+  "real_requests": 4,
+  "feedback_records": 1,
+  "feedback_answer_matches": true,
+  "all_qa": true,
+  "provider_input_tokens": 7540,
+  "provider_output_tokens": 581,
+  "claim_rows": 1,
+  "claim_csv_payload": "browser-claim-export-payload.csv",
+  "download_status": "CLICK_ATTEMPTED_NO_DOWNLOADED_FILE_VERIFIED",
+  "download_scope": "Payload generated and checked separately; no browser download completion claim",
+  "status": "LIVE_UI_ANSWER_FEEDBACK_MONITORING_VERIFIED_EXPORT_DOWNLOAD_UNVERIFIED"
+}

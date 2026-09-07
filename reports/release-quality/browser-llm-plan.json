@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-07T00:34:45.819545+00:00",
+  "runtime_code_id": "8c278fb2d58402a84f2a9a85d23dd11acc6c83c5a683d5d1da4cae6d3011b0b7",
+  "config": {
+    "retrieval": "hybrid",
+    "top_k": 10,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 0.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "model": "gemma3:12b",
+    "prompt": "source_extract_complete",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_output_tokens": 900,
+    "chunk_chars": 750,
+    "overlap_chars": 150,
+    "selection_status": "DEVELOPMENT_CANDIDATE",
+    "embedding_text": "title_content",
+    "embedding_device": "cpu",
+    "provider": "ollama",
+    "temperature": 0,
+    "request_timeout_seconds": 300,
+    "rewrite_enabled": false,
+    "generation_selection_status": "EVALUATION_CANDIDATE",
+    "question_bank": "data/evaluation/questions-v2.json",
+    "model_digest": "f4031aab637d1ffa37b42570452ae0e4fad0314754d17ded67322e4b95836f8a",
+    "json_mode": true,
+    "generation_json_schema": true
+  },
+  "config_id": "34eb0046447ecbd8207ae014c3dde940916e660dccea8cc9f979c09593dc539f",
+  "question_id": "EXA-01",
+  "question": "Where does the 2022 review locate PHOX2B, and how many exons does it describe?",
+  "planned_generation_attempts": 1,
+  "traffic_origin": "qa",
+  "scope": "Actual native browser flow with an explicit feasible development candidate, not selected-release or Compose proof. One attempted question, no reroll; inspect generated answer, source, actual downloaded JSON/CSV/tag bytes, feedback identity and charts. The QA call remains separate from quality-arm totals."
+}

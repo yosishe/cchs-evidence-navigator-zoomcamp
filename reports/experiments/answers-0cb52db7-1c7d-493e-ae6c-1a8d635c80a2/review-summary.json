@@ -1,0 +1,139 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "ec0d194264288051496cba97c69276a43a7bc44016bf658eea8eaccaaac10e06",
+  "reviews_hash": "ff4857b04df420f5aa19a6b1b67b10486fa52327843b09151ee5883d6fbd892a",
+  "reviewer": "Codex provisional source-based review, iteration 028; not independent or human validation",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 4,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 18.705948791495757,
+      "errors": 1,
+      "critical_failure_answers": 2
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "2240efd9-1cd7-4862-9eda-03094be949c1",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "partial",
+        "partial"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Passage 17 explicitly enumerates both aims. The refusal denies explicit aims while mentioning genotype/clinical findings and changing management in its own prose. This is not a correct answer; the required relation to study aims is contradicted.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Passage 17 explicitly enumerates both aims. The refusal denies explicit aims while mentioning genotype/clinical findings and changing management in its own prose. This is not a correct answer; the required relation to study aims is contradicted. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "8b3daa31-f149-41f6-80eb-fdea7a2fee02",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Canonical output is an application-owned validation error, with no claims or exports. Raw output contradicts insufficient_evidence with nonempty claims, uses a full publication version as a passage ID plus an invented ID, and emits empty quotations. The blocked retrospective caveat is not a usable answer about retrospective electronic records (passages 19/21).",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Canonical output is an application-owned validation error, with no claims or exports. Raw output contradicts insufficient_evidence with nonempty claims, uses a full publication version as a passage ID plus an invented ID, and emits empty quotations. The blocked retrospective caveat is not a usable answer about retrospective electronic records (passages 19/21). Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "e7780bf1-441a-44e8-b855-09b8ab3b929e",
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The response does not compare the methods. Italian passages 2/19/21 establish retrospective records. Guideline 12 establishes a European GDG literature search, but guideline 13 is absent in this context. The prose describes guidelines as for management in Italy without source support for that restriction; this context characterization is unresolved. A corpus-bound partial response would need to identify what is supported and what is missing, rather than assert no possible comparison.",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The response does not compare the methods. Italian passages 2/19/21 establish retrospective records. Guideline 12 establishes a European GDG literature search, but guideline 13 is absent in this context. The prose describes guidelines as for management in Italy without source support for that restriction; this context characterization is unresolved. A corpus-bound partial response would need to identify what is supported and what is missing, rather than assert no possible comparison. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "ef64e450-67ee-4b5d-bfc3-cd2cde63bed5",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "Status correctly abstains from intervention results, but the phrase intervention reported in a 2021 Italian study adopts the unsupported premise. Genetic testing and mutation passages do not establish that intervention. Correct status cannot make this whole nonanswer acceptable.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Status correctly abstains from intervention results, but the phrase intervention reported in a 2021 Italian study adopts the unsupported premise. Genetic testing and mutation passages do not establish that intervention. Correct status cannot make this whole nonanswer acceptable. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "3ea2ba74dec1b4cfdd8073e244f4ff4adbea3ae9df162228e7a73bab275be59b",
+  "whole_answer_reviewer": "Codex provisional source-based review, iteration 028; not independent or human validation",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

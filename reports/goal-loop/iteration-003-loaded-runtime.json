@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-09-06T10:45:23.350817+00:00",
+  "scope": "Read-only model template and loaded context metadata, no generation or settings change",
+  "template": "{{ if .System }}<|system|>\n{{ .System }}<|end|>\n{{ end }}{{ if .Prompt }}<|user|>\n{{ .Prompt }}<|end|>\n{{ end }}<|assistant|>\n{{ .Response }}<|end|>",
+  "parameters": "stop                           \"<|end|>\"\nstop                           \"<|user|>\"\nstop                           \"<|assistant|>\"",
+  "loaded_models": [
+    {
+      "name": "phi3:latest",
+      "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+      "context_length": 4096
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-09-06T07:16:34.675821+00:00",
+  "status": "PASS_LOCAL_CHECKS_EXTERNAL_GATES_PENDING",
+  "runtime_code_id": "a6fe49ea3109a6135d02319aa900ba2af744f0196557a1fc02f82722f1c2a79d",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "head": "4fc74d7b7ec9850312d8f3d9b787f7f4aa08bd0a",
+  "head_unchanged": true,
+  "protected_files_verified": 13,
+  "changed_protected_files": [],
+  "distinct_passed_tests": 90,
+  "skipped_tests": 0,
+  "local_links_checked": 2202,
+  "broken_links": [],
+  "browser_check_status": "PASS_PREVIEW_FEEDBACK_EXPORT_AND_MISSING_MODEL_FAILURE",
+  "actual_generation_attempts": 0,
+  "rubric_total": 14,
+  "rubric_maximum": 26,
+  "runtime_config_promoted": false,
+  "postgres_migration": false,
+  "commit_push_publication_submission": false,
+  "limitations": [
+    "No successful LLM answer or live answer-quality comparison",
+    "No complete Compose/PostgreSQL startup and restart",
+    "Prior comparison-project scores could not be refreshed by the web tool",
+    "Preview browser screenshots inspected but no screenshot file saved"
+  ],
+  "file_hashes": {
+    "reports/checks.json": "11e2582d81e8af01a22d61a57c58979b20fffc4ab931c20d45eb641bd0dbf50c",
+    "reports/instructor-reassessment/browser-check.json": "98f92e6c891fa92acba6c2bb1920edb86ee06e5fc649e6307709ef6d7f68ffd9",
+    "reports/instructor-reassessment/report.en.md": "04426241433c0ba89357b2c92a073e1dbc8dbf5eda79cec1d46991c23b871438",
+    "reports/instructor-reassessment/downloaded-passages.csv": "1e2c5f7b6fd47d101056f76ff50f47b7dfb89bbfc2c9c02a734d22045b262f62",
+    "reports/instructor-reassessment/scorecard.json": "e96c13e479ee627860d1c7366624eb2a424c183c17b733c12077ed5a1cfb7854"
+  },
+  "dependency_or_model_downloads": false,
+  "paid_calls": false,
+  "installations": false,
+  "browser_csv_download": true
+}

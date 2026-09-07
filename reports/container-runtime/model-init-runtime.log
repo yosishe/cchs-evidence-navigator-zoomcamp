@@ -1,0 +1,7 @@
+model-init-1  | 2026-09-07T12:51:09.928216555Z {
+model-init-1  | 2026-09-07T12:51:09.928256430Z   "provider": "ollama",
+model-init-1  | 2026-09-07T12:51:09.928259555Z   "model": "phi3",
+model-init-1  | 2026-09-07T12:51:09.928263055Z   "resolved_model": "phi3:latest",
+model-init-1  | 2026-09-07T12:51:09.928265680Z   "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+model-init-1  | 2026-09-07T12:51:09.928267013Z   "size_bytes": 2176178913
+model-init-1  | 2026-09-07T12:51:09.928267763Z }

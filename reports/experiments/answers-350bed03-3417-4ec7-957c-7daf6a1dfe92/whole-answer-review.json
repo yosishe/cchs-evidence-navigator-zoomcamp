@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional assistant review",
+  "reviewer_kind": "assistant",
+  "results_hash": "17836118e0fd5dc3ab26864fbed3bc23dc3986920cbac77d05d433cd74a1767e",
+  "reviews": [
+    {
+      "answer_id": "2dc58f10-a83c-4cf9-a8ea-f9a2835272d7",
+      "record_hash": "ea981bbef462e8869e0809307546c7e9fef753dec8486a9b47213d5d33689e3e",
+      "export_hash": "c3cfb0d5e5e0dbd6b366b98c73277cfe2c242e6c25881d84778e3d0c774013f2",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The single original aims excerpt directly states both genotypes/clinical findings and management changes. Correct source and both task facts are present."
+    },
+    {
+      "answer_id": "a0b03254-fda9-427a-bfce-43b41b159422",
+      "record_hash": "9c4fa89812b93ede2ce863be9a26142578009596145c6ecc56abf51e9068d013",
+      "export_hash": "194132276f0f6db23b05ed23e89ad2ad99d54f9c51547a47ca057918af5c8423",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The selected Italian retrospective-data and guideline published-evidence/clinical-expertise excerpts directly establish both requested methods. Low evidence grade and the original Italian retrospective/heterogeneity caveat are preserved. The added search-strategy-file sentence in limitations is unnecessary context, not a scientific limitation; retain this presentation defect. No pooled or causal claim is generated."
+    },
+    {
+      "answer_id": "2ab32342-39bf-486b-83f6-2bae37a7a523",
+      "record_hash": "0f66ff329a677a6a3bab1bbe1f3e9dbabf308f1ac7b9a56b82be2da4c66b3d96",
+      "export_hash": "f6c52951ea339b95cff7cae459ece4a88d7b0b91a770e8f745f65c02b1f08b20",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "Generic mutation classification is presented as the requested qualification of a continuous-ventilation association."
+      ],
+      "acceptable": false,
+      "reason": "The selected PHOX2B mutation-description excerpt is real but does not address inconsistency or exceptions in the repeat-length/ventilation relationship. This is still a misleading substitution for the requested qualification, despite greater topical proximity than the prior ventilation excerpts."
+    },
+    {
+      "answer_id": "9655b63f-3a84-49eb-b381-4276cce1acd1",
+      "record_hash": "fcc1e3814bbf44b5f5a3651e023a8aac4d3d57a0979d35348639f0066d971bb6",
+      "export_hash": "9b6ad1b79237d727c10d684870d29f2fd73525b4c25ca524a06caa892eb80be4",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": true,
+      "reason": "The original Italian limitations sentence itself states retrospective design and sample/population heterogeneity. It answers the study-label question by showing the reported actual design and its limitation; it does not invent a universal causal-evidence rule."
+    },
+    {
+      "answer_id": "23d417b9-2101-4bc8-b9b1-100e71a24a03",
+      "record_hash": "681dffd31c2934df0ab912e86e2cace73789215aa306d40ffc7af8f21398286e",
+      "export_hash": "7a98b00583ee2de93b68b1ee5598dcf237d9c617cfdffd1540f3248039c19ba4",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The true Italian retrospective-cohort excerpt supplies no transcriptomic accession. This incorrect answered response fails abstention and usefulness, even though no accession or dataset metadata was fabricated."
+    }
+  ]
+}

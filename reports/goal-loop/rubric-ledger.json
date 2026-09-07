@@ -1,0 +1,371 @@
+{
+  "created_at": "2026-09-06T11:05:54.227196+00:00",
+  "status": "CORE_EVIDENCE_INCOMPLETE",
+  "reviewer": "Codex provisional agent assessment",
+  "reviewed_version": {
+    "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+    "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+    "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "dirty_worktree": true
+  },
+  "rubric_source": "https://github.com/DataTalksClub/llm-zoomcamp/blob/main/project.md#evaluation-criteria",
+  "rubric_refreshed": "2026-09-06",
+  "official_points": null,
+  "score_note": "Provisional rubric interpretations use explicit historical and current evidence. They are not banked points, a passing claim, or fulfillment of the stricter goal gates. Null is unverified, not zero.",
+  "rows": [
+    {
+      "id": "R01",
+      "criterion": "Problem",
+      "maximum": 2,
+      "provisional_points": 2,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "README.md",
+        "docs/decisions.md"
+      ],
+      "observed_evidence": [
+        "Documented comparison and PHOX2B tag-proposal research tasks, source boundaries and intended researcher output."
+      ],
+      "not_proven": [
+        "Complete supported outputs and researcher utility are not yet demonstrated."
+      ],
+      "goal_gate": "DESCRIPTION_PRESENT_QUALITY_PENDING",
+      "latest_assessment_at": "2026-09-06T15:06:13.253541+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R02",
+      "criterion": "Retrieval flow",
+      "maximum": 2,
+      "provisional_points": 2,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "navigator/rag.py",
+        "reports/answer-baseline/results.json",
+        "reports/experiments/answers-58588fd2-785d-4495-9491-e29485cbb56e/results.json",
+        "reports/experiments/answers-76980778-74eb-4cb6-be3d-1d9f61ef1396/results.json",
+        "reports/experiments/answers-61c1c04b-6628-4313-8bdd-af0e0b15244a/results.json",
+        "reports/experiments/answers-f88d7be4-47e4-4a00-9e84-16f4a8c0eadd/results.json",
+        "reports/goal-loop/cutoff-answer-026/report.md",
+        "reports/goal-loop/cutoff-answer-026/review-comparison.json",
+        "reports/goal-loop/schema-answer-027/report.md",
+        "reports/goal-loop/schema-cutoff-028/report.md"
+      ],
+      "observed_evidence": [
+        "Shared retrieval/local-model flow with actual historical application call receipts. Generation runs predate the evaluator-only repair; a fresh selected-version complete browser flow is still unproven.",
+        "Iteration 026 exercises the actual current request/provider/validator path for 8 calls. All outputs fail validation and remain preserved; no accepted full user flow is claimed.",
+        "027/028:14 live local calls at current code, all primary/whole reviewed. Schema fixes required fields in7 cutoff-ten cases but creates no acceptable complete answers; both experiments rejected. Active config remains unchanged."
+      ],
+      "not_proven": [
+        "Useful complete answers; final selected-version browser/export/save/feedback/dashboard flow."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253544+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R03",
+      "criterion": "Retrieval evaluation",
+      "maximum": 2,
+      "provisional_points": 2,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "reports/config-selection.json",
+        "reports/remediation-v2/retrieval-comparison-v2.json",
+        "reports/goal-loop/title-weight-retrieval-016.json",
+        "reports/goal-loop/title-weight-retrieval-016-analysis.json",
+        "reports/goal-loop/rrf-rank-replay-023.json",
+        "reports/goal-loop/rrf-rank-replay-023.md",
+        "reports/goal-loop/retrieval-cutoff-capacity-024.json",
+        "reports/goal-loop/fresh-retrieval-025/results.json",
+        "reports/goal-loop/retrieval-cutoff-capacity-024.md"
+      ],
+      "observed_evidence": [
+        "Multiple measured retrieval configurations; unchanged vector config/corpus matches selection artifact.",
+        "Iteration 016 measured 378 retrieval queries on 42 development questions. The best title-weight hybrid aggregate loses two fully covered cases versus vector, so the active vector configuration remains unchanged.",
+        "Iteration 023 performed 168 saved-rank replays across four taught RRF constants, with exact k=50 baseline reconstruction. Every alternative loses existing reference coverage on at least two questions, so none is promoted. No fresh retrieval, encoder or model calls.",
+        "Iterations 024/025 compare fixed cutoffs in 252 saved-rank replays and 84 fresh offline queries. All actual query results match replay. Title-zero RRF1@10 fully covers 25/35 versus vector@5 at 18/35 without coverage loss against vector@5; vector@10 covers 20/35 and retains a LIM-07 reference lost by hybrid@10. Active vector@5 remains pending downstream answer/capacity evidence."
+      ],
+      "not_proven": [
+        "Labels provisional; poor full-reference coverage; final assessment pending."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253547+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R04",
+      "criterion": "LLM evaluation",
+      "maximum": 2,
+      "provisional_points": 1,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "reports/answer-baseline/README.md",
+        "reports/goal-loop/iterations/001-whole-review.json",
+        "reports/goal-loop/iterations/003-coverage-prompt.json",
+        "reports/goal-loop/iterations/004-gemma-model.json",
+        "reports/goal-loop/iterations/005-course-message-layout.json",
+        "reports/goal-loop/checkpoint-011-verification.json",
+        "reports/goal-loop/checkpoint-019-verification.json",
+        "reports/goal-loop/evaluator-019-comparison.json",
+        "reports/goal-loop/iterations/015-source-attached-prototype.json",
+        "reports/goal-loop/iterations/018-source-attached-guidance.json",
+        "reports/goal-loop/checkpoint-022-verification.json",
+        "reports/goal-loop/iterations/020-claims-only-interface.json",
+        "reports/goal-loop/iterations/021-single-source-context.json",
+        "reports/goal-loop/iterations/022-phi3-precision-pilot.json",
+        "reports/experiments/answers-61c1c04b-6628-4313-8bdd-af0e0b15244a/results.json",
+        "reports/experiments/answers-f88d7be4-47e4-4a00-9e84-16f4a8c0eadd/results.json",
+        "reports/goal-loop/cutoff-answer-026/report.md",
+        "reports/goal-loop/cutoff-answer-026/review-comparison.json",
+        "reports/goal-loop/iterations/026-cutoff-answer-pilot.json",
+        "reports/goal-loop/schema-answer-027/report.md",
+        "reports/goal-loop/schema-cutoff-028/report.md"
+      ],
+      "observed_evidence": [
+        "101 unique new local Goal calls retained: 64 application pilots, four reference-context calls and 33 format/source diagnostics. Reused drafts counted once.",
+        "Latest claims-only and per-source prototypes yield zero accepted whole answers on their three-question pilots. One source-level complete response does not override failed/irrelevant/unsupported attempts.",
+        "Exact Phi3 Q8 support and six-call paired plan prepared with matching registry template/stop metadata. No model download or Q8 inference; 116 software tests pass.",
+        "Iteration 026 adds 8 completed local calls, all source-reviewed with mandatory primary/whole-answer sidecars. Each retrieval-policy arm has 0/3 acceptable answerable outputs and 0/1 acceptable nonanswer; seven missing-field outputs and one raw complete-aims draft with invalid IDs/quotes. Total new Goal calls 109: 72 application, 4 reference, 33 format/source diagnostics. No candidate promoted.",
+        "027/028:14 live local calls at current code, all primary/whole reviewed. Schema fixes required fields in7 cutoff-ten cases but creates no acceptable complete answers; both experiments rejected. Active config remains unchanged."
+      ],
+      "not_proven": [
+        "No full 42-question current-version paired comparison, acceptable winner or selected runtime configuration.",
+        "Schema compliance is not answer completeness: no candidate qualifies for full paired development/promotion after027/028."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253549+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R05",
+      "criterion": "Interface",
+      "maximum": 2,
+      "provisional_points": 2,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "app.py",
+        "reports/answer-baseline/browser-check.json"
+      ],
+      "observed_evidence": [
+        "Historical real browser answer/source/feedback trace; current Streamlit AppTest suite passes."
+      ],
+      "not_proven": [
+        "AppTest is not browser proof. Selected-version claim download bytes and complete flow pending."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253551+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R06",
+      "criterion": "Ingestion pipeline",
+      "maximum": 2,
+      "provisional_points": 2,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "navigator/corpus.py",
+        "reports/remediation-v2/ingestion-final-repeat.json",
+        "reports/checks.json"
+      ],
+      "observed_evidence": [
+        "Automated dlt-to-DuckDB-to-index records; repeat-run evidence and current ingestion tests."
+      ],
+      "not_proven": [
+        "Compose clean-volume ingestion remains unexecuted; tables explicitly excluded."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253553+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R07",
+      "criterion": "Monitoring",
+      "maximum": 2,
+      "provisional_points": 2,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "navigator/monitoring.py",
+        "reports/answer-baseline/browser-check.json",
+        "reports/checks.json"
+      ],
+      "observed_evidence": [
+        "Historical five core charts plus token chart, saved QA feedback and current origin/identity contracts."
+      ],
+      "not_proven": [
+        "Selected-version PostgreSQL/browser flow unproven; QA activity is not researcher satisfaction."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253555+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R08",
+      "criterion": "Containerization",
+      "maximum": 2,
+      "provisional_points": 2,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "compose.yaml",
+        "Dockerfile",
+        "reports/goal-loop/compose-rehearsal-plan.md",
+        "reports/goal-loop/iterations/011-compose-preparation.json"
+      ],
+      "observed_evidence": [
+        "Complete pinned app/database/ingestion/Ollama Compose artifact covers configured local stack.",
+        "Configurable loopback host port avoids collision with native apps; six services/three volumes and disabled paid calls checked statically. Docker installation and execution remain pending."
+      ],
+      "not_proven": [
+        "Artifact rubric tier is distinct from execution: no successful build/start/restart rehearsal."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253556+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    },
+    {
+      "id": "R09",
+      "criterion": "Reproducibility",
+      "maximum": 2,
+      "provisional_points": null,
+      "official_points": null,
+      "reviewer": "Codex provisional agent assessment",
+      "reviewed_version": {
+        "commit": "4a641533085c0137296e2acf07829eed7e8ecdcc",
+        "runtime_code_id": "49e3ab43bf0e658e8ed0d85adce299abc030095a377db8e949b3ef64f1bc3806",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "dirty_worktree": true
+      },
+      "evidence_paths": [
+        "README.md",
+        "uv.lock",
+        "reports/goal-loop/iteration-003-preflight.json",
+        "reports/goal-loop/compose-rehearsal-plan.md",
+        "reports/goal-loop/iterations/011-compose-preparation.json"
+      ],
+      "observed_evidence": [
+        "Pinned dependencies, accessible frozen sources and native model/encoder exist.",
+        "Configurable loopback host port avoids collision with native apps; six services/three volumes and disabled paid calls checked statically. Docker installation and execution remain pending."
+      ],
+      "not_proven": [
+        "Docker unavailable; clean Compose startup/restart not proven. No defensible full-tier award yet."
+      ],
+      "goal_gate": "INCOMPLETE",
+      "latest_assessment_at": "2026-09-06T15:06:13.253558+00:00",
+      "current_audit_version": {
+        "runtime_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+        "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+        "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+        "configuration_promoted": false
+      }
+    }
+  ],
+  "current_worktree_code_id": "3cc086c7aab1bb226abe634960c5dead886b44a9542e4e7dd02196c710e2b065",
+  "version_note": "Iterations027/028: optional disabled local schema adapter,121 passing tests,14 real current-code calls. No full development winner, browser retest, Compose rehearsal or final evidence. Historical points are not current awards.",
+  "updated_at": "2026-09-06T15:06:13.253410+00:00"
+}

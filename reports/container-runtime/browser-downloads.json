@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "method": "Browser download events followed by filesystem byte reads; JSON equals PostgreSQL payload, CSV rows equal stored passages, and every passage matches frozen source bytes and offsets.",
+  "answers": [
+    {
+      "answer_id": "055067d5-10c1-4b6f-b6d4-41308b11b6f6",
+      "status": "error",
+      "downloads": [
+        {
+          "file": "downloads/evidence-055067d5-10c1-4b6f-b6d4-41308b11b6f6.json",
+          "bytes": 23809,
+          "sha256": "91fd2723be7c1e15cf7bdc5731c3ef4479f65fe9c5aeb0be8f233206b0d88687",
+          "created_mtime_unix": 1788786781.4117055,
+          "checks": {
+            "browser_event_observed": true,
+            "equals_postgresql_payload": true
+          }
+        },
+        {
+          "file": "downloads/passages-055067d5-10c1-4b6f-b6d4-41308b11b6f6.csv",
+          "bytes": 8410,
+          "sha256": "ced790c51a2f57f075e245135ee76aa3a6bf7d409e8c3939002d020b40b96374",
+          "created_mtime_unix": 1788786821.974056,
+          "checks": {
+            "browser_event_observed": true,
+            "rows_match_stored_passages": true,
+            "row_count": 5
+          }
+        }
+      ],
+      "source_span_checks": [
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:175:0:52",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:196:0:156",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:171:0:62",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        }
+      ],
+      "claims_and_tags_export": "Not available: no validated claims in this response"
+    },
+    {
+      "answer_id": "08748cb5-2bbd-4a2b-a95e-fd8dfda03347",
+      "status": "insufficient_evidence",
+      "downloads": [
+        {
+          "file": "downloads/evidence-08748cb5-2bbd-4a2b-a95e-fd8dfda03347.json",
+          "bytes": 28426,
+          "sha256": "bacd8ea5ff67e74fff4272b46f3171184dd9321eeca22fa5741de327119eeff5",
+          "created_mtime_unix": 1788787000.1113374,
+          "checks": {
+            "browser_event_observed": true,
+            "equals_postgresql_payload": true
+          }
+        },
+        {
+          "file": "downloads/passages-08748cb5-2bbd-4a2b-a95e-fd8dfda03347.csv",
+          "bytes": 9222,
+          "sha256": "d9a58aa2c007dd60e09ed7174be325492f6f2977881fd626fca30f904fa95a9a",
+          "created_mtime_unix": 1788787000.7204034,
+          "checks": {
+            "browser_event_observed": true,
+            "rows_match_stored_passages": true,
+            "row_count": 5
+          }
+        }
+      ],
+      "source_span_checks": [
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:188:0:666",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:147:0:465",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        }
+      ],
+      "claims_and_tags_export": "Not available: no validated claims in this response"
+    },
+    {
+      "answer_id": "3b099d9a-31e7-4921-aad5-6960bed683dc",
+      "status": "error",
+      "downloads": [
+        {
+          "file": "downloads/evidence-3b099d9a-31e7-4921-aad5-6960bed683dc.json",
+          "bytes": 23810,
+          "sha256": "e419c3eb836bd92f3ded762d274ec703c95517176e2bb944edf643a2ad932d40",
+          "created_mtime_unix": 1788787549.2171688,
+          "checks": {
+            "browser_event_observed": true,
+            "equals_postgresql_payload": true
+          }
+        },
+        {
+          "file": "downloads/passages-3b099d9a-31e7-4921-aad5-6960bed683dc.csv",
+          "bytes": 8410,
+          "sha256": "20aae86a697d4e24187d4bbf1e3cca644e2d64fd96f74ba332dbfd3b62349978",
+          "created_mtime_unix": 1788787549.6864483,
+          "checks": {
+            "browser_event_observed": true,
+            "rows_match_stored_passages": true,
+            "row_count": 5
+          }
+        }
+      ],
+      "source_span_checks": [
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:175:0:52",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:196:0:156",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        },
+        {
+          "evidence_id": "PMC7503443:a26671042513feb5:171:0:62",
+          "source_hash_matches": true,
+          "publication_id_matches": true,
+          "exact_span_matches": true,
+          "bioc_offset_matches": true
+        }
+      ],
+      "claims_and_tags_export": "Not available: no validated claims in this response"
+    }
+  ],
+  "download_file_count": 6,
+  "total_downloaded_export_bytes": 102087
+}

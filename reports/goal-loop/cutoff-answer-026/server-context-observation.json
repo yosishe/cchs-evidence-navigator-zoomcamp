@@ -1,0 +1,161 @@
+{
+  "created_at": "2026-09-06T14:27:04.469950+00:00",
+  "scope": "Read-only excerpts from existing Ollama stdout/stderr file located via lsof on PID763. Matched by completion time and call order, not request UUID. Only selected token/truncation lines retained; no unrelated prompt text copied.",
+  "log_path": "/opt/homebrew/var/log/ollama.log",
+  "server_pid_observed": 763,
+  "timestamp_interpretation": "Asia/Jerusalem from task environment; all eight completions correlate within 2 seconds of receipts.",
+  "rows": [
+    {
+      "candidate": "vector_10",
+      "question_id": "DIR-01",
+      "call_id": "a7370d8d-416b-4973-99fc-577c1a63ee93",
+      "input_tokens": 3318,
+      "output_tokens": 25,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:19:41 | 200 | 15.240312584s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 0 | stop processing: n_tokens = 3342, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -0.581513
+      },
+      "current_request_release_line": "slot      release: id  0 | task 0 | stop processing: n_tokens = 3342, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    },
+    {
+      "candidate": "vector_10",
+      "question_id": "PAR-01",
+      "call_id": "91c5bb96-2ca5-4cdc-93be-48789002b736",
+      "input_tokens": 3268,
+      "output_tokens": 44,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:19:54 | 200 | 12.627561333s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 0 | stop processing: n_tokens = 3342, truncated = 0",
+          "slot      release: id  0 | task 32 | stop processing: n_tokens = 3311, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -0.237648
+      },
+      "current_request_release_line": "slot      release: id  0 | task 32 | stop processing: n_tokens = 3311, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    },
+    {
+      "candidate": "vector_10",
+      "question_id": "COM-01",
+      "call_id": "31315a05-0754-4b81-9c7c-b7e3027979b7",
+      "input_tokens": 3510,
+      "output_tokens": 25,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:20:07 | 200 | 13.145952917s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 32 | stop processing: n_tokens = 3311, truncated = 0",
+          "slot      release: id  0 | task 82 | stop processing: n_tokens = 3534, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -0.420924
+      },
+      "current_request_release_line": "slot      release: id  0 | task 82 | stop processing: n_tokens = 3534, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    },
+    {
+      "candidate": "vector_10",
+      "question_id": "ABS-01",
+      "call_id": "f4d85c16-c092-4808-8b2a-0b1601909a4a",
+      "input_tokens": 3725,
+      "output_tokens": 18,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:20:21 | 200 | 14.454354666s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 82 | stop processing: n_tokens = 3534, truncated = 0",
+          "slot      release: id  0 | task 114 | stop processing: n_tokens = 3742, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -0.928074
+      },
+      "current_request_release_line": "slot      release: id  0 | task 114 | stop processing: n_tokens = 3742, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    },
+    {
+      "candidate": "hybrid_title0_rrf1_10",
+      "question_id": "DIR-01",
+      "call_id": "55d00b73-b465-4dd7-b90b-9bfe7bd444ca",
+      "input_tokens": 3568,
+      "output_tokens": 519,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:20:54 | 200 | 32.911782667s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 139 | stop processing: n_tokens = 4086, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -1.002122
+      },
+      "current_request_release_line": "slot      release: id  0 | task 139 | stop processing: n_tokens = 4086, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    },
+    {
+      "candidate": "hybrid_title0_rrf1_10",
+      "question_id": "PAR-01",
+      "call_id": "f8a21fbb-2f86-4f4f-af20-bdda6c521396",
+      "input_tokens": 3332,
+      "output_tokens": 25,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:21:08 | 200 | 13.578497916s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 139 | stop processing: n_tokens = 4086, truncated = 0",
+          "slot      release: id  0 | task 665 | stop processing: n_tokens = 3356, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -0.631113
+      },
+      "current_request_release_line": "slot      release: id  0 | task 665 | stop processing: n_tokens = 3356, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    },
+    {
+      "candidate": "hybrid_title0_rrf1_10",
+      "question_id": "COM-01",
+      "call_id": "0746d3d1-e786-4d37-908f-ca55e1475899",
+      "input_tokens": 3369,
+      "output_tokens": 25,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:21:22 | 200 | 13.870433875s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 665 | stop processing: n_tokens = 3356, truncated = 0",
+          "slot      release: id  0 | task 697 | stop processing: n_tokens = 3393, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -0.55299
+      },
+      "current_request_release_line": "slot      release: id  0 | task 697 | stop processing: n_tokens = 3393, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    },
+    {
+      "candidate": "hybrid_title0_rrf1_10",
+      "question_id": "ABS-01",
+      "call_id": "0e9f79ac-31bf-4b19-a0b1-55f7292ea78e",
+      "input_tokens": 3971,
+      "output_tokens": 25,
+      "allocated_context_tokens_after_arm": 4096,
+      "correlation": {
+        "completion_log_line": "[GIN] 2026/09/06 - 17:21:39 | 200 | 17.270360334s |       127.0.0.1 | POST     \"/v1/chat/completions\"",
+        "relevant_preceding_lines": [
+          "slot      release: id  0 | task 729 | stop processing: n_tokens = 3995, truncated = 0"
+        ],
+        "completion_time_offset_seconds": -0.898117
+      },
+      "current_request_release_line": "slot      release: id  0 | task 729 | stop processing: n_tokens = 3995, truncated = 0",
+      "server_truncated_flag": 0,
+      "token_count_correlates_with_receipt": true
+    }
+  ],
+  "model_calls": 0,
+  "settings_changed": false,
+  "limitations": "No truncation in these observed completed calls is not a capacity guarantee for every question or for using the full 900-token output allowance."
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "reviewer": "Codex source-based provisional prompt review",
+  "reviewer_kind": "assistant",
+  "results_hash": "0a44ac02b69642a440468ccff5f1687e0950d7b7a4371ee979712151bc4815e7",
+  "reviews": [
+    {
+      "answer_id": "f1f2d8df-088e-40a1-bae8-442c4ec145cb",
+      "record_hash": "d0524cbd7431a14e89aa691510cce648c0e2c2ec34d70f59e7185d9429f34cba",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The stricter prompt regresses the previously complete count/period answer to an unnecessary nonanswer. Neither requested count nor period appears. The generic study limitations match Italian passage 68, but cannot replace the answer supplied by passage 19. No claim rows are exported. All source text, labels, factual requirements and acceptance rules are unchanged; no promotion occurred."
+    },
+    {
+      "answer_id": "fd1386dc-462a-4ec4-bafc-d99d094ef1e9",
+      "record_hash": "e6d8c039194eada0c02c2073729b880a22db2f551c5691edaaf1bc6e97b89a59",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "acceptable": false,
+      "reason": "The response still returns no claims and omits electronic medical records, although it mentions retrospective design among source-supported limitations. It does not complete the either/or question from Italian passages 19/21. No claim rows are exported. All source text, labels, factual requirements and acceptance rules are unchanged; no promotion occurred."
+    },
+    {
+      "answer_id": "47aa1c02-0bf6-40cb-b835-e12fd3bf5bc6",
+      "record_hash": "5e53b7d55b4c9dcdcafe05e642d95ba44bbacdc9359a642a5d7df5c9b719108d",
+      "export_hash": "ca05602e2fb09160bd4eaa1a2dd6a8de671e9bc9fc2a9afacba77ae5f536d18c",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "critical_failures": [
+        "lost_causal_uncertainty"
+      ],
+      "acceptable": false,
+      "reason": "The nonanswer still adds phenotypic variability due to mosaicism/environmental factors without retaining the source statement that these could influence expression. The extra qualification guidance did not remove this unsupported strengthening or the unnecessary background. No claim rows are exported. All source text, labels, factual requirements and acceptance rules are unchanged; no promotion occurred."
+    }
+  ]
+}

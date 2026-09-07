@@ -1,0 +1,3830 @@
+{
+  "status": "EXECUTED_PROVISIONAL_LABELS",
+  "created_at": "2026-09-06T07:32:41.130069+00:00",
+  "config_id": "6c2fc0821246681a10c9b8f33789c6177ac32dc4a353dd7d34e52e413b61a5d2",
+  "retrieval_policy": {
+    "retrieval": "vector",
+    "top_k": 5,
+    "candidate_k": 20,
+    "rrf_k": 50,
+    "boosts": {
+      "title": 2.0,
+      "section": 1.0,
+      "content": 1.0
+    },
+    "lexical_fields": null,
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "embedding_text": "title_content",
+    "chunk_chars": 750,
+    "overlap_chars": 150
+  },
+  "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+  "question_bank_hash": "f9981cd8ba660daa64ed05e7a5d98494b6d8ec6b1820a7291ee312100227b236",
+  "split": "tuning",
+  "searches": 35,
+  "generation_calls": 0,
+  "test_evaluated": false,
+  "configuration_promoted": false,
+  "reference_diagnoses": {
+    "candidate_present_below_final_cutoff": 16,
+    "in_final_context": 36,
+    "reference_not_in_candidate_pool": 15
+  },
+  "answerable_questions": 35,
+  "no_reference_hit": 14,
+  "incomplete_reference_coverage": 17,
+  "limitations": "Frozen provisional reference labels are not exhaustive. All referenced quotations exist in the corpus; this does not audit unlabeled, excluded or missing literature. A reranker can only reorder present candidates.",
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "slice": "direct",
+      "question": "What were the two stated aims of the Italian center study?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "to describe the genotypes and the clinical findings",
+          "best_rank": 7,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "to highlight the changing strategy in the management of these patients over time",
+          "best_rank": 7,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:59:600:841",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:2400:2751",
+          "rank": 14
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:16:0:228",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 17
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:237:0:250",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:29:0:149",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "DIR-02",
+      "slice": "direct",
+      "question": "How many patients were included in the Italian retrospective cohort and during what period?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "Data of 22 patients affected by CCHS has been collected retrospectively.",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "between 2000 and 2020",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:3:600:1219",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "DIR-03",
+      "slice": "direct",
+      "question": "Which records supplied the Italian study data and what approval is reported?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "review of the electronic medical record with the approval from the Institutional Review Board",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:2400:2751",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:237:0:250",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "DIR-04",
+      "slice": "direct",
+      "question": "Which organization performed the initial literature search for the European guideline?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "Centre for Reviews and Dissemination at the University of York, UK",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:12:0:409"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:151:0:315",
+          "rank": 6
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:41:600:1350",
+          "rank": 7
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+          "rank": 8
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:324:0:36",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:106:0:750",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:193:0:102",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:237:0:250",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:154:0:483",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:236:0:110",
+          "rank": 16
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:153:0:524",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:245:0:158",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "DIR-05",
+      "slice": "direct",
+      "question": "What limitations do the Italian authors state about design, sample and population?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "retrospective design, the poor sample, and the heterogeneity of the described population",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "patients of different ages and who had experienced different primary care settings",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:59:600:841",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "DIR-06",
+      "slice": "direct",
+      "question": "Which two additional genes does the guideline report in consanguineous families?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "MYO1H and LBX1",
+          "best_rank": 16,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "two consanguineous families with CCHS",
+          "best_rank": 16,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:57:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 5
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:202:0:147",
+          "rank": 8
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:56:0:487",
+          "rank": 10
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:25:0:148",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:750",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "DIR-07",
+      "slice": "direct",
+      "question": "What share of the Italian cohort had PARMs versus NPARMs?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "19/22 cases (86%) and NPARMs in 3/22 cases (14%)",
+          "best_rank": 2,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 7
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 8
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+          "rank": 19
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:600:1161",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "PAR-01",
+      "slice": "paraphrase",
+      "question": "Was the Italian analysis based on a randomized experiment or on looking back at patient records?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "collected retrospectively",
+          "best_rank": 5,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "review of the electronic medical record",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:21:0:192"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "PAR-02",
+      "slice": "paraphrase",
+      "question": "Did the guideline authors rely entirely on high-certainty trials when drafting recommendations?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "most of the evidence is descriptive and of low grade of recommendation",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "a blend of published evidence and clinical experience",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 1
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:324:0:36",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:245:0:158",
+          "rank": 3
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:203:0:119",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:237:0:250",
+          "rank": 6
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+          "rank": 7
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:1200:1437",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 9
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:41:1200:1439",
+          "rank": 10
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:6:0:168",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:125:0:233",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:1200:1777",
+          "rank": 14
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:45:600:756",
+          "rank": 15
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:600:1350",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:193:0:102",
+          "rank": 19
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "PAR-03",
+      "slice": "paraphrase",
+      "question": "How do the Italian data illustrate care changing as a team gained experience?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "14 patients have been followed in our Pediatric Intermediate Care Unit (PICU) since the onset of symptoms",
+          "best_rank": 3,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "The remaining 8 patients were initially treated by the staff of the Intensive Care Unit",
+          "best_rank": 3,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:20:0:358"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 9
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+          "rank": 13
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:137:0:431",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:147:0:465",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:29:0:149",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:150:0:750",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "PAR-04",
+      "slice": "paraphrase",
+      "question": "Can a researcher tag every NPARM case as having uniformly severe respiratory disease?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "some of whom may have only mild hypoventilation",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "Hypoventilation may not be the main feature in some PHOX2B mutations.",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:53:0:311",
+          "rank": 1
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:600:1246",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:15:0:750",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:188:0:666",
+          "rank": 5
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:32:0:750",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:110:0:692",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:1200:1950",
+          "rank": 9
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:45:0:750",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:153:0:524",
+          "rank": 11
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:26:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:18:0:233",
+          "rank": 16
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:600:1350",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:2:0:746",
+          "rank": 18
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:164:0:750",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "PAR-05",
+      "slice": "paraphrase",
+      "question": "Does repeat length invariably determine how much ventilatory support is needed?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "although this is inconsistent",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "this relationship is variable and a few remarkable exceptions are known",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:77:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:213:0:210",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:28:600:1305",
+          "rank": 3
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:214:0:212",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:76:0:677",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:84:600:860",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:93:0:135",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:208:0:66",
+          "rank": 8
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:78:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:211:0:159",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:71:0:750",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:84:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:30:0:750",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:47:0:750",
+          "rank": 14
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:32:600:1350",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:212:0:368",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:79:0:464",
+          "rank": 17
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:26:600:1350",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:77:600:895",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:215:0:98",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "PAR-06",
+      "slice": "paraphrase",
+      "question": "Why should the ventilation choices in the Italian study not be attributed only to genotype?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "but also by management habits in 6 children born before 2010",
+          "best_rank": 5,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "It is probable that the brain damage due to HIE contributed",
+          "best_rank": 5,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:58:0:750"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:600:891",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:1800:2550",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:3:600:1219",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:2400:2751",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:175:0:52",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:76:0:677",
+          "rank": 17
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:0:750",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "PAR-07",
+      "slice": "paraphrase",
+      "question": "What does the review say about gene deletions as an uncommon CCHS category?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8963195",
+          "quote": "Partial or whole gene deletions of PHOX2B account for <1% cases",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        },
+        {
+          "source_id": "PMC8963195",
+          "quote": "are associated with variable phenotypes",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 5
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "rank": 7
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:188:0:666",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:203:0:119",
+          "rank": 11
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:45:0:69",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-01",
+      "slice": "exact_identifiers",
+      "question": "Where does the 2022 review locate PHOX2B, and how many exons does it describe?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8963195",
+          "quote": "chromosome 4p12 and has 3 exons",
+          "best_rank": 19,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:194:0:58",
+          "rank": 3
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:170:0:156",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "rank": 5
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:197:0:83",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+          "rank": 8
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:1200:1402",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:195:0:71",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:199:0:132",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:750",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:24:0:163",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:172:0:101",
+          "rank": 18
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-02",
+      "slice": "exact_identifiers",
+      "question": "Which PARM genotype identifiers were common in the Italian molecular analysis?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "PARMs (20/25, 20/26, and 20/27)",
+          "best_rank": 2,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 4
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+          "rank": 8
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:25:0:148",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 13
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "rank": 14
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-03",
+      "slice": "exact_identifiers",
+      "question": "What observation does the Italian report connect specifically to c.780dupT and neural crest tumor?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "one child with c.780dupT mutation",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:67:0:194"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "one child",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:67:0:194"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:67:0:194",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:63:0:581",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 4
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:48:0:173",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:70:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:42:0:65",
+          "rank": 10
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:58:0:750",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:30:0:514",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+          "rank": 13
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:8:600:988",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:142:0:551",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:131:0:673",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-04",
+      "slice": "exact_identifiers",
+      "question": "Which gene symbols accompany MYO1H in the guideline additional-gene paragraph?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "MYO1H and LBX1",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "two consanguineous families",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:60:0:317",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+          "rank": 5
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:0:750",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 10
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:600:1246",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 13
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:25:0:148",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "rank": 15
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:170:0:156",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:2:0:746",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-05",
+      "slice": "exact_identifiers",
+      "question": "What does the guideline identify as RET and ECE1?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "receptor tyrosine kinase (RET), and endothelin converting enzyme 1 (ECE1)",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:61:0:166"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:61:0:166",
+          "rank": 1
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:117:0:550",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+          "rank": 7
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:24:0:163",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 10
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:39:0:750",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:2:600:1350",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:170:0:156",
+          "rank": 15
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:35:0:750",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:197:0:83",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:200:0:68",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-06",
+      "slice": "exact_identifiers",
+      "question": "Which exon and repeat counts does the guideline associate with PHOX2B PARMs?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "in the exon 3",
+          "best_rank": 5,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "20 repeats",
+          "best_rank": 5,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "24 to 33 repeats",
+          "best_rank": 5,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:49:0:572"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 9
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:600:987",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:25:0:148",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:31:0:152",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:194:0:58",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:195:0:71",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:170:0:156",
+          "rank": 18
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:200:0:68",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "EXA-07",
+      "slice": "exact_identifiers",
+      "question": "Which repeat-genotype range does the 2022 review describe for PARMs?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8963195",
+          "quote": "20/24 – 20/33",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 4
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:49:0:572",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+          "rank": 8
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 11
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:600:1161",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:25:0:148",
+          "rank": 15
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:0:750",
+          "rank": 16
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:600:987",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:0:750",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "COM-01",
+      "slice": "comparison",
+      "question": "Contrast the Italian study design with the guideline evidence-development method.",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "collected retrospectively",
+          "best_rank": 7,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:19:0:605"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "a blend of published evidence and clinical experience",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 5
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:600:1350",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:237:0:250",
+          "rank": 8
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:0:750",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:1200:1689",
+          "rank": 14
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+          "rank": 15
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:24:0:750",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:178:0:93",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "COM-02",
+      "slice": "comparison",
+      "question": "Compare the PARM fraction in the Italian cohort with the general estimate in the 2022 review.",
+      "hit_at_5": true,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "19/22 cases (86%)",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        },
+        {
+          "source_id": "PMC8963195",
+          "quote": "account for 90% of CCHS cases",
+          "best_rank": 12,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:0:750"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "19/22 cases",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:32:0:181"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 11
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:11:0:320",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+          "rank": 16
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:600:1161",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:28:0:593",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "COM-03",
+      "slice": "comparison",
+      "question": "Compare how the guideline and review qualify genotype–phenotype associations.",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "this relationship is variable",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        },
+        {
+          "source_id": "PMC8963195",
+          "quote": "variable expression and incomplete penetrance",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:175:0:52",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:0:750",
+          "rank": 5
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 6
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 8
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:203:0:119",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:171:0:62",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 14
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "COM-04",
+      "slice": "comparison",
+      "question": "Compare the Italian observation and guideline account concerning severity with NPARMs.",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "NPARMs are more likely to have more severe disease",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:49:0:480"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "some of whom may have only mild hypoventilation",
+          "best_rank": 18,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "wide spectrum of phenotypes",
+          "best_rank": 18,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:53:0:311"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:12:0:219",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 7
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:1200:1437",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:600:1350",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:0:750",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:53:0:311",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:69:0:686",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "COM-05",
+      "slice": "comparison",
+      "question": "How do the Italian limitations and guideline evidence grade constrain research conclusions?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "retrospective design, the poor sample",
+          "best_rank": 7,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "most of the evidence is descriptive",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:58:0:750",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:237:0:250",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "COM-06",
+      "slice": "comparison",
+      "question": "Compare the guideline and review descriptions of rare PHOX2B deletions.",
+      "hit_at_5": true,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "mainly large deletions",
+          "best_rank": 14,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:50:0:513"
+          ]
+        },
+        {
+          "source_id": "PMC8963195",
+          "quote": "Partial or whole gene deletions",
+          "best_rank": 2,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        },
+        {
+          "source_id": "PMC8963195",
+          "quote": "variable phenotypes",
+          "best_rank": 2,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:10:600:1089"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 3
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:194:0:58",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:25:0:148",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:197:0:83",
+          "rank": 6
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:1200:1402",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:199:0:132",
+          "rank": 8
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:0:750",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:195:0:71",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+          "rank": 13
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:172:0:101",
+          "rank": 15
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 16
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:170:0:156",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:9:0:184",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:2:0:746",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "COM-07",
+      "slice": "comparison",
+      "question": "Compare the Italian study aim with the guideline purpose regarding change over time.",
+      "hit_at_5": true,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "changing strategy in the management",
+          "best_rank": 5,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:17:0:261"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "clinical features of the condition continue to change",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:14:0:635"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:20:0:358",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:1200:1950",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:237:0:250",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:59:600:841",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:91:0:750",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:178:0:93",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:29:0:149",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "LIM-01",
+      "slice": "limitations",
+      "question": "What qualification must accompany a tag linking longer repeats with continuous ventilation?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "although this is inconsistent",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "a few remarkable exceptions",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:52:0:455"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:78:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:84:600:860",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:93:0:135",
+          "rank": 3
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:150:600:979",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:77:0:750",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:71:0:750",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:217:0:182",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:86:0:402",
+          "rank": 8
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:213:0:210",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:71:600:887",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:212:0:368",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:221:0:98",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:32:600:1350",
+          "rank": 13
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:76:0:677",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:211:0:159",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:248:0:147",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:160:0:390",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:214:0:212",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:149:0:704",
+          "rank": 19
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:26:600:1350",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "LIM-02",
+      "slice": "limitations",
+      "question": "May the Italian retrospective findings be presented as randomized causal evidence?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "retrospective design",
+          "best_rank": 6,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "heterogeneity of the described population",
+          "best_rank": 6,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:68:0:274"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:54:0:218",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:19:0:605",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:68:0:274",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:2:0:273",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 9
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:29:0:149",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:46:0:246",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:39:0:262",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "LIM-03",
+      "slice": "limitations",
+      "question": "What does the Italian epilepsy paragraph say about a genotype correlation?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "no correlation between epilepsy and genotype was finally seen",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "Three of our patients",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:61:0:750"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:61:600:817",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:56:0:582",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:64:600:945",
+          "rank": 5
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:55:0:418",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:17:0:261",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:44:0:589",
+          "rank": 11
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:23:0:260",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:64:0:750",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:175:0:52",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:8:0:127",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:32:0:181",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "LIM-04",
+      "slice": "limitations",
+      "question": "How should the Italian authors suggestion about hypoxia and behavior be qualified?",
+      "hit_at_5": true,
+      "fully_covered_at_5": true,
+      "references": [
+        {
+          "source_id": "PMC8039127",
+          "quote": "It seems that the psychological development",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ]
+        },
+        {
+          "source_id": "PMC8039127",
+          "quote": "influenced by hypoxia rather than the genotype",
+          "best_rank": 1,
+          "diagnosis": "in_final_context",
+          "acceptable_ids": [
+            "PMC8039127:b4a7750cb1b5b1d0:62:0:711"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:62:0:711",
+          "rank": 1
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:164:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:3:600:1219",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:0:750",
+          "rank": 4
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:6:0:509",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:27:0:668",
+          "rank": 6
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:65:0:159",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:47:0:296",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:49:0:480",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:19:0:543",
+          "rank": 10
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:37:600:1350",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:0:750",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:164:600:905",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:70:600:949",
+          "rank": 14
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:21:0:192",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:4:0:429",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 17
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:163:0:662",
+          "rank": 18
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:59:600:841",
+          "rank": 19
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:73:0:352",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "LIM-05",
+      "slice": "limitations",
+      "question": "What prevents the guideline recommendations from being labeled entirely trial-proven?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "combined with clinical expertise as required",
+          "best_rank": 20,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "low grade of recommendation",
+          "best_rank": 20,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:13:0:561"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC7503443:a26671042513feb5:12:0:409",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:324:0:36",
+          "rank": 3
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:203:0:119",
+          "rank": 4
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:155:600:928",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:125:0:233",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:193:0:102",
+          "rank": 7
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:58:600:1350",
+          "rank": 8
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:145:0:626",
+          "rank": 9
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+          "rank": 10
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:245:0:158",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:6:0:168",
+          "rank": 12
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:45:0:69",
+          "rank": 13
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:35:0:750",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:0:750",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:197:0:83",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:170:0:156",
+          "rank": 17
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:1200:1437",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:13:0:561",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "LIM-06",
+      "slice": "limitations",
+      "question": "Does the guideline additional-gene passage claim all unexplained CCHS cases are genetically solved?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC7503443",
+          "quote": "without any identified gene mutations",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        },
+        {
+          "source_id": "PMC7503443",
+          "quote": "yet unknown genes",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC7503443:a26671042513feb5:60:0:317"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 3
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:65:0:722",
+          "rank": 4
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 6
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "rank": 7
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:0:750",
+          "rank": 8
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:1:0:138",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:203:0:119",
+          "rank": 10
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:70:0:749",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:9:0:276",
+          "rank": 12
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:7:0:181",
+          "rank": 13
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:10:0:286",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:0:750",
+          "rank": 15
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:72:0:687",
+          "rank": 16
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:63:0:169",
+          "rank": 17
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:166:0:750",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:45:0:69",
+          "rank": 20
+        }
+      ]
+    },
+    {
+      "question_id": "LIM-07",
+      "slice": "limitations",
+      "question": "Can the review NPARM description justify assuming identical disease in every carrier?",
+      "hit_at_5": false,
+      "fully_covered_at_5": false,
+      "references": [
+        {
+          "source_id": "PMC8963195",
+          "quote": "clinical variability",
+          "best_rank": 7,
+          "diagnosis": "candidate_present_below_final_cutoff",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+            "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+          ]
+        },
+        {
+          "source_id": "PMC8963195",
+          "quote": "variable expression and incomplete penetrance",
+          "best_rank": null,
+          "diagnosis": "reference_not_in_candidate_pool",
+          "acceptable_ids": [
+            "PMC8963195:f6c8a0a4968ccaf4:11:600:987"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:600:1089",
+          "rank": 1
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:0:750",
+          "rank": 2
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:53:0:311",
+          "rank": 3
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:60:0:212",
+          "rank": 4
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:10:0:750",
+          "rank": 5
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:54:0:644",
+          "rank": 6
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:11:0:750",
+          "rank": 7
+        },
+        {
+          "id": "PMC8039127:b4a7750cb1b5b1d0:57:0:153",
+          "rank": 8
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:0:750",
+          "rank": 9
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:58:0:461",
+          "rank": 10
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:64:600:1350",
+          "rank": 11
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:10:600:1246",
+          "rank": 12
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:49:1200:1437",
+          "rank": 13
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:202:0:147",
+          "rank": 14
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:50:0:513",
+          "rank": 15
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:203:0:119",
+          "rank": 16
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:57:600:972",
+          "rank": 17
+        },
+        {
+          "id": "PMC8963195:f6c8a0a4968ccaf4:14:600:1161",
+          "rank": 18
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:56:0:487",
+          "rank": 19
+        },
+        {
+          "id": "PMC7503443:a26671042513feb5:35:0:750",
+          "rank": 20
+        }
+      ]
+    }
+  ]
+}

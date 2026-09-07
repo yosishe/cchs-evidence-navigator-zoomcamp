@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "selection": "Bounded seed corpus; no claim of systematic coverage",
+  "sources": [
+    {
+      "source_id": "PMC7503443",
+      "status": "included",
+      "title": "Guidelines for diagnosis and management of congenital central hypoventilation syndrome",
+      "article_type": "review/guideline",
+      "year": "2020",
+      "pmid": "32958024",
+      "doi": "10.1186/s13023-020-01460-2",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7503443/",
+      "api_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC7503443/unicode",
+      "raw_file": "raw/PMC7503443.json",
+      "sha256": "a26671042513feb5430e045a2785bfd01686b4e3844ac4ec2481c6a45d84bb4b",
+      "license": "Open AccessThis article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.",
+      "attribution": {
+        "name_0": "surname:Trang;given-names:Ha",
+        "name_1": "surname:Samuels;given-names:Martin",
+        "name_10": "surname:Piumelli;given-names:Raffaele",
+        "name_11": "surname:Estevao;given-names:Maria Helena",
+        "name_12": "surname:Senecic-Cala;given-names:Irena",
+        "name_13": "surname:Gnidovec-Strazisar;given-names:Barbara",
+        "name_14": "surname:Pfleger;given-names:Andreas",
+        "name_15": "surname:Porto-Abal;given-names:Raquel",
+        "name_16": "surname:Katz-Salamon;given-names:Miriam",
+        "name_17": "surname:Trang;given-names:Ha",
+        "name_2": "surname:Ceccherini;given-names:Isabella",
+        "name_3": "surname:Frerick;given-names:Matthias",
+        "name_4": "surname:Garcia-Teresa;given-names:Maria Angeles",
+        "name_5": "surname:Peters;given-names:Jochen",
+        "name_6": "surname:Schoeber;given-names:Johannes",
+        "name_7": "surname:Migdal;given-names:Marek",
+        "name_8": "surname:Markstrom;given-names:Agneta",
+        "name_9": "surname:Ottonello;given-names:Giancarlo"
+      },
+      "retrieved_at": "2026-09-05T17:12:32.743250+00:00",
+      "correction_review": "PENDING_REVIEW",
+      "passage_count": 435
+    },
+    {
+      "source_id": "PMC8039127",
+      "status": "included",
+      "title": "How the Management of Children With Congenital Central Hypoventilation Syndrome Has Changed Over Time: Two Decades of Experience From an Italian Center",
+      "article_type": "primary study",
+      "year": "2021",
+      "pmid": "33855005",
+      "doi": "10.3389/fped.2021.648927",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8039127/",
+      "api_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC8039127/unicode",
+      "raw_file": "raw/PMC8039127.json",
+      "sha256": "b4a7750cb1b5b1d0bf4fd7759cea1247f250f6d6c1fa61af456a4906e5455a3f",
+      "license": "This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.",
+      "attribution": {
+        "name_0": "surname:Porcaro;given-names:Federica",
+        "name_1": "surname:Paglietti;given-names:Maria Giovanna",
+        "name_2": "surname:Cherchi;given-names:Claudio",
+        "name_3": "surname:Schiavino;given-names:Alessandra",
+        "name_4": "surname:Chiarini Testa;given-names:Maria Beatrice",
+        "name_5": "surname:Cutrera;given-names:Renato"
+      },
+      "retrieved_at": "2026-09-05T17:12:33.891467+00:00",
+      "correction_review": "PENDING_REVIEW",
+      "passage_count": 136
+    },
+    {
+      "source_id": "PMC8963195",
+      "status": "included",
+      "title": "Congenital Central Hypoventilation Syndrome: Optimizing Care with a Multidisciplinary Approach",
+      "article_type": "review",
+      "year": "2022",
+      "pmid": null,
+      "doi": "10.2147/JMDH.S284782",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8963195/",
+      "api_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC8963195/unicode",
+      "raw_file": "raw/PMC8963195.json",
+      "sha256": "f6c8a0a4968ccaf484d644ea3a6dee688690e0a1876895c0cef70e90d6ec4fde",
+      "license": "This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at https://www.dovepress.com/terms.php and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (http://creativecommons.org/licenses/by-nc/3.0/). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (https://www.dovepress.com/terms.php).",
+      "attribution": {
+        "name_0": "surname:Kasi;given-names:Ajay S",
+        "name_1": "surname:Li;given-names:Hong",
+        "name_2": "surname:Harford;given-names:Kelli-Lee",
+        "name_3": "surname:Lam;given-names:Humphrey V",
+        "name_4": "surname:Mao;given-names:Chad",
+        "name_5": "surname:Landry;given-names:April M",
+        "name_6": "surname:Mitchell;given-names:Sarah G",
+        "name_7": "surname:Clifton;given-names:Matthew S",
+        "name_8": "surname:Leu;given-names:Roberta M"
+      },
+      "retrieved_at": "2026-09-05T17:12:34.629754+00:00",
+      "correction_review": "PENDING_REVIEW",
+      "passage_count": 117
+    },
+    {
+      "source_id": "PMC10235709",
+      "status": "blocked",
+      "error": "JSONDecodeError"
+    }
+  ]
+}

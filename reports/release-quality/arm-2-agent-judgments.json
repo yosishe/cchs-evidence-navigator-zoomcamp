@@ -1,0 +1,174 @@
+{
+  "results_hash": "637816278fffc76af56b7584e793944ad357daa8b6bd85c2b63fd4b9ac28df23",
+  "reviewer_kind": "assistant",
+  "scope": "Source-based assistant review of raw/canonical answers, identical supplied contexts and canonical export fields. Candidate identity known; not independent human review.",
+  "questions": {
+    "DIR-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "DIR-02: inspected the raw and canonical output. JSONDecodeError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "PAR-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "PAR-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "EXA-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "EXA-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "EXA-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "EXA-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "COM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "COM-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "COM-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "COM-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "LIM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "LIM-01: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "LIM-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "LIM-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "ABS-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "ABS-02: inspected the raw and canonical output. ValueError rejected malformed fields, invalid quotations/status or incomplete output. The application displays only its error message and exports no claim/tag rows. Missing required answer content remains failure; rejected raw statements are not counted as accepted claims or correct abstention."
+    },
+    "DIR-01": {
+      "relevance": "partly_relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The supplied vector/5 context lacks Italian passage 17 with the two explicitly stated aims. The generic corpus-scoped refusal adds no false premise, but answers neither required fact."
+    },
+    "PAR-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Italian passage 68 explicitly describes retrospective design; passage 21 explicitly describes review of electronic medical records. The response states retrospective/nonrandomized collection and displays the EMR quotation, covering both facts across the visible response. The EMR fact appears in its quotation rather than a separate summary sentence, an explanatory weakness but not an absent visible fact. Limitations repeat the source retrospective/sample/heterogeneity qualifications. Comparison rows preserve both quotes and limitations; no scientific approval is implied."
+    },
+    "ABS-01": {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The actual supplied passages discuss genetic variants/testing and do not establish the proposed randomized gene-editing intervention. The refusal is scoped to those passages and does not assert that the intervention occurred. Empty claims/exports retain uncertainty."
+    }
+  }
+}

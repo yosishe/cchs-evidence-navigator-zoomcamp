@@ -1,0 +1,139 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "29ba245a4014708cf88a5a1115c48e691545c2a60007fac95a635f7d090d7f40",
+  "reviews_hash": "9520a6b1a58d47e24f06ba21ec879dc067ed2f8004d74da2f27c07f22e395da3",
+  "reviewer": "Codex provisional source-based review, iteration 028; not independent or human validation",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "evidence_first",
+      "evaluated_questions": 4,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 0,
+      "claim_denominator": 0,
+      "unsupported_claims": 0,
+      "mean_seconds": 34.12150707299588,
+      "errors": 1,
+      "critical_failure_answers": 2
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-01",
+      "answer_id": "37fb4a98-f470-4d99-92db-a80bd4525558",
+      "prompt": "evidence_first",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Canonical error is accurate and has no claims/exports. The raw first claim contains both aims from Italian passage 17, but uses a full source-version identity instead of its passage ID and adds a comma to exact_quote. The second changes The study to Our study and repeats the invalid ID. These raw fragments remain blocked and do not earn complete-answer credit.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Canonical error is accurate and has no claims/exports. The raw first claim contains both aims from Italian passage 17, but uses a full source-version identity instead of its passage ID and adds a comma to exact_quote. The second changes The study to Our study and repeats the invalid ID. These raw fragments remain blocked and do not earn complete-answer credit. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "be3f0b16-329c-47a2-9c97-ce57a7f98bfa",
+      "prompt": "evidence_first",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Italian passages 19/68 state retrospective design and passage 21 states electronic medical-record review. The visible refusal denies these specific design facts, although both are present. No correct answer is delivered.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Italian passages 19/68 state retrospective design and passage 21 states electronic medical-record review. The visible refusal denies these specific design facts, although both are present. No correct answer is delivered. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "COM-01",
+      "answer_id": "55e2d97e-b858-4090-9db1-2e9fa5ec3a17",
+      "prompt": "evidence_first",
+      "slice": "comparison",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The supplied sources do not literally compare themselves, so the narrow statement about no explicit cross-study discussion is supportable. However Italian passages 2/19/21 and guideline 13 supply the two methods that the application should compare. The refusal is incomplete and not useful; no unsupported comparison is credited or invented.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The supplied sources do not literally compare themselves, so the narrow statement about no explicit cross-study discussion is supportable. However Italian passages 2/19/21 and guideline 13 supply the two methods that the application should compare. The refusal is incomplete and not useful; no unsupported comparison is credited or invented. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "d12dd7f6-6bdc-4d9a-956b-e6fd79642cb8",
+      "prompt": "evidence_first",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": true,
+      "reason": "The nonanswer says a randomized intervention was reported in the Italian 2021 study, which is not established by any provided passage. The corpus-bound lack of measured results does not license that presupposition.",
+      "visible_prose_supported": false,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The nonanswer says a randomized intervention was reported in the Italian 2021 study, which is not established by any provided passage. The corpus-bound lack of measured results does not license that presupposition. Empty exports are internally consistent but do not demonstrate a useful research artifact; no browser download or human review is claimed.",
+      "whole_answer_critical": true
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "71fc14e14f0c1bd458658953e5e1c5d6bac48fff24aec205f73bf5c02e286d2a",
+  "whole_answer_reviewer": "Codex provisional source-based review, iteration 028; not independent or human validation",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

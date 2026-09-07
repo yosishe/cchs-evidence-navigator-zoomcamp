@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-09-07T09:24:23.803194+00:00",
+  "status": "PASS_PACKAGE_PORTABILITY_EXISTING_DEPENDENCIES_AND_ENCODER",
+  "scope": "Copied 684 audited Git-includable files into a temporary isolated project without Git history or a private sibling. Imports resolved to the copy. Reused already-installed Python/dependencies and staged only the existing pinned MiniLM cache inside the copy. Ingested and prepared the encoder offline before the full suite; no new downloads or LLM inference.",
+  "copied_file_count": 684,
+  "copy_matches_audited_hashes": true,
+  "imports_and_model_cache_resolve_inside_copy": true,
+  "existing_dependency_environment_reused": true,
+  "encoder": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "pinned_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "preparation_status": "ENCODER_READY",
+    "resolved_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "dimensions": 384,
+    "truncated_inputs": 0,
+    "cache_file_count": 29,
+    "all_cache_bytes_matched": true,
+    "new_download": false,
+    "shipping_weights": false
+  },
+  "setup_commands": [
+    {
+      "command": "python -m navigator ingest",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m navigator prepare-encoder",
+      "exit_code": 0
+    }
+  ],
+  "source_runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+  "isolated_suite": {
+    "created_at": "2026-09-07T09:24:23.793395+00:00",
+    "suite_passed": true,
+    "test_count": 172,
+    "passed_count": 172,
+    "skipped_count": 0,
+    "runtime_code_id": "5a8dff9b921a68fb270e2428144f8c24ccdc45c6458fdb7e14c40d5577d653cc",
+    "corpus_id": "a06955ab5c7a4f9c2d48213fae09980fe2628661f8ec5857527fe38d918dc7d0",
+    "chunk_count": 377,
+    "excluded_passages": 390,
+    "missing_dependencies_in_this_interpreter": [],
+    "docker_available": false
+  },
+  "initial_harness_probe": "An initial empty-cache suite failed its success assertion; detailed output was not retained. A second empty-cache diagnostic captured the failures below. Neither is counted as a passing run.",
+  "captured_empty_cache_diagnostic": {
+    "created_at": "2026-09-07T09:21:56.860528+00:00",
+    "tests_run": 172,
+    "errors": 1,
+    "failures": 1,
+    "skips": 0,
+    "error_test": "test_real_index_preserves_filters_and_identity",
+    "failed_test": "test_real_streamlit_question_and_feedback",
+    "cause": "EncoderUnavailableError: required pinned encoder absent. No automatic download; UI has no successful answer to persist.",
+    "resolution": "Follow the documented ingestion/encoder-setup prerequisite. This rehearsal stages an already-present encoder; a fresh network download remains unproved."
+  },
+  "new_inference_calls": 0,
+  "not_established": [
+    "fresh dependency installation",
+    "fresh encoder/model download on another machine",
+    "public Git clone or exact commit",
+    "actual model-generated answer in this copy",
+    "PostgreSQL/Compose execution",
+    "course submission readiness"
+  ]
+}

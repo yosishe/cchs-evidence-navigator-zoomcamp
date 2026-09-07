@@ -1,0 +1,120 @@
+{
+  "status": "REVIEWED_COMPLETE",
+  "results_hash": "19fbb7e3a904282819e4a6e50c7a5c5fb82fbf4cf07f3bd2a7aae5daec4a220c",
+  "reviews_hash": "ce19192a30e73656fca3da599c321d89f6726bf28ad1ca9c72951c7511e6adf0",
+  "reviewer": "Codex provisional source-based agent review",
+  "reviewer_kind": "assistant",
+  "aggregates": [
+    {
+      "prompt": "prototype_single_source_claims",
+      "evaluated_questions": 3,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0,
+      "supported_claims": 3,
+      "claim_denominator": 6,
+      "unsupported_claims": 0,
+      "mean_seconds": 13.532521264011544,
+      "errors": 1,
+      "critical_failure_answers": 1
+    }
+  ],
+  "per_slice": [
+    {
+      "prompt": "prototype_single_source_claims",
+      "slice": "absent",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_single_source_claims",
+      "slice": "direct",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    },
+    {
+      "prompt": "prototype_single_source_claims",
+      "slice": "paraphrase",
+      "evaluated_questions": 1,
+      "acceptable_answers": 0,
+      "acceptable_rate": 0.0
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "DIR-02",
+      "answer_id": "187d900c-019c-4691-82c2-b9ec309f27a1",
+      "prompt": "prototype_single_source_claims",
+      "slice": "direct",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [],
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "The assembled output is error because two of five source-level outputs violate the schema. One source-level response is fully supported and complete, but the predeclared workflow does not select it and hide failed/irrelevant/unsupported attempts. A separate source-level output also misuses publication year as study time.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "The assembled output is error because two of five source-level outputs violate the schema. One source-level response is fully supported and complete, but the predeclared workflow does not select it and hide failed/irrelevant/unsupported attempts. A separate source-level output also misuses publication year as study time. Canonical exports retain all final claim text and full windows with the application process note and pending human review; errors export no claims. This is diagnostic payload review, not browser download verification.",
+      "whole_answer_critical": true
+    },
+    {
+      "question_id": "PAR-01",
+      "answer_id": "b563a8d6-7d5a-43cc-aa8b-5867827a6f47",
+      "prompt": "prototype_single_source_claims",
+      "slice": "paraphrase",
+      "answerable": true,
+      "acceptable": false,
+      "claim_support": [
+        "partial",
+        "supported",
+        "supported",
+        "partial",
+        "partial"
+      ],
+      "fact_coverage": [
+        "covered",
+        "partial"
+      ],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Retrospective design is stated, but electronic records are not named. Several claims are irrelevant passage summaries or source-absence observations; explicit exclusion of randomization and patient-record attribution go beyond the individually cited windows. See per-source review. Extra claims do not repair support/completeness.",
+      "visible_prose_supported": null,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Retrospective design is stated, but electronic records are not named. Several claims are irrelevant passage summaries or source-absence observations; explicit exclusion of randomization and patient-record attribution go beyond the individually cited windows. See per-source review. Extra claims do not repair support/completeness. Canonical exports retain all final claim text and full windows with the application process note and pending human review; errors export no claims. This is diagnostic payload review, not browser download verification.",
+      "whole_answer_critical": false
+    },
+    {
+      "question_id": "ABS-01",
+      "answer_id": "138dd2e5-ccab-42e8-9f66-9d60304f0a29",
+      "prompt": "prototype_single_source_claims",
+      "slice": "absent",
+      "answerable": false,
+      "acceptable": false,
+      "claim_support": [
+        "supported"
+      ],
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "abstention_correct": false,
+      "reason": "Four source-level outputs are correctly empty. The remaining claim reports supported genetic background from Italian passage 56 but no randomized gene-editing results. The combined answer is answered with a claim rather than a bounded nonanswer, so this unanswerable question fails. No intervention result has been invented by this particular final output; the failure is relevance/abstention.",
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "whole_answer_reason": "Four source-level outputs are correctly empty. The remaining claim reports supported genetic background from Italian passage 56 but no randomized gene-editing results. The combined answer is answered with a claim rather than a bounded nonanswer, so this unanswerable question fails. No intervention result has been invented by this particular final output; the failure is relevance/abstention. Canonical exports retain all final claim text and full windows with the application process note and pending human review; errors export no claims. This is diagnostic payload review, not browser download verification.",
+      "whole_answer_critical": false
+    }
+  ],
+  "eligible_best_prompts": [],
+  "completeness_available": true,
+  "completion_note": "Complete means every planned pair was run and reviewed, not that every answer succeeded. Invalid outputs count as unacceptable answers and errors.",
+  "selection_rule": "Highest supported, complete and relevant response rate on tuning data among candidates with at least one acceptable answerable response. Refusals alone, legacy incomplete-reference and test-only results cannot nominate a winner. This is necessary, not sufficient for research readiness. No automatic promotion.",
+  "limitations": "Reviewer judgments are not a clinical validation. Assistant or model review must never be labeled human review.",
+  "whole_answer_reviewed": true,
+  "whole_reviews_hash": "d518633839a5e65583df35945afebfcb18fcfa818f8187a65716adf5fe461d8b",
+  "whole_answer_reviewer": "Codex provisional whole-answer/export review",
+  "whole_answer_note": "Explicit assistant judgments and export consistency, not clinical validation"
+}

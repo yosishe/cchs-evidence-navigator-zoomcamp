@@ -1,0 +1,80 @@
+{
+  "results_hash": "1d245c5c6a87effa4175678aeca61b7374cfcb723dd2d43787a14d11143206b7",
+  "scope": "Implementing assistant source review of all canonical claims, original quotations and exports; candidate identity known. Labels remain provisional.",
+  "questions": {
+    "DIR-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "supported"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The two requested aims are copied from the correct Italian passage 17. An additional retrospective 22-patient statement is correctly sourced to passage 19 but unnecessary for this question. Both facts are covered; no altered source meaning or claimed scientific approval is exported."
+    },
+    "PAR-01": {
+      "relevance": "relevant",
+      "claim_support": [
+        "supported",
+        "partial"
+      ],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "covered",
+        "covered"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The first retrospective claim is supported by the abstract. The second correctly identifies electronic medical records but appends 22 patients, a count absent from that selected passage 21. The count exists elsewhere in the supplied same-study evidence, so this is a partial citation-support defect rather than a fabricated number. Both required task facts are present, but the unchanged per-claim rule prevents full acceptance."
+    },
+    "COM-01": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing",
+        "missing"
+      ],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "The raw comparison chooses an unrelated Italian span and out-of-range guideline and limitation spans. The canonical validator rejects the entire output. No partial facts behind the error are counted as delivered."
+    },
+    "LIM-02": {
+      "relevance": "not_relevant",
+      "claim_support": [],
+      "abstention_correct": false,
+      "fact_coverage": [
+        "missing"
+      ],
+      "qualification_coverage": [
+        "missing"
+      ],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Raw abstention also selects limitations, violating the explicit refusal contract, and includes an invalid span range. Output is rejected. The supplied retrospective/heterogeneous design evidence remains unused; no answer or qualification is delivered."
+    },
+    "ABS-01": {
+      "relevance": "relevant",
+      "claim_support": [],
+      "abstention_correct": true,
+      "fact_coverage": [],
+      "qualification_coverage": [],
+      "visible_prose_supported": true,
+      "export_preserves_qualifications": true,
+      "critical_failures": [],
+      "reason": "Context-scoped abstention adds no gene-editing premise, trial result, external absence claim or tag. No canonical claims exist to export."
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "status": "EXECUTED_AWAITING_AGENT_REVIEW",
+  "created_at": "2026-09-07T01:36:38.524305+00:00",
+  "plan_hash": "91dbf9068cf8de1151546e742246d405b1e5122e98a1d32e4948917b9b5b7f06",
+  "arms": [
+    {
+      "arm": "phi3-source-extract-checked",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-b49ba118-b1a2-4325-a6d4-238bd5b8b889/results.json",
+      "actual_attempts": 5,
+      "after": {
+        "observed_at": "2026-09-07T01:37:32.430221+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "phi3:latest",
+              "model": "phi3:latest",
+              "size": 3042789293,
+              "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "phi3",
+                "families": [
+                  "phi3"
+                ],
+                "parameter_size": "3.8B",
+                "quantization_level": "Q4_0"
+              },
+              "expires_at": "2026-09-07T04:42:32.408729+03:00",
+              "size_vram": 3042789293,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    },
+    {
+      "arm": "phi3-source-extract-reasoned",
+      "status": "EXECUTED_AWAITING_REVIEW",
+      "results_path": "reports/experiments/answers-5e9f2858-2506-4d98-b5d2-d3e2ee6b781d/results.json",
+      "actual_attempts": 5,
+      "after": {
+        "observed_at": "2026-09-07T01:38:47.973199+00:00",
+        "python_version": "3.12.14",
+        "version": {
+          "version": "0.31.1"
+        },
+        "ps": {
+          "models": [
+            {
+              "name": "phi3:latest",
+              "model": "phi3:latest",
+              "size": 3042789293,
+              "digest": "4f222292793889a9a40a020799cfd28d53f3e01af25d48e06c5e708610fc47e9",
+              "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "phi3",
+                "families": [
+                  "phi3"
+                ],
+                "parameter_size": "3.8B",
+                "quantization_level": "Q4_0"
+              },
+              "expires_at": "2026-09-07T04:43:47.920026+03:00",
+              "size_vram": 3042789293,
+              "context_length": 4096
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "actual_attempts": 10,
+  "planned_attempts": 10
+}
