@@ -13,19 +13,19 @@ researcher time savings and scientific outcomes have not been measured.
 
 ![Actual native submission-candidate answer](docs/screenshots/final-native-answer.png)
 
-> **Submission candidate — 7 September 2026.** The app binds
-> `gemma3:12b` / `source_extract_complete` / hybrid top-10, title boost 0,
-> zero-based RRF k=50. In the paired development pilot, **8/12 answers were fully
-> acceptable, with one critical relevance failure (LIM-01)**. The internal
-> zero-critical quality bar was **not met**; the owner accepted submission with
-> this disclosure. The final 18-question inference test was **not run**.
-> Judgments are provisional assistant reviews, not independent scientific review.
-> [Decision and exact identities](reports/final/selection-2026-09-07.json).
+**What it does.** Hybrid retrieval — `minsearch` lexical search and MiniLM vectors fused with
+zero-based RRF — over three licensed CCHS publications, then a local Gemma 3 model that may only
+select numbered excerpts. The application, not the model, supplies source identity, quotation text
+and character offsets, so the answer cannot silently repair a number, a negation or a source ID.
+Everything runs on the machine: no paid API, no inference-time download, no cloud deployment.
 
-The new demonstration checks the actual configured app, not a replacement quality
-sample: one EXA-01 attempt and one ABS-01 attempt, with exports, feedback and native
-restart persistence. [Recorded outcomes](reports/final/native-bound-flow.json).
-The historical pilot failure remains visible and unchanged.
+**How it was chosen.** A 168-search factorial over retrieval configurations, a 252-search
+representation study, a title-weight ablation, and a paired prompt comparison that held the
+questions and the retrieved contexts fixed and varied only the prompt. The configuration that
+shipped is the one the evidence picked, and the runs that lost are still in the repository.
+
+**Status and honest limits** are in [their own section](#limitations-authorship-and-submission),
+including a quality bar this release did not meet. Nothing was removed to make the numbers better.
 
 ## The problem and useful output
 
@@ -293,6 +293,20 @@ controls grading. These are evidence links and limits, not awarded points.
 | Discretionary additions | Up to 3 | [Traceable research exports](navigator/exports.py), [browser evidence](reports/final/native-bound-flow.json) | Examiner judgment; no guaranteed award |
 
 ## Limitations, authorship and submission
+
+> **Submission candidate — 7 September 2026.** The app binds
+> `gemma3:12b` / `source_extract_complete` / hybrid top-10, title boost 0,
+> zero-based RRF k=50. In the paired development pilot, **8/12 answers were fully
+> acceptable, with one critical relevance failure (LIM-01)**. The internal
+> zero-critical quality bar was **not met**; the owner accepted submission with
+> this disclosure. The final 18-question inference test was **not run**.
+> Judgments are provisional assistant reviews, not independent scientific review.
+> [Decision and exact identities](reports/final/selection-2026-09-07.json).
+
+The new demonstration checks the actual configured app, not a replacement quality
+sample: one EXA-01 attempt and one ABS-01 attempt, with exports, feedback and native
+restart persistence. [Recorded outcomes](reports/final/native-bound-flow.json).
+The historical pilot failure remains visible and unchanged.
 
 The candidate has a known critical relevance error and incomplete answers;
 exact quotations are not a correctness certificate. Three papers and excluded
