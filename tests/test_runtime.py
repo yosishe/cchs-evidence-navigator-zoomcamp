@@ -16,7 +16,7 @@ class SearchRuntimeTests(unittest.TestCase):
         from navigator.retrieval import Retriever
         docs, _, _ = prepare()
         engine = Retriever(docs, load_config())
-        hits = engine.search("retrospective study", {"source_id": "PMC8039127"})
+        hits = engine.search("retrospective study", {"source_id": "PMC8039127"}, method="lexical")
         self.assertTrue(hits)
         self.assertTrue(all(h["source_id"] == "PMC8039127" for h in hits))
         self.assertTrue(all(h["id"] in {d["id"] for d in docs} for h in hits))
@@ -46,7 +46,8 @@ class UIRuntimeTests(unittest.TestCase):
         from streamlit.testing.v1 import AppTest
         from navigator.corpus import ingest
         from navigator.storage import Journal
-        with tempfile.TemporaryDirectory() as temp, patch.dict(os.environ, {"NAVIGATOR_RUNTIME": temp, "TELEMETRY_BACKEND": "jsonl", "ENABLE_PAID_LLM": "0"}):
+        config = {**load_config(), "retrieval": "lexical"}
+        with tempfile.TemporaryDirectory() as temp, patch.dict(os.environ, {"NAVIGATOR_RUNTIME": temp, "TELEMETRY_BACKEND": "jsonl", "ENABLE_PAID_LLM": "0"}), patch("navigator.common.load_config", return_value=config):
             ingest()
             app = AppTest.from_file(str(ROOT / "app.py"), default_timeout=30).run()
             self.assertFalse(app.exception)

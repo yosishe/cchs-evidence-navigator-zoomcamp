@@ -1,9 +1,11 @@
 """Origin integrity and offline setup failures; no downloaded or generated evidence."""
 import json
 import os
+import sys
 import tempfile
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
 
 from navigator.common import ROOT, load_config
@@ -68,7 +70,8 @@ class EncoderPreparationTests(unittest.TestCase):
     def test_missing_encoder_is_offline_and_actionable(self):
         engine = Retriever([{'id': 'a', 'title': 'fixture', 'section': 'text',
                              'content': 'fixture content'}], load_config())
-        with patch('sentence_transformers.SentenceTransformer', side_effect=OSError('fixture')) as model:
+        model = MagicMock(side_effect=OSError('fixture'))
+        with patch.dict(sys.modules, {'sentence_transformers': SimpleNamespace(SentenceTransformer=model)}):
             with self.assertRaisesRegex(RuntimeError, 'prepare-encoder'):
                 engine.load_vectors()
             self.assertTrue(model.call_args.kwargs['local_files_only'])
